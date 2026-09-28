@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@capacitor/android": "^8.5.2",
-    "@capacitor/cli": "^7.6.9",
+    "@capacitor/cli": "^8.5.2",
     "@capacitor/core": "^8.5.2",
     "clsx": "^2.1.1",
     "lucide-react": "^0.380.0",
