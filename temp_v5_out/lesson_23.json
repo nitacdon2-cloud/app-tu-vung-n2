@@ -1,0 +1,422 @@
+{
+  "lesson_id": "lesson_23",
+  "lesson_name": "N2 Chương 5 - Tính từ -na 5.2",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "新たな",
+      "reading": "あらたな",
+      "han_viet": "TÂN",
+      "word_type": "Tính từ -na",
+      "meaning": "Mới, được làm mới",
+      "examples": [
+        {
+          "ja": "新たに3人の社員を採用した。",
+          "reading": "あらたに3にんのしゃいんをさいようした。",
+          "vi": "Đã tuyển thêm 3 nhân viên mới."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "慎重な",
+      "reading": "しんちょうな",
+      "han_viet": "THẬN TRỌNG",
+      "word_type": "Tính từ -na",
+      "meaning": "Cẩn thận, cẩn trọng",
+      "examples": [
+        {
+          "ja": "慎重に進路について考える。",
+          "reading": "しんちょうにしんろについてかんがえる。",
+          "vi": "Suy nghĩ về hướng đi trong tương lai một cách cẩn trọng."
+        },
+        {
+          "ja": "割れやすい物を慎重に運搬する。",
+          "reading": "われやすいものをしんちょうにうんぱんする。",
+          "vi": "Vận chuyển thận trọng đồ dễ vỡ."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "穏やかな",
+      "reading": "おだやかな",
+      "han_viet": "",
+      "word_type": "Tính từ -na",
+      "meaning": "Điềm tĩnh, yên lặng",
+      "examples": [
+        {
+          "ja": "彼は穏やかな性格だ。",
+          "reading": "かれはおだやかなせいかくだ。",
+          "vi": "Anh ấy tính cách ôn hòa."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "誠実な",
+      "reading": "せいじつな",
+      "han_viet": "THÀNH",
+      "word_type": "Tính từ -na",
+      "meaning": "Thật thà",
+      "examples": [
+        {
+          "ja": "彼の誠実な人柄にひかれた。",
+          "reading": "かのせいじつなひとがらにひかれた。",
+          "vi": "Tôi bị tình cách thật thà của anh ấy thu hút."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "謙虚な",
+      "reading": "けんきょな",
+      "han_viet": "KHIÊM HƯ",
+      "word_type": "Tính từ -na",
+      "meaning": "Khiêm tốn",
+      "examples": [
+        {
+          "ja": "常に謙虚な姿勢を心がける。",
+          "reading": "つねにけんきょなしせいをこころがける。",
+          "vi": "Cố gắng luôn giữ thái độ khiêm tốn."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "素直な",
+      "reading": "すなおな",
+      "han_viet": "TỐ",
+      "word_type": "Tính từ -na",
+      "meaning": "Chân thành, ngoan",
+      "examples": [
+        {
+          "ja": "私は素直な人がタイプだ。",
+          "reading": "わたしはすなおなにんがたいぷだ。",
+          "vi": "Gu của tôi là kiểu người chân thành."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "率直な",
+      "reading": "そっちょくな",
+      "han_viet": "",
+      "word_type": "Tính từ -na",
+      "meaning": "Trực tính, thẳng thắn",
+      "examples": [
+        {
+          "ja": "率直な意見を言う。",
+          "reading": "そっちょくないけんをいう。",
+          "vi": "Nói ra ý kiến một cách thẳng thắn."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "真剣な",
+      "reading": "しんけんな",
+      "han_viet": "CHÂN",
+      "word_type": "Tính từ -na",
+      "meaning": "Nghiêm túc, nghiêm trang",
+      "examples": [
+        {
+          "ja": "真剣に仕事に取り組む。",
+          "reading": "しんけんにしごとにとりくむ。",
+          "vi": "Nghiêm túc chuyên tâm vào công việc."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "正式な",
+      "reading": "せいしきな",
+      "han_viet": "CHÍNH THỨC",
+      "word_type": "Tính từ -na",
+      "meaning": "Chính thức, trang trọng",
+      "examples": [
+        {
+          "ja": "日本へ行くことが正式に決定した。",
+          "reading": "にっぽんへいくことがせいしきにけっていした。",
+          "vi": "Việc đi Nhật đã chính thức được quyết định."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "透明な",
+      "reading": "とうめいな",
+      "han_viet": "THẤU MINH",
+      "word_type": "Tính từ -na",
+      "meaning": "Trong suốt, trong trẻo",
+      "examples": [
+        {
+          "ja": "この川は透明で、きれいだ。",
+          "reading": "このかわはとうめいで、きれいだ。",
+          "vi": "Con sông này trong vắt, thật là đẹp!"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "さわやかな",
+      "reading": "さわやかな",
+      "han_viet": "",
+      "word_type": "Tính từ -na",
+      "meaning": "Sảng khoái",
+      "examples": [
+        {
+          "ja": "さわやかな朝を迎える。",
+          "reading": "さわやかなあさをむかえる。",
+          "vi": "Đón một buổi sáng đầy sảng khoái."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "単純",
+      "reading": "たんじゅんな",
+      "han_viet": "THUẦN",
+      "word_type": "Tính từ -na",
+      "meaning": "Đơn giản, đơn thuần",
+      "examples": [
+        {
+          "ja": "単純なミスを繰り返す。",
+          "reading": "たんじゅんなみすをくりかえす。",
+          "vi": "Lặp đi lặp lại lỗi đơn giản."
+        },
+        {
+          "ja": "彼は単純な性格で騙されやすい。",
+          "reading": "かれはたんじゅんなせいかくでだまされやすい。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "純粋な",
+      "reading": "じゅんすいな",
+      "han_viet": "THUẦN",
+      "word_type": "Tính từ -na",
+      "meaning": "Tinh khiết, Trong sáng",
+      "examples": [
+        {
+          "ja": "彼女は純粋な性格だ。",
+          "reading": "かのじょはじゅんすいなせいかくだ。",
+          "vi": "Cô ấy tính cách trong sáng. 90"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "貴重な",
+      "reading": "きちょうな",
+      "han_viet": "QUÝ TRỌNG",
+      "word_type": "Tính từ -na",
+      "meaning": "Quý giá",
+      "examples": [
+        {
+          "ja": "社長から貴重なご意見をいただいた。",
+          "reading": "しゃちょうからきちょうなごいけんをいただいた。",
+          "vi": "Nhận được ý kiến quý giá từ giám đốc."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "偉大な",
+      "reading": "いだいな",
+      "han_viet": "VĨ ĐẠI",
+      "word_type": "Tính từ -na",
+      "meaning": "Vĩ đại",
+      "examples": [
+        {
+          "ja": "彼の偉大な生涯が映画化された。",
+          "reading": "かのいだいなしょうがいがえいがかされた。",
+          "vi": "Cuộc đời vĩ đại của ông ấy đã được chuyển thể thành phim."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "独特な",
+      "reading": "どくとくな",
+      "han_viet": "ĐẶC",
+      "word_type": "Tính từ -na",
+      "meaning": "Độc nhất, đặc biệt",
+      "examples": [
+        {
+          "ja": "この食べ物は独特な臭いがする。",
+          "reading": "このたべものはどくとくなくさいがする。",
+          "vi": "Món ăn này có mùi vị đặc biệt."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "特殊な",
+      "reading": "とくしゅな",
+      "han_viet": "ĐẶC THÙA",
+      "word_type": "Tính từ -na",
+      "meaning": "Đặc trưng, riêng biệt",
+      "examples": [
+        {
+          "ja": "この車を運転するには特殊な免許がいる。",
+          "reading": "このくるまをうんてんするにはとくしゅなめんきょがいる。",
+          "vi": "Để lái loại xe này cần có loại bằng đặc biệt."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "快適な",
+      "reading": "かいてきな",
+      "han_viet": "KHOÁI THÍCH",
+      "word_type": "Tính từ -na",
+      "meaning": "Dễ chịu, sảng khoái, thoải mái",
+      "examples": [
+        {
+          "ja": "店の中は涼しくて快適だ。",
+          "reading": "みせのなかはすずしくてかいてきだ。",
+          "vi": "Trong cửa hàng mát mẻ và thoải mái."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "順調な",
+      "reading": "じゅんちょうな",
+      "han_viet": "THUẬN ĐIỀU",
+      "word_type": "Tính từ -na",
+      "meaning": "Thuận lợi",
+      "examples": [
+        {
+          "ja": "順調に仕事が進む。",
+          "reading": "じゅんちょうにしごとがすすむ。",
+          "vi": "Công việc tiến triển thuận lợi."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "word": "主な",
+      "reading": "おもな",
+      "han_viet": "CHÚA",
+      "word_type": "Tính từ -na",
+      "meaning": "Chính, chủ yếu",
+      "examples": [
+        {
+          "ja": "会社では主に動画編集を担当している。",
+          "reading": "かいしゃではおもにどうがへんしゅうをたんとうしている。",
+          "vi": "Ở công ty, tôi chủ yếu đảm nhiệm việc chỉnh sửa video."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "word": "主要な",
+      "reading": "しゅような",
+      "han_viet": "CHÚA YẾU",
+      "word_type": "Tính từ -na",
+      "meaning": "Chủ chốt, quan trọng",
+      "examples": [
+        {
+          "ja": "チームの主要なメンバーが集まった。",
+          "reading": "ちーむのしゅようなめんばーがあつまった。",
+          "vi": "Tập hợp thành viên nòng cốt của đội."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "word": "明らかな",
+      "reading": "あきらかな",
+      "han_viet": "MINH",
+      "word_type": "Tính từ -na",
+      "meaning": "Rõ ràng, hiển nhiên",
+      "examples": [
+        {
+          "ja": "事故の原因が明らかになった。",
+          "reading": "じこのげんいんがあきらかになった。",
+          "vi": "Nguyên nhân vụ tai nạn đã được làm sáng tỏ."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "word": "あいまいな",
+      "reading": "あいまいな",
+      "han_viet": "",
+      "word_type": "Tính từ -na",
+      "meaning": "Mơ hồ, không rõ ràng",
+      "examples": [
+        {
+          "ja": "人の記憶は意外とあいまいだ。",
+          "reading": "にんのきおくはいがいとあいまいだ。",
+          "vi": "Kí ức của con người không ngờ lại vô cùng mơ hồ."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "word": "的確な",
+      "reading": "てきかくな",
+      "han_viet": "ĐÍCH XÁC",
+      "word_type": "Tính từ -na",
+      "meaning": "Chính xác, xác đáng",
+      "examples": [
+        {
+          "ja": "的確な判断を下す。",
+          "reading": "てきかくなはんだんをくだす。",
+          "vi": "Đưa ra phán đoán chính xác."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "word": "確実な",
+      "reading": "かくじつな",
+      "han_viet": "XÁC",
+      "word_type": "Tính từ -na",
+      "meaning": "Chắc chắn, đáng tin cậy",
+      "examples": [
+        {
+          "ja": "確実な情報だけを信じる。",
+          "reading": "かくじつなじょうほうだけをしんじる。",
+          "vi": "Tôi chỉ tin vào tin tức đáng tin cậy."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "word": "抽象的な",
+      "reading": "ちゅうしょうてきな",
+      "han_viet": "TRỪU TƯỢNG ĐÍCH",
+      "word_type": "Tính từ -na",
+      "meaning": "Trừu tượng",
+      "examples": [
+        {
+          "ja": "話が抽象的でよく分からない。",
+          "reading": "はなしがちゅうしょうてきでよくわからない。",
+          "vi": "Câu chuyện khá trừu tượng nên tôi không hiểu lắm."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "word": "公平な",
+      "reading": "こうへいな",
+      "han_viet": "CÔNG BÌNH",
+      "word_type": "Tính từ -na",
+      "meaning": "Công bằng",
+      "examples": [
+        {
+          "ja": "社員に公平な評価を下す。",
+          "reading": "しゃいんにこうへいなひょうかをくだす。",
+          "vi": "Đưa ra đánh giá công bằng với nhân viên. 91"
+        }
+      ]
+    }
+  ]
+}

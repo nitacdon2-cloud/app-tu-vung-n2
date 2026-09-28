@@ -1,0 +1,131 @@
+{
+  "lesson_id": "lesson_42",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.2",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "再〜",
+      "reading": "さい〜",
+      "han_viet": "TÁI",
+      "word_type": "Từ vựng",
+      "meaning": "TỪ VỰNG ; Khởi đầu lại 1 việc gì đó ; Tái sản xuất",
+      "examples": [
+        {
+          "ja": "新しい土地で再出発する。",
+          "reading": "あたらしいとちでさいしゅっぱつする。",
+          "vi": "gì đó Tôi khởi đầu lại trên vùng đất mới."
+        },
+        {
+          "ja": "同じ規模で再生産する",
+          "reading": "おなじきぼでさいせいさんする",
+          "vi": "Tái sản xuất theo quy mô giống như cũ."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "もう一度〜する",
+      "reading": "もういちど〜する",
+      "han_viet": "NHẤT ĐỘ",
+      "word_type": "Từ vựng",
+      "meaning": "Nhận thức lại điều gì đó ; Phát triển lại một dự án nào ; đó (quy hoạch lại, xây",
+      "examples": [
+        {
+          "ja": "自分が犯してしまったことの重大性を再認識する。",
+          "reading": "じぶんがおかしてしまったことのじゅうだいせいをさいにんしきする。",
+          "vi": "gì đó Nhận ra sự nghiêm trọng của những việc tự bản thân gây ra."
+        },
+        {
+          "ja": "ここの土地を再開発する。",
+          "reading": "ここのとちをさいかいはつする。",
+          "vi": "dự án nào xây Phát triển lại vùng đất ở đây."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "超〜",
+      "reading": "ちょう〜",
+      "han_viet": "SIÊU",
+      "word_type": "Từ vựng",
+      "meaning": "dựng lại) ; Quá đông người ; (chật cứng người)",
+      "examples": [
+        {
+          "ja": "超満員で入場するだけで２時間もかかった。",
+          "reading": "ちょうまんいんでにゅうじょうするだけで２じかんもかかった。",
+          "vi": "Chỉ việc vào cửa nhưng vì quá đông người nên mất khoảng 2 tiếng."
+        },
+        {
+          "ja": "超小型のスマートフォン",
+          "reading": "ちょうこがたのすまーとふぉん",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "非常に",
+      "reading": "ひじょうに",
+      "han_viet": "PHI THƯỜNG",
+      "word_type": "Từ vựng",
+      "meaning": "Cỡ quá nhỏ",
+      "examples": []
+    },
+    {
+      "id": 5,
+      "word": "（程度が激しい）",
+      "reading": "（ていどがはげしい）",
+      "han_viet": "TRÌNH ĐỘ KHÍCH KÍCH",
+      "word_type": "Từ vựng",
+      "meaning": "Quá nhanh ; (cực nhanh, siêu tốc)",
+      "examples": [
+        {
+          "ja": "超特急で仕事を終わらせて家に帰る。",
+          "reading": "ちょうとっきゅうでしごとをおわらせていえにかえる。",
+          "vi": "Tôi cố gắng kết thúc công việc siêu nhanh và trở về nhà tốc)"
+        },
+        {
+          "ja": "結婚式があるから超忙しい。",
+          "reading": "けっこんしきがあるからちょういそがしい。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "高〜高い〜",
+      "reading": "たか〜たかい〜",
+      "han_viet": "CAO CAO",
+      "word_type": "Từ vựng",
+      "meaning": "Quá Bận (siêu bận rộn) ; Hàm lượng Calo cao",
+      "examples": [
+        {
+          "ja": "高カロリー食品",
+          "reading": "たかかろりーしょくひん",
+          "vi": "cao Thực phẩm có hàm lượng kalo cao"
+        },
+        {
+          "ja": "高気圧の影響で、晴天が続いている。",
+          "reading": "こうきあつのえいきょうで、せいてんがつづいている。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "＜ー＞低い",
+      "reading": "＜ー＞ひくい",
+      "han_viet": "ĐÂY",
+      "word_type": "Từ vựng",
+      "meaning": "Khí áp cao ; Thu nhập cao",
+      "examples": [
+        {
+          "ja": "高収入のアルバイト、高収入の仕事",
+          "reading": "こうしゅうにゅうのあるばいと、こうしゅうにゅうのしごと",
+          "vi": "Công việc làm thêm có thu nhập cao, công việc có thu nhập cao"
+        }
+      ]
+    }
+  ]
+}

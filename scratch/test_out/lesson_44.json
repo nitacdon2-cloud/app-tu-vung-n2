@@ -1,0 +1,101 @@
+{
+  "lesson_id": "lesson_44",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.4",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "名〜",
+      "reading": "めい〜",
+      "han_viet": "DANH",
+      "word_type": "Từ vựng",
+      "meaning": "TỪ VỰNG ; Phân đoạn nổi tiếng, ; Buổi biểu diễn",
+      "examples": []
+    },
+    {
+      "id": 2,
+      "word": "有名な〜",
+      "reading": "ゆうめいな〜",
+      "han_viet": "HỮU DANH",
+      "word_type": "Từ vựng",
+      "meaning": "vời) ; Nữ diễn viên nổi tiếng ; / Xuất sắc",
+      "examples": [
+        {
+          "ja": "彼女は名女優として活躍している。",
+          "reading": "かのじょはめいじょゆうとしてかつやくしている。",
+          "vi": "tiếng Cô ấy hoạt động như một diễn viên nổi tiếng."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "全〜",
+      "reading": "ぜん〜",
+      "han_viet": "TOÀN",
+      "word_type": "Từ vựng",
+      "meaning": "Toàn thế giới ; Toàn thể học sinh",
+      "examples": [
+        {
+          "ja": "全世界の子供たちはいつも元気でありますように。",
+          "reading": "ぜんせかいのこどもたちはいつもげんきでありますように。",
+          "vi": "Cầu mong trẻ em trên toàn thế giới được khỏe mạnh."
+        },
+        {
+          "ja": "全学生対象",
+          "reading": "ぜんがくせいたいしょう",
+          "vi": "Đối tượng là toàn bộ học sinh"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "〜全体、全ての",
+      "reading": "〜ぜんたい、すべての",
+      "han_viet": "TOÀN THỂ TOÀN",
+      "word_type": "Từ vựng",
+      "meaning": "Toàn nước Nhật",
+      "examples": [
+        {
+          "ja": "全日本U-15サッカー選手権大会",
+          "reading": "ぜんにほんU-15さっかーせんしゅけんたいかい",
+          "vi": "Giải vô địch bóng đá U15 toàn quốc Nhật Bản"
+        },
+        {
+          "ja": "全責任を負う",
+          "reading": "ぜんせきにんをおう",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "総〜",
+      "reading": "そう〜",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "Toàn bộ trách nhiệm ; Tổng số người",
+      "examples": [
+        {
+          "ja": "来場者の総人数",
+          "reading": "らいじょうしゃのそうにんずう",
+          "vi": "Tổng số khách tới hội trường"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "全部合わせた〜",
+      "reading": "ぜんぶあわせた〜",
+      "han_viet": "TOÀN BỘ HỢP",
+      "word_type": "Từ vựng",
+      "meaning": "Tổng thu nhập",
+      "examples": [
+        {
+          "ja": "年間の総収入",
+          "reading": "ねんかんのそうしゅうにゅう",
+          "vi": "Tổng thu nhập một năm"
+        }
+      ]
+    }
+  ]
+}

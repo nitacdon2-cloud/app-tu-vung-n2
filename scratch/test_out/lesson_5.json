@@ -1,0 +1,547 @@
+{
+  "lesson_id": "lesson_05",
+  "lesson_name": "N2 Chương 1 - Động từ 1.6",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "崩れる",
+      "reading": "くずれる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Sụp đổ",
+      "examples": [
+        {
+          "ja": "急に天気が崩れてきた。",
+          "reading": "きゅうにてんきがくずれてきた。",
+          "vi": "Thời tiết đột nhiên chuyển xấu."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "崩す",
+      "reading": "くずす",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Đổi (tiền), sụp, vỡ, phá hủy (sức khỏe, sự cân bằng)",
+      "examples": [
+        {
+          "ja": "彼は体調を崩して休んでいます。",
+          "reading": "かれはたいちょうをくずしてやすんでいます。",
+          "vi": "Anh ta không khỏe và đang nghỉ ngơi."
+        },
+        {
+          "ja": "人間は多くの山を崩している。",
+          "reading": "にんげんはおおくのやまをくずしている。",
+          "vi": "Con người đang phá hoại rất nhiều núi."
+        },
+        {
+          "ja": "千円札を百円玉に崩す。",
+          "reading": "せんえんさつをひゃくえんたまにくずす。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "荒れる",
+      "reading": "あれる",
+      "han_viet": "HOANG",
+      "word_type": "Động từ",
+      "meaning": "Bão táp, sóng gió; thời tiết xấu ; - Hoang tàn, bị tàn phá",
+      "examples": [
+        {
+          "ja": "天候が荒れてきた。",
+          "reading": "てんこうがあれてきた。",
+          "vi": "Thời tiết bắt đầu xấu đi."
+        },
+        {
+          "ja": "だれも住んでいない家が荒れている。",
+          "reading": "だれもすんでいないいえがあれている。",
+          "vi": "Ngôi nhà không có ai sống bị tàn phá."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "荒らす",
+      "reading": "あらす",
+      "han_viet": "HOANG",
+      "word_type": "Động từ",
+      "meaning": "Tàn phá",
+      "examples": [
+        {
+          "ja": "野生動物が畑を荒らす。",
+          "reading": "やせいどうぶつがはたけをあらす。",
+          "vi": "Động vật hoang dã tàn phá ruộng."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "漏れる",
+      "reading": "もれる",
+      "han_viet": "LẬU",
+      "word_type": "Động từ",
+      "meaning": "Rò rỉ",
+      "examples": [
+        {
+          "ja": "木と木の間から光が漏れている。",
+          "reading": "きときのかんからひかりがもれている。",
+          "vi": "Ánh sáng ló ra từ giữa các cây."
+        },
+        {
+          "ja": "子供がおしっこを漏らした。",
+          "reading": "こどもがおしっこをもらした。",
+          "vi": "Đứa trẻ tè dầm."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "漏らす",
+      "reading": "もらす",
+      "han_viet": "LẬU",
+      "word_type": "Động từ",
+      "meaning": "Tràn ; - Bỏ lỡ ; - Làm lộ",
+      "examples": [
+        {
+          "ja": "誰かが情報を漏らしたようだ。",
+          "reading": "だれかがじょうほうをもらしたようだ。",
+          "vi": "Có vẻ đã có ai đó làm lộ thông tin."
+        },
+        {
+          "ja": "細かい点を聞き漏らした。",
+          "reading": "こまかいてんをききもらした。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "照る",
+      "reading": "てる",
+      "han_viet": "CHIẾU",
+      "word_type": "Động từ",
+      "meaning": "Chiếu sáng",
+      "examples": [
+        {
+          "ja": "外は日が照って暑そうだ。",
+          "reading": "そとはにちがしょうってあつそうだ。",
+          "vi": "Bên ngoài thì nắng chiếu và có vẻ rất nóng."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "照らす",
+      "reading": "てらす",
+      "han_viet": "CHIẾU",
+      "word_type": "Động từ",
+      "meaning": "Chiếu sáng vào",
+      "examples": [
+        {
+          "ja": "ライトで顔を照らしてから写真を撮る。",
+          "reading": "らいとでかおをてらしてからしゃしんをとる。",
+          "vi": "Chiếu sáng vào mặt sau đó chụp ảnh"
+        },
+        {
+          "ja": "白いシャツがピンク色に染まった。",
+          "reading": "しろいしゃつがぴんくいろにそまった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "染まる",
+      "reading": "そまる",
+      "han_viet": "NHUỘM",
+      "word_type": "Động từ",
+      "meaning": "Được nhuộm, ảnh hưởng bởi",
+      "examples": [
+        {
+          "ja": "悪に染まらないように気を付ける。",
+          "reading": "あくにそまらないようにきをつける。",
+          "vi": "Cẩn thận để không bị ảnh hưởng bởi những điều"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "染める",
+      "reading": "そめる",
+      "han_viet": "NHUỘM",
+      "word_type": "Động từ",
+      "meaning": "Nhuộm, đỏ mặt",
+      "examples": [
+        {
+          "ja": "布を青色に染める。",
+          "reading": "ぬのをあおいろにそめる。",
+          "vi": "Nhuộm xanh tấm vải."
+        },
+        {
+          "ja": "頬を染めて照れている。",
+          "reading": "ほおをそめててれている。",
+          "vi": "Ngại đỏ má."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "潜る",
+      "reading": "もぐる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "vào, rúc xuống ; - Giấu mình, trốn",
+      "examples": [
+        {
+          "ja": "今朝は寒くて、布団にもぐっていた。",
+          "reading": "けさはさむくて、ふとんにもぐっていた。",
+          "vi": "Sáng nay lạnh quá nên chui vào trong chăn."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "跳ねる",
+      "reading": "はねる",
+      "han_viet": "KHÊU",
+      "word_type": "Động từ",
+      "meaning": "Bắn, nhảy",
+      "examples": [
+        {
+          "ja": "油が跳ねるので、揚げ物をするときは気を付けてください。",
+          "reading": "あぶらがはねるので、あげものをするときはきをつけてください。",
+          "vi": "Vì dầu sẽ bắn nên khi rán cá cần chú ý."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "背負う",
+      "reading": "せおう",
+      "han_viet": "BỐI PHỤ",
+      "word_type": "Động từ",
+      "meaning": "Mang vác, chịu",
+      "examples": [
+        {
+          "ja": "大山くんは、毎日重いリュックを背負っている。",
+          "reading": "おおやまくんは、まいにちおもいりゅっくをせおっている。",
+          "vi": "Oyama ngày nào cũng khoác một cái balo nặng."
+        },
+        {
+          "ja": "彼は大変な問題を背負っているようだ。",
+          "reading": "かれはたいへんなもんだいをせおっているようだ。",
+          "vi": "Có vẻ anh ta đang gặp một vấn đề khá khó nhằn."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "追う",
+      "reading": "おう",
+      "han_viet": "TRUY",
+      "word_type": "Động từ",
+      "meaning": "Đuổi, theo đuổi",
+      "examples": [
+        {
+          "ja": "万引き犯を追う。",
+          "reading": "まんびきはんをおう。",
+          "vi": "Đuổi theo tên ăn cắp."
+        },
+        {
+          "ja": "総理大臣の座を追われる。",
+          "reading": "そうりだいじんのざをおわれる。",
+          "vi": "Bị đuổi khỏi chức Thủ tướng."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "振り向く",
+      "reading": "ふりむく",
+      "han_viet": "CHẤN HƯỚNG",
+      "word_type": "Động từ",
+      "meaning": "Tha động từ: nhìn lại, quay lại ; - Tự động từ: chú ý, để ý",
+      "examples": [
+        {
+          "ja": "友達に呼ばれて、振り向いた。",
+          "reading": "ともだちによばれて、ふりむいた。",
+          "vi": "Bị bạn gọi nên quay lại."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "捕る・採る・執る・",
+      "reading": "とる",
+      "han_viet": "BÕ THÁI CHẤP",
+      "word_type": "Động từ",
+      "meaning": "Bắt; hái ; - Tuyển dụng; ; - Xử lí, thi hành",
+      "examples": [
+        {
+          "ja": "優秀な社員を採りたい。",
+          "reading": "ゆうしゅうなしゃいんをとりたい。",
+          "vi": "Tôi muốn tuyển dụng nhân viên giỏi."
+        },
+        {
+          "ja": "今年はイチゴがたくさん採れた。",
+          "reading": "こんねんはいちごがたくさんとれた。",
+          "vi": "Năm nay hái được rất nhiều dâu."
+        },
+        {
+          "ja": "リーダーが作戦の指揮を執る。",
+          "reading": "りーだーがさくせんのしきをとる。",
+          "vi": "Trưởng nhóm nắm nhiệm vụ chỉ huy kế hoạch."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "削る",
+      "reading": "けずる",
+      "han_viet": "TƯỚC",
+      "word_type": "Động từ",
+      "meaning": "Gọt, cắt nhọn ; - Cắt giảm, bỏ đi",
+      "examples": [
+        {
+          "ja": "鉛筆を削る。",
+          "reading": "えんぴつをけずる。",
+          "vi": "Gọt bút chì"
+        },
+        {
+          "ja": "時間を削ってまで来ていただいてありがとうございます。",
+          "reading": "じかんをけずってまできていただいてありがとうございます。",
+          "vi": "Cám ơn anh vì đã bỏ cả thời gian để đến đây."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "縛る",
+      "reading": "しばる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Trói buộc, cột",
+      "examples": [
+        {
+          "ja": "古新聞をまとめてひもで縛る。",
+          "reading": "ふるしんぶんをまとめてひもでしばる。",
+          "vi": "Gom báo cũ và buộc bằng dây."
+        },
+        {
+          "ja": "時間に縛られた生活はもう嫌だ。",
+          "reading": "じかんにしばられたせいかつはもういやだ。",
+          "vi": "Tôi đã chán cuộc sống trói buộc về thời gian."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "絞る・搾る・",
+      "reading": "しぼる",
+      "han_viet": "GIẢO",
+      "word_type": "Động từ",
+      "meaning": "Vắt, bóp",
+      "examples": [
+        {
+          "ja": "雑巾を絞ってゆかをふく。",
+          "reading": "ぞうきんをしぼってゆかをふく。",
+          "vi": "Vắt giẻ lau lau sàn."
+        },
+        {
+          "ja": "知恵を絞って、対策を考える。",
+          "reading": "ちえをしぼって、たいさくをかんがえる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "word": "区切る",
+      "reading": "くぎる",
+      "han_viet": "THIẾT",
+      "word_type": "Động từ",
+      "meaning": "Chia, ngắt",
+      "examples": [
+        {
+          "ja": "言葉を区切って話すとわかりやすい。",
+          "reading": "ことばをくぎってはなすとわかりやすい。",
+          "vi": "Nói ngắt nghỉ thì sẽ dễ hiểu"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "word": "にらむ",
+      "reading": "にらむ",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Lườm",
+      "examples": [
+        {
+          "ja": "あやしい男ににらまれた。",
+          "reading": "あやしいおとこににらまれた。",
+          "vi": "Bị một tên rất đáng ngờ lườm."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "word": "責める",
+      "reading": "せめる",
+      "han_viet": "TRÁCH",
+      "word_type": "Động từ",
+      "meaning": "Đổ lỗi, trách móc",
+      "examples": [
+        {
+          "ja": "今回の失敗は彼のせいじゃないから、彼を責めないで下さい。",
+          "reading": "こんかいのしっぱいはかのせいじゃないから、かれをせめないでください。",
+          "vi": "Thất bại lần này không phải do lỗi anh ấy nên đừng có trách anh ấy."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "word": "裏切る",
+      "reading": "うらぎる",
+      "han_viet": "THIẾT",
+      "word_type": "Động từ",
+      "meaning": "Phản bội, phụ",
+      "examples": [
+        {
+          "ja": "友達を裏切ってはいけない。",
+          "reading": "ともだちをうらぎってはいけない。",
+          "vi": "Không được phản bội bạn bè."
+        },
+        {
+          "ja": "期待を裏切られた。",
+          "reading": "きたいをうらぎられた。",
+          "vi": "Bị phụ sự kì vọng."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "word": "頼る",
+      "reading": "たよる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Dựa dẫm, dựa vào",
+      "examples": [
+        {
+          "ja": "20歳までは親に頼って生活する。",
+          "reading": "20としまではおやにたよってせいかつする。",
+          "vi": "Sống phụ thuộc vào bố mẹ cho đến 20 tuổi."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "word": "遭う",
+      "reading": "あう",
+      "han_viet": "TAO",
+      "word_type": "Động từ",
+      "meaning": "Gặp (điều xấu)",
+      "examples": [
+        {
+          "ja": "事故にあわないように気を付けて。",
+          "reading": "じこにあわないようにきをつけて。",
+          "vi": "Hãy chú ý để đừng gặp tai nạn."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "word": "憧れる",
+      "reading": "あこがれる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Mong ước, ngưỡng mộ",
+      "examples": [
+        {
+          "ja": "この経営者にあこがれている。",
+          "reading": "このけいえいしゃにあこがれている。",
+          "vi": "Ngưỡng mộ giám đốc này."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "word": "うらやむ",
+      "reading": "うらやむ",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Đố kỵ, ghen tị",
+      "examples": [
+        {
+          "ja": "隣の家族をうらやんでいる。",
+          "reading": "となりのかぞくをうらやんでいる。",
+          "vi": "Ghen tị với gia đình bên cạnh."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "word": "あきらめる",
+      "reading": "あきらめる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Từ bỏ",
+      "examples": [
+        {
+          "ja": "最後まであきらめないで。",
+          "reading": "さいごまであきらめないで。",
+          "vi": "Đừng từ bỏ giữa chừng."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "word": "あきれる",
+      "reading": "あきれる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Bị shock, không còn gì để nói, tay",
+      "examples": [
+        {
+          "ja": "文句ばかり言う妻にあきれた。",
+          "reading": "もんくばかりいうつまにあきれた。",
+          "vi": "bó Bó tay trước người vợ toàn chỉ biết than thở."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "word": "恐れる",
+      "reading": "おそれる",
+      "han_viet": "KHỦNG",
+      "word_type": "Động từ",
+      "meaning": "Sợ",
+      "examples": [
+        {
+          "ja": "友達は妻を恐れているみたいだ。",
+          "reading": "ともだちはつまをおそれているみたいだ。",
+          "vi": "Có vẻ đứa bạn sợ vợ."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "word": "恨む",
+      "reading": "うらむ",
+      "han_viet": "HẬN",
+      "word_type": "Động từ",
+      "meaning": "Hận, căm thù",
+      "examples": [
+        {
+          "ja": "他の人を恨んでいると幸せになれない。",
+          "reading": "ほかのにんをうらんでいるとしあわせになれない。",
+          "vi": "Nếu cứ căm hận người khác thì không thể trở nên hạnh phúc."
+        }
+      ]
+    }
+  ]
+}

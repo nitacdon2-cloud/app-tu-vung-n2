@@ -1,0 +1,76 @@
+{
+  "lesson_id": "lesson_45",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.5",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "現",
+      "reading": "げん",
+      "han_viet": "HIỆN",
+      "word_type": "Từ vựng",
+      "meaning": "Giám ; Bộ trưởng",
+      "examples": []
+    },
+    {
+      "id": 2,
+      "word": "前〜",
+      "reading": "まえ〜",
+      "han_viet": "TIỀN",
+      "word_type": "Từ vựng",
+      "meaning": "Giám",
+      "examples": []
+    },
+    {
+      "id": 3,
+      "word": "すぐ前の〜",
+      "reading": "すぐまえの〜",
+      "han_viet": "TIỀN",
+      "word_type": "Từ vựng",
+      "meaning": "Bộ trưởng ; Cựu giám",
+      "examples": []
+    },
+    {
+      "id": 4,
+      "word": "元〜",
+      "reading": "もと〜",
+      "han_viet": "NGUYÊN",
+      "word_type": "Từ vựng",
+      "meaning": "Nguyên giám đốc ; công.",
+      "examples": []
+    },
+    {
+      "id": 5,
+      "word": "もとの〜",
+      "reading": "もとの〜",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "Cựu",
+      "examples": []
+    },
+    {
+      "id": 6,
+      "word": "故〜",
+      "reading": "ゆえ〜",
+      "han_viet": "CỐ",
+      "word_type": "Từ vựng",
+      "meaning": "Những hành động ; khai. ; Cố giám",
+      "examples": []
+    },
+    {
+      "id": 7,
+      "word": "亡くなった〜",
+      "reading": "なくなった〜",
+      "han_viet": "VONG",
+      "word_type": "Từ vựng",
+      "meaning": "Cố bộ",
+      "examples": [
+        {
+          "ja": "の遺体Di thể của chủ tịch Hồ Chí Minh",
+          "reading": "のいたいDi thể của chủ tịch Hồ Chí Minh",
+          "vi": "Cố bộ trưởng Tanaka"
+        }
+      ]
+    }
+  ]
+}

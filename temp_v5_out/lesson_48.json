@@ -1,0 +1,217 @@
+{
+  "lesson_id": "lesson_48",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.9",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "代表的",
+      "reading": "だいひょうてき",
+      "han_viet": "ĐẠI BIỂU ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": [
+        {
+          "ja": "代表的な映画",
+          "reading": "だいひょうてきなえいが",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "日常的",
+      "reading": "にちじょうてき",
+      "han_viet": "NHẬT THƯỜNG ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": [
+        {
+          "ja": "日常的な出来事",
+          "reading": "にちじょうてきなできごと",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "進歩的",
+      "reading": "しんぽてき",
+      "han_viet": "TIẾN ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": [
+        {
+          "ja": "進歩的な考えて",
+          "reading": "しんぽてきなかんがえて",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "科学的",
+      "reading": "かがくてき",
+      "han_viet": "KHOA HỌC ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": [
+        {
+          "ja": "科学的な方法",
+          "reading": "かがくてきなほうほう",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "政治的",
+      "reading": "せいじてき",
+      "han_viet": "CHÍNH TRỊ ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": [
+        {
+          "ja": "政治的な発言",
+          "reading": "せいじてきなはつげん",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "サラリーマン風",
+      "reading": "さらりーまんかぜ",
+      "han_viet": "PHONG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": [
+        {
+          "ja": "サラリーマン風の男",
+          "reading": "さらりーまんかぜのおとこ",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "関西風Kiểu",
+      "reading": "かんさいふうKiểu",
+      "han_viet": "TÂY PHONG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Nêm nếm gia vị theo kiểu Kansai ; Nêm nếm gia vị theo kiểu Kansai",
+      "examples": [
+        {
+          "ja": "関西風の味付け",
+          "reading": "かんさいふうのあじつけ",
+          "vi": "nếm gia vị theo kiểu Kansai"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "西洋風Kiểu",
+      "reading": "せいようふうKiểu",
+      "han_viet": "TÂY DƯƠNG PHONG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tòa nhà theo kiểu Tây Âu ; Tòa nhà theo kiểu Tây Âu",
+      "examples": [
+        {
+          "ja": "西洋風の建物",
+          "reading": "せいようふうのたてもの",
+          "vi": "nhà theo kiểu Tây Âu"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "こういう風に",
+      "reading": "こういうかぜに",
+      "han_viet": "PHONG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": [
+        {
+          "ja": "こういう風にやってください。",
+          "reading": "こういうかぜにやってください。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "という風に＝と思います。",
+      "reading": "というかぜににとおもいます。",
+      "han_viet": "PHONG TƯ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": [
+        {
+          "ja": "という風に思います。 ＝と思います。",
+          "reading": "というかぜにおもいます。  とおもいます。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "存在感Cảm",
+      "reading": "そんざいかんCảm",
+      "han_viet": "TỒN TẠI CẢM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Người mang đến cảm giác tồn tại ; Người mang đến cảm giác tồn tại",
+      "examples": [
+        {
+          "ja": "存在感がある人",
+          "reading": "そんざいかんがあるにん",
+          "vi": "mang đến cảm giác tồn tại"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "安定感Cảm",
+      "reading": "あんていかんCảm",
+      "han_viet": "AN ĐỊNH CẢM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Xe ô tô có cảm giác an toàn chắc chắn ; Xe ô tô có cảm giác an toàn chắc chắn",
+      "examples": [
+        {
+          "ja": "安定感がある車",
+          "reading": "あんていかんがあるくるま",
+          "vi": "ô tô có cảm giác an toàn chắc chắn"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "清潔感Cảm",
+      "reading": "せいけつかんCảm",
+      "han_viet": "THANH KHIẾT CẢM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "giác gọn gàng",
+      "examples": [
+        {
+          "ja": "清潔感がある男",
+          "reading": "せいけつかんがあるおとこ",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "開放感",
+      "reading": "かいほうかん",
+      "han_viet": "KHAI PHÓNG CẢM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": [
+        {
+          "ja": "開放感を味わう",
+          "reading": "かいほうかんをあじわう",
+          "vi": ""
+        }
+      ]
+    }
+  ]
+}

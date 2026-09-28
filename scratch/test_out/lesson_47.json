@@ -1,0 +1,115 @@
+{
+  "lesson_id": "lesson_47",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.7",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "自動化Tựđộng",
+      "reading": "じどうかTựựộng",
+      "han_viet": "TỰ ĐỘNG HOÁ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tự động hóa nhà máy ; Tự động hóa nhà máy ; Tự động hóa nhà máy",
+      "examples": [
+        {
+          "ja": "工場を自動化にした。",
+          "reading": "こうじょうをじどうかにした。",
+          "vi": "Tự động hóa nhà máy"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "高齢化Giàhóa",
+      "reading": "こうれいかGiàhóa",
+      "han_viet": "CAO HOÁ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Vấn đề già hóa",
+      "examples": [
+        {
+          "ja": "高齢化問題",
+          "reading": "こうれいかもんだい",
+          "vi": "Vấn đề già hóa"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "温暖化Nónglên",
+      "reading": "おんだんかNónglên",
+      "han_viet": "ỒN HOÁ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Nóng lên toàn cầu",
+      "examples": [
+        {
+          "ja": "地球温暖化",
+          "reading": "ちきゅうおんだんか",
+          "vi": "Nóng lên toàn cầu"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "一番目Thứnhất",
+      "reading": "いちばんめThứnhất",
+      "han_viet": "NHẤT PHAN PHEN PHIÊN PHIỆN MỤC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": []
+    },
+    {
+      "id": 5,
+      "word": "二番目Thứhai",
+      "reading": "にばんめThứhai",
+      "han_viet": "NHÌ PHAN PHEN PHIÊN PHIỆN MỤC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": []
+    },
+    {
+      "id": 6,
+      "word": "少な目Mộtít",
+      "reading": "すくなめMộtít",
+      "han_viet": "THIỂU MỤC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Hãy cho tôi ít cơm thôi",
+      "examples": [
+        {
+          "ja": "ごはん少な目にお願いします。",
+          "reading": "ごはんすくなめにおねがいします。",
+          "vi": "Hãy cho tôi ít cơm thôi"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "高めCaomột",
+      "reading": "たかめCaomột",
+      "han_viet": "CAO",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Mức giá đã được thiết lập cao một chút ; Mức giá đã được thiết lập cao một chút",
+      "examples": [
+        {
+          "ja": "高めに設定した価格",
+          "reading": "たかめにせっていしたかかく",
+          "vi": "Mức giá đã được thiết lập cao một chút"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "変わり目Thờiđiểm",
+      "reading": "かわりめThờiiiểm",
+      "han_viet": "MỤC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Thời điểm thay đổi của thời tiết ; Thời điểm thay đổi của thời tiết",
+      "examples": [
+        {
+          "ja": "季節の変わり目",
+          "reading": "きせつのかわりめ",
+          "vi": "Thời điểm thay đổi của thời tiết"
+        }
+      ]
+    }
+  ]
+}

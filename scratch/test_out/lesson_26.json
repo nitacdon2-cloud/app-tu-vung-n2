@@ -1,0 +1,777 @@
+{
+  "lesson_id": "lesson_26",
+  "lesson_name": "N2 Chương 7 - 複合動詞 7.1",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "聞き出す",
+      "reading": "ききだす",
+      "han_viet": "XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Chất vấn, hỏi",
+      "examples": [
+        {
+          "ja": "人から秘密を聞き出す。",
+          "reading": "にんからひみつをききだす。",
+          "vi": "Tra hỏi bí mật từ người nào đó ."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "連れ出す",
+      "reading": "つれだす",
+      "han_viet": "LIÊN XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Dẫn ra ngoài",
+      "examples": [
+        {
+          "ja": "犬をむりやり連れ出して病院に連れていく。",
+          "reading": "いぬをむりやりつれだしてびょういんにつれていく。",
+          "vi": "Cưỡng chế dẫn chó đi tới bệnh viện."
+        },
+        {
+          "ja": "友達を旅行に連れ出す。",
+          "reading": "ともだちをりょこうにつれだす。",
+          "vi": "Lôi bạn ra ngoài đi du lịch."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "投げ出す",
+      "reading": "なげだす",
+      "han_viet": "ĐẦU XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Ném đi, từ bỏ, ngồi gác chéo chân",
+      "examples": [
+        {
+          "ja": "足を投げ出して座ったら、母におこられた。",
+          "reading": "あしをなげだしてすわったら、ははにおこられた。",
+          "vi": "Tôi ngồi gác chéo chân và bị mẹ mắng."
+        },
+        {
+          "ja": "仕事を投げ出して、遊んだ。",
+          "reading": "しごとをなげだして、あそんだ。",
+          "vi": "Từ bỏ công việc và đi chơi."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "放り出す",
+      "reading": "ほうりだす",
+      "han_viet": "PHÓNG XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Buông bỏ, quẳng ra",
+      "examples": [
+        {
+          "ja": "玄関からごみを放り出す。",
+          "reading": "げんかんからごみをほうりだす。",
+          "vi": "Đứng từ lối vào nhà quẳng rác ra ngoài."
+        },
+        {
+          "ja": "バックを放り出して遊びに行く。",
+          "reading": "ばっくをほうりだしてあそびにいく。",
+          "vi": "Quẳng cái cặp ra và đi chơi."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "持ち出す",
+      "reading": "もちだす",
+      "han_viet": "TRÌ XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Mang ra ngoài, mang một vấn đề, chủ đề ra",
+      "examples": [
+        {
+          "ja": "持ち出してはいけません。",
+          "reading": "もちだしてはいけません。",
+          "vi": "Không được mang ra ngoài."
+        },
+        {
+          "ja": "結婚話を持ち出す。",
+          "reading": "けっこんばなしをもちだす。",
+          "vi": "nói Đưa vấn đề kết hôn ra để nói chuyện."
+        },
+        {
+          "ja": "兄の部屋からゲームを持ち出す。",
+          "reading": "あにのへやからげーむをもちだす。",
+          "vi": "Mang trò chơi từ phòng của anh trai ra."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "追い出す",
+      "reading": "おいだす",
+      "han_viet": "TRUY XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Đuổi cổ, đuổi",
+      "examples": [
+        {
+          "ja": "家に入ってきた動物を追い出す。",
+          "reading": "いえにいっってきたどうぶつをおいだす。",
+          "vi": "Đuổi con vật chạy vào nhà ra ngoài."
+        },
+        {
+          "ja": "働かない息子を追い出す。",
+          "reading": "はたらかないむすこをおいだす。",
+          "vi": "đi Đuổi thằng con không chịu đi làm ra ngoài."
+        },
+        {
+          "ja": "嫁に家を追い出された。",
+          "reading": "よめにいえをおいだされた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "引っ張り出す",
+      "reading": "ひっぱりだす",
+      "han_viet": "DẪN TRƯƠNG XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Lôi ra, bới móc ra",
+      "examples": [
+        {
+          "ja": "タンスから洋服を引っ張り出す。",
+          "reading": "たんすからようふくをひっぱりだす。",
+          "vi": "Lôi quần áo từ trong tủ ra."
+        },
+        {
+          "ja": "かばんの中身を引っ張り出す。",
+          "reading": "かばんのなかみをひっぱりだす。",
+          "vi": "Lôi những thứ từ trong cặp ra. 104"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "見つけ出す",
+      "reading": "みつけだす",
+      "han_viet": "KIẾN XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Tìm ra, tìm",
+      "examples": [
+        {
+          "ja": "引き出しから、指輪を見つけ出す。",
+          "reading": "ひきだしから、ゆびわをみつけだす。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "探し出す",
+      "reading": "さがしだす",
+      "han_viet": "THÁM XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Tìm thấy được",
+      "examples": [
+        {
+          "ja": "宝を探し出す旅に出る。",
+          "reading": "たからをさがしだすたびにでる。",
+          "vi": "Tham gia chuyến đi tìm kiếm kho báu."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "書き出す",
+      "reading": "かきだす",
+      "han_viet": "THƯ XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Viết ra",
+      "examples": [
+        {
+          "ja": "ノートに案を書き出す。",
+          "reading": "のーとにあんをかきだす。",
+          "vi": "Viết đề án ra vở."
+        },
+        {
+          "ja": "大事なことを黒板に書きだす。",
+          "reading": "だいじなことをこくばんにかきだす。",
+          "vi": "Viết những thứ quan trọng ra bảng đen."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "貸し出す",
+      "reading": "かしだす",
+      "han_viet": "XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Cho mượn",
+      "examples": [
+        {
+          "ja": "貸し出しはしていません。",
+          "reading": "かしだしはしていません。",
+          "vi": "Không cho mượn."
+        },
+        {
+          "ja": "新作の映画も貸し出していますか。",
+          "reading": "しんさくのえいがもかしだしていますか。",
+          "vi": "Bộ phim mới có đang cho mượn hay không?"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "逃げ出す",
+      "reading": "にげだす",
+      "han_viet": "ĐÀO XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Bỏ trốn, chạy trốn",
+      "examples": [
+        {
+          "ja": "動物園からライオンが逃げ出す。",
+          "reading": "どうぶつえんかららいおんがにげだす。",
+          "vi": "Con sư tử từ vườn bách thú bỏ trốn ra ngoài."
+        },
+        {
+          "ja": "現実から逃げ出す。",
+          "reading": "げんじつからにげだす。",
+          "vi": "Chạy trốn khỏi hiện thực."
+        },
+        {
+          "ja": "犯人はその場から逃げ出した。",
+          "reading": "はんにんはそのばからにげだした。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "飛び出す",
+      "reading": "とびだす",
+      "han_viet": "PHI XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Chạy ra; nhảy ra; bay ra, phóng ra, lao",
+      "examples": [
+        {
+          "ja": "道路に飛び出すと危険です。",
+          "reading": "どうろにとびだすときけんです。",
+          "vi": "Lao ra đường rất nguy hiểm."
+        },
+        {
+          "ja": "兄とケンカして家を飛び出す。",
+          "reading": "あにとけんかしていえをとびだす。",
+          "vi": "ra Cãi nhau với anh trai và chạy ra khỏi nhà."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "飛び込む",
+      "reading": "とびこむ",
+      "han_viet": "PHI NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Nhảy vào, lao vào",
+      "examples": [
+        {
+          "ja": "海に飛び込む。",
+          "reading": "うみにとびこむ。",
+          "vi": "Lao xuống biển."
+        },
+        {
+          "ja": "おそろしいニュースが飛び込んできた。",
+          "reading": "おそろしいにゅーすがとびこんできた。",
+          "vi": "Một tin tức rất là kinh khủng đã được thông báo đến."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "駆け込む",
+      "reading": "かけこむ",
+      "han_viet": "NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Chạy lao vào",
+      "examples": [
+        {
+          "ja": "交番に駆け込む。",
+          "reading": "こうばんにかけこむ。",
+          "vi": "Chạy lao vào đồn cảnh sát."
+        },
+        {
+          "ja": "近くのトイレに駆け込む。",
+          "reading": "ちかくのといれにかけこむ。",
+          "vi": "Chạy lao vào toilet gần đó. 105"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "詰め込む",
+      "reading": "つめこむ",
+      "han_viet": "CẬT NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Nhét vào, nhồi nhét",
+      "examples": [
+        {
+          "ja": "キャリーバッグに荷物を詰め込む。",
+          "reading": "きゃりーばっぐににもつをつめこむ。",
+          "vi": "Nhồi nhét đồ vào trong vali."
+        },
+        {
+          "ja": "お弁当におかずを詰め込む。",
+          "reading": "おべんとうにおかずをつめこむ。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "飲み込む",
+      "reading": "のみこむ",
+      "han_viet": "ẨM NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Hiểu; ; nuốt vào",
+      "examples": [
+        {
+          "ja": "ごはんをかまずに飲み込む。",
+          "reading": "ごはんをかまずにのみこむ。",
+          "vi": "Không nhai cơm mà nuốt luôn."
+        },
+        {
+          "ja": "今の状況を飲み込む。",
+          "reading": "いまのじょうきょうをのみこむ。",
+          "vi": "Hiểu tình hình hiện tại."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "書き込む",
+      "reading": "かきこむ",
+      "han_viet": "THƯ NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Viết vào, nhập vào",
+      "examples": [
+        {
+          "ja": "大事なことをノートに書きこむ。",
+          "reading": "だいじなことをのーとにかきこむ。",
+          "vi": "Viết những việc quan trọng vào vở."
+        },
+        {
+          "ja": "用紙に名前を書き込む。",
+          "reading": "ようしになまえをかきこむ。",
+          "vi": "Điền tên vào tờ giấy."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "巻き込む",
+      "reading": "まきこむ",
+      "han_viet": "NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Cuộn vào, Dính líu",
+      "examples": [
+        {
+          "ja": "事件に巻き込まれる。",
+          "reading": "じけんにまきこまれる。",
+          "vi": "Bị dính líu tới một vụ án."
+        },
+        {
+          "ja": "友達をケンカに巻き込んでしまった。",
+          "reading": "ともだちをけんかにまきこんでしまった。",
+          "vi": "Tôi đã làm cho bạn mình dính líu đến cuộc cãi vã."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "word": "呼び込む",
+      "reading": "よびこむ",
+      "han_viet": "HÔ NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Mời gọi, lôi thu hút",
+      "examples": [
+        {
+          "ja": "お客さんを呼び込む。",
+          "reading": "おきゃくさんをよびこむ。",
+          "vi": "Thu hút khách hàng. kéo,"
+        },
+        {
+          "ja": "うちの犬は幸運を呼び込んでくれる。",
+          "reading": "うちのいぬはこううんをよびこんでくれる。",
+          "vi": "Con chó nhà tôi đã thu hút những điều may mắn đến cho tôi."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "word": "座り込む",
+      "reading": "すわりこむ",
+      "han_viet": "TOÀ NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Ngồi bệt xuống",
+      "examples": [
+        {
+          "ja": "お腹が痛く、その場に座り込む。",
+          "reading": "おはらがいたく、そのばにすわりこむ。",
+          "vi": "Đau bụng nên ngồi bệt xuống tại chỗ."
+        },
+        {
+          "ja": "疲れすぎて床に座り込む。",
+          "reading": "つかれすぎてとこにすわりこむ。",
+          "vi": "Quá mệt nên ngồi xuống sàn."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "word": "寝込む",
+      "reading": "ねこむ",
+      "han_viet": "NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Ngủ say, ngủ bì, nằm liệt giường",
+      "examples": [
+        {
+          "ja": "熱がでて、3日間寝込んでしまった。",
+          "reading": "ねつがでて、3にちかんねこんでしまった。",
+          "vi": "li Bị sốt nằm liệt giường suốt 3 ngày."
+        },
+        {
+          "ja": "昨日はお腹が痛くて寝込んでいた。",
+          "reading": "きのうはおはらがいたくてねこんでいた。",
+          "vi": "Vì bụng quá đau nên hôm qua tôi đã ngủ li bì."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "word": "泊まり込む",
+      "reading": "とまりこむ",
+      "han_viet": "BẠC NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Trọ lại, ở lại",
+      "examples": [
+        {
+          "ja": "今日は会社に泊まり込みで仕事だ。",
+          "reading": "こんにちはかいしゃにとまりこみでしごとだ。",
+          "vi": "Hôm nay ở lại công ty làm việc."
+        },
+        {
+          "ja": "病院に泊まり込んで、娘の看病をする。",
+          "reading": "びょういんにとまりこんで、むすめのかんびょうをする。",
+          "vi": "Ngủ lại ở bệnh viện để chăm sóc con gái. 106"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "word": "住み込む",
+      "reading": "すみこむ",
+      "han_viet": "TRÚ NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Chuyển vào",
+      "examples": [
+        {
+          "ja": "高時給の住み込みバイトを始める。",
+          "reading": "たかとききゅうのすみこみばいとをはじめる。",
+          "vi": "Bắt đầu công việc làm thêm phải ngủ lại nhưng lương cao."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "word": "割り込む",
+      "reading": "わりこむ",
+      "han_viet": "CẮT NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Chen vào; ; xen ngang",
+      "examples": [
+        {
+          "ja": "列に割り込んだ人を叱る。",
+          "reading": "つらにわりこんだにんをしかる。",
+          "vi": "Mắng người xen ngang hàng."
+        },
+        {
+          "ja": "割り込み乗車はおやめください。",
+          "reading": "わりこみじょうしゃはおやめください。",
+          "vi": "Hãy dừng việc chen ngang khi lên tàu."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "word": "差し込む",
+      "reading": "さしこむ",
+      "han_viet": "SAI NHẬP",
+      "word_type": "Động từ",
+      "meaning": "(ánh sáng) Chiếu vào; cắm vào",
+      "examples": [
+        {
+          "ja": "日差しが差し込む。",
+          "reading": "ひざしがさしこむ。",
+          "vi": "Ánh sáng mặt trời chiếu vào."
+        },
+        {
+          "ja": "USBをパソコンに差し込む。",
+          "reading": "USBをぱそこんにさしこむ。",
+          "vi": "Cắm USB vào máy tính."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "word": "染み込む",
+      "reading": "しみこむ",
+      "han_viet": "NHUỘM NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Thấm, ngấm",
+      "examples": [
+        {
+          "ja": "味が染み込む。",
+          "reading": "あじがそみこむ。",
+          "vi": "Ngấm gia vị."
+        },
+        {
+          "ja": "服に水が染み込む。",
+          "reading": "ふくにみずがそみこむ。",
+          "vi": "Nước ngấm vào bên trong quần áo."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "word": "引っ込む",
+      "reading": "ひっこむ",
+      "han_viet": "DẪN NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Co lại, lui về",
+      "examples": [
+        {
+          "ja": "やせてお腹が引っ込んだ。",
+          "reading": "やせておはらがひっこんだ。",
+          "vi": "Gầy đi nên bụng hóp lại."
+        },
+        {
+          "ja": "あの店は大通りから少し引っ込んだ場所にある。",
+          "reading": "あのみせはおおどおりからすこしひっこんだばしょにある。",
+          "vi": "Cửa hàng kia nằm ở vị trí hơi lui về so với đường lớn."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "word": "引き込む",
+      "reading": "ひきこむ",
+      "han_viet": "DẪN NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Lôi kéo, dẫn",
+      "examples": [
+        {
+          "ja": "彼を仲間に引き込む。",
+          "reading": "かれをなかまにひきこむ。",
+          "vi": "Lôi kéo anh ấy vào cùng hội. vào"
+        },
+        {
+          "ja": "彼女の話に引き込まれる。",
+          "reading": "かのじょのはなしにひきこまれる。",
+          "vi": "Bị lôi kéo vào câu chuyện của cô ấy."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "word": "運び込む",
+      "reading": "はこびこむ",
+      "han_viet": "VẬN NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Mang vào, đem vào",
+      "examples": [
+        {
+          "ja": "荷物を部屋に運び込む。",
+          "reading": "にもつをへやにはこびこむ。",
+          "vi": "Mang hành lí vào phòng."
+        },
+        {
+          "ja": "倉庫の荷物を車に運び込む。",
+          "reading": "そうこのにもつをくるまにはこびこむ。",
+          "vi": "Mang hành lý từ kho hàng lên xe."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "word": "注ぎ込む",
+      "reading": "そそぎこむ",
+      "han_viet": "CHÚ NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Đổ vào trong",
+      "examples": [
+        {
+          "ja": "子どもに愛情を注ぎこむ。",
+          "reading": "こどもにあいじょうをそそぎこむ。",
+          "vi": "Dồn hết tình yêu cho con cái."
+        },
+        {
+          "ja": "大きなバケツに水を注ぎこむ。",
+          "reading": "おおきなばけつにみずをそそぎこむ。",
+          "vi": "Đổ nước vào xô to."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "word": "追い込む",
+      "reading": "おいこむ",
+      "han_viet": "TRUY NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Lùa vào, dồn vào",
+      "examples": [
+        {
+          "ja": "絶望的な状況に追い込まれる。",
+          "reading": "ぜつぼうてきなじょうきょうにおいこまれる。",
+          "vi": "Bị dồn vào tình cảnh tuyệt vọng."
+        },
+        {
+          "ja": "ピンチに追い込まれる。",
+          "reading": "ぴんちにおいこまれる。",
+          "vi": "107"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "word": "話し込む",
+      "reading": "はなしこむ",
+      "han_viet": "THOẠI NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Say sưa nói chuyện",
+      "examples": [
+        {
+          "ja": "恋人と5時間も話し込んだ。",
+          "reading": "こいびとと5じかんもはなしこんだ。",
+          "vi": "Nói chuyện tận 5 tiếng với người yêu."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "word": "黙り込む",
+      "reading": "だまりこむ",
+      "han_viet": "NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Giữ im lặng",
+      "examples": [
+        {
+          "ja": "息子は何も言わずに黙り込んだ。",
+          "reading": "むすこはなにもいわずにだまりこんだ。",
+          "vi": "Cậu con trai không nói gì mà giữ im lặng."
+        },
+        {
+          "ja": "社長は黙り込んで考えている。",
+          "reading": "しゃちょうはだまりこんでかんがえている。",
+          "vi": "Giám đốc im lặng và suy nghĩ."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "word": "打ち込む",
+      "reading": "うちこむ",
+      "han_viet": "ĐẢ NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Nhập vào, gõ Cống hiến hết mình cho, Tập trung, đắm chìm ...",
+      "examples": [
+        {
+          "ja": "ワードで打ち込む。",
+          "reading": "わーどでうちこむ。",
+          "vi": "Nhập trong word."
+        },
+        {
+          "ja": "仕事に打ち込む。",
+          "reading": "しごとにうちこむ。",
+          "vi": "Cống hiến hết mình cho công việc."
+        },
+        {
+          "ja": "学生時代はバイトに打ち込んだ。",
+          "reading": "がくせいじだいはばいとにうちこんだ。",
+          "vi": "Thời học sinh tôi đã đắm chìm trong công việc làm thêm."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "word": "煮込む",
+      "reading": "にこむ",
+      "han_viet": "NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Nấu; ninh",
+      "examples": [
+        {
+          "ja": "柔らかくなるまで肉を煮込む。",
+          "reading": "やわらかくなるまでにくをにこむ。",
+          "vi": "Ninh cho tới khi thịt mềm."
+        },
+        {
+          "ja": "トロトロになるまでカレーを煮込む。",
+          "reading": "とろとろになるまでかれーをにこむ。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "word": "売り込む",
+      "reading": "うりこむ",
+      "han_viet": "NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Tiếp thị, mời",
+      "examples": [
+        {
+          "ja": "新商品を売り込む。",
+          "reading": "しんしょうひんをうりこむ。",
+          "vi": "gọi Tiếp thị sản phẩm mới."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "word": "頼み込む",
+      "reading": "たのみこむ",
+      "han_viet": "NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Nhờ vả; khẩn khoản xin",
+      "examples": [
+        {
+          "ja": "母に頼み込んで、ゲームを買ってもらった。",
+          "reading": "ははにたのみこんで、げーむをかってもらった。",
+          "vi": "Khẩn khoản xin mẹ và đã được mua cho game mới."
+        },
+        {
+          "ja": "好きな人に頼み込んで付き合ってもらった。",
+          "reading": "すきなにんにたのみこんでつきあってもらった。",
+          "vi": "Năn nỉ người mình thích trở thành người yêu."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "word": "教え込む",
+      "reading": "おしえこむ",
+      "han_viet": "GIÁO NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Dạy, huấn luyện",
+      "examples": [
+        {
+          "ja": "犬に芸を教え込む。",
+          "reading": "いぬにげいをおしえこむ。",
+          "vi": "Huấn luyện chú chó làm trò vặt."
+        },
+        {
+          "ja": "息子に野球を教え込む。",
+          "reading": "むすこにやきゅうをおしえこむ。",
+          "vi": "Dạy bóng chày cho con trai . 108"
+        }
+      ]
+    }
+  ]
+}

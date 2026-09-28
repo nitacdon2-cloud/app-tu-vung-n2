@@ -1,0 +1,122 @@
+{
+  "lesson_id": "lesson_43",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.3",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "各〜",
+      "reading": "かく〜",
+      "han_viet": "CÁC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "TỪ VỰNG ; Các lớp",
+      "examples": [
+        {
+          "ja": "各クラスのリーダー",
+          "reading": "かくくらすのりーだー",
+          "vi": "Người đứng đầu của từng lớp"
+        },
+        {
+          "ja": "各クラスの案内",
+          "reading": "かくくらすのあんない",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "それぞれの",
+      "reading": "それぞれの",
+      "han_viet": "",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Các hộ gia đình",
+      "examples": [
+        {
+          "ja": "各家庭のインターネット環境",
+          "reading": "かくかていのいんたーねっとかんきょう",
+          "vi": "Môi trường mạng của từng hộ gia đình"
+        },
+        {
+          "ja": "どれぐらい長持ちすることはできますか。",
+          "reading": "どれぐらいながもちすることはできますか。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "長〜",
+      "reading": "ちょう〜",
+      "han_viet": "TRƯỜNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Bền, sử dụng lâu dài",
+      "examples": [
+        {
+          "ja": "電池を長持ちさせる方法",
+          "reading": "でんちをながもちさせるほうほう",
+          "vi": "Phương pháp làm cho pin có thể sử dụng lâu dài"
+        },
+        {
+          "ja": "駅前で立ったまま長話する。",
+          "reading": "えきまえでたったままながばなしする。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "長く〜",
+      "reading": "ながく〜",
+      "han_viet": "TRƯỜNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Cuộc nói chuyện dài ; Sống lâu ; nói",
+      "examples": [
+        {
+          "ja": "元気で長生きするために、",
+          "reading": "げんきでながいきするために、",
+          "vi": "Để có thể sống lâu và khỏe mạnh nói"
+        },
+        {
+          "ja": "彼女がよく長電話する",
+          "reading": "かのじょがよくながでんわする",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "副〜",
+      "reading": "ふく〜",
+      "han_viet": "PHÓ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "chuyện dài qua điện thoại ; Phó giám đốc",
+      "examples": [
+        {
+          "ja": "副社長に就任した",
+          "reading": "ふくしゃちょうにしゅうにんした",
+          "vi": "giám đốc Tôi đã nhậm chức phó giám đốc"
+        },
+        {
+          "ja": "薬の副作用",
+          "reading": "くすりのふくさよう",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "第二番目の〜",
+      "reading": "だいにばんめの〜",
+      "han_viet": "ĐẬY ĐỆ NHÌ PHAN PHEN PHIÊN PHIỆN MỤC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tác dụng phụ ; phó đại thần, phó bộ trưởng ; => thứ trưởng",
+      "examples": [
+        {
+          "ja": "副大臣の発言",
+          "reading": "ふくだいじんのはつげん",
+          "vi": "bộ trưởng Phát ngôn của thứ trưởng"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2047 @@
+{
+  "lesson_id": "lesson_06",
+  "lesson_name": "NGÀY 6: N2 Danh từ, Tính từ & Phó từ (Phần 1)",
+  "level": "N2",
+  "words": [
+    {
+      "id": 666,
+      "word": "総合",
+      "reading": "そうごう",
+      "han_viet": "HỢP",
+      "word_type": "Danh từ",
+      "meaning": "Tổng hợp",
+      "examples": [
+        {
+          "ja": "友達にテストの総合点で負けた。",
+          "reading": "ともだちにてすとのそうごうてんでまけた。",
+          "vi": "Thua bạn tổng điểm bài test."
+        }
+      ]
+    },
+    {
+      "id": 667,
+      "word": "先進国",
+      "reading": "せんしんこく",
+      "han_viet": "TIÊN TIẾN",
+      "word_type": "Danh từ",
+      "meaning": "Nước phát triển.",
+      "examples": [
+        {
+          "ja": "先進国といっても、経済的な問題は多くある。",
+          "reading": "せんしんこくといっても、けいざいてきなもんだいはおおくある。",
+          "vi": "Tuy là nước phát triển nhưng có nhiều vấn đề về kinh tế. 72"
+        }
+      ]
+    },
+    {
+      "id": 668,
+      "word": "圧力",
+      "reading": "あつりょく",
+      "han_viet": "LỰC",
+      "word_type": "Danh từ",
+      "meaning": "Áp lực",
+      "examples": [
+        {
+          "ja": "圧力がまのほうがいい。",
+          "reading": "あつりょくがまのほうがいい。",
+          "vi": "Nồi áp suất thì tốt hơn."
+        }
+      ]
+    },
+    {
+      "id": 669,
+      "word": "人工",
+      "reading": "じんこう",
+      "han_viet": "NHÂN CÔNG",
+      "word_type": "Danh từ",
+      "meaning": "Nhân tạo",
+      "examples": [
+        {
+          "ja": "おかしには人工甘味料が使用されている。",
+          "reading": "おかしにはじんこうかんみりょうがしようされている。",
+          "vi": "Trong bánh kẹo có chất tạo ngọt nhân tạo được sử dụng."
+        }
+      ]
+    },
+    {
+      "id": 670,
+      "word": "不用品",
+      "reading": "ふようひん",
+      "han_viet": "BẤT DỤNG PHẨM",
+      "word_type": "Danh từ",
+      "meaning": "Đồ không dùng đến",
+      "examples": [
+        {
+          "ja": "引越しのため大量の不用品を捨てる。",
+          "reading": "ひっこしのためたいりょうのふようひんをすてる。",
+          "vi": "Vứt một lượng lớn đồ dùng không còn cần đến để chuyển nhà."
+        }
+      ]
+    },
+    {
+      "id": 671,
+      "word": "主人公",
+      "reading": "しゅじんこう",
+      "han_viet": "CHÚA NHÂN CÔNG",
+      "word_type": "Danh từ",
+      "meaning": "Nhân vật chính",
+      "examples": [
+        {
+          "ja": "子供の頃はアニメの主人公がうらやましかった。",
+          "reading": "こどものごろはあにめのしゅじんこうがうらやましかった。",
+          "vi": "Lúc còn trẻ con tôi đã ganh tị với các nhân vật chính trong Anime."
+        }
+      ]
+    },
+    {
+      "id": 672,
+      "word": "気配り",
+      "reading": "きくばり",
+      "han_viet": "KHÍ PHỐI",
+      "word_type": "Danh từ",
+      "meaning": "Quan tâm, chú đáo",
+      "examples": [
+        {
+          "ja": "私の上司は、誰にでも優しく、気配りをしてくれるすてきなひとだ。",
+          "reading": "わたしのじょうしは、だれにでもやさしく、きくばりをしてくれるすてきなひとだ。",
+          "vi": "Cấp trên của tôi là một người tuyệt vời, để ý quan"
+        }
+      ]
+    },
+    {
+      "id": 673,
+      "word": "独り言",
+      "reading": "ひとりごと",
+      "han_viet": "NGÔN",
+      "word_type": "Danh từ",
+      "meaning": "Độc thoại, nói chuyện 1 mình",
+      "examples": [
+        {
+          "ja": "一人暮らしだと、つい独り言を言ってしまう。",
+          "reading": "ひとりぐらしだと、ついひとりごとをいってしまう。",
+          "vi": "Sống một mình là rồi sẽ có lúc buột miệng độc thoại."
+        }
+      ]
+    },
+    {
+      "id": 674,
+      "word": "世論",
+      "reading": "よろん",
+      "han_viet": "THẾ LUẬN",
+      "word_type": "Danh từ",
+      "meaning": "Ý kiến dư luận",
+      "examples": [
+        {
+          "ja": "世論調査を行う。",
+          "reading": "よろんちょうさをおこなう。",
+          "vi": "Tiến hành điều tra dư luận."
+        }
+      ]
+    },
+    {
+      "id": 675,
+      "word": "民族",
+      "reading": "みんぞく",
+      "han_viet": "DÂN TỘC",
+      "word_type": "Danh từ",
+      "meaning": "Dân tộc",
+      "examples": [
+        {
+          "ja": "世界には様々な民族がある。",
+          "reading": "せかいにはさまざまなみんぞくがある。",
+          "vi": "Trên thế giới có rất nhiều dân tộc."
+        }
+      ]
+    },
+    {
+      "id": 676,
+      "word": "福祉",
+      "reading": "ふくし",
+      "han_viet": "PHÚC",
+      "word_type": "Danh từ",
+      "meaning": "Phúc lợi",
+      "examples": [
+        {
+          "ja": "この町は福祉が整っている。",
+          "reading": "このまちはふくしがととのっている。",
+          "vi": "Ở thành phố này có phúc lợi đầy đủ. 73"
+        }
+      ]
+    },
+    {
+      "id": 677,
+      "word": "食料食糧",
+      "reading": "しょくりょう",
+      "han_viet": "LIỆU LƯƠNG",
+      "word_type": "Danh từ",
+      "meaning": "Thực phẩm",
+      "examples": [
+        {
+          "ja": "スーパーにたくさんの食料品が並んでいる。",
+          "reading": "すーぱーにたくさんのしょくりょうひんがならんでいる。",
+          "vi": "Có rất nhiều mặt hàng thực phẩm được bày ở siêu thị."
+        }
+      ]
+    },
+    {
+      "id": 678,
+      "word": "土地",
+      "reading": "とち",
+      "han_viet": "THỔ ĐỊA",
+      "word_type": "Danh từ",
+      "meaning": "Đất đai",
+      "examples": [
+        {
+          "ja": "土地勘がある人に町の案内をしてもらう。",
+          "reading": "とちかんがあるにんにまちのあんないをしてもらう。",
+          "vi": "Nhờ người biết rõ về khu này đi hướng dẫn quanh phố."
+        }
+      ]
+    },
+    {
+      "id": 679,
+      "word": "倉庫",
+      "reading": "そうこ",
+      "han_viet": "KHO",
+      "word_type": "Danh từ",
+      "meaning": "Nhà kho",
+      "examples": [
+        {
+          "ja": "食料品を倉庫にしまう。",
+          "reading": "しょくりょうひんをそうこにしまう。",
+          "vi": "Cất đồ ăn vào kho."
+        }
+      ]
+    },
+    {
+      "id": 680,
+      "word": "寝心地",
+      "reading": "ねごこち",
+      "han_viet": "TÂM ĐỊA",
+      "word_type": "Danh từ",
+      "meaning": "Cảm giác khi ngủ",
+      "examples": [
+        {
+          "ja": "今使っている布団は薄くて固くて、寝心地が悪い。",
+          "reading": "いまつかっているふとんはうすくてかたくて、ねごこちがわるい。",
+          "vi": "Tấm đệm tôi đang dùng vừa mỏng vừa cứng, ngủ không thoải mái."
+        }
+      ]
+    },
+    {
+      "id": 681,
+      "word": "心構え",
+      "reading": "こころがまえ",
+      "han_viet": "TÂM",
+      "word_type": "Danh từ",
+      "meaning": "Chuẩn bị tâm",
+      "examples": [
+        {
+          "ja": "教師になるため、どんな心構えをすれば良いでしょうか？",
+          "reading": "きょうしになるため、どんなこころがまえをすればよいでしょうか？",
+          "vi": "lý Cần chuẩn bị sẵn tâm lý thế nào để trở thành một"
+        }
+      ]
+    },
+    {
+      "id": 682,
+      "word": "産地",
+      "reading": "さんち",
+      "han_viet": "SẢN ĐỊA",
+      "word_type": "Danh từ",
+      "meaning": "Nơi sản xuất",
+      "examples": [
+        {
+          "ja": "フランスはワインの産地として有名だ。",
+          "reading": "ふらんすはわいんのさんちとしてゆうめいだ。",
+          "vi": "Pháp nổi tiếng là vùng đất sản xuất rượu vang."
+        }
+      ]
+    },
+    {
+      "id": 683,
+      "word": "居心地",
+      "reading": "いごこち",
+      "han_viet": "CƯ TÂM ĐỊA",
+      "word_type": "Danh từ",
+      "meaning": "Cảm giác cảm nhận được khi 1 nơi nào đó",
+      "examples": [
+        {
+          "ja": "私にとっては静かで自然の多い田舎は居心地がいい。",
+          "reading": "わたしにとってはしずかでしぜんのおおいいなかはいごこちがいい。",
+          "vi": "ở Với tôi, tôi thấy thoải mái khi về những vùng quê"
+        }
+      ]
+    },
+    {
+      "id": 684,
+      "word": "くず",
+      "reading": "くず",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Vụn rác, đồ bỏ đi",
+      "examples": [
+        {
+          "ja": "くず箱にゴミを捨てる。",
+          "reading": "くずはこにごみをすてる。",
+          "vi": "Vứt rác vào trong thùng rác."
+        }
+      ]
+    },
+    {
+      "id": 685,
+      "word": "後回し",
+      "reading": "あとまわし",
+      "han_viet": "HẬU HỒI",
+      "word_type": "Danh từ",
+      "meaning": "Để làm sau",
+      "examples": [
+        {
+          "ja": "遊びたくて、つい宿題を後回しにしてしまう。",
+          "reading": "あそびたくて、ついしゅくだいをあとまわしにしてしまう。",
+          "vi": "Vì muốn chơi nên tôi lại để bài tập làm sau."
+        }
+      ]
+    },
+    {
+      "id": 686,
+      "word": "日差し",
+      "reading": "ひざし",
+      "han_viet": "NHẬT SAI",
+      "word_type": "Danh từ",
+      "meaning": "Ánh nắng mặt trời",
+      "examples": [
+        {
+          "ja": "7月になり、日差しが強くなってきた。",
+          "reading": "7がつになり、ひざしがつよくなってきた。",
+          "vi": "Vào tháng 7, ánh nắng mặt trời cũng đã gắt hơn."
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "word": "しわ",
+      "reading": "しわ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Nếp nhăn",
+      "examples": [
+        {
+          "ja": "最近しわが増えてきた。",
+          "reading": "さいきんしわがふえてきた。",
+          "vi": "Gần đây nếp nhăn đã xuất hiện nhiều."
+        },
+        {
+          "ja": "服のしわを伸ばす。",
+          "reading": "ふくのしわをのばす。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 688,
+      "word": "服装",
+      "reading": "ふくそう",
+      "han_viet": "PHỤC",
+      "word_type": "Danh từ",
+      "meaning": "Quần áo, trang phục",
+      "examples": [
+        {
+          "ja": "年頃の子は服装を気にしている。",
+          "reading": "ねんごろのこはふくそうをきにしている。",
+          "vi": "Bọn trẻ mới lớn hay để ý quần áo trang phục."
+        }
+      ]
+    },
+    {
+      "id": 689,
+      "word": "日当たり",
+      "reading": "ひあたり",
+      "han_viet": "NHẬT",
+      "word_type": "Danh từ",
+      "meaning": "Nơi có ánh sáng chiếu vào",
+      "examples": [
+        {
+          "ja": "5階は日当たりがいいので洗濯物が乾く。",
+          "reading": "5かいはひあたりがいいのでせんたくものがかわく。",
+          "vi": "Tầng 5 có nhiều nắng nên đồ giặt khô."
+        }
+      ]
+    },
+    {
+      "id": 690,
+      "word": "湯気",
+      "reading": "ゆげ",
+      "han_viet": "THANG KHÍ",
+      "word_type": "Danh từ",
+      "meaning": "Hơi, khí hơi nước",
+      "examples": [
+        {
+          "ja": "鍋から湯気が立つ。",
+          "reading": "なべからゆげがたつ。",
+          "vi": "Hơi nước bốc ra từ nồi lẩu. 74"
+        }
+      ]
+    },
+    {
+      "id": 691,
+      "word": "日中",
+      "reading": "にっちゅう",
+      "han_viet": "NHẬT TRUNG",
+      "word_type": "Danh từ",
+      "meaning": "Ban ngày",
+      "examples": [
+        {
+          "ja": "日中は暑いので、外に出ない。",
+          "reading": "にっちゅうはあついので、そとにでない。",
+          "vi": "Vì ban ngày nóng nên không ra ngoài."
+        }
+      ]
+    },
+    {
+      "id": 692,
+      "word": "斜め",
+      "reading": "ななめ",
+      "han_viet": "TÀ",
+      "word_type": "Danh từ",
+      "meaning": "Nghiêng nghiêng, chếch chếch",
+      "examples": [
+        {
+          "ja": "彼女はご機嫌斜めのようだ。",
+          "reading": "かのじょはごきげんななめのようだ。",
+          "vi": "Có vẻ tâm trạng của cô ấy không được tốt."
+        }
+      ]
+    },
+    {
+      "id": 693,
+      "word": "窓口",
+      "reading": "まどぐち",
+      "han_viet": "KHẨU",
+      "word_type": "Danh từ",
+      "meaning": "Cửa bán vé, tiếp tân",
+      "examples": [
+        {
+          "ja": "窓口はあちらになります。",
+          "reading": "まどぐちはあちらになります。",
+          "vi": "Quầy giao dịch ở phía bên kia."
+        }
+      ]
+    },
+    {
+      "id": 694,
+      "word": "手続き",
+      "reading": "てつづき",
+      "han_viet": "THỦ",
+      "word_type": "Danh từ",
+      "meaning": "Thủ tục, quá trình",
+      "examples": [
+        {
+          "ja": "契約手続きを行う。",
+          "reading": "けいやくてつづきをおこなう。",
+          "vi": "Tiến hành thủ tục kí hợp đồng."
+        }
+      ]
+    },
+    {
+      "id": 695,
+      "word": "歩行者",
+      "reading": "ほこうしゃ",
+      "han_viet": "HÀNH",
+      "word_type": "Danh từ",
+      "meaning": "Người đi bộ",
+      "examples": [
+        {
+          "ja": "歩行者が道を渡るときは、車のブレーキをかけて待つ。",
+          "reading": "ほこうしゃがみちをわたるときは、くるまのぶれーきをかけてまつ。",
+          "vi": "Khi người đi bộ băng qua đường, phanh dừng xe ô"
+        }
+      ]
+    },
+    {
+      "id": 696,
+      "word": "感情",
+      "reading": "かんじょう",
+      "han_viet": "CẢM TÌNH",
+      "word_type": "Danh từ",
+      "meaning": "Cảm xúc",
+      "examples": [
+        {
+          "ja": "感情的にならないようにする。",
+          "reading": "かんじょうてきにならないようにする。",
+          "vi": "Cố gắng không hành động theo cảm tính."
+        }
+      ]
+    },
+    {
+      "id": 697,
+      "word": "材料",
+      "reading": "ざいりょう",
+      "han_viet": "LIỆU",
+      "word_type": "Danh từ",
+      "meaning": "Nguyên liệu, cơ sở",
+      "examples": [
+        {
+          "ja": "この事を決める判断材料が少ない。",
+          "reading": "このことをきめるはんだんざいりょうがすくない。",
+          "vi": "Những cơ sở phán đoán để quyết định việc này quá ít."
+        }
+      ]
+    },
+    {
+      "id": 698,
+      "word": "ひも",
+      "reading": "ひも",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Sợi dây",
+      "examples": [
+        {
+          "ja": "物が動かないように、ひもで結んで固定する。",
+          "reading": "ものがうごかないように、ひもでむすんでこていする。",
+          "vi": "Để đồ không di chuyển, cố định bằng cách buộc dây."
+        }
+      ]
+    },
+    {
+      "id": 699,
+      "word": "娯楽",
+      "reading": "ごらく",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Giải trí, tiêu khiển",
+      "examples": [
+        {
+          "ja": "休日は娯楽施設に行く。",
+          "reading": "きゅうじつはごらくしせつにいく。",
+          "vi": "Ngày nghỉ đi đến trung tâm giải trí."
+        }
+      ]
+    },
+    {
+      "id": 700,
+      "word": "世代",
+      "reading": "せだい",
+      "han_viet": "THẾ ĐẠI",
+      "word_type": "Danh từ",
+      "meaning": "Thế hệ",
+      "examples": [
+        {
+          "ja": "15歳年下と話すと世代の差を感じる。",
+          "reading": "15としとししたとはなすとせだいのさをかんじる。",
+          "vi": "Nói chuyện với đứa kém 15 tuổi thì cảm thấy sự khác biệt giữa các thế hệ."
+        }
+      ]
+    },
+    {
+      "id": 701,
+      "word": "文明",
+      "reading": "ぶんめい",
+      "han_viet": "VĂN MINH",
+      "word_type": "Danh từ",
+      "meaning": "Văn minh",
+      "examples": [
+        {
+          "ja": "マヤ文明を調査する。",
+          "reading": "まやぶんめいをちょうさする。",
+          "vi": "Tìm hiểu về nền văn minh Maya."
+        }
+      ]
+    },
+    {
+      "id": 702,
+      "word": "年代",
+      "reading": "ねんだい",
+      "han_viet": "NIÊN ĐẠI",
+      "word_type": "Danh từ",
+      "meaning": "Một giai đoạn khoảng 10 năm",
+      "examples": [
+        {
+          "ja": "課長は父と同じ年代だろう。",
+          "reading": "かちょうはちちとおなじねんだいだろう。",
+          "vi": "Chắc trưởng ban cùng thế hệ với bố tôi."
+        },
+        {
+          "ja": "2000年代の日本経済はあまり成長しなかった。",
+          "reading": "2000ねんだいのにほんけいざいはあまりせいちょうしなかった。",
+          "vi": "Nền kinh tế Nhật Bản giai đoạn những năm 2000 không phát triển mấy."
+        }
+      ]
+    },
+    {
+      "id": 703,
+      "word": "持ち主",
+      "reading": "もちぬし",
+      "han_viet": "TRÌ CHÚA",
+      "word_type": "Danh từ",
+      "meaning": "Người sở hữu",
+      "examples": [
+        {
+          "ja": "この自転車はずっとここにあるが、持ち主が誰かわからない。",
+          "reading": "このじてんしゃはずっとここにあるが、もちぬしがだれかわからない。",
+          "vi": "Cái xe đạp này cứ ở đây suốt mà không biết chủ nhân của nó là ai. 75"
+        }
+      ]
+    },
+    {
+      "id": 704,
+      "word": "人物",
+      "reading": "じんぶつ",
+      "han_viet": "NHÂN VẬT",
+      "word_type": "Danh từ",
+      "meaning": "Nhân vật",
+      "examples": [
+        {
+          "ja": "これはアニメの登場人物の名前です。",
+          "reading": "これはあにめのとうじょうじんぶつのなまえです。",
+          "vi": "Đây là tên nhân vật xuất hiện trong anime."
+        }
+      ]
+    },
+    {
+      "id": 705,
+      "word": "各自",
+      "reading": "かくじ",
+      "han_viet": "CÁC TỰ",
+      "word_type": "Danh từ",
+      "meaning": "Mỗi người",
+      "examples": [
+        {
+          "ja": "昼食は各自で用意してください。",
+          "reading": "ちゅうしょくはかくじでよういしてください。",
+          "vi": "Từng cá nhân hãy tự chuẩn bị cơm trưa."
+        }
+      ]
+    },
+    {
+      "id": 706,
+      "word": "精神",
+      "reading": "せいしん",
+      "han_viet": "TINH THẦN",
+      "word_type": "Danh từ",
+      "meaning": "Tinh thần",
+      "examples": [
+        {
+          "ja": "彼女は精神的に不安定だ。",
+          "reading": "かのじょはせいしんてきにふあんていだ。",
+          "vi": "Tinh thần của cô ấy không ổn định lắm."
+        }
+      ]
+    },
+    {
+      "id": 707,
+      "word": "気分",
+      "reading": "きぶん",
+      "han_viet": "KHÍ PHÂN",
+      "word_type": "Danh từ",
+      "meaning": "Tâm tư, tinh thần, tâm trạng",
+      "examples": [
+        {
+          "ja": "今日は気分がいい。",
+          "reading": "こんにちはきぶんがいい。",
+          "vi": "Hôm nay tâm trạng tốt."
+        }
+      ]
+    },
+    {
+      "id": 708,
+      "word": "姿勢",
+      "reading": "しせい",
+      "han_viet": "TƯ THẾ",
+      "word_type": "Danh từ",
+      "meaning": "Tư thế, Thái độ",
+      "examples": [
+        {
+          "ja": "彼の仕事に対する姿勢はすばらしい。",
+          "reading": "かのしごとにたいするしせいはすばらしい。",
+          "vi": "Thái độ đối với công việc của anh ấy rất tích cực."
+        }
+      ]
+    },
+    {
+      "id": 709,
+      "word": "苦情",
+      "reading": "くじょう",
+      "han_viet": "KHỔ TÌNH",
+      "word_type": "Danh từ",
+      "meaning": "Phàn nàn",
+      "examples": [
+        {
+          "ja": "お客様から苦情の電話がきた。",
+          "reading": "おきゃくさまからくじょうのでんわがきた。",
+          "vi": "Nhận được điện thoại phàn nàn từ khách hàng."
+        }
+      ]
+    },
+    {
+      "id": 710,
+      "word": "皮肉",
+      "reading": "ひにく",
+      "han_viet": "BÌ",
+      "word_type": "Danh từ",
+      "meaning": "Giễu cợt, mỉa mai",
+      "examples": [
+        {
+          "ja": "さとう課長はよく皮肉を言う。",
+          "reading": "さとうかちょうはよくひにくをいう。",
+          "vi": "Trưởng phòng Sato rất hay nói mỉa mai."
+        }
+      ]
+    },
+    {
+      "id": 711,
+      "word": "行儀",
+      "reading": "ぎょうぎ",
+      "han_viet": "HÀNH NGHI",
+      "word_type": "Danh từ",
+      "meaning": "Tác phong, Cách cư xử",
+      "examples": [
+        {
+          "ja": "人の話を聞く時は行儀よく座る。",
+          "reading": "にんのはなしをきくときはぎょうぎよくすわる。",
+          "vi": "Khi nghe người khác nói chuyện thì ngồi hẳn hoi."
+        }
+      ]
+    },
+    {
+      "id": 712,
+      "word": "見かけ",
+      "reading": "みかけ",
+      "han_viet": "KIẾN",
+      "word_type": "Danh từ",
+      "meaning": "Ngoại hình",
+      "examples": [
+        {
+          "ja": "見かけで人を判断してはいけない。",
+          "reading": "みかけでにんをはんだんしてはいけない。",
+          "vi": "Không được đánh giá người khác qua vẻ bề ngoài."
+        }
+      ]
+    },
+    {
+      "id": 713,
+      "word": "ふり",
+      "reading": "ふり",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Giả vờ",
+      "examples": [
+        {
+          "ja": "トラに会ったときは、死んだふりをする。",
+          "reading": "とらにあったときは、しんだふりをする。",
+          "vi": "Khi gặp hổ thì giả chết."
+        }
+      ]
+    },
+    {
+      "id": 714,
+      "word": "意義",
+      "reading": "いぎ",
+      "han_viet": "Ý NGHĨA",
+      "word_type": "Danh từ",
+      "meaning": "Ý nghĩa",
+      "examples": [
+        {
+          "ja": "毎日練習することに意義がある。",
+          "reading": "まいにちれんしゅうすることにいぎがある。",
+          "vi": "Việc luyện tập hàng ngày có ý nghĩa quan trọng."
+        }
+      ]
+    },
+    {
+      "id": 715,
+      "word": "主義",
+      "reading": "しゅぎ",
+      "han_viet": "CHÚA NGHĨA",
+      "word_type": "Danh từ",
+      "meaning": "Nguyên tắc, chủ nghĩa",
+      "examples": [
+        {
+          "ja": "彼は完璧主義だ。",
+          "reading": "かれはかんぺきしゅぎだ。",
+          "vi": "Anh ấy theo chủ nghĩa hoàn hảo."
+        }
+      ]
+    },
+    {
+      "id": 716,
+      "word": "典型",
+      "reading": "てんけい",
+      "han_viet": "ĐIỂN",
+      "word_type": "Danh từ",
+      "meaning": "Điển hình",
+      "examples": [
+        {
+          "ja": "残業代が出ない会社は、典型的なブラック企業だ。",
+          "reading": "ざんぎょうだいがでないかいしゃは、てんけいてきなぶらっくきぎょうだ。",
+          "vi": "Những công ty không trả tiền làm thêm là những xí nghiệp đen điển hình. 76"
+        }
+      ]
+    },
+    {
+      "id": 717,
+      "word": "方言",
+      "reading": "ほうげん",
+      "han_viet": "PHƯƠNG NGÔN",
+      "word_type": "Danh từ",
+      "meaning": "Tiếng địa phương",
+      "examples": [
+        {
+          "ja": "方言を話されると分からない。",
+          "reading": "ほうげんをはなされるとわからない。",
+          "vi": "Nếu anh nói tiếng địa phương thì tôi sẽ không hiểu."
+        }
+      ]
+    },
+    {
+      "id": 718,
+      "word": "気配",
+      "reading": "けはい",
+      "han_viet": "KHÍ PHỐI",
+      "word_type": "Danh từ",
+      "meaning": "Dấu hiệu, cảm giác",
+      "examples": [
+        {
+          "ja": "何かが近づいてくる気配がする。",
+          "reading": "なにかがちかづいてくるけはいがする。",
+          "vi": "Có cảm giác như có gì đó đang tới gần."
+        }
+      ]
+    },
+    {
+      "id": 719,
+      "word": "生きがい",
+      "reading": "いきがい",
+      "han_viet": "SINH",
+      "word_type": "Danh từ",
+      "meaning": "Mục đích sống, lẽ sống",
+      "examples": [
+        {
+          "ja": "私の生きがいは食べることだ。",
+          "reading": "わたしのいきがいはたべることだ。",
+          "vi": "Lẽ sống của tôi là ăn."
+        }
+      ]
+    },
+    {
+      "id": 720,
+      "word": "口実",
+      "reading": "こうじつ",
+      "han_viet": "KHẨU",
+      "word_type": "Danh từ",
+      "meaning": "Lấy cớ",
+      "examples": [
+        {
+          "ja": "好きな子に会う口実をつくる。",
+          "reading": "すきなこにあうこうじつをつくる。",
+          "vi": "Lấy cớ gặp cô bé mình thích."
+        }
+      ]
+    },
+    {
+      "id": 721,
+      "word": "動機",
+      "reading": "どうき",
+      "han_viet": "ĐỘNG CƠ",
+      "word_type": "Danh từ",
+      "meaning": "Động cơ, lý do",
+      "examples": [
+        {
+          "ja": "犯行に及んだ動機は何ですか。",
+          "reading": "はんこうにおよんだどうきはなんですか。",
+          "vi": "Động cơ phạm tội của anh là gì?"
+        }
+      ]
+    },
+    {
+      "id": 722,
+      "word": "限度",
+      "reading": "げんど",
+      "han_viet": "HẠN ĐỘ",
+      "word_type": "Danh từ",
+      "meaning": "Mức độ",
+      "examples": [
+        {
+          "ja": "クレジットカードの利用限度額を超えた。",
+          "reading": "くれじっとかーどのりようげんどがくをこえた。",
+          "vi": "Vượt quá hạn mức sử dụng thẻ tín dụng."
+        }
+      ]
+    },
+    {
+      "id": 723,
+      "word": "限界",
+      "reading": "げんかい",
+      "han_viet": "HẠN GIỚI",
+      "word_type": "Danh từ",
+      "meaning": "Giới hạn, ranh giới",
+      "examples": [
+        {
+          "ja": "これ以上は待てない。限界だ。",
+          "reading": "これいじょうはまてない。げんかいだ。",
+          "vi": "Tôi không thể đợi thêm nữa. Đến giới hạn của tôi rồi. (Đủ rồi đấy!)"
+        },
+        {
+          "ja": "けがをしてしまい、母が手当てをしてくれた。",
+          "reading": "けがをしてしまい、ははがてあてをしてくれた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 724,
+      "word": "手当て",
+      "reading": "てあて",
+      "han_viet": "THỦ",
+      "word_type": "Danh từ",
+      "meaning": "Phụ cấp, (chữa trị) xử lý vết thương",
+      "examples": [
+        {
+          "ja": "残業した分の手当てが、お給料と一緒に支払われる。",
+          "reading": "ざんぎょうしたふんのてあてが、おきゅうりょうといっしょにしはらわれる。",
+          "vi": "Được trả khoản phụ cấp làm thêm cùng với tiền"
+        }
+      ]
+    },
+    {
+      "id": 725,
+      "word": "基礎",
+      "reading": "きそ",
+      "han_viet": "CƠ SỜ",
+      "word_type": "Danh từ",
+      "meaning": "Cơ bản",
+      "examples": [
+        {
+          "ja": "勉強の基礎から復習する。",
+          "reading": "べんきょうのきそからふくしゅうする。",
+          "vi": "Ôn tập lại từ những cái cơ bản."
+        }
+      ]
+    },
+    {
+      "id": 726,
+      "word": "基準",
+      "reading": "きじゅん",
+      "han_viet": "CƠ CHUẨN",
+      "word_type": "Danh từ",
+      "meaning": "Tiêu chí chuẩn",
+      "examples": [
+        {
+          "ja": "合格の基準を示してください。",
+          "reading": "ごうかくのきじゅんをしめしてください。",
+          "vi": "Hãy chỉ ra những tiêu chí để đỗ."
+        }
+      ]
+    },
+    {
+      "id": 727,
+      "word": "標準",
+      "reading": "ひょうじゅん",
+      "han_viet": "BÊU CHUẨN",
+      "word_type": "Danh từ",
+      "meaning": "Tiêu chuẩn",
+      "examples": [
+        {
+          "ja": "外国の人には標準語で話す。",
+          "reading": "がいこくのにんにはひょうじゅんごではなす。",
+          "vi": "Nói tiếng phổ thông với người nước ngoài."
+        }
+      ]
+    },
+    {
+      "id": 728,
+      "word": "書き手",
+      "reading": "かきて",
+      "han_viet": "THƯ THỦ",
+      "word_type": "Danh từ",
+      "meaning": "Người viết",
+      "examples": [
+        {
+          "ja": "小説を読むとき、書き手の考えを想像する。",
+          "reading": "しょうせつをよむとき、かきてのかんがえをそうぞうする。",
+          "vi": "Tưởng tượng ra suy nghĩ của tác giả khi đọc tiểu thuyết."
+        }
+      ]
+    },
+    {
+      "id": 729,
+      "word": "台無し",
+      "reading": "だいなし",
+      "han_viet": "THAI VÔ",
+      "word_type": "Danh từ",
+      "meaning": "Công cốc ,vô nghĩa, vô ích",
+      "examples": [
+        {
+          "ja": "けんかのせいで、デートが台無しになった。",
+          "reading": "けんかのせいで、でーとがだいなしになった。",
+          "vi": "Do cãi nhau mà hỏng cả cuộc hẹn."
+        }
+      ]
+    },
+    {
+      "id": 730,
+      "word": "売り上げ",
+      "reading": "うりあげ",
+      "han_viet": "THƯỢNG",
+      "word_type": "Danh từ",
+      "meaning": "Doanh thu, doanh số",
+      "examples": [
+        {
+          "ja": "最近はすっかり、店の売り上げが落ちてしまった。",
+          "reading": "さいきんはすっかり、みせのうりあげがおちてしまった。",
+          "vi": "Gần đây doanh thu của cửa hàng đã hoàn toàn suy giảm."
+        }
+      ]
+    },
+    {
+      "id": 731,
+      "word": "好き嫌い",
+      "reading": "すききらい",
+      "han_viet": "HẢO HIỀM",
+      "word_type": "Danh từ",
+      "meaning": "Kén chọn, kén ăn",
+      "examples": [
+        {
+          "ja": "私は食べ物の好き嫌いが激しい。",
+          "reading": "わたしはたべもののすききらいがはげしい。",
+          "vi": "Tôi là người kén ăn. 77"
+        }
+      ]
+    },
+    {
+      "id": 732,
+      "word": "対策",
+      "reading": "たいさく",
+      "han_viet": "SÁCH",
+      "word_type": "Danh từ",
+      "meaning": "Đối sách, biện pháp đối phó",
+      "examples": [
+        {
+          "ja": "事故の再発を防止する対策を考える。",
+          "reading": "じこのさいはつをぼうしするたいさくをかんがえる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 733,
+      "word": "宝くじ",
+      "reading": "たからくじ",
+      "han_viet": "BẢO",
+      "word_type": "Danh từ",
+      "meaning": "Xổ số",
+      "examples": [
+        {
+          "ja": "毎月10枚ずつ、宝くじを買う。",
+          "reading": "まいつき10まいずつ、たからくじをかう。",
+          "vi": "Mỗi tháng mua 10 vé sổ xố."
+        }
+      ]
+    },
+    {
+      "id": 734,
+      "word": "心当たり",
+      "reading": "こころあたり",
+      "han_viet": "TÂM",
+      "word_type": "Danh từ",
+      "meaning": "Chút kí ức về",
+      "examples": [
+        {
+          "ja": "メガネをどこに置いたか、全然、心当たりがない。",
+          "reading": "めがねをどこにおいたか、ぜんぜん、こころあたりがない。",
+          "vi": "Hoàn toàn không có chút kí ức gì về việc đã để cái kính của mình ở đâu."
+        }
+      ]
+    },
+    {
+      "id": 735,
+      "word": "行き帰り",
+      "reading": "ゆきかえり",
+      "han_viet": "HÀNH",
+      "word_type": "Danh từ",
+      "meaning": "Đi lẫn về",
+      "examples": [
+        {
+          "ja": "子供と散歩するときは、行き帰りで違う道を通る。",
+          "reading": "こどもとさんぽするときは、いきかえりでちがうみちをとうる。",
+          "vi": "Khi đi bộ cùng con, chúng tôi lúc đi đi một đường mà lúc về lại đi một đường khác."
+        }
+      ]
+    },
+    {
+      "id": 736,
+      "word": "念のため",
+      "reading": "ねんのため",
+      "han_viet": "NIỆM",
+      "word_type": "Danh từ",
+      "meaning": "Để chắc chắn",
+      "examples": [
+        {
+          "ja": "念のため、同じ書類を2枚用意する。",
+          "reading": "ねんのため、おなじしょるいを2まいよういする。",
+          "vi": "Chuẩn bị 2 bản của cùng một tài liệu cho chắc."
+        }
+      ]
+    },
+    {
+      "id": 737,
+      "word": "寝つき",
+      "reading": "ねつき",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Đi vào giấc ngủ",
+      "examples": [
+        {
+          "ja": "寝つきが悪く、布団に入ってもなかなか眠ることができない。",
+          "reading": "ねつきがわるく、ふとんにいっってもなかなかねむることができない。",
+          "vi": "Bị khó ngủ nên dù có nằm xuống đệm cũng mãi mà không thể ngủ được."
+        }
+      ]
+    },
+    {
+      "id": 738,
+      "word": "温もり",
+      "reading": "ぬくもり",
+      "han_viet": "ỒN",
+      "word_type": "Danh từ",
+      "meaning": "Ấm áp",
+      "examples": [
+        {
+          "ja": "一緒に寝ていると、妻の温もりを感じて幸福だ。",
+          "reading": "いっしょにねていると、つまのあたたもりをかんじてこうふくだ。",
+          "vi": "Mỗi khi ngủ cùng đều cảm nhận được sự ấm áp của vợ và cảm thấy hạnh phúc."
+        }
+      ]
+    },
+    {
+      "id": 739,
+      "word": "能率",
+      "reading": "のうりつ",
+      "han_viet": "NĂNG",
+      "word_type": "Danh từ",
+      "meaning": "Hiệu quả, năng suất",
+      "examples": [
+        {
+          "ja": "作業の能率を上げる。",
+          "reading": "さぎょうののうりつをあげる。",
+          "vi": "Nâng cao năng suất làm việc."
+        }
+      ]
+    },
+    {
+      "id": 740,
+      "word": "性能",
+      "reading": "せいのう",
+      "han_viet": "TÍNH NĂNG",
+      "word_type": "Danh từ",
+      "meaning": "Tính năng, hiệu suất",
+      "examples": [
+        {
+          "ja": "このパソコンの性能はいい。",
+          "reading": "このぱそこんのせいのうはいい。",
+          "vi": "Tính năng của máy tính này tốt."
+        }
+      ]
+    },
+    {
+      "id": 741,
+      "word": "誇り",
+      "reading": "ほこり",
+      "han_viet": "KHOA",
+      "word_type": "Danh từ",
+      "meaning": "Niềm tự hào",
+      "examples": [
+        {
+          "ja": "農家として、誇りをもって野菜をつくっている。",
+          "reading": "のうかとして、ほこりをもってやさいをつくっている。",
+          "vi": "Trồng rau với niềm tự hào của một người làm nghề nông. 78"
+        }
+      ]
+    },
+    {
+      "id": 742,
+      "word": "手間",
+      "reading": "てま",
+      "han_viet": "THỦ GIAN",
+      "word_type": "Danh từ",
+      "meaning": "Thời gian, công sức",
+      "examples": [
+        {
+          "ja": "料理を作るのは手間がかかる。",
+          "reading": "りょうりをつくるのはてまがかかる。",
+          "vi": "Việc nấu ăn rất tốn thời gian, công sức."
+        }
+      ]
+    },
+    {
+      "id": 743,
+      "word": "でこぼこ",
+      "reading": "でこぼこ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Lồi lõm",
+      "examples": [
+        {
+          "ja": "石や木の枝がたくさん落ちているでこぼこ道。",
+          "reading": "いしやきのえだがたくさんおちているでこぼこみち。",
+          "vi": "Con đường mấp mô với nhiều đá và cành cây rơi xuống đường."
+        }
+      ]
+    },
+    {
+      "id": 744,
+      "word": "傾向",
+      "reading": "けいこう",
+      "han_viet": "KHUYNH HƯỚNG",
+      "word_type": "Danh từ",
+      "meaning": "Khuynh hướng",
+      "examples": [
+        {
+          "ja": "田舎の人は早く結婚する傾向がある。",
+          "reading": "いなかのにんははやくけっこんするけいこうがある。",
+          "vi": "Người ở quê thường có xu hướng kết hôn sớm."
+        }
+      ]
+    },
+    {
+      "id": 745,
+      "word": "方針",
+      "reading": "ほうしん",
+      "han_viet": "PHƯƠNG CHÂM",
+      "word_type": "Danh từ",
+      "meaning": "Phương châm, chính sách",
+      "examples": [
+        {
+          "ja": "経営方針を決める。",
+          "reading": "けいえいほうしんをきめる。",
+          "vi": "Quyết định phương châm kinh doanh."
+        }
+      ]
+    },
+    {
+      "id": 746,
+      "word": "制度",
+      "reading": "せいど",
+      "han_viet": "CHẾ ĐỘ",
+      "word_type": "Danh từ",
+      "meaning": "Chế độ, hệ thống",
+      "examples": [
+        {
+          "ja": "教育制度を改める。",
+          "reading": "きょういくせいどをあらためる。",
+          "vi": "Cải cách hệ thống giáo dục."
+        }
+      ]
+    },
+    {
+      "id": 747,
+      "word": "状況",
+      "reading": "じょうきょう",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Trạng thái, tình trạng, tình hình",
+      "examples": [
+        {
+          "ja": "その場の状況を見きわめる。",
+          "reading": "そのばのじょうきょうをみきわめる。",
+          "vi": "Nhìn nhận thấu suốt tình hình lúc đó."
+        }
+      ]
+    },
+    {
+      "id": 748,
+      "word": "形式",
+      "reading": "けいしき",
+      "han_viet": "HÌNH THỨC",
+      "word_type": "Danh từ",
+      "meaning": "Hình thức, định dạng",
+      "examples": [
+        {
+          "ja": "ベトナム語で手紙を書きたいが、形式が分からない。",
+          "reading": "べとなむごでてがみをかきたいが、けいしきがわからない。",
+          "vi": "Tôi muốn viết một bức thư bằng tiếng Việt, nhưng lại không rõ hình thức."
+        }
+      ]
+    },
+    {
+      "id": 749,
+      "word": "頂点",
+      "reading": "ちょうてん",
+      "han_viet": "ĐÍNH ĐIỂM",
+      "word_type": "Danh từ",
+      "meaning": "Đỉnh, điểm, đứng đầu, đứng top",
+      "examples": [
+        {
+          "ja": "彼はスポーツ界の頂点にいる。",
+          "reading": "かれはすぽーつかいのちょうてんにいる。",
+          "vi": "Anh ta đứng đầu trong giới thể thao."
+        }
+      ]
+    },
+    {
+      "id": 750,
+      "word": "予備",
+      "reading": "よび",
+      "han_viet": "DỰ BỊ",
+      "word_type": "Danh từ",
+      "meaning": "Dự bị, dự trữ",
+      "examples": [
+        {
+          "ja": "停電に備えて予備電力を準備する。",
+          "reading": "ていでんにそなえてよびでんりょくをじゅんびする。",
+          "vi": "Chuẩn bị điện dự trữ đề phòng trường hợp mất điện."
+        }
+      ]
+    },
+    {
+      "id": 751,
+      "word": "物資",
+      "reading": "ぶっし",
+      "han_viet": "VẬT",
+      "word_type": "Danh từ",
+      "meaning": "Vật tư",
+      "examples": [
+        {
+          "ja": "被災地への物資が不足する。",
+          "reading": "ひさいちへのぶっしがふそくする。",
+          "vi": "Đồ cứu tế gửi tới vùng bị hại không đủ."
+        }
+      ]
+    },
+    {
+      "id": 752,
+      "word": "用途",
+      "reading": "ようと",
+      "han_viet": "DỤNG ĐỒ",
+      "word_type": "Danh từ",
+      "meaning": "Công dụng, tiện ích, hữu dụng",
+      "examples": [
+        {
+          "ja": "ホームセンターには用途が分からない物が売られている。",
+          "reading": "ほーむせんたーにはようとがわからないものがうられている。",
+          "vi": "Ở trung tâm bán đồ gia dụng (home center) có bán những thứ mà không rõ công dụng."
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "word": "分野",
+      "reading": "ぶんや",
+      "han_viet": "PHÂN DÃ",
+      "word_type": "Danh từ",
+      "meaning": "Lĩnh vực",
+      "examples": [
+        {
+          "ja": "私の得意分野は数学だ。",
+          "reading": "わたしのとくいぶんやはすうがくだ。",
+          "vi": "Lĩnh vực sở trường của tôi là số học."
+        }
+      ]
+    },
+    {
+      "id": 754,
+      "word": "需要",
+      "reading": "じゅよう",
+      "han_viet": "YẾU",
+      "word_type": "Danh từ",
+      "meaning": "Nhu cầu",
+      "examples": [
+        {
+          "ja": "医者の需要が高まってきている。",
+          "reading": "いしゃのじゅようがたかまってきている。",
+          "vi": "Nhu cầu về y bác sĩ ngày càng tăng lên."
+        }
+      ]
+    },
+    {
+      "id": 755,
+      "word": "周辺",
+      "reading": "しゅうへん",
+      "han_viet": "CHU",
+      "word_type": "Danh từ",
+      "meaning": "Xung quanh",
+      "examples": [
+        {
+          "ja": "家の周辺で散歩をする。",
+          "reading": "いえのしゅうへんでさんぽをする。",
+          "vi": "Đi dạo xung quanh nhà."
+        }
+      ]
+    },
+    {
+      "id": 756,
+      "word": "現場",
+      "reading": "げんば",
+      "han_viet": "HIỆN TRƯỜNG",
+      "word_type": "Danh từ",
+      "meaning": "Hiện trường, công trường",
+      "examples": [
+        {
+          "ja": "工事現場は立ち入り禁止だ。",
+          "reading": "こうじげんばはたちいりきんしだ。",
+          "vi": "Cấm đi vào công trường. 79"
+        }
+      ]
+    },
+    {
+      "id": 757,
+      "word": "行方",
+      "reading": "ゆくえ",
+      "han_viet": "HÀNH PHƯƠNG",
+      "word_type": "Danh từ",
+      "meaning": "Tung tích, nơi",
+      "examples": [
+        {
+          "ja": "ペットの行方が分からない。",
+          "reading": "ぺっとのなめがたがわからない。",
+          "vi": "ở Không rõ tung tích của thú cưng."
+        }
+      ]
+    },
+    {
+      "id": 758,
+      "word": "欠陥",
+      "reading": "けっかん",
+      "han_viet": "KHIẾM",
+      "word_type": "Danh từ",
+      "meaning": "Khuyết điểm, hỏng",
+      "examples": [
+        {
+          "ja": "商品に欠陥が見つかった。",
+          "reading": "しょうひんにけっかんがみつかった。",
+          "vi": "Tìm ra lỗi hỏng trên hàng hóa."
+        }
+      ]
+    },
+    {
+      "id": 759,
+      "word": "災難",
+      "reading": "さいなん",
+      "han_viet": "TAI NAN",
+      "word_type": "Danh từ",
+      "meaning": "Tai nạn, thiên tai, khốn khổ",
+      "examples": [
+        {
+          "ja": "電車が遅れて遅刻してしまい、朝から災難だ。",
+          "reading": "でんしゃがおくれてちこくしてしまい、あさからさいなんだ。",
+          "vi": "Tàu đến muộn, nên tôi bị muộn, ngay sáng ra mà đã khốn khổ."
+        }
+      ]
+    },
+    {
+      "id": 760,
+      "word": "場",
+      "reading": "ば",
+      "han_viet": "TRƯỜNG",
+      "word_type": "Danh từ",
+      "meaning": "Địa điểm ; - Trường hợp ; - Bối cảnh",
+      "examples": [
+        {
+          "ja": "その場から離れてください。",
+          "reading": "そのばからはなれてください。",
+          "vi": "Hãy rời khỏi chỗ đó ."
+        }
+      ]
+    },
+    {
+      "id": 761,
+      "word": "元",
+      "reading": "もと",
+      "han_viet": "NGUYÊN",
+      "word_type": "Danh từ",
+      "meaning": "Nguyên, ban đầu",
+      "examples": [
+        {
+          "ja": "使い終わったら元に戻してください。",
+          "reading": "つかいおわったらもとにもどしてください。",
+          "vi": "Dùng xong hãy trả về vị trí cũ."
+        }
+      ]
+    },
+    {
+      "id": 762,
+      "word": "跡",
+      "reading": "あと",
+      "han_viet": "TÍCH",
+      "word_type": "Danh từ",
+      "meaning": "Dấu vết",
+      "examples": [
+        {
+          "ja": "誰かが歩いた跡が残っている。",
+          "reading": "だれかがあるいたあとがのこっている。",
+          "vi": "Dấu vết ai đó đi bộ còn lưu lại."
+        }
+      ]
+    },
+    {
+      "id": 763,
+      "word": "境",
+      "reading": "さかい",
+      "han_viet": "CẢNH",
+      "word_type": "Danh từ",
+      "meaning": "Biên giới, ngăn cách",
+      "examples": [
+        {
+          "ja": "ここは県境に接している。",
+          "reading": "ここはけんざかいにせっしている。",
+          "vi": "Chỗ này tiếp giáp với biên giới tỉnh."
+        }
+      ]
+    },
+    {
+      "id": 764,
+      "word": "端",
+      "reading": "はし",
+      "han_viet": "ĐOAN",
+      "word_type": "Danh từ",
+      "meaning": "Cạnh bên ; - Điểm đầu, điểm cuối",
+      "examples": [
+        {
+          "ja": "電車では端の席に座る。",
+          "reading": "でんしゃでははじのせきにすわる。",
+          "vi": "Trên tàu điện tôi ngồi vị trí cạnh bên. 80"
+        }
+      ]
+    },
+    {
+      "id": 765,
+      "word": "脇",
+      "reading": "わき",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Hông, nách",
+      "examples": [
+        {
+          "ja": "体温計を脇にはさんで熱を測る。",
+          "reading": "たいおんけいをわきにはさんでねつをはかる。",
+          "vi": "Kẹp nhiệt kế vào nách và đo nhiệt độ."
+        }
+      ]
+    },
+    {
+      "id": 766,
+      "word": "運",
+      "reading": "うん",
+      "han_viet": "VẬN",
+      "word_type": "Danh từ",
+      "meaning": "Số, vận mệnh",
+      "examples": [
+        {
+          "ja": "宝くじが当たるなんて運がいい。",
+          "reading": "たからくじがあたるなんてうんがいい。",
+          "vi": "Chuyện trúng xổ số đúng là vận may."
+        }
+      ]
+    },
+    {
+      "id": 767,
+      "word": "敵",
+      "reading": "てき",
+      "han_viet": "ĐỊCH",
+      "word_type": "Danh từ",
+      "meaning": "Kẻ thù",
+      "examples": [
+        {
+          "ja": "敵が攻め込んできた。",
+          "reading": "てきがせめこんできた。",
+          "vi": "Kẻ thù tấn công tới."
+        }
+      ]
+    },
+    {
+      "id": 768,
+      "word": "他",
+      "reading": "ほか",
+      "han_viet": "THA",
+      "word_type": "Danh từ",
+      "meaning": "Người (khác), ngoài ra",
+      "examples": [
+        {
+          "ja": "分からないので他の人に聞いてください。",
+          "reading": "わからないのでほかのにんにきいてください。",
+          "vi": "Tôi không biết nên cậu hỏi người khác đi."
+        }
+      ]
+    },
+    {
+      "id": 769,
+      "word": "者",
+      "reading": "もの",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Người, kẻ",
+      "examples": [
+        {
+          "ja": "若い者には負けない。",
+          "reading": "わかいものにはまけない。",
+          "vi": "Không để thua người trẻ tuổi."
+        }
+      ]
+    },
+    {
+      "id": 770,
+      "word": "勘",
+      "reading": "かん",
+      "han_viet": "KHÁM",
+      "word_type": "Danh từ",
+      "meaning": "Trực giác, linh cảm",
+      "examples": [
+        {
+          "ja": "彼女は勘がするどい。",
+          "reading": "かのじょはかんがするどい。",
+          "vi": "Cô ấy có trực giác nhạy bén."
+        }
+      ]
+    },
+    {
+      "id": 771,
+      "word": "説",
+      "reading": "せつ",
+      "han_viet": "THUYẾT",
+      "word_type": "Danh từ",
+      "meaning": "Thuyết",
+      "examples": [
+        {
+          "ja": "彼が結婚したという説がある。",
+          "reading": "かれがけっこんしたというせつがある。",
+          "vi": "Có giả thuyết cho rằng anh ấy đã kết hôn."
+        }
+      ]
+    },
+    {
+      "id": 772,
+      "word": "差",
+      "reading": "さ",
+      "han_viet": "SAI",
+      "word_type": "Danh từ",
+      "meaning": "Sai khác, khác biệt, chênh lệch",
+      "examples": [
+        {
+          "ja": "ベトナムと日本では時間差が二時間ある。",
+          "reading": "べとなむとにっぽんではじかんさがにじかんある。",
+          "vi": "Chênh lệch múi giờ giữa Việt Nam và Nhật Bản là 2 tiếng."
+        }
+      ]
+    },
+    {
+      "id": 773,
+      "word": "間",
+      "reading": "ま",
+      "han_viet": "GIAN",
+      "word_type": "Danh từ",
+      "meaning": "Thời gian, thời điểm, phòng",
+      "examples": [
+        {
+          "ja": "焼き立てのパンはあっという間に売り切れた。",
+          "reading": "やきたてのぱんはあっというまにうりきれた。",
+          "vi": "Bánh mới ra lò chẳng mấy chốc đã bán hết."
+        }
+      ]
+    },
+    {
+      "id": 774,
+      "word": "針",
+      "reading": "はり",
+      "han_viet": "CHÂM",
+      "word_type": "Danh từ",
+      "meaning": "Kim",
+      "examples": [
+        {
+          "ja": "指に針を刺してしまい、出血した。",
+          "reading": "ゆびにはりをさしてしまい、しゅっけつした。",
+          "vi": "Lỡ đâm kim vào ngón tay và bị chảy máu."
+        }
+      ]
+    },
+    {
+      "id": 775,
+      "word": "栓",
+      "reading": "せん",
+      "han_viet": "THOEN",
+      "word_type": "Danh từ",
+      "meaning": "Nút, nắp",
+      "examples": [
+        {
+          "ja": "お風呂に栓をして、水をためる。",
+          "reading": "おふろにせんをして、みずをためる。",
+          "vi": "Đóng nút bồn tắm sau đó tích nước."
+        }
+      ]
+    },
+    {
+      "id": 776,
+      "word": "空",
+      "reading": "から",
+      "han_viet": "KHÔNG",
+      "word_type": "Danh từ",
+      "meaning": "Trống rỗng",
+      "examples": [
+        {
+          "ja": "三人でワイン四本を空にした。",
+          "reading": "さんにんでわいんよんほんをそらにした。",
+          "vi": "3 người uống hết 4 chai rượu vang."
+        }
+      ]
+    },
+    {
+      "id": 777,
+      "word": "便",
+      "reading": "びん",
+      "han_viet": "TIỆN",
+      "word_type": "Danh từ",
+      "meaning": "Thư, xe thư ; - Chuyến bay",
+      "examples": [
+        {
+          "ja": "夕方の便で荷物を送ったので、明日の朝には届きます。",
+          "reading": "ゆうがたのびんでにもつをおくったので、あしたのあさにはとどきます。",
+          "vi": "Tôi đã gửi hành lí vào chuyến chiều tối, nên sáng mai sẽ tới nơi."
+        }
+      ]
+    },
+    {
+      "id": 778,
+      "word": "便",
+      "reading": "べん",
+      "han_viet": "TIỆN",
+      "word_type": "Danh từ",
+      "meaning": "Thuận tiện",
+      "examples": [
+        {
+          "ja": "この場所は交通の便がいい。",
+          "reading": "このばしょはこうつうのびんがいい。",
+          "vi": "Ở chỗ này giao thông thuận tiện. 81"
+        }
+      ]
+    },
+    {
+      "id": 779,
+      "word": "券",
+      "reading": "けん",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Vé",
+      "examples": [
+        {
+          "ja": "スーパーで割引券を貰った。",
+          "reading": "すーぱーでわりびきけんをもらった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 780,
+      "word": "表",
+      "reading": "ひょう",
+      "han_viet": "BIỂU",
+      "word_type": "Danh từ",
+      "meaning": "Bảng biểu",
+      "examples": [
+        {
+          "ja": "健康診断の結果を表にする。",
+          "reading": "けんこうしんだんのけっかをおもてにする。",
+          "vi": "Lập bảng kết quả khám sức khỏe."
+        }
+      ]
+    },
+    {
+      "id": 781,
+      "word": "分",
+      "reading": "ぶん",
+      "han_viet": "PHÂN",
+      "word_type": "Danh từ",
+      "meaning": "Phần, lượng",
+      "examples": [
+        {
+          "ja": "姉の分のケーキを食べてしまった。",
+          "reading": "あねのふんのけーきをたべてしまった。",
+          "vi": "Tôi lỡ ăn phần bánh kem của chị gái."
+        }
+      ]
+    },
+    {
+      "id": 782,
+      "word": "筋",
+      "reading": "すじ",
+      "han_viet": "GÂN",
+      "word_type": "Danh từ",
+      "meaning": "Cốt truyện, gân, nguồn",
+      "examples": [
+        {
+          "ja": "彼女の話は筋が通っていない。",
+          "reading": "かのじょのはなしはすじがとおっていない。",
+          "vi": "Câu chuyện của cô ấy cốt truyện không nhất quán."
+        }
+      ]
+    },
+    {
+      "id": 783,
+      "word": "粒",
+      "reading": "つぶ",
+      "han_viet": "LẠP",
+      "word_type": "Danh từ",
+      "meaning": "Hạt, viên",
+      "examples": [
+        {
+          "ja": "このブドウは粒が大きい。",
+          "reading": "このぶどうはつぶがおおきい。",
+          "vi": "Loại nho này hạt to."
+        }
+      ]
+    },
+    {
+      "id": 784,
+      "word": "得",
+      "reading": "とく",
+      "han_viet": "ĐẮC",
+      "word_type": "Danh từ",
+      "meaning": "Lợi ích, lãi",
+      "examples": [
+        {
+          "ja": "店員さんがおまけをしてくれて得をした気分だ。",
+          "reading": "てんいんさんがおまけをしてくれてえをしたきぶんだ。",
+          "vi": "Nhân viên cửa hàng giảm giá cho tôi, nên cảm thấy được lời."
+        }
+      ]
+    },
+    {
+      "id": 785,
+      "word": "損",
+      "reading": "そん",
+      "han_viet": "TỐN",
+      "word_type": "Danh từ",
+      "meaning": "Lỗ, tổn thất",
+      "examples": [
+        {
+          "ja": "他の店の方が安かった。損した気分だ。",
+          "reading": "ほかのみせのほうがやすかった。そんしたきぶんだ。",
+          "vi": "Cửa hàng khác giá rẻ hơn. Cảm giác bị lỗ."
+        }
+      ]
+    },
+    {
+      "id": 786,
+      "word": "輪",
+      "reading": "わ",
+      "han_viet": "LUÂN",
+      "word_type": "Danh từ",
+      "meaning": "Vòng tròn, vòng",
+      "examples": [
+        {
+          "ja": "何人かに分かれて輪を作る。",
+          "reading": "なんにんかにわかれてわをつくる。",
+          "vi": "Chia mấy người một ra xếp thành vòng tròn."
+        }
+      ]
+    },
+    {
+      "id": 787,
+      "word": "害",
+      "reading": "がい",
+      "han_viet": "HẠI",
+      "word_type": "Danh từ",
+      "meaning": "Thiệt hại, tổn hại",
+      "examples": [
+        {
+          "ja": "よく部屋に入ってくるがクモに害はない。",
+          "reading": "よくへやにいっってくるがくもにがいはない。",
+          "vi": "Mặc dù hay xuất hiện trong phòng nhưng nhện vốn không có hại gì cả."
+        }
+      ]
+    },
+    {
+      "id": 788,
+      "word": "品",
+      "reading": "ひん",
+      "han_viet": "PHẨM",
+      "word_type": "Danh từ",
+      "meaning": "Hàng hóa ; - phẩm cách, phẩm giá",
+      "examples": [
+        {
+          "ja": "彼女の話し方には品がある。",
+          "reading": "かのじょのはなしかたにはひんがある。",
+          "vi": "Cách nói chuyện của cô ấy đầy sang trọng, quý phái. 82"
+        }
+      ]
+    },
+    {
+      "id": 789,
+      "word": "騒々しい",
+      "reading": "そうぞうしい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Ồn ào",
+      "examples": [
+        {
+          "ja": "していた。",
+          "reading": "していた。",
+          "vi": "Phòng học ồn ào nên tôi đi xem thử, hóa ra đang cãi nhau."
+        }
+      ]
+    },
+    {
+      "id": 790,
+      "word": "慌ただしい",
+      "reading": "あわただしい",
+      "han_viet": "HOẢNG",
+      "word_type": "Tính từ -i",
+      "meaning": "Vội vã, cuống cuồng",
+      "examples": [
+        {
+          "ja": "母は慌ただしく支度をしている。",
+          "reading": "はははあわただしくしたくをしている。",
+          "vi": "Mẹ đang cuống cuồng sửa soạn."
+        }
+      ]
+    },
+    {
+      "id": 791,
+      "word": "そそっかしい",
+      "reading": "そそっかしい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Cẩu thả, không cẩn thận",
+      "examples": [
+        {
+          "ja": "彼女はそそっかしくて、落ち着きがない。",
+          "reading": "かのじょはそそっかしくて、おちつきがない。",
+          "vi": "Cô ấy rất cẩu thả, không bình tĩnh."
+        }
+      ]
+    },
+    {
+      "id": 792,
+      "word": "ばかばかしい",
+      "reading": "ばかばかしい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Tào lao, nhảm nhí, vẩn",
+      "examples": [
+        {
+          "ja": "そんなばかばかしい話は聞きたくない。",
+          "reading": "そんなばかばかしいはなしはききたくない。",
+          "vi": "vớ Tôi không muốn nghe câu chuyện ngớ ngẩn ấy."
+        }
+      ]
+    },
+    {
+      "id": 793,
+      "word": "ずうずうしい",
+      "reading": "ずうずうしい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Mặt dày, liêm sỉ, không biết xấu hổ",
+      "examples": [
+        {
+          "ja": "並んでいるのに、ずうずうしく割り込んでくる。",
+          "reading": "ならんでいるのに、ずうずうしくわりこんでくる。",
+          "vi": "vô Mọi người đang xếp hàng mà lại mặt dày chen ngang vào."
+        }
+      ]
+    },
+    {
+      "id": 794,
+      "word": "憎らしい",
+      "reading": "にくらしい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Đáng ghét, ganh tị",
+      "examples": [
+        {
+          "ja": "憎らしい口をきく。",
+          "reading": "にくらしいくちをきく。",
+          "vi": "Cách ăn nói rất đáng ghét."
+        }
+      ]
+    },
+    {
+      "id": 795,
+      "word": "憎い",
+      "reading": "にくい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Căm thù, ghét",
+      "examples": [
+        {
+          "ja": "母を殺害した犯人が憎い。",
+          "reading": "ははをさつがいしたはんにんがにくい。",
+          "vi": "Căm thù tên thủ phạm đã giết hại mẹ."
+        },
+        {
+          "ja": "妹だけにプレゼントあげるなんてずるい。",
+          "reading": "いもうとだけにぷれぜんとあげるなんてずるい。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 796,
+      "word": "ずるい",
+      "reading": "ずるい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Không trung thực, xảo quyệt ; - Không bằng",
+      "examples": [
+        {
+          "ja": "ずるい方法で勝ちたくない。",
+          "reading": "ずるいほうほうでかちたくない。",
+          "vi": "công Tôi không muốn thắng bằng cách không trung"
+        }
+      ]
+    },
+    {
+      "id": 797,
+      "word": "険しい",
+      "reading": "けわしい",
+      "han_viet": "HIỂM",
+      "word_type": "Tính từ -i",
+      "meaning": "Nghiêm khắc, hung dữ ; - hiểm trở,",
+      "examples": [
+        {
+          "ja": "険しい山道を歩く。",
+          "reading": "けわしいやまみちをあるく。",
+          "vi": "Đi bộ trên đường núi hiểm trở."
+        },
+        {
+          "ja": "彼は険しい表情をしている。",
+          "reading": "かれはけわしいひょうじょうをしている。",
+          "vi": "Anh ấy có vẻ mặt nghiêm khắc."
+        }
+      ]
+    },
+    {
+      "id": 798,
+      "word": "面倒くさい",
+      "reading": "めんどうくさい",
+      "han_viet": "ĐẢO",
+      "word_type": "Tính từ -i",
+      "meaning": "Phiền toái, rắc rối, chịu",
+      "examples": [
+        {
+          "ja": "休日に仕事をするなんてめんどうくさい。",
+          "reading": "きゅうじつにしごとをするなんてめんどうくさい。",
+          "vi": "Ngày nghỉ còn phải đi làm, thật là khó chịu. khó"
+        },
+        {
+          "ja": "めんどうくさいことは後回しする。",
+          "reading": "めんどうくさいことはあとまわしする。",
+          "vi": "Chuyện rắc rối thì để sau. 83"
+        }
+      ]
+    },
+    {
+      "id": 799,
+      "word": "しつこい",
+      "reading": "しつこい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "lằng nhằng ; - đậm (vị, màu, mùi)",
+      "examples": [
+        {
+          "ja": "この料理の味付けはしつこくない。",
+          "reading": "このりょうりのあじつけはしつこくない。",
+          "vi": "Món ăn này nêm vị không đậm."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "lesson_id": "lesson_46",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.6",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "時間内",
+      "reading": "じかんない",
+      "han_viet": "THÌ GIAN NỘI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "VỰNG",
+      "examples": [
+        {
+          "ja": "時間内に書き終える",
+          "reading": "じかんないにかきおえる",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "期間内Trongthời",
+      "reading": "きかんないTrongthời",
+      "han_viet": "KỲ GIAN NỘI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Trả trong thời gian cho phép ; Trả trong thời gian cho phép",
+      "examples": [
+        {
+          "ja": "期間内に支払う",
+          "reading": "きかんないにしはらう",
+          "vi": "Trả trong thời gian cho phép"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "予算内Nằmtrong",
+      "reading": "よさんないNằmtrong",
+      "han_viet": "DỰ TOÁN NỘI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Nó phù hợp với ngân sách ; Nó phù hợp với ngân sách",
+      "examples": [
+        {
+          "ja": "予算内に収まる",
+          "reading": "よさんないにおさまる",
+          "vi": "Nó phù hợp với ngân sách"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "予想外Ngoàidự",
+      "reading": "よそうがいNgoàidự",
+      "han_viet": "DỰ TƯỞNG NGOẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Kết quả nằm ngoài dự đoán ; Kết quả nằm ngoài dự đoán",
+      "examples": [
+        {
+          "ja": "予想外の結果",
+          "reading": "よそうがいのけっか",
+          "vi": "Kết quả nằm ngoài dự đoán"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "時間外Ngoàigiờ",
+      "reading": "じかんがいNgoàigiờ",
+      "han_viet": "THÌ GIAN NGOẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Lao động ngoài giờ",
+      "examples": [
+        {
+          "ja": "時間外労働",
+          "reading": "じかんがいろうどう",
+          "vi": "Lao động ngoài giờ"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "範囲外Ngoàiphạm",
+      "reading": "はんいがいNgoàiphạm",
+      "han_viet": "PHẠM VI NGOẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Bài tập ngoài phạm vi ; Bài tập ngoài phạm vi",
+      "examples": [
+        {
+          "ja": "範囲外の問題",
+          "reading": "はんいがいのもんだい",
+          "vi": "Bài tập ngoài phạm vi"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "lesson_id": "lesson_49",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.10",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "創造性",
+      "reading": "そうぞうせい",
+      "han_viet": "SÁNG TẠO TÍNH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tính sáng tạo ; Tính sáng tạo",
+      "examples": []
+    },
+    {
+      "id": 2,
+      "word": "安全性",
+      "reading": "あんぜんせい",
+      "han_viet": "AN TOÀN TÍNH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Kiểm tra tính an toàn ; Kiểm tra tính an toàn",
+      "examples": [
+        {
+          "ja": "安全性を確かめる",
+          "reading": "あんぜんせいをたしかめる",
+          "vi": "Kiểm tra tính an toàn"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "可能性",
+      "reading": "かのうせい",
+      "han_viet": "KHẢ NĂNG TÍNH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Thử tính khả năng ; Thử tính khả năng",
+      "examples": [
+        {
+          "ja": "可能性を試す",
+          "reading": "かのうせいをためす",
+          "vi": "Thử tính khả năng"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "植物性",
+      "reading": "しょくぶつせい",
+      "han_viet": "THỰC VẬT TÍNH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Dầu mang tính chất thực vật ; Dầu mang tính chất thực vật",
+      "examples": [
+        {
+          "ja": "植物性の油",
+          "reading": "しょくぶつせいのあぶら",
+          "vi": "Dầu mang tính chất thực vật"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "スチールの製の机",
+      "reading": "すちーるのせいのつくえ",
+      "han_viet": "CHẾ CƠ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "",
+      "examples": []
+    },
+    {
+      "id": 6,
+      "word": "日本製",
+      "reading": "にほんせい",
+      "han_viet": "NHẬT BẢN CHẾ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Sản xuất tại Nhật Bản",
+      "examples": []
+    }
+  ]
+}

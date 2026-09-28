@@ -1,0 +1,62 @@
+{
+  "lesson_id": "lesson_36",
+  "lesson_name": "N2 Chương 10 - Phân biệt từ vựng 10.5",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "発達",
+      "reading": "はったつ",
+      "han_viet": "PHÁT ĐẠT",
+      "word_type": "Từ vựng",
+      "meaning": "Ý nghĩa : ; - Phát triển về tâm hồn, thể ; chất, năng lực... ; - Phát triển về những hiện ; tượng tự nhiên ; Hiện tượng tự nhiên.",
+      "examples": [
+        {
+          "ja": "台風の発達",
+          "reading": "たいふうのはったつ",
+          "vi": "Sự phát triển của bão."
+        },
+        {
+          "ja": "子どもの身体が発達する。",
+          "reading": "こどものしんたいがはったつする。",
+          "vi": "thể Cơ thể của trẻ phát triển. hiện"
+        },
+        {
+          "ja": "息子は発達障害と診断された。",
+          "reading": "むすこははったつしょうがいとしんだんされた。",
+          "vi": "Con tôi được chuẩn đoán là mắc chứng rối loạn phát triển."
+        },
+        {
+          "ja": "台風は発達しながら日本海に向かっています。",
+          "reading": "たいふうははったつしながらにほんかいにむかっています。",
+          "vi": "Cơn bão ngày càng mạnh lên và hướng về biển Nhật"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "発展",
+      "reading": "はってん",
+      "han_viet": "PHÁT TRIỂN",
+      "word_type": "Từ vựng",
+      "meaning": "Ý nghĩa: ; Phát triển về quy mô, lĩnh ; vực, lãnh thổ, sức mạnh, ; tiềm lực...",
+      "examples": [
+        {
+          "ja": "些細なことが大事件に発展する。",
+          "reading": "ささいなことがだいじけんにはってんする。",
+          "vi": "Những chuyện nhỏ nhặt phát triển thành vụ án lớn."
+        },
+        {
+          "ja": "ベトナムの経済が発展している。",
+          "reading": "べとなむのけいざいがはってんしている。",
+          "vi": "lĩnh Nền kinh tế của Việt Nam đang phát triển."
+        },
+        {
+          "ja": "産業の発展により、国が豊かになる。",
+          "reading": "さんぎょうのはってんにより、くにがゆたかになる。",
+          "vi": "Sự phát triển của ngành công nghiệp đã làm cho đất nước giàu có hơn."
+        }
+      ]
+    }
+  ]
+}

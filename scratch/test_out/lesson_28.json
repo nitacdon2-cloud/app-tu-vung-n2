@@ -1,0 +1,292 @@
+{
+  "lesson_id": "lesson_28",
+  "lesson_name": "N2 Chương 7 - 複合動詞 7.3",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "話し合う",
+      "reading": "はなしあう",
+      "han_viet": "THOẠI HỢP",
+      "word_type": "Động từ",
+      "meaning": "Bàn bạc, thảo luận",
+      "examples": [
+        {
+          "ja": "恋人と今後の将来について話し合う。",
+          "reading": "こいびととこんごのしょうらいについてはなしあう。",
+          "vi": "Thảo luận với người yêu về tương lai sau này."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "言い合う",
+      "reading": "いいあう",
+      "han_viet": "NGÔN HỢP",
+      "word_type": "Động từ",
+      "meaning": "Tranh cãi cọ",
+      "examples": [
+        {
+          "ja": "母と父が言い合っている。",
+          "reading": "ははとちちがいいあっている。",
+          "vi": "Bố và mẹ đang tranh cãi."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "語り合う",
+      "reading": "かたりあう",
+      "han_viet": "NGỮ HỢP",
+      "word_type": "Động từ",
+      "meaning": "Tâm sự, hàn huyên",
+      "examples": [
+        {
+          "ja": "親友と朝まで語り合った。",
+          "reading": "しんゆうとあさまでかたりあった。",
+          "vi": "Tâm sự với bạn thân tới tận sáng."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "分け合う",
+      "reading": "わけあう",
+      "han_viet": "PHÂN HỢP",
+      "word_type": "Động từ",
+      "meaning": "Chia sẻ",
+      "examples": [
+        {
+          "ja": "兄弟でおやつを分け合う。",
+          "reading": "きょうだいでおやつをわけあう。",
+          "vi": "Chia sẻ đồ ăn vặt cho anh em."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "出し合う",
+      "reading": "だしあう",
+      "han_viet": "XUẤT HỢP",
+      "word_type": "Động từ",
+      "meaning": "Cùng đóng góp; ; chia sẻ",
+      "examples": [
+        {
+          "ja": "意見を出し合う。",
+          "reading": "いけんをだしあう。",
+          "vi": "Đóng góp ý kiến. chung"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "見つめ合う",
+      "reading": "みつめあう",
+      "han_viet": "KIẾN HỢP",
+      "word_type": "Động từ",
+      "meaning": "Nhìn chằm chằm nhau",
+      "examples": [
+        {
+          "ja": "彼氏と見つめ合った後に、抱きしめ合った。",
+          "reading": "かれしとみつめあったのちに、だきしめあった。",
+          "vi": "Sau khi tôi với anh người yêu nhìn chằm chằm nhau, thì ôm chầm lấy nhau."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "向かい合う",
+      "reading": "むかいあう",
+      "han_viet": "HƯỚNG HỢP",
+      "word_type": "Động từ",
+      "meaning": "Đối diện nhau",
+      "examples": [
+        {
+          "ja": "向かい合って食事をする。",
+          "reading": "むかいあってしょくじをする。",
+          "vi": "Ngồi ăn đối diện nhau."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "助け合う",
+      "reading": "たすけあう",
+      "han_viet": "TRỢ HỢP",
+      "word_type": "Động từ",
+      "meaning": "Giúp dỡ nhau",
+      "examples": [
+        {
+          "ja": "人は助け合って生活している。",
+          "reading": "にんはたすけあってせいかつしている。",
+          "vi": "Con người giúp đỡ lẫn nhau để sống."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "つめあわせる",
+      "reading": "つめあわせる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Đóng gói, đóng hộp",
+      "examples": [
+        {
+          "ja": "箱に色々なフルーツを詰め合わせる。",
+          "reading": "はこにいろいろなふるーつをつめあわせる。",
+          "vi": "Đóng nhiều loại hoa quả vào hộp."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "かさねあわせる",
+      "reading": "かさねあわせる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Chồng",
+      "examples": [
+        {
+          "ja": "お皿を重ね合わせる。",
+          "reading": "おさらをかさねあわせる。",
+          "vi": "lên Chồng đĩa lên nhau."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "といあわせる",
+      "reading": "といあわせる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Hỏi đáp, vấn (không trực tiếp)",
+      "examples": [
+        {
+          "ja": "忘れ物がないか、デパートに問い合わせる。",
+          "reading": "わすれものがないか、でぱーとにといあわせる。",
+          "vi": "Hỏi phía trung tâm mua sắm xem mình có để quên đồ không."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "照らし合わせる",
+      "reading": "てらしあわせる",
+      "han_viet": "CHIẾU HỢP",
+      "word_type": "Động từ",
+      "meaning": "So sánh, đối chiếu",
+      "examples": [
+        {
+          "ja": "模範解答と自分の回答を照らし合わせる。",
+          "reading": "もはんかいとうとじぶんのかいとうをてらしあわせる。",
+          "vi": "Đối chiếu đáp án của mình với đáp án mẫu."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "もうしあわせる",
+      "reading": "もうしあわせる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Sắp đặt ; - Thống",
+      "examples": [
+        {
+          "ja": "集合時間を申し合わせる。",
+          "reading": "しゅうごうじかんをもうしあわせる。",
+          "vi": "nhất Thống nhất thời gian tập trung."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "さそいあわせる",
+      "reading": "さそいあわせる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Rủ nhau",
+      "examples": [
+        {
+          "ja": "友達と誘い合わせて新宿に行く。",
+          "reading": "ともだちとさそいあわせてしんじゅくにいく。",
+          "vi": "Tôi với đứa bạn rủ nhau đi Shinjuku. 112"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "となりあわせる",
+      "reading": "となりあわせる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Ở bên",
+      "examples": [
+        {
+          "ja": "居酒屋で隣り合わせの人と仲良くなった。",
+          "reading": "いざかやでとなりあわせのにんとなかよくなった。",
+          "vi": "cạnh Trở nên thân thiết với người ngồi bên cạnh trong quán rượu."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "くみあわせる",
+      "reading": "くみあわせる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Kết hợp; ; - Liên kết ; - Lắp ghép",
+      "examples": [
+        {
+          "ja": "パーツを組み合わせる。",
+          "reading": "ぱーつをくみあわせる。",
+          "vi": "lại, Lắp ghép các phụ tùng."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "居合わせる",
+      "reading": "いあわせる",
+      "han_viet": "CƯ HỢP",
+      "word_type": "Động từ",
+      "meaning": "Tình cờ",
+      "examples": [
+        {
+          "ja": "その場に居合わせた人に話を聞く。",
+          "reading": "そのばにいあわせたにんにはなしをきく。",
+          "vi": "gặp Hỏi chuyện người tình cờ có mặt ở đó."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "のりあわせる",
+      "reading": "のりあわせる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Đi cùng chuyến",
+      "examples": [
+        {
+          "ja": "同じ電車に乗り合わせた人と友達になる。",
+          "reading": "おなじでんしゃにのりあわせたにんとともだちになる。",
+          "vi": "Trở thành bạn với người đi cùng chuyến tàu."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "もちあわせる",
+      "reading": "もちあわせる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Có mang trong người",
+      "examples": [
+        {
+          "ja": "持ち合わせがなかったので、友達に借りる。",
+          "reading": "もちあわせがなかったので、ともだちにかりる。",
+          "vi": "Vì không mang sẵn trong người nên mượn bạn. 113"
+        }
+      ]
+    }
+  ]
+}

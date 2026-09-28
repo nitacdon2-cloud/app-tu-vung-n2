@@ -1,0 +1,67 @@
+{
+  "lesson_id": "lesson_35",
+  "lesson_name": "N2 Chương 10 - Phân biệt từ vựng 10.4",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "及ぼす",
+      "reading": "およぼす",
+      "han_viet": "CẬP",
+      "word_type": "Từ vựng",
+      "meaning": "① Gây ra ; ① Kéo dài",
+      "examples": [
+        {
+          "ja": "影響を及ぼす。",
+          "reading": "えいきょうをおよぼす。",
+          "vi": "Gây ảnh hưởng."
+        },
+        {
+          "ja": "迷惑を及ぼす。",
+          "reading": "めいわくをおよぼす。",
+          "vi": "Gây phiền toái, phiền phức cho ai."
+        },
+        {
+          "ja": "２時間に及ぶ討論",
+          "reading": "２じかんにおよぶとうろん",
+          "vi": "Cuộc tranh luận kéo dài 2 tiếng"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "及ぶ",
+      "reading": "およぶ",
+      "han_viet": "CẬP",
+      "word_type": "Từ vựng",
+      "meaning": "② Đạt đến ; ③ Ngang tầm ; ④ Quay lại ; ⑤ Cần thiết",
+      "examples": [
+        {
+          "ja": "及ばぬ恋",
+          "reading": "およばぬこい",
+          "vi": "Tính yêu không thể với tới"
+        },
+        {
+          "ja": "実力は彼に及ぶ者はいない。",
+          "reading": "じつりょくはかれにおよぶものはいない。",
+          "vi": "Về thực lực thì không ai có thể bằng anh ta."
+        },
+        {
+          "ja": "後悔しても及ばない。",
+          "reading": "こうかいしてもおよばない。",
+          "vi": "Cho dù hối hận thì cũng không thể quay lại được."
+        },
+        {
+          "ja": "遠慮するには及ばない。",
+          "reading": "えんりょするにはおよばない。",
+          "vi": "Không cần giữ ý đâu."
+        },
+        {
+          "ja": "心配するには及ばない。",
+          "reading": "しんぱいするにはおよばない。",
+          "vi": "Không cần lo lắng đâu."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "lesson_id": "lesson_10",
+  "lesson_name": "N2 Chương 2 - Động danh từ 2.1",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "割引",
+      "reading": "わりびき",
+      "han_viet": "CẮT DẪN",
+      "word_type": "Động danh từ",
+      "meaning": "Giảm giá",
+      "examples": [
+        {
+          "ja": "3つ以上買うと割引されるらしい。",
+          "reading": "3ついじょうかうとわりびきされるらしい。",
+          "vi": "Nghe nói nếu mà mua trên 3 mặt hàng thì sẽ được giảm giá."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "支出",
+      "reading": "ししゅつ",
+      "han_viet": "CHI XUẤT",
+      "word_type": "Động danh từ",
+      "meaning": "chi phí, chi tiêu",
+      "examples": [
+        {
+          "ja": "費用は予算から支出する。",
+          "reading": "ひようはよさんからししゅつする。",
+          "vi": "Chi phí được chi ra từ ngân sách."
+        },
+        {
+          "ja": "支出が収入を上回る。",
+          "reading": "ししゅつがしゅうにゅうをうわまわる。",
+          "vi": "Chi phí vượt quá thu nhập."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "募金",
+      "reading": "ぼきん",
+      "han_viet": "KIM",
+      "word_type": "Động danh từ",
+      "meaning": "quyên tiền, gây quỹ",
+      "examples": [
+        {
+          "ja": "被災地のために１万円募金した。",
+          "reading": "ひさいちのために１まんえんぼきんした。",
+          "vi": "Đã gây quỹ được 1 vạn yên cho vùng bị thiên tai."
+        },
+        {
+          "ja": "被災地に向けての募金活動を行う。",
+          "reading": "ひさいちにむけてのぼきんかつどうをおこなう。",
+          "vi": "Thực hiện hoạt động gây quỹ hướng đến vùng bị thiệt hại."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "合計",
+      "reading": "ごうけい",
+      "han_viet": "HỢP KẾ",
+      "word_type": "Động danh từ",
+      "meaning": "tổng cộng",
+      "examples": [
+        {
+          "ja": "かかった費用を合計すると、全部で120万円になる。",
+          "reading": "かかったひようをごうけいすると、ぜんぶで120まんえんになる。",
+          "vi": "Tính tổng lại các chi phí là hết tất cả 120 vạn yên."
+        },
+        {
+          "ja": "合計金額を計算する。",
+          "reading": "ごうけいきんがくをけいさんする。",
+          "vi": "Tính tổng số tiền."
+        },
+        {
+          "ja": "このクラスの合計人数は、32人だ。",
+          "reading": "このくらすのごうけいにんずうは、32にんだ。",
+          "vi": "Tổng số người trong lớp này là 32 người."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "おまけ",
+      "reading": "おまけ",
+      "han_viet": "",
+      "word_type": "Động danh từ",
+      "meaning": "quà tặng kèm",
+      "examples": [
+        {
+          "ja": "店のおばさんが、おまけでお菓子を一つ足してくれた。",
+          "reading": "みせのおばさんが、おまけでおかしをひとつたしてくれた。",
+          "vi": "Cô bán hàng đã cho tôi thêm một cái kẹo làm quà tặng kèm."
+        },
+        {
+          "ja": "りんごを買ったら店員さんが、おまけしてくれた。",
+          "reading": "りんごをかったらてんいんさんが、おまけしてくれた。",
+          "vi": "Mua táo và được người bán hàng tặng thêm (táo)."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "勘定",
+      "reading": "かんじょう",
+      "han_viet": "KHÁM ĐỊNH",
+      "word_type": "Động danh từ",
+      "meaning": "thanh toán, kiểm toán",
+      "examples": [
+        {
+          "ja": "売上金を勘定する。",
+          "reading": "うりあげきんをかんじょうする。",
+          "vi": "Kiểm lại doanh thu."
+        },
+        {
+          "ja": "いくら計算しても、勘定が合わない。",
+          "reading": "いくらけいさんしても、かんじょうがあわない。",
+          "vi": "Dù có kiểm bao nhiêu chăng nữa thì thu trên sổ sách và thực tế vẫn không khớp nhau."
+        },
+        {
+          "ja": "部下たちの飲み代の勘定を済ませて先に帰る。",
+          "reading": "ぶかたちののみだいのかんじょうをすませてさきにかえる。",
+          "vi": "Về trước sau khi thanh toán đồ uống của cấp dưới. 32"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "弁償",
+      "reading": "べんしょう",
+      "han_viet": "",
+      "word_type": "Động danh từ",
+      "meaning": "bồi thường, đền bù",
+      "examples": [
+        {
+          "ja": "弁償しなくてもいいよ。",
+          "reading": "べんしょうしなくてもいいよ。",
+          "vi": "Không cần bồi thường đâu!"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "出勤",
+      "reading": "しゅっきん",
+      "han_viet": "XUẤT CẦN",
+      "word_type": "Động danh từ",
+      "meaning": "đi làm",
+      "examples": [
+        {
+          "ja": "出勤日数は月に約15日ほどだ。",
+          "reading": "しゅっきんびかずはがつにやく15にちほどだ。",
+          "vi": "Số ngày đi làm một tháng vào khoảng 15 ngày."
+        },
+        {
+          "ja": "毎朝7時に出勤する。",
+          "reading": "まいあさ7ときにしゅっきんする。",
+          "vi": "Hàng sáng đi làm lúc 7 giờ."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "出世",
+      "reading": "しゅっせ",
+      "han_viet": "XUẤT THẾ",
+      "word_type": "Động danh từ",
+      "meaning": "thành đạt, lên chức",
+      "examples": [
+        {
+          "ja": "彼は同期の中で最も出世が期待されている新人だ。",
+          "reading": "かれはどうきのなかでもっともしゅっせがきたいされているしんじんだ。",
+          "vi": "Anh ta là người mới được kỳ vọng nhất là sẽ thành công trong số những người cùng lứa."
+        },
+        {
+          "ja": "同期の山田さんが出世した。",
+          "reading": "どうきのやまださんがしゅっせした。",
+          "vi": "Anh Yamada cùng khoá với tôi giờ rất thành đạt."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "苦労",
+      "reading": "くろう",
+      "han_viet": "KHỔ",
+      "word_type": "Động danh từ",
+      "meaning": "khó khăn, vất",
+      "examples": [
+        {
+          "ja": "若いころは、家が貧乏で苦労した。",
+          "reading": "わかいころは、いえがびんぼうでくろうした。",
+          "vi": "Hồi trẻ gia cảnh nghèo khó nên đã rất vất vả. vả"
+        },
+        {
+          "ja": "子どもにたくさん苦労をかけてしまった。",
+          "reading": "こどもにたくさんくろうをかけてしまった。",
+          "vi": "Tôi đã gây ra rất nhiều khó khăn vất vả cho bọn trẻ"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "募集",
+      "reading": "ぼしゅう",
+      "han_viet": "TẬP",
+      "word_type": "Động danh từ",
+      "meaning": "tuyển dụng",
+      "examples": [
+        {
+          "ja": "アルバイトを募集する。",
+          "reading": "あるばいとをぼしゅうする。",
+          "vi": "Tuyển người làm thêm."
+        },
+        {
+          "ja": "人手が足りないので社員の募集をする。",
+          "reading": "ひとでがたりないのでしゃいんのぼしゅうをする。",
+          "vi": "Vì thiếu nhân lực nên tuyển thêm nhân viên."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "専攻",
+      "reading": "せんこう",
+      "han_viet": "CÔNG",
+      "word_type": "Động danh từ",
+      "meaning": "chuyên ngành",
+      "examples": [
+        {
+          "ja": "私の専攻は土木だ。",
+          "reading": "わたしのせんこうはどぼくだ。",
+          "vi": "Chuyên ngành của tôi là xây dựng dân dụng."
+        },
+        {
+          "ja": "大学では、経営学を専攻した。",
+          "reading": "だいがくでは、けいえいがくをせんこうした。",
+          "vi": "Tôi đã học chuyên ngành quản trị kinh doanh ở trường Đại học."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "出産",
+      "reading": "しゅっさん",
+      "han_viet": "XUẤT SẢN",
+      "word_type": "Động danh từ",
+      "meaning": "sinh đẻ",
+      "examples": [
+        {
+          "ja": "母は私を自宅で出産した。",
+          "reading": "はははわたしをじたくでしゅっさんした。",
+          "vi": "Mẹ đã hạ sinh tôi ngay tại nhà."
+        },
+        {
+          "ja": "嫁の出産に立ち会う。",
+          "reading": "よめのしゅっさんにたちあう。",
+          "vi": "Ở cạnh chứng kiến vợ đẻ."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "遺伝",
+      "reading": "いでん",
+      "han_viet": "DI",
+      "word_type": "Động danh từ",
+      "meaning": "di truyền",
+      "examples": [
+        {
+          "ja": "父親の薄毛が息子に遺伝する。",
+          "reading": "ちちおやのうすげがむすこにいでんする。",
+          "vi": "Chứng tóc thưa của cha di truyền cho con trai."
+        },
+        {
+          "ja": "病気は遺伝によることが多い。",
+          "reading": "びょうきはいでんによることがおおい。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "尊敬",
+      "reading": "そんけい",
+      "han_viet": "TÔN KÍNH",
+      "word_type": "Động danh từ",
+      "meaning": "tôn kính, kính trọng",
+      "examples": [
+        {
+          "ja": "あの先生が学生からの尊敬を集めている。",
+          "reading": "あのせんせいががくせいからのそんけいをあつめている。",
+          "vi": "Giáo viên đó nhận được sự kính trọng của học sinh. 33"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "謙遜",
+      "reading": "けんそん",
+      "han_viet": "KHIÊM",
+      "word_type": "Động danh từ",
+      "meaning": "khiên tốn, khiêm nhường",
+      "examples": [
+        {
+          "ja": "そんなに謙遜しなくてもいいですよ。",
+          "reading": "そんなにけんそんしなくてもいいですよ。",
+          "vi": "Không cần khiêm tốn như thế đâu."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "支度",
+      "reading": "したく",
+      "han_viet": "CHI ĐỘ",
+      "word_type": "Động danh từ",
+      "meaning": "chuẩn bị",
+      "examples": [
+        {
+          "ja": "出かけるから早く支度して。",
+          "reading": "でかけるからはやくしたくして。",
+          "vi": "Sắp ra ngoài nên hãy chuẩn bị nhanh đi."
+        },
+        {
+          "ja": "朝ご飯の支度をする。",
+          "reading": "あさごめしのしたくをする。",
+          "vi": "Chuẩn bị đồ ăn sáng."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "味方",
+      "reading": "みかた",
+      "han_viet": "VỊ PHƯƠNG",
+      "word_type": "Động danh từ",
+      "meaning": "bạn bè, đồng minh, người ủng hộ",
+      "examples": [
+        {
+          "ja": "母はいつも弟に味方する。",
+          "reading": "はははいつもおとうとにみかたする。",
+          "vi": "Mẹ tôi lúc nào cũng ủng hộ em trai tôi."
+        },
+        {
+          "ja": "いつでも私はあなたの味方です。",
+          "reading": "いつでもわたしはあなたのみかたです。",
+          "vi": "Tôi luôn luôn ủng hộ bạn."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "動作",
+      "reading": "どうさ",
+      "han_viet": "ĐỘNG TÁC",
+      "word_type": "Động danh từ",
+      "meaning": "động tác, hoạt động",
+      "examples": [
+        {
+          "ja": "パソコンのプログラムが正常に動作していない。",
+          "reading": "ぱそこんのぷろぐらむがせいじょうにどうさしていない。",
+          "vi": "Chương trình trên máy tính đang không hoạt động bình thường."
+        },
+        {
+          "ja": "機械の動作を確認する。",
+          "reading": "きかいのどうさをかくにんする。",
+          "vi": "Kiểm tra thao tác vận hành của chiếc máy."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "word": "真似",
+      "reading": "まね",
+      "han_viet": "CHÂN TỰ",
+      "word_type": "Động danh từ",
+      "meaning": "bắt chước, copy",
+      "examples": [
+        {
+          "ja": "妹はいつも私を真似して同じ服を着る。",
+          "reading": "いもうとはいつもわたしをまねしておなじふくをきる。",
+          "vi": "Em gái tôi lúc nào cũng bắt chước mặc quần áo giống tôi."
+        },
+        {
+          "ja": "芸能人の髪型の真似をする。",
+          "reading": "げいのうじんのかみがたのまねをする。",
+          "vi": "Bắt chước kiểu tóc của nghệ sĩ."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "word": "介護",
+      "reading": "かいご",
+      "han_viet": "GIỚI HỘ",
+      "word_type": "Động danh từ",
+      "meaning": "chăm sóc, điều dưỡng",
+      "examples": [
+        {
+          "ja": "彼は体の不自由な弟を介護している。",
+          "reading": "かれはからだのふじゆうなおとうとをかいごしている。",
+          "vi": "Anh ta đang chăm sóc cho người em trai bị tàn tật."
+        },
+        {
+          "ja": "年を取った両親の介護をする。",
+          "reading": "ねんをとったりょうしんのかいごをする。",
+          "vi": "Chăm sóc bố mẹ lớn tuổi."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "word": "駐車",
+      "reading": "ちゅうしゃ",
+      "han_viet": "TRÚ XA",
+      "word_type": "Động danh từ",
+      "meaning": "đỗ xe",
+      "examples": [
+        {
+          "ja": "ここに駐車しないでください。",
+          "reading": "ここにちゅうしゃしないでください。",
+          "vi": "Vui lòng không đỗ xe ở đây."
+        },
+        {
+          "ja": "この場所は駐車禁止だ。",
+          "reading": "このばしょはちゅうしゃきんしだ。",
+          "vi": "Chỗ này cấm đỗ xe."
+        },
+        {
+          "ja": "車の運転で特に駐車が苦手だ。",
+          "reading": "くるまのうんてんでとくにちゅうしゃがにがてだ。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "word": "違反",
+      "reading": "いはん",
+      "han_viet": "VI PHẢN",
+      "word_type": "Động danh từ",
+      "meaning": "vi phạm",
+      "examples": [
+        {
+          "ja": "交通ルールに違反して罰金を取られた。",
+          "reading": "こうつうるーるにいはんしてばっきんをとられた。",
+          "vi": "Tôi bị phạt tiền vì đã vi phạm luật giao thông."
+        },
+        {
+          "ja": "駐車違反で警察に捕まる。",
+          "reading": "ちゅうしゃいはんでけいさつにつかまる。",
+          "vi": "Đỗ xe sai luật và bị công an bắt. 34"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "word": "同情",
+      "reading": "どうじょう",
+      "han_viet": "ĐỒNG TÌNH",
+      "word_type": "Động danh từ",
+      "meaning": "cảm thông, đồng cảm",
+      "examples": [
+        {
+          "ja": "彼女の不幸な人生に同情する。",
+          "reading": "かのじょのふこうなじんせいにどうじょうする。",
+          "vi": "Đồng cảm với cuộc đời bất hạnh của cô ấy."
+        },
+        {
+          "ja": "同情を引く。",
+          "reading": "どうじょうをひく。",
+          "vi": "Lôi kéo sự đồng cảm."
+        },
+        {
+          "ja": "私も、彼の意見に全く同感だ。",
+          "reading": "わたしも、かのいけんにまったくどうかんだ。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "word": "同感",
+      "reading": "どうかん",
+      "han_viet": "ĐỒNG CẢM",
+      "word_type": "Động danh từ",
+      "meaning": "Đồng tình, cùng ý kiến",
+      "examples": [
+        {
+          "ja": "彼の話に同感した。",
+          "reading": "かのはなしにどうかんした。",
+          "vi": "Tôi đã đồng cảm (tán thành) với câu chuyện của anh ấy."
+        },
+        {
+          "ja": "あなたの考えに同感です。",
+          "reading": "あなたのかんがえにどうかんです。",
+          "vi": "Tôi cùng ý kiến với suy nghĩ của anh."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "word": "同意",
+      "reading": "どうい",
+      "han_viet": "ĐỒNG Ý",
+      "word_type": "Động danh từ",
+      "meaning": "đồng ý",
+      "examples": [
+        {
+          "ja": "友達の提案に同意した。",
+          "reading": "ともだちのていあんにどういした。",
+          "vi": "Đã đồng ý với phương án của người bạn."
+        },
+        {
+          "ja": "クラスメイトの同意を求める。",
+          "reading": "くらすめいとのどういをもとめる。",
+          "vi": "Mong muốn sự đồng ý của bạn cùng lớp."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "word": "感激",
+      "reading": "かんげき",
+      "han_viet": "CẢM KHÍCH KÍCH",
+      "word_type": "Động danh từ",
+      "meaning": "cảm kích, xúc động",
+      "examples": [
+        {
+          "ja": "感激で涙を流す。",
+          "reading": "かんげきでなみだをながす。",
+          "vi": "Rơi nước mắt vì cảm kích."
+        },
+        {
+          "ja": "彼らの温かい言葉に感激した。",
+          "reading": "かれらのあたたかいことばにかんげきした。",
+          "vi": "Tôi đã xúc động bởi những lời nói ấm áp của họ."
+        },
+        {
+          "ja": "日本語を話すときはいつもアクセントを意識",
+          "reading": "にほんごをはなすときはいつもあくせんとをいしき",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "word": "意識",
+      "reading": "いしき",
+      "han_viet": "Ý",
+      "word_type": "Động danh từ",
+      "meaning": "ý thức, nhận thức",
+      "examples": [
+        {
+          "ja": "している。",
+          "reading": "している。",
+          "vi": "Luôn để ý đến trọng âm khi nói tiếng Nhật."
+        },
+        {
+          "ja": "交通事故に遭い、意識を失う。",
+          "reading": "こうつうじこにあい、いしきをうしなう。",
+          "vi": "Gặp phải tại nạn giao thông và mất đi ý thức (ngất)"
+        },
+        {
+          "ja": "彼女の存在を意識する。",
+          "reading": "かのじょのそんざいをいしきする。",
+          "vi": "Nhận ra sự tồn tại của cô ấy."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "word": "記憶",
+      "reading": "きおく",
+      "han_viet": "KÍ ỨC",
+      "word_type": "Động danh từ",
+      "meaning": "ký ức, trí nhớ",
+      "examples": [
+        {
+          "ja": "彼は有名人1000人以上の誕生日を全て記憶している。",
+          "reading": "かれはゆうめいじん1000ひといじょうのたんじょうびをすべてきおくしている。",
+          "vi": "Anh ta ghi nhớ được toàn bộ ngày sinh nhật của hơn 1000 người nổi tiếng."
+        },
+        {
+          "ja": "事故の記憶が全くない。",
+          "reading": "じこのきおくがまったくない。",
+          "vi": "Không còn chút kí ức nào về vụ tai nạn."
+        },
+        {
+          "ja": "あの出来事は記憶に残っている。",
+          "reading": "あのできごとはきおくにのこっている。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "word": "回復",
+      "reading": "かいふく",
+      "han_viet": "HỒI",
+      "word_type": "Động danh từ",
+      "meaning": "hồi phục",
+      "examples": [
+        {
+          "ja": "天気の回復を待って出発する。",
+          "reading": "てんきのかいふくをまってしゅっぱつする。",
+          "vi": "Đợi thời tiết bình thường lại rồi xuất phát."
+        },
+        {
+          "ja": "これを食べると疲労回復するらしい。",
+          "reading": "これをたべるとひろうかいふくするらしい。",
+          "vi": "Nghe nói ăn cái này sẽ phục hồi sức lực 35"
+        }
+      ]
+    }
+  ]
+}

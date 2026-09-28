@@ -1,0 +1,57 @@
+{
+  "lesson_id": "lesson_40",
+  "lesson_name": "N2 Chương 10 - Phân biệt từ vựng 10.9",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "利益",
+      "reading": "りえき",
+      "han_viet": "LỢI ÍCH",
+      "word_type": "Từ vựng",
+      "meaning": "Dù bạn ; gì đâu. ; Lợi nhuận ; Doanh",
+      "examples": [
+        {
+          "ja": "そんなことしても何も利益にならないよ。",
+          "reading": "そんなことしてもなにもりえきにならないよ。",
+          "vi": "Dù bạn có làm việc đấy thì nó cũng không đem lại lợi nhuận gì đâu."
+        },
+        {
+          "ja": "会社の利益は右肩上がりだ。",
+          "reading": "かいしゃのりえきはみぎかたあがりだ。",
+          "vi": "Doanh thu của công ty đang tăng lên."
+        },
+        {
+          "ja": "社長は不正を行い利益を上げていた。",
+          "reading": "しゃちょうはふせいをおこないりえきをあげていた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "収益",
+      "reading": "しゅうえき",
+      "han_viet": "THU ÍCH",
+      "word_type": "Từ vựng",
+      "meaning": "Giám ; Đạt được ; Tổng doanh thu ; Đạt được ; Gần",
+      "examples": [
+        {
+          "ja": "ユーチューブで収益を得る。",
+          "reading": "ゆーちゅーぶでしゅうえきをえる。",
+          "vi": "Đạt được doanh thu từ youtube."
+        },
+        {
+          "ja": "商品のヒットで多額の収益を得た。",
+          "reading": "しょうひんのひっとでたがくのしゅうえきをえた。",
+          "vi": "Đạt được doanh thu lớn từ sản phẩm “hot”."
+        },
+        {
+          "ja": "最近、収益の伸びが落ちている。",
+          "reading": "さいきん、しゅうえきののびがおちている。",
+          "vi": "Gần đây, sự tăng trưởng doanh thu đang bị giảm."
+        }
+      ]
+    }
+  ]
+}

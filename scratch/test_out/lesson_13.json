@@ -1,0 +1,577 @@
+{
+  "lesson_id": "lesson_13",
+  "lesson_name": "N2 Chương 2 - Động danh từ 2.4",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "信用",
+      "reading": "しんよう",
+      "han_viet": "TÍN DỤNG",
+      "word_type": "Động danh từ",
+      "meaning": "tin tưởng, tín nhiệm",
+      "examples": [
+        {
+          "ja": "友達を信用してお金を貸す。",
+          "reading": "ともだちをしんようしておきんをかす。",
+          "vi": "Tin tưởng bạn để cho vay tiền."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "信頼",
+      "reading": "しんらい",
+      "han_viet": "TÍN",
+      "word_type": "Động danh từ",
+      "meaning": "tin tưởng (để nhờ vả)",
+      "examples": [
+        {
+          "ja": "私は誰よりも彼を信頼している。",
+          "reading": "わたしはだれよりもかれをしんらいしている。",
+          "vi": "Tôi tin tưởng anh ta hơn ai hết."
+        },
+        {
+          "ja": "信頼を裏切ってしまった。",
+          "reading": "しんらいをうらぎってしまった。",
+          "vi": "Đã phản bội lại sự tin tưởng."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "無視",
+      "reading": "むし",
+      "han_viet": "VÔ THỊ",
+      "word_type": "Động danh từ",
+      "meaning": "bỏ qua, ngó lơ",
+      "examples": [
+        {
+          "ja": "信号無視で捕まった。",
+          "reading": "しんごうむしでつかまった。",
+          "vi": "Bị tóm do lờ đi tín hiệu đèn giao thông."
+        },
+        {
+          "ja": "彼に話かけたが、無視された。",
+          "reading": "かれにはなしかけたが、むしされた。",
+          "vi": "Tôi đã bắt chuyện với anh ấy nhưng bị bơ."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "納得",
+      "reading": "なっとく",
+      "han_viet": "NẠP ĐẮC",
+      "word_type": "Động danh từ",
+      "meaning": "bị thuyết phục, tiếp thu",
+      "examples": [
+        {
+          "ja": "説明を聞いたが、どうしても納得がいかない。",
+          "reading": "せつめいをきいたが、どうしてもなっとくがいかない。",
+          "vi": "Tôi đã nghe giải thích rồi nhưng vẫn không tài nào hiểu nổi."
+        },
+        {
+          "ja": "彼らの話に納得する。",
+          "reading": "かれらのはなしになっとくする。",
+          "vi": "Bị thuyết phục bởi câu chuyện của anh ấy."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "評価",
+      "reading": "ひょうか",
+      "han_viet": "BÌNH",
+      "word_type": "Động danh từ",
+      "meaning": "đánh giá, bình phẩm",
+      "examples": [
+        {
+          "ja": "彼の作品は、国内よりも海外からの評価のほうが高い。",
+          "reading": "かのさくひんは、こくないよりもかいがいからのひょうかのほうがたかい。",
+          "vi": "Tác phẩm của anh ta được nước ngoài đánh giá cao hơn là ở trong nước."
+        },
+        {
+          "ja": "テストの結果と授業態度をみて生徒を評価する。",
+          "reading": "てすとのけっかとじゅぎょうたいどをみてせいとをひょうかする。",
+          "vi": "Nhìn vào kết quả bài test và thái độ trong giờ học để"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "指示",
+      "reading": "しじ",
+      "han_viet": "CHỈ KÌ THỊ",
+      "word_type": "Động danh từ",
+      "meaning": "chỉ dẫn, chỉ thị",
+      "examples": [
+        {
+          "ja": "上司は指示が明確なので働きやすい。",
+          "reading": "じょうしはしじがめいかくなのではたらきやすい。",
+          "vi": "Chỉ thị của cấp trên rõ ràng nên dễ làm việc."
+        },
+        {
+          "ja": "部下に仕事の指示をする。",
+          "reading": "ぶかにしごとのしじをする。",
+          "vi": "Chỉ thị những công việc cho cấp dưới."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "監督",
+      "reading": "かんとく",
+      "han_viet": "GIÁM ĐỐC",
+      "word_type": "Động danh từ",
+      "meaning": "huấn luyện viên",
+      "examples": [
+        {
+          "ja": "事故がないように、工事現場を監督する。",
+          "reading": "じこがないように、こうじげんばをかんとくする。",
+          "vi": "Giám sát trực tiếp tại nhà máy để đảm bảo không có sự cố."
+        },
+        {
+          "ja": "野球の監督を務めている。",
+          "reading": "やきゅうのかんとくをつとめている。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "予測",
+      "reading": "よそく",
+      "han_viet": "DỰ TRẮC",
+      "word_type": "Động danh từ",
+      "meaning": "dự đoán",
+      "examples": [
+        {
+          "ja": "今後の株価の動きを予測する。",
+          "reading": "こんごのかぶかのうごきをよそくする。",
+          "vi": "Dự đoán sự biến động của giá cổ phiếu từ giờ trở đi. 44"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "予期",
+      "reading": "よき",
+      "han_viet": "DỰ KỲ",
+      "word_type": "Động danh từ",
+      "meaning": "mong đợi, lường trước",
+      "examples": [
+        {
+          "ja": "予期していた反応が返ってきた。",
+          "reading": "よきしていたはんのうがかえってきた。",
+          "vi": "Có phản ứng mà đã được lường trước."
+        },
+        {
+          "ja": "予期せぬ事態に巻き込まれる。",
+          "reading": "よきせぬじたいにまきこまれる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "判断",
+      "reading": "はんだん",
+      "han_viet": "PHÁN ĐOẠN",
+      "word_type": "Động danh từ",
+      "meaning": "phán xét",
+      "examples": [
+        {
+          "ja": "一瞬の判断が生死を分けることがある。",
+          "reading": "いっしゅんのはんだんがせいしをわけることがある。",
+          "vi": "Có những lúc một phán đoán được đưa ra trong tích tắc sẽ phân định sự sống và cái chết."
+        },
+        {
+          "ja": "外見で人を判断してはいけない。",
+          "reading": "がいけんでにんをはんだんしてはいけない。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "批評",
+      "reading": "ひひょう",
+      "han_viet": "PHÊ BÌNH",
+      "word_type": "Động danh từ",
+      "meaning": "đánh giá, bình phẩm",
+      "examples": [
+        {
+          "ja": "作品に対する専門家からの批評を読む。",
+          "reading": "さくひんにたいするせんもんかからのひひょうをよむ。",
+          "vi": "Đọc bài phê bình tác phẩm của một chuyên gia."
+        },
+        {
+          "ja": "作品を批評する。",
+          "reading": "さくひんをひひょうする。",
+          "vi": "Đánh giá tác phẩm."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "推薦",
+      "reading": "すいせん",
+      "han_viet": "SUY",
+      "word_type": "Động danh từ",
+      "meaning": "tiến cử, giới thiệu",
+      "examples": [
+        {
+          "ja": "大学の指導教員が、私を奨学生に推薦してくれた。",
+          "reading": "だいがくのしどうきょういんが、わたしをしょうがくせいにすいせんしてくれた。",
+          "vi": "Giáo viên hướng dẫn ở trường đại học đã giới thiệu cho tôi nhận học bổng."
+        },
+        {
+          "ja": "推薦で大学に入学した。",
+          "reading": "すいせんでだいがくににゅうがくした。",
+          "vi": "Được tiến cử vào Đại học."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "尊重",
+      "reading": "そんちょう",
+      "han_viet": "TÔN TRỌNG",
+      "word_type": "Động danh từ",
+      "meaning": "tôn trọng",
+      "examples": [
+        {
+          "ja": "世界に人権尊重の考えが広まりはじめたのは、第二次世界大戦が終わったころからだ。",
+          "reading": "せかいにじんけんそんちょうのかんがえがひろまりはじめたのは、だいにじせかいたいせんがおわったころからだ。",
+          "vi": "Tư tưởng tôn trọng nhân quyền bắt đầu lan rộng trên thế giới là từ khoảng sau khi kết thúc chiến tranh thế giới lần thứ II."
+        },
+        {
+          "ja": "彼女たちの意見を尊重する。",
+          "reading": "かのじょたちのいけんをそんちょうする。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "解放",
+      "reading": "かいほう",
+      "han_viet": "GIẢI PHÓNG",
+      "word_type": "Động danh từ",
+      "meaning": "mở cửa, tự do hóa, giải phóng",
+      "examples": [
+        {
+          "ja": "不当に逮捕された仲間の解放を求める。",
+          "reading": "ふとうにたいほされたなかまのかいほうをもとめる。",
+          "vi": "Yêu cầu phóng thích người bạn bị bắt vô cớ."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "連続",
+      "reading": "れんぞく",
+      "han_viet": "LIÊN",
+      "word_type": "Động danh từ",
+      "meaning": "liên tục",
+      "examples": [
+        {
+          "ja": "このチームはさっきから連続して点数を入れている。",
+          "reading": "このちーむはさっきかられんぞくしててんすうをいれている。",
+          "vi": "Đội này từ nãy đến giờ đang liên tục ghi điểm. 45"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "持続",
+      "reading": "じぞく",
+      "han_viet": "TRÌ",
+      "word_type": "Động danh từ",
+      "meaning": "kéo dài",
+      "examples": [
+        {
+          "ja": "集中力が持続しなくて困っている。",
+          "reading": "しゅうちゅうりょくがじぞくしなくてこまっている。",
+          "vi": "Gặp khó khăn vì không duy trì được sự tập trung."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "安定",
+      "reading": "あんてい",
+      "han_viet": "AN ĐỊNH",
+      "word_type": "Động danh từ",
+      "meaning": "ổn định",
+      "examples": [
+        {
+          "ja": "さすが一流選手だけあって、プレーに安定感がある。",
+          "reading": "さすがいちりゅうせんしゅだけあって、ぷれーにあんていかんがある。",
+          "vi": "Đúng là tuyển thủ hạng nhất có khác, có cảm giác ổn định trong lối chơi của anh ta."
+        },
+        {
+          "ja": "収入が安定してきた。",
+          "reading": "しゅうにゅうがあんていしてきた。",
+          "vi": "Thu nhập đã bắt đầu ổn định."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "混乱",
+      "reading": "こんらん",
+      "han_viet": "HỔN LOẠN",
+      "word_type": "Động danh từ",
+      "meaning": "hỗn độn, hỗn loạn",
+      "examples": [
+        {
+          "ja": "首相の発言が、社会の混乱を招いた。",
+          "reading": "しゅしょうのはつげんが、しゃかいのこんらんをまねいた。",
+          "vi": "Phát ngôn của thủ tướng đã gây hỗn loạn trong xã hội."
+        },
+        {
+          "ja": "難しい問題がでてきて頭が混乱した。",
+          "reading": "むずかしいもんだいがでてきてあたまがこんらんした。",
+          "vi": "Những bài tập khó được đưa ra khiến tôi rối trí."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "中断",
+      "reading": "ちゅうだん",
+      "han_viet": "TRUNG ĐOẠN",
+      "word_type": "Động danh từ",
+      "meaning": "gián đoạn",
+      "examples": [
+        {
+          "ja": "大雨による試合の中断で、選手の集中力が切れた。",
+          "reading": "おおあめによるしあいのちゅうだんで、せんしゅのしゅうちゅうりょくがきれた。",
+          "vi": "Các tuyển thủ đánh mất sự tập trung do sự gián đoạn trận đấu vì cơn mưa to."
+        },
+        {
+          "ja": "話し合いは一時中断された。",
+          "reading": "はなしあいはいちじちゅうだんされた。",
+          "vi": "Cuộc nói chuyện bị gián đoạn một thời gian."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "word": "達成",
+      "reading": "たっせい",
+      "han_viet": "ĐẠT THÀNH",
+      "word_type": "Động danh từ",
+      "meaning": "thành tựu, đạt được",
+      "examples": [
+        {
+          "ja": "目標の達成のために、日々努力する。",
+          "reading": "もくひょうのたっせいのために、ひびどりょくする。",
+          "vi": "Nỗ lực mỗi ngày để đạt được mục tiêu."
+        },
+        {
+          "ja": "目的を達成する事ができた。",
+          "reading": "もくてきをたっせいすることができた。",
+          "vi": "Đã đạt được mục đích."
+        },
+        {
+          "ja": "目標の登録者数100万人にを達成した。",
+          "reading": "もくひょうのとうろくしゃすう100ばんにんにをたっせいした。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "word": "刺激",
+      "reading": "しげき",
+      "han_viet": "THÍCH KHÍCH KÍCH",
+      "word_type": "Động danh từ",
+      "meaning": "kích thích, khích lệ, khiêu khích",
+      "examples": [
+        {
+          "ja": "胃が弱いので、刺激が強い料理は食べられない。",
+          "reading": "いがよわいので、しげきがつよいりょうりはたべられない。",
+          "vi": "Do dạ dày yếu nên không ăn được các món ăn kích thích mạnh. 46"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "word": "摩擦",
+      "reading": "まさつ",
+      "han_viet": "XÁT",
+      "word_type": "Động danh từ",
+      "meaning": "ma sát",
+      "examples": [
+        {
+          "ja": "手をこすると摩擦熱が発生する。",
+          "reading": "てをこするとまさつねつがはっせいする。",
+          "vi": "Xoa tay vào nhau thì nhiệt ma sát sẽ sinh ra."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "word": "消化",
+      "reading": "しょうか",
+      "han_viet": "TIÊU HOÁ",
+      "word_type": "Động danh từ",
+      "meaning": "tiêu hóa, xử lý",
+      "examples": [
+        {
+          "ja": "風邪のときは、消化にいい食べ物を食べる。",
+          "reading": "かぜのときは、しょうかにいいたべものをたべる。",
+          "vi": "Khi bị cảm thì ăn những món tốt cho tiêu hóa."
+        },
+        {
+          "ja": "食べた物が胃で消化される。",
+          "reading": "たべたものがいでしょうかされる。",
+          "vi": "Đồ ăn sẽ được tiêu hóa ở dạ dày."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "word": "吸収",
+      "reading": "きゅうしゅう",
+      "han_viet": "CỘP THU",
+      "word_type": "Động danh từ",
+      "meaning": "tiếp thu, hấp thụ",
+      "examples": [
+        {
+          "ja": "カフェインは、鉄分の吸収を妨げる。",
+          "reading": "かふぇいんは、てつぶんのきゅうしゅうをさまたげる。",
+          "vi": "Caffeine ngăn cản sự hấp thụ sắt."
+        },
+        {
+          "ja": "知識を吸収する。",
+          "reading": "ちしきをきゅうしゅうする。",
+          "vi": "Tiếp thu kiến thức."
+        },
+        {
+          "ja": "この布は匂いを吸収する効果がある。",
+          "reading": "このぬのはにおいをきゅうしゅうするこうかがある。",
+          "vi": "Vải này dễ ám mùi."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "word": "栽培",
+      "reading": "さいばい",
+      "han_viet": "BỒI",
+      "word_type": "Động danh từ",
+      "meaning": "trồng trọt, canh tác",
+      "examples": [
+        {
+          "ja": "インドネシアやハワイはコーヒーの栽培に適した土地だ。",
+          "reading": "いんどねしあやはわいはこーひーのさいばいにてきしたとちだ。",
+          "vi": "Indonesia và Hawaii là hai vùng đất thích hợp cho việc canh tác cây cà phê."
+        },
+        {
+          "ja": "くだものを栽培する。",
+          "reading": "くだものをさいばいする。",
+          "vi": "Trồng hoa quả."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "word": "収穫",
+      "reading": "しゅうかく",
+      "han_viet": "THU HOẠCH",
+      "word_type": "Động danh từ",
+      "meaning": "thu hoạch, thu được, có được",
+      "examples": [
+        {
+          "ja": "台風で農作物の収穫量が減った。",
+          "reading": "たいふうでのうさくぶつのしゅうかくりょうがへった。",
+          "vi": "Do bão mà lượng nông sản thu hoạch được đã bị suy giảm."
+        },
+        {
+          "ja": "家族でお米の収穫をする。",
+          "reading": "かぞくでおこめのしゅうかくをする。",
+          "vi": "Mọi người trong gia đình cùng thu hoạch lúa."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "word": "収集",
+      "reading": "しゅうしゅう",
+      "han_viet": "THU TẬP",
+      "word_type": "Động danh từ",
+      "meaning": "thu thập, sưu tầm",
+      "examples": [
+        {
+          "ja": "アイドルの写真を収集する。",
+          "reading": "あいどるのしゃしんをしゅうしゅうする。",
+          "vi": "Thu thập ảnh của thần tượng."
+        },
+        {
+          "ja": "最近会あった事件の情報収集をする。",
+          "reading": "さいきんかいあったじけんのじょうほうしゅうしゅうをする。",
+          "vi": "Thu thập thông tin về những vụ án xảy ra gần đây. 47"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "word": "所有",
+      "reading": "しょゆう",
+      "han_viet": "SỠ HỮU",
+      "word_type": "Động danh từ",
+      "meaning": "sở hữu",
+      "examples": [
+        {
+          "ja": "この土地は、祖父が所有している。",
+          "reading": "このとちは、そふがしょゆうしている。",
+          "vi": "Đất này thuộc sở hữu của ông tôi."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "word": "滞在",
+      "reading": "たいざい",
+      "han_viet": "TẠI",
+      "word_type": "Động danh từ",
+      "meaning": "ở lại, lưu lại",
+      "examples": [
+        {
+          "ja": "彼は、日本に滞在歴がある。",
+          "reading": "かれは、にっぽんにたいざいれきがある。",
+          "vi": "Anh ta có lịch sử lưu trú tại Nhật Bản."
+        },
+        {
+          "ja": "二週間ほど、イタリアに滞在する予定だ。",
+          "reading": "にしゅうかんほど、いたりあにたいざいするよていだ。",
+          "vi": "Tôi dự định sẽ ở lại Italia khoảng 2 tuần."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "word": "歓迎",
+      "reading": "かんげい",
+      "han_viet": "NGHÊNH",
+      "word_type": "Động danh từ",
+      "meaning": "hoan nghênh, tiếp đón",
+      "examples": [
+        {
+          "ja": "大勢の人が空港に来て、来日した選手を歓迎した。",
+          "reading": "おおぜいのにんがくうこうにきて、らいにちしたせんしゅをかんげいした。",
+          "vi": "Nhiều người tới sân bay chào đón tuyển thủ vừa tới Nhật."
+        },
+        {
+          "ja": "新しい社員のために、歓迎会を開く。",
+          "reading": "あたらしいしゃいんのために、かんげいかいをひらく。",
+          "vi": "Mở tiệc tiếp đón dành cho nhân viên mới. 48"
+        }
+      ]
+    }
+  ]
+}

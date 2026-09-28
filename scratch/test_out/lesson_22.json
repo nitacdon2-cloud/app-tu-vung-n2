@@ -1,0 +1,467 @@
+{
+  "lesson_id": "lesson_22",
+  "lesson_name": "N2 Chương 5 - Tính từ -na 5.1",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "深刻な",
+      "reading": "しんこくな",
+      "han_viet": "THÂM KHẮC",
+      "word_type": "Tính từ -na",
+      "meaning": "Nghiêm trọng",
+      "examples": [
+        {
+          "ja": "深刻な状況になってしまった。",
+          "reading": "しんこくなじょうきょうになってしまった。",
+          "vi": "Tình hình đã trở nên nghiêm trọng."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "気楽な",
+      "reading": "きらくな",
+      "han_viet": "KHÍ",
+      "word_type": "Tính từ -na",
+      "meaning": "Thoải mái, nhàn hạ",
+      "examples": [
+        {
+          "ja": "家族と住むより一人で住む方が気楽だ。",
+          "reading": "かぞくとすむよりひとりですむほうがきらくだ。",
+          "vi": "Sống một mình thoải mái hơn là sống cùng gia đình."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "安易な",
+      "reading": "あんいな",
+      "han_viet": "AN DỊCH",
+      "word_type": "Tính từ -na",
+      "meaning": "Dễ dàng",
+      "examples": [
+        {
+          "ja": "ネットの情報を安易に信用しない方がいい。",
+          "reading": "ねっとのじょうほうをあんいにしんようしないほうがいい。",
+          "vi": "Đừng dễ dàng tin tưởng vào những thông tin trên mạng."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "強気な",
+      "reading": "つよきな",
+      "han_viet": "CƯỜNG KHÍ",
+      "word_type": "Tính từ -na",
+      "meaning": "Tự tin, mạnh mẽ",
+      "examples": [
+        {
+          "ja": "会長はいつも必ず成功すると強気な発言をする。",
+          "reading": "かいちょうはいつもかならずせいこうするとつよきなはつげんをする。",
+          "vi": "Chủ tịch luôn phát biểu đầy tự tin rằng nhất định sẽ thành công."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "頑固な",
+      "reading": "がんこな",
+      "han_viet": "NGOAN CỐ",
+      "word_type": "Tính từ -na",
+      "meaning": "Bảo thủ, cứng đầu",
+      "examples": [
+        {
+          "ja": "服の汚れが頑固でなかなか落ちない。",
+          "reading": "ふくのよごれががんこでなかなかおちない。",
+          "vi": "Vết bẩn cứng đầu trên quần áo mãi không sạch."
+        },
+        {
+          "ja": "山田くんは頑固で、自分の意見を曲げない人だ。",
+          "reading": "やまだくんはがんこで、じぶんのいけんをまげないにんだ。",
+          "vi": "Anh Yamada là người rất cứng đầu, không chịu thay đổi"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "強引な",
+      "reading": "ごういんな",
+      "han_viet": "CƯỜNG DẪN",
+      "word_type": "Tính từ -na",
+      "meaning": "Cưỡng bức, bắt buộc, bảo thủ",
+      "examples": [
+        {
+          "ja": "上司の強引なやり方に困っている。",
+          "reading": "じょうしのごういんなやりほうにこまっている。",
+          "vi": "Khổ sở vì cách làm bảo thủ của cấp trên."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "勝手な",
+      "reading": "かってな",
+      "han_viet": "THẮNG THỦ",
+      "word_type": "Tính từ -na",
+      "meaning": "Độc đoán, ích kỷ",
+      "examples": [
+        {
+          "ja": "勝手な行動をとらないでください。",
+          "reading": "かってなこうどうをとらないでください。",
+          "vi": "Đừng làm những hành động độc đoán như thế."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "過剰な",
+      "reading": "かじょうな",
+      "han_viet": "QUÁ",
+      "word_type": "Tính từ -na",
+      "meaning": "Vượt quá, dư thừa",
+      "examples": [
+        {
+          "ja": "糖分の過剰な摂取は身体に悪い。",
+          "reading": "とうぶんのかじょうなせっしゅはしんたいにわるい。",
+          "vi": "Hấp thụ quá nhiều đường không tốt cho cơ thể."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "重大な",
+      "reading": "じゅうだいな",
+      "han_viet": "TRỌNG ĐẠI",
+      "word_type": "Tính từ -na",
+      "meaning": "Nghiêm trọng, quan trọng",
+      "examples": [
+        {
+          "ja": "社長より重大な発表があります。",
+          "reading": "しゃちょうよりじゅうだいなはっぴょうがあります。",
+          "vi": "Giám đốc có công bố quan trọng."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "でたらめな",
+      "reading": "でたらめな",
+      "han_viet": "",
+      "word_type": "Tính từ -na",
+      "meaning": "Bừa bãi, vớ vẩn, nhảm nhí",
+      "examples": [
+        {
+          "ja": "でたらめに言ったことが、当たっていた。",
+          "reading": "でたらめにいったことが、あたっていた。",
+          "vi": "Chuyện nói bừa lại trúng."
+        },
+        {
+          "ja": "そんなでたらめな話は信じない。",
+          "reading": "そんなでたらめなはなしはしんじない。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "邪魔な",
+      "reading": "じゃまな",
+      "han_viet": "TÀ MA",
+      "word_type": "Tính từ -na",
+      "meaning": "Vướng víu, làm phiền",
+      "examples": [
+        {
+          "ja": "こんなとこに置いて、邪魔だな。",
+          "reading": "こんなとこにおいて、じゃまだな。",
+          "vi": "Để đây vướng víu quá! 87"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "かわいそうな",
+      "reading": "かわいそうな",
+      "han_viet": "",
+      "word_type": "Tính từ -na",
+      "meaning": "Tội nghiệp, đáng thương",
+      "examples": [
+        {
+          "ja": "子どもが泣いているのを見て、かわいそうになった。",
+          "reading": "こどもがないているのをみて、かわいそうになった。",
+          "vi": "Thấy con khóc lại thấy thương."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "気の毒な",
+      "reading": "きのどくな",
+      "han_viet": "KHÍ ĐỘC",
+      "word_type": "Tính từ -na",
+      "meaning": "Đáng tiếc, đáng thương",
+      "examples": [
+        {
+          "ja": "彼には気の毒な事をした。",
+          "reading": "かれにはきのどくなことをした。",
+          "vi": "Tôi đã làm ra chuyện có lỗi với anh ấy."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "幸いな",
+      "reading": "さいわいな",
+      "han_viet": "",
+      "word_type": "Tính từ -na",
+      "meaning": "May, hân hạnh",
+      "examples": [
+        {
+          "ja": "幸いなことに天気が良くなった。",
+          "reading": "さいわいなことにてんきがよくなった。",
+          "vi": "Thật may vì thời tiết tốt lên rồi."
+        },
+        {
+          "ja": "上等なワインを頂いた。",
+          "reading": "じょうとうなわいんをいただいた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "上等な",
+      "reading": "じょうとうな",
+      "han_viet": "THƯỢNG ĐẲNG",
+      "word_type": "Tính từ -na",
+      "meaning": "Xịn, thượng hạng",
+      "examples": [
+        {
+          "ja": "それだけ日本語が話せれば上等だ。",
+          "reading": "それだけにほんごがはなせればじょうとうだ。",
+          "vi": "Chỉ cần có thể nói được tiếng Nhật nhiêu đó thôi là xuất sắc rồi."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "上品な",
+      "reading": "じょうひんな",
+      "han_viet": "THƯỢNG PHẨM",
+      "word_type": "Tính từ -na",
+      "meaning": "Thanh lịch, quý phái",
+      "examples": [
+        {
+          "ja": "彼女みたいな上品な人がタイプだ。",
+          "reading": "かのじょみたいなじょうひんなにんがたいぷだ。",
+          "vi": "Kiểu người thanh lịch như cô ấy là gu của tôi."
+        },
+        {
+          "ja": "たまには上品な服を着て出かける。",
+          "reading": "たまにはじょうひんなふくをきてでかける。",
+          "vi": "Thi thoảng mặc trang phục sang trọng ra ngoài."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "ぜいたくな",
+      "reading": "ぜいたくな",
+      "han_viet": "",
+      "word_type": "Tính từ -na",
+      "meaning": "Xa hoa, dùng nhiều",
+      "examples": [
+        {
+          "ja": "ぜいたくな生活をする。",
+          "reading": "ぜいたくなせいかつをする。",
+          "vi": "Sống cuộc sống xa hoa."
+        },
+        {
+          "ja": "高級食材をぜいたくに使い、鍋を作る。",
+          "reading": "こうきゅうしょくざいをぜいたくにつかい、なべをつくる。",
+          "vi": "Chế biến nồi lẩu dùng nhiều nguyên liệu cao cấp."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "豪華な",
+      "reading": "ごうかな",
+      "han_viet": "HÀO HOA",
+      "word_type": "Tính từ -na",
+      "meaning": "Xa xỉ, hoàng tráng",
+      "examples": [
+        {
+          "ja": "誕生日に豪華な食事をする。",
+          "reading": "たんじょうびにごうかなしょくじをする。",
+          "vi": "Ăn bữa ăn xa xỉ vào ngày sinh nhật."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "高級な",
+      "reading": "こうきゅうな",
+      "han_viet": "CAO CẤP",
+      "word_type": "Tính từ -na",
+      "meaning": "Cao cấp",
+      "examples": [
+        {
+          "ja": "高級な料理をごちそうする。",
+          "reading": "こうきゅうなりょうりをごちそうする。",
+          "vi": "Chiêu đãi món ăn cao cấp."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "word": "高価な",
+      "reading": "こうかな",
+      "han_viet": "CAO",
+      "word_type": "Tính từ -na",
+      "meaning": "Đắt",
+      "examples": [
+        {
+          "ja": "彼女に高価なプレゼントをおくる。",
+          "reading": "かのじょにこうかなぷれぜんとをおくる。",
+          "vi": "Tặng người yêu món quà đắt tiền."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "word": "手ごろな",
+      "reading": "てごろな",
+      "han_viet": "THỦ",
+      "word_type": "Tính từ -na",
+      "meaning": "Hợp lý, phù hợp",
+      "examples": [
+        {
+          "ja": "この店は手ごろな値段で買うことができる。",
+          "reading": "このみせはてごろなねだんでかうことができる。",
+          "vi": "Ở cửa hàng này có thể mua được với giá phù hợp."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "word": "合理的な",
+      "reading": "ごうりてきな",
+      "han_viet": "HỢP LÝ ĐÍCH",
+      "word_type": "Tính từ -na",
+      "meaning": "Hợp lý, logic",
+      "examples": [
+        {
+          "ja": "自然界の合理的な法則を学ぶ。",
+          "reading": "しぜんかいのごうりてきなほうそくをまなぶ。",
+          "vi": "Tìm hiểu quy luật logic của thế giới tự nhiên."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "word": "適度な",
+      "reading": "てきどな",
+      "han_viet": "THÍCH ĐỘ",
+      "word_type": "Tính từ -na",
+      "meaning": "Thích hợp, vừa phải",
+      "examples": [
+        {
+          "ja": "適度な食事を心がける。",
+          "reading": "てきどなしょくじをこころがける。",
+          "vi": "Cố gắng ăn uống điều độ."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "word": "高度な",
+      "reading": "こうどな",
+      "han_viet": "CAO ĐỘ",
+      "word_type": "Tính từ -na",
+      "meaning": "Cao độ, cấp cao",
+      "examples": [
+        {
+          "ja": "日本の高度な建築技術を取り入れる。",
+          "reading": "にっぽんのこうどなけんちくぎじゅつをとりいれる。",
+          "vi": "Áp dụng kĩ thuật xây dựng chất lượng cao của Nhật Bản. 88"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "word": "手軽な",
+      "reading": "てがるな",
+      "han_viet": "THỦ",
+      "word_type": "Tính từ -na",
+      "meaning": "Nhẹ nhàng, đơn giản",
+      "examples": [
+        {
+          "ja": "手軽にできる趣味を探す。",
+          "reading": "てがるにできるしゅみをさがす。",
+          "vi": "Tìm kiếm một sở thích mà có thể thực hiện đơn giản."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "word": "活発な",
+      "reading": "かっぱつな",
+      "han_viet": "HOẠT PHÁT",
+      "word_type": "Tính từ -na",
+      "meaning": "Hoạt bát",
+      "examples": [
+        {
+          "ja": "彼女は活発な性格をしている。",
+          "reading": "かのじょはかっぱつなせいかくをしている。",
+          "vi": "Cô ấy có tính cách hoạt bát."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "word": "奇妙な",
+      "reading": "きみょうな",
+      "han_viet": "KỲ DIỆU",
+      "word_type": "Tính từ -na",
+      "meaning": "Kỳ lạ, kỳ dị",
+      "examples": [
+        {
+          "ja": "奇妙な話を聞いた。",
+          "reading": "きみょうなはなしをきいた。",
+          "vi": "Tôi đã nghe một câu chuyện kỳ lạ."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "word": "妙な",
+      "reading": "みょうな",
+      "han_viet": "DIỆU",
+      "word_type": "Tính từ -na",
+      "meaning": "Lạ thường",
+      "examples": [
+        {
+          "ja": "彼が時間に遅れるなんて妙だ。",
+          "reading": "かれがじかんにおくれるなんてみょうだ。",
+          "vi": "Anh ấy đi muộn thì thật lạ."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "word": "異常な",
+      "reading": "いじょうな",
+      "han_viet": "THƯỜNG",
+      "word_type": "Tính từ -na",
+      "meaning": "Bất thường, dị thường",
+      "examples": [
+        {
+          "ja": "今年の寒さは異常だ。",
+          "reading": "こんねんのさむさはいじょうだ。",
+          "vi": "Cái lạnh của năm nay bất thường. 89"
+        }
+      ]
+    }
+  ]
+}

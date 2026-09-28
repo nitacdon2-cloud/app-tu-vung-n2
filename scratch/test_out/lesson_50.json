@@ -1,0 +1,187 @@
+{
+  "lesson_id": "lesson_50",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.11",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "入学金",
+      "reading": "にゅうがくきん",
+      "han_viet": "NHẬP HỌC KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Phí nhập học ; Phí nhập học",
+      "examples": []
+    },
+    {
+      "id": 2,
+      "word": "税金",
+      "reading": "ぜいきん",
+      "han_viet": "THUẾ KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền thuế",
+      "examples": []
+    },
+    {
+      "id": 3,
+      "word": "年金",
+      "reading": "ねんきん",
+      "han_viet": "NIÊN KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền lương hưu",
+      "examples": []
+    },
+    {
+      "id": 4,
+      "word": "奨学金",
+      "reading": "しょうがくきん",
+      "han_viet": "THƯỞNG HỌC KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền học bổng",
+      "examples": []
+    },
+    {
+      "id": 5,
+      "word": "保証金",
+      "reading": "ほしょうきん",
+      "han_viet": "BẢO CHỨNG KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền bảo hiểm",
+      "examples": []
+    },
+    {
+      "id": 6,
+      "word": "授業料",
+      "reading": "じゅぎょうりょう",
+      "han_viet": "THỤ NGHIỆP LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền học phí",
+      "examples": []
+    },
+    {
+      "id": 7,
+      "word": "入場料",
+      "reading": "にゅうじょうりょう",
+      "han_viet": "NHẬP TRƯỜNG LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí vào cửa",
+      "examples": []
+    },
+    {
+      "id": 8,
+      "word": "保険料",
+      "reading": "ほけんりょう",
+      "han_viet": "BẢO HIỂM LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí bảo hiểm",
+      "examples": []
+    },
+    {
+      "id": 9,
+      "word": "使用料",
+      "reading": "しようりょう",
+      "han_viet": "SỬ DỤNG LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí sử dụng",
+      "examples": []
+    },
+    {
+      "id": 10,
+      "word": "バイト料",
+      "reading": "ばいとりょう",
+      "han_viet": "LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền làm thêm",
+      "examples": []
+    },
+    {
+      "id": 11,
+      "word": "電気代",
+      "reading": "でんきだい",
+      "han_viet": "ĐIỆN KHÍ ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền điện",
+      "examples": []
+    },
+    {
+      "id": 12,
+      "word": "ガソリン代",
+      "reading": "がそりんだい",
+      "han_viet": "ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền xăng xe",
+      "examples": []
+    },
+    {
+      "id": 13,
+      "word": "修理代",
+      "reading": "しゅうりだい",
+      "han_viet": "TU LÝ ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền sửa chữa",
+      "examples": []
+    },
+    {
+      "id": 14,
+      "word": "飲み代",
+      "reading": "のみだい",
+      "han_viet": "ẨM ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền uống rượu",
+      "examples": []
+    },
+    {
+      "id": 15,
+      "word": "バイト代",
+      "reading": "ばいとだい",
+      "han_viet": "ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền là̀̀̀m thêm",
+      "examples": []
+    },
+    {
+      "id": 16,
+      "word": "運賃",
+      "reading": "うんちん",
+      "han_viet": "VẬN NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí vận chuyển",
+      "examples": []
+    },
+    {
+      "id": 17,
+      "word": "乗車賃",
+      "reading": "じょうしゃちん",
+      "han_viet": "THỪA XA NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí lên xe",
+      "examples": []
+    },
+    {
+      "id": 18,
+      "word": "家賃",
+      "reading": "やちん",
+      "han_viet": "GIA NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền thuê nhà",
+      "examples": []
+    },
+    {
+      "id": 19,
+      "word": "借り賃",
+      "reading": "かりちん",
+      "han_viet": "TÁ NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền thuê",
+      "examples": []
+    },
+    {
+      "id": 20,
+      "word": "手間賃",
+      "reading": "てまちん",
+      "han_viet": "THỦ GIAN NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí nhân công",
+      "examples": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "lesson_id": "lesson_39",
+  "lesson_name": "N2 Chương 10 - Phân biệt từ vựng 10.8",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "楽",
+      "reading": "らく",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "Bài ; Ý nghĩa: ; Đơn giản, thoải mái, Cuộc ; tiện lợi, dễ chịu ; So",
+      "examples": [
+        {
+          "ja": "今日の宿題は楽に終わらせることができた。",
+          "reading": "きょうのしゅくだいはらくにおわらせることができた。",
+          "vi": "Bài tập hôm nay mình có thể hoàn thành dễ dàng."
+        },
+        {
+          "ja": "楽な生活",
+          "reading": "らくなせいかつ",
+          "vi": "Cuộc sống thoải mái."
+        },
+        {
+          "ja": "自転車で通勤するよりも、電車で通勤した方が楽だ。",
+          "reading": "じてんしゃでつうきんするよりも、でんしゃでつうきんしたほうがらくだ。",
+          "vi": "So với việc đi làm bằng xe đạp thì đi làm bằng tàu tiện lợi hơn."
+        },
+        {
+          "ja": "ソファーの上では楽な姿勢でくつろぐ。",
+          "reading": "そふぁーのうえではらくなしせいでくつろぐ。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "気楽",
+      "reading": "きらく",
+      "han_viet": "KHÍ",
+      "word_type": "Từ vựng",
+      "meaning": "Thư ; Những ; được. ; Ý nghĩa: ; Thoải mái, dễ chịu ; Sống ; Nói",
+      "examples": [
+        {
+          "ja": "そんなこと気楽に考えればいいよ。",
+          "reading": "そんなこときらくにかんがえればいいよ。",
+          "vi": "Những cái việc như thế này cứ suy nghĩ thoải mái cũng được."
+        },
+        {
+          "ja": "一人暮らしは気楽に過ごせる。",
+          "reading": "ひとりぐらしはきらくにすごせる。",
+          "vi": "Sống một mình thật thoải mái."
+        },
+        {
+          "ja": "気楽なことを言う。",
+          "reading": "きらくなことをいう。",
+          "vi": "Nói những câu vô lo vô nghĩ."
+        }
+      ]
+    }
+  ]
+}

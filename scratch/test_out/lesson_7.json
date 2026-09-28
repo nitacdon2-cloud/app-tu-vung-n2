@@ -1,0 +1,507 @@
+{
+  "lesson_id": "lesson_07",
+  "lesson_name": "N2 Chương 1 - Động từ 1.8",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "落ち着く",
+      "reading": "おちつく",
+      "han_viet": "LẠC",
+      "word_type": "Động từ",
+      "meaning": "Bình tĩnh; ổn định; thoải mái",
+      "examples": [
+        {
+          "ja": "やっと仕事が落ち着いてきた。",
+          "reading": "やっとしごとがおちついてきた。",
+          "vi": "Cuối cũng công việc cũng ổn định trở lại"
+        },
+        {
+          "ja": "やっぱり家が一番落ち着く。",
+          "reading": "やっぱりいえがいちばんおちつく。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "長引く",
+      "reading": "ながびく",
+      "han_viet": "TRƯỜNG DẪN",
+      "word_type": "Động từ",
+      "meaning": "Được kéo dài",
+      "examples": [
+        {
+          "ja": "会議が少し長引いた。",
+          "reading": "かいぎがすこしながびいた。",
+          "vi": "Thời gian của cuộc họp đã được kéo dài"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "衰える",
+      "reading": "おとろえる",
+      "han_viet": "SUY",
+      "word_type": "Động từ",
+      "meaning": "Trở nên yếu",
+      "examples": [
+        {
+          "ja": "最近視力が衰えてきた。",
+          "reading": "さいきんしりょくがおとろえてきた。",
+          "vi": "Gần đây thị lực đã trở nên yếu"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "蓄える",
+      "reading": "たくわえる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Tiết kiệm, có trữ lượng lớn, nuôi",
+      "examples": [
+        {
+          "ja": "将来のためお金を蓄える。",
+          "reading": "しょうらいのためおきんをたくわえる。",
+          "vi": "Tiết kiệm tiền cho tương lai."
+        },
+        {
+          "ja": "ひげを蓄える。",
+          "reading": "ひげをたくわえる。",
+          "vi": "Nuôi râu"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "覆う",
+      "reading": "おおう",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Phủ, bao bọc",
+      "examples": [
+        {
+          "ja": "雪に校庭が覆われる。",
+          "reading": "ゆきにこうていがおおわれる。",
+          "vi": "Tuyết bao phủ sân trường."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "通りかかる",
+      "reading": "とおりかかる",
+      "han_viet": "THÔNG",
+      "word_type": "Động từ",
+      "meaning": "Đi ngang qua",
+      "examples": [
+        {
+          "ja": "レストランの前を通りかかると、行列ができていた。",
+          "reading": "れすとらんのまえをとうりかかると、ぎょうれつができていた。",
+          "vi": "Đi ngang qua nhà hàng thì thấy mọi người đang xếp hàng."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "飛び回る",
+      "reading": "とびまわる",
+      "han_viet": "PHI HỒI",
+      "word_type": "Động từ",
+      "meaning": "Bay quanh, bay lòng vòng ; - Hối hả đi hết chỗ này chỗ kia",
+      "examples": [
+        {
+          "ja": "花の周りを虫が飛び回っている。",
+          "reading": "はなのまわりをむしがとびまわっている。",
+          "vi": "Con côn trùng bay vòng quanh hoa."
+        },
+        {
+          "ja": "兄は世界中を飛び回って仕事をしている。",
+          "reading": "あにはせかいじゅうをとびまわってしごとをしている。",
+          "vi": "Anh tôi bay đi chỗ này chỗ kia để làm việc."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "暮れる",
+      "reading": "くれる",
+      "han_viet": "MỘ",
+      "word_type": "Động từ",
+      "meaning": "(Mặt trời) lặn ; - Hết (ngày, năm) ; - Rơi vào trạng thái ~",
+      "examples": [
+        {
+          "ja": "冬場は日が暮れるのがはやい。",
+          "reading": "ふゆばはにちがくれるのがはやい。",
+          "vi": "Mùa đông thì mặt trời lặn sớm."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "劣る",
+      "reading": "おとる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Kém hơn",
+      "examples": [
+        {
+          "ja": "旧品型より今の製品はカメラ機能が劣っている。",
+          "reading": "きゅうひんかたよりいまのせいひんはかめらきのうがおとっている。",
+          "vi": "Tính năng camera của sản phẩm hiện nay kém hơn kiểu cũ."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "異なる",
+      "reading": "ことなる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Khác",
+      "examples": [
+        {
+          "ja": "料理の作り方は人によって異なる。",
+          "reading": "りょうりのつくりかたはにんによってことなる。",
+          "vi": "Cách nấu các món ăn sẽ khác nhau tùy từng người."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "さびる",
+      "reading": "さびる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Bị rỉ sét",
+      "examples": [
+        {
+          "ja": "長年使ってきた車がさびてしまった。",
+          "reading": "ながねんつかってきたくるまがさびてしまった。",
+          "vi": "Chiếc ô tô dùng lâu năm bị rỉ sét."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "接する",
+      "reading": "せっする",
+      "han_viet": "TIẾP",
+      "word_type": "Động từ",
+      "meaning": "Gắn với, tiếp xúc, gặp",
+      "examples": [
+        {
+          "ja": "庭に接する土地",
+          "reading": "にわにせっするとち",
+          "vi": "Miếng đất gắn với mảnh vườn."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "属する",
+      "reading": "ぞくする",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Thuộc về",
+      "examples": [
+        {
+          "ja": "人間は哺乳類に属している。",
+          "reading": "にんげんはほにゅうるいにぞくしている。",
+          "vi": "Con người thuộc động vật có vú."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "ほほえむ",
+      "reading": "ほほえむ",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Mỉm cười",
+      "examples": [
+        {
+          "ja": "こちらを見ながら赤ちゃんがほほえんでいる。",
+          "reading": "こちらをみながらあかちゃんがほほえんでいる。",
+          "vi": "Đứa bè vừa nhìn về phía này vừa mỉm cười."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "ふざける",
+      "reading": "ふざける",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Đùa cợt, nghịch",
+      "examples": [
+        {
+          "ja": "彼はふざけて人を笑わせる。",
+          "reading": "かれはふざけてにんをわらわせる。",
+          "vi": "Anh ta đùa cợt gây cười."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "占める",
+      "reading": "しめる",
+      "han_viet": "CHIÊM",
+      "word_type": "Động từ",
+      "meaning": "Chiếm",
+      "examples": [
+        {
+          "ja": "人気商品を買い占める。",
+          "reading": "にんきしょうひんをかいしめる。",
+          "vi": "Mua gom những mặt hàng được yêu thích."
+        },
+        {
+          "ja": "男性が7割を占めている。",
+          "reading": "だんせいが7わりをしめている。",
+          "vi": "Con trai chiếm 70%."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "くたびれる",
+      "reading": "くたびれる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Bị mệt, bị chán",
+      "examples": [
+        {
+          "ja": "一日中立ち仕事で、くたびれた。",
+          "reading": "いちにちじゅうたちしごとで、くたびれた。",
+          "vi": "Cả ngày trời đứng làm việc nên mệt nhoài."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "恵まれる",
+      "reading": "めぐまれる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Được ban phước, may mắn, tốt",
+      "examples": [
+        {
+          "ja": "恵まれた環境で仕事ができている。",
+          "reading": "めぐまれたかんきょうでしごとができている。",
+          "vi": "Được làm việc trong một môi trường tốt."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "湧く",
+      "reading": "わく",
+      "han_viet": "RỤNG",
+      "word_type": "Động từ",
+      "meaning": "Vươn ra, trỗi dậy, trào ra",
+      "examples": [
+        {
+          "ja": "地下水が湧く。",
+          "reading": "ちかすいがわく。",
+          "vi": "Nước ngầm trào ra."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "word": "悔やむ",
+      "reading": "くやむ",
+      "han_viet": "HỐI",
+      "word_type": "Động từ",
+      "meaning": "Hối tiếc",
+      "examples": [
+        {
+          "ja": "おじいさんの最後を見とれず悔やむ。",
+          "reading": "おじいさんのさいごをみとれずくやむ。",
+          "vi": "Hối tiếc vì không gặp được ông lần cuối."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "word": "触る",
+      "reading": "さわる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Sờ, chạm",
+      "examples": [
+        {
+          "ja": "この絵には触ってはいけません。",
+          "reading": "このえにはさわってはいけません。",
+          "vi": "Không được sờ vào bức tranh này."
+        },
+        {
+          "ja": "この作品には触れないでください。",
+          "reading": "このさくひんにはふれないでください。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "word": "触れる",
+      "reading": "ふれる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Chạm, chạm vào Vi phạm (pháp luật, quy tắc)",
+      "examples": [
+        {
+          "ja": "課長の転勤のうわさが耳に触れた。",
+          "reading": "かちょうのてんきんのうわさがみみにふれた。",
+          "vi": "Tin đồn về việc chuyển công tác của Trưởng bộ phận đã đến tai."
+        },
+        {
+          "ja": "彼の過去については触れない方がいい。",
+          "reading": "かのかこについてはふれないほうがいい。",
+          "vi": "Không nên nhắc tới quá khứ của anh ta."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "word": "改まる",
+      "reading": "あらたまる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "cải tiến Câu nệ, hình thức, khách",
+      "examples": [
+        {
+          "ja": "規則が改まる。",
+          "reading": "きそくがあらたまる。",
+          "vi": "Quy định được sửa đổi."
+        },
+        {
+          "ja": "彼が急に改まった態度をとってきた。",
+          "reading": "かれがきゅうにあらたまったたいどをとってきた。",
+          "vi": "Anh ta tự nhiên thể hiện thái độ rất câu nệ."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "word": "改める",
+      "reading": "あらためる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "sáo Cải tiến, thay đổi",
+      "examples": [
+        {
+          "ja": "酒をやめて生活習慣を改める。",
+          "reading": "さけをやめてせいかつしゅうかんをあらためる。",
+          "vi": "Bỏ rượu và thay đổi cuộc sống sinh hoạt."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "word": "収まる・納まる・治まる",
+      "reading": "おさまる",
+      "han_viet": "THU NẠP TRỊ",
+      "word_type": "Động từ",
+      "meaning": "Lắng xuống, được giải quyết, vừa",
+      "examples": [
+        {
+          "ja": "服が多すぎてタンスに収まらない。",
+          "reading": "ふくがおおすぎてたんすにおさまらない。",
+          "vi": "Quần áo quá nhiều không để vừa tủ."
+        },
+        {
+          "ja": "１日休んだら熱が治まった。",
+          "reading": "１にちきゅうんだらねつがおさまった。",
+          "vi": "Nghỉ nguyên 1 ngày và đã đỡ sốt."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "word": "収める・納める・治める",
+      "reading": "おさめる",
+      "han_viet": "THU NẠP TRỊ",
+      "word_type": "Động từ",
+      "meaning": "Cất, giữ, ; - Chi trả, ; - Điều hành",
+      "examples": [
+        {
+          "ja": "指輪をケースに収める。",
+          "reading": "ゆびわをけーすにおさめる。",
+          "vi": "Cất cái nhẫn vào trong hộp."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "word": "避ける",
+      "reading": "さける",
+      "han_viet": "TỊ",
+      "word_type": "Động từ",
+      "meaning": "Né, tránh",
+      "examples": [
+        {
+          "ja": "帽子で日差しを避ける。",
+          "reading": "ぼうしでひざしをさける。",
+          "vi": "Dùng mũ để tránh ánh nắng."
+        },
+        {
+          "ja": "嫌いな人は避けるようにしている。",
+          "reading": "きらいなにんはさけるようにしている。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "word": "よける",
+      "reading": "よける",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Né tránh (va chạm)",
+      "examples": [
+        {
+          "ja": "前からくるバイクをよける。",
+          "reading": "ぜんからくるばいくをよける。",
+          "vi": "Né chiếc xe lao đến từ đằng trước."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "word": "それる",
+      "reading": "それる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Chệch hướng, lạc lối",
+      "examples": [
+        {
+          "ja": "彼女はよく話がそれる。",
+          "reading": "かのじょはよくはなしがそれる。",
+          "vi": "Cô ấy hay nói chệch hướng câu chuyện."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "word": "そらす",
+      "reading": "そらす",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Lảng tránh, rời",
+      "examples": [
+        {
+          "ja": "彼はよく話をそらす。",
+          "reading": "かれはよくはなしをそらす。",
+          "vi": "Anh ấy thường lảng tránh câu chuyện."
+        },
+        {
+          "ja": "息子はちょっと目をそらすとすぐどこかへ行ってしまう。",
+          "reading": "むすこはちょっとめをそらすとすぐどこかへいってしまう。",
+          "vi": "Tôi hơi rời mắt tí là đứa con nó lại đi đâu mất tiêu."
+        }
+      ]
+    }
+  ]
+}

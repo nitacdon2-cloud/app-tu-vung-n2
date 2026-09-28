@@ -1,0 +1,52 @@
+{
+  "lesson_id": "lesson_37",
+  "lesson_name": "N2 Chương 10 - Phân biệt từ vựng 10.6",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "内容",
+      "reading": "ないよう",
+      "han_viet": "NỘI DUNG",
+      "word_type": "Từ vựng",
+      "meaning": "Ý nghĩa: ; Nội dung ( cuộc nói chuyện, ; cuộc họp, bài giảng, sách, ; bản in...)",
+      "examples": [
+        {
+          "ja": "この教科書の内容は分かりやすいです。",
+          "reading": "このきょうかしょのないようはわかりやすいです。",
+          "vi": "chuyện, Nội dung của quyển sách này dễ hiểu. sách,"
+        },
+        {
+          "ja": "先日の会議の内容を教えてください。",
+          "reading": "せんじつのかいぎのないようをおしえてください。",
+          "vi": "Hãy cho tôi biết nội dung của cuộc họp ngày hôm qua."
+        },
+        {
+          "ja": "箱の中身は何ですか。",
+          "reading": "はこのなかみはなんですか。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "中身",
+      "reading": "なかみ",
+      "han_viet": "TRUNG THÂN",
+      "word_type": "Từ vựng",
+      "meaning": "Ý nghĩa: ; Nội dung (nội tâm, bên ; trong…)",
+      "examples": [
+        {
+          "ja": "カバンの中身を警察に見せる。",
+          "reading": "かばんのなかみをけいさつにみせる。",
+          "vi": "bên Cho cảnh sát xem bên trong cặp."
+        },
+        {
+          "ja": "金庫の中身を盗まれた。",
+          "reading": "きんこのなかみをぬすまれた。",
+          "vi": "Bị trộm lấy mất đồ bên trong két."
+        }
+      ]
+    }
+  ]
+}

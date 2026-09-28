@@ -1,0 +1,197 @@
+{
+  "lesson_id": "lesson_41",
+  "lesson_name": "N2 Chương 11 - Tiền tố hậu tố 11.1",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "不〜",
+      "reading": "ふ〜",
+      "han_viet": "BẤT",
+      "word_type": "Từ vựng",
+      "meaning": "TỪ VỰNG ; Việc ; Không thể nào ; Không ; Sự ; Vui",
+      "examples": [
+        {
+          "ja": "３ヶ月でN1を取るのは不可能だ。",
+          "reading": "３ゖがつでN1をとるのはふかのうだ。",
+          "vi": "Việc lấy N1 trong 3 tháng là điều không thể."
+        },
+        {
+          "ja": "不可能なことはない。",
+          "reading": "ふかのうなことはない。",
+          "vi": "Không điều gì là không thể."
+        },
+        {
+          "ja": "不必要な外出、不必要な物",
+          "reading": "ふひつようながいしゅつ、ふひつようなもの",
+          "vi": "Sự ra ngoài không cần thiết, đồ không cần thiết"
+        },
+        {
+          "ja": "不必要な外出はおやめください。",
+          "reading": "ふひつようながいしゅつはおやめください。",
+          "vi": "Vui lòng hạn chế ra ngoài khi không cần thiết."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "〜ではない",
+      "reading": "〜ではない",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "Không cần thiết ; Việc ; Không thoải mái, khó ; Những ; chịu ; Không khoẻ, không",
+      "examples": [
+        {
+          "ja": "不必要な外出はコロナに感染する可能性がある。",
+          "reading": "ふひつようながいしゅつはころなにかんせんするかのうせいがある。",
+          "vi": "Việc ra ngoài không cần thiết có nguy cơ lây nhiễm corona."
+        },
+        {
+          "ja": "不愉快なコメント、不愉快な思い",
+          "reading": "ふゆかいなこめんと、ふゆかいなおもい",
+          "vi": "khó Những bình luận khó chịu, Những kí ức khó chịu"
+        },
+        {
+          "ja": "不健康な顔色、不健康な食生活",
+          "reading": "ふけんこうなかおいろ、ふけんこうなしょくせいかつ",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "無〜",
+      "reading": "む〜",
+      "han_viet": "VÔ",
+      "word_type": "Từ vựng",
+      "meaning": "Sắc ; tốt cho sức khoẻ ; Không phân biệt, ; bừa bãi ; Không liên quan Toàn ; chính",
+      "examples": [
+        {
+          "ja": "無差別殺人事件Vụ án giết người bừa bãi",
+          "reading": "むさべつさつじんじけんVụ án giết ngt ngời bừa bãi",
+          "vi": ""
+        },
+        {
+          "ja": "無関係な話。",
+          "reading": "むかんけいなはなし。",
+          "vi": "Những câu chuyện không liên quan"
+        },
+        {
+          "ja": "本題と無関係な話ばかりをして会議が進まない。",
+          "reading": "ほんだいとむかんけいなはなしばかりをしてかいぎがすすまない。",
+          "vi": "Toàn nói những câu chuyện không liên quan với vấn đề chính nên cuộc họp không có tiến triển."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "〜がない",
+      "reading": "〜がない",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "Những ; Không quan tâm ; Những ; : Không để ý ; Tôi ; xung quanh",
+      "examples": [
+        {
+          "ja": "政治に無関心な若者",
+          "reading": "せいじにむかんしんなわかもの",
+          "vi": "Những người trẻ mà không quan tâm đến chính trị"
+        },
+        {
+          "ja": "教育に無関心な親",
+          "reading": "きょういくにむかんしんなおや",
+          "vi": "Những phụ huynh mà không quan tâm đến giáo dục để ý"
+        },
+        {
+          "ja": "無意識のうちに彼女のことを目で追ってしまう。",
+          "reading": "むいしきのうちにかのじょのことをめでおってしまう。",
+          "vi": "Tôi đã dõi theo cô ấy trong vô thức."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "非〜",
+      "reading": "ひ〜",
+      "han_viet": "PHI",
+      "word_type": "Từ vựng",
+      "meaning": "Những ; Không có ý thức ; Mọi ; có ; Những ; Không khoa học ; (phản khoa học) ; Tôi",
+      "examples": [
+        {
+          "ja": "彼の非常識な言動で、周りの人は困っている。",
+          "reading": "かのひじょうしきなげんどうで、まわりのにんはこまっている。",
+          "vi": "Mọi người xung quanh khó xử vì những phát ngôn không có ý thức của anh ấy."
+        },
+        {
+          "ja": "非科学的なこと",
+          "reading": "ひかがくてきなこと",
+          "vi": "Những điều phản khoa học"
+        },
+        {
+          "ja": "お参りすれば試験に合格できるという非科学的なことは信じていません。",
+          "reading": "おまいりすればしけんにごうかくできるというひかがくてきなことはしんじていません。",
+          "vi": "Tôi không tin vào những điều phản khoa học như nếu đi chùa"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "〜ではない",
+      "reading": "〜ではない",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "thì ; Không công khai Tác ; Phụ",
+      "examples": [
+        {
+          "ja": "非公開の作品",
+          "reading": "ひこうかいのさくひん",
+          "vi": "Tác phẩm không công khai"
+        },
+        {
+          "ja": "非公式グッズ",
+          "reading": "ひこうしきぐっず",
+          "vi": "Phụ kiện không chính thức"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "未〜",
+      "reading": "ひつじ〜",
+      "han_viet": "MÙI",
+      "word_type": "Từ vựng",
+      "meaning": "Việc ; Không chính thức ; sẽ ; Viếng ; Chưa hoàn thành Thánh",
+      "examples": [
+        {
+          "ja": "非公式グッズを売するのは犯罪になる可能性がある。",
+          "reading": "ひこうしきぐっずをばいするのははんざいになるかのうせいがある。",
+          "vi": "Việc bán những phụ kiện không chính thức có khả năng sẽ trở thành phạm tội."
+        },
+        {
+          "ja": "非公式に訪問する。",
+          "reading": "ひこうしきにほうもんする。",
+          "vi": "Viếng thăm không chính thức."
+        },
+        {
+          "ja": "サグラダファミリアは、まだ未完成のままだ。",
+          "reading": "さぐらだふぁみりあは、まだみかんせいのままだ。",
+          "vi": "Thánh đường Sagrada Familia thì vẫn chưa hoàn thành."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "まだ〜していない",
+      "reading": "まだ〜していない",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "Chưa giải quyết Những",
+      "examples": [
+        {
+          "ja": "未解決事件",
+          "reading": "みかいけつじけん",
+          "vi": "Những vụ án vẫn chưa giải quyết"
+        }
+      ]
+    }
+  ]
+}

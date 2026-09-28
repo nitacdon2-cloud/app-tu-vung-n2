@@ -1,0 +1,87 @@
+{
+  "lesson_id": "lesson_33",
+  "lesson_name": "N2 Chương 10 - Phân biệt từ vựng 10.2",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "犯す",
+      "reading": "おかす",
+      "han_viet": "PHẠM",
+      "word_type": "Từ vựng",
+      "meaning": "Vi phạm luật định, luật pháp, ; luân thường đạo lý",
+      "examples": [
+        {
+          "ja": "過ちを犯した。",
+          "reading": "あやまちをおかした。",
+          "vi": "Phạm lỗi, mắc lỗi."
+        },
+        {
+          "ja": "罪を犯す。",
+          "reading": "つみをおかす。",
+          "vi": "luật pháp, Phạm tội."
+        },
+        {
+          "ja": "女性を犯す。",
+          "reading": "じょせいをおかす。",
+          "vi": "Làm những việc trái luân thường đạo lý với phụ nữ."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "侵す",
+      "reading": "おかす",
+      "han_viet": "XÂM",
+      "word_type": "Từ vựng",
+      "meaning": "Xâm phạm vào thứ của người",
+      "examples": [
+        {
+          "ja": "聖域を侵す。",
+          "reading": "せいいきをおかす。",
+          "vi": "Xâm phạm đất Thánh."
+        },
+        {
+          "ja": "領海を侵す。",
+          "reading": "りょうかいをおかす。",
+          "vi": "Xâm phạm lãnh hải. của người khác"
+        },
+        {
+          "ja": "プライバシーを侵す。",
+          "reading": "ぷらいばしーをおかす。",
+          "vi": "Xâm phạm quyền riêng tư."
+        },
+        {
+          "ja": "権利を侵す。",
+          "reading": "けんりをおかす。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "冒す",
+      "reading": "おかす",
+      "han_viet": "MẠO",
+      "word_type": "Từ vựng",
+      "meaning": "Đương đầu ; Ảnh hưởng ; Mạo phạm",
+      "examples": [
+        {
+          "ja": "危険を冒す。",
+          "reading": "きけんをおかす。",
+          "vi": "Đương đầu với hiểm nguy."
+        },
+        {
+          "ja": "人間を冒す病気",
+          "reading": "にんげんをおかすびょうき",
+          "vi": "Loại bệnh mà đe dọa con người"
+        },
+        {
+          "ja": "尊厳を冒す。",
+          "reading": "そんげんをおかす。",
+          "vi": "Mạo phạm lòng tự trọng của ai đó."
+        }
+      ]
+    }
+  ]
+}

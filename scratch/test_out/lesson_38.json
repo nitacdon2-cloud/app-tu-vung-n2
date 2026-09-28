@@ -1,0 +1,67 @@
+{
+  "lesson_id": "lesson_38",
+  "lesson_name": "N2 Chương 10 - Phân biệt từ vựng 10.7",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "値段",
+      "reading": "ねだん",
+      "han_viet": "TRỊ ĐOẠN",
+      "word_type": "Từ vựng",
+      "meaning": "Ý nghĩa: ; Giá cả, giá tiền ; (dùng trong văn nói).",
+      "examples": [
+        {
+          "ja": "セールで洋服の値段が安くなっていた。",
+          "reading": "せーるでようふくのねだんがやすくなっていた。",
+          "vi": "Có đợt giảm giá nên quần áo âu phục đã rẻ hơn rồi."
+        },
+        {
+          "ja": "値段が違うと、店員にクレームを入れる。",
+          "reading": "ねだんがちがうと、てんいんにくれーむをいれる。",
+          "vi": "Phàn nàn với nhân viên khi giá cả chênh lệch."
+        },
+        {
+          "ja": "あの店は値段も安いし、味もいいよ。",
+          "reading": "あのみせはねだんもやすいし、あじもいいよ。",
+          "vi": "Cái cửa hàng kia giá cả vừa rẻ mà vị cũng ngon nữa."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "価格",
+      "reading": "かかく",
+      "han_viet": "CÁCH",
+      "word_type": "Từ vựng",
+      "meaning": "Ý nghĩa: ; Giá cả, giá tiền ; (dùng trong văn viết)",
+      "examples": [
+        {
+          "ja": "野菜の価格が高騰している。",
+          "reading": "やさいのかかくがこうとうしている。",
+          "vi": "Giá rau đang tăng vọt."
+        },
+        {
+          "ja": "あの店は他の店より商品の価格が安い。",
+          "reading": "あのみせはほかのみせよりしょうひんのかかくがやすい。",
+          "vi": "Cửa hàng kia thì giá cả rẻ hơn các cửa hàng khác."
+        },
+        {
+          "ja": "母は質より価格重視で買い物をする。",
+          "reading": "はははしつよりかかくじゅうしでかいものをする。",
+          "vi": "Mẹ tôi mua sắm chú trọng giá cả hơn là chất lượng."
+        },
+        {
+          "ja": "低価格。",
+          "reading": "ていかかく。",
+          "vi": "Giá thấp."
+        },
+        {
+          "ja": "低価格で商品を提供しております。",
+          "reading": "ていかかくでしょうひんをていきょうしております。",
+          "vi": "Chúng tôi cung cấp sản phẩm giá rẻ."
+        }
+      ]
+    }
+  ]
+}

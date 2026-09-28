@@ -1,0 +1,97 @@
+{
+  "lesson_id": "lesson_32",
+  "lesson_name": "N2 Chương 10 - Phân biệt từ vựng 10.1",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "あっさり",
+      "reading": "あっさり",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "① Nhạt, thanh ; ② Đơn giản, chóng vánh",
+      "examples": [
+        {
+          "ja": "あっさりした味",
+          "reading": "あっさりしたあじ",
+          "vi": "Vị nhạt,thanh"
+        },
+        {
+          "ja": "問題をあっさり解決したね。",
+          "reading": "もんだいをあっさりかいけつしたね。",
+          "vi": "Giải quyết vấn đề một cách đơn giản. vánh"
+        },
+        {
+          "ja": "試合にあっさり負けてしまった。",
+          "reading": "しあいにあっさりまけてしまった。",
+          "vi": "Tôi đã thua trận đấu một cách chóng vánh."
+        },
+        {
+          "ja": "さっぱりした味",
+          "reading": "さっぱりしたあじ",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "さっぱり",
+      "reading": "さっぱり",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "① Nhạt, thanh ; ② Hoàn toàn ; ③ Thoải mái ; ④ Thẳng tính",
+      "examples": [
+        {
+          "ja": "さっぱりわすれた。",
+          "reading": "さっぱりわすれた。",
+          "vi": "Đã quên hoàn toàn."
+        },
+        {
+          "ja": "さっぱりわからない。",
+          "reading": "さっぱりわからない。",
+          "vi": "Hoàn toàn chẳng hiểu chút nào."
+        },
+        {
+          "ja": "気分がさっぱりした。",
+          "reading": "きぶんがさっぱりした。",
+          "vi": "Cảm giác thoải mái, không nặng nề."
+        },
+        {
+          "ja": "性格がさっぱりしている。",
+          "reading": "せいかくがさっぱりしている。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "すっかり",
+      "reading": "すっかり",
+      "han_viet": "",
+      "word_type": "Từ vựng",
+      "meaning": "① Tất cả, hoàn toàn ; ② Thay đổi hoàn toàn",
+      "examples": [
+        {
+          "ja": "すっかりわすれた。",
+          "reading": "すっかりわすれた。",
+          "vi": "Đã quên sạch. toàn"
+        },
+        {
+          "ja": "金庫の金がすっかりなくなる。",
+          "reading": "きんこのきんがすっかりなくなる。",
+          "vi": "Tiền trong két đã hết sạch."
+        },
+        {
+          "ja": "すっかり大きくなったね！",
+          "reading": "すっかりおおきくなったね！",
+          "vi": "Chẳng mấy chốc mà đã lớn thế này rồi! toàn"
+        },
+        {
+          "ja": "もうすっかり春ですね。",
+          "reading": "もうすっかりはるですね。",
+          "vi": "Trời đã sang xuân từ bao giờ rồi nhỉ!"
+        }
+      ]
+    }
+  ]
+}

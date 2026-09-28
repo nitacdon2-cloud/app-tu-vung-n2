@@ -1,0 +1,122 @@
+{
+  "lesson_id": "lesson_34",
+  "lesson_name": "N2 Chương 10 - Phân biệt từ vựng 10.3",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "治める・治",
+      "reading": "おさめる・おさむ",
+      "han_viet": "TRỊ TRỊ",
+      "word_type": "Từ vựng",
+      "meaning": "① Trị vì, cai trị ; ② Làm cho ổn định ; ③ Được cải thiện",
+      "examples": [
+        {
+          "ja": "国を治める。",
+          "reading": "くにをおさめる。",
+          "vi": "Trị vì đất nước. cho ổn định"
+        },
+        {
+          "ja": "紛争を治める。",
+          "reading": "ふんそうをおさめる。",
+          "vi": "Dẹp loạn."
+        },
+        {
+          "ja": "痛みが治まった。",
+          "reading": "いたみがおさまった。",
+          "vi": "Đỡ đau. cải thiện"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "修める・修",
+      "reading": "おさめる・おさむ",
+      "han_viet": "TU TU",
+      "word_type": "Từ vựng",
+      "meaning": "① Trau dồi tu luyện ; ② Tốt lên",
+      "examples": [
+        {
+          "ja": "風邪が治まった。",
+          "reading": "かぜがおさまった。",
+          "vi": "Đỡ cảm."
+        },
+        {
+          "ja": "語学を修める。",
+          "reading": "ごがくをおさめる。",
+          "vi": "Trau dồi ngôn ngữ. dồi tu luyện"
+        },
+        {
+          "ja": "身を修める。",
+          "reading": "みをおさめる。",
+          "vi": "Trau dồi bản thân. lên"
+        },
+        {
+          "ja": "身持ちが修まる。",
+          "reading": "みもちちがおさまる。",
+          "vi": "Bản thân được trau dồi."
+        },
+        {
+          "ja": "リンゴを箱に収める。",
+          "reading": "りんごをはこにおさめる。",
+          "vi": "Cất táo vào hộp."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "収める・収",
+      "reading": "おさめる・しゅう",
+      "han_viet": "THU THU",
+      "word_type": "Từ vựng",
+      "meaning": "① Cất đi ; ② Thu được ; ③ Vừa",
+      "examples": [
+        {
+          "ja": "財布に収める。",
+          "reading": "さいふにおさめる。",
+          "vi": "Cất vào ví."
+        },
+        {
+          "ja": "成功を収める。",
+          "reading": "せいこうをおさめる。",
+          "vi": "Gặt hái thành công. được"
+        },
+        {
+          "ja": "権利を収める。",
+          "reading": "けんりをおさめる。",
+          "vi": "Đạt được quyền lợi."
+        },
+        {
+          "ja": "本は全部この箱に収まると思います。",
+          "reading": "ほんはぜんぶこのはこにおさまるとおもいます。",
+          "vi": "Tất cả sách để vừa vào thùng này."
+        },
+        {
+          "ja": "コロナが収まったら旅行に行く。",
+          "reading": "ころながおさまったらりょこうにいく。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "納める．納",
+      "reading": "おさめる．のう",
+      "han_viet": "NẠP NẠP",
+      "word_type": "Từ vựng",
+      "meaning": "④ Trở nên ổn ; ① Nộp, đóng ; ② Nhận chức (Phù",
+      "examples": [
+        {
+          "ja": "税金を納める。",
+          "reading": "ぜいきんをおさめる。",
+          "vi": "Nộp thuế.授業料を納める。Đóng học phí. đóng chức (Phù hợp)"
+        },
+        {
+          "ja": "社長に納まる。",
+          "reading": "しゃちょうにおさまる。",
+          "vi": "Nhận chức giám đốc."
+        }
+      ]
+    }
+  ]
+}

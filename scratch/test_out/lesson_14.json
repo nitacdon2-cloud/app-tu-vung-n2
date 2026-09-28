@@ -1,0 +1,617 @@
+{
+  "lesson_id": "lesson_14",
+  "lesson_name": "N2 Chương 2 - Động danh từ 2.5",
+  "level": "N2",
+  "words": [
+    {
+      "id": 1,
+      "word": "発展",
+      "reading": "はってん",
+      "han_viet": "PHÁT TRIỂN",
+      "word_type": "Động danh từ",
+      "meaning": "phát triển",
+      "examples": [
+        {
+          "ja": "ベトナムは現在大きく発展している。",
+          "reading": "べとなむはげんざいおおきくはってんしている。",
+          "vi": "Hiện tại Việt Nam đang phát triển rất lớn mạnh"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "検討",
+      "reading": "けんとう",
+      "han_viet": "THẢO",
+      "word_type": "Động danh từ",
+      "meaning": "kiểm tra, điều tra, xem xét",
+      "examples": [
+        {
+          "ja": "この点に関しては、さらに検討が必要だ。",
+          "reading": "このてんにかんしては、さらにけんとうがひつようだ。",
+          "vi": "Liên quan đến điểm này, cần có sự cân nhắc hơn nữa."
+        },
+        {
+          "ja": "問題点を検討する。",
+          "reading": "もんだいてんをけんとうする。",
+          "vi": "Xem xét những vấn đề tồn tại."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "選択",
+      "reading": "せんたく",
+      "han_viet": "TUYỂN",
+      "word_type": "Động danh từ",
+      "meaning": "lựa chọn",
+      "examples": [
+        {
+          "ja": "テストは選択問題なので、日本語が書けなくても大丈夫だ。",
+          "reading": "てすとはせんたくもんだいなので、にほんごがかけなくてもだいじょうぶだ。",
+          "vi": "Vì bài kiểm tra là dạng bài trắc nghiệm nên không biết viết tiếng Nhật cũng không sao."
+        },
+        {
+          "ja": "この中から選択してください。",
+          "reading": "このなかからせんたくしてください。",
+          "vi": "Hãy lựa chọn từ trong này."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "考慮",
+      "reading": "こうりょ",
+      "han_viet": "KHẢO LỰ",
+      "word_type": "Động danh từ",
+      "meaning": "xem xét, suy tính",
+      "examples": [
+        {
+          "ja": "給料だけではなく、働きやすさも考慮に入れて就職先を決める。",
+          "reading": "きゅうりょうだけではなく、はたらきやすさもこうりょにいれてしゅうしょくさきをきめる。",
+          "vi": "Tôi xem xét không chỉ lương, mà cả mức độ dễ dàng của công việc rồi mới quyết định chỗ làm."
+        },
+        {
+          "ja": "友達の事情を考慮して旅行の計画を立てる。",
+          "reading": "ともだちのじじょうをこうりょしてりょこうのけいかくをたてる。",
+          "vi": "Xem xét tình hình đứa bạn để lên kế hoạch cho chuyến du lịch."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "訂正",
+      "reading": "ていせい",
+      "han_viet": "ĐÍNH CHÍNH",
+      "word_type": "Động danh từ",
+      "meaning": "đính chính, hiệu đính, sửa lại",
+      "examples": [
+        {
+          "ja": "訂正箇所には、マーカーで色を付けてあります。",
+          "reading": "ていせいかしょには、まーかーでいろをつけてあります。",
+          "vi": "Các chỗ sửa lại được tô màu bởi bút đánh dấu."
+        },
+        {
+          "ja": "文章の間違いを訂正する。",
+          "reading": "ぶんしょうのまちがいをていせいする。",
+          "vi": "Đính chính lại lỗi sai trong đoạn văn."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "修正",
+      "reading": "しゅうせい",
+      "han_viet": "TU CHÍNH",
+      "word_type": "Động danh từ",
+      "meaning": "chỉnh sửa, sửa đổi",
+      "examples": [
+        {
+          "ja": "この原稿はミスが多いので、修正が必要だ。",
+          "reading": "このげんこうはみすがおおいので、しゅうせいがひつようだ。",
+          "vi": "Bản thảo này có nhiều lỗi nên cần phải chỉnh sửa."
+        },
+        {
+          "ja": "資料内容を修正する。",
+          "reading": "しりょうないようをしゅうせいする。",
+          "vi": "Sửa đổi nội dung tài liệu."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "処置",
+      "reading": "しょち",
+      "han_viet": "TRÍ",
+      "word_type": "Động danh từ",
+      "meaning": "biện pháp, xử điều trị",
+      "examples": [
+        {
+          "ja": "ハチにさされたので、病院でさされた所をlý,処置してもらう。",
+          "reading": "はちにさされたので、びょういんでさされたところをlý,しょちしてもらう。",
+          "vi": "Do bị ong đốt nên tôi sẽ điều trị vết đốt tại bệnh viện. 49"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "処分",
+      "reading": "しょぶん",
+      "han_viet": "PHÂN",
+      "word_type": "Động danh từ",
+      "meaning": "xử lý, biện pháp",
+      "examples": [
+        {
+          "ja": "大きい家具の処分に困っている。",
+          "reading": "おおきいかぐのしょぶんにこまっている。",
+          "vi": "Khó khăn trong việc xử lý các đồ gia dụng lớn."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "処理",
+      "reading": "しょり",
+      "han_viet": "LÝ",
+      "word_type": "Động danh từ",
+      "meaning": "xử lý, giải quyết",
+      "examples": [
+        {
+          "ja": "ごみが多すぎて、処理が追い付かない。",
+          "reading": "ごみがおおすぎて、しょりがおいつかない。",
+          "vi": "Nhiều rác quá nên xử lý không kịp."
+        },
+        {
+          "ja": "仕事を処理する。",
+          "reading": "しごとをしょりする。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "普及",
+      "reading": "ふきゅう",
+      "han_viet": "PHỔ CẬP",
+      "word_type": "Động danh từ",
+      "meaning": "lan tràn, phổ biến",
+      "examples": [
+        {
+          "ja": "インターネットの普及にともなって、手紙を書く人は減った。",
+          "reading": "いんたーねっとのふきゅうにともなって、てがみをかくにんはへった。",
+          "vi": "Cùng với sự phổ biến của Internet, số người viết thư tay cũng đã giảm đi."
+        },
+        {
+          "ja": "世界中にスマートフォンが普及している。",
+          "reading": "せかいじゅうにすまーとふぉんがふきゅうしている。",
+          "vi": "Điện thoại thông mình được phổ cập khắp thế giới."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "制限",
+      "reading": "せいげん",
+      "han_viet": "CHẾ HẠN",
+      "word_type": "Động danh từ",
+      "meaning": "hạn chế",
+      "examples": [
+        {
+          "ja": "混雑を避けるため、人数を制限して入場させている。",
+          "reading": "こんざつをさけるため、にんずうをせいげんしてにゅうじょうさせている。",
+          "vi": "Để tránh cảnh đông đúc, người ta đang hạn chế số người được vào."
+        },
+        {
+          "ja": "食事制限をしている。",
+          "reading": "しょくじせいげんをしている。",
+          "vi": "Tôi đang hạn chế ăn."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "重視",
+      "reading": "じゅうし",
+      "han_viet": "TRỌNG THỊ",
+      "word_type": "Động danh từ",
+      "meaning": "coi trọng",
+      "examples": [
+        {
+          "ja": "パソコンは見た目より機能重視で選んだ方がいい。",
+          "reading": "ぱそこんはみためよりきのうじゅうしでえらんだほうがいい。",
+          "vi": "Chọn máy tính nên chú trọng vào tính năng hơn là vẻ ngoài."
+        },
+        {
+          "ja": "私は外見を重視している。",
+          "reading": "わたしはがいけんをじゅうししている。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "操作",
+      "reading": "そうさ",
+      "han_viet": "TÁC",
+      "word_type": "Động danh từ",
+      "meaning": "thao tác, vận hành",
+      "examples": [
+        {
+          "ja": "機械を操作する。",
+          "reading": "きかいをそうさする。",
+          "vi": "Vận hành máy móc."
+        },
+        {
+          "ja": "機械の操作はむずかしい。",
+          "reading": "きかいのそうさはむずかしい。",
+          "vi": "Việc vận hành máy móc thì rất khó."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "発揮",
+      "reading": "はっき",
+      "han_viet": "PHÁT HUY",
+      "word_type": "Động danh từ",
+      "meaning": "phát huy, thể hiện",
+      "examples": [
+        {
+          "ja": "実力の発揮を選手に期待する。",
+          "reading": "じつりょくのはっきをせんしゅにきたいする。",
+          "vi": "Kỳ vọng vận động viên sẽ phát huy được thực lực."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "反抗",
+      "reading": "はんこう",
+      "han_viet": "PHẢN KHÁNG",
+      "word_type": "Động danh từ",
+      "meaning": "phản đối, phản kháng",
+      "examples": [
+        {
+          "ja": "上司に反抗的な態度をとる。",
+          "reading": "じょうしにはんこうてきなたいどをとる。",
+          "vi": "Thể hiện thái độ phản kháng với cấp trên."
+        },
+        {
+          "ja": "親に反抗する。",
+          "reading": "おやにはんこうする。",
+          "vi": "Chống đối bố mẹ. 50"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "抵抗",
+      "reading": "ていこう",
+      "han_viet": "KHÁNG",
+      "word_type": "Động danh từ",
+      "meaning": "đề kháng, kháng",
+      "examples": [
+        {
+          "ja": "上司のやり方には抵抗を感じる。",
+          "reading": "じょうしのやりほうにはていこうをかんじる。",
+          "vi": "Cảm thấy ngần ngại đối với cách làm của sếp."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "分析",
+      "reading": "ぶんせき",
+      "han_viet": "PHÂN",
+      "word_type": "Động danh từ",
+      "meaning": "phân tích",
+      "examples": [
+        {
+          "ja": "分析の結果、この商品にはダイエット効果がないことがわかった。",
+          "reading": "ぶんせきのけっか、このしょうひんにはだいえっとこうかがないことがわかった。",
+          "vi": "Đã biết được rằng sản phẩm này không có tác dụng ăn kiêng sau khi có kết quả phân tích."
+        },
+        {
+          "ja": "データを分析する。",
+          "reading": "でーたをぶんせきする。",
+          "vi": "Phân tích dữ liệu."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "維持",
+      "reading": "いじ",
+      "han_viet": "TRÌ",
+      "word_type": "Động danh từ",
+      "meaning": "duy trì",
+      "examples": [
+        {
+          "ja": "車は税金はもちろん、維持費がかかるので買わない主義だ。",
+          "reading": "くるまはぜいきんはもちろん、いじひがかかるのでかわないしゅぎだ。",
+          "vi": "Tôi có nguyên tắc không mua xe ô tô, vì không chỉ tốn tiền thuế mà còn mất cả phí duy trì nữa."
+        },
+        {
+          "ja": "体型を現状維持する。",
+          "reading": "たいけいをげんじょういじする。",
+          "vi": "Duy trì vóc dáng hiện tại."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "管理",
+      "reading": "かんり",
+      "han_viet": "QUẢN LÝ",
+      "word_type": "Động danh từ",
+      "meaning": "quản lý, điều hành, điều khiển",
+      "examples": [
+        {
+          "ja": "建物の管理が行き届いておらず、あちこち壊れている。",
+          "reading": "たてもののかんりがいきとどいておらず、あちこちこわれている。",
+          "vi": "Việc quản lý tòa nhà không được chu đáo nên cứ hỏng chỗ này chỗ kia."
+        },
+        {
+          "ja": "部下を管理する。",
+          "reading": "ぶかをかんりする。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "word": "徹底",
+      "reading": "てってい",
+      "han_viet": "TRIỆT ĐỂ",
+      "word_type": "Động danh từ",
+      "meaning": "triệt để, kỹ lưỡng",
+      "examples": [
+        {
+          "ja": "手洗いの徹底で、風邪は予防できる。",
+          "reading": "てあらいのてっていで、かぜはよぼうできる。",
+          "vi": "Có thể phòng ngừa bị cảm nhờ rửa tay kỹ lưỡng."
+        },
+        {
+          "ja": "新人の指導を徹底する。",
+          "reading": "しんじんのしどうをてっていする。",
+          "vi": "Kỹ lưỡng trong việc hướng dẫn cho người mới."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "word": "組織",
+      "reading": "そしき",
+      "han_viet": "TỔ CHỨC",
+      "word_type": "Động danh từ",
+      "meaning": "tổ chức, thành lập",
+      "examples": [
+        {
+          "ja": "内部の争いで、組織が分裂した。",
+          "reading": "ないぶのあらそいで、そしきがぶんれつした。",
+          "vi": "Tổ chức bị chia rẽ do tranh chấp nội bộ."
+        },
+        {
+          "ja": "ボランティア団体を組織する。",
+          "reading": "ぼらんてぃあだんたいをそしきする。",
+          "vi": "Thành lập một tổ chức tình nguyện."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "word": "構成",
+      "reading": "こうせい",
+      "han_viet": "THÀNH",
+      "word_type": "Động danh từ",
+      "meaning": "cấu trúc",
+      "examples": [
+        {
+          "ja": "ロシア連邦は83の共和国や州などから構成されている。",
+          "reading": "ろしあれんぽうは83のきょうわこくやしゅうなどからこうせいされている。",
+          "vi": "Liên bang Nga được cấu thành từ 83 bang và các nước Cộng hòa."
+        },
+        {
+          "ja": "この教科書の構成は分かりやすい。",
+          "reading": "このきょうかしょのこうせいはわかりやすい。",
+          "vi": "Cấu trúc cuốn sách giáo khoa này dễ hiểu. 51"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "word": "消耗",
+      "reading": "しょうもう",
+      "han_viet": "TIÊU HAO",
+      "word_type": "Động danh từ",
+      "meaning": "tiêu thụ, tiêu hao kiệt quệ",
+      "examples": [
+        {
+          "ja": "ティッシュは消耗品だ。",
+          "reading": "てぃっしゅはしょうもうひんだ。",
+          "vi": "Giấy ăn là hàng tiêu dùng."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "word": "付属",
+      "reading": "ふぞく",
+      "han_viet": "PHÓ",
+      "word_type": "Động danh từ",
+      "meaning": "đi, đính kèm theo",
+      "examples": [
+        {
+          "ja": "この雑誌にはおまけとしてポーチが付属している。",
+          "reading": "このざっしにはおまけとしてぽーちがふぞくしている。",
+          "vi": "Cuốn tạp chí được đính kèm một chiếc túi nhỏ như là một món quà tặng kèm."
+        },
+        {
+          "ja": "ゲーム機には付属品が付いている。",
+          "reading": "げーむきにはふぞくひんがついている。",
+          "vi": "Máy chơi game có kèm phụ kiện."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "word": "供給",
+      "reading": "きょうきゅう",
+      "han_viet": "CUNG CẤP",
+      "word_type": "Động danh từ",
+      "meaning": "cung cấp",
+      "examples": [
+        {
+          "ja": "需要が供給を上回る。",
+          "reading": "じゅようがきょうきゅうをうわまわる。",
+          "vi": "Cầu vượt cung."
+        },
+        {
+          "ja": "被災者に物資を供給する。",
+          "reading": "ひさいしゃにぶっしをきょうきゅうする。",
+          "vi": "Cung cấp đồ cứu tế cho người bị hại."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "word": "関連",
+      "reading": "かんれん",
+      "han_viet": "LIÊN",
+      "word_type": "Động danh từ",
+      "meaning": "liên quan, sự kết nối",
+      "examples": [
+        {
+          "ja": "睡眠不足は肥満に関連していると言われている。",
+          "reading": "すいみんぶそくはひまんにかんれんしているといわれている。",
+          "vi": "Thiếu ngủ được cho là có liên quan đến bệnh béo phì."
+        },
+        {
+          "ja": "事件の関連性を調べる。",
+          "reading": "じけんのかんれんせいをしらべる。",
+          "vi": "Tìm hiểu mối liên quan của vụ án."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "word": "手当",
+      "reading": "てあて",
+      "han_viet": "THỦ",
+      "word_type": "Động danh từ",
+      "meaning": "phụ cấp, chuẩn bị, chữa trị",
+      "examples": [
+        {
+          "ja": "傷が深いので、病院での手当が必要だ。",
+          "reading": "きずがふかいので、びょういんでのてあてがひつようだ。",
+          "vi": "Vết cắt sâu nên cần phải được chữa trị tại bệnh viện."
+        },
+        {
+          "ja": "傷口を手当する。",
+          "reading": "きずぐちをてあてする。",
+          "vi": "Chữa trị vết thương."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "word": "汚染",
+      "reading": "おせん",
+      "han_viet": "NHUỘM",
+      "word_type": "Động danh từ",
+      "meaning": "ô nhiễm",
+      "examples": [
+        {
+          "ja": "工場排水による川の汚染が問題になっている。",
+          "reading": "こうじょうはいすいによるかわのおせんがもんだいになっている。",
+          "vi": "Sự ô nhiễm con sông do nước thải của nhà máy đang trở thành một vấn đề."
+        },
+        {
+          "ja": "発展と共に海が汚染されている。",
+          "reading": "はってんとともにうみがおせんされている。",
+          "vi": "Cùng với sự phát triển, thì biển cũng ngày càng bị ô nhiễm."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "word": "伝染",
+      "reading": "でんせん",
+      "han_viet": "NHUỘM",
+      "word_type": "Động danh từ",
+      "meaning": "truyền nhiễm",
+      "examples": [
+        {
+          "ja": "伝染病は目に見えないから怖い。",
+          "reading": "でんせんびょうはめにみえないからこわい。",
+          "vi": "Bệnh truyền nhiễm đáng sợ vì chúng ta không thấy được bằng mắt thường."
+        },
+        {
+          "ja": "この病気は人から動物に伝染する。",
+          "reading": "このびょうきはにんからどうぶつにでんせんする。",
+          "vi": "Căn bệnh này truyền nhiễm từ người sang động vật. 52"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "word": "でこぼこ",
+      "reading": "でこぼこ",
+      "han_viet": "",
+      "word_type": "Động danh từ",
+      "meaning": "lồi lõm, ổ gà",
+      "examples": [
+        {
+          "ja": "がよく分かる。",
+          "reading": "がよくわかる。",
+          "vi": "Khi nhìn theo bề ngang, sẽ thấy rõ sự lồi lõm trên bề mặt (mặt trước)."
+        },
+        {
+          "ja": "この道路はでこぼこしていて運転がしにくい。",
+          "reading": "このどうろはでこぼこしていてうんてんがしにくい。",
+          "vi": "Con đường này lồi lõm, khó lái xe."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "word": "分布",
+      "reading": "ぶんぷ",
+      "han_viet": "PHÂN BỐ",
+      "word_type": "Động danh từ",
+      "meaning": "phân phối, phân bố",
+      "examples": [
+        {
+          "ja": "植物の分布を示した地図を買った。",
+          "reading": "しょくぶつのぶんぷをしめしたちずをかった。",
+          "vi": "Đã mua một tấm bản đổ thể hiện sự phân bố thực vật."
+        },
+        {
+          "ja": "この虫は世界中に分布している。",
+          "reading": "このむしはせかいじゅうにぶんぷしている。",
+          "vi": "Loài côn trùng này phân bố trên khắp thế giới."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "word": "面",
+      "reading": "めん",
+      "han_viet": "",
+      "word_type": "Động danh từ",
+      "meaning": "mặt, mặt phẳng, diện mạo",
+      "examples": [
+        {
+          "ja": "あの病院は川に面した場所に建てられている。",
+          "reading": "あのびょういんはかわにめんしたばしょにたてられている。",
+          "vi": "Bệnh viện đó được xây ở một địa điểm nhìn ra sông."
+        },
+        {
+          "ja": "人の悪い面を見てしまう。",
+          "reading": "にんのわるいめんをみてしまう。",
+          "vi": "Nhìn thấy mặt xấu của người khác. 53"
+        }
+      ]
+    }
+  ]
+}
