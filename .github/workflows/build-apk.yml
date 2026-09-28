@@ -32,15 +32,15 @@ jobs:
       - name: Build Web App
         run: npm run build
 
-      - name: Add Android Platform & Sync Capacitor
-        run: |
-          npx cap add android || true
-          npx cap sync android
+      - name: Sync Capacitor
+        run: npx cap sync android
+
+      - name: Make gradlew executable
+        run: chmod +x android/gradlew
 
       - name: Build Debug APK
         run: |
           cd android
-          chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
 
       - name: Upload APK Artifact
