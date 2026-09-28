@@ -49,13 +49,19 @@ jobs:
         run: |
           cd android
           ./gradlew assembleDebug --no-daemon 2>&1 | tee ../build.log
+          if [ ${PIPESTATUS[0]} -ne 0 ]; then
+            echo "::error::Gradle build failed"
+            exit 1
+          fi
 
-      - name: Upload Build Log
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-log
-          path: build.log
+      - name: Print Build Log on Failure
+        if: failure()
+        run: |
+          if [ -f "build.log" ]; then
+            echo "==================== GRADLE BUILD LOG ===================="
+            tail -n 100 build.log
+            echo "=========================================================="
+          fi
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
