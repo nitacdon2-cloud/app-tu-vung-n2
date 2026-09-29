@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/app-tu-vung-n2/',
+  base: './',
   plugins: [
     react(),
     VitePWA({
