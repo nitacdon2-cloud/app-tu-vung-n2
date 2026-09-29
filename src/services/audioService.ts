@@ -1,14 +1,10 @@
-// Audio TTS Service using Google Translate TTS (Primary) & Web Speech API / Native Capacitor (Fallback)
+// Audio TTS Service using Youdao & Google Translate TTS (Primary) & Web Speech API / Native Capacitor (Fallback)
 import { TextToSpeech } from '@capacitor-community/text-to-speech';
 import { Capacitor } from '@capacitor/core';
 
 let currentAudio: HTMLAudioElement | null = null;
 
-export const speakJapanese = async (text: string, rate: number = 0.9): Promise<void> => {
-  if (!text || !text.trim()) return;
-  const cleanText = text.trim();
-
-  // Stop any currently playing audio
+const stopCurrentAudio = () => {
   if (currentAudio) {
     try {
       currentAudio.pause();
@@ -16,28 +12,100 @@ export const speakJapanese = async (text: string, rate: number = 0.9): Promise<v
     } catch {}
     currentAudio = null;
   }
+};
 
-  // Method 1: Google Translate TTS High-Quality MP3 Stream (100% reliable on all phones/browsers)
-  try {
-    const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ja&q=${encodeURIComponent(cleanText)}`;
-    const audio = new Audio(audioUrl);
-    currentAudio = audio;
+const playAudioUrl = (url: string, rate: number = 1.0): Promise<void> => {
+  return new Promise((resolve, reject) => {
+    const audio = new Audio();
+    (audio as any).referrerPolicy = 'no-referrer';
+    audio.src = url;
     audio.playbackRate = rate;
+    currentAudio = audio;
 
-    await new Promise<void>((resolve, reject) => {
-      audio.onended = () => resolve();
-      audio.onerror = (e) => reject(e);
-      const playPromise = audio.play();
-      if (playPromise) {
-        playPromise.catch(reject);
+    const cleanup = () => {
+      audio.onended = null;
+      audio.onerror = null;
+    };
+
+    audio.onended = () => {
+      cleanup();
+      resolve();
+    };
+
+    audio.onerror = (e) => {
+      cleanup();
+      reject(e);
+    };
+
+    const playPromise = audio.play();
+    if (playPromise) {
+      playPromise.catch((e) => {
+        cleanup();
+        reject(e);
+      });
+    }
+  });
+};
+
+const speakWithWebSpeech = (text: string, lang: string, rate: number): Promise<void> => {
+  return new Promise((resolve) => {
+    if (!('speechSynthesis' in window)) {
+      resolve();
+      return;
+    }
+
+    try {
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
       }
-    });
+      window.speechSynthesis.cancel();
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang;
+      utterance.rate = rate;
+
+      const voices = window.speechSynthesis.getVoices();
+      const prefix = lang.slice(0, 2);
+      const matchVoice = voices.find((v) => v.lang.startsWith(prefix));
+      if (matchVoice) {
+        utterance.voice = matchVoice;
+      }
+
+      utterance.onend = () => resolve();
+      utterance.onerror = () => resolve();
+
+      window.speechSynthesis.speak(utterance);
+    } catch {
+      resolve();
+    }
+  });
+};
+
+export const speakJapanese = async (text: string, rate: number = 0.9): Promise<void> => {
+  if (!text || !text.trim()) return;
+  const cleanText = text.trim();
+
+  stopCurrentAudio();
+
+  // Method 1: Youdao Japanese Audio Stream (Fast, high-quality native Japanese, never blocked by Referer)
+  try {
+    const youdaoUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanText)}&le=jap`;
+    await playAudioUrl(youdaoUrl, rate);
     return;
-  } catch (err) {
-    console.warn('Google Audio TTS failed, attempting fallback...', err);
+  } catch (err1) {
+    console.warn('Youdao TTS failed, trying Google TTS...', err1);
   }
 
-  // Method 2: Native Capacitor TTS (if packaged as APK)
+  // Method 2: Google Translate TTS Stream
+  try {
+    const googleUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ja&q=${encodeURIComponent(cleanText)}`;
+    await playAudioUrl(googleUrl, rate);
+    return;
+  } catch (err2) {
+    console.warn('Google Audio TTS failed, attempting Native/Web Speech fallback...', err2);
+  }
+
+  // Method 3: Native Capacitor TTS (if inside APK)
   if (Capacitor.isNativePlatform()) {
     try {
       await TextToSpeech.speak({
@@ -51,67 +119,20 @@ export const speakJapanese = async (text: string, rate: number = 0.9): Promise<v
     }
   }
 
-  // Method 3: Browser Web Speech API
-  return new Promise((resolve) => {
-    if (!('speechSynthesis' in window)) {
-      console.warn('Speech synthesis not supported in this browser.');
-      resolve();
-      return;
-    }
-
-    try {
-      if (window.speechSynthesis.paused) {
-        window.speechSynthesis.resume();
-      }
-      window.speechSynthesis.cancel();
-
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      utterance.lang = 'ja-JP';
-      utterance.rate = rate;
-
-      const voices = window.speechSynthesis.getVoices();
-      const jaVoice = voices.find((v) => v.lang.startsWith('ja') || v.lang.includes('JP'));
-      if (jaVoice) {
-        utterance.voice = jaVoice;
-      }
-
-      utterance.onend = () => resolve();
-      utterance.onerror = () => resolve();
-
-      window.speechSynthesis.speak(utterance);
-    } catch {
-      resolve();
-    }
-  });
+  // Method 4: Browser Web Speech API
+  return speakWithWebSpeech(cleanText, 'ja-JP', rate);
 };
 
 export const speakVietnamese = async (text: string, rate: number = 1.0): Promise<void> => {
   if (!text || !text.trim()) return;
   const cleanText = text.trim();
 
-  if (currentAudio) {
-    try {
-      currentAudio.pause();
-      currentAudio.currentTime = 0;
-    } catch {}
-    currentAudio = null;
-  }
+  stopCurrentAudio();
 
-  // Method 1: Google Translate TTS High-Quality MP3 Stream
+  // Method 1: Google Translate TTS
   try {
     const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=vi&q=${encodeURIComponent(cleanText)}`;
-    const audio = new Audio(audioUrl);
-    currentAudio = audio;
-    audio.playbackRate = rate;
-
-    await new Promise<void>((resolve, reject) => {
-      audio.onended = () => resolve();
-      audio.onerror = (e) => reject(e);
-      const playPromise = audio.play();
-      if (playPromise) {
-        playPromise.catch(reject);
-      }
-    });
+    await playAudioUrl(audioUrl, rate);
     return;
   } catch (err) {
     console.warn('Google Audio TTS failed, attempting fallback...', err);
@@ -132,36 +153,7 @@ export const speakVietnamese = async (text: string, rate: number = 1.0): Promise
   }
 
   // Method 3: Browser Web Speech API
-  return new Promise((resolve) => {
-    if (!('speechSynthesis' in window)) {
-      resolve();
-      return;
-    }
-
-    try {
-      if (window.speechSynthesis.paused) {
-        window.speechSynthesis.resume();
-      }
-      window.speechSynthesis.cancel();
-
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      utterance.lang = 'vi-VN';
-      utterance.rate = rate;
-
-      const voices = window.speechSynthesis.getVoices();
-      const viVoice = voices.find((v) => v.lang.startsWith('vi') || v.lang.includes('VN'));
-      if (viVoice) {
-        utterance.voice = viVoice;
-      }
-
-      utterance.onend = () => resolve();
-      utterance.onerror = () => resolve();
-
-      window.speechSynthesis.speak(utterance);
-    } catch {
-      resolve();
-    }
-  });
+  return speakWithWebSpeech(cleanText, 'vi-VN', rate);
 };
 
 // Play sound feedback for test results (Ding / Error buzz)
