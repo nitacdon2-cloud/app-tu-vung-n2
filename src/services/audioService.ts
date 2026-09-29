@@ -1,6 +1,21 @@
-// Audio TTS Service using Web Speech API for ja-JP
+// Audio TTS Service using Web Speech API & Native Capacitor TTS
+import { TextToSpeech } from '@capacitor-community/text-to-speech';
+import { Capacitor } from '@capacitor/core';
 
-export const speakJapanese = (text: string, rate: number = 0.9): Promise<void> => {
+export const speakJapanese = async (text: string, rate: number = 0.9): Promise<void> => {
+  if (Capacitor.isNativePlatform()) {
+    try {
+      await TextToSpeech.speak({
+        text: text,
+        lang: 'ja-JP',
+        rate: rate,
+      });
+      return;
+    } catch (e) {
+      console.warn('Native TTS error, falling back to Web Speech', e);
+    }
+  }
+
   return new Promise((resolve) => {
     if (!('speechSynthesis' in window)) {
       console.warn('Speech synthesis not supported in this browser.');
@@ -29,7 +44,20 @@ export const speakJapanese = (text: string, rate: number = 0.9): Promise<void> =
   });
 };
 
-export const speakVietnamese = (text: string, rate: number = 1.0): Promise<void> => {
+export const speakVietnamese = async (text: string, rate: number = 1.0): Promise<void> => {
+  if (Capacitor.isNativePlatform()) {
+    try {
+      await TextToSpeech.speak({
+        text: text,
+        lang: 'vi-VN',
+        rate: rate,
+      });
+      return;
+    } catch (e) {
+      console.warn('Native TTS error, falling back to Web Speech', e);
+    }
+  }
+
   return new Promise((resolve) => {
     if (!('speechSynthesis' in window)) {
       resolve();
