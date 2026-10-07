@@ -92,7 +92,7 @@
       "id": 5,
       "word": "酔う",
       "reading": "よう",
-      "han_viet": "TUÝ",
+      "han_viet": "TÚY",
       "word_type": "Động từ",
       "meaning": "Say rượu ; - Say (tàu, xe) ; - Say sưa, chìm trong..",
       "examples": [
@@ -167,7 +167,7 @@
       "id": 9,
       "word": "頷く",
       "reading": "うなずく",
-      "han_viet": "HÀM",
+      "han_viet": "HẠM",
       "word_type": "Động từ",
       "meaning": "Gật đầu",
       "examples": [
@@ -197,7 +197,7 @@
       "id": 11,
       "word": "溢れる",
       "reading": "あふれる",
-      "han_viet": "",
+      "han_viet": "DẬT",
       "word_type": "Động từ",
       "meaning": "Tràn, đầy",
       "examples": [
@@ -217,7 +217,7 @@
       "id": 12,
       "word": "溺れる",
       "reading": "おぼれる",
-      "han_viet": "",
+      "han_viet": "NỊCH",
       "word_type": "Động từ",
       "meaning": "Chết đuối ; - Ngập vào, chìm vào (tệ nạn)",
       "examples": [
@@ -237,7 +237,7 @@
       "id": 13,
       "word": "可愛がる",
       "reading": "かわいがる",
-      "han_viet": "KHẢ",
+      "han_viet": "KHẢ ÁI",
       "word_type": "Động từ",
       "meaning": "Yêu mến",
       "examples": [
@@ -302,7 +302,7 @@
       "id": 17,
       "word": "儲かる",
       "reading": "もうかる",
-      "han_viet": "",
+      "han_viet": "TRỮ",
       "word_type": "Động từ",
       "meaning": "Có lợi nhuận",
       "examples": [
@@ -317,7 +317,7 @@
       "id": 18,
       "word": "儲ける",
       "reading": "もうける",
-      "han_viet": "",
+      "han_viet": "TRỮ",
       "word_type": "Động từ",
       "meaning": "Kiếm lời",
       "examples": [
@@ -422,7 +422,7 @@
       "id": 23,
       "word": "潰れる",
       "reading": "つぶれる",
-      "han_viet": "HÓI",
+      "han_viet": "HỘI",
       "word_type": "Động từ",
       "meaning": "Bẹp, nát ; - Hỏng, đổ vỡ ; - Phá sản (công ty) ; - Lãng phí (thời gian)",
       "examples": [
@@ -452,7 +452,7 @@
       "id": 24,
       "word": "潰す",
       "reading": "つぶす",
-      "han_viet": "HÓI",
+      "han_viet": "HỘI",
       "word_type": "Động từ",
       "meaning": "Nghiền nát, Phá hỏng ; - Làm phá sản ; - Làm lãng phí (thời gian)",
       "examples": [
@@ -797,7 +797,7 @@
       "id": 43,
       "word": "怒鳴る",
       "reading": "どなる",
-      "han_viet": "NỘ",
+      "han_viet": "NỘ MINH",
       "word_type": "Động từ",
       "meaning": "Hét lên, quát",
       "examples": [
@@ -847,7 +847,7 @@
       "id": 46,
       "word": "稼ぐ",
       "reading": "かせぐ",
-      "han_viet": "",
+      "han_viet": "GIÁ",
       "word_type": "Động từ",
       "meaning": "Kiếm tiền Câu giờ",
       "examples": [
@@ -907,7 +907,7 @@
       "id": 49,
       "word": "疑う",
       "reading": "うたがう",
-      "han_viet": "",
+      "han_viet": "NGHI",
       "word_type": "Động từ",
       "meaning": "Nghi ngờ",
       "examples": [
@@ -952,7 +952,7 @@
       "id": 52,
       "word": "励ます",
       "reading": "はげます",
-      "han_viet": "",
+      "han_viet": "LỆ",
       "word_type": "Động từ",
       "meaning": "Động viên, cổ vũ",
       "examples": [
@@ -1037,7 +1037,7 @@
       "id": 57,
       "word": "近寄る",
       "reading": "ちかよる",
-      "han_viet": "CẬN GỬI",
+      "han_viet": "CẬN KÍ",
       "word_type": "Động từ",
       "meaning": "Tiếp cận, tới gần",
       "examples": [
@@ -1052,7 +1052,7 @@
       "id": 58,
       "word": "横切る",
       "reading": "よこぎる",
-      "han_viet": "HOẠNH THIẾT",
+      "han_viet": "HOÀNH THIẾT",
       "word_type": "Động từ",
       "meaning": "Băng qua",
       "examples": [
@@ -1072,7 +1072,7 @@
       "id": 59,
       "word": "突き当たる",
       "reading": "つきあたる",
-      "han_viet": "ĐỘT",
+      "han_viet": "ĐỘT ĐƯƠNG",
       "word_type": "Động từ",
       "meaning": "Đâm vào ; - Đi hết (con đường) ; - Vấp phải (vấn đề, khó khăn)",
       "examples": [
@@ -1107,7 +1107,7 @@
       "id": 61,
       "word": "扱う",
       "reading": "あつかう",
-      "han_viet": "GẮP",
+      "han_viet": "TRÁP",
       "word_type": "Động từ",
       "meaning": "Xử lý ; - Sử dụng ; - Bán ; - Nêu lên",
       "examples": [
@@ -1212,7 +1212,7 @@
       "id": 67,
       "word": "戦う/闘う",
       "reading": "たたかう",
-      "han_viet": "",
+      "han_viet": "CHIẾN ĐẤU",
       "word_type": "Động từ",
       "meaning": "Chiến đấu, tranh đấu",
       "examples": [
@@ -1242,7 +1242,7 @@
       "id": 69,
       "word": "支払う",
       "reading": "しはらう",
-      "han_viet": "CHI CHÀNG",
+      "han_viet": "CHI PHẤT",
       "word_type": "Động từ",
       "meaning": "Trả tiền",
       "examples": [
@@ -1277,7 +1277,7 @@
       "id": 71,
       "word": "払い込む",
       "reading": "はらいこむ",
-      "han_viet": "CHÀNG NHẬP",
+      "han_viet": "PHẤT NHẬP",
       "word_type": "Động từ",
       "meaning": "Đóng (tiền)",
       "examples": [
@@ -1292,7 +1292,7 @@
       "id": 72,
       "word": "払い戻す",
       "reading": "はらいもどす",
-      "han_viet": "CHÀNG",
+      "han_viet": "PHẤT LỆ",
       "word_type": "Động từ",
       "meaning": "Trả lại tiền",
       "examples": [
@@ -1342,7 +1342,7 @@
       "id": 75,
       "word": "売り切れる",
       "reading": "うりきれる",
-      "han_viet": "THIẾT",
+      "han_viet": "MẠI THIẾT",
       "word_type": "Động từ",
       "meaning": "Bán sạch, hết hàng",
       "examples": [
@@ -1357,7 +1357,7 @@
       "id": 76,
       "word": "挟む",
       "reading": "はさむ",
-      "han_viet": "",
+      "han_viet": "HIỆP",
       "word_type": "Động từ",
       "meaning": "Kẹp, chen vào giữa",
       "examples": [
@@ -1372,7 +1372,7 @@
       "id": 77,
       "word": "挟まる",
       "reading": "はさまる",
-      "han_viet": "",
+      "han_viet": "HIỆP",
       "word_type": "Động từ",
       "meaning": "Bị kẹp ; - Kẹt vào (tình huống khó xử)",
       "examples": [
@@ -1387,7 +1387,7 @@
       "id": 78,
       "word": "縮む",
       "reading": "ちぢむ",
-      "han_viet": "",
+      "han_viet": "SÚC",
       "word_type": "Động từ",
       "meaning": "Bị co lại",
       "examples": [
@@ -1402,7 +1402,7 @@
       "id": 79,
       "word": "縮まる",
       "reading": "ちぢまる",
-      "han_viet": "",
+      "han_viet": "SÚC",
       "word_type": "Động từ",
       "meaning": "Bị ngắn lại",
       "examples": [
@@ -1417,7 +1417,7 @@
       "id": 80,
       "word": "縮める",
       "reading": "ちぢめる",
-      "han_viet": "",
+      "han_viet": "SÚC",
       "word_type": "Động từ",
       "meaning": "Làm cho ngắn lại, rút ngắn khoảng cách",
       "examples": [
@@ -1432,7 +1432,7 @@
       "id": 81,
       "word": "沈む",
       "reading": "しずむ",
-      "han_viet": "ĐẮM",
+      "han_viet": "TRẦM",
       "word_type": "Động từ",
       "meaning": "Chìm, lặn, bị nhấn xuống",
       "examples": [
@@ -1447,7 +1447,7 @@
       "id": 82,
       "word": "沈める",
       "reading": "しずめる",
-      "han_viet": "ĐẮM",
+      "han_viet": "TRẦM",
       "word_type": "Động từ",
       "meaning": "Làm chìm",
       "examples": [
@@ -1562,7 +1562,7 @@
       "id": 88,
       "word": "例える",
       "reading": "たとえる",
-      "han_viet": "LỀ",
+      "han_viet": "LỆ",
       "word_type": "Động từ",
       "meaning": "Ví như, so với",
       "examples": [
@@ -1582,7 +1582,7 @@
       "id": 89,
       "word": "努める",
       "reading": "つとめる",
-      "han_viet": "",
+      "han_viet": "NỖ",
       "word_type": "Động từ",
       "meaning": "Nỗ lực, cố gắng",
       "examples": [
@@ -1687,7 +1687,7 @@
       "id": 96,
       "word": "湿る",
       "reading": "しめる",
-      "han_viet": "",
+      "han_viet": "THẤP",
       "word_type": "Động từ",
       "meaning": "Bị ẩm",
       "examples": [
@@ -1717,7 +1717,7 @@
       "id": 98,
       "word": "震える",
       "reading": "ふるえる",
-      "han_viet": "",
+      "han_viet": "CHẤN",
       "word_type": "Động từ",
       "meaning": "Run rẩy",
       "examples": [
@@ -1892,7 +1892,7 @@
       "id": 108,
       "word": "裏返す",
       "reading": "うらがえす",
-      "han_viet": "PHẢN",
+      "han_viet": "LÝ PHẢN",
       "word_type": "Động từ",
       "meaning": "Lật úp, ngược",
       "examples": [
@@ -1907,7 +1907,7 @@
       "id": 109,
       "word": "散らかる",
       "reading": "ちらかる",
-      "han_viet": "TẢN",
+      "han_viet": "TÁN",
       "word_type": "Động từ",
       "meaning": "Bừa bộn, trong mớ hỗn độn",
       "examples": [
@@ -1922,7 +1922,7 @@
       "id": 110,
       "word": "散らかす",
       "reading": "ちらかす",
-      "han_viet": "TẢN",
+      "han_viet": "TÁN",
       "word_type": "Động từ",
       "meaning": "Làm lung tung, vương vãi",
       "examples": [
@@ -1937,7 +1937,7 @@
       "id": 111,
       "word": "散らばる",
       "reading": "ちらばる",
-      "han_viet": "TẢN",
+      "han_viet": "TÁN",
       "word_type": "Động từ",
       "meaning": "Vương vãi, phân tán, tản mát",
       "examples": [
@@ -1952,7 +1952,7 @@
       "id": 112,
       "word": "薄まる",
       "reading": "うすまる",
-      "han_viet": "",
+      "han_viet": "BẠC",
       "word_type": "Động từ",
       "meaning": "Nhạt đi",
       "examples": [
@@ -1967,7 +1967,7 @@
       "id": 113,
       "word": "薄める",
       "reading": "うすめる",
-      "han_viet": "",
+      "han_viet": "BẠC",
       "word_type": "Động từ",
       "meaning": "Làm cho nhạt đi",
       "examples": [
@@ -1982,7 +1982,7 @@
       "id": 114,
       "word": "薄れる",
       "reading": "うすれる",
-      "han_viet": "",
+      "han_viet": "BẠC",
       "word_type": "Động từ",
       "meaning": "Mờ đi, nhạt dần",
       "examples": [
@@ -2127,7 +2127,7 @@
       "id": 123,
       "word": "浸かる",
       "reading": "つかる",
-      "han_viet": "TẮM",
+      "han_viet": "TẨM",
       "word_type": "Động từ",
       "meaning": "Ngập, ngâm ; - Hoàn toàn chìm đắm, cuốn vào",
       "examples": [
@@ -2142,7 +2142,7 @@
       "id": 124,
       "word": "浸ける",
       "reading": "つける",
-      "han_viet": "TẮM",
+      "han_viet": "TẨM",
       "word_type": "Động từ",
       "meaning": "Ngâm",
       "examples": [
@@ -2217,7 +2217,7 @@
       "id": 128,
       "word": "引っ掛かる",
       "reading": "ひっかかる",
-      "han_viet": "DẪN QUẨY",
+      "han_viet": "DẪN QUẢI",
       "word_type": "Động từ",
       "meaning": "Mắc vào, vướng vào ; - Làm bận tâm, vướng mắc ; - Bị lừa",
       "examples": [
@@ -2237,7 +2237,7 @@
       "id": 129,
       "word": "引っ掛ける",
       "reading": "ひっかける",
-      "han_viet": "DẪN QUẨY",
+      "han_viet": "DẪN QUẢI",
       "word_type": "Động từ",
       "meaning": "Treo, mắc vướng vào ; - Bắn, hắt vào ; - Lừa",
       "examples": [

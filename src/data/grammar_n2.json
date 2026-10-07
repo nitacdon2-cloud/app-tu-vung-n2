@@ -1,0 +1,1925 @@
+[
+  {
+    "id": "g_1_1",
+    "chapter": 1,
+    "chapter_title": "Chương 1",
+    "num": 1,
+    "code": "1.1",
+    "title": "1.1）～げ",
+    "grammar": "～げ",
+    "connection": "A い/ Aな + げ N / V たい",
+    "meaning": "Trông có vẻ…",
+    "explanation": "• Miêu tả dáng vẻ/ trạng thái cảm xúc của con người. Là cách nói cổ của そう\n• Cụm từ cố định 意味ありげ",
+    "examples": [
+      "①あの子に何かあったのだろうか、悲しげな表情をしている。",
+      "②子ども相手にそんなにむきになるなんて、大人げない。",
+      "③彼は先生に対し何か言いたげな様子であった。"
+    ]
+  },
+  {
+    "id": "g_1_2",
+    "chapter": 1,
+    "chapter_title": "Chương 1",
+    "num": 2,
+    "code": "1.2",
+    "title": "1.2）～とか",
+    "grammar": "～とか",
+    "connection": "普通形 + とか",
+    "meaning": "Thấy bảo hình như là…",
+    "explanation": "• Là cách nói truyền đạt lại thông tin nghe được, đọc được ở đâu đó, nhưng chứa cảm xúc\nkhông chắc chắn.Thường được nghe trong phim, hài kịch, hoạt hình…\n• Cách nói suồng sã nhưng trong thực tế không hay nói",
+    "examples": [
+      "①最近は若者にタピオカという飲み物が人気だとか。",
+      "②彼女の結婚相手は有名企業の社長だとか。",
+      "③あの会社は、福利厚生が充実しているとか。"
+    ]
+  },
+  {
+    "id": "g_1_3",
+    "chapter": 1,
+    "chapter_title": "Chương 1",
+    "num": 3,
+    "code": "1.3",
+    "title": "1.3）～ていく／～てくる",
+    "grammar": "～ていく／～てくる",
+    "connection": "Vて + いく / Vて + くる",
+    "meaning": "Đi đến / Đi về (không gian); Tiếp diễn (thời gian); Thay đổi dần dần",
+    "explanation": "①順次の動作\n• Làm hành động gì đó rồi di chuyển đến đâu đó\n• Nói tại thời điểm đến/ nơi đến của hành động: てくる\n• Nói tại thời điểm chưa làm/ nơi xuất phát của hành động ていく\n②時間的継続\n• Diễn tả trạng thái liên tục diễn ra của 1 hành động\n• Từ quá khứ đến hiện tại: てくる\n• Từ hiện tại đến tương lai:ていく\n③状態の変化\n• Diễn tả sự thay đổi dần dần của 1 trạng thái\n• Từ quá khứ đến hiện tại: てくる\n• Từ hiện tại đến tương lai: ていく\n④話者への接近、離反（移動、一方動作）\n• Chỉ hướng của hành động từ điểm nhìn của người nói\n• Hướng tiến đến gần người nói: てくる\n• Hướng ra xa người nói: ていく\n⑤出現、消滅\n• Diễn tả sự xuất hiện/ biến mất của 1 trạng thái (mới)\n• Trạng thái mới xuất hiện: (chỉ dùng) てくる\n• 1 trạng thái biến mất:ていく",
+    "examples": [
+      "①これからは、日本語を勉強するベトナム人が増えていくだろう 。",
+      "②今日は、仕事の後飲み会に行ってきた。",
+      "③公園で友達と遊んでいたら、母が声をかけてきた。",
+      "④私は、３歳の頃からバイオリンを習ってきた。",
+      "⑤お腹に子どもができてから、心配事が出てきた。"
+    ]
+  },
+  {
+    "id": "g_1_4",
+    "chapter": 1,
+    "chapter_title": "Chương 1",
+    "num": 4,
+    "code": "1.4",
+    "title": "1.4）～がたい",
+    "grammar": "～がたい",
+    "connection": "V ます + がたい",
+    "meaning": "Khó…/ Không thể…",
+    "explanation": "• Không thể nào mà .../ Khó mà...\n• Là cách nói cứng, thường đi với những động từ thể hiện nhận thức như: 信じる、許す、\n理解する、想像する、耐える、表す、言う...",
+    "examples": [
+      "①友人が難病におかされてしまうなんて、受け入れがたい事で、 動揺を隠せない。",
+      "②この番組は、間違った情報を発信しているので信じがたい。",
+      "③大勢の前で彼に馬鹿にされ、耐えがたい屈辱を受けた。"
+    ]
+  },
+  {
+    "id": "g_1_5",
+    "chapter": 1,
+    "chapter_title": "Chương 1",
+    "num": 5,
+    "code": "1.5",
+    "title": "1.5）～かと思うと",
+    "grammar": "～かと思うと",
+    "connection": "かと思うと V た + かと思ったら",
+    "meaning": "Vừa mới… đã ngay lập tức…",
+    "explanation": "• Diễn tả 2 trạng thái/ thay đổi diễn ra gần như ngay lập tức\n• Miêu tả sự vật, người khác, không nói về bản thân mình\n• Không đi với đuôi câu: V よう、V るつもり",
+    "examples": [
+      "①仕事が一段落したかと思うと、またすぐに別の仕事を任された。",
+      "②空が光ったかと思ったら、カミナリの大きな音が聞こえた。",
+      "③勉強し始めたかと思うと、漫画を読みだしたので、注意をした。"
+    ]
+  },
+  {
+    "id": "g_1_6",
+    "chapter": 1,
+    "chapter_title": "Chương 1",
+    "num": 6,
+    "code": "1.6",
+    "title": "1.6）～か〜かのうちに",
+    "grammar": "～か〜かのうちに",
+    "connection": "V る／Ｖた + か Ｖない かのうちに",
+    "meaning": "Ngay khi vừa mới … thì…",
+    "explanation": "• 2 hành động/ sự việc trước sau xảy ra gần như đồng thời\n• Vế sau không đi với よう、つもり, câu mệnh lệnh…\n• Văn viết, ít dùng trong hội thoại thông thường, có thể nói thay bằng Ｖたとたん（に）",
+    "examples": [
+      "① スピーチが終わるか終わらないかのうちに人々は大きな拍手をした。",
+      "②息子はベッドに入るか入らないかのうちに寝てしまった。",
+      "③彼は問題を聞き終えたか終えないかのうちに答えを書き始めた。"
+    ]
+  },
+  {
+    "id": "g_2_1",
+    "chapter": 2,
+    "chapter_title": "Chương 2",
+    "num": 1,
+    "code": "2.1",
+    "title": "2.1）～だけあって・だけのことはある・だけある",
+    "grammar": "～だけあって・だけのことはある・だけある",
+    "connection": "普通形 + だけあって A な・N(である)",
+    "meaning": "Quả nhiên là vì… nên",
+    "explanation": "• Chính vì do tài năng/ nỗ lực/ vị trí/ trải nghiệm, nên mới...\n• Vế sau là điều gì đó tương xứng với vế trước, là câu hàm ý khen ngợi, đánh giá cao\n• Cuối câu có thể dùng: だけのことはある、だけある",
+    "examples": [
+      "①あの女将さんは日本人だけあって、おもてなしの心が素晴らしい。",
+      "②このパソコンは値段が高いだけあって、高性能でデザインがいい。",
+      "③10 年日本に住んでるだけあって、発音がとても自然だ。"
+    ]
+  },
+  {
+    "id": "g_2_2",
+    "chapter": 2,
+    "chapter_title": "Chương 2",
+    "num": 2,
+    "code": "2.2",
+    "title": "2.2）～だけに",
+    "grammar": "～だけに",
+    "connection": "V（普）/Aい（普） A な/Aなである + だけに N (である)",
+    "meaning": "Chính bởi… thế nên là…",
+    "explanation": "①だけに：Chính bởi… thế nên là…\n• Giống với だけあって：Vì một nguyên nhân, lí do, hoàn cảnh nào đó nên (vế sau) có 1 điều\ngì đó đương nhiên như vậy/ kết quả gì đó phát sinh mà có thể dự đoán được từ điều nêu ra ở\nđằng trước\n②だけに：Chính bởi... nên lại càng...\n• Vế sau thường đưa ra 1 cảm xúc nào đó\n• Vì 1 nguyên nhân đặc biệt nào đó thế nên (vế sau) lại càng... => nhấn mạnh cảm xúc ở vế sau",
+    "examples": [
+      "①この物件は、安いだけに何かあるのではないかと不安になる。",
+      "②彼は、経験者だけに、他の人と 仕事の進み具合が違う。",
+      "③一生懸命練習しただけに試合で負けたことは大変ショックだった。"
+    ]
+  },
+  {
+    "id": "g_2_3",
+    "chapter": 2,
+    "chapter_title": "Chương 2",
+    "num": 3,
+    "code": "2.3",
+    "title": "2.3）～ばこそ",
+    "grammar": "～ばこそ",
+    "connection": "V ば/A いければ A なであれば + こそ N であれば",
+    "meaning": "Chính vì… nên mới…",
+    "explanation": "• Nhấn mạnh vào nguyên nhân được đề cập đến ở vế trước\n• Là cách nói cứng thường dùng trong văn viết",
+    "examples": [
+      "①忙しければこそ、自分で工夫して時間を作る。",
+      "②健康であればこそ、自分の好きなことが年を取っても実現できる。",
+      "③こどもの将来を思えばこそ、 厳しく教育をしている 。"
+    ]
+  },
+  {
+    "id": "g_2_4",
+    "chapter": 2,
+    "chapter_title": "Chương 2",
+    "num": 4,
+    "code": "2.4",
+    "title": "2.4）～ばかりに",
+    "grammar": "～ばかりに",
+    "connection": "普通形 + ばかりに （A な・である・Ｎである）",
+    "meaning": "Chỉ vì… mà…",
+    "explanation": "• Chỉ vì một nguyên nhân nào đó mà dẫn tới 1 kết quả không tốt hoặc ngoài ý muốn\n• Câu nói chứa cảm xúc hối tiếc, hối hận\n• Cách nói cứng, có thể thay bằng せいで",
+    "examples": [
+      "①有名人であるばかりに、つねに周りを気にしなければならない。",
+      "②私が勝手なばかりに、みんなに迷惑をかけてしまった。",
+      "③財布を忘れたばかりに、電車に乗ることができず、遅刻してしまった 。"
+    ]
+  },
+  {
+    "id": "g_3_1",
+    "chapter": 3,
+    "chapter_title": "Chương 3",
+    "num": 1,
+    "code": "3.1",
+    "title": "3.1）～ものだ（１）",
+    "grammar": "～ものだ（１）",
+    "connection": "V る + ものだ Ｖない",
+    "meaning": "Vốn dĩ là…／Là đương nhiên…",
+    "explanation": "• Hoặc diễn tả những thứ vốn thuộc về bản chất, không thay đổi → vốn dĩ là...\n• Là cách nói diễn tả những điều hiển nhiên, đương nhiên thuộc về quy luật → là đương nhiên...\nmà chẳng...",
+    "examples": [
+      ":",
+      "①突然、地震が発生した時は、皆慌てるものだ。",
+      "②人前で演説する時は、誰でも緊張するものだ。",
+      "③助けてくれた彼は親切で、人は見かけで分からないものだ。"
+    ]
+  },
+  {
+    "id": "g_3_2",
+    "chapter": 3,
+    "chapter_title": "Chương 3",
+    "num": 2,
+    "code": "3.2",
+    "title": "3.2）～ものだ（2）",
+    "grammar": "～ものだ（2）",
+    "connection": "ものだ V る  + ものではない",
+    "meaning": "Nên/ Không nên…",
+    "explanation": "• Cách nói đưa ra lời khuyên cho đối phương nên hoặc không nên làm gì, xuất phát từ quan điểm\nxã hội, quan điểm đạo đức nói chung\n• Cách nói mang tính giáo huấn, tránh nói với người trên",
+    "examples": [
+      "①目上の人に対しては、失礼が無いようにするものだ。",
+      "②社会人なら時間はきちんと守るものだ。",
+      "③周りに何と言われても、自分の意思を曲げるものではない。",
+      "④知らない人の話を簡単に信用するものではない。"
+    ]
+  },
+  {
+    "id": "g_3_3",
+    "chapter": 3,
+    "chapter_title": "Chương 3",
+    "num": 3,
+    "code": "3.3",
+    "title": "3.3）～ものだ（3）",
+    "grammar": "～ものだ（3）",
+    "connection": "V(普) A い(普)+ ものだ (Thật là…biết bao/ Quả là…biết b) A な",
+    "meaning": "Thật là…biết bao/ Quả là…biết",
+    "explanation": "• Nói về những cảm xúc mà người nói cảm nhận sâu sắc bằng trái tim\n• Thường gặp trong văn học, tiểu thuyết...",
+    "examples": [
+      "①一度にあれほど多くの服を買うなんて贅沢なものだな。",
+      "②あっという間に、高校生になり子供の成長は早いものだ。",
+      "③人の意見を聞かないで、頑固な彼には困ったものだ。"
+    ]
+  },
+  {
+    "id": "g_3_4",
+    "chapter": 3,
+    "chapter_title": "Chương 3",
+    "num": 4,
+    "code": "3.4",
+    "title": "3.４）～というものだ",
+    "grammar": "～というものだ",
+    "connection": "V 普 A い+ というものだ Ａな・N",
+    "meaning": "Thật là, đúng là...…",
+    "explanation": "• Sử dụng khi người nói nhìn thấy một sự việc, sự thật nào đó và nói lên cảm xúc, suy nghĩ,\nphê phán, nhận xét hoặc khẳng định đối với sự việc đó.\n• Không dùng với từ thể hiện cảm xúc người nói.",
+    "examples": [
+      "①女性に年齢を聞くのはタブーというものだ。",
+      "②連絡もしないで、突然遊びに来るなんて図々しいというものだ。",
+      "③甲子園に出場する事が決まり、努力のかいがあったというものだ。"
+    ]
+  },
+  {
+    "id": "g_4_1",
+    "chapter": 4,
+    "chapter_title": "Chương 4",
+    "num": 1,
+    "code": "4.1",
+    "title": "4.1）～ものの",
+    "grammar": "～ものの",
+    "connection": "V(普)/A い(普) A な/Aなである+ ものの Nである",
+    "meaning": "Mặc dù…nhưng…/…thế mà…",
+    "explanation": "• Vế sau thường là những điều không theo như những gì người nói tưởng tượng\n• Là cách nói lịch sự, thường dùng trong văn viết, hoặc văn nói thì phù hợp khi dùng với người trên",
+    "examples": [
+      "①せっかくマフラーを編んだものの、彼に渡すチャンスがなかった。",
+      "②息子は大学生であるものの、勉強せず遊んでばかりいる。",
+      "③激しく転倒したものの、軽傷ですんだ。"
+    ]
+  },
+  {
+    "id": "g_4_2",
+    "chapter": 4,
+    "chapter_title": "Chương 4",
+    "num": 2,
+    "code": "4.2",
+    "title": "4.2）～ものなら",
+    "grammar": "～ものなら",
+    "connection": "V る + ものなら （可能形）",
+    "meaning": "Nếu như có thể…",
+    "explanation": "• Mặc dù biết là khó nhưng nếu có thể thì.... Văn nói:もんなら\n• Vế sau thường đi với câu thể hiện nguyện vọng, mệnh lệnh（V たい、V ましょう、V てみろ...）",
+    "examples": [
+      "①学生時代に戻れるものなら、真面目に勉強をしたい。",
+      "②辞められるものなら、辞めたいが、今後の生活を考えると難しい。",
+      "③一度でいいので芸能人と付き合えるものなら、付き合ってみたい。"
+    ]
+  },
+  {
+    "id": "g_4_3",
+    "chapter": 4,
+    "chapter_title": "Chương 4",
+    "num": 3,
+    "code": "4.3",
+    "title": "4.3）～というものではない",
+    "grammar": "～というものではない",
+    "connection": "普通形 + というものでは(も)ない Ｎ／Ａな＋(だ)",
+    "meaning": "Tôi nghĩ rằng không hẳn là...",
+    "explanation": "• Là cách nói đưa ra quan điểm của bản thân: không hẳn là, không chắc chắn là\n→ đề cập đến bản chất của vấn đề",
+    "examples": [
+      "①結婚したからといって幸せだというものでもない。",
+      "②情報量が多ければ、判断が楽になるというものではない。",
+      "③ただ勉強をすればいいというものではなく、目標を持って達成することに意味がある。"
+    ]
+  },
+  {
+    "id": "g_4_4",
+    "chapter": 4,
+    "chapter_title": "Chương 4",
+    "num": 4,
+    "code": "4.4",
+    "title": "4.4）～ものがある",
+    "grammar": "～ものがある",
+    "connection": "V る／Ａい + ものがある Ａな",
+    "meaning": "Có điều gì đó cảm thấy rất…",
+    "explanation": "• Thể hiện một cảm xúc không rõ ràng, và không hiểu vì sao mà cảm thấy ... thế nào đó",
+    "examples": [
+      "①帰宅しても、誰もいないのは寂しいものがある。",
+      "②その政治家の発言には、何だか不自然なものがあった。",
+      "③彼の演説は何か人の心を動かすものがある。"
+    ]
+  },
+  {
+    "id": "g_5_1",
+    "chapter": 5,
+    "chapter_title": "Chương 5",
+    "num": 1,
+    "code": "5.1",
+    "title": "5.1）～ことになる／ことになっている",
+    "grammar": "～ことになる／ことになっている",
+    "connection": "V ることになる Ý nghĩa 1: Kết quả là... + V ないことになっている Ý nghĩa 2: Sẽ, phải, đã được quyết định,...",
+    "meaning": "nghĩa 1: Kết quả là...",
+    "explanation": "Ý nghĩa 1\n• Mẫu câu diễn đạt những kế hoạch không phải do bản thân quyết định, hoặc miêu tả những\nquy định hay nội quy.\n• Tương đương với mẫu câu ～ことに決まってる\n• Ngoài ra, cũng có cách nói mang tính trang trọng ～こととなっている\nÝ nghĩa 2\n• Diễn tả kết quả của một sự việc kết thúc như thế nào đó. Hoặc chỉ ra bản chất sự việc.",
+    "examples": [
+      "①この図書館は休日は8 時で閉館することになっている。",
+      "②母は入院のため1 か月間仕事を休むことになった。",
+      "③ここで計画を中止したら、全てを諦めてしまうことになる。",
+      "④これ以上お客さんの数が減ってしまったら、このレストランも閉店することになる だろう。",
+      "⑤今ここで彼の秘密を話してしまったら、彼を裏切ることになる。",
+      "⑥来年8 月に結婚することになりました。"
+    ]
+  },
+  {
+    "id": "g_5_2",
+    "chapter": 5,
+    "chapter_title": "Chương 5",
+    "num": 2,
+    "code": "5.2",
+    "title": "5.2）～ことなく",
+    "grammar": "～ことなく",
+    "connection": "V る + ことなく",
+    "meaning": "Mà không …",
+    "explanation": "• Làm gì mà không...\n• Giống ないでnhưng nhấn mạnh hơn",
+    "examples": [
+      "①弟は休むことなく必死に勉強をしていた。",
+      "②今月は、仕事が忙しかったので、休むことなく、休日も働いた。",
+      "③その心の傷は消えることなく事件の後も彼女を苦しめ続けている。"
+    ]
+  },
+  {
+    "id": "g_5_3",
+    "chapter": 5,
+    "chapter_title": "Chương 5",
+    "num": 3,
+    "code": "5.3",
+    "title": "5.3）～ことに",
+    "grammar": "～ことに",
+    "connection": "V た + ことに Ａな/A い",
+    "meaning": "Thật là …/ Thật…làm sao/ Biết bao khi…",
+    "explanation": "• Chỉ đi với những động từ, tính từ chỉ cảm xúc\n• Vế sau không đi với những câu thể hiện ý chí, dự định như V たい、つもりだ",
+    "examples": [
+      "①困ったことに、携帯の充電がなくなってしまい、連絡手段がなくなる。",
+      "②嬉しいことに、来週イタリアから友人が帰国するそうだ。",
+      "③残念なことに、彼の買おうとしていたお弁当は売り切れだった。"
+    ]
+  },
+  {
+    "id": "g_5_4",
+    "chapter": 5,
+    "chapter_title": "Chương 5",
+    "num": 4,
+    "code": "5.4",
+    "title": "5.4）～ことから",
+    "grammar": "～ことから",
+    "connection": "普通形 A な／Aなである+ ことから Nである",
+    "meaning": "Bởi vì…",
+    "explanation": "• Xuất phát từ lí do, căn nguyên, cơ sở nào đó mà đưa ra đánh giá/ nói về khởi nguồn của tên gọi\nnào đó",
+    "examples": [
+      "①日本に興味を持ったことから、日本に留学することを決意した。",
+      "②彼女はとても賢く美しいことから、皆の注目を集めている。",
+      "③桜の名所であることから、毎年お花見をする人で賑わう。"
+    ]
+  },
+  {
+    "id": "g_5_5",
+    "chapter": 5,
+    "chapter_title": "Chương 5",
+    "num": 5,
+    "code": "5.5",
+    "title": "5.5）～ことだから",
+    "grammar": "～ことだから",
+    "connection": "Ｎの + ことだから",
+    "meaning": "Vì là… nên chắc chắn",
+    "explanation": "• Danh từ: chỉ người – người mà mình hiểu ra rõ tính cách, bản chất thường ngày của họ\n=> nên đưa ra suy đoán chắc chắn sẽ là...\n• Văn nói: ～のことだし\n• Kết câu: のことだ...",
+    "examples": [
+      "①頑固な父のことだから、私と彼の結婚に反対するのは予想がつく。",
+      "②彼女のことだから、すぐに友達ができるだろう。",
+      "③信頼がある彼女のことだから、次の課長は彼女で決まりだろう。"
+    ]
+  },
+  {
+    "id": "g_5_6",
+    "chapter": 5,
+    "chapter_title": "Chương 5",
+    "num": 6,
+    "code": "5.6",
+    "title": "5.6）～ないことには",
+    "grammar": "～ないことには",
+    "connection": "V ない A いくない+ ことには A な・Nでない",
+    "meaning": "Nếu không … thì…",
+    "explanation": "• Nếu không có điều gì đó ở vế trước thì vế sau sẽ không thể thực hiện được, vế sau thường ở thể\nphủ định. Văn nói thường dùng:なければ、なくては、なきゃ、なくちゃ",
+    "examples": [
+      "①彼女が来ないことには、 話を進める事ができない。",
+      "②実際に見てみないことには、判断することはできない。",
+      "③みんな彼の悪口を言うけど、会ってみないことには彼の良さはわからないよ。"
+    ]
+  },
+  {
+    "id": "g_6_1",
+    "chapter": 6,
+    "chapter_title": "Chương 6",
+    "num": 1,
+    "code": "6.1",
+    "title": "6.1）～ことはない",
+    "grammar": "～ことはない",
+    "connection": "Ｖる ＋ ことはない",
+    "meaning": "Không cần phải ~",
+    "explanation": "• Giống với 必要がない\n• Thường dùng để khuyên, khích lệ đối phương",
+    "examples": [
+      "④失恋したって落ち込むことはない。",
+      "⑤安全に運転するから、心配することはない。",
+      "⑥この問題については、あなた一人で責任を感じることはない。"
+    ]
+  },
+  {
+    "id": "g_6_2",
+    "chapter": 6,
+    "chapter_title": "Chương 6",
+    "num": 2,
+    "code": "6.2",
+    "title": "6.2）～こと（命令）",
+    "grammar": "～こと（命令）",
+    "connection": "V る/V ない ＋ こと。",
+    "meaning": "Hãy, phải…/ Không được…",
+    "explanation": "• Là văn viết của V なさい、V てはいけないthể hiện những quy tắc, chỉ thị…\n• Thường được thấy ở những thông báo quy định, chỉ thị ở công ty, trường học, tờ hướng dẫn...",
+    "examples": [
+      "①そのイベントに参加を希望する者は、はがきに必要事項を書いて本社あてに送ること。",
+      "②目上の人には常に敬意を持って接すること。",
+      "③怪しい勧誘には耳を貸さないこと。"
+    ]
+  },
+  {
+    "id": "g_6_3",
+    "chapter": 6,
+    "chapter_title": "Chương 6",
+    "num": 3,
+    "code": "6.3",
+    "title": "6.3）～ことだ",
+    "grammar": "～ことだ",
+    "connection": "Ｖる・Ｖない ＋ ことだ A い・A な",
+    "meaning": "Nên/ Không nên",
+    "explanation": "①Ｖる・Ｖない＋ことだ：Nên/ Không nên\n• Đưa ra lời khuyên, ý kiến, cảnh báo của người nói về việc nên/ không nên làm gì\n• Thường người trên nói với người dưới\n②Ａい・Ａな＋ことだ：vô cùng, rất\n• Cách nói thể hiện cảm xúc bất ngờ, cảm động\n• Thường đi với tính từ chỉ cảm xúc",
+    "examples": [
+      "①身体の健康を気遣うのであれば、野菜を食べることだ。",
+      "②N2 に合格したければ、毎日欠かさず勉強することだ。",
+      "③飲食店では、時間が経った食品は捨ててしまうなんて、本当にもったいないことだ。",
+      "④屋根から落ちるなんて大変なことだ。"
+    ]
+  },
+  {
+    "id": "g_6_4",
+    "chapter": 6,
+    "chapter_title": "Chương 6",
+    "num": 4,
+    "code": "6.4",
+    "title": "6.4）～ことか",
+    "grammar": "～ことか",
+    "connection": "普通形 ＋ ことか",
+    "meaning": "Vô cùng/ rất ~",
+    "explanation": "• Nhấn mạnh vào mức độ: vô cùng... đến mức khó có thể diễn tả nổi\n• Thường hay đi với từ để hỏi trong câu: どんなに～ことか、どれほど～ことかhoặc\nなんと…ことか",
+    "examples": [
+      "①彼の行動によって、どれだけの命が救われたことか。",
+      "②上司との飲み会は、気を使うだけだが、友人との飲み会はなんと楽しいことか。",
+      "③あの子とのおしゃべりで私の心はどれほど癒されたことか。"
+    ]
+  },
+  {
+    "id": "g_6_5",
+    "chapter": 6,
+    "chapter_title": "Chương 6",
+    "num": 5,
+    "code": "6.5",
+    "title": "6.5）～ないことはない",
+    "grammar": "～ないことはない",
+    "connection": "V(ない)／A いく ＋ ないことは(も)ない A なで／Ｎで",
+    "meaning": "Không phải là không…/ Có lẽ, có thể là…",
+    "explanation": "• Dùng 2 lần phủ định để tránh cách nói khẳng định rõ ràng, như 1 cách nói khéo",
+    "examples": [
+      "①それは私のせいでないことはないけど、上司に言われてやっただけだ。",
+      "②A：このお菓子賞味期限切れてるけど、食べれるかな？ B：過ぎてからまだそんなに経ってなければ、食べれないことはないんじゃない？",
+      "③ここの牛丼は、美味しくないこともないけど、家の近くにあるお店の方が安くて美味しい。"
+    ]
+  },
+  {
+    "id": "g_6_6",
+    "chapter": 6,
+    "chapter_title": "Chương 6",
+    "num": 6,
+    "code": "6.6",
+    "title": "6.6）～ことだし",
+    "grammar": "～ことだし",
+    "connection": "V/A い(普通形) A な／である ＋ ことだし N である",
+    "meaning": "Vì, bởi vì...nên",
+    "explanation": "• Dùng để diễn tả ý có nhiều lý do khác nữa, nhưng trước hết là vì lý do này. Chỉ ra lý do sau\nđó đưa ra kết luận hay đánh giá.\n• Vế sau là câu mang ý chí, nguyện vọng, phán đoán của người nói, hoặc là lời mời, rủ.\n• Là mẫu câu lịch sự hơn mẫu ～し～đã học ở N4",
+    "examples": [
+      "①仕事も済んだことだし、一杯飲みにいこうよ。",
+      "②天気もいいことだし、久しぶりに海辺までドライブに行きたいな",
+      "③来客も少ないことだし、ちょっと早いが店を閉めてしまおう。"
+    ]
+  },
+  {
+    "id": "g_7_1",
+    "chapter": 7,
+    "chapter_title": "Chương 7",
+    "num": 1,
+    "code": "7.1",
+    "title": "7.1）～に限りだ（１）",
+    "grammar": "～に限りだ（１）",
+    "connection": "A い/A な ＋ かぎりだ",
+    "meaning": "Cảm thấy rất/ vô cùng ~",
+    "explanation": "•Dùng để nói về cảm xúc của bản thân người nói: đang cảm thấy vô cùng...\n•Không dùng để nói về người khác",
+    "examples": [
+      "①あのレストランが来月で閉店だなんて残念な限りだ。",
+      "②お世話になっていた上司が退職してしまい、心細い限りだ。",
+      "③彼からの誘いを断らなくてはならないなんて心苦しい限りだ。"
+    ]
+  },
+  {
+    "id": "g_7_2",
+    "chapter": 7,
+    "chapter_title": "Chương 7",
+    "num": 2,
+    "code": "7.2",
+    "title": "7.2）～に限らず（２）",
+    "grammar": "～に限らず（２）",
+    "connection": "N ＋ に限らず",
+    "meaning": "Không chỉ … mà còn …",
+    "explanation": "• Giống với だけでなく",
+    "examples": [
+      "①彼らは国内に限らず、世界中でボランティアを活躍したいそうだ。",
+      "②最近は、女性に限らず、男性も美容に対して意識を持つようになっている。",
+      "③ここの店は、休日に限らず平日も大勢の人が訪れる。"
+    ]
+  },
+  {
+    "id": "g_7_3",
+    "chapter": 7,
+    "chapter_title": "Chương 7",
+    "num": 3,
+    "code": "7.3",
+    "title": "7.3）～に限り（では）（３）",
+    "grammar": "～に限り（では）（３）",
+    "connection": "N の V る・V た           ＋ 限り（では） V ている",
+    "meaning": "Trong phạm vi…/ Ở mức độ…",
+    "explanation": "• Vế trước thường là: 見る、聞く、調べる、知っている、知る、調査、...\n• Vế sau đưa ra đánh giá trong phạm vi bản thân biết",
+    "examples": [
+      "①私の知る限り、あの男は事件の犯人ではない。",
+      "②メニューを見る限り、安くて美味しそうな料理ばかりだ。",
+      "③自分が知っている限りの知恵を部下に教える。"
+    ]
+  },
+  {
+    "id": "g_7_4",
+    "chapter": 7,
+    "chapter_title": "Chương 7",
+    "num": 4,
+    "code": "7.4",
+    "title": "7.4）～に限り（４）",
+    "grammar": "～に限り（４）",
+    "connection": "A い/V(普) Aな・である         ＋ 限り（は） Ｎである",
+    "meaning": "Trong lúc…/ Khi…",
+    "explanation": "• Trong giới hạn/ phạm vi còn được duy trì (vế trước) thì (vế sau) 1 trạng thái được duy trì, tiếp\ntục\n• 2 trạng thái đồng thời, song song",
+    "examples": [
+      "①日本に住んでいる限り、日本のルールを守らなければならない。",
+      "②先生である限り、生徒の質問には必ず答える。",
+      "③外が暑い限りは、家の中にいて休んでいた方がいい。"
+    ]
+  },
+  {
+    "id": "g_7_5",
+    "chapter": 7,
+    "chapter_title": "Chương 7",
+    "num": 5,
+    "code": "7.5",
+    "title": "7.5）～に限り（５）",
+    "grammar": "～に限り（５）",
+    "connection": "N に限り、…／N に限る。",
+    "meaning": "Chỉ trong/ Chỉ đối với/ Chỉ riêng～",
+    "explanation": "• Một việc gì đó được áp dụng đặc biệt chỉ trong riêng 1 thời hạn, 1 đối tượng nào đó\n• Thường dùng trong các câu thông báo, văn phòng lịch sự",
+    "examples": [
+      "①お子様に限り、入場料が無料の店舗が増えている。",
+      "②本日に限り、対象商品を50％オフでお買い求めいただくことができます。",
+      "③毎月、第一金曜日に限り、 1000 円で映画が鑑賞できる。"
+    ]
+  },
+  {
+    "id": "g_7_6",
+    "chapter": 7,
+    "chapter_title": "Chương 7",
+    "num": 6,
+    "code": "7.6",
+    "title": "7.6）～に限って（６）",
+    "grammar": "～に限って（６）",
+    "connection": "N ＋ に限って",
+    "meaning": "Ai chứ, gì chứ ～/ Đúng vào lúc ～",
+    "explanation": "①Ai chứ, gì chứ... chắc chắn là không...\n•N là đối tượng mà mình rất tin tưởng, kì vọng\n•Thế nên vế sau là điều mình đánh giá chắc chắn N đó không làm những chuyện/ điều không tốt\nnhư vậy\n②Đúng vào lúc/ trường hợp... thì 1 chuyện không mong muốn xảy đến\n•N là thời điểm quan trọng nào đó\n•Thì 1 chuyện gì đó không may xảy ra 1 cách trùng hợp ⇒ cảm giác bất mãn, khó chịu",
+    "examples": [
+      "①あの人に限って、寝坊するなんて、何かあったに違いない。",
+      "②予定がある日に限って、上司に残業をさせられる。",
+      "③彼に限って、こんな重大なミスを犯すなんて考えられない。",
+      "④急いでいる時に限って、 渋滞に巻き込まれる。",
+      "⑤試験の日に限って、体調を崩してしまう。",
+      "⑥うちの子に限って、人を傷つけるような事をするはずがないと信じたい。"
+    ]
+  },
+  {
+    "id": "g_7_7",
+    "chapter": 7,
+    "chapter_title": "Chương 7",
+    "num": 7,
+    "code": "7.7",
+    "title": "7.7）～に限る（７）",
+    "grammar": "～に限る（７）",
+    "connection": "V る・ない／N ＋ に限る",
+    "meaning": "~ là tốt nhất",
+    "explanation": "•Đưa ra đánh giá, ý kiến, ấn tượng của người nói cho rằng cái gì/ làm điều gì là tốt nhất\n•Cách nói lịch sự hơn của ～のが一番いい",
+    "examples": [
+      "①冬はこたつで温まるに限る。",
+      "②暑い夏の仕事終わりには、キンキンに冷えたビールに限る。",
+      "③ダイエットは食事制限をするより、運動に限る。"
+    ]
+  },
+  {
+    "id": "g_8_1",
+    "chapter": 8,
+    "chapter_title": "Chương 8",
+    "num": 1,
+    "code": "8.1",
+    "title": "8.1）～まい",
+    "grammar": "～まい",
+    "connection": "V る + まい （II：V ます） する→すまい 来る→来まい",
+    "meaning": "sẽ không",
+    "explanation": "①～ようとは思わない : sẽ không\n• Khẳng định chắc chắn sẽ không làm gì đó; Cách nói cổ, trang trọng, ít dùng trong văn nói\n②～ないだろう: có lẽ không\n• Đưa ra suy đoán có lẽ sẽ không, chắc hẳn là không; Cách nói cổ, trang trọng, ít dùng trong văn\nnói",
+    "examples": [
+      "①毎回誘っても断られるので、二度と誘うまい。",
+      "②あの人はよく嘘をつくので、誰も信じまい。",
+      "③同じ過ちはするまいと、両親に誓う。"
+    ]
+  },
+  {
+    "id": "g_8_2",
+    "chapter": 8,
+    "chapter_title": "Chương 8",
+    "num": 2,
+    "code": "8.2",
+    "title": "8.2）～ようか〜まいか",
+    "grammar": "～ようか〜まいか",
+    "connection": "V ようか  V るまいか （VII:Vますまいか／VIII:すまいか）",
+    "meaning": "Làm … hay là không …",
+    "explanation": "•Dùng khi bản thân người nói phân vân, đắn đo; Cách nói cổ, có thể gặp trong văn học, sách...\n•Dùng cho ngôi số 3 thì cần thêm: らしい、ようだ、のだở cuối câu",
+    "examples": [
+      "①春休みに、実家に帰省しようか、するまいか、考えている。",
+      "②人混みが苦手なので、パーティーに行こうか、行くまいか迷っている。",
+      "③彼は優しいが、収入が多くないので、結婚しようかするまいか、決められずにいる。"
+    ]
+  },
+  {
+    "id": "g_8_3",
+    "chapter": 8,
+    "chapter_title": "Chương 8",
+    "num": 3,
+    "code": "8.3",
+    "title": "8.3）～にしろ～にしろ",
+    "grammar": "～にしろ～にしろ",
+    "connection": "N1 にしろ     N2  にしろ V る1 にしろ  V る2 にしろ V るにしろ     V ないにしろ",
+    "meaning": "Dù…dù…",
+    "explanation": "•Dù trường hợp A hay trường hợp B thì...\n•Cách nói khác: …にしても…にしても、 …にせよ…にせよ",
+    "examples": [
+      "①進学にしろ、就職にしろ、 自分の将来なのでしっかりと考える。",
+      "②この仕事を引き受けるにしろ、断るにしろ、早めに決めるべきだ。",
+      "③昇進するにしろ、しないにしろ、この会社は今月で退職する予定だ。"
+    ]
+  },
+  {
+    "id": "g_8_4",
+    "chapter": 8,
+    "chapter_title": "Chương 8",
+    "num": 4,
+    "code": "8.4",
+    "title": "8.4）～にせよ～にせよ",
+    "grammar": "～にせよ～にせよ",
+    "connection": "Ｖ／A い（普通形） + にせよ～にせよ Aな/Ｎ（である）",
+    "meaning": "Cho dù, dù cho, ngay cả...",
+    "explanation": "• Diễn tả ý nghĩa “giả sử dù trong trường hợp đó thì..”\n• Phía sau thể hiện quan điểm, nhận xét, phán đoán, phê phán, hoặc thái độ khó chấp nhận\ncủa người nói.\n• Là dạng văn viết của ～にしても、～としても、～にしろ",
+    "examples": [
+      "①パーティーに行くにせよ行かないにせよ、早く決めてくれないか？",
+      "②この計画が成功するにせよ失敗するにせよ、挑戦しなければ何もわからない。",
+      "③犬にせよ猫にせよ、このマンションで動物を飼うことは禁止されています。"
+    ]
+  },
+  {
+    "id": "g_8_5",
+    "chapter": 8,
+    "chapter_title": "Chương 8",
+    "num": 5,
+    "code": "8.5",
+    "title": "8.5）～にかかわらず",
+    "grammar": "～にかかわらず",
+    "connection": "V る+Ｖない V（普）かどうか+ にかかわらず Ｎ",
+    "meaning": "Bất kể…",
+    "explanation": "• Bất kể (N đứng trước) thế nào, thì vẫn\n• Có thể nói thành にかかわりなく",
+    "examples": [
+      "①田舎のバスは距離にかかわらず、金額は一律だ。",
+      "②値段にかかわらず、品質のよい素材のみを使って料理を作る。",
+      "③雨が降る降らないにかかわらずに、試合は行われる。"
+    ]
+  },
+  {
+    "id": "g_8_6",
+    "chapter": 8,
+    "chapter_title": "Chương 8",
+    "num": 6,
+    "code": "8.6",
+    "title": "8.6）～にもかかわらず",
+    "grammar": "～にもかかわらず",
+    "connection": "N 普通形 + にもかかわらず 「A な/ N（である）」",
+    "meaning": "Mặc dù…/ Cho dù…/ Không quản…",
+    "explanation": "• Bất chấp, dù cho...có chuyện gì đó, nhưng vẫn...\n• Thường thể hiện cảm xúc bất ngờ, bất mãn, thất vọng…của người nói trước sự việc diễn ra ở\nvế sau",
+    "examples": [
+      "①徹夜して勉強したにもかかわらず、テストの結果は良くなかった。",
+      "②父は忙しいにもかかわらず全く疲れた顔を見せない人だった。",
+      "③祖父は80歳であるにもかかわらず山登りが大好きだ。"
+    ]
+  },
+  {
+    "id": "g_9_1",
+    "chapter": 9,
+    "chapter_title": "Chương 9",
+    "num": 1,
+    "code": "9.1",
+    "title": "9.1）～につけ",
+    "grammar": "～につけ",
+    "connection": "Ｖる／Ｎ + につけ（て）",
+    "meaning": "Cứ mỗi khi…/ Lúc nào cũng, cái gì cũng…",
+    "explanation": "• Đôi khi cứ (見る、聞く、考える、思う…) thì lại có 1 cảm xúc nào đó\n• N: 何かにつけ、何事につけ、調子がいいに付け悪いに付け",
+    "examples": [
+      "①あの音楽を聴くにつけ、新婚の頃を思い出す。",
+      "②遠く離れた、娘を考えるにつけ、元気が出る。",
+      "③彼女は何かにつけて文句を言うので、何もしたくなくなる。"
+    ]
+  },
+  {
+    "id": "g_9_2",
+    "chapter": 9,
+    "chapter_title": "Chương 9",
+    "num": 2,
+    "code": "9.2",
+    "title": "9.2）～に反して",
+    "grammar": "～に反して",
+    "connection": "に反して Ｎ  + に反する +   Ｎ",
+    "meaning": "Trái với…/ Ngược lại với…",
+    "explanation": "• N đứng trước thường là: 予想、期待、命令、意図、法律、規則、希望、...\n• Vế sau thường là điều ngược lại với N đứng trước\n• Văn nói: とは違って、とは反対に",
+    "examples": [
+      "①両親のアドバイスに反して、彼は夢をかなえるために東京へ向かった。",
+      "②彼女は周囲の期待に反して大学を中退し、歌手を目指し始めた。",
+      "③予想に反して、試験内容は簡単で、合格を確信した。"
+    ]
+  },
+  {
+    "id": "g_9_3",
+    "chapter": 9,
+    "chapter_title": "Chương 9",
+    "num": 3,
+    "code": "9.3",
+    "title": "9.3）～に応じて",
+    "grammar": "～に応じて",
+    "connection": "に応じて Ｎ  + に応じた +   Ｎ",
+    "meaning": "Tùy theo…/ Tương ứng với…",
+    "explanation": "• Thay đổi tùy theo loại, mức độ nào đó để cho phù hợp",
+    "examples": [
+      "①言語レベルに応じて、クラス分けを行う。",
+      "②収入に応じて一人一人が払う税額は変化する。"
+    ]
+  },
+  {
+    "id": "g_9_4",
+    "chapter": 9,
+    "chapter_title": "Chương 9",
+    "num": 4,
+    "code": "9.4",
+    "title": "9.4）～に加えて",
+    "grammar": "～に加えて",
+    "connection": "Ｎ  + に加えて",
+    "meaning": "Thêm vào đó nữa là…/ Không chỉ… mà… cũng…",
+    "explanation": "• Là cách nói cứng hơn của だけでなく",
+    "examples": [
+      "①彼は、日本語に加えて、韓国語も堪能だ。",
+      "②その英会話のクラスでは文法の勉強に加えて会話練習も行う。",
+      "③明日は大雨に加えて風も強く、ひどい天気になるらしい。"
+    ]
+  },
+  {
+    "id": "g_9_5",
+    "chapter": 9,
+    "chapter_title": "Chương 9",
+    "num": 5,
+    "code": "9.5",
+    "title": "9.5）～につき",
+    "grammar": "～につき",
+    "connection": "数量詞／Ｎ + につき",
+    "meaning": "Cứ mỗi",
+    "explanation": "①数量詞 + につき : Cứ mỗi\n• Cứ mỗi...thì...tương đương\n• Thường dùng với lượng từ chỉ tiền, thời gian, đếm người, đếm vật\n②Ｎ + につき : Vì, do\n• Đưa ra lí do\n• Là cách nói cứng, thường thấy trên thông báo, bảng hiệu, tờ rơi, thư từ…",
+    "examples": [
+      "①あの建物は現在工事中につき立ち入り禁止だ。",
+      "②店内改装につき、営業を一時休止する。",
+      "③その映画は 好評につき公開期間が延長された。"
+    ]
+  },
+  {
+    "id": "g_10_1",
+    "chapter": 10,
+    "chapter_title": "Chương 10",
+    "num": 1,
+    "code": "10.1",
+    "title": "10.1）～に基づいて",
+    "grammar": "～に基づいて",
+    "connection": "に基づいて Ｎ +    に基づく＋N に基づいた＋N",
+    "meaning": "Dựa theo…/ Dựa trên…",
+    "explanation": "• Dựa trên căn cứ/ tiêu chuẩn/ căn bản nào đóđể tiến hành việc gì đó",
+    "examples": [
+      "①マニュアルに基づいて作業を進めてください。",
+      "②経験に基づいて確かな判断をしたい。",
+      "③この映画は事実に基づいて、制作された。"
+    ]
+  },
+  {
+    "id": "g_10_2",
+    "chapter": 10,
+    "chapter_title": "Chương 10",
+    "num": 2,
+    "code": "10.2",
+    "title": "10.2）～にしたがって",
+    "grammar": "～にしたがって",
+    "connection": "N/V る  + にしたがって",
+    "meaning": "tuân theo, theo đúng",
+    "explanation": "①N + にしたがって : tuân theo, theo đúng\n• Làm gì đó theo đúng như ルール、マニュアル、規則、指示、命令…\n②N/V る  + にしたがって : càng… càng…\n• Khi 1 thay đổi gì đó diễn ra kéo theo 1 thay đổi khác cũng diễn ra theo",
+    "examples": [
+      "①交通ルールにしたがって、車も歩行者も通行する。",
+      "②暑くなるにしたがって、やる気がなくなってくる。",
+      "③緊急時は、係員の指示にしたがって、避難をする。"
+    ]
+  },
+  {
+    "id": "g_10_3",
+    "chapter": 10,
+    "chapter_title": "Chương 10",
+    "num": 3,
+    "code": "10.3",
+    "title": "10.3）～際に",
+    "grammar": "～際に",
+    "connection": "V る／Vた／N の    + 際（に・は）",
+    "meaning": "Khi…",
+    "explanation": "• Là cách nói trang trọng của 時に\n• Ít khi dùng trong hội thoại hàng ngày",
+    "examples": [
+      "①受験の際は、必ず受験票が必要になる。",
+      "②車や、バイクを運転する際は、運転免許証を身に付けていなくてはならない。",
+      "③彼に会った際にはこの本を渡してください。"
+    ]
+  },
+  {
+    "id": "g_10_4",
+    "chapter": 10,
+    "chapter_title": "Chương 10",
+    "num": 4,
+    "code": "10.4",
+    "title": "10.4）～際・に際して",
+    "grammar": "～際・に際して",
+    "connection": "N/V る  + に際して・に際し",
+    "meaning": "Khi, nhân dịp...",
+    "explanation": "• Được sử dụng trong câu lưu ý hoặc xin lỗi, giải thích. Hoặc diễn tả thời điểm bắt đầu một sự\nviệc, hoặc thời điểm một sự việc diễn ra.\n• Được sử dụng trong những trường hợp trang trọng hơn như sự kiện, thời điểm đặc biệt",
+    "examples": [
+      "①日本語能力試験の受験に際して、注意すべき点が三つあります。",
+      "②演劇の鑑賞に際しては、無駄なおしゃべりをせず静かにしている。",
+      "③当サイトを利用するに際し、まず利用規約をご一読ください。"
+    ]
+  },
+  {
+    "id": "g_10_5",
+    "chapter": 10,
+    "chapter_title": "Chương 10",
+    "num": 5,
+    "code": "10.5",
+    "title": "10.5）～にあたって",
+    "grammar": "～にあたって",
+    "connection": "にあたって V る／N + にあたり",
+    "meaning": "Khi/ Nhân dịp…",
+    "explanation": "• Vào lúc có dịp/ việc gì đó đặc biệt, quan trọng thì làm 1 hành động mang tính quan trọng đối\nvới sự kiện đó\n• Là cách nói trang trọng, không dùng hội thoại thông thường",
+    "examples": [
+      "①結婚するにあたって、子供が好きな事が絶対条件だ。",
+      "②日本で会談を行うにあたって、警備を強化する。",
+      "③試験を受講するにあたって、注意事項を確認する。"
+    ]
+  },
+  {
+    "id": "g_10_6",
+    "chapter": 10,
+    "chapter_title": "Chương 10",
+    "num": 6,
+    "code": "10.6",
+    "title": "10.6）～にそって",
+    "grammar": "～にそって",
+    "connection": "N ＋ にそって",
+    "meaning": "dọc theo",
+    "explanation": "①N＋にそって : dọc theo\n• Dọc theo 1 cái gì đó trải dài, tiếp nối như: con đường, bờ sông, vạch kẻ …（道、線路、川…）\n②N＋にそって : dựa theo\n• Làm gì đó dựa theo, bám sát theo những thứ như: マニュアル、期待、希望、方針、基準…\n• N に沿うN、N に沿ったN",
+    "examples": [
+      "①お客様の要求にそって、新商品を開発する。",
+      "②決定した計画にそって、準備を進めていく。",
+      "③花火大会の日は、大勢の人が土手にそって座っている。"
+    ]
+  },
+  {
+    "id": "g_11_1",
+    "chapter": 11,
+    "chapter_title": "Chương 11",
+    "num": 1,
+    "code": "11.1",
+    "title": "11.1）～にともなって",
+    "grammar": "～にともなって",
+    "connection": "に伴って に伴N／V る ＋ い に伴うN",
+    "meaning": "càng…càng…; cùng với…",
+    "explanation": "①N／V るに伴って: càng…càng…; cùng với…\n• Một cái gì đó thay đổi nên kéo theo 1 thay đổi khác cùng diễn ra\n②N／Ｖるに伴って : vì…nên kèm theo đó…\n• Vì có một nguyên nhân nào đó nên có một viêc gì đó xảy ra kèm theo sau đó",
+    "examples": [
+      "①インターネットの普及にともない、生活が豊かになる。",
+      "②大学進学にともない東京に引っ越した。",
+      "③地球温暖にともない、年々気温が上昇している。"
+    ]
+  },
+  {
+    "id": "g_11_2",
+    "chapter": 11,
+    "chapter_title": "Chương 11",
+    "num": 2,
+    "code": "11.2",
+    "title": "11.2）～にかけては",
+    "grammar": "～にかけては",
+    "connection": "にかけては N ＋ にかけて＋のN",
+    "meaning": "Riêng về mặt…, lĩnh vực…",
+    "explanation": "• N đứng trước thường là 1 mặt/ lĩnh vực nào đó thuộc sở trường của người được nói tới\n• Vế sau thể hiện năng lực, tự tin",
+    "examples": [
+      "①料理の腕前にかけては自信があります。",
+      "②父は車に関わることにかけては誰よりも詳しい。",
+      "③暗記 能力にかけては、彼に勝るものはいない。"
+    ]
+  },
+  {
+    "id": "g_11_3",
+    "chapter": 11,
+    "chapter_title": "Chương 11",
+    "num": 3,
+    "code": "11.3",
+    "title": "11.3）～にしては",
+    "grammar": "～にしては",
+    "connection": "Ｖ(普)/ N ＋ にしては",
+    "meaning": "Vậy mà…",
+    "explanation": "• Diễn tả 1 điều bất ngờ trái với hình dung thông thường khi nhắc về vế đứng trước にしては\n• Nhấn mạnh vào cảm xúc bất ngờ",
+    "examples": [
+      "①未経験にしては、筋がいいので今後に期待できる。",
+      "②彼女、健康に気をつかっているにしてはよく風邪を引くね。",
+      "③いつも怠ける彼にしては、頑張った方だと感じた。"
+    ]
+  },
+  {
+    "id": "g_11_4",
+    "chapter": 11,
+    "chapter_title": "Chương 11",
+    "num": 4,
+    "code": "11.4",
+    "title": "11.4）～にしても",
+    "grammar": "～にしても",
+    "connection": "普通形 ＋ にしても （ A な/N＋である）",
+    "meaning": "Giả sử, cứ cho là…thì…",
+    "explanation": "• Đưa ra một tình huống giả định và vế sau nói lên phán đoán, đánh giá, ý kiến của người nói\n• Văn nói: にしたって",
+    "examples": [
+      "①彼女が仮に40 代であるにしても、あの見た目は若すぎる。",
+      "②いくらゲームが楽しいにしても睡眠もとらずにプレイし続けるのは体に毒だ。",
+      "③3 時に家を出るにしても5 時までに空港に到着するのは困難だ。"
+    ]
+  },
+  {
+    "id": "g_11_5",
+    "chapter": 11,
+    "chapter_title": "Chương 11",
+    "num": 5,
+    "code": "11.5",
+    "title": "11.5）～(に)もかまわず",
+    "grammar": "～(に)もかまわず",
+    "connection": "N 普通形＋の + （に）もかまわず （A な/ Aな・N である）",
+    "meaning": "Mặc kệ…/ Chẳng màng…",
+    "explanation": "• Thể hiện 1 hành động được thực hiện mà chẳng màng/ bận tâm đến điều được đề cập ở vế trước\nもかまわず\n• Cụm từ thường gặp: 人目もかまわず\n• Cách nói cứng, thường gặp trong văn viết, tin tức…",
+    "examples": [
+      "①彼は人目もかまわず、道で歌っている。",
+      "②胸の痛みもかまわず、私は仕事を続けた。",
+      "③明日、大事な試験があるのもかまわず、深夜まで遊んでしまった。"
+    ]
+  },
+  {
+    "id": "g_12_1",
+    "chapter": 12,
+    "chapter_title": "Chương 12",
+    "num": 1,
+    "code": "12.1",
+    "title": "12.1）～を込めて",
+    "grammar": "～を込めて",
+    "connection": "を込めて Ｎ+ を込めたN",
+    "meaning": "Chất chứa…/ Dồn cả…",
+    "explanation": "• Bao gồm, chứa đựng cảm xúc, suy nghĩ, tâm tư, tình cảm\n• N: 心、思い、力、願い、感謝、愛、気持ち、恨み、怒り、…",
+    "examples": [
+      "①愛を込めて作ったチョコレートを彼に渡した。",
+      "②母に感謝の思いを込めて手紙を書いた。",
+      "③当店のお菓子は、真心を込めて、一つ一つ手作りです。"
+    ]
+  },
+  {
+    "id": "g_12_2",
+    "chapter": 12,
+    "chapter_title": "Chương 12",
+    "num": 2,
+    "code": "12.2",
+    "title": "12.2）～をぬきにして(は)",
+    "grammar": "～をぬきにして(は)",
+    "connection": "Ｎ+ をぬきにして(は)",
+    "meaning": "Nếu mà không...thì khó có thể...",
+    "explanation": "• Nếu mà không (đề cập đến/ nói đến/ có) thì khó có thể thực hiện được\n• N thường là 1 đối tượng mà giữ vai trò quan trọng hoặc được người nói đánh giá cao",
+    "examples": [
+      "①監督の熱心な指導をぬきにしては、優勝する事はできなかった。",
+      "②父の一生について、あの事件をぬきにしては語れません。",
+      "③彼をぬきにしてこのプロジェクトを進めることはできない。"
+    ]
+  },
+  {
+    "id": "g_12_3",
+    "chapter": 12,
+    "chapter_title": "Chương 12",
+    "num": 3,
+    "code": "12.3",
+    "title": "12.3）～を問わず",
+    "grammar": "～を問わず",
+    "connection": "Ｎ+ を問わず",
+    "meaning": "Bất kể...",
+    "explanation": "• Bất kể là thế nào thì vế sau vẫn.... Cách dùng và ý nghĩa tương đối giốngに関わらず\n• Thường đi với những cụm danh từ mang nghĩa đối ngược nhau",
+    "examples": [
+      "①そのハンバーガーショップは昼夜を問わずいつでも開いている。",
+      "②インターネットがあれば場所を問わずに、仕事ができる。",
+      "③その服は性別を問わず誰でも着用できる。"
+    ]
+  },
+  {
+    "id": "g_12_4",
+    "chapter": 12,
+    "chapter_title": "Chương 12",
+    "num": 4,
+    "code": "12.4",
+    "title": "12.4）～をはじめ",
+    "grammar": "～をはじめ",
+    "connection": "をはじめ（として） Ｎ+ をはじめとするN",
+    "meaning": "Điều đầu tiên kể đến là…/ Đặc biệt là…",
+    "explanation": "• Nhấn mạnh vào thứ tự tiêu biểu/ đại diện, không thể không kể đến\n• Vế sau là thể hiện phạm vi rộng hơn: みんな、色々、さまざま、たくさん",
+    "examples": [
+      "①彼は英語をはじめ、中国語やフランス語など5 か国語を話せる。",
+      "②日本料理はアジアをはじめ、世界中で親しまれている。",
+      "③店内には食品をはじめ、衣服など様々な商品を取り扱っている。"
+    ]
+  },
+  {
+    "id": "g_12_5",
+    "chapter": 12,
+    "chapter_title": "Chương 12",
+    "num": 5,
+    "code": "12.5",
+    "title": "12.5）～をめぐって",
+    "grammar": "～をめぐって",
+    "connection": "をめぐって をめぐり  Ｎ+ をめぐるN",
+    "meaning": "Xoay xung quanh…",
+    "explanation": "• Bày tỏ ý kiến, tranh luận, tranh cãi xung quanh 1 chủ đề, vấn đề, đề tài nào đó\n• Thường gặp trên tin tức, báo đài",
+    "examples": [
+      "①問題を起こした社員の処分をめぐって、話し合いが行われた。",
+      "②祖父の遺産をめぐって、父とおじは対立している。",
+      "③そのテレビ番組は、一人の男性をめぐってたくさんの女性たちが争うという内容だ。"
+    ]
+  },
+  {
+    "id": "g_12_6",
+    "chapter": 12,
+    "chapter_title": "Chương 12",
+    "num": 6,
+    "code": "12.6",
+    "title": "12.6）～のもとで",
+    "grammar": "～のもとで",
+    "connection": "Ｎ+ のもとで",
+    "meaning": "Dưới/ Dựa vào/ Nhờ vào …",
+    "explanation": "• Làm gì dưới sức ảnh hưởng của người hoặc phạm vi gì đó\n• Cách nói khác: のもとに、のもと",
+    "examples": [
+      "①幼少期は、祖父母のもとで暮らしていた。",
+      "②弟は有名な建築家のもとで3 年間修行を積んだ。",
+      "③入学試験は厳しい監視のもとで行われる。"
+    ]
+  },
+  {
+    "id": "g_13_1",
+    "chapter": 13,
+    "chapter_title": "Chương 13",
+    "num": 1,
+    "code": "13.1",
+    "title": "13.1）～のみならず",
+    "grammar": "～のみならず",
+    "connection": "N + のみならず 普通形",
+    "meaning": "Không chỉ…",
+    "explanation": "• Không chỉ...mà còn/ mà ngay cả..., mức độ/ phạm vi ở vế sau lớn hơn, vế sau thường có: も、\nさえ\n• Cách nói lịch sự hơn だけでなく, ít dùng trong văn nói, thường thấy trên tin tức",
+    "examples": [
+      "①この商品は安いのみならず質もいいので、多くの人に購入されている。",
+      "②日本のアニメはアジアのみならず、世界中で評価されている。",
+      "③彼はベトナム人だが英語のみならず、ドイツ語も話せる。"
+    ]
+  },
+  {
+    "id": "g_13_2",
+    "chapter": 13,
+    "chapter_title": "Chương 13",
+    "num": 2,
+    "code": "13.2",
+    "title": "13.2）～はもとより",
+    "grammar": "～はもとより",
+    "connection": "Ｎ+ はもとより",
+    "meaning": "N là đương nhiên, … cũng",
+    "explanation": "• N là đương nhiên rồi, ... cũng...⇒ Không chỉ… mà còn…\n• Là cách nói cứng hơn của はもちろん",
+    "examples": [
+      "④大学院に進学することは、父はもとより母も賛成だ。",
+      "⑤彼女は、その男との結婚について、家族はもとより友人からも大反対されていた。",
+      "⑥ネット環境があれば、都会はもとより、田舎でも仕事ができる。"
+    ]
+  },
+  {
+    "id": "g_13_3",
+    "chapter": 13,
+    "chapter_title": "Chương 13",
+    "num": 3,
+    "code": "13.3",
+    "title": "13.3）～はともかく",
+    "grammar": "～はともかく",
+    "connection": "Ｎ+ はともかく (として)",
+    "meaning": "Khoan bàn, nói đến…/ Chưa cần quan tâm đến…mà…",
+    "explanation": "• Danh từ đứng trước cũng quan trọng nhưng hiện tại thì vế sau cần phải được ưu tiên hơn/\nquan trọng hơn",
+    "examples": [
+      "①値段はともかく、機能性がある洗濯機が欲しい。",
+      "②あの店の料理は見た目はともかく、値段が安く味がいいと評判だ。",
+      "③旅行日程はともかく、先にどこに行くかを決めなければならない。"
+    ]
+  },
+  {
+    "id": "g_13_4",
+    "chapter": 13,
+    "chapter_title": "Chương 13",
+    "num": 4,
+    "code": "13.4",
+    "title": "13.4）～はさておき",
+    "grammar": "～はさておき",
+    "connection": "Ｎ+ はさておき",
+    "meaning": "Chưa nói đến, khoan nói đến, tạm bỏ qua một bên...",
+    "explanation": "• Được sử dụng khi muốn diễn tả “chuyện này khoan hãy bàn tới, khoan hãy nói tới. Trước hết\ncần tập trung vào vấn đề phía sau.”",
+    "examples": [
+      "① 冗談はさておきグループ発表の内容をまじめに話し合いましょう。",
+      "② 事件のきっかけはさておき、けが人がいなくて本当によかった。",
+      "③ せっかくハワイに来たのだから、予算はさておき、買い物を思う存分楽しみたい。"
+    ]
+  },
+  {
+    "id": "g_13_5",
+    "chapter": 13,
+    "chapter_title": "Chương 13",
+    "num": 5,
+    "code": "13.5",
+    "title": "13.5）～からには／～以上（は）",
+    "grammar": "～からには／～以上（は）",
+    "connection": "普通形          からには ＋ A な／N＋である以上（は）/上は",
+    "meaning": "Một khi mà đã…/ Vì… nên đương nhiên là…",
+    "explanation": "•Vì trong 1 trạng thái gì đó (vế trước) thế nên đương nhiên là phải  thể hiện ý chí mạnh mẽ\ncủa người nói, hoặc là lời kêu gọi đến đối phương\n•Vế sau: 意志、決意、判断、命令、義務、断定...",
+    "examples": [
+      "①会社の社長であるからには、従業員に尊敬される存在でいなくてはならないと思う。",
+      "②大学受験を決意した以上は、勉強をさぼってはならない。",
+      "③約束をした以上、絶対に守ると誓った。"
+    ]
+  },
+  {
+    "id": "g_13_6",
+    "chapter": 13,
+    "chapter_title": "Chương 13",
+    "num": 6,
+    "code": "13.6",
+    "title": "13.6）～からいって／～からいうと",
+    "grammar": "～からいって／～からいうと",
+    "connection": "からいって からいうと N ＋ からいえば",
+    "meaning": "Xét từ phương diện…mà nói…/ Xét về mặt… mà nói…",
+    "explanation": "•Xét trên một phương diện/ khía cạnh nào đó để đưa ra đánh giá\n•Cũng có trường hợp: đứng từ quan điểm, lập trường để đưa ra đánh giá",
+    "examples": [
+      "①自身の経験からいうと、何事も行動に移すことが大事だ。",
+      "②見た目からいうと、山田さんよりも田中さんの方がお金持ちであると思う。",
+      "③実力からいって、彼が昇進するのは間違いない。"
+    ]
+  },
+  {
+    "id": "g_13_7",
+    "chapter": 13,
+    "chapter_title": "Chương 13",
+    "num": 7,
+    "code": "13.7",
+    "title": "13.7）～からすると／～からすれば",
+    "grammar": "～からすると／～からすれば",
+    "connection": "からすると からすれば N ＋ からしたら …mà nói thì…/ Nhìn từ … mà nói thì…)",
+    "meaning": "Đứng từ (vị trí",
+    "explanation": "•N: lập trường  đưa ra quan điểm, đánh giá\n•N: cơ sở, bằng chứng  đưa ra phán đoán",
+    "examples": [
+      "①彼の日本語の発音からすると、韓国人だと推測している。",
+      "②親からすると、子供は何歳になっても心配になるものだ。",
+      "③部下からすれば、上司の命令は絶対に従わなくてはいけないものだ。"
+    ]
+  },
+  {
+    "id": "g_13_8",
+    "chapter": 13,
+    "chapter_title": "Chương 13",
+    "num": 8,
+    "code": "13.8",
+    "title": "13.8）～からして",
+    "grammar": "～からして",
+    "connection": "Ｎ+ からして ① Xét từ góc độ, xét về mặt...",
+    "meaning": "Xét từ góc độ, xét về mặt...／Ngay cả, ngay từ...",
+    "explanation": "• Diễn tả sự phán đoán, nhận xét, đánh giá dựa trên một góc độ, quan điểm, lập trường hay khía\ncạnh nào đó. Hoặc miêu tả cơ sở, căn cứ, đầu mối của sự phán đoán, nhận xét ở vế sau.\n② Ngay cả, ngay từ...\n• Biểu thị nghĩa “Ngay cả N cũng thế nên không cần nói tới những cái khác”\n• Thường đưa ra đánh giá tiêu cực",
+    "examples": [
+      "① 雰囲気からして、彼女はただ者じゃないぞ。",
+      "② 山田さんは話し方からしてかなり教養がありそうですね。",
+      "③ あのころの彼の生活環境は朝晩の食事のメニューからしてひどいものであった。",
+      "④ 私の秘書である君からして、私を理解していない",
+      "⑤ 社長からしてリモートワークに反対しているのだから、社員たちが家で仕事など できるはずがない",
+      "⑥ あの市長は以前からきちんと仕事をしないと思っていたが、まず税金で市長室に サウナを作ったことからして不真面目さがわかる。"
+    ]
+  },
+  {
+    "id": "g_14_1",
+    "chapter": 14,
+    "chapter_title": "Chương 14",
+    "num": 1,
+    "code": "14.1",
+    "title": "14.1）～とは",
+    "grammar": "～とは",
+    "connection": "普通形  ＋   とは",
+    "meaning": "Thì thật là...",
+    "explanation": "• Diễn tả “nỗi ngạc nhiên, thán phục trước một tình huống xảy ra ngoài dự đoán.\n• Trong văn nói thường dùng ~なんて",
+    "examples": [
+      "① まさか、私にバレンタインデーの贈り物をくれたのが田中さんだったとは。",
+      "② まさか私の犬がその人の手にかみついたとは、信じられなかった。",
+      "③ 山田さんとその女性は似ていると思っていたが、まさか姉妹だとは。"
+    ]
+  },
+  {
+    "id": "g_14_2",
+    "chapter": 14,
+    "chapter_title": "Chương 14",
+    "num": 2,
+    "code": "14.2",
+    "title": "14.2）～といった",
+    "grammar": "～といった",
+    "connection": "N1(や・とか)N2 ... ＋ といったN",
+    "meaning": "Ví dụ như…/ Chẳng hạn như…",
+    "explanation": "•Cách nói đưa ra 1 vài ví dụ cụ thể/ tiêu biểu cho danh từ chung đứng sau",
+    "examples": [
+      "①米、小麦といった食材にアレルギーがある方はいってください。",
+      "②犬や猫といった動物は飼ったことがありません。",
+      "③焼肉や牛丼といった、お肉料理が大好きだ。"
+    ]
+  },
+  {
+    "id": "g_14_3",
+    "chapter": 14,
+    "chapter_title": "Chương 14",
+    "num": 3,
+    "code": "14.3",
+    "title": "14.3）～としても",
+    "grammar": "～としても",
+    "connection": "普通形 ＋ としても",
+    "meaning": "Cho dù là…/ Thậm chí nếu là…",
+    "explanation": "•Đưa ra trường hợp giả định để nêu ra ý kiến, quan điểm của người nói\n•Thường hay đi cùng: たとえ、仮に、もし、もしも\n•Văn nói:としたって",
+    "examples": [
+      "①たとえ冗談だとしても、女性にそんなことは言ってはいけない。",
+      "②たとえきれいだとしても、性格が悪ければ付き合おうとは思わない。",
+      "③N1 を持っていたとしても、 会話が上手だとは限らない。"
+    ]
+  },
+  {
+    "id": "g_14_4",
+    "chapter": 14,
+    "chapter_title": "Chương 14",
+    "num": 4,
+    "code": "14.4",
+    "title": "14.4）～とともに",
+    "grammar": "～とともに",
+    "connection": "Ｖる／N／A い ＋ とともに A な／N である",
+    "meaning": "Cùng với",
+    "explanation": "①N＋とともに :Cùng với\n•Là văn viết của と一緒に\n②V る／N＋とともに : Cùng với, càng...càng...\n•Cùng với 1 việc gì đó thay đổi thì 1 thay đổi tương ứng cũng diễn ra cùng\n③Vる／Aい／Aなである／N である＋とともに : ...đồng thời thì...\n•2 vế trước sau là 2 thứ/ việc diễn ra hoặc tồn tại song song cùng với nhau",
+    "examples": [
+      "①友人とともに、沖縄旅行に行く予定を立てる。",
+      "②季節の変化とともに木の葉の色も変わる。",
+      "③トムさんに英語の文法を教えてもらうとともに、発音の練習も一緒に行った。"
+    ]
+  },
+  {
+    "id": "g_14_5",
+    "chapter": 14,
+    "chapter_title": "Chương 14",
+    "num": 5,
+    "code": "14.5",
+    "title": "14.5）～としたら",
+    "grammar": "～としたら",
+    "connection": "普通形 ＋ としたら",
+    "meaning": "Giả sử nếu mà…/ Giả dụ như…",
+    "explanation": "•Là cách nói đưa ra 1 trường hợp giả định nào đó\n•Thường là giả định cho những điều khó xảy ra trong thực tế",
+    "examples": [
+      "①その本の内容が全て正しいとしたら、彼の説明が間違っているということになるわね。",
+      "②その事柄が事実だとしたら、事実確認を急ぐべきだ。",
+      "③宝くじが当たったとしたら、家族に海外旅行をプレゼントしたい。"
+    ]
+  },
+  {
+    "id": "g_14_6",
+    "chapter": 14,
+    "chapter_title": "Chương 14",
+    "num": 6,
+    "code": "14.6",
+    "title": "14.6）～といったら",
+    "grammar": "～といったら",
+    "connection": "Ｎ ＋ といったら",
+    "meaning": "Nói về",
+    "explanation": "• Diễn tả cảm xúc thán phục, ngạc nhiên của người nói về một sự vật, sự việc nào đó. (cả tiêu\ncực và tích cực )",
+    "examples": [
+      "① 彼の部屋といったら、服は脱ぎっぱなしで、ゴミも散らかっておりひどいもの でしたよ。",
+      "② 山の頂上からの景色といったら、美しすぎて言葉にならないくらいだった。",
+      "③ 彼の生意気な態度といったら、上司も怒って会議を中断してしまうほどだった。"
+    ]
+  },
+  {
+    "id": "g_14_7",
+    "chapter": 14,
+    "chapter_title": "Chương 14",
+    "num": 7,
+    "code": "14.7",
+    "title": "14.7）～ということだ",
+    "grammar": "～ということだ",
+    "connection": "普通形 ＋ ということだ",
+    "meaning": "Có nghĩa là, tóm lại là, tức là...",
+    "explanation": "• Dùng khi tóm tắt, tóm lược, giải thích những gì được nói trước đó.",
+    "examples": [
+      "① 彼女によると、彼がこの学校で一番ハンサムだということだ。",
+      "② 天気予報によると、明日は一日雨だということだ。 ――――――――――――――――――――――――――――――――――――――",
+      "① 彼は昨日も今日も練習を休んでいる。最初からやる気がなかったということだ。",
+      "② 彼は一人で全ての仕事を成し遂げた。私が手伝う必要なんて全くなかった ということだ。",
+      "③ 彼女はちょっとしたことですぐに機嫌を悪くする。つまりまだ子どもだ ということだ。"
+    ]
+  },
+  {
+    "id": "g_15_1",
+    "chapter": 15,
+    "chapter_title": "Chương 15",
+    "num": 1,
+    "code": "15.1",
+    "title": "15.1）～のなんのって",
+    "grammar": "～のなんのって",
+    "connection": "V(普) + のなんのって A い/Aな",
+    "meaning": "Cực kì, rất…",
+    "explanation": "• Nhấn mạnh vào mức độ vô cùng thế nào đó (đến mức người nói cảm thấy bất ngờ, không ngờ\ntới trước)\n• Cách nói suồng sã, tuy nhiên người trẻ tuổi không hay dùng",
+    "examples": [
+      "①あの人は怖いのなんのって、怒らせない様にしなくてはいけない 。",
+      "②彼はアメリカに3 年住んでいるが、英語が下手なのなんのって。",
+      "③死んだと思っていた彼が目の前に現れたときは驚いたのなんのって。"
+    ]
+  },
+  {
+    "id": "g_15_2",
+    "chapter": 15,
+    "chapter_title": "Chương 15",
+    "num": 2,
+    "code": "15.2",
+    "title": "15.2）～あまり",
+    "grammar": "～あまり",
+    "connection": "V(普)／A いさ/み＋の + あまり A な/N の",
+    "meaning": "Vì quá…",
+    "explanation": "• Vì quá... nên dẫn đến 1 trạng thái không bình thường hoặc 1 kết quả không tốt\n• Thường đi với những từ thể hiện cảm xúc\n• Mở rộng: あまりの＋N＋（に）",
+    "examples": [
+      "①忙しさのあまり、食事をすることを忘れてしまっていた。",
+      "②私は緊張のあまり汗だくになった。",
+      "③急いでいたあまり、家に財布を忘れてしまった。"
+    ]
+  },
+  {
+    "id": "g_15_3",
+    "chapter": 15,
+    "chapter_title": "Chương 15",
+    "num": 3,
+    "code": "15.3",
+    "title": "15.3）～てならない",
+    "grammar": "～てならない",
+    "connection": "A いくて A なで + ならない V て",
+    "meaning": "Rất…đến mức không kìm nén được",
+    "explanation": "• Nhấn mạnh vào cảm xúc vô cùng...của người nói, đặc biệt còn chứa nhiều sắc thái nghĩa chỉ\ncảm xúc đó nó tự nhiên xảy đến và không thể kìm nén được\n• Giống てしょうがないnhưng ít dùng trong văn nói hơn",
+    "examples": [
+      "①入学試験の結果が気になってならない。",
+      "②この道は街灯がなく、辺りが見えにくいので危なくてならない。",
+      "③彼女は何にでも文句を言うので、腹が立ってならない。"
+    ]
+  },
+  {
+    "id": "g_15_4",
+    "chapter": 15,
+    "chapter_title": "Chương 15",
+    "num": 4,
+    "code": "15.4",
+    "title": "15.4）～てたまらない",
+    "grammar": "～てたまらない",
+    "connection": "A いくて A なで + たまらない V たいくて V て",
+    "meaning": "Rất…đến mức không chịu được",
+    "explanation": "• Cách dùng để nhấn mạnh vào cảm xúc/ trạng thái của người nói đến mức không chịu được\n• Không dùng cho những cảm xúc tự phát",
+    "examples": [
+      "①ホラー映画を観てから、トイレが怖くてたまらない。",
+      "②大学進学のために一人暮らしを始めた息子のことを考えると、不安でたまらないです。",
+      "③遠く離れて暮らす家族に会いたくてたまらない。"
+    ]
+  },
+  {
+    "id": "g_15_5",
+    "chapter": 15,
+    "chapter_title": "Chương 15",
+    "num": 5,
+    "code": "15.5",
+    "title": "15.5）～得る",
+    "grammar": "～得る",
+    "connection": "V ます + 得る",
+    "meaning": "Có khả năng…/ Có thể…",
+    "explanation": "• Có khả năng/ có thể xảy ra/ thực hiện hành động gì đó; Không dùng để biểu thị năng lực\n• Lưu ý về 2 cách đọc: うる、える.Cách đọc: 辞書形：うる、える  (うるlịch sự hơnえる)",
+    "examples": [
+      "①どんなに優秀な人でも、間違いを起こすことはあり得る。",
+      "②人生は長い。だからこそ、どんなことだって起こり得るんだ。",
+      "③日本は明日にでも、山が噴火する可能性があり得る。"
+    ]
+  },
+  {
+    "id": "g_15_6",
+    "chapter": 15,
+    "chapter_title": "Chương 15",
+    "num": 6,
+    "code": "15.6",
+    "title": "15.6)～やら～やら",
+    "grammar": "～やら～やら",
+    "connection": "V る           Ｖる Ａ１（い）        Ａ２ + やら + やら Ｎ１           Ｎ２",
+    "meaning": "Vừa…Vừa…/ Nào là… nào là…",
+    "explanation": "• Liệt kê ra những hành động, tính chất, sự việc giống nhau và ngoài ra vẫn còn nhiều cái khác\n• Mang 1 chút cảm xúc tiêu cực vì nhiều quá\n• Cách nói khác của: や～など、とか～とか、...",
+    "examples": [
+      "①母はいつも、掃除をするやら買い物に行くやら忙しい。",
+      "②プレゼンで失敗してしまい、恥ずかしいやら情けないやらで涙が出てきた。",
+      "③最近、育児やら家事やらで、とても忙しいが、充実した生活を送っている。"
+    ]
+  },
+  {
+    "id": "g_15_7",
+    "chapter": 15,
+    "chapter_title": "Chương 15",
+    "num": 7,
+    "code": "15.7",
+    "title": "15.7）～も〜ば 〜も",
+    "grammar": "～も〜ば 〜も",
+    "connection": "N1 も V ば       N2 も N1 も A いければ   N2 も N1 も A な/N なら N2 も",
+    "meaning": "Cả N1, N2 đều…",
+    "explanation": "• Liệt kê những tính chất song song, có xu hướng giống nhau (tốt cùng tốt, xấu cùng xấu) hoặc\nnhiều mặt/ khía cạnh của 1 hiện tượng. Văn nói còn có thể dùng: ～も～し、～も",
+    "examples": [
+      "①外で運動するのが好きな子もいれば、室内で静かに遊ぶのが好きな子もいる。",
+      "②私は勉強も苦手なら、運動も苦手で自分のことが嫌になる。",
+      "③この町には、コンビニもなければ、スーパーもない。"
+    ]
+  },
+  {
+    "id": "g_16_1",
+    "chapter": 16,
+    "chapter_title": "Chương 16",
+    "num": 1,
+    "code": "16.1",
+    "title": "16.1）～上で",
+    "grammar": "～上で",
+    "connection": "Vる / Nの + 上で | Vた / Nの + 上で",
+    "meaning": "Khi, trong trường hợp... / Sau khi... thì",
+    "explanation": "1/ 《するとき》:Khi, trong trường hợp\nV る/Nの    + 上で\nVế sau thường đưa ra những điều cần thiết, quan trọng cho trường hợp/ văn cảnh được nêu\nra ở vế trước.\n2/     《した後》: Sau khi…\nV た/Nの    + 上で\nHành động ở vế sau sẽ/ đã được tiến hành trên cơ sở sau khi hoàn thành/ thực hiện xong\nhành động ở vế trước.",
+    "examples": [
+      "①外国人との交流の上で重要なのは、相手の文化を知ろうとすることだ。",
+      "②父は失敗を覚悟の上で、新たに会社を立ち上げることにした。",
+      "③SNS で何度もやり取りをした上で、彼と実際に会うことに決めた。"
+    ]
+  },
+  {
+    "id": "g_16_2",
+    "chapter": 16,
+    "chapter_title": "Chương 16",
+    "num": 2,
+    "code": "16.2",
+    "title": "16.2）～次第（1）",
+    "grammar": "～次第（1）",
+    "connection": "V ます   + 次第",
+    "meaning": "Ngay sau khi…",
+    "explanation": "• Ngay sau khi ... thì sẽ làm gì đó luôn\n• Cách nói cứng thường dùng trong thông báo, tin tức\n• Không dùng cho hiện tượng tự nhiên hoặc thể quá khứ",
+    "examples": [
+      "①準備が整い次第、すぐに作業に移る。",
+      "②連絡があり次第、出発をいたします。",
+      "③確認が取れ次第、改めてご連絡します。"
+    ]
+  },
+  {
+    "id": "g_16_3",
+    "chapter": 16,
+    "chapter_title": "Chương 16",
+    "num": 3,
+    "code": "16.3",
+    "title": "16.3）～次第（2）",
+    "grammar": "～次第（2）",
+    "connection": "N + 次第だ/で/では | 普通形(Aな/N＋である) + 次第だ",
+    "meaning": "Tùy vào... / Do đó, thế nên là...",
+    "explanation": "1/ 《～によって決まる 》=> Tùy vào\nN + 次第だ/で/では\nTùy vào N mà vế sau sẽ có những thay đổi, quyết định phù hợp với N hoặc dẫn đến những\nkết quả khác nhau.\n2/ 《～という事情だ》=> Thế nên là…\n普通形（A な/N＋である） + 次第だ\nDùng ở cuối câu khi trình bày diễn tả 1 lý do giải thích cho hành động hoặc kết quả nào đó.",
+    "examples": [
+      "①幸せになれるかどうかなんて、自分の行動次第だ。",
+      "②明日の天気次第でどこにデートで行くかが決まる。",
+      "③今日は、君の本音を聞きたくて会いに来た次第だ。",
+      "④彼とは大学で知り合い、卒業後にプロポーズされて結婚した次第だ。"
+    ]
+  },
+  {
+    "id": "g_16_4",
+    "chapter": 16,
+    "chapter_title": "Chương 16",
+    "num": 4,
+    "code": "16.4",
+    "title": "16.4）～あげく",
+    "grammar": "～あげく",
+    "connection": "V た／N の   + あげく",
+    "meaning": "Kết cục thì…/ Cuối cùng thì…",
+    "explanation": "• Sau khi làm gì đó nhiều lần/ trong 1 thời gian dài thì cuối cùng là 1 kết quả đáng tiếc, không tốt\n• Hay đi với những cụm từ  nhấn mạnh vào việc đã mất thời gian: さんざん、いろいろ",
+    "examples": [
+      "①一生懸命走ったあげく、予定時刻に間に合うことができなかった。",
+      "②早朝から並んだあげく、売り切れで購入する事ができなかった。",
+      "③日々の重労働のあげく、上司は病気にかかり入院することとなった。"
+    ]
+  },
+  {
+    "id": "g_16_5",
+    "chapter": 16,
+    "chapter_title": "Chương 16",
+    "num": 5,
+    "code": "16.5",
+    "title": "16.5）～末",
+    "grammar": "～末",
+    "connection": "V た/N の    + 末",
+    "meaning": "に） (Cuối cùng thì…/ Kết quả là…",
+    "explanation": "• Sau khi đã rất.../ làm trong 1 thời gian dài...thì kết quả là/ cuối cùng thì...\n• Kết quả có thể tốt hoặc xấu đều được",
+    "examples": [
+      "①大げんかの末にその夫婦は離婚した。",
+      "②悩んだ末、その試験を受けると決めた。",
+      "③妻と話し合った末、妻の意見を尊重する事になった。"
+    ]
+  },
+  {
+    "id": "g_16_6",
+    "chapter": 16,
+    "chapter_title": "Chương 16",
+    "num": 6,
+    "code": "16.6",
+    "title": "16.6）～どころではない",
+    "grammar": "～どころではない",
+    "connection": "N + どころではない V る／V ている",
+    "meaning": "Không phải trong hoàn cảnh để có thể…/Không còn tâm trí để…",
+    "explanation": "• Phủ định 1 cách mạnh mẽ rằng đó không phải là thời điểm để người nói có thời gian/ tâm trí\nmà làm chuyện gì đó\n• Thường dùng trong văn nói\n• Cách nói khác: 「～してる場合じゃないね。」   「～どころじゃない」",
+    "examples": [
+      "①年末年始は 忙しいので、ゆっくりしているどころではない。",
+      "②昨日はお腹が痛くてサッカーを楽しむどころではなかった。",
+      "③こんなに宿題がたくさん出されてしまっては、夏休みどころではない。"
+    ]
+  },
+  {
+    "id": "g_16_7",
+    "chapter": 16,
+    "chapter_title": "Chương 16",
+    "num": 7,
+    "code": "16.7",
+    "title": "16.7）～おそれがある",
+    "grammar": "～おそれがある",
+    "connection": "Ｖる／Ｖない／Ｎの + おそれがある",
+    "meaning": "E rằng…/ Có khả năng…",
+    "explanation": "• Có khả năng, nguy cơ xảy ra chuyện gì đó không tốt\n• Là cách nói trang trọng thường gặp trên tin tức, thông báo, nhãn mác cảnh báo\n• Phủ định: ～恐れはありません",
+    "examples": [
+      "①今晩は大雨のおそれがある。",
+      "②準備を怠けると、失敗するおそれがあります。",
+      "③今すぐ入院しなければ、今後仕事を続けられないおそれがある。"
+    ]
+  },
+  {
+    "id": "g_17_1",
+    "chapter": 17,
+    "chapter_title": "Chương 17",
+    "num": 1,
+    "code": "17.1",
+    "title": "17.1）～てはじめて",
+    "grammar": "～てはじめて",
+    "connection": "V て    + はじめて",
+    "meaning": "Kể từ sau khi…thì mới…/ Chỉ sau khi…mới…",
+    "explanation": "• Kể từ sau khi làm 1 việc (mà trước đó chưa bao giờ làm) thì mới hiểu ra/ làm được 1 điều gì\nđó\n• Vế sau thường đi với những từ thể hiện nhận thức: わかる、知る、気が付く、理解する…",
+    "examples": [
+      "①この本を3 回読んではじめて、内容を理解する事ができた。",
+      "②失ってはじめて、彼女の大切さが 身に染みて分かった。",
+      "③会社員になってはじめてお金を稼ぐ大変さを学んだ。"
+    ]
+  },
+  {
+    "id": "g_17_2",
+    "chapter": 17,
+    "chapter_title": "Chương 17",
+    "num": 2,
+    "code": "17.2",
+    "title": "17.2）～きり",
+    "grammar": "～きり",
+    "connection": "V た + きり/っきり",
+    "meaning": "Kể từ sau khi…",
+    "explanation": "• Kể từ sau khi làm... thì liên tục duy trì 1 trạng thái nào đó đã được dự đoán trước nhưng lại\nkhông diễn ra\n• Vế sau thường ở thể phủ định",
+    "examples": [
+      "①父とは5 年前に会ったきり、 連絡を取っていない。",
+      "②その男性は山に登ったきり、帰ってこなかった。",
+      "③昨日は朝にご飯を食べたっきり、今日はまだ何も食べていない。"
+    ]
+  },
+  {
+    "id": "g_17_3",
+    "chapter": 17,
+    "chapter_title": "Chương 17",
+    "num": 3,
+    "code": "17.3",
+    "title": "17.3）～に先立って",
+    "grammar": "～に先立って",
+    "connection": "N／V る    + に先立って",
+    "meaning": "Trước khi…",
+    "explanation": "• Vế trước thường là những sự việc, hành động quan trọng mà cần đến sự chuẩn bị\n• Vế sau: làm sẵn, chuẩn bị sẵn cho sự việc đó",
+    "examples": [
+      "①転職に先立って、会社の上司に感謝の手紙を書いた。",
+      "②大学進学に先立って、弟は東京に引っ越しをした。",
+      "③会議に先立ち、資料を各席に用意する。"
+    ]
+  },
+  {
+    "id": "g_17_4",
+    "chapter": 17,
+    "chapter_title": "Chương 17",
+    "num": 4,
+    "code": "17.4",
+    "title": "17.4）～たところ",
+    "grammar": "～たところ",
+    "connection": "V た    + ところ",
+    "meaning": "Sau khi…",
+    "explanation": "• Sau khi làm ~ thì phát hiện/ hiểu ra 1 sự thật/ kết quả/ 1 thông tin mới nào đó\n• Vế sau luôn chia ở quá khứ, không đi với những câu thể hiện hành động có ý chí người nói\ntrong đó",
+    "examples": [
+      "①頭が 痛かったので、病院で 検査したところ、異常が見つかった。",
+      "②日本人に聞いたところ、私の発音は間違っていたようだ。",
+      "③セール中と聞いて急いでスーパーマーケットに行ったところ、もう全て売り切れて いた。"
+    ]
+  },
+  {
+    "id": "g_17_5",
+    "chapter": 17,
+    "chapter_title": "Chương 17",
+    "num": 5,
+    "code": "17.5",
+    "title": "17.5）～どころか",
+    "grammar": "～どころか",
+    "connection": "V(普)／A い(普） (Chẳng những/ lấy đâu ra… A(な)／である + どころか mà ngược lại/ thậm chí…) N/N である",
+    "meaning": "Chẳng những/ lấy đâu ra…",
+    "explanation": "• Nhấn mạnh vào thực tế hoàn toàn trái ngược với tưởng tượng, kì vọng\n• Câu nói thường có cảm xúc tiêu cực, than thở. Có thể nói bằng: どころではなく",
+    "examples": [
+      "①このゲームは子供どころか、大人まで夢中になってしまう。",
+      "②その商品は安いどころか高級すぎて買えなかった。",
+      "③彼の病状は  酷く、歩くどころか話す事もできない。"
+    ]
+  },
+  {
+    "id": "g_17_6",
+    "chapter": 17,
+    "chapter_title": "Chương 17",
+    "num": 6,
+    "code": "17.6",
+    "title": "17.6）～ようじゃ／～ようでは",
+    "grammar": "～ようじゃ／～ようでは",
+    "connection": "ようじゃ V る／V ない／V ている + ようでは",
+    "meaning": "Nếu…như thế này thì…",
+    "explanation": "• Nhấn mạnh ý: Nếu cứ duy trì trạng thái như thế này thì là không tốt\n• Là câu thường dùng để khuyên, nhắc nhở đối phương, dùng nhiều trong hội thoại hàng ngày",
+    "examples": [
+      "①自己管理ができないようでは、部下の管理も出来はしない。",
+      "②小さい事を気にしているようでは、おおらかな人にはなれない。",
+      "③すぐに諦めるようじゃ、合格なんて到底できない。"
+    ]
+  },
+  {
+    "id": "g_18_1",
+    "chapter": 18,
+    "chapter_title": "Chương 18",
+    "num": 1,
+    "code": "18.1",
+    "title": "18.1）～ながら",
+    "grammar": "～ながら",
+    "connection": "V ます/A い なA な/であり + ながら（も） Ｎ・Ｎであり",
+    "meaning": "Mặc dù…nhưng…",
+    "explanation": "• Vế sau thường là khác so với tưởng tượng/ thực tế. Lưu ý về những cụm cố định thường gặp",
+    "examples": [
+      "①彼は「僕に任せて」と言いながら、仕事では全く役に立たなかった。",
+      "②突然褒められ、うれしいながらも恥ずかしい気持ちです。",
+      "③彼は新人でありながら、態度が良くないので注意をする。"
+    ]
+  },
+  {
+    "id": "g_18_2",
+    "chapter": 18,
+    "chapter_title": "Chương 18",
+    "num": 2,
+    "code": "18.2",
+    "title": "18.2）～つつ",
+    "grammar": "～つつ",
+    "connection": "V ます + つつ",
+    "meaning": "Vừa…vừa…",
+    "explanation": "①V つつ、…＝V ながら、… : Vừa…vừa…\n• Vừa làm V1, vừa làm V2\n• V1 là hành động phụ, V2 là hành động chính\n• Giống ながら nhưng là cách nói văn viết hơn và chỉ đi với động từ\n②V つつ、…＝V ているが／けれども、… : Mặc dù\n• Mặc dù…nhưng…\n• Vế sau là những điều ngược lại, câu nói thường chứa cảm xúc hối hận, tự thú về những điều đã\nlàm\n• Thường đi với: 知りつつ、思いつつ、言いつつ、感じつつ\n• Có thể nói bằng V つつも",
+    "examples": [
+      "①煙草は健康に良くないと分かりつつ、禁煙する事ができない。",
+      "②彼らに話しかけようと思いつつ、いつも話しかけられない。",
+      "③進路は家族と相談しつつ、決めていくと担任の先生に話をした。",
+      "④子どもが生まれてから仕事をしつつ、家計を支える。",
+      "⑤効果を疑いつつも、購入したサプリメントを飲む。",
+      "⑥書類の提出期限が明日と分かりつつも、昼寝をしてしまった。"
+    ]
+  },
+  {
+    "id": "g_18_3",
+    "chapter": 18,
+    "chapter_title": "Chương 18",
+    "num": 3,
+    "code": "18.3",
+    "title": "18.3）～わりに(は)",
+    "grammar": "～わりに(は)",
+    "connection": "V 普/Aい + わりに(は) A な/Nの",
+    "meaning": "Mặc dù…／So với …thì…",
+    "explanation": "• So với (điều được đề cập đến ở vế trước), thì điều được nhắc đến ở vế sau thì thường ngược lại,\nkhông giống với những gì có thể tưởng tượng được trước.\n• Lưu ý sự giống và khác đối với にしては",
+    "examples": [
+      "①この仕事は大変なわりに給料が安いので、辞めようか悩んでいる。",
+      "②祖父は年齢のわりには、若い人の流行に詳しい。",
+      "③足を骨折したわりには、 まともに歩けている。"
+    ]
+  },
+  {
+    "id": "g_18_4",
+    "chapter": 18,
+    "chapter_title": "Chương 18",
+    "num": 4,
+    "code": "18.4",
+    "title": "18.4）～一方(で)",
+    "grammar": "～一方(で)",
+    "connection": "普通形 Aな/A なである + 一方(で) N の/Ｎである",
+    "meaning": "Ngược lại với…/ Một mặt thì…/ Mặt khác…",
+    "explanation": "• Diễn tả 2 mặt trái ngược nhau hoặc nhiều mặt, nhiều khía cạnh song song nhau của 1 chủ thể",
+    "examples": [
+      "①裕福に暮らせている一方、貧しい暮らしをしている人たちもいる。",
+      "②彼は音楽家である一方、画家としても活躍している。",
+      "③彼女は、日本語を教えている一方、 ベトナム語を勉強している。"
+    ]
+  },
+  {
+    "id": "g_18_5",
+    "chapter": 18,
+    "chapter_title": "Chương 18",
+    "num": 5,
+    "code": "18.5",
+    "title": "18.5）～一方だ／～ばかりだ",
+    "grammar": "～一方だ／～ばかりだ",
+    "connection": "一方だ V る  + ばかりだ",
+    "meaning": "Càng ngày càng…/ Có xu hướng…",
+    "explanation": "• Diễn tả sự thay đổi của 1 trạng thái theo 1 chiều hướng nào đó\n• 一方だdiễn tả cả trạng thái tốt + xấu\n• ばかりだdiễn tả cả trạng thái xấu, tiêu cực",
+    "examples": [
+      "①薬を飲み休んでいるが、病状は悪くなるばかりだ。",
+      "②高校生になってから、娘の成績は下がる一方だ。",
+      "③最近 甘いものばかり食べているので、体重が増える一方だ。"
+    ]
+  },
+  {
+    "id": "g_18_6",
+    "chapter": 18,
+    "chapter_title": "Chương 18",
+    "num": 6,
+    "code": "18.6",
+    "title": "18.6）～つつある",
+    "grammar": "～つつある",
+    "connection": "V ます + つつある",
+    "meaning": "Vừa mới… đã ngay lập tức…",
+    "explanation": "• Nhấn mạnh vào sự việc gì đó đang thay đổi, tiến triển theo 1 chiều hướng nào đó => đi với động\ntừ thay đổi\n• Không thường sử dụng trong hội thoại hàng ngày",
+    "examples": [
+      "①最初はやりたくなかったが、 最近はやる気がでつつある。",
+      "②環境により、人々の意識も変わりつつある。",
+      "③日本に観光に訪れる外国の方が、年々増えつつある。"
+    ]
+  },
+  {
+    "id": "g_19_1",
+    "chapter": 19,
+    "chapter_title": "Chương 19",
+    "num": 1,
+    "code": "19.1",
+    "title": "19.1）～ざるをえない",
+    "grammar": "～ざるをえない",
+    "connection": "（せざるを得ない） Ｖない + ざるをえない",
+    "meaning": "Buộc phải, đành phải ~",
+    "explanation": "• Vì có một sự tình, nguyên do nào đó mà đành phải, buộc phải làm mặc dù không muốn\n• Giống với ないわけにはいかない, nhưng cảm xúc không muốn làm mạnh hơn",
+    "examples": [
+      "①急な用事が入ったため、夜の飲み会は断らざるをえない。",
+      "②性格に難があるとしても、仕事ができるので彼の実力を認めざるをえない。",
+      "③明日は、大事な試験なので、徹夜してでも勉強せざるをえない。"
+    ]
+  },
+  {
+    "id": "g_19_2",
+    "chapter": 19,
+    "chapter_title": "Chương 19",
+    "num": 2,
+    "code": "19.2",
+    "title": "19.2）～わけにはいかない",
+    "grammar": "～わけにはいかない",
+    "connection": "V る／V ない + わけにはいかない",
+    "meaning": "Không thể nào mà lại …/ Buộc phải…",
+    "explanation": "• Vì có một lí do, sự tình/ xuất phát từ quan niệm, suy nghĩ, tiêu chuẩn xã hội ⇒ mà không thể/\nbuộc phải làm gì đó\n• Không dùng với lí do năng lực cá nhân",
+    "examples": [
+      "①祖父からの大事な形見なので、誰にも譲るわけにはいかない。",
+      "②今日はバイクで出勤したので、帰りにお酒を飲むわけにはいかない。",
+      "③テストが控えているから、勉強をしないわけにはいかない。"
+    ]
+  },
+  {
+    "id": "g_19_3",
+    "chapter": 19,
+    "chapter_title": "Chương 19",
+    "num": 3,
+    "code": "19.3",
+    "title": "19.3）～（より）ほかない",
+    "grammar": "～（より）ほかない",
+    "connection": "Ｖる    ＋ よりほかない",
+    "meaning": "Chỉ còn cách...",
+    "explanation": "• Diễn tả ý nghĩa trong một tình huống khó khăn, không có cách giải quyết ngoài cách làm như\nthế.\n• Cũng có cách nói khác là～よりほかにない、～よりほかはない",
+    "examples": [
+      "① 留学中は一人暮らしだから、家のことは何でも自分でやるほかない。",
+      "② 買い物のしすぎでお金が無くなってしまった。友達の助けを借りるほかない。",
+      "③ 試験に合格したいなら死ぬ気で勉強するよりほかないよ。"
+    ]
+  },
+  {
+    "id": "g_19_4",
+    "chapter": 19,
+    "chapter_title": "Chương 19",
+    "num": 4,
+    "code": "19.4",
+    "title": "19.4）～ようではないか",
+    "grammar": "～ようではないか",
+    "connection": "Ｖ意向形      ＋       ではないか chúng ta hãy...",
+    "meaning": "Kêu gọi",
+    "explanation": "• Biểu thị mạnh mẽ ý chí của người nói, hoặc để hô hào, kêu gọi người nghe cùng thực hiện hành\nđộng nào đó.",
+    "examples": [
+      "① 今のままでは何も決まらない。一度じっくり話し合ってみようではないか。",
+      "② 我々はもう仲間なのだ、一緒に乾杯しようではないか。",
+      "③ さあみんな、あの政治家に投票して社会を変えようではないか。"
+    ]
+  },
+  {
+    "id": "g_19_5",
+    "chapter": 19,
+    "chapter_title": "Chương 19",
+    "num": 5,
+    "code": "19.5",
+    "title": "19.5）～にほかならない",
+    "grammar": "～にほかならない",
+    "connection": "Ｎ + にほかならない",
+    "meaning": "Chắc chắn là…/ Chỉ có thể là…/ Không gì khác ngoài…",
+    "explanation": "• Đưa ra kết luận, khẳng định mạnh mẽ chắc chắn là như vậy",
+    "examples": [
+      "①決めたことを投げ出すなんて、無責任にほかならない。",
+      "②JLPT に合格できたのは、彼の努力の成果にほかならない。",
+      "③せっかくの結婚式が延期になったのは不運にほかならない。"
+    ]
+  },
+  {
+    "id": "g_19_6",
+    "chapter": 19,
+    "chapter_title": "Chương 19",
+    "num": 6,
+    "code": "19.6",
+    "title": "19.6）～てはいられない",
+    "grammar": "～てはいられない",
+    "connection": "Ｖて + はいられない",
+    "meaning": "Không thể nào mà… thêm nữa",
+    "explanation": "• Vì có một sự tình, nguyên do nào đó nên không thể nào mà như thế này thêm nữa vì như thế\nlà không được.\n• Văn nói: ちゃいられない",
+    "examples": [
+      "①試験も近いので、遊んではいられません。",
+      "②人々が苦しむ姿を見てはいられません。",
+      "③まだ子どもだからって、いつまでも親に頼ってはいられません。"
+    ]
+  }
+]

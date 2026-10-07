@@ -27,4 +27,6 @@ __pycache__/
 Thumbs.db
 
 # Temporary outputs
-scratch/__pycache__/
+scratch/
+extract_grammar.py
+plc.html

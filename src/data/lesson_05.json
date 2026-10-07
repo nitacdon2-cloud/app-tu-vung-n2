@@ -7,7 +7,7 @@
       "id": 533,
       "word": "感覚",
       "reading": "かんかく",
-      "han_viet": "CẢM",
+      "han_viet": "CẢM GIÁC",
       "word_type": "Danh từ",
       "meaning": "Cảm giác",
       "examples": [
@@ -112,7 +112,7 @@
       "id": 539,
       "word": "役者",
       "reading": "やくしゃ",
-      "han_viet": "DỊCH",
+      "han_viet": "DỊCH GIẢ",
       "word_type": "Danh từ",
       "meaning": "Diễn viên",
       "examples": [
@@ -147,7 +147,7 @@
       "id": 541,
       "word": "神経",
       "reading": "しんけい",
-      "han_viet": "THẦN",
+      "han_viet": "THẦN KINH",
       "word_type": "Danh từ",
       "meaning": "Thần kinh",
       "examples": [
@@ -162,7 +162,7 @@
       "id": 542,
       "word": "魅力",
       "reading": "みりょく",
-      "han_viet": "LỰC",
+      "han_viet": "MỊ LỰC",
       "word_type": "Danh từ",
       "meaning": "Sức lôi cuốn, thu hút",
       "examples": [
@@ -197,7 +197,7 @@
       "id": 544,
       "word": "様子",
       "reading": "ようす",
-      "han_viet": "TÍ",
+      "han_viet": "DẠNG TỬ",
       "word_type": "Danh từ",
       "meaning": "Trạng thái, tình trạng, tình hình",
       "examples": [
@@ -232,7 +232,7 @@
       "id": 546,
       "word": "従来",
       "reading": "じゅうらい",
-      "han_viet": "",
+      "han_viet": "TÙNG LAI",
       "word_type": "Danh từ",
       "meaning": "Từ trước đến giờ",
       "examples": [
@@ -312,7 +312,7 @@
       "id": 550,
       "word": "恰好",
       "reading": "かっこう",
-      "han_viet": "HẢO",
+      "han_viet": "KHÁP HẢO",
       "word_type": "Danh từ",
       "meaning": "Vẻ bề ngoài, phù hợp",
       "examples": [
@@ -347,7 +347,7 @@
       "id": 552,
       "word": "情緒",
       "reading": "じょうちょ",
-      "han_viet": "TÌNH",
+      "han_viet": "TÌNH TỰ",
       "word_type": "Danh từ",
       "meaning": "Cảm xúc, bầu không khí, tâm trạng, tinh thần",
       "examples": [
@@ -577,7 +577,7 @@
       "id": 567,
       "word": "水準",
       "reading": "すいじゅん",
-      "han_viet": "THUỶ CHUẨN",
+      "han_viet": "THỦY CHUẨN",
       "word_type": "Danh từ",
       "meaning": "Tiêu chuẩn, mức",
       "examples": [
@@ -592,7 +592,7 @@
       "id": 568,
       "word": "滝",
       "reading": "たき",
-      "han_viet": "SÔNG",
+      "han_viet": "LANG",
       "word_type": "Danh từ",
       "meaning": "Thác nước",
       "examples": [
@@ -657,7 +657,7 @@
       "id": 572,
       "word": "海辺",
       "reading": "うみべ",
-      "han_viet": "HẢI",
+      "han_viet": "HẢI BIÊN",
       "word_type": "Danh từ",
       "meaning": "Bờ biển",
       "examples": [
@@ -797,7 +797,7 @@
       "id": 581,
       "word": "直後",
       "reading": "ちょくご",
-      "han_viet": "HẬU",
+      "han_viet": "TRỰC HẬU",
       "word_type": "Danh từ",
       "meaning": "Ngay sau",
       "examples": [
@@ -812,7 +812,7 @@
       "id": 582,
       "word": "直線",
       "reading": "ちょくせん",
-      "han_viet": "",
+      "han_viet": "TRỰC TUYẾN",
       "word_type": "Danh từ",
       "meaning": "Đường thẳng",
       "examples": [
@@ -827,7 +827,7 @@
       "id": 583,
       "word": "瞬間",
       "reading": "しゅんかん",
-      "han_viet": "GIAN",
+      "han_viet": "THUẤN GIAN",
       "word_type": "Danh từ",
       "meaning": "Khoảnh khắc, phút chốc",
       "examples": [
@@ -842,7 +842,7 @@
       "id": 584,
       "word": "知恵",
       "reading": "ちえ",
-      "han_viet": "TRI",
+      "han_viet": "TRI HUỆ",
       "word_type": "Danh từ",
       "meaning": "Trí tuệ, khôn ngoan, thông thái",
       "examples": [
@@ -857,7 +857,7 @@
       "id": 585,
       "word": "実物",
       "reading": "じつぶつ",
-      "han_viet": "VẬT",
+      "han_viet": "THỰC VẬT",
       "word_type": "Danh từ",
       "meaning": "Thực chất, nguyên bản, đồ ngoài đời",
       "examples": [
@@ -872,7 +872,7 @@
       "id": 586,
       "word": "現実",
       "reading": "げんじつ",
-      "han_viet": "HIỆN",
+      "han_viet": "HIỆN THỰC",
       "word_type": "Danh từ",
       "meaning": "Hiện thực, thực tế",
       "examples": [
@@ -887,7 +887,7 @@
       "id": 587,
       "word": "権利",
       "reading": "けんり",
-      "han_viet": "LỢI",
+      "han_viet": "QUYỀN LỢI",
       "word_type": "Danh từ",
       "meaning": "Quyền lợi",
       "examples": [
@@ -1087,7 +1087,7 @@
       "id": 600,
       "word": "候補",
       "reading": "こうほ",
-      "han_viet": "HẦU BỔ",
+      "han_viet": "HẬU BỔ",
       "word_type": "Danh từ",
       "meaning": "Ứng cử, ứng cử viên",
       "examples": [
@@ -1132,7 +1132,7 @@
       "id": 603,
       "word": "砂漠",
       "reading": "さばく",
-      "han_viet": "MẠC",
+      "han_viet": "SA MẠC",
       "word_type": "Danh từ",
       "meaning": "Sa mạc",
       "examples": [
@@ -1192,7 +1192,7 @@
       "id": 607,
       "word": "空席",
       "reading": "くうせき",
-      "han_viet": "KHÔNG",
+      "han_viet": "KHÔNG TỊCH",
       "word_type": "Danh từ",
       "meaning": "Ghế trống, chỗ còn trống",
       "examples": [
@@ -1222,7 +1222,7 @@
       "id": 609,
       "word": "天候",
       "reading": "てんこう",
-      "han_viet": "THIÊN HẦU",
+      "han_viet": "THIÊN HẬU",
       "word_type": "Danh từ",
       "meaning": "Thời tiết",
       "examples": [
@@ -1252,7 +1252,7 @@
       "id": 611,
       "word": "雰囲気",
       "reading": "ふんいき",
-      "han_viet": "VI KHÍ",
+      "han_viet": "PHÂN VI KHÍ",
       "word_type": "Danh từ",
       "meaning": "Bầu không khí, phong thái",
       "examples": [
@@ -1272,7 +1272,7 @@
       "id": 612,
       "word": "箇所",
       "reading": "かしょ",
-      "han_viet": "CÁ SỠ",
+      "han_viet": "CÁ SỞ",
       "word_type": "Danh từ",
       "meaning": "Chỗ; nơi; địa điểm; điểm",
       "examples": [
@@ -1387,7 +1387,7 @@
       "id": 619,
       "word": "素材",
       "reading": "そざい",
-      "han_viet": "TỐ",
+      "han_viet": "TỐ TÀI",
       "word_type": "Danh từ",
       "meaning": "Nguyên liệu, vật chất",
       "examples": [
@@ -1412,7 +1412,7 @@
       "id": 620,
       "word": "細菌",
       "reading": "さいきん",
-      "han_viet": "TỚI",
+      "han_viet": "TẾ KHUẨN",
       "word_type": "Danh từ",
       "meaning": "Vi khuẩn",
       "examples": [
@@ -1427,7 +1427,7 @@
       "id": 621,
       "word": "建築",
       "reading": "けんちく",
-      "han_viet": "KIẾN TRỐC",
+      "han_viet": "KIẾN TRÚC",
       "word_type": "Danh từ",
       "meaning": "Kiến thiết, xây dựng",
       "examples": [
@@ -1447,7 +1447,7 @@
       "id": 622,
       "word": "署名",
       "reading": "しょめい",
-      "han_viet": "THỢ DANH",
+      "han_viet": "THỰ DANH",
       "word_type": "Danh từ",
       "meaning": "Kí tên, chữ ký",
       "examples": [
@@ -1462,7 +1462,7 @@
       "id": 623,
       "word": "設備",
       "reading": "せつび",
-      "han_viet": "THẾT BỊ",
+      "han_viet": "THIẾT BỊ",
       "word_type": "Danh từ",
       "meaning": "Trang thiết bị",
       "examples": [
@@ -1527,7 +1527,7 @@
       "id": 627,
       "word": "著者",
       "reading": "ちょしゃ",
-      "han_viet": "TRỨ",
+      "han_viet": "TRỨ GIẢ",
       "word_type": "Danh từ",
       "meaning": "Tác giả",
       "examples": [
@@ -1562,7 +1562,7 @@
       "id": 629,
       "word": "血圧",
       "reading": "けつあつ",
-      "han_viet": "HUYẾT",
+      "han_viet": "HUYẾT ÁP",
       "word_type": "Danh từ",
       "meaning": "Huyết áp",
       "examples": [
@@ -1592,7 +1592,7 @@
       "id": 631,
       "word": "行為",
       "reading": "こうい",
-      "han_viet": "HÀNH",
+      "han_viet": "HÀNH VI",
       "word_type": "Danh từ",
       "meaning": "Hành vi, hành động",
       "examples": [
@@ -1642,7 +1642,7 @@
       "id": 634,
       "word": "見当",
       "reading": "けんとう",
-      "han_viet": "KIẾN",
+      "han_viet": "KIẾN ĐƯƠNG",
       "word_type": "Danh từ",
       "meaning": "Ước tính, dự tính",
       "examples": [
@@ -1672,7 +1672,7 @@
       "id": 636,
       "word": "役割",
       "reading": "やくわり",
-      "han_viet": "DỊCH CẮT",
+      "han_viet": "DỊCH CÁT",
       "word_type": "Danh từ",
       "meaning": "Vai trò",
       "examples": [
@@ -1717,7 +1717,7 @@
       "id": 639,
       "word": "観客",
       "reading": "かんきゃく",
-      "han_viet": "KHÁCH",
+      "han_viet": "QUAN KHÁCH",
       "word_type": "Danh từ",
       "meaning": "Khán giả",
       "examples": [
@@ -1747,7 +1747,7 @@
       "id": 641,
       "word": "誤解",
       "reading": "ごかい",
-      "han_viet": "GIẢI",
+      "han_viet": "NGỘ GIẢI",
       "word_type": "Danh từ",
       "meaning": "Hiểu lầm",
       "examples": [
@@ -1812,7 +1812,7 @@
       "id": 645,
       "word": "賃貸",
       "reading": "ちんたい",
-      "han_viet": "NHẪM",
+      "han_viet": "NHẪM THẢI",
       "word_type": "Danh từ",
       "meaning": "Cho thuê",
       "examples": [
@@ -1827,7 +1827,7 @@
       "id": 646,
       "word": "疑問",
       "reading": "ぎもん",
-      "han_viet": "",
+      "han_viet": "NGHI VẤN",
       "word_type": "Danh từ",
       "meaning": "Nghi vấn, thắc mắc",
       "examples": [
@@ -1842,7 +1842,7 @@
       "id": 647,
       "word": "資本",
       "reading": "しほん",
-      "han_viet": "BẢN",
+      "han_viet": "TƯ BẢN",
       "word_type": "Danh từ",
       "meaning": "Tiền vốn; vốn",
       "examples": [
@@ -1857,7 +1857,7 @@
       "id": 648,
       "word": "近郊",
       "reading": "きんこう",
-      "han_viet": "CẬN",
+      "han_viet": "CẬN GIAO",
       "word_type": "Danh từ",
       "meaning": "Ngoại ô, Vùng lân cận",
       "examples": [
@@ -1952,7 +1952,7 @@
       "id": 654,
       "word": "参考",
       "reading": "さんこう",
-      "han_viet": "KHẢO",
+      "han_viet": "THAM KHẢO",
       "word_type": "Danh từ",
       "meaning": "Tham khảo",
       "examples": [
@@ -1997,7 +1997,7 @@
       "id": 657,
       "word": "騒音",
       "reading": "そうおん",
-      "han_viet": "ÂM",
+      "han_viet": "TAO ÂM",
       "word_type": "Danh từ",
       "meaning": "Tiếng ồn",
       "examples": [
@@ -2142,7 +2142,7 @@
       "id": 665,
       "word": "手数料",
       "reading": "てすうりょう",
-      "han_viet": "THỦ LIỆU",
+      "han_viet": "THỦ SỐ LIỆU",
       "word_type": "Danh từ",
       "meaning": "Phí sử dụng dịch vụ",
       "examples": [

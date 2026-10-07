@@ -202,7 +202,7 @@
       "id": 946,
       "word": "何となく",
       "reading": "なんとなく",
-      "han_viet": "",
+      "han_viet": "HÀ",
       "word_type": "Phó từ",
       "meaning": "Không có mục đích, không hiểu sao",
       "examples": [
@@ -217,7 +217,7 @@
       "id": 947,
       "word": "何だか",
       "reading": "なんだか",
-      "han_viet": "",
+      "han_viet": "HÀ",
       "word_type": "Phó từ",
       "meaning": "Chả hiểu sao",
       "examples": [
@@ -232,7 +232,7 @@
       "id": 948,
       "word": "何とか",
       "reading": "なんとか",
-      "han_viet": "",
+      "han_viet": "HÀ",
       "word_type": "Phó từ",
       "meaning": "Điều gì đó, bằng cách nào đó",
       "examples": [
@@ -247,7 +247,7 @@
       "id": 949,
       "word": "何とも",
       "reading": "なんとも",
-      "han_viet": "",
+      "han_viet": "HÀ",
       "word_type": "Phó từ",
       "meaning": "Không… một chút nào",
       "examples": [
@@ -607,7 +607,7 @@
       "id": 970,
       "word": "実に",
       "reading": "じつに",
-      "han_viet": "",
+      "han_viet": "THỰC",
       "word_type": "Phó từ",
       "meaning": "Thực sự là, vô cùng, quả thực...",
       "examples": [
@@ -652,7 +652,7 @@
       "id": 973,
       "word": "案の定",
       "reading": "あんのじょう",
-      "han_viet": "AN ÁN YÊN ĐỊNH",
+      "han_viet": "ÁN ĐỊNH",
       "word_type": "Phó từ",
       "meaning": "Đúng như dự đoán, quả nhiên",
       "examples": [
@@ -737,7 +737,7 @@
       "id": 978,
       "word": "続々",
       "reading": "ぞくぞく",
-      "han_viet": "",
+      "han_viet": "TỤC TỤC",
       "word_type": "Phó từ",
       "meaning": "Hết cái này đến cái kia, người này đến người khác",
       "examples": [
@@ -782,7 +782,7 @@
       "id": 981,
       "word": "一斉に",
       "reading": "いっせいに",
-      "han_viet": "NHẤT",
+      "han_viet": "NHẤT TỀ",
       "word_type": "Phó từ",
       "meaning": "Cùng lúc, đồng loạt",
       "examples": [
@@ -982,7 +982,7 @@
       "id": 994,
       "word": "万一・万が一",
       "reading": "まんいち・まんがいち",
-      "han_viet": "VẠN NHẤT VẠN NHẤT",
+      "han_viet": "VẠN NHẤT",
       "word_type": "Phó từ",
       "meaning": "Nhỡ đâu, trường hợp xấu",
       "examples": [
@@ -1027,7 +1027,7 @@
       "id": 997,
       "word": "単に",
       "reading": "たんに",
-      "han_viet": "",
+      "han_viet": "ĐƠN",
       "word_type": "Phó từ",
       "meaning": "Chỉ, đơn giản",
       "examples": [
@@ -1107,7 +1107,7 @@
       "id": 1002,
       "word": "所々",
       "reading": "ところどころ",
-      "han_viet": "SỠ",
+      "han_viet": "SỞ SỞ",
       "word_type": "Phó từ",
       "meaning": "Đây đó",
       "examples": [
@@ -1197,7 +1197,7 @@
       "id": 1008,
       "word": "元々",
       "reading": "もともと",
-      "han_viet": "NGUYÊN",
+      "han_viet": "NGUYÊN NGUYÊN",
       "word_type": "Phó từ",
       "meaning": "Ban đầu, vốn dĩ",
       "examples": [
@@ -1212,7 +1212,7 @@
       "id": 1009,
       "word": "本来",
       "reading": "ほんらい",
-      "han_viet": "BẢN",
+      "han_viet": "BẢN LAI",
       "word_type": "Phó từ",
       "meaning": "Từ đầu, nguyên bản, vốn dĩ",
       "examples": [
@@ -1257,7 +1257,7 @@
       "id": 1012,
       "word": "実際",
       "reading": "じっさい",
-      "han_viet": "",
+      "han_viet": "THỰC TẾ",
       "word_type": "Phó từ",
       "meaning": "Thực tế, thực sự",
       "examples": [
@@ -1272,7 +1272,7 @@
       "id": 1013,
       "word": "同様",
       "reading": "どうよう",
-      "han_viet": "ĐỒNG",
+      "han_viet": "ĐỒNG DẠNG",
       "word_type": "Phó từ",
       "meaning": "Giống như",
       "examples": [
@@ -1287,7 +1287,7 @@
       "id": 1014,
       "word": "聞き出す",
       "reading": "ききだす",
-      "han_viet": "XUẤT",
+      "han_viet": "VĂN XUẤT",
       "word_type": "Động từ",
       "meaning": "Chất vấn, hỏi",
       "examples": [
@@ -1482,7 +1482,7 @@
       "id": 1024,
       "word": "貸し出す",
       "reading": "かしだす",
-      "han_viet": "XUẤT",
+      "han_viet": "THẢI XUẤT",
       "word_type": "Động từ",
       "meaning": "Cho mượn",
       "examples": [
@@ -1567,7 +1567,7 @@
       "id": 1028,
       "word": "駆け込む",
       "reading": "かけこむ",
-      "han_viet": "NHẬP",
+      "han_viet": "KHU NHẬP",
       "word_type": "Động từ",
       "meaning": "Chạy lao vào",
       "examples": [
@@ -1647,7 +1647,7 @@
       "id": 1032,
       "word": "巻き込む",
       "reading": "まきこむ",
-      "han_viet": "NHẬP",
+      "han_viet": "QUYỂN NHẬP",
       "word_type": "Động từ",
       "meaning": "Cuộn vào, Dính líu",
       "examples": [
@@ -1687,7 +1687,7 @@
       "id": 1034,
       "word": "座り込む",
       "reading": "すわりこむ",
-      "han_viet": "TOÀ NHẬP",
+      "han_viet": "TỌA NHẬP",
       "word_type": "Động từ",
       "meaning": "Ngồi bệt xuống",
       "examples": [
@@ -1707,7 +1707,7 @@
       "id": 1035,
       "word": "寝込む",
       "reading": "ねこむ",
-      "han_viet": "NHẬP",
+      "han_viet": "TẨM NHẬP",
       "word_type": "Động từ",
       "meaning": "Ngủ say, ngủ bì, nằm liệt giường",
       "examples": [
@@ -1762,7 +1762,7 @@
       "id": 1038,
       "word": "割り込む",
       "reading": "わりこむ",
-      "han_viet": "CẮT NHẬP",
+      "han_viet": "CÁT NHẬP",
       "word_type": "Động từ",
       "meaning": "Chen vào; ; xen ngang",
       "examples": [
@@ -1802,7 +1802,7 @@
       "id": 1040,
       "word": "染み込む",
       "reading": "しみこむ",
-      "han_viet": "NHUỘM NHẬP",
+      "han_viet": "NHIỄM NHẬP",
       "word_type": "Động từ",
       "meaning": "Thấm, ngấm",
       "examples": [
@@ -1937,7 +1937,7 @@
       "id": 1047,
       "word": "黙り込む",
       "reading": "だまりこむ",
-      "han_viet": "NHẬP",
+      "han_viet": "MẶC NHẬP",
       "word_type": "Động từ",
       "meaning": "Giữ im lặng",
       "examples": [
@@ -1982,7 +1982,7 @@
       "id": 1049,
       "word": "煮込む",
       "reading": "にこむ",
-      "han_viet": "NHẬP",
+      "han_viet": "CHỬ NHẬP",
       "word_type": "Động từ",
       "meaning": "Nấu; ninh",
       "examples": [
@@ -2002,7 +2002,7 @@
       "id": 1050,
       "word": "売り込む",
       "reading": "うりこむ",
-      "han_viet": "NHẬP",
+      "han_viet": "MẠI NHẬP",
       "word_type": "Động từ",
       "meaning": "Tiếp thị, mời",
       "examples": [
@@ -2017,7 +2017,7 @@
       "id": 1051,
       "word": "頼み込む",
       "reading": "たのみこむ",
-      "han_viet": "NHẬP",
+      "han_viet": "LẠI NHẬP",
       "word_type": "Động từ",
       "meaning": "Nhờ vả; khẩn khoản xin",
       "examples": [
@@ -2112,7 +2112,7 @@
       "id": 1056,
       "word": "出来上がる",
       "reading": "できあがる",
-      "han_viet": "XUẤT THƯỢNG",
+      "han_viet": "XUẤT LAI THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Được hoàn thành; làm xong",
       "examples": [
@@ -2152,7 +2152,7 @@
       "id": 1058,
       "word": "縮み上がる",
       "reading": "ちぢみあがる",
-      "han_viet": "THƯỢNG",
+      "han_viet": "SÚC THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Co rúm lại",
       "examples": [
@@ -2247,7 +2247,7 @@
       "id": 1063,
       "word": "晴れ上がる",
       "reading": "はれあがる",
-      "han_viet": "TẠNH THƯỢNG",
+      "han_viet": "TÌNH THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Sáng sủa lên, nắng lên",
       "examples": [
@@ -2262,7 +2262,7 @@
       "id": 1064,
       "word": "震え上がる",
       "reading": "ふるえあがる",
-      "han_viet": "THƯỢNG",
+      "han_viet": "CHẤN THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Run lên cầm cập; run bắn",
       "examples": [
@@ -2282,7 +2282,7 @@
       "id": 1065,
       "word": "燃え上がる",
       "reading": "もえあがる",
-      "han_viet": "NHEN THƯỢNG",
+      "han_viet": "NHIÊN THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Bốc cháy",
       "examples": [

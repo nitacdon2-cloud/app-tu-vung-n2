@@ -147,52 +147,79 @@ export const TestSetupScreen: React.FC = () => {
             <span>Chọn chế độ làm bài</span>
           </h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {/* Mode 1: Ghép Thẻ */}
             <button
               onClick={() => setTestConfig({ ...testConfig, testType: 'ghep_tu' })}
-              className={`p-4 rounded-2xl border-2 text-left transition flex items-center gap-3.5 ${
+              className={`p-3.5 rounded-2xl border-2 text-left transition flex items-center gap-3 ${
                 testConfig.testType === 'ghep_tu'
                   ? 'bg-purple-50 border-purple-500 text-purple-900 shadow-sm font-bold'
                   : 'bg-white border-gray-200 text-gray-700 hover:bg-gray-50'
               }`}
             >
               <div
-                className={`w-11 h-11 rounded-xl flex items-center justify-center ${
+                className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${
                   testConfig.testType === 'ghep_tu'
                     ? 'bg-purple-600 text-white'
                     : 'bg-gray-100 text-gray-500'
                 }`}
               >
-                <Grid className="w-6 h-6" />
+                <Grid className="w-5 h-5" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <h4 className="font-bold text-sm">Ghép Thẻ</h4>
-                <p className="text-xs text-gray-500 mt-0.5">Nối thẻ từ Nhật & Nghĩa Việt</p>
+                <p className="text-[11px] text-gray-500 mt-0.5 truncate">Nối cặp từ Nhật - Việt</p>
               </div>
             </button>
 
-            {/* Mode 2: Chọn Đáp Án Đúng */}
+            {/* Mode 2: Chọn Đáp Án Đúng (Từ vựng) */}
             <button
               onClick={() => setTestConfig({ ...testConfig, testType: 'trac_nghiem' })}
-              className={`p-4 rounded-2xl border-2 text-left transition flex items-center gap-3.5 ${
+              className={`p-3.5 rounded-2xl border-2 text-left transition flex items-center gap-3 ${
                 testConfig.testType === 'trac_nghiem'
                   ? 'bg-blue-50 border-primary text-primary shadow-sm font-bold'
                   : 'bg-white border-gray-200 text-gray-700 hover:bg-gray-50'
               }`}
             >
               <div
-                className={`w-11 h-11 rounded-xl flex items-center justify-center ${
+                className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${
                   testConfig.testType === 'trac_nghiem'
                     ? 'bg-primary text-white'
                     : 'bg-gray-100 text-gray-500'
                 }`}
               >
-                <CheckCircle2 className="w-6 h-6" />
+                <CheckCircle2 className="w-5 h-5" />
               </div>
-              <div>
-                <h4 className="font-bold text-sm">Chọn Đáp Án Đúng</h4>
-                <p className="text-xs text-gray-500 mt-0.5">Trắc nghiệm 4 lựa chọn</p>
+              <div className="min-w-0">
+                <h4 className="font-bold text-sm">Từ & Nghĩa</h4>
+                <p className="text-[11px] text-gray-500 mt-0.5 truncate">Trắc nghiệm 4 lựa chọn</p>
+              </div>
+            </button>
+
+            {/* Mode 3: Test Qua Ví Dụ (NEW) */}
+            <button
+              onClick={() => setTestConfig({ ...testConfig, testType: 'vi_du' })}
+              className={`p-3.5 rounded-2xl border-2 text-left transition flex items-center gap-3 ${
+                testConfig.testType === 'vi_du'
+                  ? 'bg-emerald-50 border-emerald-500 text-emerald-900 shadow-sm font-bold'
+                  : 'bg-white border-gray-200 text-gray-700 hover:bg-gray-50'
+              }`}
+            >
+              <div
+                className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${
+                  testConfig.testType === 'vi_du'
+                    ? 'bg-emerald-600 text-white'
+                    : 'bg-gray-100 text-gray-500'
+                }`}
+              >
+                <BookOpen className="w-5 h-5" />
+              </div>
+              <div className="min-w-0">
+                <div className="flex items-center gap-1">
+                  <h4 className="font-bold text-sm">Test Ví Dụ</h4>
+                  <span className="px-1.5 py-0.2 bg-emerald-100 text-emerald-800 text-[9px] font-black rounded uppercase">Mới</span>
+                </div>
+                <p className="text-[11px] text-gray-500 mt-0.5 truncate">Điền từ vào câu ví dụ</p>
               </div>
             </button>
           </div>

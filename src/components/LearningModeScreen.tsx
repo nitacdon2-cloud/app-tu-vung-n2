@@ -5,12 +5,14 @@ import { Volume2, Trophy, RotateCcw, CheckCircle2, Star, BookOpen, Play, X, User
 import { speakJapanese, playFeedbackSound } from '../services/audioService';
 import { recordTestAnswer, getWordState, saveProgress } from '../services/storageService';
 
-export type QuestionType = 'kanji_to_meaning' | 'meaning_to_word' | 'audio_to_meaning';
+export type QuestionType = 'kanji_to_meaning' | 'meaning_to_word' | 'fill_in_blank';
 
 export interface LearningQuestion {
   word: Word;
   lessonId: string;
   qType: QuestionType;
+  questionText?: string;
+  questionSubText?: string;
   options: Word[];
 }
 
@@ -68,7 +70,7 @@ export const LearningModeScreen: React.FC = () => {
     // Shuffle question pool
     const shuffledPool = [...scopedPool].sort(() => 0.5 - Math.random());
 
-    const qTypes: QuestionType[] = ['kanji_to_meaning', 'meaning_to_word', 'audio_to_meaning'];
+    const qTypes: QuestionType[] = ['kanji_to_meaning', 'meaning_to_word', 'fill_in_blank'];
 
     // Generate questions with 3 randomized question formats
     const generated: LearningQuestion[] = shuffledPool.map((item, idx) => {
@@ -84,12 +86,31 @@ export const LearningModeScreen: React.FC = () => {
         .slice(0, 3);
 
       const options = [correctWord, ...chosenDistractors].sort(() => 0.5 - Math.random());
-      const randomQType = qTypes[idx % qTypes.length];
+      let randomQType = qTypes[idx % qTypes.length];
+      
+      const validExamples = correctWord.examples?.filter(ex => ex.ja.includes(correctWord.word) || ex.ja.includes(correctWord.reading)) || [];
+      if (randomQType === 'fill_in_blank' && validExamples.length === 0) {
+        randomQType = 'kanji_to_meaning';
+      }
+
+      let qText = '';
+      let qSubText = '';
+      if (randomQType === 'fill_in_blank') {
+        const example = validExamples[Math.floor(Math.random() * validExamples.length)];
+        if (example.ja.includes(correctWord.word)) {
+          qText = example.ja.replace(new RegExp(correctWord.word, 'g'), '（　　　）');
+        } else {
+          qText = example.ja.replace(new RegExp(correctWord.reading, 'g'), '（　　　）');
+        }
+        qSubText = example.vi;
+      }
 
       return {
         word: correctWord,
         lessonId: item.lessonId,
         qType: randomQType,
+        questionText: qText,
+        questionSubText: qSubText,
         options,
       };
     });
@@ -107,7 +128,7 @@ export const LearningModeScreen: React.FC = () => {
 
   useEffect(() => {
     if (isQuizStarted && currentQ && currentQ.word) {
-      if (currentQ.qType === 'audio_to_meaning' || currentQ.qType === 'kanji_to_meaning') {
+      if (currentQ.qType === 'kanji_to_meaning') {
         speakJapanese(currentQ.word.word);
       }
     }
@@ -172,7 +193,7 @@ export const LearningModeScreen: React.FC = () => {
               <span>Chế Độ Học Từ Vựng</span>
             </h2>
             <p className="text-blue-100 text-sm max-w-md mx-auto">
-              Tích hợp đa dạng câu hỏi (Từ ➔ Nghĩa, Nghĩa ➔ Từ, Nghe ➔ Nghĩa). Trả lời đúng tự động tích <strong>Đã Thuộc</strong>!
+              Tích hợp đa dạng câu hỏi (Từ ➔ Nghĩa, Nghĩa ➔ Từ, Điền từ vào câu). Trả lời đúng tự động tích <strong>Đã Thuộc</strong>!
             </p>
           </div>
         </div>
@@ -339,17 +360,17 @@ export const LearningModeScreen: React.FC = () => {
           {currentQ.word.word_type || 'Từ vựng'}
         </div>
 
-        {currentQ.qType === 'audio_to_meaning' ? (
-          /* AUDIO ONLY QUESTION TYPE (Ảnh 2 & Ảnh 3) */
-          <div className="py-4 space-y-2">
-            <button
-              onClick={() => speakJapanese(currentQ.word.word)}
-              className="px-6 py-4 bg-blue-50 hover:bg-blue-100 text-primary rounded-2xl font-black text-lg transition active:scale-95 inline-flex items-center gap-2 border border-blue-200 shadow-sm"
-            >
-              <Volume2 className="w-7 h-7 text-primary" />
-              <span>? (Click để nghe lại)</span>
-            </button>
-            <p className="text-xs text-gray-400 font-medium">Nghe âm thanh và chọn nghĩa phù hợp bên dưới</p>
+        {currentQ.qType === 'fill_in_blank' ? (
+          <div className="py-2 space-y-2">
+            <h2 className="text-xl sm:text-2xl font-bold text-[#2563EB] leading-snug font-japanese tracking-wide">
+              {currentQ.questionText}
+            </h2>
+            {currentQ.questionSubText && (
+              <p className="text-sm text-gray-500 font-medium italic">
+                {currentQ.questionSubText}
+              </p>
+            )}
+            <p className="text-xs text-gray-400 font-semibold mt-2">Chọn từ thích hợp điền vào chỗ trống</p>
           </div>
         ) : currentQ.qType === 'meaning_to_word' ? (
           /* MEANING TO WORD QUESTION TYPE */
@@ -398,15 +419,17 @@ export const LearningModeScreen: React.FC = () => {
             }
           }
 
-          // Option text: If question is meaning_to_word, display Kanji. Else display Meaning.
-          const displayText = currentQ.qType === 'meaning_to_word' ? opt.word : opt.meaning;
+          // Option text: If question is meaning_to_word or fill_in_blank, display Kanji. Else display Meaning.
+          const displayText = (currentQ.qType === 'meaning_to_word' || currentQ.qType === 'fill_in_blank') ? opt.word : opt.meaning;
 
           return (
             <button
               key={idx}
               disabled={isAnswered}
               onClick={() => handleSelectOption(idx)}
-              className={`p-4 rounded-2xl border-2 text-left text-sm sm:text-base font-bold transition-all duration-150 flex items-center justify-between gap-3 ${btnStyle}`}
+              className={`p-4 rounded-2xl border-2 text-left text-sm sm:text-base font-bold transition-all duration-150 flex items-center justify-between gap-3 ${btnStyle} ${
+                (currentQ.qType === 'meaning_to_word' || currentQ.qType === 'fill_in_blank') ? 'font-japanese' : ''
+              }`}
             >
               <span className="line-clamp-2">{displayText}</span>
               {isAnswered && isOptionCorrect && (

@@ -7,7 +7,7 @@
       "id": 1202,
       "word": "改定",
       "reading": "かいてい",
-      "han_viet": "ĐỊNH",
+      "han_viet": "CẢI ĐỊNH",
       "word_type": "Danh từ",
       "meaning": "Sửa đổi",
       "examples": [
@@ -22,7 +22,7 @@
       "id": 1203,
       "word": "改修",
       "reading": "かいしゅう",
-      "han_viet": "TU",
+      "han_viet": "CẢI TU",
       "word_type": "Danh từ",
       "meaning": "Cải tiến; nâng cấp; sự cải tạo",
       "examples": [
@@ -37,7 +37,7 @@
       "id": 1204,
       "word": "改革",
       "reading": "かいかく",
-      "han_viet": "",
+      "han_viet": "CẢI CÁCH",
       "word_type": "Danh từ",
       "meaning": "Cải cách",
       "examples": [
@@ -52,7 +52,7 @@
       "id": 1205,
       "word": "改善",
       "reading": "かいぜん",
-      "han_viet": "THIỆN",
+      "han_viet": "CẢI THIỆN",
       "word_type": "Danh từ",
       "meaning": "Sự cải thiện",
       "examples": [
@@ -67,7 +67,7 @@
       "id": 1206,
       "word": "改良",
       "reading": "かいりょう",
-      "han_viet": "LƯƠNG",
+      "han_viet": "CẢI LƯƠNG",
       "word_type": "Danh từ",
       "meaning": "Sự cải thiện, Cải tiến",
       "examples": [
@@ -127,7 +127,7 @@
       "id": 1210,
       "word": "開催",
       "reading": "かいさい",
-      "han_viet": "KHAI THÒI",
+      "han_viet": "KHAI THÔI",
       "word_type": "Danh từ",
       "meaning": "Sự tổ chức; ; tổ chức",
       "examples": [
@@ -157,7 +157,7 @@
       "id": 1212,
       "word": "閉鎖",
       "reading": "へいさ",
-      "han_viet": "BẾ TOẢ",
+      "han_viet": "BẾ TỎA",
       "word_type": "Danh từ",
       "meaning": "Sự phong bế; ; Sự phong tỏa",
       "examples": [
@@ -187,7 +187,7 @@
       "id": 1214,
       "word": "増税",
       "reading": "ぞうぜい",
-      "han_viet": "THUẾ",
+      "han_viet": "TĂNG THUẾ",
       "word_type": "Danh từ",
       "meaning": "Sự tăng thuế",
       "examples": [
@@ -202,7 +202,7 @@
       "id": 1215,
       "word": "増大",
       "reading": "ぞうだい",
-      "han_viet": "ĐẠI",
+      "han_viet": "TĂNG ĐẠI",
       "word_type": "Danh từ",
       "meaning": "Sự mở rộng; ; Sự tăng thêm",
       "examples": [
@@ -217,7 +217,7 @@
       "id": 1216,
       "word": "増員",
       "reading": "ぞういん",
-      "han_viet": "VIÊN",
+      "han_viet": "TĂNG VIÊN",
       "word_type": "Danh từ",
       "meaning": "Tăng số lượng người",
       "examples": [
@@ -232,7 +232,7 @@
       "id": 1217,
       "word": "増量",
       "reading": "ぞうりょう",
-      "han_viet": "LƯỢNG",
+      "han_viet": "TĂNG LƯỢNG",
       "word_type": "Danh từ",
       "meaning": "Sự tăng về lượng",
       "examples": [
@@ -322,7 +322,7 @@
       "id": 1223,
       "word": "一致",
       "reading": "いっち",
-      "han_viet": "NHẤT NHÍ",
+      "han_viet": "NHẤT TRÍ",
       "word_type": "Danh từ",
       "meaning": "Sự nhất trí; sự giống nhau; sự thống nhất",
       "examples": [
@@ -913,7 +913,7 @@
     {
       "word": "無頓着",
       "reading": "むとんちゃく",
-      "han_viet": "VÔ ĐỒN TRƯỚC",
+      "han_viet": "VÔ ĐỐN TRƯỚC",
       "word_type": "Tiền tố / Hậu tố",
       "meaning": "Không để ý, bừa bãi",
       "examples": [
@@ -1082,7 +1082,7 @@
     {
       "word": "再生産（する）",
       "reading": "さいせいさん",
-      "han_viet": "TÁI SẢN XUẤT",
+      "han_viet": "TÁI SINH SẢN",
       "word_type": "Tiền tố / Hậu tố",
       "meaning": "Tái sản xuất",
       "examples": [
@@ -1409,7 +1409,7 @@
     {
       "word": "悪趣味",
       "reading": "あくしゅみ",
-      "han_viet": "ÁC TÚ VỊ",
+      "han_viet": "ÁC THÚ VỊ",
       "word_type": "Tiền tố / Hậu tố",
       "meaning": "Sở thích xấu, kì dị",
       "examples": [
@@ -1454,7 +1454,7 @@
     {
       "word": "初登場",
       "reading": "はつとうじょう",
-      "han_viet": "SƠ ĐỔNG TRƯỜNG",
+      "han_viet": "SƠ ĐĂNG TRƯỜNG",
       "word_type": "Tiền tố / Hậu tố",
       "meaning": "Lần đầu xuất hiện",
       "examples": [
@@ -2017,7 +2017,7 @@
     {
       "word": "高齢化",
       "reading": "こうれいか",
-      "han_viet": "CAO TUỔI HÓA",
+      "han_viet": "CAO LINH HÓA",
       "word_type": "Tiền tố / Hậu tố",
       "meaning": "Già hóa",
       "examples": [
@@ -2034,7 +2034,7 @@
     {
       "word": "温暖化",
       "reading": "おんだんか",
-      "han_viet": "ÔN NÕAN HÓA",
+      "han_viet": "ÔN NOÃN HÓA",
       "word_type": "Tiền tố / Hậu tố",
       "meaning": "Nóng lên (toàn cầu)",
       "examples": [
@@ -2113,7 +2113,7 @@
     {
       "word": "高め",
       "reading": "たかめ",
-      "han_viet": "CAO MỤC",
+      "han_viet": "CAO",
       "word_type": "Tiền tố / Hậu tố",
       "meaning": "Cao một chút",
       "examples": [
@@ -2711,7 +2711,7 @@
     {
       "word": "電気代",
       "reading": "でんきだい",
-      "han_viet": "ĐIỆN ĐẠI",
+      "han_viet": "ĐIỆN KHÍ ĐẠI",
       "word_type": "Tiền tố / Hậu tố",
       "meaning": "Tiền điện",
       "examples": [

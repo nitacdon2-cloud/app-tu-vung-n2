@@ -1,7 +1,7 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
 import { Word, StatusFilter } from '../types/vocab';
-import { Star, CheckCircle, Play, Edit3, Eye, EyeOff } from 'lucide-react';
+import { Star, CheckCircle, Play, Edit3, Eye, EyeOff, Layers } from 'lucide-react';
 import { getWordState } from '../services/storageService';
 
 export const WordListScreen: React.FC = () => {
@@ -17,6 +17,7 @@ export const WordListScreen: React.FC = () => {
     getWordKey,
     setSelectedWord,
     setIsStudyPickerOpen,
+    setScreen,
   } = useApp();
 
   if (!currentLesson) return null;
@@ -120,13 +121,24 @@ export const WordListScreen: React.FC = () => {
             })}
           </div>
 
-          <button
-            onClick={() => alert('Chức năng Ghi Chú / Vẽ Nhanh')}
-            className="p-2 bg-blue-50 text-primary hover:bg-blue-100 rounded-xl transition"
-            title="Ghi chú nhanh"
-          >
-            <Edit3 className="w-4 h-4" />
-          </button>
+          <div className="flex items-center gap-1.5 flex-shrink-0">
+            <button
+              onClick={() => setScreen('flashcard')}
+              className="px-3 py-1.5 bg-amber-500 hover:bg-amber-600 text-white font-extrabold rounded-xl transition flex items-center gap-1.5 shadow-sm active:scale-95 text-xs"
+              title="Học thẻ Flashcard từ vựng bài này"
+            >
+              <Layers className="w-3.5 h-3.5 text-white" />
+              <span>Flashcard</span>
+            </button>
+
+            <button
+              onClick={() => alert('Chức năng Ghi Chú / Vẽ Nhanh')}
+              className="p-2 bg-blue-50 text-primary hover:bg-blue-100 rounded-xl transition"
+              title="Ghi chú nhanh"
+            >
+              <Edit3 className="w-4 h-4" />
+            </button>
+          </div>
         </div>
       </div>
 

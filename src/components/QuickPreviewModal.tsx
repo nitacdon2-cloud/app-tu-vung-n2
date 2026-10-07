@@ -115,20 +115,31 @@ export const QuickPreviewModal: React.FC = () => {
         </div>
 
         {/* Footer Action Buttons */}
-        <div className="p-4 bg-gray-50 border-t border-gray-100 flex items-center justify-end gap-3">
+        <div className="p-4 bg-gray-50 border-t border-gray-100 flex items-center justify-end gap-2 flex-wrap">
+          <button
+            onClick={() => {
+              setDetailWord(selectedWord);
+              setSelectedWord(null);
+              setScreen('word_detail');
+            }}
+            className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-xl shadow-md transition active:scale-95 flex items-center gap-1.5"
+          >
+            <span>Bảng Hán Tự & Mẹo</span>
+          </button>
           <button
             onClick={() => {
               setMaziiQuery(selectedWord.word);
             }}
-            className="px-4 py-2 bg-primary hover:bg-blue-600 text-white font-semibold text-sm rounded-xl shadow-md hover:shadow-lg transition active:scale-95 flex items-center gap-1.5"
+            className="px-3.5 py-2 bg-sky-500 hover:bg-sky-600 text-white font-bold text-xs rounded-xl shadow-md transition active:scale-95 flex items-center gap-1.5"
+            title="Mở trực tiếp trên trang Mazii"
           >
-            <span>Xem Chi Tiết (Mazii)</span>
+            <span>Tra Mazii Web ↗</span>
           </button>
           <button
             onClick={() => setSelectedWord(null)}
-            className="px-5 py-2 bg-white hover:bg-gray-100 border border-gray-300 text-gray-700 font-semibold text-sm rounded-xl transition"
+            className="px-4 py-2 bg-white hover:bg-gray-100 border border-gray-300 text-gray-700 font-bold text-xs rounded-xl transition"
           >
-            ĐÓNG
+            Đóng
           </button>
         </div>
       </div>

@@ -7,7 +7,7 @@
       "id": 1068,
       "word": "読み上げる",
       "reading": "よみあげる",
-      "han_viet": "THƯỢNG",
+      "han_viet": "ĐỘC THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Đọc lên",
       "examples": [
@@ -27,7 +27,7 @@
       "id": 1069,
       "word": "数え上げる",
       "reading": "かぞえあげる",
-      "han_viet": "THƯỢNG",
+      "han_viet": "SỐ THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Liệt kê",
       "examples": [
@@ -102,7 +102,7 @@
       "id": 1074,
       "word": "磨き上げる",
       "reading": "みがきあげる",
-      "han_viet": "MÀI THƯỢNG",
+      "han_viet": "MA THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Đánh bóng, mài giũa",
       "examples": [
@@ -117,7 +117,7 @@
       "id": 1075,
       "word": "鍛え上げる",
       "reading": "きたえあげる",
-      "han_viet": "THƯỢNG",
+      "han_viet": "ĐOÁN THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Rèn luyện, rèn giũa",
       "examples": [
@@ -147,7 +147,7 @@
       "id": 1077,
       "word": "繰り上げる",
       "reading": "くりあげる",
-      "han_viet": "THAO THƯỢNG",
+      "han_viet": "SÀO THƯỢNG",
       "word_type": "Động từ",
       "meaning": "Sớm hơn lịch trình",
       "examples": [
@@ -162,7 +162,7 @@
       "id": 1078,
       "word": "考え直す",
       "reading": "かんがえなおす",
-      "han_viet": "KHẢO",
+      "han_viet": "KHẢO TRỰC",
       "word_type": "Động từ",
       "meaning": "Xem lại, suy nghĩ lại",
       "examples": [
@@ -177,7 +177,7 @@
       "id": 1079,
       "word": "思い直す",
       "reading": "おもいなおす",
-      "han_viet": "TƯ",
+      "han_viet": "TƯ TRỰC",
       "word_type": "Động từ",
       "meaning": "Đổi ý",
       "examples": [
@@ -192,7 +192,7 @@
       "id": 1080,
       "word": "聞き直す",
       "reading": "ききなおす",
-      "han_viet": "",
+      "han_viet": "VĂN TRỰC",
       "word_type": "Động từ",
       "meaning": "Nghe lại, hỏi",
       "examples": [
@@ -207,7 +207,7 @@
       "id": 1081,
       "word": "やり直す",
       "reading": "やりなおす",
-      "han_viet": "",
+      "han_viet": "TRỰC",
       "word_type": "Động từ",
       "meaning": "Làm lại",
       "examples": [
@@ -222,7 +222,7 @@
       "id": 1082,
       "word": "かけ直す",
       "reading": "かけなおす",
-      "han_viet": "",
+      "han_viet": "TRỰC",
       "word_type": "Động từ",
       "meaning": "Gọi lại",
       "examples": [
@@ -237,7 +237,7 @@
       "id": 1083,
       "word": "出直す",
       "reading": "でなおす",
-      "han_viet": "XUẤT",
+      "han_viet": "XUẤT TRỰC",
       "word_type": "Động từ",
       "meaning": "Ra ngoài lần nữa; làm lại đầu",
       "examples": [
@@ -252,7 +252,7 @@
       "id": 1084,
       "word": "持ち直す",
       "reading": "もちなおす",
-      "han_viet": "TRÌ",
+      "han_viet": "TRÌ TRỰC",
       "word_type": "Động từ",
       "meaning": "Đổi tay xách; ; chuyển biến",
       "examples": [
@@ -2017,7 +2017,7 @@
       "id": 1201,
       "word": "改正",
       "reading": "かいせい",
-      "han_viet": "CHÍNH",
+      "han_viet": "CẢI CHÍNH",
       "word_type": "Danh từ",
       "meaning": "Sự thay đổi; ; Sự chỉnh sửa",
       "examples": [

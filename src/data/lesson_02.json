@@ -62,7 +62,7 @@
       "id": 137,
       "word": "見直す",
       "reading": "みなおす",
-      "han_viet": "KIẾN",
+      "han_viet": "KIẾN TRỰC",
       "word_type": "Động từ",
       "meaning": "Xem lại, suy xét",
       "examples": [
@@ -82,7 +82,7 @@
       "id": 138,
       "word": "見慣れる",
       "reading": "みなれる",
-      "han_viet": "KIẾN QUEN",
+      "han_viet": "KIẾN QUÁN",
       "word_type": "Động từ",
       "meaning": "Quen, nhẵn mặt",
       "examples": [
@@ -97,7 +97,7 @@
       "id": 139,
       "word": "静まる・鎮まる",
       "reading": "しずまる",
-      "han_viet": "TĨNH TRẤN",
+      "han_viet": "TĨNH / TRẤN",
       "word_type": "Động từ",
       "meaning": "Trở nên yên lặng, được bình tĩnh lại",
       "examples": [
@@ -117,7 +117,7 @@
       "id": 140,
       "word": "静める・鎮める",
       "reading": "しずめる",
-      "han_viet": "TĨNH TRẤN",
+      "han_viet": "TĨNH / TRẤN",
       "word_type": "Động từ",
       "meaning": "Yên tĩnh, hạ hỏa, giải tỏa",
       "examples": [
@@ -152,7 +152,7 @@
       "id": 142,
       "word": "整える・調える",
       "reading": "ととのえる",
-      "han_viet": "CHỈNH ĐIỀU",
+      "han_viet": "CHỈNH / ĐIỀU",
       "word_type": "Động từ",
       "meaning": "Chuẩn bị, sửa, điều chỉnh, kết luận",
       "examples": [
@@ -292,7 +292,7 @@
       "id": 150,
       "word": "崩れる",
       "reading": "くずれる",
-      "han_viet": "",
+      "han_viet": "BĂNG",
       "word_type": "Động từ",
       "meaning": "Sụp đổ",
       "examples": [
@@ -307,7 +307,7 @@
       "id": 151,
       "word": "崩す",
       "reading": "くずす",
-      "han_viet": "",
+      "han_viet": "BĂNG",
       "word_type": "Động từ",
       "meaning": "Đổi (tiền), sụp, vỡ, phá hủy (sức khỏe, sự cân bằng)",
       "examples": [
@@ -442,7 +442,7 @@
       "id": 158,
       "word": "染まる",
       "reading": "そまる",
-      "han_viet": "NHUỘM",
+      "han_viet": "NHIỄM",
       "word_type": "Động từ",
       "meaning": "Được nhuộm, ảnh hưởng bởi",
       "examples": [
@@ -457,7 +457,7 @@
       "id": 159,
       "word": "染める",
       "reading": "そめる",
-      "han_viet": "NHUỘM",
+      "han_viet": "NHIỄM",
       "word_type": "Động từ",
       "meaning": "Nhuộm, đỏ mặt",
       "examples": [
@@ -477,7 +477,7 @@
       "id": 160,
       "word": "潜る",
       "reading": "もぐる",
-      "han_viet": "",
+      "han_viet": "TIỀM",
       "word_type": "Động từ",
       "meaning": "vào, rúc xuống ; - Giấu mình, trốn",
       "examples": [
@@ -492,7 +492,7 @@
       "id": 161,
       "word": "跳ねる",
       "reading": "はねる",
-      "han_viet": "KHÊU",
+      "han_viet": "KHIÊU",
       "word_type": "Động từ",
       "meaning": "Bắn, nhảy",
       "examples": [
@@ -562,7 +562,7 @@
       "id": 165,
       "word": "捕る・採る・執る・",
       "reading": "とる",
-      "han_viet": "BÕ THÁI CHẤP",
+      "han_viet": "BỘ / THÁI / CHẤP",
       "word_type": "Động từ",
       "meaning": "Bắt; hái ; - Tuyển dụng; ; - Xử lí, thi hành",
       "examples": [
@@ -607,7 +607,7 @@
       "id": 167,
       "word": "縛る",
       "reading": "しばる",
-      "han_viet": "",
+      "han_viet": "PHƯỢC",
       "word_type": "Động từ",
       "meaning": "Trói buộc, cột",
       "examples": [
@@ -627,7 +627,7 @@
       "id": 168,
       "word": "絞る・搾る・",
       "reading": "しぼる",
-      "han_viet": "GIẢO",
+      "han_viet": "GIẢO / TRÁP",
       "word_type": "Động từ",
       "meaning": "Vắt, bóp",
       "examples": [
@@ -647,7 +647,7 @@
       "id": 169,
       "word": "区切る",
       "reading": "くぎる",
-      "han_viet": "THIẾT",
+      "han_viet": "KHU THIẾT",
       "word_type": "Động từ",
       "meaning": "Chia, ngắt",
       "examples": [
@@ -692,7 +692,7 @@
       "id": 172,
       "word": "裏切る",
       "reading": "うらぎる",
-      "han_viet": "THIẾT",
+      "han_viet": "LÝ THIẾT",
       "word_type": "Động từ",
       "meaning": "Phản bội, phụ",
       "examples": [
@@ -712,7 +712,7 @@
       "id": 173,
       "word": "頼る",
       "reading": "たよる",
-      "han_viet": "",
+      "han_viet": "LẠI",
       "word_type": "Động từ",
       "meaning": "Dựa dẫm, dựa vào",
       "examples": [
@@ -742,7 +742,7 @@
       "id": 175,
       "word": "憧れる",
       "reading": "あこがれる",
-      "han_viet": "",
+      "han_viet": "SUNG",
       "word_type": "Động từ",
       "meaning": "Mong ước, ngưỡng mộ",
       "examples": [
@@ -832,7 +832,7 @@
       "id": 181,
       "word": "慰める",
       "reading": "なぐさめる",
-      "han_viet": "UÝ",
+      "han_viet": "ÚY",
       "word_type": "Động từ",
       "meaning": "An ủi, động viên",
       "examples": [
@@ -907,7 +907,7 @@
       "id": 186,
       "word": "目覚める",
       "reading": "めざめる",
-      "han_viet": "MỤC",
+      "han_viet": "MỤC GIÁC",
       "word_type": "Động từ",
       "meaning": "Thức giấc, mở mắt; ; - Quan tâm, có hứng thú",
       "examples": [
@@ -942,7 +942,7 @@
       "id": 188,
       "word": "片寄る・偏る",
       "reading": "かたよる",
-      "han_viet": "PHIẾN GỬI THIÊN",
+      "han_viet": "PHIẾN KÍ / THIÊN",
       "word_type": "Động từ",
       "meaning": "Thiên lệch về một phía, nghiêng hẳn về một bên",
       "examples": [
@@ -982,7 +982,7 @@
       "id": 190,
       "word": "焦げる",
       "reading": "こげる",
-      "han_viet": "",
+      "han_viet": "TIÊU",
       "word_type": "Động từ",
       "meaning": "Bị cháy",
       "examples": [
@@ -1117,7 +1117,7 @@
       "id": 199,
       "word": "誤る",
       "reading": "あやまる",
-      "han_viet": "",
+      "han_viet": "NGỘ",
       "word_type": "Động từ",
       "meaning": "Mắc lỗi",
       "examples": [
@@ -1162,7 +1162,7 @@
       "id": 202,
       "word": "怠ける",
       "reading": "なまける",
-      "han_viet": "",
+      "han_viet": "ĐÃI",
       "word_type": "Động từ",
       "meaning": "Lười biếng",
       "examples": [
@@ -1227,7 +1227,7 @@
       "id": 206,
       "word": "当てはまる",
       "reading": "あてはまる",
-      "han_viet": "",
+      "han_viet": "ĐƯƠNG",
       "word_type": "Động từ",
       "meaning": "Áp dụng, phù hợp",
       "examples": [
@@ -1247,7 +1247,7 @@
       "id": 207,
       "word": "就く",
       "reading": "つく",
-      "han_viet": "",
+      "han_viet": "TỰU",
       "word_type": "Động từ",
       "meaning": "Nắm giữ, tiếp nhận (chức vụ) ; - Chìm vào",
       "examples": [
@@ -1277,7 +1277,7 @@
       "id": 209,
       "word": "従う",
       "reading": "したがう",
-      "han_viet": "",
+      "han_viet": "TÙNG",
       "word_type": "Động từ",
       "meaning": "Do đó, theo",
       "examples": [
@@ -1297,7 +1297,7 @@
       "id": 210,
       "word": "優れる",
       "reading": "すぐれる",
-      "han_viet": "",
+      "han_viet": "ƯU",
       "word_type": "Động từ",
       "meaning": "Giỏi, ưu tú, hoàn hảo",
       "examples": [
@@ -1312,7 +1312,7 @@
       "id": 211,
       "word": "落ち着く",
       "reading": "おちつく",
-      "han_viet": "LẠC",
+      "han_viet": "LẠC TRƯỚC",
       "word_type": "Động từ",
       "meaning": "Bình tĩnh; ổn định; thoải mái",
       "examples": [
@@ -1362,7 +1362,7 @@
       "id": 214,
       "word": "蓄える",
       "reading": "たくわえる",
-      "han_viet": "",
+      "han_viet": "SÚC",
       "word_type": "Động từ",
       "meaning": "Tiết kiệm, có trữ lượng lớn, nuôi",
       "examples": [
@@ -1382,7 +1382,7 @@
       "id": 215,
       "word": "覆う",
       "reading": "おおう",
-      "han_viet": "",
+      "han_viet": "PHÚC",
       "word_type": "Động từ",
       "meaning": "Phủ, bao bọc",
       "examples": [
@@ -1447,7 +1447,7 @@
       "id": 219,
       "word": "劣る",
       "reading": "おとる",
-      "han_viet": "",
+      "han_viet": "LIỆT",
       "word_type": "Động từ",
       "meaning": "Kém hơn",
       "examples": [
@@ -1462,7 +1462,7 @@
       "id": 220,
       "word": "異なる",
       "reading": "ことなる",
-      "han_viet": "",
+      "han_viet": "DỊ",
       "word_type": "Động từ",
       "meaning": "Khác",
       "examples": [
@@ -1507,7 +1507,7 @@
       "id": 223,
       "word": "属する",
       "reading": "ぞくする",
-      "han_viet": "",
+      "han_viet": "CHÚC",
       "word_type": "Động từ",
       "meaning": "Thuộc về",
       "examples": [
@@ -1587,7 +1587,7 @@
       "id": 228,
       "word": "恵まれる",
       "reading": "めぐまれる",
-      "han_viet": "",
+      "han_viet": "HUỆ",
       "word_type": "Động từ",
       "meaning": "Được ban phước, may mắn, tốt",
       "examples": [
@@ -1602,7 +1602,7 @@
       "id": 229,
       "word": "湧く",
       "reading": "わく",
-      "han_viet": "RỤNG",
+      "han_viet": "DŨNG",
       "word_type": "Động từ",
       "meaning": "Vươn ra, trỗi dậy, trào ra",
       "examples": [
@@ -1632,7 +1632,7 @@
       "id": 231,
       "word": "触る",
       "reading": "さわる",
-      "han_viet": "",
+      "han_viet": "XÚC",
       "word_type": "Động từ",
       "meaning": "Sờ, chạm",
       "examples": [
@@ -1652,7 +1652,7 @@
       "id": 232,
       "word": "触れる",
       "reading": "ふれる",
-      "han_viet": "",
+      "han_viet": "XÚC",
       "word_type": "Động từ",
       "meaning": "Chạm, chạm vào Vi phạm (pháp luật, quy tắc)",
       "examples": [
@@ -1672,7 +1672,7 @@
       "id": 233,
       "word": "改まる",
       "reading": "あらたまる",
-      "han_viet": "",
+      "han_viet": "CẢI",
       "word_type": "Động từ",
       "meaning": "cải tiến Câu nệ, hình thức, khách",
       "examples": [
@@ -1692,7 +1692,7 @@
       "id": 234,
       "word": "改める",
       "reading": "あらためる",
-      "han_viet": "",
+      "han_viet": "CẢI",
       "word_type": "Động từ",
       "meaning": "sáo Cải tiến, thay đổi",
       "examples": [
@@ -1707,7 +1707,7 @@
       "id": 235,
       "word": "収まる・納まる・治まる",
       "reading": "おさまる",
-      "han_viet": "THU NẠP TRỊ",
+      "han_viet": "THU / NẠP / TRỊ",
       "word_type": "Động từ",
       "meaning": "Lắng xuống, được giải quyết, vừa",
       "examples": [
@@ -1727,7 +1727,7 @@
       "id": 236,
       "word": "収める・納める・治める",
       "reading": "おさめる",
-      "han_viet": "THU NẠP TRỊ",
+      "han_viet": "THU / NẠP / TRỊ",
       "word_type": "Động từ",
       "meaning": "Cất, giữ, ; - Chi trả, ; - Điều hành",
       "examples": [
@@ -1922,7 +1922,7 @@
       "id": 247,
       "word": "緩む",
       "reading": "ゆるむ",
-      "han_viet": "",
+      "han_viet": "HOÃN",
       "word_type": "Động từ",
       "meaning": "Lỏng, được thư giãn",
       "examples": [
@@ -1942,7 +1942,7 @@
       "id": 248,
       "word": "緩める",
       "reading": "ゆるめる",
-      "han_viet": "",
+      "han_viet": "HOÃN",
       "word_type": "Động từ",
       "meaning": "Nới lỏng, thư giãn, hạ xuống",
       "examples": [
@@ -2017,7 +2017,7 @@
       "id": 252,
       "word": "眺める",
       "reading": "ながめる",
-      "han_viet": "",
+      "han_viet": "THIẾU",
       "word_type": "Động từ",
       "meaning": "Ngắm nhìn",
       "examples": [
@@ -2037,7 +2037,7 @@
       "id": 253,
       "word": "問う",
       "reading": "とう",
-      "han_viet": "",
+      "han_viet": "VẤN",
       "word_type": "Động từ",
       "meaning": "Hỏi về, yêu cầu",
       "examples": [
@@ -2067,7 +2067,7 @@
       "id": 255,
       "word": "誓う",
       "reading": "ちかう",
-      "han_viet": "THỀ",
+      "han_viet": "THỆ",
       "word_type": "Động từ",
       "meaning": "Thề, hứa",
       "examples": [
@@ -2117,7 +2117,7 @@
       "id": 258,
       "word": "沿う・添う",
       "reading": "そう",
-      "han_viet": "DUYÊN THIÊM THÊM",
+      "han_viet": "DUYÊN / THIÊM",
       "word_type": "Động từ",
       "meaning": "Theo, men theo, ở bên cạnh",
       "examples": [
@@ -2137,7 +2137,7 @@
       "id": 259,
       "word": "添える",
       "reading": "そえる",
-      "han_viet": "THIÊM THÊM",
+      "han_viet": "THIÊM",
       "word_type": "Động từ",
       "meaning": "Đính, kèm gửi, trang trí",
       "examples": [
@@ -2152,7 +2152,7 @@
       "id": 260,
       "word": "相当する",
       "reading": "そうとうする",
-      "han_viet": "TƯƠNG",
+      "han_viet": "TƯƠNG ĐƯƠNG",
       "word_type": "Động từ",
       "meaning": "Tương đương",
       "examples": [
@@ -2182,7 +2182,7 @@
       "id": 262,
       "word": "匂う",
       "reading": "におう",
-      "han_viet": "",
+      "han_viet": "(MÙI)",
       "word_type": "Động từ",
       "meaning": "Có mùi, có gì đó đằng sau",
       "examples": [

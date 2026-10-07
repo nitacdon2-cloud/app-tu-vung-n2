@@ -6,12 +6,15 @@ import { WordListScreen } from './components/WordListScreen';
 import { WordDetailView } from './components/WordDetailView';
 import { StudyModePickerModal } from './components/StudyModePickerModal';
 import { QuickPreviewModal } from './components/QuickPreviewModal';
-import { MaziiPopupModal } from './components/MaziiPopupModal';
 import { CardMatchScreen } from './components/CardMatchScreen';
 import { WordArrangeScreen } from './components/WordArrangeScreen';
 import { TestSetupScreen } from './components/TestSetupScreen';
 import { TestRunnerScreen } from './components/TestRunnerScreen';
 import { LearningModeScreen } from './components/LearningModeScreen';
+import { FlashcardScreen } from './components/FlashcardScreen';
+import { GrammarListScreen } from './components/GrammarListScreen';
+import { GrammarFlashcardScreen } from './components/GrammarFlashcardScreen';
+import { GrammarTestScreen } from './components/GrammarTestScreen';
 import { TextSelectionListener } from './components/TextSelectionListener';
 
 const MainContent: React.FC = () => {
@@ -25,6 +28,8 @@ const MainContent: React.FC = () => {
         return <WordListScreen />;
       case 'word_detail':
         return <WordDetailView />;
+      case 'flashcard':
+        return <FlashcardScreen />;
       case 'card_match':
         return <CardMatchScreen />;
       case 'word_arrange':
@@ -35,6 +40,12 @@ const MainContent: React.FC = () => {
         return <TestRunnerScreen />;
       case 'learning_mode':
         return <LearningModeScreen />;
+      case 'grammar_list':
+        return <GrammarListScreen />;
+      case 'grammar_flashcard':
+        return <GrammarFlashcardScreen />;
+      case 'grammar_test':
+        return <GrammarTestScreen />;
       default:
         return <LessonGridScreen />;
     }
@@ -59,7 +70,6 @@ const MainContent: React.FC = () => {
       {/* Global Modals & Listeners */}
       <QuickPreviewModal />
       <StudyModePickerModal />
-      <MaziiPopupModal />
       <TextSelectionListener />
     </div>
   );

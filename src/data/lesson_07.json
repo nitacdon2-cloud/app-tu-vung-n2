@@ -22,7 +22,7 @@
       "id": 801,
       "word": "煙い",
       "reading": "けむい",
-      "han_viet": "",
+      "han_viet": "YÊN",
       "word_type": "Tính từ -i",
       "meaning": "Khói mù",
       "examples": [
@@ -57,7 +57,7 @@
       "id": 803,
       "word": "緩い",
       "reading": "ゆるい",
-      "han_viet": "",
+      "han_viet": "HOÃN",
       "word_type": "Tính từ -i",
       "meaning": "Lỏng, ; - thoai thoải (dốc)",
       "examples": [
@@ -72,7 +72,7 @@
       "id": 804,
       "word": "鈍い",
       "reading": "にぶい",
-      "han_viet": "NHỌN",
+      "han_viet": "ĐỘN",
       "word_type": "Tính từ -i",
       "meaning": "Cùn, đần độn, kém",
       "examples": [
@@ -87,7 +87,7 @@
       "id": 805,
       "word": "鋭い",
       "reading": "するどい",
-      "han_viet": "NHỌN",
+      "han_viet": "DUỆ",
       "word_type": "Tính từ -i",
       "meaning": "Nhọn, ; - sắc sảo",
       "examples": [
@@ -102,7 +102,7 @@
       "id": 806,
       "word": "惜しい",
       "reading": "おしい",
-      "han_viet": "TIẾC",
+      "han_viet": "TÍCH",
       "word_type": "Tính từ -i",
       "meaning": "Đáng tiếc, yêu quý, quý trọng",
       "examples": [
@@ -137,7 +137,7 @@
       "id": 808,
       "word": "何気ない",
       "reading": "なにげない",
-      "han_viet": "KHÍ",
+      "han_viet": "HÀ KHÍ",
       "word_type": "Tính từ -i",
       "meaning": "Ngẫu nhiên, tình cờ, không cố",
       "examples": [
@@ -232,7 +232,7 @@
       "id": 814,
       "word": "申し訳ない",
       "reading": "もうしわけない",
-      "han_viet": "",
+      "han_viet": "THÂN DỊCH",
       "word_type": "Tính từ -i",
       "meaning": "Xin lỗi",
       "examples": [
@@ -262,7 +262,7 @@
       "id": 816,
       "word": "懐かしい",
       "reading": "なつかしい",
-      "han_viet": "",
+      "han_viet": "HOÀI",
       "word_type": "Tính từ -i",
       "meaning": "Nhớ, hoài niệm Thân thuộc,",
       "examples": [
@@ -327,7 +327,7 @@
       "id": 820,
       "word": "心細い",
       "reading": "こころぼそい",
-      "han_viet": "TÂM TỚI",
+      "han_viet": "TÂM TẾ",
       "word_type": "Tính từ -i",
       "meaning": "Bất an",
       "examples": [
@@ -347,7 +347,7 @@
       "id": 821,
       "word": "荒い・粗い",
       "reading": "あらい",
-      "han_viet": "HOANG THÔ",
+      "han_viet": "HOANG / THÔ",
       "word_type": "Tính từ -i",
       "meaning": "Bạo lực, khốc liệt, hung tợn ; - Thô, qua loa, sơ sài",
       "examples": [
@@ -362,7 +362,7 @@
       "id": 822,
       "word": "怪しい",
       "reading": "あやしい",
-      "han_viet": "",
+      "han_viet": "QUÁI",
       "word_type": "Tính từ -i",
       "meaning": "Đáng nghi, nghi ngờ, không chắc chắn",
       "examples": [
@@ -442,7 +442,7 @@
       "id": 827,
       "word": "気楽な",
       "reading": "きらくな",
-      "han_viet": "KHÍ",
+      "han_viet": "KHÍ LẠC",
       "word_type": "Tính từ -na",
       "meaning": "Thoải mái, nhàn hạ",
       "examples": [
@@ -537,7 +537,7 @@
       "id": 833,
       "word": "過剰な",
       "reading": "かじょうな",
-      "han_viet": "QUÁ",
+      "han_viet": "QUÁ THẶNG",
       "word_type": "Tính từ -na",
       "meaning": "Vượt quá, dư thừa",
       "examples": [
@@ -632,7 +632,7 @@
       "id": 839,
       "word": "幸いな",
       "reading": "さいわいな",
-      "han_viet": "",
+      "han_viet": "HẠNH",
       "word_type": "Tính từ -na",
       "meaning": "May, hân hạnh",
       "examples": [
@@ -737,7 +737,7 @@
       "id": 845,
       "word": "高価な",
       "reading": "こうかな",
-      "han_viet": "CAO",
+      "han_viet": "CAO GIÁ",
       "word_type": "Tính từ -na",
       "meaning": "Đắt",
       "examples": [
@@ -827,7 +827,7 @@
       "id": 851,
       "word": "手軽な",
       "reading": "てがるな",
-      "han_viet": "THỦ",
+      "han_viet": "THỦ KHINH",
       "word_type": "Tính từ -na",
       "meaning": "Nhẹ nhàng, đơn giản",
       "examples": [
@@ -887,7 +887,7 @@
       "id": 855,
       "word": "異常な",
       "reading": "いじょうな",
-      "han_viet": "THƯỜNG",
+      "han_viet": "DỊ THƯỜNG",
       "word_type": "Tính từ -na",
       "meaning": "Bất thường, dị thường",
       "examples": [
@@ -937,7 +937,7 @@
       "id": 858,
       "word": "穏やかな",
       "reading": "おだやかな",
-      "han_viet": "",
+      "han_viet": "ỔN",
       "word_type": "Tính từ -na",
       "meaning": "Điềm tĩnh, yên lặng",
       "examples": [
@@ -952,7 +952,7 @@
       "id": 859,
       "word": "誠実な",
       "reading": "せいじつな",
-      "han_viet": "THÀNH",
+      "han_viet": "THÀNH THỰC",
       "word_type": "Tính từ -na",
       "meaning": "Thật thà",
       "examples": [
@@ -982,7 +982,7 @@
       "id": 861,
       "word": "素直な",
       "reading": "すなおな",
-      "han_viet": "TỐ",
+      "han_viet": "TỐ TRỰC",
       "word_type": "Tính từ -na",
       "meaning": "Chân thành, ngoan",
       "examples": [
@@ -997,7 +997,7 @@
       "id": 862,
       "word": "率直な",
       "reading": "そっちょくな",
-      "han_viet": "",
+      "han_viet": "SUẤT TRỰC",
       "word_type": "Tính từ -na",
       "meaning": "Trực tính, thẳng thắn",
       "examples": [
@@ -1012,7 +1012,7 @@
       "id": 863,
       "word": "真剣な",
       "reading": "しんけんな",
-      "han_viet": "CHÂN",
+      "han_viet": "CHÂN KIẾM",
       "word_type": "Tính từ -na",
       "meaning": "Nghiêm túc, nghiêm trang",
       "examples": [
@@ -1072,7 +1072,7 @@
       "id": 867,
       "word": "単純",
       "reading": "たんじゅんな",
-      "han_viet": "THUẦN",
+      "han_viet": "ĐƠN THUẦN",
       "word_type": "Tính từ -na",
       "meaning": "Đơn giản, đơn thuần",
       "examples": [
@@ -1092,7 +1092,7 @@
       "id": 868,
       "word": "純粋な",
       "reading": "じゅんすいな",
-      "han_viet": "THUẦN",
+      "han_viet": "THUẦN TÚY",
       "word_type": "Tính từ -na",
       "meaning": "Tinh khiết, Trong sáng",
       "examples": [
@@ -1137,7 +1137,7 @@
       "id": 871,
       "word": "独特な",
       "reading": "どくとくな",
-      "han_viet": "ĐẶC",
+      "han_viet": "ĐỘC ĐẶC",
       "word_type": "Tính từ -na",
       "meaning": "Độc nhất, đặc biệt",
       "examples": [
@@ -1152,7 +1152,7 @@
       "id": 872,
       "word": "特殊な",
       "reading": "とくしゅな",
-      "han_viet": "ĐẶC THÙA",
+      "han_viet": "ĐẶC THÙ",
       "word_type": "Tính từ -na",
       "meaning": "Đặc trưng, riêng biệt",
       "examples": [
@@ -1197,7 +1197,7 @@
       "id": 875,
       "word": "主な",
       "reading": "おもな",
-      "han_viet": "CHÚA",
+      "han_viet": "CHỦ",
       "word_type": "Tính từ -na",
       "meaning": "Chính, chủ yếu",
       "examples": [
@@ -1212,7 +1212,7 @@
       "id": 876,
       "word": "主要な",
       "reading": "しゅような",
-      "han_viet": "CHÚA YẾU",
+      "han_viet": "CHỦ YẾU",
       "word_type": "Tính từ -na",
       "meaning": "Chủ chốt, quan trọng",
       "examples": [
@@ -1272,7 +1272,7 @@
       "id": 880,
       "word": "確実な",
       "reading": "かくじつな",
-      "han_viet": "XÁC",
+      "han_viet": "XÁC THỰC",
       "word_type": "Tính từ -na",
       "meaning": "Chắc chắn, đáng tin cậy",
       "examples": [
@@ -1317,7 +1317,7 @@
       "id": 883,
       "word": "次第に",
       "reading": "しだいに",
-      "han_viet": "THỨ ĐẬY ĐỆ",
+      "han_viet": "THỨ ĐỆ",
       "word_type": "Phó từ",
       "meaning": "Dần dần, từng chút một",
       "examples": [
@@ -1332,7 +1332,7 @@
       "id": 884,
       "word": "徐々に",
       "reading": "じょじょに",
-      "han_viet": "CHỜ",
+      "han_viet": "TỪ TỪ",
       "word_type": "Phó từ",
       "meaning": "Dần dần, từng chút",
       "examples": [
@@ -1362,7 +1362,7 @@
       "id": 886,
       "word": "相当",
       "reading": "そうとう",
-      "han_viet": "TƯƠNG",
+      "han_viet": "TƯƠNG ĐƯƠNG",
       "word_type": "Phó từ",
       "meaning": "Khá, tương đối",
       "examples": [
@@ -1592,7 +1592,7 @@
       "id": 901,
       "word": "当時",
       "reading": "とうじ",
-      "han_viet": "THÌ",
+      "han_viet": "ĐƯƠNG THỜI",
       "word_type": "Phó từ",
       "meaning": "Lúc đó, khi ấy",
       "examples": [
@@ -1607,7 +1607,7 @@
       "id": 902,
       "word": "一時",
       "reading": "いちじ",
-      "han_viet": "NHẤT THÌ",
+      "han_viet": "NHẤT THỜI",
       "word_type": "Phó từ",
       "meaning": "Giây lát, tạm thời",
       "examples": [
@@ -1727,7 +1727,7 @@
       "id": 910,
       "word": "直ちに",
       "reading": "ただちに",
-      "han_viet": "",
+      "han_viet": "TRỰC",
       "word_type": "Phó từ",
       "meaning": "Ngay lập tức (cách nói cứng)",
       "examples": [
@@ -1832,7 +1832,7 @@
       "id": 917,
       "word": "当日",
       "reading": "とうじつ",
-      "han_viet": "NHẬT",
+      "han_viet": "ĐƯƠNG NHẬT",
       "word_type": "Phó từ",
       "meaning": "Ngày đó, hôm đó",
       "examples": [
@@ -1847,7 +1847,7 @@
       "id": 918,
       "word": "割と・割合",
       "reading": "わりと・わりあい",
-      "han_viet": "CẮT CẮT HỢP",
+      "han_viet": "CÁT / CÁT HỢP",
       "word_type": "Phó từ",
       "meaning": "Tương đối",
       "examples": [
@@ -1877,7 +1877,7 @@
       "id": 920,
       "word": "何もかも",
       "reading": "なにもかも",
-      "han_viet": "",
+      "han_viet": "HÀ",
       "word_type": "Phó từ",
       "meaning": "Toàn bộ, mọi thứ",
       "examples": [
@@ -1982,7 +1982,7 @@
       "id": 927,
       "word": "従って",
       "reading": "したがって",
-      "han_viet": "",
+      "han_viet": "TÙNG",
       "word_type": "Phó từ",
       "meaning": "Vì thế, do đó",
       "examples": [
