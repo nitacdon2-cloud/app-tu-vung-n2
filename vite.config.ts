@@ -26,6 +26,8 @@ export default defineConfig({
         ]
       },
       workbox: {
+        skipWaiting: true,
+        clientsClaim: true,
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,webp,mp3}'],
         maximumFileSizeToCacheInBytes: 15000000 // 15MB
       }
