@@ -13,10 +13,23 @@ import {
 } from '../services/grammarDataLoader';
 import { openMaziiExternal } from '../services/maziiService';
 
+import {
+  ExamTest, ExamResultRecord, ExamResultsMap
+} from '../types/test';
+import {
+  getStoredExamResults, saveExamResult
+} from '../services/examDataLoader';
+
 interface AppContextType {
-  // Navigation Module: Vocab vs Grammar
-  activeModule: 'vocab' | 'grammar';
-  setActiveModule: (module: 'vocab' | 'grammar') => void;
+  // Navigation Module: Vocab vs Grammar vs Test
+  activeModule: 'vocab' | 'grammar' | 'test';
+  setActiveModule: (module: 'vocab' | 'grammar' | 'test') => void;
+
+  // Exam / Test Center State
+  selectedExam: ExamTest | null;
+  examResults: ExamResultsMap;
+  startExam: (test: ExamTest) => void;
+  saveExamResultRecord: (record: ExamResultRecord) => void;
 
   // Vocab State
   lessons: Lesson[];
@@ -73,7 +86,11 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [activeModule, setActiveModule] = useState<'vocab' | 'grammar'>('vocab');
+  const [activeModule, setActiveModule] = useState<'vocab' | 'grammar' | 'test'>('vocab');
+
+  // Exam / Test Center state
+  const [selectedExam, setSelectedExam] = useState<ExamTest | null>(null);
+  const [examResults, setExamResults] = useState<ExamResultsMap>(getStoredExamResults);
 
   // Vocab states
   const [lessons] = useState<Lesson[]>(getAllLessons);
@@ -162,11 +179,26 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     return getGrammarState(grammarProgress, item.id);
   };
 
+  const startExam = (test: ExamTest) => {
+    setSelectedExam(test);
+    setCurrentScreen('exam_runner');
+  };
+
+  const saveExamResultRecord = (record: ExamResultRecord) => {
+    const updated = saveExamResult(record);
+    setExamResults({ ...updated });
+  };
+
   return (
     <AppContext.Provider
       value={{
         activeModule,
         setActiveModule,
+
+        selectedExam,
+        examResults,
+        startExam,
+        saveExamResultRecord,
 
         lessons,
         currentLesson,

@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
   const { 
     currentScreen, setScreen, lessons, currentLessonId, setCurrentLessonId,
     currentLesson, isMobileFrame, setIsMobileFrame, activeModule, setActiveModule,
-    grammarList, currentGrammarChapter, setCurrentGrammarChapter, testConfig
+    grammarList, currentGrammarChapter, setCurrentGrammarChapter, testConfig, selectedExam
   } = useApp();
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -36,6 +36,8 @@ export const Header: React.FC = () => {
   }, []);
 
   const getHeaderTitle = () => {
+    if (currentScreen === 'test_center') return 'Kho Đề Thi N2';
+    if (currentScreen === 'exam_runner') return selectedExam ? selectedExam.title : 'Bài Thi N2';
     if (currentScreen === 'grammar_list') return 'N2 Ngữ Pháp';
     if (currentScreen === 'grammar_flashcard') return 'Học Thẻ Ngữ Pháp';
     if (currentScreen === 'grammar_test') return 'Test Ngữ Pháp';
@@ -52,7 +54,12 @@ export const Header: React.FC = () => {
   };
 
   const handleBack = () => {
-    if (currentScreen === 'grammar_flashcard' || currentScreen === 'grammar_test') {
+    if (currentScreen === 'exam_runner') {
+      setScreen('test_center');
+    } else if (currentScreen === 'test_center') {
+      setScreen('lesson_grid');
+      setActiveModule('vocab');
+    } else if (currentScreen === 'grammar_flashcard' || currentScreen === 'grammar_test') {
       setScreen('grammar_list');
     } else if (currentScreen === 'grammar_list') {
       setScreen('lesson_grid');
@@ -69,6 +76,7 @@ export const Header: React.FC = () => {
   };
 
   const isGrammarMode = currentScreen.startsWith('grammar_');
+  const isTestMode = currentScreen === 'test_center' || currentScreen === 'exam_runner';
 
   return (
     <header className="bg-primary text-white h-14 px-3 sm:px-4 flex items-center justify-between shadow-md sticky top-0 z-40 select-none flex-shrink-0">
@@ -90,7 +98,7 @@ export const Header: React.FC = () => {
 
         {/* Title with optional Lesson / Chapter Dropdown */}
         <div className="relative" ref={dropdownRef}>
-          {!isGrammarMode ? (
+          {!isGrammarMode && !isTestMode ? (
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className="flex items-center gap-1.5 font-semibold text-sm sm:text-base hover:opacity-90 transition text-left"
@@ -100,15 +108,22 @@ export const Header: React.FC = () => {
             </button>
           ) : (
             <div className="flex items-center gap-1.5 font-bold text-sm sm:text-base">
-              <span>{getHeaderTitle()}</span>
-              <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-amber-400 text-slate-950 uppercase">
-                112 Thẻ
-              </span>
+              <span className="truncate max-w-[130px] sm:max-w-xs">{getHeaderTitle()}</span>
+              {isGrammarMode && (
+                <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-amber-400 text-slate-950 uppercase">
+                  112 Thẻ
+                </span>
+              )}
+              {isTestMode && (
+                <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-emerald-400 text-slate-950 uppercase">
+                  59 Đề
+                </span>
+              )}
             </div>
           )}
 
           {/* Lesson Select Dropdown (Vocab mode) */}
-          {isDropdownOpen && !isGrammarMode && (
+          {isDropdownOpen && !isGrammarMode && !isTestMode && (
             <div className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white text-gray-800 rounded-xl shadow-2xl border border-gray-100 py-2 max-h-80 overflow-y-auto z-50 animate-in fade-in zoom-in-95 duration-150">
               <div className="px-3 py-1.5 text-xs font-bold text-gray-400 uppercase tracking-wider flex items-center justify-between border-b border-gray-100">
                 <span>Danh sách bài học (1.1 → 11.10)</span>
@@ -135,15 +150,15 @@ export const Header: React.FC = () => {
         </div>
       </div>
 
-      {/* Center: Module Switcher (TỪ VỰNG vs NGỮ PHÁP) */}
+      {/* Center: Module Switcher (TỪ VỰNG vs NGỮ PHÁP vs LUYỆN TEST) */}
       <div className="flex items-center bg-black/20 p-1 rounded-xl text-xs font-bold border border-white/10">
         <button
           onClick={() => {
             setActiveModule('vocab');
-            if (isGrammarMode) setScreen('lesson_grid');
+            if (isGrammarMode || isTestMode) setScreen('lesson_grid');
           }}
-          className={`px-2.5 sm:px-3 py-1 rounded-lg transition flex items-center gap-1 ${
-            !isGrammarMode
+          className={`px-2 sm:px-2.5 py-1 rounded-lg transition flex items-center gap-1 ${
+            !isGrammarMode && !isTestMode
               ? 'bg-white text-primary shadow-sm font-black'
               : 'text-blue-100 hover:text-white'
           }`}
@@ -158,7 +173,7 @@ export const Header: React.FC = () => {
             setActiveModule('grammar');
             setScreen('grammar_list');
           }}
-          className={`px-2.5 sm:px-3 py-1 rounded-lg transition flex items-center gap-1 ${
+          className={`px-2 sm:px-2.5 py-1 rounded-lg transition flex items-center gap-1 ${
             isGrammarMode
               ? 'bg-amber-400 text-slate-950 shadow-sm font-black'
               : 'text-blue-100 hover:text-white'
@@ -167,6 +182,22 @@ export const Header: React.FC = () => {
           <Sparkles className="w-3.5 h-3.5" />
           <span className="hidden xs:inline">Ngữ Pháp</span>
           <span className="xs:hidden">NP</span>
+        </button>
+
+        <button
+          onClick={() => {
+            setActiveModule('test');
+            setScreen('test_center');
+          }}
+          className={`px-2 sm:px-2.5 py-1 rounded-lg transition flex items-center gap-1 ${
+            isTestMode
+              ? 'bg-emerald-400 text-slate-950 shadow-sm font-black'
+              : 'text-blue-100 hover:text-white'
+          }`}
+        >
+          <Layers className="w-3.5 h-3.5" />
+          <span className="hidden xs:inline">Luyện Test</span>
+          <span className="xs:hidden">Test</span>
         </button>
       </div>
 

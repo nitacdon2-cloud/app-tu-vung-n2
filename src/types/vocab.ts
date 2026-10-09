@@ -79,5 +79,7 @@ export type ScreenName =
   | 'learning_mode'
   | 'grammar_list'
   | 'grammar_flashcard'
-  | 'grammar_test';
+  | 'grammar_test'
+  | 'test_center'
+  | 'exam_runner';
 

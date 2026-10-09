@@ -1,0 +1,4844 @@
+[
+  {
+    "test_id": "kanji_test_1",
+    "test_number": "1",
+    "title": "Test Kanji 1",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "際どい",
+        "question": "Cách đọc của「際どい」là gì?",
+        "type": "reading",
+        "choices": [
+          "ぎわどい",
+          "きわどい",
+          "さいどい",
+          "せいどい"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 2,
+        "prompt": "移民",
+        "question": "Cách đọc của「移民」là gì?",
+        "type": "reading",
+        "choices": [
+          "いたみ",
+          "じゅうみん",
+          "じゅうたみ",
+          "いみん"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 3,
+        "prompt": "領土",
+        "question": "Cách đọc của「領土」là gì?",
+        "type": "reading",
+        "choices": [
+          "りょうど",
+          "りょうと",
+          "りょど",
+          "りょと"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 4,
+        "prompt": "逸れる",
+        "question": "Cách đọc của「逸れる」là gì?",
+        "type": "reading",
+        "choices": [
+          "まぬかれる",
+          "かこれる",
+          "それる",
+          "のがれる"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 5,
+        "prompt": "扁桃腺",
+        "question": "Cách đọc của「扁桃腺」là gì?",
+        "type": "reading",
+        "choices": [
+          "へんどうぜん",
+          "へんどうせん",
+          "へんとうせん",
+          "へんとうぜん"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 6,
+        "prompt": "垂れる",
+        "question": "Cách đọc của「垂れる」là gì?",
+        "type": "reading",
+        "choices": [
+          "それる",
+          "たれる",
+          "まつれる",
+          "すいれる"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 7,
+        "prompt": "標識",
+        "question": "Cách đọc của「標識」là gì?",
+        "type": "reading",
+        "choices": [
+          "ひょしき",
+          "ひょうしき",
+          "びょうじき",
+          "びょうしき"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 8,
+        "prompt": "考察",
+        "question": "Cách đọc của「考察」là gì?",
+        "type": "reading",
+        "choices": [
+          "こうざつ",
+          "かんさつ",
+          "かんざつ",
+          "こうさつ"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 9,
+        "prompt": "免税",
+        "question": "Cách đọc của「免税」là gì?",
+        "type": "reading",
+        "choices": [
+          "まんぜい",
+          "めんぜい",
+          "はんぜい",
+          "せんぜい"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 10,
+        "prompt": "天井",
+        "question": "Cách đọc của「天井」là gì?",
+        "type": "reading",
+        "choices": [
+          "てんい",
+          "てんしょう",
+          "てんじょう",
+          "てんらい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 11,
+        "prompt": "れいせい",
+        "question": "Chữ Hán của「れいせい」là gì?",
+        "type": "writing",
+        "choices": [
+          "玲静",
+          "冷静",
+          "領静",
+          "令静"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "とうそう",
+        "question": "Chữ Hán của「とうそう」là gì?",
+        "type": "writing",
+        "choices": [
+          "兆走",
+          "兆歩",
+          "逃走",
+          "逃歩"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 13,
+        "prompt": "かみん",
+        "question": "Chữ Hán của「かみん」là gì?",
+        "type": "writing",
+        "choices": [
+          "仮眠",
+          "過眠",
+          "仮眼",
+          "過眼"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 14,
+        "prompt": "さいじつ",
+        "question": "Chữ Hán của「さいじつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "蔡日",
+          "察日",
+          "際日",
+          "祭日"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 15,
+        "prompt": "ばくすい",
+        "question": "Chữ Hán của「ばくすい」là gì?",
+        "type": "writing",
+        "choices": [
+          "爆睡",
+          "瀑睡",
+          "爆眠",
+          "瀑眠"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 16,
+        "prompt": "ただよう",
+        "question": "Chữ Hán của「ただよう」là gì?",
+        "type": "writing",
+        "choices": [
+          "漂う",
+          "票う",
+          "標う",
+          "栗う"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "めんえきりょく",
+        "question": "Chữ Hán của「めんえきりょく」là gì?",
+        "type": "writing",
+        "choices": [
+          "晩疫力",
+          "逸疫力",
+          "免疫力",
+          "俛疫力"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 18,
+        "prompt": "はんい",
+        "question": "Chữ Hán của「はんい」là gì?",
+        "type": "writing",
+        "choices": [
+          "範困",
+          "範囲",
+          "範因",
+          "範団"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 19,
+        "prompt": "けんすい",
+        "question": "Chữ Hán của「けんすい」là gì?",
+        "type": "writing",
+        "choices": [
+          "懸郵",
+          "縣垂",
+          "懸垂",
+          "縣郵"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 20,
+        "prompt": "おうりょう",
+        "question": "Chữ Hán của「おうりょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "黄領",
+          "横領",
+          "横彾",
+          "黄彾"
+        ],
+        "correct_answer": 2
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_2",
+    "test_number": "2",
+    "title": "Test Kanji 2",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "統一",
+        "question": "Cách đọc của「統一」là gì?",
+        "type": "reading",
+        "choices": [
+          "とういつ",
+          "とういち",
+          "といつ",
+          "といち"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 2,
+        "prompt": "夫婦",
+        "question": "Cách đọc của「夫婦」là gì?",
+        "type": "reading",
+        "choices": [
+          "ふうふう",
+          "ふうふ",
+          "ふふう",
+          "ふふ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 3,
+        "prompt": "柔道",
+        "question": "Cách đọc của「柔道」là gì?",
+        "type": "reading",
+        "choices": [
+          "じゅどう",
+          "じゅど",
+          "じゅうどう",
+          "じゅうど"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 4,
+        "prompt": "矛盾",
+        "question": "Cách đọc của「矛盾」là gì?",
+        "type": "reading",
+        "choices": [
+          "ほこじゅん",
+          "むしゅん",
+          "ほこしゅん",
+          "むじゅん"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 5,
+        "prompt": "殺害",
+        "question": "Cách đọc của「殺害」là gì?",
+        "type": "reading",
+        "choices": [
+          "さっがい",
+          "さっかい",
+          "さつがい",
+          "さつかい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 6,
+        "prompt": "謙譲語",
+        "question": "Cách đọc của「謙譲語」là gì?",
+        "type": "reading",
+        "choices": [
+          "けんぞうご",
+          "けんじょうご",
+          "けんぞご",
+          "けんじょご"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 7,
+        "prompt": "彫る",
+        "question": "Cách đọc của「彫る」là gì?",
+        "type": "reading",
+        "choices": [
+          "ほこる",
+          "ほる",
+          "はる",
+          "はこる"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 8,
+        "prompt": "夜更かし",
+        "question": "Cách đọc của「夜更かし」là gì?",
+        "type": "reading",
+        "choices": [
+          "よぶかし",
+          "やぶかし",
+          "やふかし",
+          "よふかし"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 9,
+        "prompt": "管轄",
+        "question": "Cách đọc của「管轄」là gì?",
+        "type": "reading",
+        "choices": [
+          "かんかつ",
+          "かんがつ",
+          "かんけつ",
+          "かんげつ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 10,
+        "prompt": "賢者",
+        "question": "Cách đọc của「賢者」là gì?",
+        "type": "reading",
+        "choices": [
+          "けんじゃ",
+          "けんしゃ",
+          "かんしゃ",
+          "かんじゃ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 11,
+        "prompt": "じゅうだん",
+        "question": "Chữ Hán của「じゅうだん」là gì?",
+        "type": "writing",
+        "choices": [
+          "充弾",
+          "統弾",
+          "就弾",
+          "銃弾"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "いっそう",
+        "question": "Chữ Hán của「いっそう」là gì?",
+        "type": "writing",
+        "choices": [
+          "一婦",
+          "一掃",
+          "一帰",
+          "一侵"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 13,
+        "prompt": "がいむしょう",
+        "question": "Chữ Hán của「がいむしょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "外敄署",
+          "外務省",
+          "外敄省",
+          "外務署"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 14,
+        "prompt": "わりあい",
+        "question": "Chữ Hán của「わりあい」là gì?",
+        "type": "writing",
+        "choices": [
+          "割会",
+          "害合",
+          "割合",
+          "害会"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 15,
+        "prompt": "たより",
+        "question": "Chữ Hán của「たより」là gì?",
+        "type": "writing",
+        "choices": [
+          "便り",
+          "更り",
+          "硬り",
+          "使り"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 16,
+        "prompt": "きげん",
+        "question": "Chữ Hán của「きげん」là gì?",
+        "type": "writing",
+        "choices": [
+          "機兼",
+          "機謙",
+          "機嫌",
+          "機鎌"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 17,
+        "prompt": "こうか",
+        "question": "Chữ Hán của「こうか」là gì?",
+        "type": "writing",
+        "choices": [
+          "硬貨",
+          "硬貸",
+          "堅貨",
+          "堅貸"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 18,
+        "prompt": "きんきゅう",
+        "question": "Chữ Hán của「きんきゅう」là gì?",
+        "type": "writing",
+        "choices": [
+          "緊急",
+          "縣急",
+          "堅急",
+          "賢急"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 19,
+        "prompt": "ちょうこく",
+        "question": "Chữ Hán của「ちょうこく」là gì?",
+        "type": "writing",
+        "choices": [
+          "調刻",
+          "彫刻",
+          "鯛刻",
+          "周刻"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 20,
+        "prompt": "こうしん",
+        "question": "Chữ Hán của「こうしん」là gì?",
+        "type": "writing",
+        "choices": [
+          "便新",
+          "更親",
+          "更新",
+          "便親"
+        ],
+        "correct_answer": 3
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_3",
+    "test_number": "3",
+    "title": "Test Kanji 3",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "幻",
+        "question": "Cách đọc của「幻」là gì?",
+        "type": "reading",
+        "choices": [
+          "まばろし",
+          "まぼろし",
+          "もぼろし",
+          "もばろし"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 2,
+        "prompt": "症候群",
+        "question": "Cách đọc của「症候群」là gì?",
+        "type": "reading",
+        "choices": [
+          "しょこうぐん",
+          "しょうこぐん",
+          "しょうこうぐん",
+          "しょこぐん"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 3,
+        "prompt": "破棄",
+        "question": "Cách đọc của「破棄」là gì?",
+        "type": "reading",
+        "choices": [
+          "はき",
+          "はぎ",
+          "はっき",
+          "はっぎ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 4,
+        "prompt": "殴る",
+        "question": "Cách đọc của「殴る」là gì?",
+        "type": "reading",
+        "choices": [
+          "ながる",
+          "なぐる",
+          "ねぐる",
+          "ねがる"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 5,
+        "prompt": "抱負",
+        "question": "Cách đọc của「抱負」là gì?",
+        "type": "reading",
+        "choices": [
+          "ほふう",
+          "ぼうふ",
+          "ぼふう",
+          "ほうふ"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 6,
+        "prompt": "枠組み",
+        "question": "Cách đọc của「枠組み」là gì?",
+        "type": "reading",
+        "choices": [
+          "わくくみ",
+          "わぐくみ",
+          "わくぐみ",
+          "わぐぐみ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 7,
+        "prompt": "販売",
+        "question": "Cách đọc của「販売」là gì?",
+        "type": "reading",
+        "choices": [
+          "はんばい",
+          "はんはい",
+          "はんぱい",
+          "はんぼい"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 8,
+        "prompt": "保証",
+        "question": "Cách đọc của「保証」là gì?",
+        "type": "reading",
+        "choices": [
+          "ほしょ",
+          "ほうしょ",
+          "ほうしょう",
+          "ほしょう"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 9,
+        "prompt": "被る",
+        "question": "Cách đọc của「被る」là gì?",
+        "type": "reading",
+        "choices": [
+          "つかれる",
+          "こむる",
+          "こうむる",
+          "つかる"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 10,
+        "prompt": "宮殿",
+        "question": "Cách đọc của「宮殿」là gì?",
+        "type": "reading",
+        "choices": [
+          "きゅうてん",
+          "きゅでん",
+          "きゅてん",
+          "きゅうでん"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 11,
+        "prompt": "こうせい",
+        "question": "Chữ Hán của「こうせい」là gì?",
+        "type": "writing",
+        "choices": [
+          "購成",
+          "構整",
+          "構成",
+          "購整"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "じゅんすい",
+        "question": "Chữ Hán của「じゅんすい」là gì?",
+        "type": "writing",
+        "choices": [
+          "純酔",
+          "純粋",
+          "純枠",
+          "純砕"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 13,
+        "prompt": "きほう",
+        "question": "Chữ Hán của「きほう」là gì?",
+        "type": "writing",
+        "choices": [
+          "気砲",
+          "気泡",
+          "汽砲",
+          "汽泡"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 14,
+        "prompt": "じゅこう",
+        "question": "Chữ Hán của「じゅこう」là gì?",
+        "type": "writing",
+        "choices": [
+          "受構",
+          "受購",
+          "受講",
+          "受溝"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 15,
+        "prompt": "けびょう",
+        "question": "Chữ Hán của「けびょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "軽病",
+          "仮病",
+          "軽症",
+          "仮症"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 16,
+        "prompt": "くろうと",
+        "question": "Chữ Hán của「くろうと」là gì?",
+        "type": "writing",
+        "choices": [
+          "玄人",
+          "素人",
+          "黒人",
+          "幼人"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "せいり",
+        "question": "Chữ Hán của「せいり」là gì?",
+        "type": "writing",
+        "choices": [
+          "製理",
+          "整理",
+          "政理",
+          "勢理"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 18,
+        "prompt": "ひがい",
+        "question": "Chữ Hán của「ひがい」là gì?",
+        "type": "writing",
+        "choices": [
+          "披害",
+          "疲害",
+          "破害",
+          "被害"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 19,
+        "prompt": "よっぱらう",
+        "question": "Chữ Hán của「よっぱらう」là gì?",
+        "type": "writing",
+        "choices": [
+          "酒っ払う",
+          "酔っ払う",
+          "配っ払う",
+          "醸っ払う"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 20,
+        "prompt": "げんかく",
+        "question": "Chữ Hán của「げんかく」là gì?",
+        "type": "writing",
+        "choices": [
+          "玄覚",
+          "幼覚",
+          "幻覚",
+          "弦覚"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_4",
+    "test_number": "4",
+    "title": "Test Kanji 4",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "右隣",
+        "question": "Cách đọc của「右隣」là gì?",
+        "type": "reading",
+        "choices": [
+          "ゆうりん",
+          "みぎどなり",
+          "うりん",
+          "みぎとなり"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 2,
+        "prompt": "採集",
+        "question": "Cách đọc của「採集」là gì?",
+        "type": "reading",
+        "choices": [
+          "さいじゅう",
+          "さいしゅ",
+          "さいしゅう",
+          "さいじゅ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 3,
+        "prompt": "軟骨",
+        "question": "Cách đọc của「軟骨」là gì?",
+        "type": "reading",
+        "choices": [
+          "なんこつ",
+          "なんごつ",
+          "やわらかぼね",
+          "やわらかほね"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 4,
+        "prompt": "街灯",
+        "question": "Cách đọc của「街灯」là gì?",
+        "type": "reading",
+        "choices": [
+          "がいと",
+          "がいとう",
+          "かいとう",
+          "かいと"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 5,
+        "prompt": "体操",
+        "question": "Cách đọc của「体操」là gì?",
+        "type": "reading",
+        "choices": [
+          "たいしょう",
+          "たいそう",
+          "たいしょ",
+          "たいそ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 6,
+        "prompt": "競争",
+        "question": "Cách đọc của「競争」là gì?",
+        "type": "reading",
+        "choices": [
+          "きょうそ",
+          "きょそう",
+          "きょそ",
+          "きょうそう"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 7,
+        "prompt": "拍手",
+        "question": "Cách đọc của「拍手」là gì?",
+        "type": "reading",
+        "choices": [
+          "はくしゅう",
+          "あくしゅう",
+          "はくしゅ",
+          "あくしゅ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 8,
+        "prompt": "気象庁",
+        "question": "Cách đọc của「気象庁」là gì?",
+        "type": "reading",
+        "choices": [
+          "きそうちょ",
+          "きしょうちょう",
+          "きそうちょう",
+          "きしょうちょ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 9,
+        "prompt": "状況",
+        "question": "Cách đọc của「状況」là gì?",
+        "type": "reading",
+        "choices": [
+          "じょうきょう",
+          "じょきょう",
+          "じょうきょ",
+          "じょきょ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 10,
+        "prompt": "競馬",
+        "question": "Cách đọc của「競馬」là gì?",
+        "type": "reading",
+        "choices": [
+          "きょうば",
+          "けば",
+          "けいば",
+          "きょば"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 11,
+        "prompt": "せいげん",
+        "question": "Chữ Hán của「せいげん」là gì?",
+        "type": "writing",
+        "choices": [
+          "製限",
+          "制限",
+          "製眼",
+          "制眼"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "かんそう",
+        "question": "Chữ Hán của「かんそう」là gì?",
+        "type": "writing",
+        "choices": [
+          "乾燥",
+          "乾操",
+          "乾躁",
+          "乾繰"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 13,
+        "prompt": "えいせい",
+        "question": "Chữ Hán của「えいせい」là gì?",
+        "type": "writing",
+        "choices": [
+          "衛性",
+          "術生",
+          "衛生",
+          "術性"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 14,
+        "prompt": "ゆにゅう",
+        "question": "Chữ Hán của「ゆにゅう」là gì?",
+        "type": "writing",
+        "choices": [
+          "輪入",
+          "輸入",
+          "輪人",
+          "輸人"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 15,
+        "prompt": "いろどる",
+        "question": "Chữ Hán của「いろどる」là gì?",
+        "type": "writing",
+        "choices": [
+          "菜る",
+          "彩る",
+          "採る",
+          "棌る"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 16,
+        "prompt": "ぼうはん",
+        "question": "Chữ Hán của「ぼうはん」là gì?",
+        "type": "writing",
+        "choices": [
+          "坊犯",
+          "紡犯",
+          "妨犯",
+          "防犯"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "のきさき",
+        "question": "Chữ Hán của「のきさき」là gì?",
+        "type": "writing",
+        "choices": [
+          "軒先",
+          "軟先",
+          "軒前",
+          "軟前"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 18,
+        "prompt": "ごしゅうぎ",
+        "question": "Chữ Hán của「ごしゅうぎ」là gì?",
+        "type": "writing",
+        "choices": [
+          "ご柷儀",
+          "ご祝儀",
+          "ご柷義",
+          "ご祝義"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 19,
+        "prompt": "あっしゅく",
+        "question": "Chữ Hán của「あっしゅく」là gì?",
+        "type": "writing",
+        "choices": [
+          "圧縮",
+          "圧宿",
+          "圧蓿",
+          "圧祝"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 20,
+        "prompt": "ていたい",
+        "question": "Chữ Hán của「ていたい」là gì?",
+        "type": "writing",
+        "choices": [
+          "亭滞",
+          "停体",
+          "停滞",
+          "亭体"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_5",
+    "test_number": "5",
+    "title": "Test Kanji 5",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "巣作り",
+        "question": "Cách đọc của「巣作り」là gì?",
+        "type": "reading",
+        "choices": [
+          "そうつくり",
+          "すつくり",
+          "そうづくり",
+          "すづくり"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 2,
+        "prompt": "湿原",
+        "question": "Cách đọc của「湿原」là gì?",
+        "type": "reading",
+        "choices": [
+          "しっげん",
+          "しつげん",
+          "しっけん",
+          "しつけん"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 3,
+        "prompt": "著名人",
+        "question": "Cách đọc của「著名人」là gì?",
+        "type": "reading",
+        "choices": [
+          "ちょうめいにん",
+          "ちょうめいじん",
+          "ちょめいにん",
+          "ちょめいじん"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 4,
+        "prompt": "節目",
+        "question": "Cách đọc của「節目」là gì?",
+        "type": "reading",
+        "choices": [
+          "せつもく",
+          "せちもく",
+          "ふしめ",
+          "せつめ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 5,
+        "prompt": "強敵",
+        "question": "Cách đọc của「強敵」là gì?",
+        "type": "reading",
+        "choices": [
+          "きょてき",
+          "きょうてき",
+          "きょうでき",
+          "きょでき"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 6,
+        "prompt": "鉱山",
+        "question": "Cách đọc của「鉱山」là gì?",
+        "type": "reading",
+        "choices": [
+          "こうざん",
+          "こうさん",
+          "こざん",
+          "こさん"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 7,
+        "prompt": "払拭",
+        "question": "Cách đọc của「払拭」là gì?",
+        "type": "reading",
+        "choices": [
+          "ふつしょく",
+          "ふつしき",
+          "ふっしき",
+          "ふっしょく"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 8,
+        "prompt": "滴る",
+        "question": "Cách đọc của「滴る」là gì?",
+        "type": "reading",
+        "choices": [
+          "したたる",
+          "しただる",
+          "しだたる",
+          "しだだる"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 9,
+        "prompt": "枯渇",
+        "question": "Cách đọc của「枯渇」là gì?",
+        "type": "reading",
+        "choices": [
+          "こうかつ",
+          "こかつ",
+          "こうがつ",
+          "こがつ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 10,
+        "prompt": "課題",
+        "question": "Cách đọc của「課題」là gì?",
+        "type": "reading",
+        "choices": [
+          "かたい",
+          "かてい",
+          "かだい",
+          "がてい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 11,
+        "prompt": "ごげん",
+        "question": "Chữ Hán của「ごげん」là gì?",
+        "type": "writing",
+        "choices": [
+          "語源",
+          "話源",
+          "語原",
+          "話原"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "べっそう",
+        "question": "Chữ Hán của「べっそう」là gì?",
+        "type": "writing",
+        "choices": [
+          "別送",
+          "別荘",
+          "別装",
+          "別壮"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 13,
+        "prompt": "しょうぼうしょ",
+        "question": "Chữ Hán của「しょうぼうしょ」là gì?",
+        "type": "writing",
+        "choices": [
+          "消防庁",
+          "消防書",
+          "消防所",
+          "消防署"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 14,
+        "prompt": "そくはつ",
+        "question": "Chữ Hán của「そくはつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "即発",
+          "節発",
+          "卽発",
+          "喞発"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 15,
+        "prompt": "てんてき",
+        "question": "Chữ Hán của「てんてき」là gì?",
+        "type": "writing",
+        "choices": [
+          "点敵",
+          "点滴",
+          "点適",
+          "点摘"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 16,
+        "prompt": "かくさん",
+        "question": "Chữ Hán của「かくさん」là gì?",
+        "type": "writing",
+        "choices": [
+          "払散",
+          "宏散",
+          "鉱散",
+          "拡散"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 17,
+        "prompt": "いざかや",
+        "question": "Chữ Hán của「いざかや」là gì?",
+        "type": "writing",
+        "choices": [
+          "居酒屋",
+          "居酒店",
+          "民酒屋",
+          "民酒店"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 18,
+        "prompt": "おんせん",
+        "question": "Chữ Hán của「おんせん」là gì?",
+        "type": "writing",
+        "choices": [
+          "暖泉",
+          "暖線",
+          "温泉",
+          "温線"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 19,
+        "prompt": "よそおう",
+        "question": "Chữ Hán của「よそおう」là gì?",
+        "type": "writing",
+        "choices": [
+          "著う",
+          "枯う",
+          "粧う",
+          "装う"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 20,
+        "prompt": "せいか",
+        "question": "Chữ Hán của「せいか」là gì?",
+        "type": "writing",
+        "choices": [
+          "製果",
+          "製菓",
+          "制果",
+          "制課"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_6",
+    "test_number": "6",
+    "title": "Test Kanji 6",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "偶数",
+        "question": "Cách đọc của「偶数」là gì?",
+        "type": "reading",
+        "choices": [
+          "ぐうす",
+          "ぐすう",
+          "ぐす",
+          "ぐうすう"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 2,
+        "prompt": "同盟",
+        "question": "Cách đọc của「同盟」là gì?",
+        "type": "reading",
+        "choices": [
+          "とうめい",
+          "どうめい",
+          "とめい",
+          "どめい"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 3,
+        "prompt": "配分",
+        "question": "Cách đọc của「配分」là gì?",
+        "type": "reading",
+        "choices": [
+          "はいぶん",
+          "はいぶ",
+          "はいぷん",
+          "はいふん"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 4,
+        "prompt": "斜面",
+        "question": "Cách đọc của「斜面」là gì?",
+        "type": "reading",
+        "choices": [
+          "ななめん",
+          "しゃっめん",
+          "しゃめん",
+          "さいめん"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 5,
+        "prompt": "状態",
+        "question": "Cách đọc của「状態」là gì?",
+        "type": "reading",
+        "choices": [
+          "ぞうたい",
+          "じょうたい",
+          "しょうたい",
+          "じょうだい"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 6,
+        "prompt": "省略",
+        "question": "Cách đọc của「省略」là gì?",
+        "type": "reading",
+        "choices": [
+          "せいりゃく",
+          "しょりゃく",
+          "しょうりゃく",
+          "せりゃく"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 7,
+        "prompt": "聴衆",
+        "question": "Cách đọc của「聴衆」là gì?",
+        "type": "reading",
+        "choices": [
+          "ちょうじゅう",
+          "ちょうしゅう",
+          "ちょうじゅ",
+          "ちょうしゅ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 8,
+        "prompt": "改訂",
+        "question": "Cách đọc của「改訂」là gì?",
+        "type": "reading",
+        "choices": [
+          "かくてい",
+          "かいせい",
+          "かいてい",
+          "かくせい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 9,
+        "prompt": "駆除",
+        "question": "Cách đọc của「駆除」là gì?",
+        "type": "reading",
+        "choices": [
+          "そうじょ",
+          "くうじょ",
+          "そうじょう",
+          "くじょ"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 10,
+        "prompt": "窓際",
+        "question": "Cách đọc của「窓際」là gì?",
+        "type": "reading",
+        "choices": [
+          "まどぎわ",
+          "まどきわ",
+          "そうさい",
+          "そうざい"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 11,
+        "prompt": "そうしょう",
+        "question": "Chữ Hán của「そうしょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "聡称",
+          "総称",
+          "綜称",
+          "窓称"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 12,
+        "prompt": "ちゅうと半端",
+        "question": "Chữ Hán của「ちゅうと半端」là gì?",
+        "type": "writing",
+        "choices": [
+          "仲途",
+          "中涂",
+          "中途",
+          "仲涂"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 13,
+        "prompt": "ぜんかん",
+        "question": "Chữ Hán của「ぜんかん」là gì?",
+        "type": "writing",
+        "choices": [
+          "全券",
+          "全巻",
+          "全拳",
+          "全美"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 14,
+        "prompt": "りえき",
+        "question": "Chữ Hán của「りえき」là gì?",
+        "type": "writing",
+        "choices": [
+          "利益",
+          "理謚",
+          "利謚",
+          "理益"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 15,
+        "prompt": "がくぶち",
+        "question": "Chữ Hán của「がくぶち」là gì?",
+        "type": "writing",
+        "choices": [
+          "咯縁",
+          "額縁",
+          "咯線",
+          "額線"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 16,
+        "prompt": "ちりょう",
+        "question": "Chữ Hán của「ちりょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "治寮",
+          "治遼",
+          "治療",
+          "治僚"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 17,
+        "prompt": "ぐもん",
+        "question": "Chữ Hán của「ぐもん」là gì?",
+        "type": "writing",
+        "choices": [
+          "寓問",
+          "隅問",
+          "遇問",
+          "愚問"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 18,
+        "prompt": "かくりょう",
+        "question": "Chữ Hán của「かくりょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "閣僚",
+          "鬩僚",
+          "閣燎",
+          "鬩燎"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 19,
+        "prompt": "ゆうづう",
+        "question": "Chữ Hán của「ゆうづう」là gì?",
+        "type": "writing",
+        "choices": [
+          "触通",
+          "騒通",
+          "融通",
+          "隔通"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 20,
+        "prompt": "あらし",
+        "question": "Chữ Hán của「あらし」là gì?",
+        "type": "writing",
+        "choices": [
+          "嵐",
+          "荒",
+          "風",
+          "颪"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_7",
+    "test_number": "7",
+    "title": "Test Kanji 7",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "主将",
+        "question": "Cách đọc của「主将」là gì?",
+        "type": "reading",
+        "choices": [
+          "しゅしょう",
+          "しゅうしょ",
+          "しゅうしょう",
+          "しゅしょ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 2,
+        "prompt": "浸る",
+        "question": "Cách đọc của「浸る」là gì?",
+        "type": "reading",
+        "choices": [
+          "おかる",
+          "ねかる",
+          "ひたる",
+          "みだる"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 3,
+        "prompt": "濃厚",
+        "question": "Cách đọc của「濃厚」là gì?",
+        "type": "reading",
+        "choices": [
+          "のうこ",
+          "のうこう",
+          "のこう",
+          "のこ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 4,
+        "prompt": "春菊",
+        "question": "Cách đọc của「春菊」là gì?",
+        "type": "reading",
+        "choices": [
+          "はるきく",
+          "しゅんきく",
+          "はるぎく",
+          "しゅんぎく"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 5,
+        "prompt": "潔白",
+        "question": "Cách đọc của「潔白」là gì?",
+        "type": "reading",
+        "choices": [
+          "けつはく",
+          "けっぱく",
+          "けつばく",
+          "けっはく"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 6,
+        "prompt": "無礼",
+        "question": "Cách đọc của「無礼」là gì?",
+        "type": "reading",
+        "choices": [
+          "むれい",
+          "むらい",
+          "ぶれい",
+          "ぶらい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 7,
+        "prompt": "名札",
+        "question": "Cách đọc của「名札」là gì?",
+        "type": "reading",
+        "choices": [
+          "なぶた",
+          "めいさつ",
+          "なふだ",
+          "めいざつ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 8,
+        "prompt": "同封",
+        "question": "Cách đọc của「同封」là gì?",
+        "type": "reading",
+        "choices": [
+          "どうふう",
+          "とうふう",
+          "どうぶう",
+          "とうぶう"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 9,
+        "prompt": "盛大",
+        "question": "Cách đọc của「盛大」là gì?",
+        "type": "reading",
+        "choices": [
+          "じょうだい",
+          "もちたい",
+          "さかだい",
+          "せいだい"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 10,
+        "prompt": "抜群",
+        "question": "Cách đọc của「抜群」là gì?",
+        "type": "reading",
+        "choices": [
+          "ぱつぐん",
+          "ばつぐん",
+          "ぱっぐん",
+          "ばっぐん"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 11,
+        "prompt": "たんぱつ",
+        "question": "Chữ Hán của「たんぱつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "短髪",
+          "短発",
+          "担髪",
+          "担発"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "にんしん",
+        "question": "Chữ Hán của「にんしん」là gì?",
+        "type": "writing",
+        "choices": [
+          "姙娠",
+          "妊娠",
+          "妊振",
+          "姙振"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 13,
+        "prompt": "まんきつ",
+        "question": "Chữ Hán của「まんきつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "満契",
+          "満潔",
+          "満喫",
+          "満楔"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 14,
+        "prompt": "ていめい",
+        "question": "Chữ Hán của「ていめい」là gì?",
+        "type": "writing",
+        "choices": [
+          "亭迷",
+          "低謎",
+          "亭謎",
+          "低迷"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 15,
+        "prompt": "きゅうえん",
+        "question": "Chữ Hán của「きゅうえん」là gì?",
+        "type": "writing",
+        "choices": [
+          "救援",
+          "急援",
+          "救暖",
+          "急暖"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 16,
+        "prompt": "ゆうえつ",
+        "question": "Chữ Hán của「ゆうえつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "優超",
+          "優越",
+          "憂越",
+          "憂超"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 17,
+        "prompt": "じょうへき",
+        "question": "Chữ Hán của「じょうへき」là gì?",
+        "type": "writing",
+        "choices": [
+          "成壁",
+          "盛壁",
+          "城壁",
+          "誠壁"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 18,
+        "prompt": "しんにゅう",
+        "question": "Chữ Hán của「しんにゅう」là gì?",
+        "type": "writing",
+        "choices": [
+          "浸久",
+          "侵入",
+          "浸人",
+          "侵人"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 19,
+        "prompt": "はんらん",
+        "question": "Chữ Hán của「はんらん」là gì?",
+        "type": "writing",
+        "choices": [
+          "反覧",
+          "板乱",
+          "反乱",
+          "板覧"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 20,
+        "prompt": "おんぷ",
+        "question": "Chữ Hán của「おんぷ」là gì?",
+        "type": "writing",
+        "choices": [
+          "音将",
+          "音符",
+          "音付",
+          "音封"
+        ],
+        "correct_answer": 2
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_8",
+    "test_number": "8",
+    "title": "Test Kanji 8",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "頑丈",
+        "question": "Cách đọc của「頑丈」là gì?",
+        "type": "reading",
+        "choices": [
+          "がんじょう",
+          "かんじょう",
+          "がんしょ",
+          "かんしょ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 2,
+        "prompt": "圧倒的",
+        "question": "Cách đọc của「圧倒的」là gì?",
+        "type": "reading",
+        "choices": [
+          "あつどうてき",
+          "あつとうてき",
+          "あっどうてき",
+          "あっとうてき"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 3,
+        "prompt": "渇望",
+        "question": "Cách đọc của「渇望」là gì?",
+        "type": "reading",
+        "choices": [
+          "かつぼう",
+          "かっぼう",
+          "かつぼ​",
+          "かっぼ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 4,
+        "prompt": "湿る",
+        "question": "Cách đọc của「湿る」là gì?",
+        "type": "reading",
+        "choices": [
+          "まざる",
+          "しまる",
+          "しめる",
+          "くれる"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 5,
+        "prompt": "筒抜け",
+        "question": "Cách đọc của「筒抜け」là gì?",
+        "type": "reading",
+        "choices": [
+          "とうぬけ",
+          "つつぬけ",
+          "とうばっけ",
+          "つつばっけ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 6,
+        "prompt": "窃盗",
+        "question": "Cách đọc của「窃盗」là gì?",
+        "type": "reading",
+        "choices": [
+          "せっとう",
+          "せつとう",
+          "せっと",
+          "せつと"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 7,
+        "prompt": "除籍",
+        "question": "Cách đọc của「除籍」là gì?",
+        "type": "reading",
+        "choices": [
+          "じょうせき",
+          "じょうぜき",
+          "じょせき",
+          "じょぜき"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 8,
+        "prompt": "需要",
+        "question": "Cách đọc của「需要」là gì?",
+        "type": "reading",
+        "choices": [
+          "じゅうよ",
+          "じゅよう",
+          "じゅよ",
+          "じゅうよう"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 9,
+        "prompt": "我々",
+        "question": "Cách đọc của「我々」là gì?",
+        "type": "reading",
+        "choices": [
+          "われわれ",
+          "わがわが",
+          "それぞれ",
+          "わざわざ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 10,
+        "prompt": "吐き気",
+        "question": "Cách đọc của「吐き気」là gì?",
+        "type": "reading",
+        "choices": [
+          "はきき",
+          "ときき",
+          "はきけ",
+          "ときけ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 11,
+        "prompt": "おうかん",
+        "question": "Chữ Hán của「おうかん」là gì?",
+        "type": "writing",
+        "choices": [
+          "王完",
+          "玉完",
+          "王冠",
+          "玉冠"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "ぼしゅう",
+        "question": "Chữ Hán của「ぼしゅう」là gì?",
+        "type": "writing",
+        "choices": [
+          "暮集",
+          "募集",
+          "墓集",
+          "慕集"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 13,
+        "prompt": "かんい",
+        "question": "Chữ Hán của「かんい」là gì?",
+        "type": "writing",
+        "choices": [
+          "間易",
+          "簡湯",
+          "間湯",
+          "簡易"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 14,
+        "prompt": "とうし",
+        "question": "Chữ Hán của「とうし」là gì?",
+        "type": "writing",
+        "choices": [
+          "投資",
+          "投姿",
+          "当資",
+          "当姿"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 15,
+        "prompt": "らいう",
+        "question": "Chữ Hán của「らいう」là gì?",
+        "type": "writing",
+        "choices": [
+          "蕾雨",
+          "雷雨",
+          "擂雨",
+          "檑雨"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 16,
+        "prompt": "まざる",
+        "question": "Chữ Hán của「まざる」là gì?",
+        "type": "writing",
+        "choices": [
+          "混ざる",
+          "昆ざる",
+          "菎ざる",
+          "琨ざる"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "さいばん",
+        "question": "Chữ Hán của「さいばん」là gì?",
+        "type": "writing",
+        "choices": [
+          "栽判",
+          "載判",
+          "哉判",
+          "裁判"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 18,
+        "prompt": "ようし",
+        "question": "Chữ Hán của「ようし」là gì?",
+        "type": "writing",
+        "choices": [
+          "容粢",
+          "容姿",
+          "蓉姿",
+          "蓉粢"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 19,
+        "prompt": "ていぎ",
+        "question": "Chữ Hán của「ていぎ」là gì?",
+        "type": "writing",
+        "choices": [
+          "定義",
+          "定儀",
+          "定議",
+          "定檥"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 20,
+        "prompt": "ぼち",
+        "question": "Chữ Hán của「ぼち」là gì?",
+        "type": "writing",
+        "choices": [
+          "慕地",
+          "墓池",
+          "墓地",
+          "慕池"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_9",
+    "test_number": "9",
+    "title": "Test Kanji 9",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "紅色",
+        "question": "Cách đọc của「紅色」là gì?",
+        "type": "reading",
+        "choices": [
+          "こういろ",
+          "べにしょく",
+          "こうじょく",
+          "べにいろ"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 2,
+        "prompt": "導く",
+        "question": "Cách đọc của「導く」là gì?",
+        "type": "reading",
+        "choices": [
+          "あやまく",
+          "ひびく",
+          "みちびく",
+          "かがく"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 3,
+        "prompt": "子孫",
+        "question": "Cách đọc của「子孫」là gì?",
+        "type": "reading",
+        "choices": [
+          "しぞん",
+          "こまご",
+          "しそん",
+          "しまご"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 4,
+        "prompt": "過去",
+        "question": "Cách đọc của「過去」là gì?",
+        "type": "reading",
+        "choices": [
+          "かこう",
+          "すぎさる",
+          "かこ",
+          "すぎざる"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 5,
+        "prompt": "瓶詰め",
+        "question": "Cách đọc của「瓶詰め」là gì?",
+        "type": "reading",
+        "choices": [
+          "びんづめ",
+          "びんつめ",
+          "びんずめ",
+          "びんすめ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 6,
+        "prompt": "環境",
+        "question": "Cách đọc của「環境」là gì?",
+        "type": "reading",
+        "choices": [
+          "かんけい",
+          "かんきょ",
+          "かんきょう",
+          "かんざか"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 7,
+        "prompt": "宮廷",
+        "question": "Cách đọc của「宮廷」là gì?",
+        "type": "reading",
+        "choices": [
+          "きゅうでい",
+          "きゅてい",
+          "きゅでい",
+          "きゅうてい"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 8,
+        "prompt": "発掘",
+        "question": "Cách đọc của「発掘」là gì?",
+        "type": "reading",
+        "choices": [
+          "はつくつ",
+          "はつぐつ",
+          "はっくつ",
+          "はっぐつ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 9,
+        "prompt": "反響",
+        "question": "Cách đọc của「反響」là gì?",
+        "type": "reading",
+        "choices": [
+          "はんぎょう",
+          "はんきょう",
+          "はんきょ",
+          "はんぎょ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 10,
+        "prompt": "依存",
+        "question": "Cách đọc của「依存」là gì?",
+        "type": "reading",
+        "choices": [
+          "いそん",
+          "いぞん",
+          "いさい",
+          "いざい"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 11,
+        "prompt": "ぼく",
+        "question": "Chữ Hán của「ぼく」là gì?",
+        "type": "writing",
+        "choices": [
+          "撲",
+          "樸",
+          "僕",
+          "濮"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "かち",
+        "question": "Chữ Hán của「かち」là gì?",
+        "type": "writing",
+        "choices": [
+          "恤値",
+          "価値",
+          "課値",
+          "貸値"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 13,
+        "prompt": "きじゅつ",
+        "question": "Chữ Hán của「きじゅつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "記術",
+          "記怵",
+          "記述",
+          "記沭"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 14,
+        "prompt": "かわら",
+        "question": "Chữ Hán của「かわら」là gì?",
+        "type": "writing",
+        "choices": [
+          "互",
+          "瓶",
+          "亙",
+          "瓦"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 15,
+        "prompt": "ひにん",
+        "question": "Chữ Hán của「ひにん」là gì?",
+        "type": "writing",
+        "choices": [
+          "否妊",
+          "避妊",
+          "不妊",
+          "辟妊"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 16,
+        "prompt": "ゆうえんち",
+        "question": "Chữ Hán của「ゆうえんち」là gì?",
+        "type": "writing",
+        "choices": [
+          "游園地",
+          "斿園地",
+          "遊園地",
+          "蝣園地"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "うかぶ",
+        "question": "Chữ Hán của「うかぶ」là gì?",
+        "type": "writing",
+        "choices": [
+          "浮かぶ",
+          "桴かぶ",
+          "稃かぶ",
+          "莩かぶ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 18,
+        "prompt": "しがいせん",
+        "question": "Chữ Hán của「しがいせん」là gì?",
+        "type": "writing",
+        "choices": [
+          "此外線",
+          "些外線",
+          "紫外線",
+          "柴外線"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 19,
+        "prompt": "とだえる",
+        "question": "Chữ Hán của「とだえる」là gì?",
+        "type": "writing",
+        "choices": [
+          "途紀える",
+          "涂絶える",
+          "涂紀える",
+          "途絶える"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 20,
+        "prompt": "めがね",
+        "question": "Chữ Hán của「めがね」là gì?",
+        "type": "writing",
+        "choices": [
+          "眠鏡",
+          "眼鏡",
+          "眼境",
+          "眠境"
+        ],
+        "correct_answer": 2
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_10",
+    "test_number": "10",
+    "title": "Test Kanji 10",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "上昇",
+        "question": "Cách đọc của「上昇」là gì?",
+        "type": "reading",
+        "choices": [
+          "じょうしょ",
+          "じょうしょう",
+          "じょしょう",
+          "じょしょ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 2,
+        "prompt": "泥水",
+        "question": "Cách đọc của「泥水」là gì?",
+        "type": "reading",
+        "choices": [
+          "どろみず",
+          "ていすい",
+          "でいずい",
+          "とろみず"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 3,
+        "prompt": "長靴",
+        "question": "Cách đọc của「長靴」là gì?",
+        "type": "reading",
+        "choices": [
+          "ちょうくつ",
+          "ながくつ",
+          "ながぐつ",
+          "ちょうぐつ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 4,
+        "prompt": "恐怖",
+        "question": "Cách đọc của「恐怖」là gì?",
+        "type": "reading",
+        "choices": [
+          "きょうふう",
+          "きょふ",
+          "きょふう",
+          "きょうふ"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 5,
+        "prompt": "承る",
+        "question": "Cách đọc của「承る」là gì?",
+        "type": "reading",
+        "choices": [
+          "うけたわまる",
+          "うけわたまる",
+          "うけわまたる",
+          "うけたまわる"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 6,
+        "prompt": "反応",
+        "question": "Cách đọc của「反応」là gì?",
+        "type": "reading",
+        "choices": [
+          "はんおう",
+          "はんのう",
+          "はんお",
+          "はんの"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 7,
+        "prompt": "発展",
+        "question": "Cách đọc của「発展」là gì?",
+        "type": "reading",
+        "choices": [
+          "はってん",
+          "はつてん",
+          "はっでん",
+          "はつでん"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 8,
+        "prompt": "荒い",
+        "question": "Cách đọc của「荒い」là gì?",
+        "type": "reading",
+        "choices": [
+          "いらい",
+          "いそい",
+          "あらい",
+          "えらい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 9,
+        "prompt": "鳥肌",
+        "question": "Cách đọc của「鳥肌」là gì?",
+        "type": "reading",
+        "choices": [
+          "ちょうき",
+          "とりはだ",
+          "ちょうぎ",
+          "とりばだ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 10,
+        "prompt": "欠航",
+        "question": "Cách đọc của「欠航」là gì?",
+        "type": "reading",
+        "choices": [
+          "けっこう",
+          "けっこ",
+          "けっく",
+          "けっくう"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 11,
+        "prompt": "しょぶん",
+        "question": "Chữ Hán của「しょぶん」là gì?",
+        "type": "writing",
+        "choices": [
+          "署分",
+          "処分",
+          "書分",
+          "拠分"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 12,
+        "prompt": "ごうか",
+        "question": "Chữ Hán của「ごうか」là gì?",
+        "type": "writing",
+        "choices": [
+          "豪崋",
+          "豪垂",
+          "豪嘩",
+          "豪華"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 13,
+        "prompt": "じょうだん",
+        "question": "Chữ Hán của「じょうだん」là gì?",
+        "type": "writing",
+        "choices": [
+          "肌談",
+          "冗緂",
+          "冗談",
+          "肌緂"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 14,
+        "prompt": "かたはば",
+        "question": "Chữ Hán của「かたはば」là gì?",
+        "type": "writing",
+        "choices": [
+          "肩福",
+          "涓幅",
+          "涓福",
+          "肩幅"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 15,
+        "prompt": "きふ",
+        "question": "Chữ Hán của「きふ」là gì?",
+        "type": "writing",
+        "choices": [
+          "寄付",
+          "奇付",
+          "寄府",
+          "奇府"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 16,
+        "prompt": "めぐむ",
+        "question": "Chữ Hán của「めぐむ」là gì?",
+        "type": "writing",
+        "choices": [
+          "恵む",
+          "得む",
+          "獲む",
+          "惠む"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "けいしょう",
+        "question": "Chữ Hán của「けいしょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "継昇",
+          "継賞",
+          "継承",
+          "継省"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 18,
+        "prompt": "きょしゅ",
+        "question": "Chữ Hán của「きょしゅ」là gì?",
+        "type": "writing",
+        "choices": [
+          "巨手",
+          "挙手",
+          "擧手",
+          "許手"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 19,
+        "prompt": "こうげき",
+        "question": "Chữ Hán của「こうげき」là gì?",
+        "type": "writing",
+        "choices": [
+          "巧撃",
+          "攻劇",
+          "攻撃",
+          "巧劇"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 20,
+        "prompt": "いんさつ",
+        "question": "Chữ Hán của「いんさつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "印殺",
+          "印刷",
+          "要殺",
+          "要刷"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_11",
+    "test_number": "11",
+    "title": "Test Kanji 11",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "精進",
+        "question": "Cách đọc của「精進」là gì?",
+        "type": "reading",
+        "choices": [
+          "しょしん",
+          "しょうじん",
+          "しょじん",
+          "しょうしん"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 2,
+        "prompt": "博士",
+        "question": "Cách đọc của「博士」là gì?",
+        "type": "reading",
+        "choices": [
+          "はかせ",
+          "はかし",
+          "ばかし",
+          "ばかせ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 3,
+        "prompt": "稼ぐ",
+        "question": "Cách đọc của「稼ぐ」là gì?",
+        "type": "reading",
+        "choices": [
+          "そそぐ",
+          "からぐ",
+          "たすぐ",
+          "かせぐ"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 4,
+        "prompt": "寄贈",
+        "question": "Cách đọc của「寄贈」là gì?",
+        "type": "reading",
+        "choices": [
+          "きぞ",
+          "きぞう",
+          "ぎぞう",
+          "きそ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 5,
+        "prompt": "朝刊",
+        "question": "Cách đọc của「朝刊」là gì?",
+        "type": "reading",
+        "choices": [
+          "ちょうかん",
+          "ちょうがん",
+          "ちょかん",
+          "ちょがん"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 6,
+        "prompt": "仏像",
+        "question": "Cách đọc của「仏像」là gì?",
+        "type": "reading",
+        "choices": [
+          "ぶっぞう",
+          "ぶつそう",
+          "ぶつぞう",
+          "ぶっそう"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 7,
+        "prompt": "簿記",
+        "question": "Cách đọc của「簿記」là gì?",
+        "type": "reading",
+        "choices": [
+          "ぼうき",
+          "ぼっき",
+          "ぼき",
+          "ぼぎ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 8,
+        "prompt": "速攻",
+        "question": "Cách đọc của「速攻」là gì?",
+        "type": "reading",
+        "choices": [
+          "そっこう",
+          "そつこう",
+          "はやせめ",
+          "はやぜめ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 9,
+        "prompt": "牧畜",
+        "question": "Cách đọc của「牧畜」là gì?",
+        "type": "reading",
+        "choices": [
+          "ぼくぢく",
+          "ばくぢく",
+          "ばくちく",
+          "ぼくちく"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 10,
+        "prompt": "珍味",
+        "question": "Cách đọc của「珍味」là gì?",
+        "type": "reading",
+        "choices": [
+          "きんみ",
+          "じんみ",
+          "しんみ",
+          "ちんみ"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 11,
+        "prompt": "きよらかな",
+        "question": "Chữ Hán của「きよらかな」là gì?",
+        "type": "writing",
+        "choices": [
+          "請らかな",
+          "情らかな",
+          "清らかな",
+          "精らかな"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 12,
+        "prompt": "さんしょう",
+        "question": "Chữ Hán của「さんしょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "参照",
+          "惨照",
+          "参昭",
+          "惨昭"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 13,
+        "prompt": "ちしりょう",
+        "question": "Chữ Hán của「ちしりょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "血死量",
+          "致死量",
+          "致死料",
+          "致始量"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 14,
+        "prompt": "てつや",
+        "question": "Chữ Hán của「てつや」là gì?",
+        "type": "writing",
+        "choices": [
+          "澈夜",
+          "㬚夜",
+          "轍夜",
+          "徹夜"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 15,
+        "prompt": "うかがう",
+        "question": "Chữ Hán của「うかがう」là gì?",
+        "type": "writing",
+        "choices": [
+          "伺う",
+          "何う",
+          "可う",
+          "司う"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 16,
+        "prompt": "かいぬし",
+        "question": "Chữ Hán của「かいぬし」là gì?",
+        "type": "writing",
+        "choices": [
+          "飼主",
+          "詞い主",
+          "詞主",
+          "飼い主"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "とくべつ",
+        "question": "Chữ Hán của「とくべつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "特例",
+          "待別",
+          "特別",
+          "待例"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 18,
+        "prompt": "ちそう",
+        "question": "Chữ Hán của「ちそう」là gì?",
+        "type": "writing",
+        "choices": [
+          "地僧",
+          "地層",
+          "地増",
+          "地憎"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 19,
+        "prompt": "げきだん",
+        "question": "Chữ Hán của「げきだん」là gì?",
+        "type": "writing",
+        "choices": [
+          "劇団",
+          "撃団",
+          "激団",
+          "檄団"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 20,
+        "prompt": "けいじ",
+        "question": "Chữ Hán của「けいじ」là gì?",
+        "type": "writing",
+        "choices": [
+          "荊事",
+          "刑事",
+          "形事",
+          "邢事"
+        ],
+        "correct_answer": 2
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_12",
+    "test_number": "12",
+    "title": "Test Kanji 12",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "共働き",
+        "question": "Cách đọc của「共働き」là gì?",
+        "type": "reading",
+        "choices": [
+          "もとばたらき",
+          "ともはたらき",
+          "もとはたらき",
+          "ともばたらき"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 2,
+        "prompt": "招集",
+        "question": "Cách đọc của「招集」là gì?",
+        "type": "reading",
+        "choices": [
+          "しょうしゅう",
+          "しょしゅう",
+          "しょうしゅ",
+          "しょうじゅう"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 3,
+        "prompt": "宴会",
+        "question": "Cách đọc của「宴会」là gì?",
+        "type": "reading",
+        "choices": [
+          "えんがい",
+          "あんがい",
+          "えんかい",
+          "あんかい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 4,
+        "prompt": "景色",
+        "question": "Cách đọc của「景色」là gì?",
+        "type": "reading",
+        "choices": [
+          "けしき",
+          "けいしき",
+          "けしょく",
+          "けいしょく"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 5,
+        "prompt": "就業",
+        "question": "Cách đọc của「就業」là gì?",
+        "type": "reading",
+        "choices": [
+          "しゅぎょう",
+          "しゅうぎょう",
+          "しゅうぎょ",
+          "しゅうきょう"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 6,
+        "prompt": "罰金",
+        "question": "Cách đọc của「罰金」là gì?",
+        "type": "reading",
+        "choices": [
+          "ぱっきん",
+          "ばつきん",
+          "ばっきん",
+          "ぱつきん"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 7,
+        "prompt": "猫舌",
+        "question": "Cách đọc của「猫舌」là gì?",
+        "type": "reading",
+        "choices": [
+          "ねこした",
+          "ねこじた",
+          "びょうかつ",
+          "びょうがつ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 8,
+        "prompt": "群衆",
+        "question": "Cách đọc của「群衆」là gì?",
+        "type": "reading",
+        "choices": [
+          "くんしゅう",
+          "ぐんしゅ",
+          "くんしゅ",
+          "ぐんしゅう"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 9,
+        "prompt": "生鮮",
+        "question": "Cách đọc của「生鮮」là gì?",
+        "type": "reading",
+        "choices": [
+          "せいせん",
+          "せいぜん",
+          "せいぜい",
+          "せいせい"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 10,
+        "prompt": "影響",
+        "question": "Cách đọc của「影響」là gì?",
+        "type": "reading",
+        "choices": [
+          "えいきょ",
+          "えいきょう",
+          "えいぎょう",
+          "えいぎょ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 11,
+        "prompt": "ぎぜんしゃ",
+        "question": "Chữ Hán của「ぎぜんしゃ」là gì?",
+        "type": "writing",
+        "choices": [
+          "偽膳者",
+          "偽繕者",
+          "偽僐者",
+          "偽善者"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 12,
+        "prompt": "ごかい",
+        "question": "Chữ Hán của「ごかい」là gì?",
+        "type": "writing",
+        "choices": [
+          "誤解",
+          "呉解",
+          "誤嶰",
+          "呉嶰"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 13,
+        "prompt": "ゆうわく",
+        "question": "Chữ Hán của「ゆうわく」là gì?",
+        "type": "writing",
+        "choices": [
+          "莠惑",
+          "唀惑",
+          "游惑",
+          "誘惑"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 14,
+        "prompt": "おかす",
+        "question": "Chữ Hán của「おかす」là gì?",
+        "type": "writing",
+        "choices": [
+          "犯す",
+          "氾す",
+          "范す",
+          "扳す"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 15,
+        "prompt": "くわしい",
+        "question": "Chữ Hán của「くわしい」là gì?",
+        "type": "writing",
+        "choices": [
+          "祥しい",
+          "庠しい",
+          "詳しい",
+          "牂しい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 16,
+        "prompt": "せばまる",
+        "question": "Chữ Hán của「せばまる」là gì?",
+        "type": "writing",
+        "choices": [
+          "独まる",
+          "狭まる",
+          "猫まる",
+          "犯まる"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 17,
+        "prompt": "せいりょう",
+        "question": "Chữ Hán của「せいりょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "清凉",
+          "情涼",
+          "清涼",
+          "情凉"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 18,
+        "prompt": "いたく",
+        "question": "Chữ Hán của「いたく」là gì?",
+        "type": "writing",
+        "choices": [
+          "委宅",
+          "衣託",
+          "衣宅",
+          "委託"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 19,
+        "prompt": "どろぬまか",
+        "question": "Chữ Hán của「どろぬまか」là gì?",
+        "type": "writing",
+        "choices": [
+          "詔沼化",
+          "泥沼化",
+          "玿沼化",
+          "昭沼化"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 20,
+        "prompt": "いじょう",
+        "question": "Chữ Hán của「いじょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "胃常",
+          "畏常",
+          "異常",
+          "遺常"
+        ],
+        "correct_answer": 3
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_13",
+    "test_number": "13",
+    "title": "Test Kanji 13",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "協同",
+        "question": "Cách đọc của「協同」là gì?",
+        "type": "reading",
+        "choices": [
+          "きょどう",
+          "きょうとう",
+          "きょうどう",
+          "きょうど"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 2,
+        "prompt": "背骨",
+        "question": "Cách đọc của「背骨」là gì?",
+        "type": "reading",
+        "choices": [
+          "せっこつ",
+          "せほね",
+          "せつこつ",
+          "せぼね"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 3,
+        "prompt": "雪崩",
+        "question": "Cách đọc của「雪崩」là gì?",
+        "type": "reading",
+        "choices": [
+          "なだれ",
+          "せつだれ",
+          "せつほう",
+          "なぼう"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 4,
+        "prompt": "催す",
+        "question": "Cách đọc của「催す」là gì?",
+        "type": "reading",
+        "choices": [
+          "やとす",
+          "もよおす",
+          "きざす",
+          "はなす"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 5,
+        "prompt": "内臓",
+        "question": "Cách đọc của「内臓」là gì?",
+        "type": "reading",
+        "choices": [
+          "ないじょう",
+          "ないじょ",
+          "ないぞ",
+          "ないぞう"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 6,
+        "prompt": "胸騒ぎ",
+        "question": "Cách đọc của「胸騒ぎ」là gì?",
+        "type": "reading",
+        "choices": [
+          "むなさわぎ",
+          "むねさわぎ",
+          "きょうそうぎ",
+          "きょうぞうぎ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 7,
+        "prompt": "勇ましい",
+        "question": "Cách đọc của「勇ましい」là gì?",
+        "type": "reading",
+        "choices": [
+          "おさましい",
+          "いきましい",
+          "いさましい",
+          "おきましい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 8,
+        "prompt": "激励",
+        "question": "Cách đọc của「激励」là gì?",
+        "type": "reading",
+        "choices": [
+          "げきれい",
+          "げきれ",
+          "てきれい",
+          "てきれ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 9,
+        "prompt": "渡航",
+        "question": "Cách đọc của「渡航」là gì?",
+        "type": "reading",
+        "choices": [
+          "とこう",
+          "とごう",
+          "とうこう",
+          "とうごう"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 10,
+        "prompt": "滝",
+        "question": "Cách đọc của「滝」là gì?",
+        "type": "reading",
+        "choices": [
+          "はき",
+          "だき",
+          "さき",
+          "たき"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 11,
+        "prompt": "ようがん",
+        "question": "Chữ Hán của「ようがん」là gì?",
+        "type": "writing",
+        "choices": [
+          "浴岩",
+          "溶岩",
+          "溶若",
+          "浴若"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 12,
+        "prompt": "きんぞく",
+        "question": "Chữ Hán của「きんぞく」là gì?",
+        "type": "writing",
+        "choices": [
+          "働続",
+          "動続",
+          "勤続",
+          "勧簇"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 13,
+        "prompt": "ついか",
+        "question": "Chữ Hán của「ついか」là gì?",
+        "type": "writing",
+        "choices": [
+          "追加",
+          "追迦",
+          "迫加",
+          "迫迦"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 14,
+        "prompt": "みゃくらく",
+        "question": "Chữ Hán của「みゃくらく」là gì?",
+        "type": "writing",
+        "choices": [
+          "爪楽",
+          "脈楽",
+          "爪絡",
+          "脈絡"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 15,
+        "prompt": "えんご",
+        "question": "Chữ Hán của「えんご」là gì?",
+        "type": "writing",
+        "choices": [
+          "媛護",
+          "援護",
+          "援獲",
+          "媛獲"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 16,
+        "prompt": "けんげん",
+        "question": "Chữ Hán của「けんげん」là gì?",
+        "type": "writing",
+        "choices": [
+          "権限",
+          "權限",
+          "催限",
+          "誰限"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "ざつおん",
+        "question": "Chữ Hán của「ざつおん」là gì?",
+        "type": "writing",
+        "choices": [
+          "雜音",
+          "騒音",
+          "雑音",
+          "離音"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 18,
+        "prompt": "ふっきん",
+        "question": "Chữ Hán của「ふっきん」là gì?",
+        "type": "writing",
+        "choices": [
+          "複筋",
+          "腹筋",
+          "複荕",
+          "腹荕"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 19,
+        "prompt": "おきなわ",
+        "question": "Chữ Hán của「おきなわ」là gì?",
+        "type": "writing",
+        "choices": [
+          "中縄",
+          "仲縄",
+          "沖縄",
+          "冲縄"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 20,
+        "prompt": "じょうせい",
+        "question": "Chữ Hán của「じょうせい」là gì?",
+        "type": "writing",
+        "choices": [
+          "情勢",
+          "情埶",
+          "情熱",
+          "情塾"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_14",
+    "test_number": "14",
+    "title": "Test Kanji 14",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "坊主",
+        "question": "Cách đọc của「坊主」là gì?",
+        "type": "reading",
+        "choices": [
+          "ぼす",
+          "ぼうず",
+          "ぼうす",
+          "ぼず"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 2,
+        "prompt": "条約",
+        "question": "Cách đọc của「条約」là gì?",
+        "type": "reading",
+        "choices": [
+          "じょうやく",
+          "ぞうやく",
+          "じょやく",
+          "ぞやく"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 3,
+        "prompt": "杉",
+        "question": "Cách đọc của「杉」là gì?",
+        "type": "reading",
+        "choices": [
+          "さぎ",
+          "そぎ",
+          "せぎ",
+          "すぎ"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 4,
+        "prompt": "究極",
+        "question": "Cách đọc của「究極」là gì?",
+        "type": "reading",
+        "choices": [
+          "くうきょく",
+          "きゅうきょく",
+          "きゅきょく",
+          "くきょく"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 5,
+        "prompt": "消灯",
+        "question": "Cách đọc của「消灯」là gì?",
+        "type": "reading",
+        "choices": [
+          "しょうとう",
+          "しょうどう",
+          "しょうと",
+          "しょうど"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 6,
+        "prompt": "訪れる",
+        "question": "Cách đọc của「訪れる」là gì?",
+        "type": "reading",
+        "choices": [
+          "たずれる",
+          "はなれる",
+          "すみれる",
+          "おとずれる"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 7,
+        "prompt": "災難",
+        "question": "Cách đọc của「災難」là gì?",
+        "type": "reading",
+        "choices": [
+          "せいなん",
+          "さいなん",
+          "ざいなん",
+          "ぜいなん"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 8,
+        "prompt": "煙突",
+        "question": "Cách đọc của「煙突」là gì?",
+        "type": "reading",
+        "choices": [
+          "えんとつ",
+          "けむづき",
+          "えんどつ",
+          "けむつき"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 9,
+        "prompt": "賃金",
+        "question": "Cách đọc của「賃金」là gì?",
+        "type": "reading",
+        "choices": [
+          "ちんきん",
+          "さいきん",
+          "ちんぎん",
+          "さいぎん"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 10,
+        "prompt": "硬貨",
+        "question": "Cách đọc của「硬貨」là gì?",
+        "type": "reading",
+        "choices": [
+          "こうか",
+          "こうが",
+          "こか",
+          "こが"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 11,
+        "prompt": "まつ",
+        "question": "Chữ Hán của「まつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "桜",
+          "杉",
+          "松",
+          "桃"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 12,
+        "prompt": "ふさい",
+        "question": "Chữ Hán của「ふさい」là gì?",
+        "type": "writing",
+        "choices": [
+          "負積",
+          "負績",
+          "負襀",
+          "負債"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 13,
+        "prompt": "ざいさん",
+        "question": "Chữ Hán của「ざいさん」là gì?",
+        "type": "writing",
+        "choices": [
+          "射産",
+          "財産",
+          "則産",
+          "戝産"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 14,
+        "prompt": "ふんすい",
+        "question": "Chữ Hán của「ふんすい」là gì?",
+        "type": "writing",
+        "choices": [
+          "濆水",
+          "墳水",
+          "噴水",
+          "憤水"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 15,
+        "prompt": "すみび",
+        "question": "Chữ Hán của「すみび」là gì?",
+        "type": "writing",
+        "choices": [
+          "炭火",
+          "痰火",
+          "岩火",
+          "啖火"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 16,
+        "prompt": "しげき",
+        "question": "Chữ Hán của「しげき」là gì?",
+        "type": "writing",
+        "choices": [
+          "刺徹",
+          "刺激",
+          "利激",
+          "利徹"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 17,
+        "prompt": "しぼう",
+        "question": "Chữ Hán của「しぼう」là gì?",
+        "type": "writing",
+        "choices": [
+          "脂坊",
+          "脂防",
+          "脂紡",
+          "脂肪"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 18,
+        "prompt": "ほっとく",
+        "question": "Chữ Hán của「ほっとく」là gì?",
+        "type": "writing",
+        "choices": [
+          "訪っとく",
+          "芳っとく",
+          "放っとく",
+          "防っとく"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 19,
+        "prompt": "はいいろ",
+        "question": "Chữ Hán của「はいいろ」là gì?",
+        "type": "writing",
+        "choices": [
+          "広色",
+          "灰色",
+          "仄色",
+          "炎色"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 20,
+        "prompt": "きわめる",
+        "question": "Chữ Hán của「きわめる」là gì?",
+        "type": "writing",
+        "choices": [
+          "極める",
+          "亟める",
+          "殛める",
+          "樹める"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_15",
+    "test_number": "15",
+    "title": "Test Kanji 15",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "腕前",
+        "question": "Cách đọc của「腕前」là gì?",
+        "type": "reading",
+        "choices": [
+          "わんぜん",
+          "うでまえ",
+          "わんせん",
+          "うでぜん"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 2,
+        "prompt": "純粋",
+        "question": "Cách đọc của「純粋」là gì?",
+        "type": "reading",
+        "choices": [
+          "しゅんずい",
+          "じゅんずい",
+          "じゅんすい",
+          "しゅんすい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 3,
+        "prompt": "銅像",
+        "question": "Cách đọc của「銅像」là gì?",
+        "type": "reading",
+        "choices": [
+          "どうそう",
+          "どうぞう",
+          "とうぞう",
+          "とうそう"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 4,
+        "prompt": "破壊",
+        "question": "Cách đọc của「破壊」là gì?",
+        "type": "reading",
+        "choices": [
+          "はがい",
+          "はき",
+          "はかい",
+          "はぎ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 5,
+        "prompt": "手懐ける",
+        "question": "Cách đọc của「手懐ける」là gì?",
+        "type": "reading",
+        "choices": [
+          "てなづける",
+          "でなづける",
+          "でなずける",
+          "てなずける"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 6,
+        "prompt": "候補者",
+        "question": "Cách đọc của「候補者」là gì?",
+        "type": "reading",
+        "choices": [
+          "こうほじゃ",
+          "こうほしゃ",
+          "こほうじゃ",
+          "こほうしゃ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 7,
+        "prompt": "補習",
+        "question": "Cách đọc của「補習」là gì?",
+        "type": "reading",
+        "choices": [
+          "ほうしゅう",
+          "ほしゅう",
+          "ほうじゅう",
+          "ほじゅう"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 8,
+        "prompt": "洞窟",
+        "question": "Cách đọc của「洞窟」là gì?",
+        "type": "reading",
+        "choices": [
+          "どうくつ",
+          "どくつ",
+          "どうぐつ",
+          "どぐつ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 9,
+        "prompt": "腕枕",
+        "question": "Cách đọc của「腕枕」là gì?",
+        "type": "reading",
+        "choices": [
+          "わんまくら",
+          "わんちん",
+          "うでまぐら",
+          "うでまくら"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 10,
+        "prompt": "味噌汁",
+        "question": "Cách đọc của「味噌汁」là gì?",
+        "type": "reading",
+        "choices": [
+          "みそうしる",
+          "みそじる",
+          "みそうじる",
+          "みそしる"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 11,
+        "prompt": "どんかん",
+        "question": "Chữ Hán của「どんかん」là gì?",
+        "type": "writing",
+        "choices": [
+          "鈍感",
+          "忳感",
+          "純感",
+          "㹠感"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "あてな",
+        "question": "Chữ Hán của「あてな」là gì?",
+        "type": "writing",
+        "choices": [
+          "死名",
+          "宛名",
+          "苑名",
+          "怨名"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 13,
+        "prompt": "ふへん",
+        "question": "Chữ Hán của「ふへん」là gì?",
+        "type": "writing",
+        "choices": [
+          "譜編",
+          "潽偏",
+          "晋諞",
+          "普遍"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 14,
+        "prompt": "ひとなみ",
+        "question": "Chữ Hán của「ひとなみ」là gì?",
+        "type": "writing",
+        "choices": [
+          "人波み",
+          "人並み",
+          "人益み",
+          "人兵み"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 15,
+        "prompt": "あばれる",
+        "question": "Chữ Hán của「あばれる」là gì?",
+        "type": "writing",
+        "choices": [
+          "慕れる",
+          "墓れる",
+          "暴れる",
+          "摹れる"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 16,
+        "prompt": "はんしゃ",
+        "question": "Chữ Hán của「はんしゃ」là gì?",
+        "type": "writing",
+        "choices": [
+          "半射",
+          "反射",
+          "反謝",
+          "半謝"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "はりがね",
+        "question": "Chữ Hán của「はりがね」là gì?",
+        "type": "writing",
+        "choices": [
+          "針金",
+          "貼金",
+          "張金",
+          "剥金"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 18,
+        "prompt": "ちんぼつ",
+        "question": "Chữ Hán của「ちんぼつ」là gì?",
+        "type": "writing",
+        "choices": [
+          "枕没",
+          "酖沒",
+          "沈没",
+          "沈沒"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 19,
+        "prompt": "ろんてん",
+        "question": "Chữ Hán của「ろんてん」là gì?",
+        "type": "writing",
+        "choices": [
+          "掄点",
+          "論点",
+          "崘点",
+          "侖点"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 20,
+        "prompt": "たいほ",
+        "question": "Chữ Hán của「たいほ」là gì?",
+        "type": "writing",
+        "choices": [
+          "逮捕",
+          "逮浦",
+          "逮補",
+          "逮哺"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_16",
+    "test_number": "16",
+    "title": "Test Kanji 16",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "通帳",
+        "question": "Cách đọc của「通帳」là gì?",
+        "type": "reading",
+        "choices": [
+          "つちょう",
+          "つうちょ",
+          "つうちょう",
+          "つちょ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 2,
+        "prompt": "従順",
+        "question": "Cách đọc của「従順」là gì?",
+        "type": "reading",
+        "choices": [
+          "じゅうじゅん",
+          "じゅうしゅん",
+          "じゅじゅん",
+          "じゅしゅん"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 3,
+        "prompt": "宗教",
+        "question": "Cách đọc của「宗教」là gì?",
+        "type": "reading",
+        "choices": [
+          "しゅきょう",
+          "しゅうきょ",
+          "しゅうきょう",
+          "しゅきょ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 4,
+        "prompt": "香水",
+        "question": "Cách đọc của「香水」là gì?",
+        "type": "reading",
+        "choices": [
+          "こうずい",
+          "こずい",
+          "こすい",
+          "こうすい"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 5,
+        "prompt": "津々",
+        "question": "Cách đọc của「津々」là gì?",
+        "type": "reading",
+        "choices": [
+          "つづ",
+          "なみなみ",
+          "しんしん",
+          "きんきん"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 6,
+        "prompt": "傾く",
+        "question": "Cách đọc của「傾く」là gì?",
+        "type": "reading",
+        "choices": [
+          "いただく",
+          "いたく",
+          "あげく",
+          "かたむく"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 7,
+        "prompt": "偉人",
+        "question": "Cách đọc của「偉人」là gì?",
+        "type": "reading",
+        "choices": [
+          "いにん",
+          "いじん",
+          "えらひと",
+          "えらにん"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 8,
+        "prompt": "頂上",
+        "question": "Cách đọc của「頂上」là gì?",
+        "type": "reading",
+        "choices": [
+          "ちょうじょう",
+          "ちょじょう",
+          "ちょうしょう",
+          "ちょしょう"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 9,
+        "prompt": "欲張る",
+        "question": "Cách đọc của「欲張る」là gì?",
+        "type": "reading",
+        "choices": [
+          "よくちょうる",
+          "よくはる",
+          "よくばる",
+          "よくちょる"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 10,
+        "prompt": "延滞",
+        "question": "Cách đọc của「延滞」là gì?",
+        "type": "reading",
+        "choices": [
+          "のびたい",
+          "のびだい",
+          "えんたい",
+          "えんだい"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 11,
+        "prompt": "じゅうだん",
+        "question": "Chữ Hán của「じゅうだん」là gì?",
+        "type": "writing",
+        "choices": [
+          "縦断",
+          "縦団",
+          "従団",
+          "従断"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "きつもん",
+        "question": "Chữ Hán của「きつもん」là gì?",
+        "type": "writing",
+        "choices": [
+          "桔門",
+          "詰問",
+          "咭門",
+          "拮問"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 13,
+        "prompt": "おりたたみ",
+        "question": "Chữ Hán của「おりたたみ」là gì?",
+        "type": "writing",
+        "choices": [
+          "折り胃み",
+          "降り畳み",
+          "折り畳み",
+          "降り胃み"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 14,
+        "prompt": "かちく",
+        "question": "Chữ Hán của「かちく」là gì?",
+        "type": "writing",
+        "choices": [
+          "家畜",
+          "家蓄",
+          "家搐",
+          "家稸"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 15,
+        "prompt": "じょきん",
+        "question": "Chữ Hán của「じょきん」là gì?",
+        "type": "writing",
+        "choices": [
+          "消菌",
+          "除箘",
+          "除菌",
+          "消箘"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 16,
+        "prompt": "たんじょう",
+        "question": "Chữ Hán của「たんじょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "延生",
+          "涎生",
+          "莚生",
+          "誕生"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 17,
+        "prompt": "けんとう",
+        "question": "Chữ Hán của「けんとう」là gì?",
+        "type": "writing",
+        "choices": [
+          "腱闘",
+          "建闘",
+          "鍵闘",
+          "健闘"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 18,
+        "prompt": "おうしん",
+        "question": "Chữ Hán của「おうしん」là gì?",
+        "type": "writing",
+        "choices": [
+          "住診",
+          "往診",
+          "注診",
+          "柱診"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 19,
+        "prompt": "よくよう",
+        "question": "Chữ Hán của「よくよう」là gì?",
+        "type": "writing",
+        "choices": [
+          "抑傷",
+          "迎揚",
+          "抑揚",
+          "迎傷"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 20,
+        "prompt": "ちゅうざい",
+        "question": "Chữ Hán của「ちゅうざい」là gì?",
+        "type": "writing",
+        "choices": [
+          "柱在",
+          "駐在",
+          "注在",
+          "住在"
+        ],
+        "correct_answer": 2
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_17",
+    "test_number": "17",
+    "title": "Test Kanji 17",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "埋葬",
+        "question": "Cách đọc của「埋葬」là gì?",
+        "type": "reading",
+        "choices": [
+          "まいそう",
+          "まいぞう",
+          "めいぞう",
+          "めいそう"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 2,
+        "prompt": "改訂版",
+        "question": "Cách đọc của「改訂版」là gì?",
+        "type": "reading",
+        "choices": [
+          "かいていぱん",
+          "かいてんぱん",
+          "かいていばん",
+          "かいてんばん"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 3,
+        "prompt": "米印",
+        "question": "Cách đọc của「米印」là gì?",
+        "type": "reading",
+        "choices": [
+          "めいん",
+          "こめじるし",
+          "こめしるし",
+          "まいいん"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 4,
+        "prompt": "結核",
+        "question": "Cách đọc của「結核」là gì?",
+        "type": "reading",
+        "choices": [
+          "けっかく",
+          "けつかく",
+          "けっがく",
+          "けつがく"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 5,
+        "prompt": "浜辺",
+        "question": "Cách đọc của「浜辺」là gì?",
+        "type": "reading",
+        "choices": [
+          "ひんへん",
+          "はまへん",
+          "はまべ",
+          "ひんべ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 6,
+        "prompt": "共感",
+        "question": "Cách đọc của「共感」là gì?",
+        "type": "reading",
+        "choices": [
+          "きょかん",
+          "きょがん",
+          "きょうがん",
+          "きょうかん"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 7,
+        "prompt": "串刺し",
+        "question": "Cách đọc của「串刺し」là gì?",
+        "type": "reading",
+        "choices": [
+          "くしさし",
+          "くしざし",
+          "くじさし",
+          "くじざし"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 8,
+        "prompt": "命名",
+        "question": "Cách đọc của「命名」là gì?",
+        "type": "reading",
+        "choices": [
+          "めいめ",
+          "めめい",
+          "めいめい",
+          "めめ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 9,
+        "prompt": "粒子",
+        "question": "Cách đọc của「粒子」là gì?",
+        "type": "reading",
+        "choices": [
+          "りゅうし",
+          "りゅし",
+          "りゅうじ",
+          "りゅじ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 10,
+        "prompt": "毒薬",
+        "question": "Cách đọc của「毒薬」là gì?",
+        "type": "reading",
+        "choices": [
+          "どくくすり",
+          "どくやく",
+          "どくぐすり",
+          "どくじゃく"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 11,
+        "prompt": "うらぎる",
+        "question": "Chữ Hán của「うらぎる」là gì?",
+        "type": "writing",
+        "choices": [
+          "表切る",
+          "農切る",
+          "裏切る",
+          "衰切る"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 12,
+        "prompt": "はぶく",
+        "question": "Chữ Hán của「はぶく」là gì?",
+        "type": "writing",
+        "choices": [
+          "省く",
+          "晢く",
+          "貰く",
+          "偗く"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 13,
+        "prompt": "すなはま",
+        "question": "Chữ Hán của「すなはま」là gì?",
+        "type": "writing",
+        "choices": [
+          "砂兵",
+          "砂浜",
+          "沙浜",
+          "沙兵"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 14,
+        "prompt": "はへん",
+        "question": "Chữ Hán của「はへん」là gì?",
+        "type": "writing",
+        "choices": [
+          "破変",
+          "破偏",
+          "破片",
+          "破編"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 15,
+        "prompt": "はしっこ",
+        "question": "Chữ Hán của「はしっこ」là gì?",
+        "type": "writing",
+        "choices": [
+          "㟨っこ",
+          "端っこ",
+          "耑っこ",
+          "貒っこ"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 16,
+        "prompt": "つゆ",
+        "question": "Chữ Hán của「つゆ」là gì?",
+        "type": "writing",
+        "choices": [
+          "苺雨",
+          "松雨",
+          "杉雨",
+          "梅雨"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 17,
+        "prompt": "ふくせい",
+        "question": "Chữ Hán của「ふくせい」là gì?",
+        "type": "writing",
+        "choices": [
+          "腹製",
+          "複制",
+          "複製",
+          "腹制"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 18,
+        "prompt": "ちょうこく",
+        "question": "Chữ Hán của「ちょうこく」là gì?",
+        "type": "writing",
+        "choices": [
+          "彫刻",
+          "調刻",
+          "彫核",
+          "調核"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 19,
+        "prompt": "わずらう",
+        "question": "Chữ Hán của「わずらう」là gì?",
+        "type": "writing",
+        "choices": [
+          "減う",
+          "丘う",
+          "省う",
+          "患う"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 20,
+        "prompt": "げんしょう",
+        "question": "Chữ Hán của「げんしょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "減少",
+          "感少",
+          "減小",
+          "感小"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "test_id": "kanji_test_18",
+    "test_number": "18",
+    "title": "Test Kanji 18",
+    "category": "Hán tự N2",
+    "total_questions": 20,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "納得",
+        "question": "Cách đọc của「納得」là gì?",
+        "type": "reading",
+        "choices": [
+          "なっどく",
+          "なつどく",
+          "なつとく",
+          "なっとく"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 2,
+        "prompt": "敬老",
+        "question": "Cách đọc của「敬老」là gì?",
+        "type": "reading",
+        "choices": [
+          "けいろう",
+          "けろう",
+          "けいろ",
+          "けろ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 3,
+        "prompt": "冷蔵庫",
+        "question": "Cách đọc của「冷蔵庫」là gì?",
+        "type": "reading",
+        "choices": [
+          "れいじょうこ",
+          "れいぞうこう",
+          "れいぞうこ",
+          "れいじょうこう"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 4,
+        "prompt": "漁師",
+        "question": "Cách đọc của「漁師」là gì?",
+        "type": "reading",
+        "choices": [
+          "りょうし",
+          "りょし",
+          "ぎょうし",
+          "ぎょし"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 5,
+        "prompt": "循環",
+        "question": "Cách đọc của「循環」là gì?",
+        "type": "reading",
+        "choices": [
+          "しゅんかん",
+          "しゅんきょう",
+          "じゅんかん",
+          "じゅんきょう"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 6,
+        "prompt": "渋柿",
+        "question": "Cách đọc của「渋柿」là gì?",
+        "type": "reading",
+        "choices": [
+          "しぶかき",
+          "じゅうがき",
+          "じゅうかき",
+          "しぶがき"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 7,
+        "prompt": "看守",
+        "question": "Cách đọc của「看守」là gì?",
+        "type": "reading",
+        "choices": [
+          "かんじゅ",
+          "けんじゅ",
+          "かんしゅ",
+          "けんしゅ"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 8,
+        "prompt": "尊い",
+        "question": "Cách đọc của「尊い」là gì?",
+        "type": "reading",
+        "choices": [
+          "ととうい",
+          "とうとうい",
+          "ととい",
+          "とうとい"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id": 9,
+        "prompt": "排出",
+        "question": "Cách đọc của「排出」là gì?",
+        "type": "reading",
+        "choices": [
+          "はいしゅつ",
+          "へいじゅつ",
+          "はいじゅつ",
+          "へいしゅつ"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 10,
+        "prompt": "把握",
+        "question": "Cách đọc của「把握」là gì?",
+        "type": "reading",
+        "choices": [
+          "あはく",
+          "はあく",
+          "はおく",
+          "おはく"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 11,
+        "prompt": "そうしょく",
+        "question": "Chữ Hán của「そうしょく」là gì?",
+        "type": "writing",
+        "choices": [
+          "装食",
+          "袋飾",
+          "袋食",
+          "装飾"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 12,
+        "prompt": "たいさく",
+        "question": "Chữ Hán của「たいさく」là gì?",
+        "type": "writing",
+        "choices": [
+          "対索",
+          "付策",
+          "対策",
+          "付索"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 13,
+        "prompt": "ししゅう",
+        "question": "Chữ Hán của「ししゅう」là gì?",
+        "type": "writing",
+        "choices": [
+          "刺繍",
+          "莿繍",
+          "刺鏽",
+          "莿鏽"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 14,
+        "prompt": "ようしょく",
+        "question": "Chữ Hán của「ようしょく」là gì?",
+        "type": "writing",
+        "choices": [
+          "着殖",
+          "養殖",
+          "着植",
+          "養植"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 15,
+        "prompt": "いえがら",
+        "question": "Chữ Hán của「いえがら」là gì?",
+        "type": "writing",
+        "choices": [
+          "家栃",
+          "家柿",
+          "家柄",
+          "家朽"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id": 16,
+        "prompt": "かけざん",
+        "question": "Chữ Hán của「かけざん」là gì?",
+        "type": "writing",
+        "choices": [
+          "掛け算",
+          "欠け算",
+          "書け算",
+          "駆け算"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 17,
+        "prompt": "おがむ",
+        "question": "Chữ Hán của「おがむ」là gì?",
+        "type": "writing",
+        "choices": [
+          "排む",
+          "拝む",
+          "俳む",
+          "拜む"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 18,
+        "prompt": "けいかい",
+        "question": "Chữ Hán của「けいかい」là gì?",
+        "type": "writing",
+        "choices": [
+          "啓戒",
+          "警会",
+          "啓会",
+          "警戒"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "id": 19,
+        "prompt": "すめし",
+        "question": "Chữ Hán của「すめし」là gì?",
+        "type": "writing",
+        "choices": [
+          "酸飯",
+          "酢飯",
+          "醋飯",
+          "酥飯"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id": 20,
+        "prompt": "ぜっきょう",
+        "question": "Chữ Hán của「ぜっきょう」là gì?",
+        "type": "writing",
+        "choices": [
+          "絶叶",
+          "絶況",
+          "絶叫",
+          "絶吼"
+        ],
+        "correct_answer": 3
+      }
+    ]
+  }
+]

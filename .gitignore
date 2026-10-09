@@ -28,5 +28,6 @@ Thumbs.db
 
 # Temporary outputs
 scratch/
+scripts/
 extract_grammar.py
 plc.html
