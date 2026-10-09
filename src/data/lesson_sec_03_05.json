@@ -1,0 +1,476 @@
+{
+  "lesson_id": "sec_3_5",
+  "lesson_name": "Bài 3.5: Danh từ (Phần 5)",
+  "level": "N2",
+  "chapter": 3,
+  "chapter_name": "Danh từ",
+  "section_tag": "3.5",
+  "order": 21,
+  "words": [
+    {
+      "id": 588,
+      "word": "義務",
+      "reading": "ぎむ",
+      "han_viet": "NGHĨA VỤ",
+      "word_type": "Danh từ",
+      "meaning": "Nghĩa vụ",
+      "examples": [
+        {
+          "ja": "我々は法律に従う義務がある。",
+          "reading": "われわれはほうりつにしたがうぎむがある。",
+          "vi": "Chúng ta có nghĩa vụ phải tuân theo luật pháp."
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "word": "中間",
+      "reading": "ちゅうかん",
+      "han_viet": "TRUNG GIAN",
+      "word_type": "Danh từ",
+      "meaning": "Ở giữa",
+      "examples": [
+        {
+          "ja": "ゴールの中間地点に到達する。",
+          "reading": "ごーるのちゅうかんちてんにとうたつする。",
+          "vi": "Đạt được nửa đường tới đích."
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "word": "逆",
+      "reading": "ぎゃく",
+      "han_viet": "NGHỊCH",
+      "word_type": "Danh từ",
+      "meaning": "Ngược lại",
+      "examples": [
+        {
+          "ja": "父は会社とは逆に向かって歩いている。",
+          "reading": "ちちはかいしゃとはぎゃくにむかってあるいている。",
+          "vi": "Bố tôi đi bộ ngược hướng đến công ty."
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "word": "よそ",
+      "reading": "よそ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Nơi khác",
+      "examples": [
+        {
+          "ja": "試験中はよそ見をしてはいけない。",
+          "reading": "しけんちゅうはよそみをしてはいけない。",
+          "vi": "Trong khi thi không được nhìn chỗ khác."
+        }
+      ]
+    },
+    {
+      "id": 592,
+      "word": "きっかけ",
+      "reading": "きっかけ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Cơ hội, khởi đầu",
+      "examples": [
+        {
+          "ja": "彼女との話のきっかけを探す。",
+          "reading": "かのじょとのはなしのきっかけをさがす。",
+          "vi": "Tìm cơ hội để nói chuyện với cô ấy."
+        }
+      ]
+    },
+    {
+      "id": 593,
+      "word": "普段",
+      "reading": "ふだん",
+      "han_viet": "PHỔ ĐOẠN",
+      "word_type": "Danh từ",
+      "meaning": "Thường, bình thường",
+      "examples": [
+        {
+          "ja": "彼は普段から気にかけてくれる。",
+          "reading": "かれはふだんからきにかけてくれる。",
+          "vi": "Anh ấy luôn quan tâm đến tôi."
+        }
+      ]
+    },
+    {
+      "id": 594,
+      "word": "日常",
+      "reading": "にちじょう",
+      "han_viet": "NHẬT THƯỜNG",
+      "word_type": "Danh từ",
+      "meaning": "Thường nhật",
+      "examples": [
+        {
+          "ja": "変わらない日常生活を送る。",
+          "reading": "かわらないにちじょうせいかつをおくる。",
+          "vi": "Sống một cuộc sống thường nhật không có gì mới."
+        }
+      ]
+    },
+    {
+      "id": 595,
+      "word": "一般",
+      "reading": "いっぱん",
+      "han_viet": "NHẤT BÀN",
+      "word_type": "Danh từ",
+      "meaning": "Cái chung, thông thường",
+      "examples": [
+        {
+          "ja": "一般の方はここから入場してください。",
+          "reading": "いっぱんのかたはここからにゅうじょうしてください。",
+          "vi": "Người thường hãy vào trong bằng lối này."
+        },
+        {
+          "ja": "お年寄りに席を譲るのは一般的な考えだ。",
+          "reading": "おとしよりにせきをゆずるのはいっぱんてきなかんがえだ。",
+          "vi": "Nhường ghế cho người cao tuổi là cách suy nghĩ"
+        }
+      ]
+    },
+    {
+      "id": 596,
+      "word": "半ば",
+      "reading": "なかば",
+      "han_viet": "BÁN",
+      "word_type": "Danh từ",
+      "meaning": "Một nửa, ở giữa",
+      "examples": [
+        {
+          "ja": "来月の半ばに友達の結婚式がある。",
+          "reading": "らいげつのなかばにともだちのけっこんしきがある。",
+          "vi": "Giữa tháng sau có lễ cưới của người bạn."
+        }
+      ]
+    },
+    {
+      "id": 597,
+      "word": "ことわざ",
+      "reading": "ことわざ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Thành ngữ",
+      "examples": [
+        {
+          "ja": "昔の人は頭がいいなぁとことわざの意味を知って感じる。",
+          "reading": "むかしのにんはあたまがいいなぁとことわざのいみをしってかんじる。",
+          "vi": "Biết được ý nghĩa của câu thành ngữ và cảm thấy"
+        }
+      ]
+    },
+    {
+      "id": 598,
+      "word": "余暇",
+      "reading": "よか",
+      "han_viet": "DƯ HẠ",
+      "word_type": "Danh từ",
+      "meaning": "Thời gian rỗi",
+      "examples": [
+        {
+          "ja": "余暇を使って、運動を楽しむ。",
+          "reading": "よかをつかって、うんどうをたのしむ。",
+          "vi": "Sử dụng thời gian rỗi để tận hưởng việc vận động."
+        }
+      ]
+    },
+    {
+      "id": 599,
+      "word": "行事",
+      "reading": "ぎょうじ",
+      "han_viet": "HÀNH SỰ",
+      "word_type": "Danh từ",
+      "meaning": "Sự kiện",
+      "examples": [
+        {
+          "ja": "学校行事に参加する。",
+          "reading": "がっこうぎょうじにさんかする。",
+          "vi": "Tham gia những sự kiện của trường."
+        }
+      ]
+    },
+    {
+      "id": 600,
+      "word": "候補",
+      "reading": "こうほ",
+      "han_viet": "HẬU BỔ",
+      "word_type": "Danh từ",
+      "meaning": "Ứng cử, ứng cử viên",
+      "examples": [
+        {
+          "ja": "彼を次の役員候補にいれる。",
+          "reading": "かれをつぎのやくいんこうほにいれる。",
+          "vi": "Cho anh ta vào ứng cử vị trí quản lý công ty kế tiếp (sau này)."
+        }
+      ]
+    },
+    {
+      "id": 601,
+      "word": "全体",
+      "reading": "ぜんたい",
+      "han_viet": "TOÀN THỂ",
+      "word_type": "Danh từ",
+      "meaning": "Toàn thể",
+      "examples": [
+        {
+          "ja": "この学校の生徒は、全体で1000人くらいだ。",
+          "reading": "このがっこうのせいとは、ぜんたいで1000にんくらいだ。",
+          "vi": "Học sinh của trường này tổng cộng khoảng 1000 người."
+        }
+      ]
+    },
+    {
+      "id": 602,
+      "word": "部分",
+      "reading": "ぶぶん",
+      "han_viet": "BỘ PHÂN",
+      "word_type": "Danh từ",
+      "meaning": "Bộ phận",
+      "examples": [
+        {
+          "ja": "作品のこの部分を作り直す。",
+          "reading": "さくひんのこのぶぶんをつくりなおす。",
+          "vi": "Làm lại phần này của tác phẩm. 66"
+        }
+      ]
+    },
+    {
+      "id": 603,
+      "word": "砂漠",
+      "reading": "さばく",
+      "han_viet": "SA MẠC",
+      "word_type": "Danh từ",
+      "meaning": "Sa mạc",
+      "examples": [
+        {
+          "ja": "ラクダは砂漠でも暮らすことができる動物だ。",
+          "reading": "らくだはさばくでもくらすことができるどうぶつだ。",
+          "vi": "Thống nhất đất nước."
+        }
+      ]
+    },
+    {
+      "id": 604,
+      "word": "期限",
+      "reading": "きげん",
+      "han_viet": "KỲ HẠN",
+      "word_type": "Danh từ",
+      "meaning": "Giới hạn, kỳ hạn",
+      "examples": [
+        {
+          "ja": "チケットの有効期限が切れたので更新する。",
+          "reading": "ちけっとのゆうこうきげんがきれたのでこうしんする。",
+          "vi": "Vì hạn dùng của vé đã hết nên tôi phải đi đổi mới."
+        }
+      ]
+    },
+    {
+      "id": 605,
+      "word": "禁物",
+      "reading": "きんもつ",
+      "han_viet": "CẤM VẬT",
+      "word_type": "Danh từ",
+      "meaning": "Cấm kỵ, không nên, kiêng kỵ",
+      "examples": [
+        {
+          "ja": "試験の前日に遅く寝ることは禁物だ。",
+          "reading": "しけんのぜんじつにおそくねることはきんもつだ。",
+          "vi": "Ngủ muộn trước ngày thi là điều cấm kỵ."
+        }
+      ]
+    },
+    {
+      "id": 606,
+      "word": "方向",
+      "reading": "ほうこう",
+      "han_viet": "PHƯƠNG HƯỚNG",
+      "word_type": "Danh từ",
+      "meaning": "Phương hướng",
+      "examples": [
+        {
+          "ja": "通った道の方向を忘れる。",
+          "reading": "かよったみちのほうこうをわすれる。",
+          "vi": "Quên mất hướng con đường mà mình đã đi qua."
+        }
+      ]
+    },
+    {
+      "id": 607,
+      "word": "空席",
+      "reading": "くうせき",
+      "han_viet": "KHÔNG TỊCH",
+      "word_type": "Danh từ",
+      "meaning": "Ghế trống, chỗ còn trống",
+      "examples": [
+        {
+          "ja": "バスの空席がなかったので、ずっと立っていた。",
+          "reading": "ばすのくうせきがなかったので、ずっとたっていた。",
+          "vi": "Không có ghế trống trên xe buýt nên đã đứng suốt."
+        }
+      ]
+    },
+    {
+      "id": 608,
+      "word": "災害",
+      "reading": "さいがい",
+      "han_viet": "TAI HẠI",
+      "word_type": "Danh từ",
+      "meaning": "Thảm họa",
+      "examples": [
+        {
+          "ja": "災害時に役立つ知識を調べる。",
+          "reading": "さいがいじにやくたつちしきをしらべる。",
+          "vi": "Tìm hiểu những kiến thức giúp ích khi xảy ra thảm họa."
+        }
+      ]
+    },
+    {
+      "id": 609,
+      "word": "天候",
+      "reading": "てんこう",
+      "han_viet": "THIÊN HẬU",
+      "word_type": "Danh từ",
+      "meaning": "Thời tiết",
+      "examples": [
+        {
+          "ja": "悪天候の中外で仕事をする。",
+          "reading": "あくてんこうのちゅうがいでしごとをする。",
+          "vi": "Làm việc ở ngoài trời giữa lúc thời tiết xấu."
+        }
+      ]
+    },
+    {
+      "id": 610,
+      "word": "保険",
+      "reading": "ほけん",
+      "han_viet": "BẢO HIỂM",
+      "word_type": "Danh từ",
+      "meaning": "Bảo hiểm",
+      "examples": [
+        {
+          "ja": "保険会社に就職する。",
+          "reading": "ほけんがいしゃにしゅうしょくする。",
+          "vi": "Xin việc vào công ty bảo hiểm."
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "word": "雰囲気",
+      "reading": "ふんいき",
+      "han_viet": "PHÂN VI KHÍ",
+      "word_type": "Danh từ",
+      "meaning": "Bầu không khí, phong thái",
+      "examples": [
+        {
+          "ja": "久しぶりに会った友達の雰囲気が変わっていた。",
+          "reading": "ひさしぶりにあったともだちのふんいきがかわっていた。",
+          "vi": "Người bạn lâu không gặp giờ phong thái đã thay đổi."
+        },
+        {
+          "ja": "このカフェの雰囲気がいい。",
+          "reading": "このかふぇのふんいきがいい。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 612,
+      "word": "箇所",
+      "reading": "かしょ",
+      "han_viet": "CÁ SỞ",
+      "word_type": "Danh từ",
+      "meaning": "Chỗ; nơi; địa điểm; điểm",
+      "examples": [
+        {
+          "ja": "テストで間違えた箇所を復習する。",
+          "reading": "てすとでまちがえたかしょをふくしゅうする。",
+          "vi": "Ôn lại những chỗ bị sai trong bài kiểm tra."
+        }
+      ]
+    },
+    {
+      "id": 613,
+      "word": "映像",
+      "reading": "えいぞう",
+      "han_viet": "ÁNH TƯỢNG",
+      "word_type": "Danh từ",
+      "meaning": "Hình ảnh",
+      "examples": [
+        {
+          "ja": "人気のマンガがついに映像化された。",
+          "reading": "にんきのまんががついにえいぞうかされた。",
+          "vi": "Truyện tranh nổi tiếng cuối cùng cũng được chuyển thành phim."
+        }
+      ]
+    },
+    {
+      "id": 614,
+      "word": "背景",
+      "reading": "はいけい",
+      "han_viet": "BỐI CẢNH",
+      "word_type": "Danh từ",
+      "meaning": "Bối cảnh, phông nền, lý do",
+      "examples": [
+        {
+          "ja": "この写真の背景はきれいだ。今回のインフレの背景は何だと思いますか",
+          "reading": "このしゃしんのはいけいはきれいだ。こんかいのいんふれのはいけいはなんだとおもいますか",
+          "vi": "Phông nền của bức ảnh rất đẹp."
+        }
+      ]
+    },
+    {
+      "id": 615,
+      "word": "間隔",
+      "reading": "かんかく",
+      "han_viet": "GIAN CÁCH",
+      "word_type": "Danh từ",
+      "meaning": "Khoảng cách, khoảng giữa",
+      "examples": [
+        {
+          "ja": "隣の人と1メートル間隔をあける。",
+          "reading": "となりのにんと1めーとるかんかくをあける。",
+          "vi": "Để khoảng cách 1 mét với người bên cạnh."
+        }
+      ]
+    },
+    {
+      "id": 616,
+      "word": "素人",
+      "reading": "しろうと",
+      "han_viet": "TỐ NHÂN",
+      "word_type": "Danh từ",
+      "meaning": "Nghiệp dư",
+      "examples": [
+        {
+          "ja": "素人だが、漫画を描くのが大好きだ。",
+          "reading": "しろうとだが、まんがをえがくのがだいすきだ。",
+          "vi": "Vẫn còn là người mới nhưng rất thích vẽ Manga."
+        },
+        {
+          "ja": "事情があって、大学に行く事を辞めた。",
+          "reading": "じじょうがあって、だいがくにいくことをやめた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 617,
+      "word": "事情",
+      "reading": "じじょう",
+      "han_viet": "SỰ TÌNH",
+      "word_type": "Danh từ",
+      "meaning": "Tình huống, trường hợp, sự tình, nguyên do",
+      "examples": [
+        {
+          "ja": "車を買いたいが、経済的な事情で買えない。",
+          "reading": "くるまをかいたいが、けいざいてきなじじょうでかえない。",
+          "vi": "Muốn mua ô tô nhưng ko mua được do tình hình kinh tế của mình. 67"
+        }
+      ]
+    }
+  ]
+}

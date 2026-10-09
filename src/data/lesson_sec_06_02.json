@@ -1,0 +1,546 @@
+{
+  "lesson_id": "sec_6_2",
+  "lesson_name": "Bài 6.2: Phó từ & Liên từ (Phần 2)",
+  "level": "N2",
+  "chapter": 6,
+  "chapter_name": "Phó từ & Liên từ",
+  "section_tag": "6.2",
+  "order": 32,
+  "words": [
+    {
+      "id": 905,
+      "word": "絶えず",
+      "reading": "たえず",
+      "han_viet": "TUYỆT",
+      "word_type": "Phó từ",
+      "meaning": "Liên tục, không ngừng",
+      "examples": [
+        {
+          "ja": "っている。",
+          "reading": "っている。",
+          "vi": "Xe máy chạy không ngừng ở con đường lớn trước công ty."
+        }
+      ]
+    },
+    {
+      "id": 906,
+      "word": "しばしば",
+      "reading": "しばしば",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Hay, thường xuyên, luôn luôn",
+      "examples": [
+        {
+          "ja": "日本では、しばしば地震が起こる。",
+          "reading": "にっぽんでは、しばしばじしんがおこる。",
+          "vi": "Nhật Bản thường xuyên xảy ra động đất."
+        }
+      ]
+    },
+    {
+      "id": 907,
+      "word": "たびたび",
+      "reading": "たびたび",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Thường xuyên",
+      "examples": [
+        {
+          "ja": "田中さんとは、近所のスーパーでたびたび会います。",
+          "reading": "たなかさんとは、きんじょのすーぱーでたびたびあいます。",
+          "vi": "Tôi thường xuyên gặp anh Tanaka ở siêu thị gần nhà."
+        }
+      ]
+    },
+    {
+      "id": 908,
+      "word": "しょっちゅう",
+      "reading": "しょっちゅう",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Thường xuyên (văn nói)",
+      "examples": [
+        {
+          "ja": "あのお客さん、最近しょっちゅう来るね。",
+          "reading": "あのおきゃくさん、さいきんしょっちゅうくるね。",
+          "vi": "Vị khách đó gần đây thường xuyên ghé qua nhỉ."
+        }
+      ]
+    },
+    {
+      "id": 909,
+      "word": "至急",
+      "reading": "しきゅう",
+      "han_viet": "CHÍ CẤP",
+      "word_type": "Phó từ",
+      "meaning": "Khẩn cấp, ngay lập tức",
+      "examples": [
+        {
+          "ja": "このメールを見たら、至急電話をください。",
+          "reading": "このめーるをみたら、しきゅうでんわをください。",
+          "vi": "Sau khi thấy mail này thì ngay lập tức gọi cho tôi"
+        }
+      ]
+    },
+    {
+      "id": 910,
+      "word": "直ちに",
+      "reading": "ただちに",
+      "han_viet": "TRỰC",
+      "word_type": "Phó từ",
+      "meaning": "Ngay lập tức (cách nói cứng)",
+      "examples": [
+        {
+          "ja": "薬品が目に入ったら、直ちに水で洗い流してください。",
+          "reading": "やくひんがめにいっったら、ただちにみずであらいながしてください。",
+          "vi": "Nếu thuốc dính vào mắt thì ngay lập tức dùng nước rửa sạch."
+        }
+      ]
+    },
+    {
+      "id": 911,
+      "word": "早速",
+      "reading": "さっそく",
+      "han_viet": "TẢO TỐC",
+      "word_type": "Phó từ",
+      "meaning": "Nhanh chóng, không chần chờ gì nữa",
+      "examples": [
+        {
+          "ja": "では、早速始めましょう。",
+          "reading": "では、さっそくはじめましょう。",
+          "vi": "Vậy thì chúng ta nhanh chóng bắt đầu thôi nào."
+        }
+      ]
+    },
+    {
+      "id": 912,
+      "word": "いきなり",
+      "reading": "いきなり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Bất ngờ, đột nhiên",
+      "examples": [
+        {
+          "ja": "子供がいきなり道に飛び出してきた。",
+          "reading": "こどもがいきなりみちにとびだしてきた。",
+          "vi": "Đứa trẻ đột nhiên lao ra đường."
+        }
+      ]
+    },
+    {
+      "id": 913,
+      "word": "たまに",
+      "reading": "たまに",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Thi thoảng, đôi khi",
+      "examples": [
+        {
+          "ja": "たまには温泉に行ってゆっくりしたい。",
+          "reading": "たまにはおんせんにいってゆっくりしたい。",
+          "vi": "Thi thoảng muốn đi tắm suối nước nóng, thong thả nghỉ ngơi."
+        }
+      ]
+    },
+    {
+      "id": 914,
+      "word": "めったに",
+      "reading": "めったに",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Hiếm khi",
+      "examples": [
+        {
+          "ja": "伊藤さんは、めったに遅刻しない。",
+          "reading": "いとうさんは、めったにちこくしない。",
+          "vi": "Anh Ito hiếm khi đi muộn."
+        }
+      ]
+    },
+    {
+      "id": 915,
+      "word": "すでに",
+      "reading": "すでに",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Đã rồi, sẵn có",
+      "examples": [
+        {
+          "ja": "わたしが着いた時には、すでにパーティーは終わっていた。",
+          "reading": "わたしがついたときには、すでにぱーてぃーはおわっていた。",
+          "vi": "Lúc tôi đến, bữa tiệc đã kết thúc cả rồi."
+        }
+      ]
+    },
+    {
+      "id": 916,
+      "word": "事前に",
+      "reading": "じぜんに",
+      "han_viet": "SỰ TIỀN",
+      "word_type": "Phó từ",
+      "meaning": "Trước, từ trước",
+      "examples": [
+        {
+          "ja": "当店は、事前に予約していただく必要があります。",
+          "reading": "とうてんは、じぜんによやくしていただくひつようがあります。",
+          "vi": "Cửa hàng chúng tôi cần đặt trước. 94"
+        }
+      ]
+    },
+    {
+      "id": 917,
+      "word": "当日",
+      "reading": "とうじつ",
+      "han_viet": "ĐƯƠNG NHẬT",
+      "word_type": "Phó từ",
+      "meaning": "Ngày đó, hôm đó",
+      "examples": [
+        {
+          "ja": "試験当日、熱を出してしまった。",
+          "reading": "しけんとうじつ、ねつをだしてしまった。",
+          "vi": "Đúng ngày thi hôm đó tôi bị sốt."
+        }
+      ]
+    },
+    {
+      "id": 918,
+      "word": "割と・割合",
+      "reading": "わりと・わりあい",
+      "han_viet": "CÁT / CÁT HỢP",
+      "word_type": "Phó từ",
+      "meaning": "Tương đối",
+      "examples": [
+        {
+          "ja": "今日は割と涼しい。",
+          "reading": "こんにちはわとすずしい。",
+          "vi": "Hôm nay tương đối mát."
+        }
+      ]
+    },
+    {
+      "id": 919,
+      "word": "多少",
+      "reading": "たしょう",
+      "han_viet": "ĐA THIỂU",
+      "word_type": "Phó từ",
+      "meaning": "Một chút, ít nhiều, phần nào",
+      "examples": [
+        {
+          "ja": "最近涼しいが、今日は多少暑いと感じます。",
+          "reading": "さいきんすずしいが、こんにちはたしょうあついとかんじます。",
+          "vi": "Gần đây thời tiết mát mẻ, nhưng hôm nay hơi nóng một chút."
+        }
+      ]
+    },
+    {
+      "id": 920,
+      "word": "何もかも",
+      "reading": "なにもかも",
+      "han_viet": "HÀ",
+      "word_type": "Phó từ",
+      "meaning": "Toàn bộ, mọi thứ",
+      "examples": [
+        {
+          "ja": "何もかもいやになって、一人旅に出かけた。",
+          "reading": "なにもかもいやになって、ひとりたびにでかけた。",
+          "vi": "Chán nản vì mọi thứ nên tôi đã đi du lịch một mình."
+        }
+      ]
+    },
+    {
+      "id": 921,
+      "word": "たっぷり",
+      "reading": "たっぷり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Đủ, nhiều, dư giả",
+      "examples": [
+        {
+          "ja": "クリームがたっぷり乗ったパフェが食べたい。",
+          "reading": "くりーむがたっぷりじょうったぱふぇがたべたい。",
+          "vi": "Tôi muốn ăn một ly kem thật nhiều kem."
+        }
+      ]
+    },
+    {
+      "id": 922,
+      "word": "さて",
+      "reading": "さて",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Và sau đây, thế thì, giờ thì (để chuyển chủ đề)",
+      "examples": [
+        {
+          "ja": "さて、今日も昨日の続きからドラマを見よう。",
+          "reading": "さて、きょうもきのうのつづきからどらまをみよう。",
+          "vi": "Giờ thì mình cùng xem tiếp bộ phim hôm qua đi."
+        }
+      ]
+    },
+    {
+      "id": 923,
+      "word": "では",
+      "reading": "では",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Được, vậy thì",
+      "examples": [
+        {
+          "ja": "全員集まりましたね。では、出発しましょう。",
+          "reading": "ぜんいんあつまりましたね。では、しゅっぱつしましょう。",
+          "vi": "Tất cả mọi người tập hợp đủ rồi nhỉ. Vậy thì xuất phát thôi."
+        }
+      ]
+    },
+    {
+      "id": 924,
+      "word": "だが",
+      "reading": "だが",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nhưng, tuy nhiên",
+      "examples": [
+        {
+          "ja": "一生懸命勉強した。だが、合格できなかった。",
+          "reading": "いっしょうけんめいべんきょうした。だが、ごうかくできなかった。",
+          "vi": "Tôi đã học rất chăm chỉ. Nhưng, vẫn không thể đỗ."
+        }
+      ]
+    },
+    {
+      "id": 925,
+      "word": "ところが",
+      "reading": "ところが",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nhưng (diễn tả 1 việc diễn ra ngoài dự tính)",
+      "examples": [
+        {
+          "ja": "今日の朝は晴れていました。ところが、午後になると台風がきました。",
+          "reading": "きょうのあさははれていました。ところが、ごごになるとたいふうがきました。",
+          "vi": "Sáng nay trời nắng. Nhưng đến chiều thì bão đổ bộ."
+        }
+      ]
+    },
+    {
+      "id": 926,
+      "word": "ところで",
+      "reading": "ところで",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nhân tiện",
+      "examples": [
+        {
+          "ja": "今日はありがとうございました。ところで、息子さんはお元気ですか。",
+          "reading": "こんにちはありがとうございました。ところで、むすこさんはおげんきですか。",
+          "vi": "Hôm nay thật sự rất cảm ơn anh/chị. Nhân tiện, con trai anh/chị vẫn khỏe chứ ạ."
+        }
+      ]
+    },
+    {
+      "id": 927,
+      "word": "従って",
+      "reading": "したがって",
+      "han_viet": "TÙNG",
+      "word_type": "Phó từ",
+      "meaning": "Vì thế, do đó",
+      "examples": [
+        {
+          "ja": "東京は日本で一番都会だ。したがって、物価も一番高い。",
+          "reading": "とうきょうはにっぽんでいちばんとかいだ。したがって、ぶっかもいちばんたかい。",
+          "vi": "Tokyo là thành phố lớn nhất Nhật Bản, do đó mà vật giá cũng cao nhất."
+        }
+      ]
+    },
+    {
+      "id": 928,
+      "word": "しかも",
+      "reading": "しかも",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Bên cạnh đó, hơn nữa",
+      "examples": [
+        {
+          "ja": "彼の奥さんは優しくてきれいだ。しかも、頭もいい。",
+          "reading": "かのおくさんはやさしくてきれいだ。しかも、あたまもいい。",
+          "vi": "Vợ anh ấy hiền lành xinh đẹp, hơn nữa lại rất thông minh."
+        }
+      ]
+    },
+    {
+      "id": 929,
+      "word": "すると",
+      "reading": "すると",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Ngay sau đó,",
+      "examples": [
+        {
+          "ja": "お風呂に入浴剤を入れた。すると、お湯の色が緑になった。",
+          "reading": "おふろににゅうよくざいをいれた。すると、おゆのいろがみどりになった。",
+          "vi": "Cho sữa tắm vào bồn tắm, ngay sau đó màu nước chuyển sang màu xanh lá cây. 95"
+        }
+      ]
+    },
+    {
+      "id": 930,
+      "word": "だって",
+      "reading": "だって",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Bởi vì",
+      "examples": [
+        {
+          "ja": "「どうしてダイエットしてるのにラーメンを食べているの？」「だって、おいしいんだもん。」",
+          "reading": "「どうしてだいえっとしてるのにらーめんをたべているの？」「だって、おいしいんだもん。」",
+          "vi": "Sao đang giảm cân lại ăn mì? Vì ngon mà."
+        }
+      ]
+    },
+    {
+      "id": 931,
+      "word": "なぜなら",
+      "reading": "なぜなら",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Vì, bởi vì",
+      "examples": [
+        {
+          "ja": "わたしはラーメンを食べない。なぜなら、太るからだ。",
+          "reading": "わたしはらーめんをたべない。なぜなら、ふとるからだ。",
+          "vi": "Tôi không ăn mì, vì béo."
+        }
+      ]
+    },
+    {
+      "id": 932,
+      "word": "そう言えば",
+      "reading": "そういえば",
+      "han_viet": "NGÔN",
+      "word_type": "Phó từ",
+      "meaning": "Nhắc mới nhớ",
+      "examples": [
+        {
+          "ja": "そういえば、高2のときに同じクラスだった佐藤さん、結婚したらしいよ。",
+          "reading": "そういえば、たか2のときにおなじくらすだったさとうさん、けっこんしたらしいよ。",
+          "vi": "Nhắc mới nhớ, nghe nói bạn Sato học cũng lớp hồi năm 2 cấp 3 đã kết hôn rồi đấy."
+        }
+      ]
+    },
+    {
+      "id": 933,
+      "word": "ようするに",
+      "reading": "ようするに",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Tóm lại là",
+      "examples": [
+        {
+          "ja": "いろいろ言い訳しているが、要するにやりたくないということですね。",
+          "reading": "いろいろいいわけしているが、ようするにやりたくないということですね。",
+          "vi": "Cậu giải thích nhiều như vậy, tóm lại là không muốn làm đúng không?"
+        }
+      ]
+    },
+    {
+      "id": 934,
+      "word": "すなわち",
+      "reading": "すなわち",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Có nghĩa là, chính là, nói cách khác",
+      "examples": [
+        {
+          "ja": "彼女にとって踊ることは、すなわち自分を表現することであった。",
+          "reading": "かのじょにとっておどることは、すなわちじぶんをひょうげんすることであった。",
+          "vi": "Đối với cô ấy việc nhảy chính là được thể hiện bản thân."
+        }
+      ]
+    },
+    {
+      "id": 935,
+      "word": "あるいは",
+      "reading": "あるいは",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Hoặc",
+      "examples": [
+        {
+          "ja": "申し込みするには、サイン、あるいは印鑑が必要です。",
+          "reading": "もうしこみするには、さいん、あるいはいんかんがひつようです。",
+          "vi": "Để đăng kí cần kí tên hoặc đóng dấu."
+        }
+      ]
+    },
+    {
+      "id": 936,
+      "word": "うろうろ",
+      "reading": "うろうろ",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Lảng vảng, loanh qua loanh quanh",
+      "examples": [
+        {
+          "ja": "知らない人が家の周りをうろうろしている。",
+          "reading": "しらないにんがいえのまわりをうろうろしている。",
+          "vi": "Người lạ lảng vảng quanh nhà."
+        },
+        {
+          "ja": "道に迷ってしまって、30分くらいうろうろしていた。",
+          "reading": "みちにまよってしまって、30わくらいうろうろしていた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 937,
+      "word": "のろのろ",
+      "reading": "のろのろ",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Chậm rãi, chậm như sên",
+      "examples": [
+        {
+          "ja": "のろのろしていると、みんなに置いて行かれるぞ。",
+          "reading": "のろのろしていると、みんなにおいていかれるぞ。",
+          "vi": "Nếu cứ chậm chạp thế sẽ bị mọi người bỏ lại đấy."
+        },
+        {
+          "ja": "暑すぎて、頭がふらふらする。",
+          "reading": "あつすぎて、あたまがふらふらする。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 938,
+      "word": "ふらふら",
+      "reading": "ふらふら",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Choáng váng, lảo đảo, không biết đường nào mà lần",
+      "examples": [
+        {
+          "ja": "彼は考え方がふらふらしていて、信用できない。",
+          "reading": "かれはかんがえかたがふらふらしていて、しんようできない。",
+          "vi": "Anh ta hay thay đổi nên không biết đường nào mà lần,"
+        }
+      ]
+    },
+    {
+      "id": 939,
+      "word": "はらはら",
+      "reading": "はらはら",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nóng ruột, lo lắng, lả tả (rơi)",
+      "examples": [
+        {
+          "ja": "車を運転していたら、人が飛び出してきてはらはらした。",
+          "reading": "くるまをうんてんしていたら、にんがとびだしてきてはらはらした。",
+          "vi": "Đang lái xe thì có người lao ra, sợ hết hồn. 96"
+        }
+      ]
+    }
+  ]
+}

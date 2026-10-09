@@ -1,0 +1,611 @@
+{
+  "lesson_id": "sec_4_1",
+  "lesson_name": "Bài 4.1: Tính từ đuôi -i (い形容詞)",
+  "level": "N2",
+  "chapter": 4,
+  "chapter_name": "Tính từ đuôi -i",
+  "section_tag": "4.1",
+  "order": 28,
+  "words": [
+    {
+      "id": 789,
+      "word": "騒々しい",
+      "reading": "そうぞうしい",
+      "han_viet": "TAO TAO",
+      "word_type": "Tính từ -i",
+      "meaning": "Ồn ào",
+      "examples": [
+        {
+          "ja": "していた。",
+          "reading": "していた。",
+          "vi": "Phòng học ồn ào nên tôi đi xem thử, hóa ra đang cãi nhau."
+        }
+      ]
+    },
+    {
+      "id": 790,
+      "word": "慌ただしい",
+      "reading": "あわただしい",
+      "han_viet": "HOẢNG",
+      "word_type": "Tính từ -i",
+      "meaning": "Vội vã, cuống cuồng",
+      "examples": [
+        {
+          "ja": "母は慌ただしく支度をしている。",
+          "reading": "はははあわただしくしたくをしている。",
+          "vi": "Mẹ đang cuống cuồng sửa soạn."
+        }
+      ]
+    },
+    {
+      "id": 791,
+      "word": "そそっかしい",
+      "reading": "そそっかしい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Cẩu thả, không cẩn thận",
+      "examples": [
+        {
+          "ja": "彼女はそそっかしくて、落ち着きがない。",
+          "reading": "かのじょはそそっかしくて、おちつきがない。",
+          "vi": "Cô ấy rất cẩu thả, không bình tĩnh."
+        }
+      ]
+    },
+    {
+      "id": 792,
+      "word": "ばかばかしい",
+      "reading": "ばかばかしい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Tào lao, nhảm nhí, vẩn",
+      "examples": [
+        {
+          "ja": "そんなばかばかしい話は聞きたくない。",
+          "reading": "そんなばかばかしいはなしはききたくない。",
+          "vi": "vớ Tôi không muốn nghe câu chuyện ngớ ngẩn ấy."
+        }
+      ]
+    },
+    {
+      "id": 793,
+      "word": "ずうずうしい",
+      "reading": "ずうずうしい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Mặt dày, liêm sỉ, không biết xấu hổ",
+      "examples": [
+        {
+          "ja": "並んでいるのに、ずうずうしく割り込んでくる。",
+          "reading": "ならんでいるのに、ずうずうしくわりこんでくる。",
+          "vi": "vô Mọi người đang xếp hàng mà lại mặt dày chen ngang vào."
+        }
+      ]
+    },
+    {
+      "id": 794,
+      "word": "憎らしい",
+      "reading": "にくらしい",
+      "han_viet": "TĂNG",
+      "word_type": "Tính từ -i",
+      "meaning": "Đáng ghét, ganh tị",
+      "examples": [
+        {
+          "ja": "憎らしい口をきく。",
+          "reading": "にくらしいくちをきく。",
+          "vi": "Cách ăn nói rất đáng ghét."
+        }
+      ]
+    },
+    {
+      "id": 795,
+      "word": "憎い",
+      "reading": "にくい",
+      "han_viet": "TĂNG",
+      "word_type": "Tính từ -i",
+      "meaning": "Căm thù, ghét",
+      "examples": [
+        {
+          "ja": "母を殺害した犯人が憎い。",
+          "reading": "ははをさつがいしたはんにんがにくい。",
+          "vi": "Căm thù tên thủ phạm đã giết hại mẹ."
+        },
+        {
+          "ja": "妹だけにプレゼントあげるなんてずるい。",
+          "reading": "いもうとだけにぷれぜんとあげるなんてずるい。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 796,
+      "word": "ずるい",
+      "reading": "ずるい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Không trung thực, xảo quyệt ; - Không bằng",
+      "examples": [
+        {
+          "ja": "ずるい方法で勝ちたくない。",
+          "reading": "ずるいほうほうでかちたくない。",
+          "vi": "công Tôi không muốn thắng bằng cách không trung"
+        }
+      ]
+    },
+    {
+      "id": 797,
+      "word": "険しい",
+      "reading": "けわしい",
+      "han_viet": "HIỂM",
+      "word_type": "Tính từ -i",
+      "meaning": "Nghiêm khắc, hung dữ ; - hiểm trở,",
+      "examples": [
+        {
+          "ja": "険しい山道を歩く。",
+          "reading": "けわしいやまみちをあるく。",
+          "vi": "Đi bộ trên đường núi hiểm trở."
+        },
+        {
+          "ja": "彼は険しい表情をしている。",
+          "reading": "かれはけわしいひょうじょうをしている。",
+          "vi": "Anh ấy có vẻ mặt nghiêm khắc."
+        }
+      ]
+    },
+    {
+      "id": 798,
+      "word": "面倒くさい",
+      "reading": "めんどうくさい",
+      "han_viet": "DIỆN ĐẢO",
+      "word_type": "Tính từ -i",
+      "meaning": "Phiền toái, rắc rối, chịu",
+      "examples": [
+        {
+          "ja": "休日に仕事をするなんてめんどうくさい。",
+          "reading": "きゅうじつにしごとをするなんてめんどうくさい。",
+          "vi": "Ngày nghỉ còn phải đi làm, thật là khó chịu. khó"
+        },
+        {
+          "ja": "めんどうくさいことは後回しする。",
+          "reading": "めんどうくさいことはあとまわしする。",
+          "vi": "Chuyện rắc rối thì để sau. 83"
+        }
+      ]
+    },
+    {
+      "id": 799,
+      "word": "しつこい",
+      "reading": "しつこい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "lằng nhằng ; - đậm (vị, màu, mùi)",
+      "examples": [
+        {
+          "ja": "この料理の味付けはしつこくない。",
+          "reading": "このりょうりのあじつけはしつこくない。",
+          "vi": "Món ăn này nêm vị không đậm."
+        }
+      ]
+    },
+    {
+      "id": 800,
+      "word": "くどい",
+      "reading": "くどい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Dài dòng, lắm lời, ; - lòe loẹt ; - đậm (vị, màu, mùi)",
+      "examples": [
+        {
+          "ja": "父の話がくどい。",
+          "reading": "ちちのはなしがくどい。",
+          "vi": "Câu chuyện của bố dài dòng."
+        }
+      ]
+    },
+    {
+      "id": 801,
+      "word": "煙い",
+      "reading": "けむい",
+      "han_viet": "YÊN",
+      "word_type": "Tính từ -i",
+      "meaning": "Khói mù",
+      "examples": [
+        {
+          "ja": "喫煙所は煙い。",
+          "reading": "きつえんじょはけぶい。",
+          "vi": "mịt Khu vực hút thuốc khói mù mịt."
+        }
+      ]
+    },
+    {
+      "id": 802,
+      "word": "きつい",
+      "reading": "きつい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Khó khăn, mệt, vất ; - nghiêm khắc",
+      "examples": [
+        {
+          "ja": "毎日の練習はきつい。",
+          "reading": "まいにちのれんしゅうはきつい。",
+          "vi": "Việc luyện tập hàng ngày vất vả. vả"
+        },
+        {
+          "ja": "子どもに対して、少しきつい言い方をしてしまった。",
+          "reading": "こどもにたいして、すこしきついいいかたをしてしまった。",
+          "vi": "Tôi lỡ nói giọng hơi nghiêm khắc với con."
+        }
+      ]
+    },
+    {
+      "id": 803,
+      "word": "緩い",
+      "reading": "ゆるい",
+      "han_viet": "HOÃN",
+      "word_type": "Tính từ -i",
+      "meaning": "Lỏng, ; - thoai thoải (dốc)",
+      "examples": [
+        {
+          "ja": "ズボンが緩い。",
+          "reading": "ずぼんがゆるい。",
+          "vi": "Quần rộng."
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "word": "鈍い",
+      "reading": "にぶい",
+      "han_viet": "ĐỘN",
+      "word_type": "Tính từ -i",
+      "meaning": "Cùn, đần độn, kém",
+      "examples": [
+        {
+          "ja": "疲れで動きが鈍くなる。",
+          "reading": "つかれでうごきがにぶくなる。",
+          "vi": "Mệt nên chuyển động cũng chậm chạp."
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "word": "鋭い",
+      "reading": "するどい",
+      "han_viet": "DUỆ",
+      "word_type": "Tính từ -i",
+      "meaning": "Nhọn, ; - sắc sảo",
+      "examples": [
+        {
+          "ja": "針は鋭く危ない。",
+          "reading": "はりはするどくあぶない。",
+          "vi": "Kim nhọn nên nguy hiểm."
+        }
+      ]
+    },
+    {
+      "id": 806,
+      "word": "惜しい",
+      "reading": "おしい",
+      "han_viet": "TÍCH",
+      "word_type": "Tính từ -i",
+      "meaning": "Đáng tiếc, yêu quý, quý trọng",
+      "examples": [
+        {
+          "ja": "勉強したいから寝る時間が惜しく感じる。",
+          "reading": "べんきょうしたいからねるじかんがおしくかんじる。",
+          "vi": "Vì muốn học nên lại cảm thấy tiếc thời gian ngủ"
+        },
+        {
+          "ja": "惜しい人を亡くした。",
+          "reading": "おしいにんをなくした。",
+          "vi": "Người tôi yêu quý đã mất."
+        }
+      ]
+    },
+    {
+      "id": 807,
+      "word": "思いがけない",
+      "reading": "おもいがけない",
+      "han_viet": "TƯ",
+      "word_type": "Tính từ -i",
+      "meaning": "Không ngờ đến",
+      "examples": [
+        {
+          "ja": "父が亡くなり思いがけない遺産が入った。",
+          "reading": "ちちがなくなりおもいがけないいさんがいっった。",
+          "vi": "Bố mất, một lượng tài sản không ngờ tới lại tới tay."
+        }
+      ]
+    },
+    {
+      "id": 808,
+      "word": "何気ない",
+      "reading": "なにげない",
+      "han_viet": "HÀ KHÍ",
+      "word_type": "Tính từ -i",
+      "meaning": "Ngẫu nhiên, tình cờ, không cố",
+      "examples": [
+        {
+          "ja": "何気ない一言で、友達を傷つけてしまった。",
+          "reading": "なにげないひとことで、ともだちをきずつけてしまった。",
+          "vi": "Một câu nói vô tình, đã lỡ làm tổn thương người ý bạn. 84"
+        }
+      ]
+    },
+    {
+      "id": 809,
+      "word": "だらしない",
+      "reading": "だらしない",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "gàng, luộm thuộm ; - Vô kỉ luật",
+      "examples": [
+        {
+          "ja": "部屋も汚いし、時間も守らないし、だらしない。",
+          "reading": "へやもきたないし、じかんもまもらないし、だらしない。",
+          "vi": "Phòng thì bẩn, cũng chẳng tuân thủ thời gian, thật là vô kỉ luật."
+        }
+      ]
+    },
+    {
+      "id": 810,
+      "word": "とんでもない",
+      "reading": "とんでもない",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Ngoài tưởng tượng ; - Lố bịch, vẩn, nhảm nhỉ ; - Không",
+      "examples": [
+        {
+          "ja": "さっきケガした足がとんでもなく痛い。",
+          "reading": "さっきけがしたあしがとんでもなくいたい。",
+          "vi": "vớ Cái chân bị thương khi nãy đau kinh khủng (ngoài sức tưởng tượng)."
+        },
+        {
+          "ja": "とんでもないことになった。",
+          "reading": "とんでもないことになった。",
+          "vi": "có gì Chuyện không có gì nữa rồi."
+        }
+      ]
+    },
+    {
+      "id": 811,
+      "word": "くだらない",
+      "reading": "くだらない",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "đâu Vô giá trị, vô nghĩa",
+      "examples": [
+        {
+          "ja": "あなたの話はくだらない。",
+          "reading": "あなたのはなしはくだらない。",
+          "vi": "Câu chuyện của cậu thật vô vị (xàm)."
+        }
+      ]
+    },
+    {
+      "id": 812,
+      "word": "仕方（が）ない",
+      "reading": "しかた（が）ない",
+      "han_viet": "SĨ PHƯƠNG",
+      "word_type": "Tính từ -i",
+      "meaning": "Vô phương, bó tay",
+      "examples": [
+        {
+          "ja": "掃除が終わらず、仕方なく友達にも手伝ってもらった。",
+          "reading": "そうじがおわらず、しかたなくともだちにもてつだってもらった。",
+          "vi": "Việc dọn dẹp không xong, không còn cách nào đành nhờ đứa bạn giúp."
+        }
+      ]
+    },
+    {
+      "id": 813,
+      "word": "やむを得ない",
+      "reading": "やむをえない",
+      "han_viet": "ĐẮC",
+      "word_type": "Tính từ -i",
+      "meaning": "Không tránh khỏi, bất đắc",
+      "examples": [
+        {
+          "ja": "やむを得ず、母からお金を借りる。",
+          "reading": "やむをえず、ははからおきんをかりる。",
+          "vi": "Bất đắc dĩ mượn tiền mẹ. dĩ"
+        }
+      ]
+    },
+    {
+      "id": 814,
+      "word": "申し訳ない",
+      "reading": "もうしわけない",
+      "han_viet": "THÂN DỊCH",
+      "word_type": "Tính từ -i",
+      "meaning": "Xin lỗi",
+      "examples": [
+        {
+          "ja": "彼に対して申し訳ないことをした。",
+          "reading": "かれにたいしてもうしわけないことをした。",
+          "vi": "Tôi đã làm chuyện có lỗi với anh ấy."
+        }
+      ]
+    },
+    {
+      "id": 815,
+      "word": "恋しい",
+      "reading": "こいしい",
+      "han_viet": "LUYẾN",
+      "word_type": "Tính từ -i",
+      "meaning": "Nhớ",
+      "examples": [
+        {
+          "ja": "ずっと会えていない恋人が恋しい。",
+          "reading": "ずっとあえていないこいびとがこいしい。",
+          "vi": "Nhớ người yêu lâu ngày không gặp."
+        }
+      ]
+    },
+    {
+      "id": 816,
+      "word": "懐かしい",
+      "reading": "なつかしい",
+      "han_viet": "HOÀI",
+      "word_type": "Tính từ -i",
+      "meaning": "Nhớ, hoài niệm Thân thuộc,",
+      "examples": [
+        {
+          "ja": "学生時代が懐かしい。",
+          "reading": "がくせいじだいがなつかしい。",
+          "vi": "Nhớ thời học sinh."
+        },
+        {
+          "ja": "遠くから懐かしい声が聞こえた。",
+          "reading": "とおくからなつかしいこえがきこえた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 817,
+      "word": "有難い",
+      "reading": "ありがたい",
+      "han_viet": "HỮU NAN",
+      "word_type": "Tính từ -i",
+      "meaning": "thân quen Cảm ơn",
+      "examples": [
+        {
+          "ja": "あなたのその気持ちが有難い。",
+          "reading": "あなたのそのきもちがありがたい。",
+          "vi": "Tôi rất biết ơn tấm lòng của đó của bạn."
+        }
+      ]
+    },
+    {
+      "id": 818,
+      "word": "めでたい",
+      "reading": "めでたい",
+      "han_viet": "",
+      "word_type": "Tính từ -i",
+      "meaning": "Đáng mừng, tốt lành",
+      "examples": [
+        {
+          "ja": "子どもが産まれたなんて、めでたい事ではないか。",
+          "reading": "こどもがうまれたなんて、めでたいことではないか。",
+          "vi": "Chuyện con chào đời, không phải chuyện đáng mừng hay sao. 85"
+        }
+      ]
+    },
+    {
+      "id": 819,
+      "word": "幼い",
+      "reading": "おさない",
+      "han_viet": "ẤU",
+      "word_type": "Tính từ -i",
+      "meaning": "Non nớt, ngây thơ",
+      "examples": [
+        {
+          "ja": "彼女は考え方が幼い。",
+          "reading": "かのじょはかんがえかたがおさない。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 820,
+      "word": "心細い",
+      "reading": "こころぼそい",
+      "han_viet": "TÂM TẾ",
+      "word_type": "Tính từ -i",
+      "meaning": "Bất an",
+      "examples": [
+        {
+          "ja": "ここに一人でいるのは心細い。",
+          "reading": "ここにひとりでいるのはこころぼそい。",
+          "vi": "Ở đây 1 mình tôi cảm thấy bất an."
+        },
+        {
+          "ja": "うちの犬は気性が荒い。",
+          "reading": "うちのいぬはきしょうがあらい。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 821,
+      "word": "荒い・粗い",
+      "reading": "あらい",
+      "han_viet": "HOANG / THÔ",
+      "word_type": "Tính từ -i",
+      "meaning": "Bạo lực, khốc liệt, hung tợn ; - Thô, qua loa, sơ sài",
+      "examples": [
+        {
+          "ja": "部下の仕事が粗く何度も修正が必要だ。",
+          "reading": "ぶかのしごとがあらくなんどもしゅうせいがひつようだ。",
+          "vi": "Việc của cấp dưới làm sơ sài nên phải sửa đi sửa lại bao nhiêu lần."
+        }
+      ]
+    },
+    {
+      "id": 822,
+      "word": "怪しい",
+      "reading": "あやしい",
+      "han_viet": "QUÁI",
+      "word_type": "Tính từ -i",
+      "meaning": "Đáng nghi, nghi ngờ, không chắc chắn",
+      "examples": [
+        {
+          "ja": "最近彼氏の様子が怪しい。",
+          "reading": "さいきんかれしのようすがあやしい。",
+          "vi": "Gần đây bộ dạng anh người yêu rất đáng nghi"
+        },
+        {
+          "ja": "彼はN2を持っているが会話は怪しい。",
+          "reading": "かれはN2をもっているがかいわはあやしい。",
+          "vi": "Anh ấy mặc dù có N2 nhưng hội thoại không"
+        }
+      ]
+    },
+    {
+      "id": 823,
+      "word": "偉い",
+      "reading": "えらい",
+      "han_viet": "VĨ",
+      "word_type": "Tính từ -i",
+      "meaning": "Vĩ đại, chức cao",
+      "examples": [
+        {
+          "ja": "社長のような偉い人になりたい。",
+          "reading": "しゃちょうのようなえらいにんになりたい。",
+          "vi": "Tôi muốn trở thành một người có chức vụ cao giống như giám đốc."
+        }
+      ]
+    },
+    {
+      "id": 824,
+      "word": "快い",
+      "reading": "こころよい",
+      "han_viet": "KHOÁI",
+      "word_type": "Tính từ -i",
+      "meaning": "Sẵn lòng, vẻ",
+      "examples": [
+        {
+          "ja": "彼女はいつも快く仕事を引き受けてくれる。",
+          "reading": "かのじょはいつもこころよくしごとをひきうけてくれる。",
+          "vi": "Cô ấy luôn luôn vui vẻ làm việc giúp tôi."
+        }
+      ]
+    },
+    {
+      "id": 825,
+      "word": "等しい",
+      "reading": "ひとしい",
+      "han_viet": "ĐẲNG",
+      "word_type": "Tính từ -i",
+      "meaning": "Bằng nhau, giống nhau",
+      "examples": [
+        {
+          "ja": "この二つの図形は面積が等しい。",
+          "reading": "このふたつのずけいはめんせきがひとしい。",
+          "vi": "Hai hình này có diện tích bằng nhau. 86"
+        }
+      ]
+    }
+  ]
+}

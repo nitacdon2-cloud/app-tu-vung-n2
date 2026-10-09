@@ -1,0 +1,146 @@
+{
+  "lesson_id": "sec_11_3",
+  "lesson_name": "Bài 11.3: Tiền tố (各・長・副)",
+  "level": "N2",
+  "chapter": 11,
+  "chapter_name": "Tiền tố - Hậu tố",
+  "section_tag": "11.3",
+  "order": 54,
+  "words": [
+    {
+      "word": "各〜",
+      "reading": "かく〜",
+      "han_viet": "CÁC",
+      "word_type": "TIỀN TỐ",
+      "meaning": "CÁC 〜 (Mỗi, từng)",
+      "grammar_equiv": "〜それぞれの",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1294
+    },
+    {
+      "word": "各クラス",
+      "reading": "かくくらす",
+      "han_viet": "CÁC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Các lớp, từng lớp",
+      "examples": [
+        {
+          "ja": "各クラスのリーダー",
+          "reading": "かくくらすのりーだー",
+          "vi": "Người đứng đầu của từng lớp"
+        }
+      ],
+      "parent_prefix": "各〜",
+      "is_parent_header": false,
+      "id": 1295
+    },
+    {
+      "word": "各家庭",
+      "reading": "かくかてい",
+      "han_viet": "CÁC GIA ĐÌNH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Mỗi gia đình",
+      "examples": [
+        {
+          "ja": "各家庭に配る",
+          "reading": "かくかていにくばる",
+          "vi": "Phát đến từng gia đình"
+        }
+      ],
+      "parent_prefix": "各〜",
+      "is_parent_header": false,
+      "id": 1296
+    },
+    {
+      "word": "長〜",
+      "reading": "ちょう〜",
+      "han_viet": "TRƯỜNG",
+      "word_type": "TIỀN TỐ",
+      "meaning": "TRƯỜNG 〜 (Dài)",
+      "grammar_equiv": "〜長い",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1297
+    },
+    {
+      "word": "長持ち",
+      "reading": "ながもち",
+      "han_viet": "TRƯỜNG TRÌ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Bền, giữ được lâu",
+      "examples": [
+        {
+          "ja": "長持ちする靴",
+          "reading": "ながもちするくつ",
+          "vi": "Đôi giày đi rất bền"
+        }
+      ],
+      "parent_prefix": "長〜",
+      "is_parent_header": false,
+      "id": 1298
+    },
+    {
+      "word": "長話",
+      "reading": "ながばなし",
+      "han_viet": "TRƯỜNG THOẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Câu chuyện dài dòng",
+      "examples": [
+        {
+          "ja": "長話になる",
+          "reading": "ながばなしになる",
+          "vi": "Trở thành cuộc nói chuyện dài dòng"
+        }
+      ],
+      "parent_prefix": "長〜",
+      "is_parent_header": false,
+      "id": 1299
+    },
+    {
+      "word": "副〜",
+      "reading": "ふく〜",
+      "han_viet": "PHÓ",
+      "word_type": "TIỀN TỐ",
+      "meaning": "PHÓ 〜 (Phụ, phó)",
+      "grammar_equiv": "〜サブ",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1300
+    },
+    {
+      "word": "副社長",
+      "reading": "ふくしゃちょう",
+      "han_viet": "PHÓ XÃ TRƯỜNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Phó giám đốc",
+      "examples": [
+        {
+          "ja": "副社長に就任する",
+          "reading": "ふくしゃちょうにしゅうにんする",
+          "vi": "Nhiệm chức phó giám đốc"
+        }
+      ],
+      "parent_prefix": "副〜",
+      "is_parent_header": false,
+      "id": 1301
+    },
+    {
+      "word": "副作用",
+      "reading": "ふくさよう",
+      "han_viet": "PHÓ TÁC DỤNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tác dụng phụ",
+      "examples": [
+        {
+          "ja": "薬の副作用",
+          "reading": "くすりのふくさよう",
+          "vi": "Tác dụng phụ của thuốc"
+        }
+      ],
+      "parent_prefix": "副〜",
+      "is_parent_header": false,
+      "id": 1302
+    }
+  ]
+}

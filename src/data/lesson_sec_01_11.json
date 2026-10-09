@@ -1,0 +1,366 @@
+{
+  "lesson_id": "sec_1_11",
+  "lesson_name": "Bài 1.11: Động từ (Phần 11)",
+  "level": "N2",
+  "chapter": 1,
+  "chapter_name": "Động từ",
+  "section_tag": "1.11",
+  "order": 11,
+  "words": [
+    {
+      "id": 295,
+      "word": "練る",
+      "reading": "ねる",
+      "han_viet": "LUYỆN",
+      "word_type": "Động từ",
+      "meaning": "Nhào, trộn, hoạch định",
+      "examples": [
+        {
+          "ja": "ピザの生地を練る。",
+          "reading": "ぴざのきじをねる。",
+          "vi": "Nhào nặn bột bánh pizza."
+        },
+        {
+          "ja": "事業が成功するように、計画を練る。",
+          "reading": "じぎょうがせいこうするように、けいかくをねる。",
+          "vi": "Lập kế hoạch nhằm giúp dự án thành công."
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "word": "負う",
+      "reading": "おう",
+      "han_viet": "PHỤ",
+      "word_type": "Động từ",
+      "meaning": "Bị (bỏng, thương..), mang, vác",
+      "examples": [
+        {
+          "ja": "階段で転んで、顔に大けがを負った。",
+          "reading": "かいだんでころんで、かおにおおけがをおった。",
+          "vi": "Ngã xuống cầu thang và bị vết thương lớn ở mặt."
+        },
+        {
+          "ja": "大人になるにつれて、自由になるが責任を負うことも多くなる。",
+          "reading": "おとなになるにつれて、じゆうになるがせきにんをおうこともおおくなる。",
+          "vi": "Càng lớn thì càng tự do nhưng cũng nhiều chuyện"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "word": "澄む",
+      "reading": "すむ",
+      "han_viet": "TRỪNG",
+      "word_type": "Động từ",
+      "meaning": "Trong trẻo, trong lành, trong sạch",
+      "examples": [
+        {
+          "ja": "この湖の水は澄んでいる。",
+          "reading": "このみずうみのみずはすんでいる。",
+          "vi": "Nước hồ này rất trong."
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "word": "増す",
+      "reading": "ます",
+      "han_viet": "TĂNG",
+      "word_type": "Động từ",
+      "meaning": "Tăng lên",
+      "examples": [
+        {
+          "ja": "大雨で、川の水が増す。",
+          "reading": "おおあめで、かわのみずがます。",
+          "vi": "Mưa to nên nước sông dâng lên."
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "word": "響く",
+      "reading": "ひびく",
+      "han_viet": "HƯỞNG",
+      "word_type": "Động từ",
+      "meaning": "Vang, vọng, rung động",
+      "examples": [
+        {
+          "ja": "彼の歌声は心に響く声だ。",
+          "reading": "かのうたごえはこころにひびくこえだ。",
+          "vi": "Giọng hát của anh ấy làm tôi rung động."
+        },
+        {
+          "ja": "お風呂の中は声がよく響く。",
+          "reading": "おふろのなかはこえがよくひびく。",
+          "vi": "Tiếng trong bồn tắm rất vang."
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "word": "次ぐ",
+      "reading": "つぐ",
+      "han_viet": "THỨ",
+      "word_type": "Động từ",
+      "meaning": "Tiếp theo, sau",
+      "examples": [
+        {
+          "ja": "彼は社長に次ぐ実力の持ち主だ。",
+          "reading": "かれはしゃちょうにつぐじつりょくのもちぬしだ。",
+          "vi": "Anh ta là người có thực lực chỉ sau giám đốc."
+        },
+        {
+          "ja": "ハノイはホーチミンに次ぐ大都市だ。",
+          "reading": "はのいはほーちみんにつぐだいとしだ。",
+          "vi": "Hà Nội là thành phố lớn ngay sau Tp hồ chí minh."
+        },
+        {
+          "ja": "地震に次いでつなみが起こった。",
+          "reading": "じしんについでつなみがおこった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "word": "承る",
+      "reading": "うけたまわる",
+      "han_viet": "THỪA",
+      "word_type": "Động từ",
+      "meaning": "Hiểu, rõ rồi",
+      "examples": [
+        {
+          "ja": "はい、ご注文承りました。",
+          "reading": "はい、ごちゅうもんうけたまわりました。",
+          "vi": "Vâng tôi đã rõ yêu cầu mua hàng của anh."
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "word": "頂戴する",
+      "reading": "ちょうだいする",
+      "han_viet": "ĐÍNH ĐÁI",
+      "word_type": "Động từ",
+      "meaning": "Nhận",
+      "examples": [
+        {
+          "ja": "では、社長から一言頂戴いたします。社長、どうぞ。",
+          "reading": "では、しゃちょうからひとことちょうだいいたします。しゃちょう、どうぞ。",
+          "vi": "Vậy thì tôi xin phép nhận một lời chào từ phía Giám"
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "word": "学ぶ",
+      "reading": "まなぶ",
+      "han_viet": "HỌC",
+      "word_type": "Động từ",
+      "meaning": "Học",
+      "examples": [
+        {
+          "ja": "大学で文学を学びました。",
+          "reading": "だいがくでぶんがくをまなびました。",
+          "vi": "Học môn văn ở trường Đại học."
+        }
+      ]
+    },
+    {
+      "id": 304,
+      "word": "果たす",
+      "reading": "はたす",
+      "han_viet": "QUẢ",
+      "word_type": "Động từ",
+      "meaning": "Hoàn thành",
+      "examples": [
+        {
+          "ja": "親としての責任を果たす。",
+          "reading": "おやとしてのせきにんをはたす。",
+          "vi": "Hoàn thành trách nhiệm của người làm cha mẹ."
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "word": "引き受ける",
+      "reading": "ひきうける",
+      "han_viet": "DẪN THỤ",
+      "word_type": "Động từ",
+      "meaning": "Đảm nhận, đảm trách",
+      "examples": [
+        {
+          "ja": "大変な仕事を引き受けてしまった。",
+          "reading": "たいへんなしごとをひきうけてしまった。",
+          "vi": "Tôi đã trót đảm nhận một công việc rất vất vả."
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "word": "逆らう",
+      "reading": "さからう",
+      "han_viet": "NGHỊCH",
+      "word_type": "Động từ",
+      "meaning": "Phản đối, không tuân theo, ngược",
+      "examples": [
+        {
+          "ja": "親の言うことに逆らう。",
+          "reading": "おやのいうことにさからう。",
+          "vi": "Không nghe theo lời bố mẹ."
+        },
+        {
+          "ja": "風に逆らって進む。",
+          "reading": "かぜにさからってすすむ。",
+          "vi": "Đi ngược chiều gió."
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "word": "妨げる",
+      "reading": "さまたげる",
+      "han_viet": "PHƯƠNG",
+      "word_type": "Động từ",
+      "meaning": "Gây cản trở",
+      "examples": [
+        {
+          "ja": "子供がコーラを飲みすぎると、骨の成長が妨げられる。",
+          "reading": "こどもがこーらをのみすぎると、ほねのせいちょうがさまたげられる。",
+          "vi": "Nếu trẻ con uống quá nhiều coca thì sẽ bị gây cản trở cho sự phát triển của xương."
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "word": "打ち消す",
+      "reading": "うちけす",
+      "han_viet": "ĐẢ TIÊU",
+      "word_type": "Động từ",
+      "meaning": "Phủ nhận, xóa bỏ",
+      "examples": [
+        {
+          "ja": "悪い印象を打ち消すのは大変だ。",
+          "reading": "わるいいんしょうをうちけすのはたいへんだ。",
+          "vi": "Rất khó để xóa đi những ấn tượng xấu."
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "word": "応じる",
+      "reading": "おうじる",
+      "han_viet": "ỨNG",
+      "word_type": "Động từ",
+      "meaning": "Ứng với",
+      "examples": [
+        {
+          "ja": "業績に応じて給料が決まる。",
+          "reading": "ぎょうせきにおうじてきゅうりょうがきまる。",
+          "vi": "Mức lương sẽ ứng với kết quả công việc."
+        }
+      ]
+    },
+    {
+      "id": 310,
+      "word": "生じる",
+      "reading": "しょうじる",
+      "han_viet": "SINH",
+      "word_type": "Động từ",
+      "meaning": "Phát sinh",
+      "examples": [
+        {
+          "ja": "商品化される段階で、問題が生じた。",
+          "reading": "しょうひんかされるだんかいで、もんだいがしょうじた。",
+          "vi": "Vấn đề đã phát sinh trong giai đoạn sản phẩm hóa."
+        }
+      ]
+    },
+    {
+      "id": 311,
+      "word": "至る",
+      "reading": "いたる",
+      "han_viet": "CHÍ",
+      "word_type": "Động từ",
+      "meaning": "Đến, khắp",
+      "examples": [
+        {
+          "ja": "この部屋には至る所にゴミが落ちている。",
+          "reading": "このへやにはいたるところにごみがおちている。",
+          "vi": "Trong phòng này khắp nơi toàn rác."
+        },
+        {
+          "ja": "父が家を出たまま、今に至るまで連絡がつかない。",
+          "reading": "ちちがいえをでたまま、いまにいたるまでれんらくがつかない。",
+          "vi": "Bố tôi ra khỏi nhà đến giờ vẫn không liên lạc được."
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "word": "達する",
+      "reading": "たっする",
+      "han_viet": "ĐẠT",
+      "word_type": "Động từ",
+      "meaning": "Đến, đạt tới",
+      "examples": [
+        {
+          "ja": "目標金額に達する。",
+          "reading": "もくひょうきんがくにたっする。",
+          "vi": "Đạt được số tiền mục tiêu đề ra."
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "word": "ためらう",
+      "reading": "ためらう",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Chần chừ, ngại",
+      "examples": [
+        {
+          "ja": "年上だからと言って、意見を言わずにためらってはいけない。",
+          "reading": "としうえだからといって、いけんをいわずにためらってはいけない。",
+          "vi": "Kể cả là với người hơn tuổi cũng đừng ngần ngại nói ra"
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "word": "敬う",
+      "reading": "うやまう",
+      "han_viet": "KÍNH",
+      "word_type": "Động từ",
+      "meaning": "Tôn trọng",
+      "examples": [
+        {
+          "ja": "年上の先輩を敬う。",
+          "reading": "としうえのせんぱいをうやまう。",
+          "vi": "Tôn trọng sempai hơn tuổi."
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "word": "実る",
+      "reading": "みのる",
+      "han_viet": "THỰC",
+      "word_type": "Động từ",
+      "meaning": "Chín, mang lại kết quả tốt",
+      "examples": [
+        {
+          "ja": "木にりんごが実る。",
+          "reading": "きにりんごがみのる。",
+          "vi": "Quả táo chín trên cây ."
+        },
+        {
+          "ja": "努力の成果が実った。",
+          "reading": "どりょくのせいかがみのった。",
+          "vi": "Những nỗ lực đã mang lại thành quả."
+        }
+      ]
+    }
+  ]
+}

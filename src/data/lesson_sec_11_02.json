@@ -1,0 +1,462 @@
+{
+  "lesson_id": "sec_11_2",
+  "lesson_name": "Bài 11.2: Tiền tố (再・超・高・低・好・悪・初)",
+  "level": "N2",
+  "chapter": 11,
+  "chapter_name": "Tiền tố - Hậu tố",
+  "section_tag": "11.2",
+  "order": 53,
+  "words": [
+    {
+      "word": "再〜",
+      "reading": "さい〜",
+      "han_viet": "TÁI",
+      "word_type": "TIỀN TỐ",
+      "meaning": "TÁI 〜 (Lại, làm lại)",
+      "grammar_equiv": "〜もう一度",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1265
+    },
+    {
+      "word": "再出発（する）",
+      "reading": "さいしゅっぱつ",
+      "han_viet": "TÁI XUẤT PHÁT",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Khởi đầu lại",
+      "examples": [
+        {
+          "ja": "新しい土地で再出発する。",
+          "reading": "あたらしいとちでさいしゅっぱつする。",
+          "vi": "Tôi khởi đầu lại trên vùng đất mới."
+        }
+      ],
+      "parent_prefix": "再〜",
+      "is_parent_header": false,
+      "id": 1266
+    },
+    {
+      "word": "再生産（する）",
+      "reading": "さいせいさん",
+      "han_viet": "TÁI SINH SẢN",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tái sản xuất",
+      "examples": [
+        {
+          "ja": "同じ規模で再生産する",
+          "reading": "おなじきぼでさいせいさんする",
+          "vi": "Tái sản xuất theo quy mô giống như cũ."
+        }
+      ],
+      "parent_prefix": "再〜",
+      "is_parent_header": false,
+      "id": 1267
+    },
+    {
+      "word": "再認識（する）",
+      "reading": "さいにんしき",
+      "han_viet": "TÁI NHẬN THỨC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Nhận thức lại",
+      "examples": [
+        {
+          "ja": "重大性を再認識する",
+          "reading": "じゅうだいせいをさいにんしきする",
+          "vi": "Nhận ra sự nghiêm trọng của vấn đề."
+        }
+      ],
+      "parent_prefix": "再〜",
+      "is_parent_header": false,
+      "id": 1268
+    },
+    {
+      "word": "再開発",
+      "reading": "さいかいはつ",
+      "han_viet": "TÁI KHAI PHÁT",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Quy hoạch tái phát triển",
+      "examples": [
+        {
+          "ja": "駅前の再開発",
+          "reading": "えきまえのさいかいはつ",
+          "vi": "Tái phát triển khu vực trước ga."
+        }
+      ],
+      "parent_prefix": "再〜",
+      "is_parent_header": false,
+      "id": 1269
+    },
+    {
+      "word": "超〜",
+      "reading": "ちょう〜",
+      "han_viet": "SIÊU",
+      "word_type": "TIỀN TỐ",
+      "meaning": "SIÊU 〜 (Quá, vượt mức)",
+      "grammar_equiv": "〜すごく",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1270
+    },
+    {
+      "word": "超満員",
+      "reading": "ちょうまんいん",
+      "han_viet": "SIÊU MÃN VIÊN",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Quá đông người (chật cứng người)",
+      "examples": [
+        {
+          "ja": "超満員の電車",
+          "reading": "ちょうまんいんのでんしゃ",
+          "vi": "Xe điện chật cứng người"
+        }
+      ],
+      "parent_prefix": "超〜",
+      "is_parent_header": false,
+      "id": 1271
+    },
+    {
+      "word": "超小型",
+      "reading": "ちょうこがた",
+      "han_viet": "SIÊU TIỂU HÌNH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Cỡ siêu nhỏ",
+      "examples": [
+        {
+          "ja": "超小型カメラ",
+          "reading": "ちょうこがたかめら",
+          "vi": "Camera siêu nhỏ"
+        }
+      ],
+      "parent_prefix": "超〜",
+      "is_parent_header": false,
+      "id": 1272
+    },
+    {
+      "word": "超特急",
+      "reading": "ちょうとっきゅう",
+      "han_viet": "SIÊU ĐẶC CẤP",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tàu siêu tốc",
+      "examples": [
+        {
+          "ja": "超特急で進める",
+          "reading": "ちょうとっきゅうですすめる",
+          "vi": "Tiến hành với tốc độ siêu nhanh"
+        }
+      ],
+      "parent_prefix": "超〜",
+      "is_parent_header": false,
+      "id": 1273
+    },
+    {
+      "word": "高〜",
+      "reading": "こう〜",
+      "han_viet": "CAO",
+      "word_type": "TIỀN TỐ",
+      "meaning": "CAO 〜 (Cao, nhiều)",
+      "grammar_equiv": "〜高い",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1274
+    },
+    {
+      "word": "高カロリー",
+      "reading": "こうかろりー",
+      "han_viet": "CAO",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Hàm lượng Calo cao",
+      "examples": [
+        {
+          "ja": "高カロリーの食品",
+          "reading": "こうかろりーのしょくひん",
+          "vi": "Thực phẩm hàm lượng calo cao"
+        }
+      ],
+      "parent_prefix": "高〜",
+      "is_parent_header": false,
+      "id": 1275
+    },
+    {
+      "word": "高収入",
+      "reading": "こうしゅうにゅう",
+      "han_viet": "CAO THU NHẬP",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Thu nhập cao",
+      "examples": [
+        {
+          "ja": "高収入の仕事",
+          "reading": "こうしゅうにゅうのしごと",
+          "vi": "Công việc thu nhập cao"
+        }
+      ],
+      "parent_prefix": "高〜",
+      "is_parent_header": false,
+      "id": 1276
+    },
+    {
+      "word": "高気圧",
+      "reading": "こうきあつ",
+      "han_viet": "CAO KHÍ ÁP",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Áp suất cao",
+      "examples": [
+        {
+          "ja": "高気圧に覆われる",
+          "reading": "こうきあつにおおわれる",
+          "vi": "Bao phủ bởi áp suất cao"
+        }
+      ],
+      "parent_prefix": "高〜",
+      "is_parent_header": false,
+      "id": 1277
+    },
+    {
+      "word": "低〜",
+      "reading": "てい〜",
+      "han_viet": "ĐÊ",
+      "word_type": "TIỀN TỐ",
+      "meaning": "ĐÊ 〜 (Thấp)",
+      "grammar_equiv": "〜低い",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1278
+    },
+    {
+      "word": "低気圧",
+      "reading": "ていきあつ",
+      "han_viet": "ĐÊ KHÍ ÁP",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Áp suất thấp",
+      "examples": [
+        {
+          "ja": "低気圧が近づく",
+          "reading": "ていきあつがちかづく",
+          "vi": "Áp suất thấp đang đến gần"
+        }
+      ],
+      "parent_prefix": "低〜",
+      "is_parent_header": false,
+      "id": 1279
+    },
+    {
+      "word": "低カロリー",
+      "reading": "ていかろりー",
+      "han_viet": "ĐÊ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Lượng calo thấp",
+      "examples": [
+        {
+          "ja": "低カロリーの食事",
+          "reading": "ていかろりーのしょくじ",
+          "vi": "Bữa ăn calo thấp"
+        }
+      ],
+      "parent_prefix": "低〜",
+      "is_parent_header": false,
+      "id": 1280
+    },
+    {
+      "word": "低価格",
+      "reading": "ていかかく",
+      "han_viet": "ĐÊ GIÁ CÁCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Giá thấp, giá rẻ",
+      "examples": [
+        {
+          "ja": "低価格で提供する",
+          "reading": "ていかかくでていきょうする",
+          "vi": "Cung cấp với giá thấp"
+        }
+      ],
+      "parent_prefix": "低〜",
+      "is_parent_header": false,
+      "id": 1281
+    },
+    {
+      "word": "好〜",
+      "reading": "こう〜",
+      "han_viet": "HẢO",
+      "word_type": "TIỀN TỐ",
+      "meaning": "HẢO 〜 (Tốt, thuận lợi)",
+      "grammar_equiv": "〜いい",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1282
+    },
+    {
+      "word": "好条件",
+      "reading": "こうじょうけん",
+      "han_viet": "HẢO ĐIỀU KIỆN",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Điều kiện tốt",
+      "examples": [
+        {
+          "ja": "好条件で働く",
+          "reading": "こうじょうけんではたらく",
+          "vi": "Làm việc với điều kiện tốt"
+        }
+      ],
+      "parent_prefix": "好〜",
+      "is_parent_header": false,
+      "id": 1283
+    },
+    {
+      "word": "好成績",
+      "reading": "こうせいせき",
+      "han_viet": "HẢO THÀNH TÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Thành tích tốt",
+      "examples": [
+        {
+          "ja": "好成績を収める",
+          "reading": "こうせいせきをおさめる",
+          "vi": "Đạt được thành tích tốt"
+        }
+      ],
+      "parent_prefix": "好〜",
+      "is_parent_header": false,
+      "id": 1284
+    },
+    {
+      "word": "好景気",
+      "reading": "こうけいき",
+      "han_viet": "HẢO CẢNH KHÍ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Nền kinh tế tốt",
+      "examples": [
+        {
+          "ja": "好景気が続く",
+          "reading": "こうけいきがつづく",
+          "vi": "Nền kinh tế tốt tiếp diễn"
+        }
+      ],
+      "parent_prefix": "好〜",
+      "is_parent_header": false,
+      "id": 1285
+    },
+    {
+      "word": "悪〜",
+      "reading": "あく〜",
+      "han_viet": "ÁC",
+      "word_type": "TIỀN TỐ",
+      "meaning": "ÁC 〜 (Xấu, không tốt)",
+      "grammar_equiv": "〜悪い",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1286
+    },
+    {
+      "word": "悪条件",
+      "reading": "あくじょうけん",
+      "han_viet": "ÁC ĐIỀU KIỆN",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Điều kiện xấu",
+      "examples": [
+        {
+          "ja": "悪条件が重なる",
+          "reading": "あくじょうけんがかさなる",
+          "vi": "Nhiều điều kiện bất lợi chồng chất"
+        }
+      ],
+      "parent_prefix": "悪〜",
+      "is_parent_header": false,
+      "id": 1287
+    },
+    {
+      "word": "悪趣味",
+      "reading": "あくしゅみ",
+      "han_viet": "ÁC THÚ VỊ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Sở thích xấu, kì dị",
+      "examples": [
+        {
+          "ja": "悪趣味なデザイン",
+          "reading": "あくしゅみなでざいん",
+          "vi": "Thiết kế sở thích kì dị"
+        }
+      ],
+      "parent_prefix": "悪〜",
+      "is_parent_header": false,
+      "id": 1288
+    },
+    {
+      "word": "悪影響",
+      "reading": "あくえいきょう",
+      "han_viet": "ÁC ẢNH HƯỞNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Ảnh hưởng xấu",
+      "examples": [
+        {
+          "ja": "悪影響を与える",
+          "reading": "あくえいきょうをあたえる",
+          "vi": "Gây ra ảnh hưởng xấu"
+        }
+      ],
+      "parent_prefix": "悪〜",
+      "is_parent_header": false,
+      "id": 1289
+    },
+    {
+      "word": "初〜",
+      "reading": "しょ〜",
+      "han_viet": "SƠ",
+      "word_type": "TIỀN TỐ",
+      "meaning": "SƠ 〜 (Lần đầu tiên)",
+      "grammar_equiv": "〜はじめて",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1290
+    },
+    {
+      "word": "初登場",
+      "reading": "はつとうじょう",
+      "han_viet": "SƠ ĐĂNG TRƯỜNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Lần đầu xuất hiện",
+      "examples": [
+        {
+          "ja": "初登場のキャラクター",
+          "reading": "はつとうじょうのきゃらくたー",
+          "vi": "Nhân vật lần đầu xuất hiện"
+        }
+      ],
+      "parent_prefix": "初〜",
+      "is_parent_header": false,
+      "id": 1291
+    },
+    {
+      "word": "初体験",
+      "reading": "はつたいけん",
+      "han_viet": "SƠ THỂ NGHIỆM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Trải nghiệm lần đầu",
+      "examples": [
+        {
+          "ja": "初体験の連続",
+          "reading": "はつたいけんのれんぞく",
+          "vi": "Chuỗi trải nghiệm lần đầu"
+        }
+      ],
+      "parent_prefix": "初〜",
+      "is_parent_header": false,
+      "id": 1292
+    },
+    {
+      "word": "初優勝",
+      "reading": "はつゆうしょう",
+      "han_viet": "SƠ ƯU THẮNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Vô địch lần đầu",
+      "examples": [
+        {
+          "ja": "初優勝を果たす",
+          "reading": "はつゆうしょうをはたす",
+          "vi": "Giành chức vô địch lần đầu tiên"
+        }
+      ],
+      "parent_prefix": "初〜",
+      "is_parent_header": false,
+      "id": 1293
+    }
+  ]
+}

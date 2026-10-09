@@ -1,0 +1,461 @@
+{
+  "lesson_id": "sec_8_1",
+  "lesson_name": "Bài 8.1: Từ Katakana (Phần 1)",
+  "level": "N2",
+  "chapter": 8,
+  "chapter_name": "Từ Katakana",
+  "section_tag": "8.1",
+  "order": 39,
+  "words": [
+    {
+      "id": 1104,
+      "word": "アクセント",
+      "reading": "あくせんと",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Trọng âm ; - Điểm nhấn",
+      "examples": [
+        {
+          "ja": "国によって、言葉のアクセントが違う。",
+          "reading": "くにによって、ことばのあくせんとがちがう。",
+          "vi": "Tùy vào mỗi quốc gia mà trọng âm sẽ có sự khác nhau."
+        }
+      ]
+    },
+    {
+      "id": 1105,
+      "word": "アドレス",
+      "reading": "あどれす",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Địa chỉ",
+      "examples": [
+        {
+          "ja": "友達の連絡先は、アドレス帳に書いてある。",
+          "reading": "ともだちのれんらくさきは、あどれすちょうにかいてある。",
+          "vi": "Thông tin liên lạc của bạn bè được ghi sẵn trong sổ địa chỉ."
+        }
+      ]
+    },
+    {
+      "id": 1106,
+      "word": "アンコール",
+      "reading": "あんこーる",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Biểu diễn lại, hát thêm",
+      "examples": [
+        {
+          "ja": "観客のアンコールに応える。",
+          "reading": "かんきゃくのあんこーるにこたえる。",
+          "vi": "Đáp ứng yêu cầu hát thêm của quan khách."
+        }
+      ]
+    },
+    {
+      "id": 1107,
+      "word": "アンテナ",
+      "reading": "あんてな",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Ăng ten",
+      "examples": [
+        {
+          "ja": "屋上にテレビのアンテナを立てる。",
+          "reading": "おくじょうにてれびのあんてなをたてる。",
+          "vi": "Dựng anten tivi trên tầng thượng"
+        }
+      ]
+    },
+    {
+      "id": 1108,
+      "word": "アリバイ",
+      "reading": "ありばい",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Chứng cứ ngoại phạm",
+      "examples": [
+        {
+          "ja": "容疑者はアリバイを主張した。",
+          "reading": "ようぎしゃはありばいをしゅちょうした。",
+          "vi": "Nghi phạm khẳng định chứng cứ ngoại phạm của mình."
+        }
+      ]
+    },
+    {
+      "id": 1109,
+      "word": "アルコール",
+      "reading": "あるこーる",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Cồn, đồ có cồn",
+      "examples": [
+        {
+          "ja": "このお酒はアルコール度数が高い。",
+          "reading": "このおさけはあるこーるどすうがたかい。",
+          "vi": "Loại rượu này nồng độ cồn cao."
+        }
+      ]
+    },
+    {
+      "id": 1110,
+      "word": "アルファベット",
+      "reading": "あるふぁべっと",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Bảng chữ cái",
+      "examples": [
+        {
+          "ja": "アルファベットを勉強する。",
+          "reading": "あるふぁべっとをべんきょうする。",
+          "vi": "Học bảng chữ cái."
+        }
+      ]
+    },
+    {
+      "id": 1111,
+      "word": "イラスト",
+      "reading": "いらすと",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Minh họa",
+      "examples": [
+        {
+          "ja": "イラストがある本は分かりやすい。",
+          "reading": "いらすとがあるほんはわかりやすい。",
+          "vi": "Sách có hình minh họa sẽ dễ hiểu."
+        }
+      ]
+    },
+    {
+      "id": 1112,
+      "word": "インテリア",
+      "reading": "いんてりあ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Nội thất ; - Trang trí",
+      "examples": [
+        {
+          "ja": "インテリアショップに買い物に行く。",
+          "reading": "いんてりあしょっぷにかいものにいく。",
+          "vi": "Đi tới cửa hàng nội thất mua sắm."
+        }
+      ]
+    },
+    {
+      "id": 1113,
+      "word": "インフォメーション",
+      "reading": "いんふぉめーしょん",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Thông tin",
+      "examples": [
+        {
+          "ja": "インフォメーションセンターに問い合わせる。",
+          "reading": "いんふぉめーしょんせんたーにといあわせる。",
+          "vi": "Hỏi đáp với trung tâm tin tức."
+        }
+      ]
+    },
+    {
+      "id": 1114,
+      "word": "インフレ",
+      "reading": "いんふれ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Lạm phát",
+      "examples": [
+        {
+          "ja": "インフレの影響で、物価が上がった。",
+          "reading": "いんふれのえいきょうで、ぶっかがあがった。",
+          "vi": "Do ảnh hưởng của lạm phát mà vật giá tăng lên."
+        }
+      ]
+    },
+    {
+      "id": 1115,
+      "word": "ウエスト",
+      "reading": "うえすと",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Eo, vòng eo",
+      "examples": [
+        {
+          "ja": "食事を変えたことにより、ウエストが細くなった。",
+          "reading": "しょくじをかえたことにより、うえすとがこまくなった。",
+          "vi": "Bằng cách thay đổi chế độ ăn, vòng eo của tôi đã thon gọn lại."
+        }
+      ]
+    },
+    {
+      "id": 1116,
+      "word": "ウィークデー",
+      "reading": "うぃーくでー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Ngày trong tuần",
+      "examples": [
+        {
+          "ja": "この場所はウィークデーは通勤する人であふれている。",
+          "reading": "このばしょはうぃーくでーはつうきんするにんであふれている。",
+          "vi": "Ở chỗ này ngày trong tuần đều đông đúc người đi làm."
+        }
+      ]
+    },
+    {
+      "id": 1117,
+      "word": "エコノミー",
+      "reading": "えこのみー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Nền kinh tế; ; Hạng thường, hạng phổ thông",
+      "examples": [
+        {
+          "ja": "飛行機のエコノミークラスを予約した。",
+          "reading": "ひこうきのえこのみーくらすをよやくした。",
+          "vi": "Tôi đã đặt vé máy bay hạng phổ thông. 114"
+        }
+      ]
+    },
+    {
+      "id": 1118,
+      "word": "エコロジー",
+      "reading": "えころじー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Hệ sinh thái",
+      "examples": [
+        {
+          "ja": "消費量を減らす努力をしている。",
+          "reading": "しょうひりょうをへらすどりょくをしている。",
+          "vi": "Lo lắng về vấn đề hệ sinh thái nên chúng tôi đang nỗ lực giảm lượng tiêu thụ nhựa."
+        }
+      ]
+    },
+    {
+      "id": 1119,
+      "word": "エラー",
+      "reading": "えらー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Lỗi",
+      "examples": [
+        {
+          "ja": "パソコンの画面にエラーが出て、動かなくなってしまった。",
+          "reading": "ぱそこんのがめんにえらーがでて、うごかなくなってしまった。",
+          "vi": "Màn hình máy tính xảy ra lỗi không hoạt động được nữa."
+        }
+      ]
+    },
+    {
+      "id": 1120,
+      "word": "エピソード",
+      "reading": "えぴそーど",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Câu chuyện, tập, chương",
+      "examples": [
+        {
+          "ja": "これは、実際のエピソードから作られた映画です。",
+          "reading": "これは、じっさいのえぴそーどからつくられたえいがです。",
+          "vi": "Đây là bộ phim được chuyển thể từ câu chuyện có thật."
+        }
+      ]
+    },
+    {
+      "id": 1121,
+      "word": "オーバー",
+      "reading": "おーばー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Quá",
+      "examples": [
+        {
+          "ja": "タイムオーバーになってしまった。",
+          "reading": "たいむおーばーになってしまった。",
+          "vi": "Quá mất giờ rồi."
+        }
+      ]
+    },
+    {
+      "id": 1122,
+      "word": "オープン",
+      "reading": "おーぷん",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Mở, mở cửa, khai trương",
+      "examples": [
+        {
+          "ja": "新店舗がオープンする。",
+          "reading": "しんみせほがおーぷんする。",
+          "vi": "Chi nhánh mới khai trương."
+        }
+      ]
+    },
+    {
+      "id": 1123,
+      "word": "オリエンテーション",
+      "reading": "おりえんてーしょん",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Buổi định hướng, giới thiệu",
+      "examples": [
+        {
+          "ja": "新入社員向けにオリエンテーションをする。",
+          "reading": "しんにゅうしゃいんむけにおりえんてーしょんをする。",
+          "vi": "Mở buổi định hướng cho nhân viên mới."
+        }
+      ]
+    },
+    {
+      "id": 1124,
+      "word": "カウンター",
+      "reading": "かうんたー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Quầy",
+      "examples": [
+        {
+          "ja": "カウンター席で食事をする。",
+          "reading": "かうんたーせきでしょくじをする。",
+          "vi": "Ăn tại quầy."
+        }
+      ]
+    },
+    {
+      "id": 1125,
+      "word": "カウンセリング",
+      "reading": "かうんせりんぐ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Tư vấn, khuyến cáo",
+      "examples": [
+        {
+          "ja": "最近精神的につらく、カウンセリングを受けに行った。",
+          "reading": "さいきんせいしんてきにつらく、かうんせりんぐをうけにいった。",
+          "vi": "Gần đây tinh thần không được tốt nên đã đi tư vấn tâm lý."
+        }
+      ]
+    },
+    {
+      "id": 1126,
+      "word": "カット",
+      "reading": "かっと",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Cắt bớt, giảm bớt",
+      "examples": [
+        {
+          "ja": "ケーキを人数分にカットする。",
+          "reading": "けーきをにんずうぶんにかっとする。",
+          "vi": "Chia bánh kem đủ số lượng người."
+        }
+      ]
+    },
+    {
+      "id": 1127,
+      "word": "カルチャーショック",
+      "reading": "かるちゃーしょっく",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Shock văn hóa",
+      "examples": [
+        {
+          "ja": "外国の食文化にカルチャーショックを受ける。",
+          "reading": "がいこくのしょくぶんかにかるちゃーしょっくをうける。",
+          "vi": "Bị sốc với văn hóa ăn uống của nước ngoài."
+        }
+      ]
+    },
+    {
+      "id": 1128,
+      "word": "カロリー",
+      "reading": "かろりー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Calo",
+      "examples": [
+        {
+          "ja": "この料理はカロリーが高そうだ。",
+          "reading": "このりょうりはかろりーがたかそうだ。",
+          "vi": "Món này có vẻ nhiều calo."
+        }
+      ]
+    },
+    {
+      "id": 1129,
+      "word": "カーブ",
+      "reading": "かーぶ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Khúc cua, cong",
+      "examples": [
+        {
+          "ja": "この道は急カーブが続いている。",
+          "reading": "このみちはきゅうかーぶがつづいている。",
+          "vi": "Con đường này nhiều khúc cua gấp."
+        }
+      ]
+    },
+    {
+      "id": 1130,
+      "word": "カリキュラム",
+      "reading": "かりきゅらむ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Giáo án",
+      "examples": [
+        {
+          "ja": "新しいカリキュラムを作る。",
+          "reading": "あたらしいかりきゅらむをつくる。",
+          "vi": "Làm giáo án mới."
+        }
+      ]
+    },
+    {
+      "id": 1131,
+      "word": "カバー",
+      "reading": "かばー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "-Bao che, che phủ; ; -Bù cho",
+      "examples": [
+        {
+          "ja": "可愛いブックカバーを買った。",
+          "reading": "かわいぶっくかばーをかった。",
+          "vi": "Tôi đã mua bìa bọc sách dễ thương."
+        }
+      ]
+    },
+    {
+      "id": 1132,
+      "word": "キー",
+      "reading": "きー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Chìa khóa",
+      "examples": [
+        {
+          "ja": "車のキーを部屋に忘れてしまった。",
+          "reading": "くるまのきーをへやにわすれてしまった。",
+          "vi": "Để quên chìa khóa ô tô ở phòng."
+        }
+      ]
+    },
+    {
+      "id": 1133,
+      "word": "キャラクター",
+      "reading": "きゃらくたー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Nhân vật, tính cách",
+      "examples": [
+        {
+          "ja": "彼は、面白いキャラクターの持ち主だ。",
+          "reading": "かれは、おもしろいきゃらくたーのもちぬしだ。",
+          "vi": "Anh ấy có một tính cách rất thú vị. 115"
+        }
+      ]
+    }
+  ]
+}

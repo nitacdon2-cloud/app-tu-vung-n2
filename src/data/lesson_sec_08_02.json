@@ -1,0 +1,496 @@
+{
+  "lesson_id": "sec_8_2",
+  "lesson_name": "Bài 8.2: Từ Katakana (Phần 2)",
+  "level": "N2",
+  "chapter": 8,
+  "chapter_name": "Từ Katakana",
+  "section_tag": "8.2",
+  "order": 40,
+  "words": [
+    {
+      "id": 1134,
+      "word": "キャプテン",
+      "reading": "きゃぷてん",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Đội trưởng",
+      "examples": [
+        {
+          "ja": "うちのチームのキャプテンは頼もしい。",
+          "reading": "うちのちーむのきゃぷてんはたのもしい。",
+          "vi": "Đội trưởng của chúng tôi rất đáng tin."
+        }
+      ]
+    },
+    {
+      "id": 1135,
+      "word": "キャンパス",
+      "reading": "きゃんぱす",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "-Khuôn viên; ; -Phân hiệu",
+      "examples": [
+        {
+          "ja": "大学のキャンパスは広くてきれいだ。",
+          "reading": "だいがくのきゃんぱすはひろくてきれいだ。",
+          "vi": "Khuôn viên của trường đại học rộng và đẹp."
+        }
+      ]
+    },
+    {
+      "id": 1136,
+      "word": "キャッチ",
+      "reading": "きゃっち",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Bắt",
+      "examples": [
+        {
+          "ja": "ボールをキャッチする。",
+          "reading": "ぼーるをきゃっちする。",
+          "vi": "Bắt bóng."
+        }
+      ]
+    },
+    {
+      "id": 1137,
+      "word": "キャリア",
+      "reading": "きゃりあ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Sự nghiệp; ; kinh nghiệm",
+      "examples": [
+        {
+          "ja": "彼は営業職のキャリアが長い。",
+          "reading": "かれはえいぎょうしょくのきゃりあがながい。",
+          "vi": "Anh ấy có kinh nghiệm lâu năm trong nghề bán hàng."
+        }
+      ]
+    },
+    {
+      "id": 1138,
+      "word": "キャンセル",
+      "reading": "きゃんせる",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Hủy bỏ",
+      "examples": [
+        {
+          "ja": "台風で飛行機がキャンセルになった。",
+          "reading": "たいふうでひこうきがきゃんせるになった。",
+          "vi": "Do bão nên chuyến bay bị hủy."
+        }
+      ]
+    },
+    {
+      "id": 1139,
+      "word": "キャッシュ",
+      "reading": "きゃっしゅ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Tiền mặt",
+      "examples": [
+        {
+          "ja": "当店ではキャッシュのみご利用できます。",
+          "reading": "とうてんではきゃっしゅのみごりようできます。",
+          "vi": "Cửa hàng chúng tôi chỉ có thể dùng tiền mặt."
+        }
+      ]
+    },
+    {
+      "id": 1140,
+      "word": "クレーム",
+      "reading": "くれーむ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Phàn nàn, phản đối",
+      "examples": [
+        {
+          "ja": "ラーメンのスープがぬるかったので、クレームを入れた。",
+          "reading": "らーめんのすーぷがぬるかったので、くれーむをいれた。",
+          "vi": "Vì nước súp mì nguội nên đã có ý kiến phàn nàn."
+        }
+      ]
+    },
+    {
+      "id": 1141,
+      "word": "ケース",
+      "reading": "けーす",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Trường hợp; ; bao, hộp",
+      "examples": [
+        {
+          "ja": "ガラスのケースのなかに、カメラを大切に保管している。",
+          "reading": "がらすのけーすのなかに、かめらをたいせつにほかんしている。",
+          "vi": "Bảo quản thật kĩ máy ảnh trong hộp kính."
+        },
+        {
+          "ja": "今回の件は特殊なケースだ。",
+          "reading": "こんかいのけんはとくしゅなけーすだ。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 1142,
+      "word": "コード",
+      "reading": "こーど",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Dây (điện)",
+      "examples": [
+        {
+          "ja": "ドライヤーのコードがからまる。",
+          "reading": "どらいやーのこーどがからまる。",
+          "vi": "Dây điện của máy sấy bị rối."
+        }
+      ]
+    },
+    {
+      "id": 1143,
+      "word": "コーチ",
+      "reading": "こーち",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Huấn luyện viên",
+      "examples": [
+        {
+          "ja": "草野球チームのコーチをしている。",
+          "reading": "くさやきゅうちーむのこーちをしている。",
+          "vi": "Tôi đang làm huấn luyện viên của đội bóng chày nghiệp dư."
+        }
+      ]
+    },
+    {
+      "id": 1144,
+      "word": "コース",
+      "reading": "こーす",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Khóa học, quá trình, con đường",
+      "examples": [
+        {
+          "ja": "同期の山田くんは出世コースを歩んでいる。",
+          "reading": "どうきのやまだくんはしゅっせこーすをあゆんでいる。",
+          "vi": "Anh Yamada cùng vào công ty với tôi đang trên con đường thăng tiến."
+        }
+      ]
+    },
+    {
+      "id": 1145,
+      "word": "コーナー",
+      "reading": "こーなー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Góc, phần, mục",
+      "examples": [
+        {
+          "ja": "デパートに特設コーナーが設けられる。",
+          "reading": "でぱーとにとくせつこーなーがもうけられる。",
+          "vi": "Mở một góc bán hàng đặc biệt trong trung tâm mua sắm."
+        }
+      ]
+    },
+    {
+      "id": 1146,
+      "word": "コラム",
+      "reading": "こらむ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "mục Chuyên mục",
+      "examples": [
+        {
+          "ja": "新聞のコラムを書く。",
+          "reading": "しんぶんのこらむをかく。",
+          "vi": "Viết một chuyên mục cho báo."
+        }
+      ]
+    },
+    {
+      "id": 1147,
+      "word": "コンクリート",
+      "reading": "こんくりーと",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Bê tông",
+      "examples": [
+        {
+          "ja": "鉄筋コンクリートでできたアパートに引っ越した。",
+          "reading": "てっきんこんくりーとでできたあぱーとにひっこした。",
+          "vi": "Chuyển đến căn chung cư được xây dựng bằng bê tông cốt thép. 116"
+        }
+      ]
+    },
+    {
+      "id": 1148,
+      "word": "コントロール",
+      "reading": "こんとろーる",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Kiểm soát, điều khiển",
+      "examples": [
+        {
+          "ja": "あの選手の投球はコントロールがいい。",
+          "reading": "あのせんしゅのとうきゅうはこんとろーるがいい。",
+          "vi": "Kĩ thuật ném của tuyển thủ đó có sự kiểm soát rất tốt."
+        }
+      ]
+    },
+    {
+      "id": 1149,
+      "word": "サイレン",
+      "reading": "さいれん",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Còi",
+      "examples": [
+        {
+          "ja": "パトカーがサイレンを鳴らす。",
+          "reading": "ぱとかーがさいれんをならす。",
+          "vi": "Xe cảnh sát hú còi."
+        }
+      ]
+    },
+    {
+      "id": 1150,
+      "word": "サイン",
+      "reading": "さいん",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Chữ kí, dấu hiệu",
+      "examples": [
+        {
+          "ja": "好きな芸能人からサインをもらう。",
+          "reading": "すきなげいのうじんからさいんをもらう。",
+          "vi": "Nhận được chữ kí của nghệ sĩ mình yêu thích."
+        }
+      ]
+    },
+    {
+      "id": 1151,
+      "word": "サークル",
+      "reading": "さーくる",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Nhóm, câu lạc bộ",
+      "examples": [
+        {
+          "ja": "大学のサークルに参加する。",
+          "reading": "だいがくのさーくるにさんかする。",
+          "vi": "Tham gia câu lạc bộ của trường đại học."
+        }
+      ]
+    },
+    {
+      "id": 1152,
+      "word": "サービス",
+      "reading": "さーびす",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Dịch vụ, hỗ trợ, tặng kèm",
+      "examples": [
+        {
+          "ja": "あの居酒屋のサービスはとても悪い。",
+          "reading": "あのいざかやのさーびすはとてもわるい。",
+          "vi": "Dịch vụ của quán rượu đó rất tồi."
+        }
+      ]
+    },
+    {
+      "id": 1153,
+      "word": "サンプル",
+      "reading": "さんぷる",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Hàng mẫu, vật mẫu",
+      "examples": [
+        {
+          "ja": "サンプル品を試しに使う。",
+          "reading": "さんぷるひんをためしにつかう。",
+          "vi": "Dùng thử hàng mẫu."
+        }
+      ]
+    },
+    {
+      "id": 1154,
+      "word": "システム",
+      "reading": "しすてむ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Hệ thống",
+      "examples": [
+        {
+          "ja": "現在の教育システムを見直す。",
+          "reading": "げんざいのきょういくしすてむをみなおす。",
+          "vi": "Xem xét lại hệ thống giáo dục hiện nay."
+        }
+      ]
+    },
+    {
+      "id": 1155,
+      "word": "シーズン",
+      "reading": "しーずん",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Mùa; kỳ",
+      "examples": [
+        {
+          "ja": "冬の行楽シーズンが到来する。",
+          "reading": "ふゆのこうらくしーずんがとうらいする。",
+          "vi": "Kỳ nghỉ đông đến."
+        }
+      ]
+    },
+    {
+      "id": 1156,
+      "word": "シリーズ",
+      "reading": "しりーず",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Loạt, chuỗi, series",
+      "examples": [
+        {
+          "ja": "この映画は、とても人気があったのでシリーズ化された。",
+          "reading": "このえいがは、とてもにんきがあったのでしりーずかされた。",
+          "vi": "Bộ phim này rất được yêu thích nên đã được ra series tiếp."
+        }
+      ]
+    },
+    {
+      "id": 1157,
+      "word": "スター",
+      "reading": "すたー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Ngôi sao nổi tiếng",
+      "examples": [
+        {
+          "ja": "彼女は世界的に有名な映画スターだ。",
+          "reading": "かのじょはせかいてきにゆうめいなえいがすたーだ。",
+          "vi": "Cô ấy là một ngôi sao điện ảnh nổi tiếng khắp thế giới."
+        }
+      ]
+    },
+    {
+      "id": 1158,
+      "word": "スタイル",
+      "reading": "すたいる",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Kiểu cách, phong cách",
+      "examples": [
+        {
+          "ja": "ヘアスタイルを整える。",
+          "reading": "へあすたいるをととのえる。",
+          "vi": "Chỉnh lại kiểu tóc."
+        }
+      ]
+    },
+    {
+      "id": 1159,
+      "word": "スペース",
+      "reading": "すぺーす",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Khoảng trống, chỗ",
+      "examples": [
+        {
+          "ja": "学校に自習スペースがある。",
+          "reading": "がっこうにじしゅうすぺーすがある。",
+          "vi": "Ở trường có chỗ tự học."
+        }
+      ]
+    },
+    {
+      "id": 1160,
+      "word": "ストップ",
+      "reading": "すとっぷ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Dừng lại",
+      "examples": [
+        {
+          "ja": "人身事故で電車がストップしている。",
+          "reading": "じんしんじこででんしゃがすとっぷしている。",
+          "vi": "Do tai nạn chết người nên tàu điện đã dừng lại."
+        }
+      ]
+    },
+    {
+      "id": 1161,
+      "word": "センター",
+      "reading": "せんたー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Trung tâm",
+      "examples": [
+        {
+          "ja": "このアイドルグループのセンターの人が好きだ。",
+          "reading": "このあいどるぐるーぷのせんたーのにんがすきだ。",
+          "vi": "Tôi thích người ở vị trí trung tâm của nhóm thần tượng đó."
+        }
+      ]
+    },
+    {
+      "id": 1162,
+      "word": "センス",
+      "reading": "せんす",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Giác quan, cảm nhận",
+      "examples": [
+        {
+          "ja": "彼女は服のセンスがいい。",
+          "reading": "かのじょはふくのせんすがいい。",
+          "vi": "Cô ấy có sự tinh tế trong ăn mặc."
+        }
+      ]
+    },
+    {
+      "id": 1163,
+      "word": "トップ",
+      "reading": "とっぷ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Đầu bảng",
+      "examples": [
+        {
+          "ja": "昨日の出来事がトップ記事になっている。",
+          "reading": "きのうのできごとがとっぷきじになっている。",
+          "vi": "Chuyện hôm qua đã trở thành tin tức đứng đầu bảng."
+        }
+      ]
+    },
+    {
+      "id": 1164,
+      "word": "トラブル",
+      "reading": "とらぶる",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Rắc rối",
+      "examples": [
+        {
+          "ja": "マンション建設をめぐって、住民とトラブルになっている。",
+          "reading": "まんしょんけんせつをめぐって、じゅうみんととらぶるになっている。",
+          "vi": "Xảy ra rắc rối với người dân về vấn đề xây dựng chung cư."
+        }
+      ]
+    },
+    {
+      "id": 1165,
+      "word": "フリー",
+      "reading": "ふりー",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Tự do; ; miễn phí",
+      "examples": [
+        {
+          "ja": "彼の職業は、フリーのカメラマンだ。",
+          "reading": "かのしょくぎょうは、ふりーのかめらまんだ。",
+          "vi": "Nghề nghiệp của anh ấy là nhiếp ảnh gia tự do. 117"
+        }
+      ]
+    }
+  ]
+}

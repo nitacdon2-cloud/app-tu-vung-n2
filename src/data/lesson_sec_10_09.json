@@ -1,0 +1,43 @@
+{
+  "lesson_id": "sec_10_9",
+  "lesson_name": "Bài 10.9: Phân biệt 利益・収益",
+  "level": "N2",
+  "chapter": 10,
+  "chapter_name": "Phân biệt từ vựng",
+  "section_tag": "10.9",
+  "order": 51,
+  "words": [
+    {
+      "word": "利益",
+      "reading": "りえき",
+      "han_viet": "LỢI ÍCH",
+      "word_type": "Danh từ",
+      "meaning": "Lợi nhuận",
+      "sub_section": "10.9 Phân biệt 利益 / 収益",
+      "examples": [
+        {
+          "ja": "会社の利益は右肩上がりだ。",
+          "reading": "かいしゃのりえきはみぎかたあがりだ。",
+          "vi": "Lợi nhuận của công ty đang tăng lên."
+        }
+      ],
+      "id": 1245
+    },
+    {
+      "word": "収益",
+      "reading": "しゅうえき",
+      "han_viet": "THU ÍCH",
+      "word_type": "Danh từ",
+      "meaning": "Tổng doanh thu",
+      "sub_section": "10.9 Phân biệt 利益 / 収益",
+      "examples": [
+        {
+          "ja": "ユーチューブで収益を得る。",
+          "reading": "ゆーちゅーぶでしゅうえきをえる。",
+          "vi": "Đạt được doanh thu từ YouTube."
+        }
+      ],
+      "id": 1246
+    }
+  ]
+}

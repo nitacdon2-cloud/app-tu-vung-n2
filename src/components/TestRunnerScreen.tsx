@@ -100,12 +100,12 @@ export const TestRunnerScreen: React.FC = () => {
 
   // Single selected option state (index of the ONE currently selected option)
   const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(null);
+  const [attemptedIndices, setAttemptedIndices] = useState<number[]>([]);
   const [hasScoredCurrentQuestion, setHasScoredCurrentQuestion] = useState<boolean>(false);
   const [showVietnameseHint, setShowVietnameseHint] = useState<boolean>(true);
 
   const [score, setScore] = useState({ correct: 0, wrong: 0 });
   const [isFinished, setIsFinished] = useState(false);
-  const autoNextTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   const isExampleTest = testConfig.testType === 'vi_du';
 
@@ -242,24 +242,14 @@ export const TestRunnerScreen: React.FC = () => {
 
   useEffect(() => {
     setSelectedOptionIndex(null);
+    setAttemptedIndices([]);
     setHasScoredCurrentQuestion(false);
-
-    if (autoNextTimerRef.current) {
-      clearTimeout(autoNextTimerRef.current);
-      autoNextTimerRef.current = null;
-    }
 
     if (currentQ && currentQ.word) {
       if (currentQ.qType === 'kanji_to_meaning') {
         speakJapanese(currentQ.word.word);
       }
     }
-
-    return () => {
-      if (autoNextTimerRef.current) {
-        clearTimeout(autoNextTimerRef.current);
-      }
-    };
   }, [currentIndex]);
 
   if (!currentQ) return null;
@@ -269,6 +259,7 @@ export const TestRunnerScreen: React.FC = () => {
     if (!option) return;
 
     setSelectedOptionIndex(idx);
+    setAttemptedIndices((prev) => (prev.includes(idx) ? prev : [...prev, idx]));
 
     const isCorrect = option.text === currentQ.correctAnswer;
     const key = getWordKey(currentQ.word);
@@ -287,22 +278,9 @@ export const TestRunnerScreen: React.FC = () => {
     // Audio feedback
     playFeedbackSound(isCorrect ? 'correct' : 'wrong');
     speakJapanese(option.wordObj.word);
-
-    // Tự động chuyển câu nếu bật autoNext và người dùng chọn đúng
-    if (isCorrect && testConfig.autoNext) {
-      if (autoNextTimerRef.current) clearTimeout(autoNextTimerRef.current);
-      autoNextTimerRef.current = setTimeout(() => {
-        handleNextQuestion();
-      }, 1400);
-    }
   };
 
   const handleNextQuestion = () => {
-    if (autoNextTimerRef.current) {
-      clearTimeout(autoNextTimerRef.current);
-      autoNextTimerRef.current = null;
-    }
-
     if (currentIndex < questions.length - 1) {
       setCurrentIndex((prev) => prev + 1);
     } else {
@@ -510,22 +488,19 @@ export const TestRunnerScreen: React.FC = () => {
         {currentQ.options.map((option, idx) => {
           const isSelected = selectedOptionIndex === idx;
           const isOptionCorrect = option.text === currentQ.correctAnswer;
-          const hasAnswered = selectedOptionIndex !== null;
+          const isAttempted = attemptedIndices.includes(idx);
 
           let buttonStyle = 'bg-white border-gray-200 text-gray-800 hover:border-blue-400 shadow-sm';
 
-          if (hasAnswered) {
-            if (isSelected) {
-              if (isOptionCorrect) {
-                buttonStyle = 'bg-[#DCFCE7] border-emerald-400 text-[#166534] font-bold shadow-md';
-              } else {
-                buttonStyle = 'bg-[#FF5252] border-transparent text-white font-bold shadow-md animate-shake';
-              }
-            } else if (isOptionCorrect) {
-              // Highlight true correct option when user picked wrong
-              buttonStyle = 'bg-emerald-50 border-2 border-emerald-500 text-emerald-800 font-bold';
+          if (isAttempted) {
+            if (isOptionCorrect) {
+              buttonStyle = isSelected
+                ? 'bg-[#DCFCE7] border-emerald-500 text-[#166534] font-black shadow-md ring-2 ring-emerald-400'
+                : 'bg-emerald-50 border-emerald-300 text-emerald-800 font-semibold';
             } else {
-              buttonStyle = 'bg-white/70 border-gray-200 text-gray-400 opacity-60';
+              buttonStyle = isSelected
+                ? 'bg-[#FF5252] border-rose-600 text-white font-bold shadow-md ring-2 ring-rose-400'
+                : 'bg-rose-50 border-rose-300 text-rose-700 font-semibold';
             }
           }
 
@@ -533,18 +508,13 @@ export const TestRunnerScreen: React.FC = () => {
             <button
               key={idx}
               onClick={() => handleSelectOption(idx)}
-              className={`min-h-[72px] sm:min-h-[85px] p-2.5 sm:p-3.5 rounded-2xl border-2 transition-all duration-150 flex flex-col items-center justify-center text-center active:scale-95 ${buttonStyle}`}
+              className={`min-h-[72px] sm:min-h-[85px] p-2.5 sm:p-3.5 rounded-2xl border-2 transition-all duration-150 flex flex-col items-center justify-center text-center active:scale-95 cursor-pointer ${buttonStyle}`}
             >
               <span className={`text-base sm:text-lg font-bold ${
                 (currentQ.qType === 'meaning_to_word' || currentQ.qType === 'fill_in_blank') ? 'font-japanese' : ''
               }`}>
                 {option.text}
               </span>
-              {(currentQ.qType === 'meaning_to_word' || currentQ.qType === 'fill_in_blank') && option.wordObj.reading !== option.wordObj.word && (
-                <span className="text-[11px] opacity-75 font-japanese mt-0.5 font-medium">
-                  {option.wordObj.reading}
-                </span>
-              )}
             </button>
           );
         })}
@@ -603,14 +573,14 @@ export const TestRunnerScreen: React.FC = () => {
             {/* Cyan Avatar (Tra Mazii) & Speaker buttons */}
             <div className="flex items-center gap-2">
               <button
-                onClick={() => setMaziiQuery(currentQ.word.word)}
+                onClick={() => setMaziiQuery(activeOption.wordObj.word)}
                 className="w-8 h-8 rounded-full bg-[#00BCD4] hover:bg-cyan-600 text-white flex items-center justify-center shadow-sm active:scale-90 transition"
                 title="Tra từ điển Mazii"
               >
                 <User className="w-4 h-4 fill-white text-[#00BCD4]" />
               </button>
               <button
-                onClick={() => speakJapanese(currentQ.word.word)}
+                onClick={() => speakJapanese(activeOption.wordObj.word)}
                 className="w-8 h-8 rounded-full bg-[#00BCD4] hover:bg-cyan-600 text-white flex items-center justify-center shadow-sm active:scale-90 transition"
                 title="Phát âm từ"
               >
@@ -619,8 +589,8 @@ export const TestRunnerScreen: React.FC = () => {
             </div>
           </div>
 
-          {/* Completed Sentence Preview if fill_in_blank */}
-          {currentQ.qType === 'fill_in_blank' && currentQ.originalSentence && (
+          {/* Completed Sentence Preview if fill_in_blank and correct */}
+          {currentQ.qType === 'fill_in_blank' && currentQ.originalSentence && isSelectedCorrect && (
             <div className="p-3 bg-white/70 rounded-2xl border border-emerald-200/60 mb-2 space-y-1">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] font-bold text-emerald-800 uppercase">Câu hoàn chỉnh:</span>
@@ -644,23 +614,25 @@ export const TestRunnerScreen: React.FC = () => {
             </div>
           )}
 
-          {/* Explanation Text Details for Target Word */}
+          {/* Explanation Text Details for the CURRENTLY SELECTED Option */}
           <div className="space-y-0.5 pt-1">
             <div className="flex items-baseline gap-2 flex-wrap">
               <span className={`text-xl font-black font-japanese ${isSelectedCorrect ? 'text-[#166534]' : 'text-gray-900'}`}>
-                {currentQ.word.word}
+                {activeOption.wordObj.word}
               </span>
-              <span className={`text-sm font-bold font-japanese ${isSelectedCorrect ? 'text-[#15803D]' : 'text-gray-600'}`}>
-                「{currentQ.word.reading}」
-              </span>
-              {currentQ.word.han_viet && (
+              {activeOption.wordObj.reading && (
+                <span className={`text-sm font-bold font-japanese ${isSelectedCorrect ? 'text-[#15803D]' : 'text-gray-600'}`}>
+                  「{activeOption.wordObj.reading}」
+                </span>
+              )}
+              {activeOption.wordObj.han_viet && (
                 <span className="px-2 py-0.5 bg-amber-100 text-amber-900 font-black text-[10px] rounded uppercase">
-                  [{currentQ.word.han_viet}]
+                  [{activeOption.wordObj.han_viet}]
                 </span>
               )}
             </div>
             <div className={`text-sm font-semibold ${isSelectedCorrect ? 'text-[#15803D]' : 'text-gray-700'}`}>
-              {currentQ.word.meaning}
+              {activeOption.wordObj.meaning}
             </div>
           </div>
         </div>

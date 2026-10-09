@@ -1,0 +1,169 @@
+{
+  "lesson_id": "sec_11_7",
+  "lesson_name": "Bài 11.7: Hậu tố (化・目)",
+  "level": "N2",
+  "chapter": 11,
+  "chapter_name": "Tiền tố - Hậu tố",
+  "section_tag": "11.7",
+  "order": 58,
+  "words": [
+    {
+      "word": "化",
+      "reading": "か",
+      "han_viet": "HÓA",
+      "word_type": "HẬU TỐ",
+      "meaning": "HÓA 〜 (Biến đổi thành)",
+      "grammar_equiv": "〜になる",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1326
+    },
+    {
+      "word": "自動化",
+      "reading": "じどうか",
+      "han_viet": "TỰ ĐỘNG HÓA",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tự động hóa",
+      "examples": [
+        {
+          "ja": "工場を自動化する",
+          "reading": "こうじょうをじどうかする",
+          "vi": "Tự động hóa nhà máy"
+        }
+      ],
+      "parent_prefix": "化",
+      "is_parent_header": false,
+      "id": 1327
+    },
+    {
+      "word": "高齢化",
+      "reading": "こうれいか",
+      "han_viet": "CAO LINH HÓA",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Già hóa",
+      "examples": [
+        {
+          "ja": "高齢化問題",
+          "reading": "こうれいかもんだい",
+          "vi": "Vấn đề già hóa dân số"
+        }
+      ],
+      "parent_prefix": "化",
+      "is_parent_header": false,
+      "id": 1328
+    },
+    {
+      "word": "温暖化",
+      "reading": "おんだんか",
+      "han_viet": "ÔN NOÃN HÓA",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Nóng lên (toàn cầu)",
+      "examples": [
+        {
+          "ja": "地球温暖化",
+          "reading": "ちきゅうおんだんか",
+          "vi": "Hiện tượng nóng lên toàn cầu"
+        }
+      ],
+      "parent_prefix": "化",
+      "is_parent_header": false,
+      "id": 1329
+    },
+    {
+      "word": "目",
+      "reading": "め",
+      "han_viet": "MỤC",
+      "word_type": "HẬU TỐ",
+      "meaning": "MỤC 〜 (Mức độ, thứ)",
+      "grammar_equiv": "〜め",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1330
+    },
+    {
+      "word": "一番目",
+      "reading": "いちばんめ",
+      "han_viet": "NHẤT PHIÊN MỤC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Thứ nhất",
+      "examples": [
+        {
+          "ja": "一番目のコース",
+          "reading": "いちばんめのこーす",
+          "vi": "Lộ trình thứ nhất"
+        }
+      ],
+      "parent_prefix": "目",
+      "is_parent_header": false,
+      "id": 1331
+    },
+    {
+      "word": "二番目",
+      "reading": "にばんめ",
+      "han_viet": "NHỊ PHIÊN MỤC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Thứ hai",
+      "examples": [
+        {
+          "ja": "二番目の角",
+          "reading": "にばんめのかど",
+          "vi": "Góc rẽ thứ hai"
+        }
+      ],
+      "parent_prefix": "目",
+      "is_parent_header": false,
+      "id": 1332
+    },
+    {
+      "word": "少な目",
+      "reading": "すくなめ",
+      "han_viet": "THIỂU MỤC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Một ít, hơi ít",
+      "examples": [
+        {
+          "ja": "ごはん少な目にお願いします。",
+          "reading": "ごはんすくなめにおねがいします。",
+          "vi": "Hãy cho tôi ít cơm thôi"
+        }
+      ],
+      "parent_prefix": "目",
+      "is_parent_header": false,
+      "id": 1333
+    },
+    {
+      "word": "高め",
+      "reading": "たかめ",
+      "han_viet": "CAO",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Cao một chút",
+      "examples": [
+        {
+          "ja": "高めに設定した価格",
+          "reading": "たかめにせっていしたかかく",
+          "vi": "Mức giá đã được thiết lập cao một chút"
+        }
+      ],
+      "parent_prefix": "目",
+      "is_parent_header": false,
+      "id": 1334
+    },
+    {
+      "word": "変わり目",
+      "reading": "かわりめ",
+      "han_viet": "BIẾN MỤC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Thời điểm thay đổi",
+      "examples": [
+        {
+          "ja": "季節の変わり目",
+          "reading": "きせつのかわりめ",
+          "vi": "Thời điểm thay đổi của thời tiết"
+        }
+      ],
+      "parent_prefix": "目",
+      "is_parent_header": false,
+      "id": 1335
+    }
+  ]
+}

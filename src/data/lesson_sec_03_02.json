@@ -1,0 +1,386 @@
+{
+  "lesson_id": "sec_3_2",
+  "lesson_name": "Bài 3.2: Danh từ (Phần 2)",
+  "level": "N2",
+  "chapter": 3,
+  "chapter_name": "Danh từ",
+  "section_tag": "3.2",
+  "order": 18,
+  "words": [
+    {
+      "id": 496,
+      "word": "祖先",
+      "reading": "そせん",
+      "han_viet": "TỔ TIÊN",
+      "word_type": "Danh từ",
+      "meaning": "Tổ tiên",
+      "examples": [
+        {
+          "ja": "私の祖先は、偉業を成し遂げたそうだ。",
+          "reading": "わたしのそせんは、いぎょうをなしとげたそうだ。",
+          "vi": "Nghe nói Tổ tiên chúng ta đã làm được những việc vĩ đại."
+        }
+      ]
+    },
+    {
+      "id": 497,
+      "word": "親戚",
+      "reading": "しんせき",
+      "han_viet": "THÂN THÍCH",
+      "word_type": "Danh từ",
+      "meaning": "Người thân, họ hàng",
+      "examples": [
+        {
+          "ja": "お正月には親戚が集まる。",
+          "reading": "おしょうがつにはしんせきがあつまる。",
+          "vi": "Vào ngày Tết, họ hàng thường quây quần lại bên nhau."
+        }
+      ]
+    },
+    {
+      "id": 498,
+      "word": "人生",
+      "reading": "じんせい",
+      "han_viet": "NHÂN SINH",
+      "word_type": "Danh từ",
+      "meaning": "Cuộc sống, cuộc đời",
+      "examples": [
+        {
+          "ja": "会長は人生経験が豊富な人だ。",
+          "reading": "かいちょうはじんせいけいけんがほうふなにんだ。",
+          "vi": "Chủ tịch là người có kinh nghiệm sống phong phú."
+        }
+      ]
+    },
+    {
+      "id": 499,
+      "word": "人間",
+      "reading": "にんげん",
+      "han_viet": "NHÂN GIAN",
+      "word_type": "Danh từ",
+      "meaning": "Con người, nhân loại",
+      "examples": [
+        {
+          "ja": "職場での人間関係がぎくしゃくする。",
+          "reading": "しょくばでのにんげんかんけいがぎくしゃくする。",
+          "vi": "Mối quan hệ trong công ty lục đục, không tốt."
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "word": "寿命",
+      "reading": "じゅみょう",
+      "han_viet": "THỌ MỆNH",
+      "word_type": "Danh từ",
+      "meaning": "Tuổi thọ",
+      "examples": [
+        {
+          "ja": "日本人の平均寿命は年々上がっている。",
+          "reading": "にほんじんのへいきんじゅみょうはねんねんあがっている。",
+          "vi": "Tuổi thọ trung bình của người Nhật đang tăng hàng năm."
+        }
+      ]
+    },
+    {
+      "id": 501,
+      "word": "劇場",
+      "reading": "げきじょう",
+      "han_viet": "KỊCH TRƯỜNG",
+      "word_type": "Danh từ",
+      "meaning": "Nhà hát; rạp hát",
+      "examples": [
+        {
+          "ja": "ベトナムにはたくさんの歴史ある劇場がある。",
+          "reading": "べとなむにはたくさんのれきしあるげきじょうがある。",
+          "vi": "Ở Việt Nam có nhiều nhà hát có bề dày lịch sử."
+        }
+      ]
+    },
+    {
+      "id": 502,
+      "word": "睡眠",
+      "reading": "すいみん",
+      "han_viet": "THỤY MIÊN",
+      "word_type": "Danh từ",
+      "meaning": "Ngủ, giấc ngủ",
+      "examples": [
+        {
+          "ja": "睡眠時間を削って勉強する。",
+          "reading": "すいみんじかんをけずってべんきょうする。",
+          "vi": "Dùng thời gian ngủ để học."
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "word": "将来",
+      "reading": "しょうらい",
+      "han_viet": "TƯƠNG LAI",
+      "word_type": "Danh từ",
+      "meaning": "Tương lai",
+      "examples": [
+        {
+          "ja": "社長は会社の将来を考えている。",
+          "reading": "しゃちょうはかいしゃのしょうらいをかんがえている。",
+          "vi": "Giám đốc đang suy nghĩ về tương lai của công ty."
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "word": "才能",
+      "reading": "さいのう",
+      "han_viet": "TÀI NĂNG",
+      "word_type": "Danh từ",
+      "meaning": "Tài năng",
+      "examples": [
+        {
+          "ja": "彼にはスポーツ選手としての才能があふれている。",
+          "reading": "かれにはすぽーつせんしゅとしてのさいのうがあふれている。",
+          "vi": "Ở anh ấy có nhiều tài năng của một vận động viên"
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "word": "食欲",
+      "reading": "しょくよく",
+      "han_viet": "THỰC DỤC",
+      "word_type": "Danh từ",
+      "meaning": "Sự thèm ăn, ngon miệng",
+      "examples": [
+        {
+          "ja": "病気の時は、食欲がなくなる。",
+          "reading": "びょうきのときは、しょくよくがなくなる。",
+          "vi": "Khi đổ bệnh thì không muốn ăn."
+        },
+        {
+          "ja": "毎日欠かさず家事をこなす母を尊敬する。",
+          "reading": "まいにちかかさずかじをこなすははをそんけいする。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 506,
+      "word": "家事",
+      "reading": "かじ",
+      "han_viet": "GIA SỰ",
+      "word_type": "Danh từ",
+      "meaning": "Việc nhà",
+      "examples": [
+        {
+          "ja": "家事の手伝いをしたら、おこづかいをもらった。",
+          "reading": "かじのてつだいをしたら、おこづかいをもらった。",
+          "vi": "Tôi giúp bố mẹ làm việc nhà nên được cho tiền tiêu"
+        }
+      ]
+    },
+    {
+      "id": 507,
+      "word": "占い",
+      "reading": "うらない",
+      "han_viet": "CHIÊM",
+      "word_type": "Danh từ",
+      "meaning": "Sự bói toán",
+      "examples": [
+        {
+          "ja": "手相占いって、本当に当たるのかな。",
+          "reading": "てそううらないって、ほんとうにあたるのかな。",
+          "vi": "Không biết cái trò bói chỉ tay có thực sự đúng không nhỉ. 57"
+        }
+      ]
+    },
+    {
+      "id": 508,
+      "word": "長所",
+      "reading": "ちょうしょ",
+      "han_viet": "TRƯỜNG SỞ",
+      "word_type": "Danh từ",
+      "meaning": "Sở trường, điểm mạnh",
+      "examples": [
+        {
+          "ja": "君の長所は優しいところだ。",
+          "reading": "くんのちょうしょはやさしいところだ。",
+          "vi": "Điểm mạnh của cậu là hiền lành, tốt bụng."
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "word": "個性",
+      "reading": "こせい",
+      "han_viet": "CÁ TÍNH",
+      "word_type": "Danh từ",
+      "meaning": "Cá tính",
+      "examples": [
+        {
+          "ja": "人にはそれぞれ違った個性がある。",
+          "reading": "にんにはそれぞれちがったこせいがある。",
+          "vi": "Mỗi người đều có cá tính riêng của mình."
+        }
+      ]
+    },
+    {
+      "id": 510,
+      "word": "履歴",
+      "reading": "りれき",
+      "han_viet": "LÝ LỊCH",
+      "word_type": "Danh từ",
+      "meaning": "Lý lịch",
+      "examples": [
+        {
+          "ja": "履歴書を書く。",
+          "reading": "りれきしょをかく。",
+          "vi": "Viết sơ yếu lý lịch (CV)."
+        },
+        {
+          "ja": "着信履歴が3件あった。",
+          "reading": "ちゃくしんりれきが3けんあった。",
+          "vi": "Có 3 cuộc gọi nhỡ (lịch sử gọi đến)."
+        }
+      ]
+    },
+    {
+      "id": 511,
+      "word": "司会",
+      "reading": "しかい",
+      "han_viet": "TI HỘI",
+      "word_type": "Danh từ",
+      "meaning": "Chủ trì, điều hành, dẫn (chương trình, hội nghị)",
+      "examples": [
+        {
+          "ja": "この番組の司会者は面白い。",
+          "reading": "このばんぐみのしかいしゃはおもしろい。",
+          "vi": "MC chương trình này rất hài hước."
+        }
+      ]
+    },
+    {
+      "id": 512,
+      "word": "危機",
+      "reading": "きき",
+      "han_viet": "NGUY CƠ",
+      "word_type": "Danh từ",
+      "meaning": "Nguy cơ",
+      "examples": [
+        {
+          "ja": "彼女が会社の危機を救ってくれた。",
+          "reading": "かのじょがかいしゃのききをすくってくれた。",
+          "vi": "Cô ấy đã cứu công ty khỏi khủng hoảng."
+        }
+      ]
+    },
+    {
+      "id": 513,
+      "word": "台地",
+      "reading": "だいち",
+      "han_viet": "THAI ĐỊA",
+      "word_type": "Danh từ",
+      "meaning": "Bồn địa, cao nguyên",
+      "examples": [
+        {
+          "ja": "台地に妻と暮らす新しい家を建てる。",
+          "reading": "だいちにつまとくらすあたらしいいえをたてる。",
+          "vi": "Xây dựng một ngôi nhà mới trên cao nguyên để chung sống với vợ."
+        }
+      ]
+    },
+    {
+      "id": 514,
+      "word": "話題",
+      "reading": "わだい",
+      "han_viet": "THOẠI ĐỀ",
+      "word_type": "Danh từ",
+      "meaning": "Chủ đề, đề tài được nhiều người nhắc đến",
+      "examples": [
+        {
+          "ja": "今話題のアイドルが結婚したらしい。",
+          "reading": "いまわだいのあいどるがけっこんしたらしい。",
+          "vi": "Nghe nói Idol nổi tiếng gần đây đã kết hôn."
+        },
+        {
+          "ja": "昨日の出来事が、学校中で話題になっている。",
+          "reading": "きのうのできごとが、がっこうなかでわだいになっている。",
+          "vi": "Sự việc ngày hôm qua đã trở thành tiêu điểm khắp trường."
+        }
+      ]
+    },
+    {
+      "id": 515,
+      "word": "合間",
+      "reading": "あいま",
+      "han_viet": "HỢP GIAN",
+      "word_type": "Danh từ",
+      "meaning": "Thời gian rảnh (tranh thủ) ; giữa 2 hay nhiều sự vật sự việc",
+      "examples": [
+        {
+          "ja": "勉強の合間に友達とメールをする。",
+          "reading": "べんきょうのあいまにともだちとめーるをする。",
+          "vi": "Gửi mail cho bạn bè giữa những lúc học bài."
+        },
+        {
+          "ja": "電車で人と人の合間に座る。",
+          "reading": "でんしゃでにんとにんのあいまにすわる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 516,
+      "word": "品質",
+      "reading": "ひんしつ",
+      "han_viet": "PHẨM CHẤT",
+      "word_type": "Danh từ",
+      "meaning": "Chất lượng",
+      "examples": [
+        {
+          "ja": "常に品質の良い仕事を目指す。",
+          "reading": "つねにひんしつのよいしごとをめざす。",
+          "vi": "Luôn hướng đến một công việc có chất lượng tốt."
+        }
+      ]
+    },
+    {
+      "id": 517,
+      "word": "唯一",
+      "reading": "ゆいいつ",
+      "han_viet": "DUY NHẤT",
+      "word_type": "Danh từ",
+      "meaning": "Duy nhất",
+      "examples": [
+        {
+          "ja": "私の唯一の楽しみは週末の登山だ。",
+          "reading": "わたしのゆいいつのたのしみはしゅうまつのとざんだ。",
+          "vi": "Thú vui duy nhất của tôi là leo núi vào cuối tuần."
+        },
+        {
+          "ja": "外国語を勉強したのは、その地元の人と話した",
+          "reading": "がいこくごをべんきょうしたのは、そのじもとのにんとはなした",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "word": "地元",
+      "reading": "じもと",
+      "han_viet": "ĐỊA NGUYÊN",
+      "word_type": "Danh từ",
+      "meaning": "Quê quán, nguyên quán",
+      "examples": [
+        {
+          "ja": "いからだ。",
+          "reading": "いからだ。",
+          "vi": "Việc tôi học ngoại ngữ là do muốn được nói chuyện với người dân địa phương ở đó."
+        },
+        {
+          "ja": "私の地元はお米とお酒造りが有名だ。",
+          "reading": "わたしのじもとはおこめとおしゅぞうりがゆうめいだ。",
+          "vi": "Quê tôi nổi tiếng với gạo và nghề nấu rượu. 58"
+        }
+      ]
+    }
+  ]
+}

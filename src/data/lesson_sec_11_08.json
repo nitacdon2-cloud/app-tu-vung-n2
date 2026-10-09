@@ -1,0 +1,248 @@
+{
+  "lesson_id": "sec_11_8",
+  "lesson_name": "Bài 11.8: Hậu tố (的・風・感)",
+  "level": "N2",
+  "chapter": 11,
+  "chapter_name": "Tiền tố - Hậu tố",
+  "section_tag": "11.8",
+  "order": 59,
+  "words": [
+    {
+      "word": "〜的",
+      "reading": "〜てき",
+      "han_viet": "ĐÍCH",
+      "word_type": "HẬU TỐ",
+      "meaning": "〜 ĐÍCH (Mang tính, hơi hướng)",
+      "grammar_equiv": "〜 trailhead/like/ のような",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1336
+    },
+    {
+      "word": "代表的（な）",
+      "reading": "だいひょうてき",
+      "han_viet": "ĐẠI BIỂU ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Mang tính biểu tượng",
+      "examples": [
+        {
+          "ja": "代表的な映画",
+          "reading": "だいひょうてきなえいが",
+          "vi": "Bộ phim mang tính biểu tượng"
+        }
+      ],
+      "parent_prefix": "〜的",
+      "is_parent_header": false,
+      "id": 1337
+    },
+    {
+      "word": "日常的（な）",
+      "reading": "にちじょうてき",
+      "han_viet": "NHẬT THƯỜNG ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Mang tính chất thường ngày",
+      "examples": [
+        {
+          "ja": "日常的な出来事",
+          "reading": "にちじょうてきなできごと",
+          "vi": "Sự việc mang tính chất thường ngày"
+        }
+      ],
+      "parent_prefix": "〜的",
+      "is_parent_header": false,
+      "id": 1338
+    },
+    {
+      "word": "進歩的（な）",
+      "reading": "しんぽてき",
+      "han_viet": "TIẾN BỘ ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Mang tính tiến bộ",
+      "examples": [
+        {
+          "ja": "進歩的な考え",
+          "reading": "しんぽてきなかんがえ",
+          "vi": "Suy nghĩ mang tính tiến bộ"
+        }
+      ],
+      "parent_prefix": "〜的",
+      "is_parent_header": false,
+      "id": 1339
+    },
+    {
+      "word": "科学的（な）",
+      "reading": "かがくてき",
+      "han_viet": "KHOA HỌC ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Mang tính khoa học",
+      "examples": [
+        {
+          "ja": "科学的な方法",
+          "reading": "かがくてきなほうほう",
+          "vi": "Phương pháp mang tính khoa học"
+        }
+      ],
+      "parent_prefix": "〜的",
+      "is_parent_header": false,
+      "id": 1340
+    },
+    {
+      "word": "政治的（な）",
+      "reading": "せいじてき",
+      "han_viet": "CHÍNH TRỊ ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Mang hơi hướng chính trị",
+      "examples": [
+        {
+          "ja": "政治的な発言",
+          "reading": "せいじてきなはつげん",
+          "vi": "Phát ngôn mang hơi hướng chính trị"
+        }
+      ],
+      "parent_prefix": "〜的",
+      "is_parent_header": false,
+      "id": 1341
+    },
+    {
+      "word": "〜風",
+      "reading": "〜ふう",
+      "han_viet": "PHONG",
+      "word_type": "HẬU TỐ",
+      "meaning": "〜 PHONG (Theo kiểu)",
+      "grammar_equiv": "〜スタイル",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1342
+    },
+    {
+      "word": "サラリーマン風",
+      "reading": "さらりーまんふう",
+      "han_viet": "PHONG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Trông kiểu người làm công",
+      "examples": [
+        {
+          "ja": "サラリーマン風の男",
+          "reading": "さらりーまんふうのおとこ",
+          "vi": "Người đàn ông trông kiểu người làm công"
+        }
+      ],
+      "parent_prefix": "〜風",
+      "is_parent_header": false,
+      "id": 1343
+    },
+    {
+      "word": "関西風",
+      "reading": "かんさいふう",
+      "han_viet": "QUAN TÂY PHONG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Kiểu Kansai",
+      "examples": [
+        {
+          "ja": "関西風の味付け",
+          "reading": "かんさいふうのあじつけ",
+          "vi": "Nêm nếm gia vị theo kiểu Kansai"
+        }
+      ],
+      "parent_prefix": "〜風",
+      "is_parent_header": false,
+      "id": 1344
+    },
+    {
+      "word": "西洋風",
+      "reading": "せいようふう",
+      "han_viet": "TÂY DƯƠNG PHONG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Kiểu Tây Âu",
+      "examples": [
+        {
+          "ja": "西洋風の建物",
+          "reading": "せいようふうのたてもの",
+          "vi": "Tòa nhà theo kiểu Tây Âu"
+        }
+      ],
+      "parent_prefix": "〜風",
+      "is_parent_header": false,
+      "id": 1345
+    },
+    {
+      "word": "〜感",
+      "reading": "〜かん",
+      "han_viet": "CẢM",
+      "word_type": "HẬU TỐ",
+      "meaning": "〜 CẢM (Mang đến cảm giác)",
+      "grammar_equiv": "〜感じ",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1346
+    },
+    {
+      "word": "存在感",
+      "reading": "そんざいかん",
+      "han_viet": "TỒN TẠI CẢM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Cảm giác tồn tại",
+      "examples": [
+        {
+          "ja": "存在感がある人",
+          "reading": "そんざいかんがあるひと",
+          "vi": "Người mang đến cảm giác tồn tại"
+        }
+      ],
+      "parent_prefix": "〜感",
+      "is_parent_header": false,
+      "id": 1347
+    },
+    {
+      "word": "安定感",
+      "reading": "あんていかん",
+      "han_viet": "AN ĐỊNH CẢM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Cảm giác ổn định, chắc chắn",
+      "examples": [
+        {
+          "ja": "安定感がある車",
+          "reading": "あんていかんがあるくるま",
+          "vi": "Xe ô tô có cảm giác an toàn chắc chắn"
+        }
+      ],
+      "parent_prefix": "〜感",
+      "is_parent_header": false,
+      "id": 1348
+    },
+    {
+      "word": "清潔感",
+      "reading": "せいけつかん",
+      "han_viet": "THANH KHIẾT CẢM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Cảm giác gọn gàng sạch sẽ",
+      "examples": [
+        {
+          "ja": "清潔感がある男",
+          "reading": "せいけつかんがあるおとこ",
+          "vi": "Người đàn ông có cảm giác sạch sẽ"
+        }
+      ],
+      "parent_prefix": "〜感",
+      "is_parent_header": false,
+      "id": 1349
+    },
+    {
+      "word": "開放感",
+      "reading": "かいほうかん",
+      "han_viet": "KHAI PHÓNG CẢM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Cảm giác giải phóng, tự do",
+      "examples": [
+        {
+          "ja": "開放感を味わう",
+          "reading": "かいほうかんをあじわう",
+          "vi": "Thưởng thức cảm giác rộng rãi, tự do"
+        }
+      ],
+      "parent_prefix": "〜感",
+      "is_parent_header": false,
+      "id": 1350
+    }
+  ]
+}

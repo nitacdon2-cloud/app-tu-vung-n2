@@ -1,0 +1,541 @@
+{
+  "lesson_id": "sec_6_3",
+  "lesson_name": "Bài 6.3: Phó từ & Liên từ (Phần 3)",
+  "level": "N2",
+  "chapter": 6,
+  "chapter_name": "Phó từ & Liên từ",
+  "section_tag": "6.3",
+  "order": 33,
+  "words": [
+    {
+      "id": 940,
+      "word": "かんかん",
+      "reading": "かんかん",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nổi giận, nóng nảy",
+      "examples": [
+        {
+          "ja": "先生がカンカンになって怒る。",
+          "reading": "せんせいがかんかんになっていかる。",
+          "vi": "Thầy giáo nổi giận đùng đùng."
+        }
+      ]
+    },
+    {
+      "id": 941,
+      "word": "にやにや・にやりと",
+      "reading": "にやにや・にやりと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Cười nhếch mép, cười đểu",
+      "examples": [
+        {
+          "ja": "ズン先生はいつもにやにやしている。",
+          "reading": "ずんせんせいはいつもにやにやしている。",
+          "vi": "Thầy Dũng lúc nào cũng cười nhếch mép."
+        }
+      ]
+    },
+    {
+      "id": 942,
+      "word": "どきどき・どきりと",
+      "reading": "どきどき・どきりと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Hồi hộp",
+      "examples": [
+        {
+          "ja": "歯医者さんに初めて行くので、ドキドキしている。",
+          "reading": "はいしゃさんにはじめていくので、どきどきしている。",
+          "vi": "Lần đầu đi nha khoa nên hồi hộp (lo lắng)."
+        }
+      ]
+    },
+    {
+      "id": 943,
+      "word": "びしょびしょ・びっしょり",
+      "reading": "びしょびしょ・びっしょり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Ướt sũng",
+      "examples": [
+        {
+          "ja": "傘を忘れて、びしょびしょになってしまった。",
+          "reading": "かさをわすれて、びしょびしょになってしまった。",
+          "vi": "Quên ô, nên ướt sũng cả người."
+        }
+      ]
+    },
+    {
+      "id": 944,
+      "word": "どうにか",
+      "reading": "どうにか",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Bằng cách nào đó ; - Cách này hay cách khác",
+      "examples": [
+        {
+          "ja": "どうにか出勤時間に間に合った。",
+          "reading": "どうにかしゅっきんじかんにまにあった。",
+          "vi": "Bằng cách nào đó đã kịp giờ làm."
+        },
+        {
+          "ja": "どうにかして彼女と付き合いたい。",
+          "reading": "どうにかしてかのじょとつきあいたい。",
+          "vi": "Bằng cách nào đó tôi muốn hẹn hò với cô ấy."
+        }
+      ]
+    },
+    {
+      "id": 945,
+      "word": "どうにも",
+      "reading": "どうにも",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Chẳng thể làm gì",
+      "examples": [
+        {
+          "ja": "この問題は私にはどうにもできない。",
+          "reading": "このもんだいはわたしにはどうにもできない。",
+          "vi": "Về vấn đề này thì tôi cũng không thể can thiệp được gì."
+        }
+      ]
+    },
+    {
+      "id": 946,
+      "word": "何となく",
+      "reading": "なんとなく",
+      "han_viet": "HÀ",
+      "word_type": "Phó từ",
+      "meaning": "Không có mục đích, không hiểu sao",
+      "examples": [
+        {
+          "ja": "今日は何となく誰にも会いたくない。",
+          "reading": "こんにちはなんとなくだれにもあいたくない。",
+          "vi": "Hôm nay không hiểu sao chẳng muốn gặp ai cả."
+        }
+      ]
+    },
+    {
+      "id": 947,
+      "word": "何だか",
+      "reading": "なんだか",
+      "han_viet": "HÀ",
+      "word_type": "Phó từ",
+      "meaning": "Chả hiểu sao",
+      "examples": [
+        {
+          "ja": "何だか変な臭いがする。",
+          "reading": "なんだかへんなくさいがする。",
+          "vi": "Không rõ nguyên nhân có mùi gì đó lạ lạ."
+        }
+      ]
+    },
+    {
+      "id": 948,
+      "word": "何とか",
+      "reading": "なんとか",
+      "han_viet": "HÀ",
+      "word_type": "Phó từ",
+      "meaning": "Điều gì đó, bằng cách nào đó",
+      "examples": [
+        {
+          "ja": "何とか家に帰ることができた。",
+          "reading": "なんとかいえにかえることができた。",
+          "vi": "Bằng cách nào đó tôi đã về được đến nhà."
+        }
+      ]
+    },
+    {
+      "id": 949,
+      "word": "何とも",
+      "reading": "なんとも",
+      "han_viet": "HÀ",
+      "word_type": "Phó từ",
+      "meaning": "Không… một chút nào",
+      "examples": [
+        {
+          "ja": "他人から馬鹿にされても何とも思わない。",
+          "reading": "たにんからばかにされてもなんともおもわない。",
+          "vi": "Dù có bị người khác cho là ngu ngốc tôi cũng chẳng nghĩ ngợi gì. 97"
+        }
+      ]
+    },
+    {
+      "id": 950,
+      "word": "さっぱり",
+      "reading": "さっぱり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "không) ; - Sảng khoái, thoải mái ; - Vị mát",
+      "examples": [
+        {
+          "ja": "晩ごはんはさっぱりしたものを食べたい。",
+          "reading": "ばんごはんはさっぱりしたものをたべたい。",
+          "vi": "Bữa tối muốn ăn đồ ăn có vị mát."
+        },
+        {
+          "ja": "今日のテストはさっぱり分からなかった。",
+          "reading": "きょうのてすとはさっぱりわからなかった。",
+          "vi": "Bài kiểm tra hôm nay tớ hoàn toàn không hiểu gì hết."
+        }
+      ]
+    },
+    {
+      "id": 951,
+      "word": "すっきり",
+      "reading": "すっきり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Sảng khoái, dễ chịu ; - Đơn giản, gọn gàng",
+      "examples": [
+        {
+          "ja": "ランニングをすると頭がすっきりする。",
+          "reading": "らんにんぐをするとあたまがすっきりする。",
+          "vi": "Chạy vận động làm cho đầu óc sảng khoái."
+        },
+        {
+          "ja": "すっきりした文章は読みやすい。",
+          "reading": "すっきりしたぶんしょうはよみやすい。",
+          "vi": "Đoạn văn viết đơn giản sẽ dễ đọc."
+        }
+      ]
+    },
+    {
+      "id": 952,
+      "word": "ぎっしり",
+      "reading": "ぎっしり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Lèn chặt, đầy chặt, kín lịch",
+      "examples": [
+        {
+          "ja": "箱にぎっしりとみかんがつまっている。",
+          "reading": "はこにぎっしりとみかんがつまっている。",
+          "vi": "Hộp nhét đầy chặt quýt."
+        },
+        {
+          "ja": "今週は予定がぎっしりだ。",
+          "reading": "こんしゅうはよていがぎっしりだ。",
+          "vi": "Tuần này lịch trình kín mít."
+        }
+      ]
+    },
+    {
+      "id": 953,
+      "word": "あっさり",
+      "reading": "あっさり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Vị nhạt, thanh đạm ; - Dễ dàng, nhanh chóng",
+      "examples": [
+        {
+          "ja": "このスープはあっさりしている。",
+          "reading": "このすーぷはあっさりしている。",
+          "vi": "Món súp này vị thanh đạm."
+        }
+      ]
+    },
+    {
+      "id": 954,
+      "word": "こっそり",
+      "reading": "こっそり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Bí mật, lén lút",
+      "examples": [
+        {
+          "ja": "こっそり彼の財布を見る。",
+          "reading": "こっそりかのさいふをみる。",
+          "vi": "Lén lút xem ví anh ấy."
+        }
+      ]
+    },
+    {
+      "id": 955,
+      "word": "ぼんやり",
+      "reading": "ぼんやり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Lờ mờ, mờ ảo, không rõ ; - Không tập trung",
+      "examples": [
+        {
+          "ja": "遠くにぼんやり人影が見える。",
+          "reading": "とおくにぼんやりひとかげがみえる。",
+          "vi": "Từ xa nhìn thấy bóng dáng người mờ ảo."
+        },
+        {
+          "ja": "仕事中にぼんやりするな。",
+          "reading": "しごとちゅうにぼんやりするな。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 956,
+      "word": "せっせと",
+      "reading": "せっせと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Siêng năng, cần cù",
+      "examples": [
+        {
+          "ja": "毎日せっせと働く。",
+          "reading": "まいにちせっせとはたらく。",
+          "vi": "Hàng ngày đều làm việc siêng năng."
+        }
+      ]
+    },
+    {
+      "id": 957,
+      "word": "ばったり",
+      "reading": "ばったり",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Đột nhiên, đột ngột, tình cờ",
+      "examples": [
+        {
+          "ja": "町でばったり先生に会った。",
+          "reading": "まちでばったりせんせいにあった。",
+          "vi": "Tình cờ gặp thầy giáo trên phố."
+        },
+        {
+          "ja": "電車で人がばったりと倒れた。",
+          "reading": "でんしゃでにんがばったりとたおれた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 958,
+      "word": "さっさと",
+      "reading": "さっさと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nhanh chóng",
+      "examples": [
+        {
+          "ja": "さっさと宿題を終わらせる。",
+          "reading": "さっさとしゅくだいをおわらせる。",
+          "vi": "Nhanh chóng hoàn thành bài tập về nhà."
+        }
+      ]
+    },
+    {
+      "id": 959,
+      "word": "さっと",
+      "reading": "さっと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nhanh, đột ngột",
+      "examples": [
+        {
+          "ja": "野菜をさっと洗う。",
+          "reading": "やさいをさっとあらう。",
+          "vi": "Rửa qua rau."
+        }
+      ]
+    },
+    {
+      "id": 960,
+      "word": "すっと",
+      "reading": "すっと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "(Đứng) thẳng dậy, phắt dậy",
+      "examples": [
+        {
+          "ja": "席からすっと立ち上がる。",
+          "reading": "せきからすっとたちあがる。",
+          "vi": "Từ ghế đứng phắt dậy. 98"
+        }
+      ]
+    },
+    {
+      "id": 961,
+      "word": "どっと",
+      "reading": "どっと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "(Cười) phá lên ; - Cùng một lúc, bất chợt ùn tới",
+      "examples": [
+        {
+          "ja": "出口にどっと人が押し寄せた。",
+          "reading": "でぐちにどっとにんがおしよせた。",
+          "vi": "Người bất chợt ùn tới lối ra."
+        }
+      ]
+    },
+    {
+      "id": 962,
+      "word": "ざっと",
+      "reading": "ざっと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Khoảng, nháp, qua",
+      "examples": [
+        {
+          "ja": "毎月の生活費をざっと計算する。",
+          "reading": "まいつきのせいかつひをざっとけいさんする。",
+          "vi": "Tính toán sơ qua tiền sinh hoạt phí hàng tháng."
+        }
+      ]
+    },
+    {
+      "id": 963,
+      "word": "ふと",
+      "reading": "ふと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Đột nhiên, bất chợt",
+      "examples": [
+        {
+          "ja": "ふと学生時代のことを思い出す。",
+          "reading": "ふとがくせいじだいのことをおもいだす。",
+          "vi": "Đột nhiên nhớ thời học sinh."
+        }
+      ]
+    },
+    {
+      "id": 964,
+      "word": "わざと",
+      "reading": "わざと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Cố ý, cố tình",
+      "examples": [
+        {
+          "ja": "わざと知らないふりをする。",
+          "reading": "わざとしらないふりをする。",
+          "vi": "Cố tình giả vờ không biết."
+        },
+        {
+          "ja": "彼はわざと私の服を汚した。",
+          "reading": "かれはわざとわたしのふくをよごした。",
+          "vi": "Anh ấy cố tình làm bẩn áo của tôi."
+        }
+      ]
+    },
+    {
+      "id": 965,
+      "word": "わざわざ",
+      "reading": "わざわざ",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Cất công",
+      "examples": [
+        {
+          "ja": "わざわざ僕の家まで来てくれた。",
+          "reading": "わざわざぼくのいえまできてくれた。",
+          "vi": "Cậu ấy đã cất công tới tận nhà tôi."
+        }
+      ]
+    },
+    {
+      "id": 966,
+      "word": "せっかく",
+      "reading": "せっかく",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Đã mất công, chẳng mấy khi",
+      "examples": [
+        {
+          "ja": "せっかくの休みだからずっと家にいよう。",
+          "reading": "せっかくのやすみだからずっといえにいよう。",
+          "vi": "Chẳng mấy khi có ngày nghỉ nên cứ ở nhà suốt đi."
+        },
+        {
+          "ja": "せっかく学校に来たのに、今日は休校だった。",
+          "reading": "せっかくがっこうにきたのに、こんにちはきゅうこうだった。",
+          "vi": "Đã mất công tới trường rồi thế mà hôm nay trường lại nghỉ."
+        }
+      ]
+    },
+    {
+      "id": 967,
+      "word": "とにかく",
+      "reading": "とにかく",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Dù sao, Dù thế nào",
+      "examples": [
+        {
+          "ja": "今日はとにかく時間がない。",
+          "reading": "こんにちはとにかくじかんがない。",
+          "vi": "Hôm nay dù sao cũng không có thời gian."
+        },
+        {
+          "ja": "とにかく彼女に話を聞いてみよう。",
+          "reading": "とにかくかのじょにはなしをきいてみよう。",
+          "vi": "Dù sao thì cũng cứ thử nghe câu chuyện của cô ấy đã."
+        }
+      ]
+    },
+    {
+      "id": 968,
+      "word": "ともかく",
+      "reading": "ともかく",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Dù sao thì, dù thế nào ; - Bỏ qua việc, bỏ qua một bên",
+      "examples": [
+        {
+          "ja": "彼は漢字はともかくひらがなも読めない。",
+          "reading": "かれはかんじはともかくひらがなもよめない。",
+          "vi": "Anh ta tới chữ Hiragana còn không đọc được nói gì là Kanji."
+        },
+        {
+          "ja": "考えるよりともかくやってみる。",
+          "reading": "かんがえるよりともかくやってみる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 969,
+      "word": "あいにく",
+      "reading": "あいにく",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Đáng tiếc; ; không may",
+      "examples": [
+        {
+          "ja": "今日はデートだがあいにく雨が降っている。",
+          "reading": "こんにちはでーとだがあいにくあめがふっている。",
+          "vi": "Hôm nay là buổi hẹn hò, mà không may trời lại mưa."
+        }
+      ]
+    },
+    {
+      "id": 970,
+      "word": "実に",
+      "reading": "じつに",
+      "han_viet": "THỰC",
+      "word_type": "Phó từ",
+      "meaning": "Thực sự là, vô cùng, quả thực...",
+      "examples": [
+        {
+          "ja": "彼の話は実に面白い。",
+          "reading": "かのはなしはじつにおもしろい。",
+          "vi": "Câu chuyện của anh ấy quả thực thú vị."
+        }
+      ]
+    },
+    {
+      "id": 971,
+      "word": "思い切り",
+      "reading": "おもいきり",
+      "han_viet": "TƯ THIẾT",
+      "word_type": "Phó từ",
+      "meaning": "Hết sức, hết cỡ",
+      "examples": [
+        {
+          "ja": "思い切り声を出し歌う。",
+          "reading": "おもいきりこえをだしうたう。",
+          "vi": "Hát giọng cao hết cỡ. 99"
+        }
+      ]
+    }
+  ]
+}

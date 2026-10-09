@@ -1,0 +1,591 @@
+{
+  "lesson_id": "sec_1_1",
+  "lesson_name": "Bài 1.1: Động từ (Phần 1)",
+  "level": "N2",
+  "chapter": 1,
+  "chapter_name": "Động từ",
+  "section_tag": "1.1",
+  "order": 1,
+  "words": [
+    {
+      "id": 1,
+      "word": "引く",
+      "reading": "ひく",
+      "han_viet": "DẪN",
+      "word_type": "Động từ",
+      "meaning": "Kéo",
+      "examples": [
+        {
+          "ja": "カーテンを引くと、外は雨だった。",
+          "reading": "かーてんをひくと、そとはあめだった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "word": "注ぐ",
+      "reading": "つぐ",
+      "han_viet": "CHÚ",
+      "word_type": "Động từ",
+      "meaning": "Đổ (nước v.v…)",
+      "examples": [
+        {
+          "ja": "コップに牛乳をつぐ。",
+          "reading": "こっぷにぎゅうにゅうをつぐ。",
+          "vi": "Đổ sữa vào cốc."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "word": "注ぐ",
+      "reading": "そそぐ",
+      "han_viet": "CHÚ",
+      "word_type": "Động từ",
+      "meaning": "Đổ ra, rót, dồn hết",
+      "examples": [
+        {
+          "ja": "グラスにビールを注ぐ。",
+          "reading": "ぐらすにびーるをそそぐ。",
+          "vi": "Đổ bia vào cốc thuỷ tinh."
+        },
+        {
+          "ja": "息子に愛情を注ぎ育てる。",
+          "reading": "むすこにあいじょうをそそぎそだてる。",
+          "vi": "Dốc hết tình thương nuôi dạy con trai khôn lớn."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "word": "まく",
+      "reading": "まく",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Gieo (hạt), tưới (nước) ; - Phân phát",
+      "examples": [
+        {
+          "ja": "畑に種をまく。",
+          "reading": "はたけにたねをまく。",
+          "vi": "Gieo hạt lên ruộng."
+        },
+        {
+          "ja": "ハトにえさをまく。",
+          "reading": "はとにえさをまく。",
+          "vi": "Rải thức ăn cho bồ câu."
+        },
+        {
+          "ja": "種を蒔く。",
+          "reading": "たねをまく。",
+          "vi": "Gieo hạt."
+        },
+        {
+          "ja": "水を撒く。",
+          "reading": "みずをまく。",
+          "vi": "Tưới nước."
+        },
+        {
+          "ja": "塩を撒く。",
+          "reading": "しおをまく。",
+          "vi": "Rắc muối."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "word": "酔う",
+      "reading": "よう",
+      "han_viet": "TÚY",
+      "word_type": "Động từ",
+      "meaning": "Say rượu ; - Say (tàu, xe) ; - Say sưa, chìm trong..",
+      "examples": [
+        {
+          "ja": "長時間バスに乗っていたので、酔った。",
+          "reading": "ちょうじかんばすにのっていたので、よった。",
+          "vi": "Bị say xe do ngồi xe buýt quá lâu."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "word": "凹む",
+      "reading": "へこむ",
+      "han_viet": "AO",
+      "word_type": "Động từ",
+      "meaning": "Lõm ; - Buồn, suy sụp",
+      "examples": [
+        {
+          "ja": "車をぶつけて、ドアがへこんでしまった。",
+          "reading": "くるまをぶつけて、どあがへこんでしまった。",
+          "vi": "Do đâm xe nên cửa bị lõm vào."
+        },
+        {
+          "ja": "テストの点数が悪くてへこんでいます。",
+          "reading": "てすとのてんすうがわるくてへこんでいます。",
+          "vi": "Đang chán nản vì điểm kiểm tra kém."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "word": "齧る",
+      "reading": "かじる",
+      "han_viet": "NIẾT",
+      "word_type": "Động từ",
+      "meaning": "Cắn, gặm ; - (Làm, biết v.v…) ; Sơ sơ, Không chuyên sâu",
+      "examples": [
+        {
+          "ja": "パンをかじりながら自転車に乗る。",
+          "reading": "ぱんをかじりながらじてんしゃにのる。",
+          "vi": "Vừa gặm bánh mì vừa chạy xe đạp."
+        },
+        {
+          "ja": "昔、バレエを少しかじったことがあります。",
+          "reading": "むかし、ばれえをすこしかじったことがあります。",
+          "vi": "Trước đây tôi có biết múa ba lê chút chút."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "word": "躓く",
+      "reading": "つまずく",
+      "han_viet": "CHÍ",
+      "word_type": "Động từ",
+      "meaning": "Ngã, vấp ngã ; - Thất bại",
+      "examples": [
+        {
+          "ja": "小さな石につまずいて転んだ。",
+          "reading": "ちいさないしにつまずいてころんだ。",
+          "vi": "Vấp phải hòn đá nhỏ mà ngã."
+        },
+        {
+          "ja": "数学の基本的なところでつまずいてしまった。",
+          "reading": "すうがくのきほんてきなところでつまずいてしまった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "word": "頷く",
+      "reading": "うなずく",
+      "han_viet": "HẠM",
+      "word_type": "Động từ",
+      "meaning": "Gật đầu",
+      "examples": [
+        {
+          "ja": "彼女はいつもうなずいて人の話を聞いている。",
+          "reading": "かのじょはいつもうなずいてにんのはなしをきいている。",
+          "vi": "Cô ấy lúc nào cũng gật gù nghe người khác nói chuyện."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "word": "しゃがむ",
+      "reading": "しゃがむ",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Ngồi xổm",
+      "examples": [
+        {
+          "ja": "しゃがんで子供と同じ目線で話す。",
+          "reading": "しゃがんでこどもとおなじめせんではなす。",
+          "vi": "Ngồi xổm xuống để nói chuyện ở cùng tầm mắt với con."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "word": "溢れる",
+      "reading": "あふれる",
+      "han_viet": "DẬT",
+      "word_type": "Động từ",
+      "meaning": "Tràn, đầy",
+      "examples": [
+        {
+          "ja": "お母さんの優しさあふれる言葉に感動した。",
+          "reading": "おかあさんのやさしさあふれることばにかんどうした。",
+          "vi": "Cảm động trước những ngôn từ đầy sự dịu dàng của mẹ."
+        },
+        {
+          "ja": "鍋からお湯があふれる。",
+          "reading": "なべからおゆがあふれる。",
+          "vi": "Nước nóng từ nồi tràn ra."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "word": "溺れる",
+      "reading": "おぼれる",
+      "han_viet": "NỊCH",
+      "word_type": "Động từ",
+      "meaning": "Chết đuối ; - Ngập vào, chìm vào (tệ nạn)",
+      "examples": [
+        {
+          "ja": "人生で１度だけ海でおぼれた。",
+          "reading": "じんせいで１どだけうみでおぼれた。",
+          "vi": "Cuộc đời tôi từng suýt chết đuối ở biển một lần."
+        },
+        {
+          "ja": "彼は、酒におぼれている。",
+          "reading": "かれは、さけにおぼれている。",
+          "vi": "Anh ta ngập trong rượu chè."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "word": "可愛がる",
+      "reading": "かわいがる",
+      "han_viet": "KHẢ ÁI",
+      "word_type": "Động từ",
+      "meaning": "Yêu mến",
+      "examples": [
+        {
+          "ja": "私の家族は犬のポチを本当に可愛がっている。",
+          "reading": "わたしのかぞくはいぬのぽちをほんとうにかわいがっている。",
+          "vi": "Gia đình tôi rất chiều chuộng chú chó Pochi."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "word": "がっかりする",
+      "reading": "がっかりする",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Thất vọng",
+      "examples": [
+        {
+          "ja": "テストの結果にがっかりする。",
+          "reading": "てすとのけっかにがっかりする。",
+          "vi": "Thất vọng vì kết quả bài kiểm tra."
+        },
+        {
+          "ja": "救急車が来たので、速やかにどく。",
+          "reading": "きゅうきゅうしゃがきたので、すみやかにどく。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "word": "どく",
+      "reading": "どく",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Dẹp, tránh qua một bên (tự động từ)",
+      "examples": [
+        {
+          "ja": "ちょっと、どいてくれない？",
+          "reading": "ちょっと、どいてくれない？",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "word": "どける",
+      "reading": "どける",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Dẹp qua một bên (tha động từ)",
+      "examples": [
+        {
+          "ja": "箱をどけると、金庫があった。",
+          "reading": "はこをどけると、きんこがあった。",
+          "vi": "Dẹp đống hộp qua một bên thì thấy cái két sắt."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "word": "儲かる",
+      "reading": "もうかる",
+      "han_viet": "TRỮ",
+      "word_type": "Động từ",
+      "meaning": "Có lợi nhuận",
+      "examples": [
+        {
+          "ja": "あのラーメン屋、儲かってるみたいだよ。",
+          "reading": "あのらーめんや、もうかってるみたいだよ。",
+          "vi": "Cửa hàng Ramen đó có vẻ đang ăn nên làm ra đấy."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "word": "儲ける",
+      "reading": "もうける",
+      "han_viet": "TRỮ",
+      "word_type": "Động từ",
+      "meaning": "Kiếm lời",
+      "examples": [
+        {
+          "ja": "株でお金を儲ける。",
+          "reading": "かぶでおきんをもうける。",
+          "vi": "Kiếm lời nhờ số cổ phần."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "word": "解ける",
+      "reading": "ほどける",
+      "han_viet": "GIẢI",
+      "word_type": "Động từ",
+      "meaning": "Tuột, được cởi bỏ ; - Được giải phóng",
+      "examples": [
+        {
+          "ja": "靴ひもがほどける。",
+          "reading": "くつひもがほどける。",
+          "vi": "Tuột dây giày."
+        },
+        {
+          "ja": "緊張の糸がほどける。",
+          "reading": "きんちょうのいとがほどける。",
+          "vi": "Sự căng thẳng bấy lâu được cởi bỏ."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "word": "解く",
+      "reading": "ほどく",
+      "han_viet": "GIẢI",
+      "word_type": "Động từ",
+      "meaning": "Cởi bỏ, tháo (chỉ các vật có mối thắt nút)",
+      "examples": [
+        {
+          "ja": "エプロンの紐をほどく。",
+          "reading": "えぷろんのひもをほどく。",
+          "vi": "Cởi dây tạp dề."
+        },
+        {
+          "ja": "靴ひもをほどいて靴を脱ぐ。",
+          "reading": "くつひもをほどいてくつをぬぐ。",
+          "vi": "Tháo dây giày rồi cởi giày."
+        },
+        {
+          "ja": "からんだ糸をほどく。",
+          "reading": "からんだいとをほどく。",
+          "vi": "Gỡ sợi chỉ bị rối."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "word": "被る",
+      "reading": "かぶる",
+      "han_viet": "BỊ",
+      "word_type": "Động từ",
+      "meaning": "Đội (mũ) ; - Đổ ; - Chịu, nhận (trách nhiệm, ...)",
+      "examples": [
+        {
+          "ja": "帽子をかぶって外にでる。",
+          "reading": "ぼうしをかぶってそとにでる。",
+          "vi": "Đội mũ rồi ra ngoài."
+        },
+        {
+          "ja": "水をかぶる。",
+          "reading": "みずをかぶる。",
+          "vi": "Dội nước."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "word": "被せる",
+      "reading": "かぶせる",
+      "han_viet": "BỊ",
+      "word_type": "Động từ",
+      "meaning": "Đội (cho ai đó) ; - Quy, đổ, vu (trách nhiệm, tội)",
+      "examples": [
+        {
+          "ja": "罪をかぶせられた。",
+          "reading": "つみをかぶせられた。",
+          "vi": "Bị đổ tội."
+        },
+        {
+          "ja": "子供に帽子をかぶせる。",
+          "reading": "こどもにぼうしをかぶせる。",
+          "vi": "Đội mũ cho con."
+        },
+        {
+          "ja": "よく行っていたラーメン屋さんがつぶれて",
+          "reading": "よくいっていたらーめんやさんがつぶれて",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "word": "潰れる",
+      "reading": "つぶれる",
+      "han_viet": "HỘI",
+      "word_type": "Động từ",
+      "meaning": "Bẹp, nát ; - Hỏng, đổ vỡ ; - Phá sản (công ty) ; - Lãng phí (thời gian)",
+      "examples": [
+        {
+          "ja": "しまった。",
+          "reading": "しまった。",
+          "vi": "Cửa hàng Ramen tôi hay lui tới đã sập tiệm rồi."
+        },
+        {
+          "ja": "カバンの中のパンが潰れる。",
+          "reading": "かばんのなかのぱんがつぶれる。",
+          "vi": "Chiếc bánh mì để trong cặp bị bẹp."
+        },
+        {
+          "ja": "ゲームで一日つぶれてしまった。",
+          "reading": "げーむでついたちつぶれてしまった。",
+          "vi": "Lãng phí mất 1 ngày vì chơi game."
+        },
+        {
+          "ja": "彼のせいで計画がつぶれてしまった。",
+          "reading": "かのせいでけいかくがつぶれてしまった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "word": "潰す",
+      "reading": "つぶす",
+      "han_viet": "HỘI",
+      "word_type": "Động từ",
+      "meaning": "Nghiền nát, Phá hỏng ; - Làm phá sản ; - Làm lãng phí (thời gian)",
+      "examples": [
+        {
+          "ja": "いちごを潰していちごミルクを作る。",
+          "reading": "いちごをつぶしていちごみるくをつくる。",
+          "vi": "Nghiền dâu tây ra làm sữa dâu."
+        },
+        {
+          "ja": "父はギャンブルで会社をつぶしてしまった。",
+          "reading": "ちちはぎゃんぶるでかいしゃをつぶしてしまった。",
+          "vi": "Bố làm phá sản công ty vì chơi cờ bạc."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "word": "掘る",
+      "reading": "ほる",
+      "han_viet": "QUẬT",
+      "word_type": "Động từ",
+      "meaning": "Đào, khai quật",
+      "examples": [
+        {
+          "ja": "時間をつぶす- Giết thời gian",
+          "reading": "じかんをつぶす- Giết thời gian",
+          "vi": ""
+        },
+        {
+          "ja": "穴を掘ったら、温泉が出てきた。",
+          "reading": "あなをほったら、おんせんがでてきた。",
+          "vi": "Sau khi đào lỗ bỗng thấy mạch nước nóng tuôn ra."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "word": "打つ撃つ",
+      "reading": "うつ",
+      "han_viet": "ĐẢ KÍCH",
+      "word_type": "Động từ",
+      "meaning": "Đập, tung, bắn",
+      "examples": [
+        {
+          "ja": "シュートを打つ。",
+          "reading": "しゅーとをうつ。",
+          "vi": "Tung cú sút."
+        },
+        {
+          "ja": "銃を撃つ。",
+          "reading": "じゅうをうつ。",
+          "vi": "Bắn súng."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "word": "漕ぐ",
+      "reading": "こぐ",
+      "han_viet": "TÀO",
+      "word_type": "Động từ",
+      "meaning": "Chèo, lái, đạp (thuyền, xe)",
+      "examples": [
+        {
+          "ja": "人生で初めてカヌーをこいだ。",
+          "reading": "じんせいではじめてかぬーをこいだ。",
+          "vi": "Lần đầu tiên trong đời tôi chèo xuồng."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "word": "敷く",
+      "reading": "しく",
+      "han_viet": "PHU",
+      "word_type": "Động từ",
+      "meaning": "Trải ra",
+      "examples": [
+        {
+          "ja": "テーブルクロスを敷いて食事の準備をする。",
+          "reading": "てーぶるくろすをしいてしょくじのじゅんびをする。",
+          "vi": "Trải khăn bàn ra chuẩn bị cho bữa ăn."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "word": "発つ",
+      "reading": "たつ",
+      "han_viet": "PHÁT",
+      "word_type": "Động từ",
+      "meaning": "Khởi hành, rời khỏi",
+      "examples": [
+        {
+          "ja": "列車が駅を発つ。",
+          "reading": "れっしゃがえきをたつ。",
+          "vi": "Đoàn tàu rời ga."
+        },
+        {
+          "ja": "海に潜って、魚をやりで突く。",
+          "reading": "うみにせんって、さかなをやりでつく。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "word": "突く",
+      "reading": "つく",
+      "han_viet": "ĐỘT",
+      "word_type": "Động từ",
+      "meaning": "Chọc, đâm ; - Đóng dấu ; - Khiến ngực đau nhói",
+      "examples": [
+        {
+          "ja": "杖を突いて歩く。",
+          "reading": "つえをついてあるく。",
+          "vi": "Chống gậy đi."
+        },
+        {
+          "ja": "契約書に判をつく。",
+          "reading": "けいやくしょにはんをつく。",
+          "vi": "Đóng dấu vào bản hợp đồng."
+        },
+        {
+          "ja": "彼女の言葉に胸を突かれた。",
+          "reading": "かのじょのことばにむねをつかれた。",
+          "vi": "Lời nói của cô ấy khiến ngực tôi đau nhói."
+        }
+      ]
+    }
+  ]
+}

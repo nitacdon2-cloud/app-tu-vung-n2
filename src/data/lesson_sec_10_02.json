@@ -1,0 +1,74 @@
+{
+  "lesson_id": "sec_10_2",
+  "lesson_name": "Bài 10.2: Phân biệt 犯す・侵す・冒す",
+  "level": "N2",
+  "chapter": 10,
+  "chapter_name": "Phân biệt từ vựng",
+  "section_tag": "10.2",
+  "order": 44,
+  "words": [
+    {
+      "word": "犯す",
+      "reading": "おかす",
+      "han_viet": "PHẠM",
+      "word_type": "Động từ",
+      "meaning": "Vi phạm luật định, luật pháp, luân thường đạo lý",
+      "sub_section": "10.2 Phân biệt 犯す / 侵す / 冒す",
+      "examples": [
+        {
+          "ja": "過ちを犯した。",
+          "reading": "あやまちをおかした。",
+          "vi": "Phạm lỗi, mắc lỗi."
+        },
+        {
+          "ja": "罪を犯す。",
+          "reading": "つみをおかす。",
+          "vi": "Phạm tội."
+        }
+      ],
+      "id": 1228
+    },
+    {
+      "word": "侵す",
+      "reading": "おかす",
+      "han_viet": "XÂM",
+      "word_type": "Động từ",
+      "meaning": "Xâm phạm vào thứ của người khác",
+      "sub_section": "10.2 Phân biệt 犯す / 侵す / 冒す",
+      "examples": [
+        {
+          "ja": "領海を侵す。",
+          "reading": "りょうかいをおかす。",
+          "vi": "Xâm phạm lãnh hải."
+        },
+        {
+          "ja": "プライバシーを侵す。",
+          "reading": "ぷらいばしーをおかす。",
+          "vi": "Xâm phạm quyền riêng tư."
+        }
+      ],
+      "id": 1229
+    },
+    {
+      "word": "冒す",
+      "reading": "おかす",
+      "han_viet": "MẠO",
+      "word_type": "Động từ",
+      "meaning": "Đương đầu / Ảnh hưởng / Mạo phạm",
+      "sub_section": "10.2 Phân biệt 犯す / 侵す / 冒す",
+      "examples": [
+        {
+          "ja": "危険を冒す。",
+          "reading": "きけんをおかす。",
+          "vi": "Đương đầu với hiểm nguy."
+        },
+        {
+          "ja": "尊厳を冒す。",
+          "reading": "そんげんをおかす。",
+          "vi": "Mạo phạm lòng tự trọng."
+        }
+      ],
+      "id": 1230
+    }
+  ]
+}

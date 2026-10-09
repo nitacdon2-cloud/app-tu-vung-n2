@@ -1,0 +1,556 @@
+{
+  "lesson_id": "sec_7_2",
+  "lesson_name": "Bài 7.2: Động từ ghép (Phần 2)",
+  "level": "N2",
+  "chapter": 7,
+  "chapter_name": "Động từ ghép",
+  "section_tag": "7.2",
+  "order": 37,
+  "words": [
+    {
+      "id": 1053,
+      "word": "飛び上がる",
+      "reading": "とびあがる",
+      "han_viet": "PHI THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Nhảy lên ; - Vượt cấp",
+      "examples": [
+        {
+          "ja": "びっくりして飛び上がる。",
+          "reading": "びっくりしてとびあがる。",
+          "vi": "Giật mình và nhảy cẫng lên"
+        }
+      ]
+    },
+    {
+      "id": 1054,
+      "word": "浮かび上がる",
+      "reading": "うかびあがる",
+      "han_viet": "PHÙ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Nổi bật lên",
+      "examples": [
+        {
+          "ja": "汚れが浮かび上がる。",
+          "reading": "よごれがうかびあがる。",
+          "vi": "Vết bẩn nổi bật lên."
+        },
+        {
+          "ja": "彼女が犯人として浮かび上がった。",
+          "reading": "かのじょがはんにんとしてうかびあがった。",
+          "vi": "Cô ta xuất hiện với khả năng là hung thủ."
+        }
+      ]
+    },
+    {
+      "id": 1055,
+      "word": "舞い上がる",
+      "reading": "まいあがる",
+      "han_viet": "VŨ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Cuộn lên, bay lên, phấn khích",
+      "examples": [
+        {
+          "ja": "風でほこりが舞い上がる。",
+          "reading": "かぜでほこりがまいあがる。",
+          "vi": "Gió cuốn theo bụi bay lên."
+        },
+        {
+          "ja": "彼は恋人が出来て舞い上がっていた。",
+          "reading": "かれはこいびとができてまいあがっていた。",
+          "vi": "Anh ta rất phấn khích vì có người yêu."
+        }
+      ]
+    },
+    {
+      "id": 1056,
+      "word": "出来上がる",
+      "reading": "できあがる",
+      "han_viet": "XUẤT LAI THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Được hoàn thành; làm xong",
+      "examples": [
+        {
+          "ja": "夕食が出来上がる。",
+          "reading": "ゆうしょくができあがる。",
+          "vi": "Cơm tối đã nấu xong."
+        },
+        {
+          "ja": "作品が出来上がる。",
+          "reading": "さくひんができあがる。",
+          "vi": "Tác phẩm đã hoàn thành xong."
+        }
+      ]
+    },
+    {
+      "id": 1057,
+      "word": "書き上げる",
+      "reading": "かきあげる",
+      "han_viet": "THƯ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Viết xong, hoàn thành",
+      "examples": [
+        {
+          "ja": "本を書き上げる。",
+          "reading": "ほんをかきあげる。",
+          "vi": "Viết xong cuốn sách."
+        },
+        {
+          "ja": "履歴書を書き上げる。",
+          "reading": "りれきしょをかきあげる。",
+          "vi": "Viết xong sơ yếu lí lịch."
+        }
+      ]
+    },
+    {
+      "id": 1058,
+      "word": "縮み上がる",
+      "reading": "ちぢみあがる",
+      "han_viet": "SÚC THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Co rúm lại",
+      "examples": [
+        {
+          "ja": "犯人におどされ、縮み上がる。",
+          "reading": "はんにんにおどされ、ちぢみあがる。",
+          "vi": "Bị tên tội phạm hăm dọa sợ hãi co rúm người lại."
+        }
+      ]
+    },
+    {
+      "id": 1059,
+      "word": "干上がる",
+      "reading": "ひあがる",
+      "han_viet": "CAN THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Khô, cạn",
+      "examples": [
+        {
+          "ja": "田んぼが干上がる。",
+          "reading": "たんぼがひあがる。",
+          "vi": "Ruộng khô."
+        },
+        {
+          "ja": "太陽の日差しで、池が干上がる。",
+          "reading": "たいようのひざしで、いけがひあがる。",
+          "vi": "Cái ao cạn khô do ánh nắng mặt trời."
+        }
+      ]
+    },
+    {
+      "id": 1060,
+      "word": "立ち上がる",
+      "reading": "たちあがる",
+      "han_viet": "LẬP THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Đứng dậy; ; đứng lên",
+      "examples": [
+        {
+          "ja": "ソファーから立ち上がる。",
+          "reading": "そふぁーからたちあがる。",
+          "vi": "Từ sofa đứng lên."
+        },
+        {
+          "ja": "年なので立ち上がるのがしんどい。",
+          "reading": "ねんなのでたちあがるのがしんどい。",
+          "vi": "Vì đã có tuổi nên việc đứng dậy rất là khó khăn."
+        }
+      ]
+    },
+    {
+      "id": 1061,
+      "word": "盛り上がる",
+      "reading": "もりあがる",
+      "han_viet": "THỊNH THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Hào hứng, sôi nổi",
+      "examples": [
+        {
+          "ja": "ライブが盛り上がる。",
+          "reading": "らいぶがもりあがる。",
+          "vi": "Buổi trình diễn trở nên sôi nổi."
+        },
+        {
+          "ja": "このパーティーは盛り上がりに欠けている。",
+          "reading": "このぱーてぃーはもりあがりにかけている。",
+          "vi": "Bữa tiệc này thiếu sự hào hứng."
+        }
+      ]
+    },
+    {
+      "id": 1062,
+      "word": "沸き上がる",
+      "reading": "わきあがる",
+      "han_viet": "PHÍ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Sôi lên ; - Dâng trào",
+      "examples": [
+        {
+          "ja": "彼に対する怒りが沸き上がってくる。",
+          "reading": "かれにたいするいかりがわきあがってくる。",
+          "vi": "Sự tức giận đối với anh ta ngày càng dâng trào."
+        },
+        {
+          "ja": "客席から歓声が沸き上がる。",
+          "reading": "きゃくせきからかんせいがわきあがる。",
+          "vi": "Tiếng reo hò từ hàng ghế khán đài dâng trào lên. 109"
+        }
+      ]
+    },
+    {
+      "id": 1063,
+      "word": "晴れ上がる",
+      "reading": "はれあがる",
+      "han_viet": "TÌNH THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Sáng sủa lên, nắng lên",
+      "examples": [
+        {
+          "ja": "晴れ上がった夏空。",
+          "reading": "はれあがったなつぞら。",
+          "vi": "Bầu trời mùa hè quang đãng."
+        }
+      ]
+    },
+    {
+      "id": 1064,
+      "word": "震え上がる",
+      "reading": "ふるえあがる",
+      "han_viet": "CHẤN THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Run lên cầm cập; run bắn",
+      "examples": [
+        {
+          "ja": "カナダの寒さに震え上がる。",
+          "reading": "かなだのさむさにふるえあがる。",
+          "vi": "Run cầm cập bởi cái lạnh của Canada. lên"
+        },
+        {
+          "ja": "あの事件は、国民を震え上がらせた。",
+          "reading": "あのじけんは、こくみんをふるえあがらせた。",
+          "vi": "Vụ án đó đã làm cho cả nước run sợ."
+        }
+      ]
+    },
+    {
+      "id": 1065,
+      "word": "燃え上がる",
+      "reading": "もえあがる",
+      "han_viet": "NHIÊN THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Bốc cháy",
+      "examples": [
+        {
+          "ja": "紙が燃え上がる。",
+          "reading": "かみがもえあがる。",
+          "vi": "Giấy bốc cháy."
+        },
+        {
+          "ja": "炎が勢いよく燃え上がる。",
+          "reading": "ほのおがいきおいよくもえあがる。",
+          "vi": "Ngọn lửa cháy một cách dữ dội."
+        }
+      ]
+    },
+    {
+      "id": 1066,
+      "word": "積み上げる",
+      "reading": "つみあげる",
+      "han_viet": "TÍCH THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Chất đống, chồng lên",
+      "examples": [
+        {
+          "ja": "段ボールを積み上げる。",
+          "reading": "だんぼーるをつみあげる。",
+          "vi": "Chất đống bìa các tông."
+        },
+        {
+          "ja": "空に大きな花火を打ち上げる。",
+          "reading": "そらにおおきなはなびをうちあげる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 1067,
+      "word": "打ち上げる",
+      "reading": "うちあげる",
+      "han_viet": "ĐẢ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Phóng lên, bắn, báo cáo",
+      "examples": [
+        {
+          "ja": "打ち上げパーティーをする。",
+          "reading": "うちあげぱーてぃーをする。",
+          "vi": "Tham dự bữa tiệc mừng kết thúc dự án."
+        }
+      ]
+    },
+    {
+      "id": 1068,
+      "word": "読み上げる",
+      "reading": "よみあげる",
+      "han_viet": "ĐỘC THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Đọc lên",
+      "examples": [
+        {
+          "ja": "ボールを打ち上げる。",
+          "reading": "ぼーるをうちあげる。",
+          "vi": "Đánh quả bóng."
+        },
+        {
+          "ja": "教科書の内容を読み上げる。",
+          "reading": "きょうかしょのないようをよみあげる。",
+          "vi": "Đọc nội dung trong sách giáo khoa lên."
+        }
+      ]
+    },
+    {
+      "id": 1069,
+      "word": "数え上げる",
+      "reading": "かぞえあげる",
+      "han_viet": "SỐ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Liệt kê",
+      "examples": [
+        {
+          "ja": "原因を数え上げる。",
+          "reading": "げんいんをかぞえあげる。",
+          "vi": "Liệt kê nguyên nhân."
+        }
+      ]
+    },
+    {
+      "id": 1070,
+      "word": "持ち上げる",
+      "reading": "もちあげる",
+      "han_viet": "TRÌ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Nhấc lên, nâng lên",
+      "examples": [
+        {
+          "ja": "段ボールを持ち上げる。",
+          "reading": "だんぼーるをもちあげる。",
+          "vi": "Nhấc thùng các tông lên."
+        }
+      ]
+    },
+    {
+      "id": 1071,
+      "word": "見上げる",
+      "reading": "みあげる",
+      "han_viet": "KIẾN THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Ngưỡng mộ, Nhìn lên",
+      "examples": [
+        {
+          "ja": "星空を見上げる。",
+          "reading": "ほしぞらをみあげる。",
+          "vi": "Nhìn lên bầu trời sao."
+        }
+      ]
+    },
+    {
+      "id": 1072,
+      "word": "立ち上げる",
+      "reading": "たちあげる",
+      "han_viet": "LẬP THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Khởi động (máy tính), bắt đầu",
+      "examples": [
+        {
+          "ja": "プロジェクトを立ち上げる。",
+          "reading": "ぷろじぇくとをたちあげる。",
+          "vi": "Khởi động dự án."
+        }
+      ]
+    },
+    {
+      "id": 1073,
+      "word": "切り上げる",
+      "reading": "きりあげる",
+      "han_viet": "THIẾT THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Kết thúc, làm tròn",
+      "examples": [
+        {
+          "ja": "用事を切り上げて帰宅する。",
+          "reading": "ようじをきりあげてきたくする。",
+          "vi": "Kết thúc công việc đi về nhà."
+        }
+      ]
+    },
+    {
+      "id": 1074,
+      "word": "磨き上げる",
+      "reading": "みがきあげる",
+      "han_viet": "MA THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Đánh bóng, mài giũa",
+      "examples": [
+        {
+          "ja": "机をキレイに磨き上げる。",
+          "reading": "つくえをきれいにみがきあげる。",
+          "vi": "Đánh bóng cái ghế thật đẹp."
+        }
+      ]
+    },
+    {
+      "id": 1075,
+      "word": "鍛え上げる",
+      "reading": "きたえあげる",
+      "han_viet": "ĐOÁN THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Rèn luyện, rèn giũa",
+      "examples": [
+        {
+          "ja": "弟子を鍛え上げる。",
+          "reading": "でしをきたえあげる。",
+          "vi": "Rèn giũa đệ tử. 110"
+        }
+      ]
+    },
+    {
+      "id": 1076,
+      "word": "育て上げる",
+      "reading": "そだてあげる",
+      "han_viet": "DỤC THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Nuôi lớn, Nuôi dưỡng",
+      "examples": [
+        {
+          "ja": "弟子を育て上げる。",
+          "reading": "でしをそだてあげる。",
+          "vi": "Nuôi dưỡng đệ tử."
+        }
+      ]
+    },
+    {
+      "id": 1077,
+      "word": "繰り上げる",
+      "reading": "くりあげる",
+      "han_viet": "SÀO THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Sớm hơn lịch trình",
+      "examples": [
+        {
+          "ja": "会議の日程を繰り上げる。",
+          "reading": "かいぎのにっていをくりあげる。",
+          "vi": "Đẩy lịch cuộc họp lên sớm hơn."
+        }
+      ]
+    },
+    {
+      "id": 1078,
+      "word": "考え直す",
+      "reading": "かんがえなおす",
+      "han_viet": "KHẢO TRỰC",
+      "word_type": "Động từ",
+      "meaning": "Xem lại, suy nghĩ lại",
+      "examples": [
+        {
+          "ja": "学校を辞めるつもりだったが、考え直した。",
+          "reading": "がっこうをやめるつもりだったが、かんがえなおした。",
+          "vi": "Tôi đã định nghỉ học, nhưng lại nghĩ lại."
+        }
+      ]
+    },
+    {
+      "id": 1079,
+      "word": "思い直す",
+      "reading": "おもいなおす",
+      "han_viet": "TƯ TRỰC",
+      "word_type": "Động từ",
+      "meaning": "Đổi ý",
+      "examples": [
+        {
+          "ja": "自殺するとこだったが、親友の言葉で思い直した。",
+          "reading": "じさつするとこだったが、しんゆうのことばでおもいなおした。",
+          "vi": "Tôi đã suýt tự vẫn, nhưng đã thay đổi suy nghĩ nhờ lời nói của đứa bạn."
+        }
+      ]
+    },
+    {
+      "id": 1080,
+      "word": "聞き直す",
+      "reading": "ききなおす",
+      "han_viet": "VĂN TRỰC",
+      "word_type": "Động từ",
+      "meaning": "Nghe lại, hỏi",
+      "examples": [
+        {
+          "ja": "先生に話の内容を聞き直す。",
+          "reading": "せんせいにはなしのないようをききなおす。",
+          "vi": "lại Hỏi lại giáo viên nội dung câu chuyện."
+        }
+      ]
+    },
+    {
+      "id": 1081,
+      "word": "やり直す",
+      "reading": "やりなおす",
+      "han_viet": "TRỰC",
+      "word_type": "Động từ",
+      "meaning": "Làm lại",
+      "examples": [
+        {
+          "ja": "ゲームをはじめからやり直す。",
+          "reading": "げーむをはじめからやりなおす。",
+          "vi": "Chơi game lại từ đầu."
+        }
+      ]
+    },
+    {
+      "id": 1082,
+      "word": "かけ直す",
+      "reading": "かけなおす",
+      "han_viet": "TRỰC",
+      "word_type": "Động từ",
+      "meaning": "Gọi lại",
+      "examples": [
+        {
+          "ja": "今忙しいので後でかけ直します。",
+          "reading": "いまいそがしいのであとでかけなおします。",
+          "vi": "Bây giờ tôi đang bận nên tôi sẽ gọi lại sau."
+        }
+      ]
+    },
+    {
+      "id": 1083,
+      "word": "出直す",
+      "reading": "でなおす",
+      "han_viet": "XUẤT TRỰC",
+      "word_type": "Động từ",
+      "meaning": "Ra ngoài lần nữa; làm lại đầu",
+      "examples": [
+        {
+          "ja": "一から出直してきなさい。",
+          "reading": "いちからでなおしてきなさい。",
+          "vi": "từ Hãy làm lại từ đầu đi."
+        }
+      ]
+    },
+    {
+      "id": 1084,
+      "word": "持ち直す",
+      "reading": "もちなおす",
+      "han_viet": "TRÌ TRỰC",
+      "word_type": "Động từ",
+      "meaning": "Đổi tay xách; ; chuyển biến",
+      "examples": [
+        {
+          "ja": "落ちそうなカバンを持ち直す。",
+          "reading": "おちそうなかばんをもちなおす。",
+          "vi": "Đổi tay xách chiếc túi có vẻ sắp rơi. tốt"
+        },
+        {
+          "ja": "売上が伸び,会社を持ち直せた。",
+          "reading": "うりあがのび,かいしゃをもちなおせた。",
+          "vi": "Doanh thu tăng khiến tình hình công ty chuyển biến tốt hơn. 111"
+        }
+      ]
+    }
+  ]
+}

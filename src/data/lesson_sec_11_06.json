@@ -1,0 +1,118 @@
+{
+  "lesson_id": "sec_11_6",
+  "lesson_name": "Bài 11.6: Hậu tố (内・外)",
+  "level": "N2",
+  "chapter": 11,
+  "chapter_name": "Tiền tố - Hậu tố",
+  "section_tag": "11.6",
+  "order": 57,
+  "words": [
+    {
+      "word": "内",
+      "reading": "ない",
+      "han_viet": "NỘI",
+      "word_type": "HẬU TỐ",
+      "meaning": "NỘI 〜 (Trong, nội)",
+      "grammar_equiv": "〜中",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1319
+    },
+    {
+      "word": "時間内",
+      "reading": "じかんない",
+      "han_viet": "THỜI GIAN NỘI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Trong thời gian cho phép",
+      "examples": [
+        {
+          "ja": "時間内に書き終える",
+          "reading": "じかんないにかきおえる",
+          "vi": "Viết hết trong thời gian cho phép"
+        }
+      ],
+      "parent_prefix": "内",
+      "is_parent_header": false,
+      "id": 1320
+    },
+    {
+      "word": "期間内",
+      "reading": "きかんない",
+      "han_viet": "KỲ GIAN NỘI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Trong thời hạn",
+      "examples": [
+        {
+          "ja": "期間内に支払う",
+          "reading": "きかんないにしはらう",
+          "vi": "Trả trong thời gian cho phép"
+        }
+      ],
+      "parent_prefix": "内",
+      "is_parent_header": false,
+      "id": 1321
+    },
+    {
+      "word": "予算内",
+      "reading": "よさんない",
+      "han_viet": "DỰ TOÁN NỘI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Trong ngân sách",
+      "examples": [
+        {
+          "ja": "予算内に収まる",
+          "reading": "よさんないにおさまる",
+          "vi": "Nằm trong ngân sách dự toán"
+        }
+      ],
+      "parent_prefix": "内",
+      "is_parent_header": false,
+      "id": 1322
+    },
+    {
+      "word": "外",
+      "reading": "がい",
+      "han_viet": "NGOẠI",
+      "word_type": "HẬU TỐ",
+      "meaning": "NGOẠI 〜 (Ngoài, ngoại)",
+      "grammar_equiv": "〜外",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1323
+    },
+    {
+      "word": "時間外",
+      "reading": "じかんがい",
+      "han_viet": "THỜI GIAN NGOẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Ngoài giờ làm việc",
+      "examples": [
+        {
+          "ja": "時間外労働",
+          "reading": "じかんがいろうどう",
+          "vi": "Làm việc ngoài giờ"
+        }
+      ],
+      "parent_prefix": "外",
+      "is_parent_header": false,
+      "id": 1324
+    },
+    {
+      "word": "範囲外",
+      "reading": "はんいがい",
+      "han_viet": "PHẠM VI NGOẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Ngoài phạm vi",
+      "examples": [
+        {
+          "ja": "範囲外の問題",
+          "reading": "はんいがいのもんだい",
+          "vi": "Câu hỏi ngoài phạm vi"
+        }
+      ],
+      "parent_prefix": "外",
+      "is_parent_header": false,
+      "id": 1325
+    }
+  ]
+}

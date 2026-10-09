@@ -23,6 +23,10 @@ export interface Lesson {
   lesson_name: string;
   level: string;
   words: Word[];
+  chapter?: number;
+  chapter_name?: string;
+  section_tag?: string;
+  order?: number;
 }
 
 export type WordStatus = 'chua_nho' | 'da_nho';

@@ -40,7 +40,7 @@ export const Header: React.FC = () => {
     if (currentScreen === 'grammar_flashcard') return 'Học Thẻ Ngữ Pháp';
     if (currentScreen === 'grammar_test') return 'Test Ngữ Pháp';
     if (currentScreen === 'lesson_grid') return 'N2 Từ Vựng';
-    if (currentScreen === 'word_list') return currentLesson ? `N2 ${currentLesson.lesson_name.split(':')[1]?.trim() || currentLesson.lesson_id}` : 'N2 Lesson';
+    if (currentScreen === 'word_list') return currentLesson ? currentLesson.lesson_name : 'N2 Từ Vựng';
     if (currentScreen === 'word_detail') return 'Chi Tiết Từ Vựng';
     if (currentScreen === 'card_match') return 'Bài Test Ghép Từ';
     if (currentScreen === 'test_setup') return 'Thiết Lập Luyện Tập';
@@ -95,7 +95,7 @@ export const Header: React.FC = () => {
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className="flex items-center gap-1.5 font-semibold text-sm sm:text-base hover:opacity-90 transition text-left"
             >
-              <span className="truncate max-w-[110px] sm:max-w-xs">{getHeaderTitle()}</span>
+              <span className="truncate max-w-[130px] sm:max-w-xs">{getHeaderTitle()}</span>
               <ChevronDown className="w-4 h-4 opacity-80 flex-shrink-0" />
             </button>
           ) : (
@@ -109,10 +109,10 @@ export const Header: React.FC = () => {
 
           {/* Lesson Select Dropdown (Vocab mode) */}
           {isDropdownOpen && !isGrammarMode && (
-            <div className="absolute top-full left-0 mt-2 w-64 bg-white text-gray-800 rounded-xl shadow-2xl border border-gray-100 py-2 max-h-80 overflow-y-auto z-50 animate-in fade-in zoom-in-95 duration-150">
-              <div className="px-3 py-1.5 text-xs font-bold text-gray-400 uppercase tracking-wider flex items-center justify-between">
-                <span>Danh sách bài học</span>
-                <span className="px-2 py-0.5 bg-blue-50 text-primary rounded-full">{lessons.length}</span>
+            <div className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white text-gray-800 rounded-xl shadow-2xl border border-gray-100 py-2 max-h-80 overflow-y-auto z-50 animate-in fade-in zoom-in-95 duration-150">
+              <div className="px-3 py-1.5 text-xs font-bold text-gray-400 uppercase tracking-wider flex items-center justify-between border-b border-gray-100">
+                <span>Danh sách bài học (1.1 → 11.10)</span>
+                <span className="px-2 py-0.5 bg-blue-50 text-primary rounded-full">{lessons.length} bài</span>
               </div>
               {lessons.map((lesson) => (
                 <button
@@ -122,12 +122,12 @@ export const Header: React.FC = () => {
                     setIsDropdownOpen(false);
                     if (currentScreen === 'lesson_grid') setScreen('word_list');
                   }}
-                  className={`w-full px-4 py-2 text-left text-sm flex items-center justify-between hover:bg-primary/5 transition ${
+                  className={`w-full px-3.5 py-2 text-left text-xs sm:text-sm flex items-center justify-between hover:bg-primary/5 transition ${
                     currentLessonId === lesson.lesson_id ? 'bg-primary/10 text-primary font-bold' : ''
                   }`}
                 >
                   <span className="truncate">{lesson.lesson_name}</span>
-                  <span className="text-xs text-gray-400 flex-shrink-0 ml-2">{lesson.words.length} từ</span>
+                  <span className="text-[11px] text-gray-400 flex-shrink-0 ml-2">{lesson.words.length} từ</span>
                 </button>
               ))}
             </div>

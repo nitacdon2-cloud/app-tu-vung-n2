@@ -1,0 +1,386 @@
+{
+  "lesson_id": "sec_9_1",
+  "lesson_name": "Bài 9.1: Từ vựng tổng hợp (まとめ)",
+  "level": "N2",
+  "chapter": 9,
+  "chapter_name": "Từ vựng tổng hợp",
+  "section_tag": "9.1",
+  "order": 42,
+  "words": [
+    {
+      "id": 1201,
+      "word": "改正",
+      "reading": "かいせい",
+      "han_viet": "CẢI CHÍNH",
+      "word_type": "Danh từ",
+      "meaning": "Sự thay đổi; ; Sự chỉnh sửa",
+      "examples": [
+        {
+          "ja": "ある事件をきっかけに、法律が改正された。",
+          "reading": "あるじけんをきっかけに、ほうりつがかいせいされた。",
+          "vi": "Bắt đầu từ một vụ việc nọ mà luật đã được sửa đổi."
+        }
+      ]
+    },
+    {
+      "id": 1202,
+      "word": "改定",
+      "reading": "かいてい",
+      "han_viet": "CẢI ĐỊNH",
+      "word_type": "Danh từ",
+      "meaning": "Sửa đổi",
+      "examples": [
+        {
+          "ja": "明日から料金改定を行います。",
+          "reading": "あしたからりょうきんかいていをおこないます。",
+          "vi": "Bắt đầu từ ngày mai sẽ tiến hành thay đổi cước phí."
+        }
+      ]
+    },
+    {
+      "id": 1203,
+      "word": "改修",
+      "reading": "かいしゅう",
+      "han_viet": "CẢI TU",
+      "word_type": "Danh từ",
+      "meaning": "Cải tiến; nâng cấp; sự cải tạo",
+      "examples": [
+        {
+          "ja": "改修工事を行う。",
+          "reading": "かいしゅうこうじをおこなう。",
+          "vi": "Tiến hành thi công sửa chữa."
+        }
+      ]
+    },
+    {
+      "id": 1204,
+      "word": "改革",
+      "reading": "かいかく",
+      "han_viet": "CẢI CÁCH",
+      "word_type": "Danh từ",
+      "meaning": "Cải cách",
+      "examples": [
+        {
+          "ja": "制度を改革しなければ、発展する事はできない。",
+          "reading": "せいどをかいかくしなければ、はってんすることはできない。",
+          "vi": "Nếu không cải cách chế độ sẽ không thể phát triển."
+        }
+      ]
+    },
+    {
+      "id": 1205,
+      "word": "改善",
+      "reading": "かいぜん",
+      "han_viet": "CẢI THIỆN",
+      "word_type": "Danh từ",
+      "meaning": "Sự cải thiện",
+      "examples": [
+        {
+          "ja": "お客様に指摘された問題を改善する。",
+          "reading": "おきゃくさまにしてきされたもんだいをかいぜんする。",
+          "vi": "Cải thiện những vấn đề được khách hàng chỉ ra."
+        }
+      ]
+    },
+    {
+      "id": 1206,
+      "word": "改良",
+      "reading": "かいりょう",
+      "han_viet": "CẢI LƯƠNG",
+      "word_type": "Danh từ",
+      "meaning": "Sự cải thiện, Cải tiến",
+      "examples": [
+        {
+          "ja": "改良を重ね、お客様が満足する商品を作れた。",
+          "reading": "かいりょうをおもね、おきゃくさまがまんぞくするしょうひんをつくれた。",
+          "vi": "Chúng tôi không ngừng cải thiện, và đã làm ra được những sản phẩm khiến khách hàng hài lòng."
+        }
+      ]
+    },
+    {
+      "id": 1207,
+      "word": "開業",
+      "reading": "かいぎょう",
+      "han_viet": "KHAI NGHIỆP",
+      "word_type": "Danh từ",
+      "meaning": "Bắt đầu kinh doanh, khai trương",
+      "examples": [
+        {
+          "ja": "税理士事務所を開業することになった。",
+          "reading": "ぜいりしじむしょをかいぎょうすることになった。",
+          "vi": "Mở văn phòng tư vấn thuế."
+        }
+      ]
+    },
+    {
+      "id": 1208,
+      "word": "開発",
+      "reading": "かいはつ",
+      "han_viet": "KHAI PHÁT",
+      "word_type": "Danh từ",
+      "meaning": "Sự phát triển",
+      "examples": [
+        {
+          "ja": "新型のパソコンを開発する。",
+          "reading": "しんがたのぱそこんをかいはつする。",
+          "vi": "Phát triển loại máy tính mới."
+        }
+      ]
+    },
+    {
+      "id": 1209,
+      "word": "開店",
+      "reading": "かいてん",
+      "han_viet": "KHAI ĐIẾM",
+      "word_type": "Danh từ",
+      "meaning": "Sự mở cửa hàng",
+      "examples": [
+        {
+          "ja": "来月、ここに新しい焼き肉店が開店する。",
+          "reading": "らいげつ、ここにあたらしいやきにくみせがかいてんする。",
+          "vi": "Tháng sau ở đây sẽ có quán thịt nướng khai trương."
+        }
+      ]
+    },
+    {
+      "id": 1210,
+      "word": "開催",
+      "reading": "かいさい",
+      "han_viet": "KHAI THÔI",
+      "word_type": "Danh từ",
+      "meaning": "Sự tổ chức; ; tổ chức",
+      "examples": [
+        {
+          "ja": "音楽フェスが開催される。",
+          "reading": "おんがくふぇすがかいさいされる。",
+          "vi": "Lễ hội âm nhạc được tổ chức."
+        }
+      ]
+    },
+    {
+      "id": 1211,
+      "word": "開放",
+      "reading": "かいほう",
+      "han_viet": "KHAI PHÓNG",
+      "word_type": "Danh từ",
+      "meaning": "Sự mở cửa; ; sự tự do hoá",
+      "examples": [
+        {
+          "ja": "ここは１時から５時まで開放しています。",
+          "reading": "ここは１ときから５ときまでかいほうしています。",
+          "vi": "Ở đây mở cửa từ 1 giờ đến 5 giờ."
+        }
+      ]
+    },
+    {
+      "id": 1212,
+      "word": "閉鎖",
+      "reading": "へいさ",
+      "han_viet": "BẾ TỎA",
+      "word_type": "Danh từ",
+      "meaning": "Sự phong bế; ; Sự phong tỏa",
+      "examples": [
+        {
+          "ja": "事件現場の病院は閉鎖されている。",
+          "reading": "じけんげんばのびょういんはへいさされている。",
+          "vi": "Bệnh viện nơi có hiện trường vụ án đã bị phong tỏa."
+        }
+      ]
+    },
+    {
+      "id": 1213,
+      "word": "密閉",
+      "reading": "みっぺい",
+      "han_viet": "MẬT BẾ",
+      "word_type": "Danh từ",
+      "meaning": "Kín mít, Niêm phong",
+      "examples": [
+        {
+          "ja": "空気が入らないように密閉する。",
+          "reading": "くうきがいらないようにみっぺいする。",
+          "vi": "Bịt kín để không khí không lọt được vào."
+        }
+      ]
+    },
+    {
+      "id": 1214,
+      "word": "増税",
+      "reading": "ぞうぜい",
+      "han_viet": "TĂNG THUẾ",
+      "word_type": "Danh từ",
+      "meaning": "Sự tăng thuế",
+      "examples": [
+        {
+          "ja": "来月から食品が増税対象になるようだ。",
+          "reading": "らいげつからしょくひんがぞうぜいたいしょうになるようだ。",
+          "vi": "Nghe nói từ tháng sau các mặt hàng thực phẩm sẽ trở thành đối tượng tăng thuế."
+        }
+      ]
+    },
+    {
+      "id": 1215,
+      "word": "増大",
+      "reading": "ぞうだい",
+      "han_viet": "TĂNG ĐẠI",
+      "word_type": "Danh từ",
+      "meaning": "Sự mở rộng; ; Sự tăng thêm",
+      "examples": [
+        {
+          "ja": "予算を増大する。",
+          "reading": "よさんをぞうだいする。",
+          "vi": "Tăng ngân sách. 121"
+        }
+      ]
+    },
+    {
+      "id": 1216,
+      "word": "増員",
+      "reading": "ぞういん",
+      "han_viet": "TĂNG VIÊN",
+      "word_type": "Danh từ",
+      "meaning": "Tăng số lượng người",
+      "examples": [
+        {
+          "ja": "お客様が増えたので、職員を増員する。",
+          "reading": "おきゃくさまがふえたので、しょくいんをぞういんする。",
+          "vi": "Lượng khách tăng lên nên tăng thêm nhân viên."
+        }
+      ]
+    },
+    {
+      "id": 1217,
+      "word": "増量",
+      "reading": "ぞうりょう",
+      "han_viet": "TĂNG LƯỢNG",
+      "word_type": "Danh từ",
+      "meaning": "Sự tăng về lượng",
+      "examples": [
+        {
+          "ja": "期間限定でおかしの内容量が増量している。",
+          "reading": "きかんげんていでおかしのないようりょうがぞうりょうしている。",
+          "vi": "Tăng lượng kẹo trong thời gian nhất định."
+        }
+      ]
+    },
+    {
+      "id": 1218,
+      "word": "減量",
+      "reading": "げんりょう",
+      "han_viet": "GIẢM LƯỢNG",
+      "word_type": "Danh từ",
+      "meaning": "Giảm cân; giảm trọng lượng, hao hụt",
+      "examples": [
+        {
+          "ja": "試合前の減量はとてもつらい。",
+          "reading": "しあいまえのげんりょうはとてもつらい。",
+          "vi": "Việc giảm trọng lượng cơ thể trước trận đấu thật sự khổ sở."
+        }
+      ]
+    },
+    {
+      "id": 1219,
+      "word": "減点",
+      "reading": "げんてん",
+      "han_viet": "GIẢM ĐIỂM",
+      "word_type": "Danh từ",
+      "meaning": "Giảm điểm số",
+      "examples": [
+        {
+          "ja": "自分の名前を書き忘れて、減点された。",
+          "reading": "じぶんのなまえをかきわすれて、げんてんされた。",
+          "vi": "Quên viết tên mình nên bị trừ điểm."
+        }
+      ]
+    },
+    {
+      "id": 1220,
+      "word": "減退",
+      "reading": "げんたい",
+      "han_viet": "GIẢM THOÁI",
+      "word_type": "Danh từ",
+      "meaning": "Sự giảm sút, sự suy yếu",
+      "examples": [
+        {
+          "ja": "年を取り、体力が減退する。",
+          "reading": "ねんをとり、たいりょくがげんたいする。",
+          "vi": "Có tuổi nên thể lực cũng suy yếu."
+        }
+      ]
+    },
+    {
+      "id": 1221,
+      "word": "一流",
+      "reading": "いちりゅう",
+      "han_viet": "NHẤT LƯU",
+      "word_type": "Danh từ",
+      "meaning": "Hạng nhất; hàng đầu; cao cấp",
+      "examples": [
+        {
+          "ja": "一流企業に勤める。",
+          "reading": "いちりゅうきぎょうにつとめる。",
+          "vi": "Làm việc tại công ty hàng đầu."
+        }
+      ]
+    },
+    {
+      "id": 1222,
+      "word": "一定",
+      "reading": "いってい",
+      "han_viet": "NHẤT ĐỊNH",
+      "word_type": "Danh từ",
+      "meaning": "Cố định; ; nhất định",
+      "examples": [
+        {
+          "ja": "一定人数に達したので締め切らせて頂きます。",
+          "reading": "いっていにんずうにたっしたのでしめきらせていただきます。",
+          "vi": "Vì đã đạt đến số lượng người nhất định nên chúng tôi xin phép được đóng đăng kí."
+        }
+      ]
+    },
+    {
+      "id": 1223,
+      "word": "一致",
+      "reading": "いっち",
+      "han_viet": "NHẤT TRÍ",
+      "word_type": "Danh từ",
+      "meaning": "Sự nhất trí; sự giống nhau; sự thống nhất",
+      "examples": [
+        {
+          "ja": "その場にいた皆の意見が一致した。",
+          "reading": "そのばにいたみなのいけんがいっちした。",
+          "vi": "Những người có mặt tại đó đều thống nhất ý kiến."
+        }
+      ]
+    },
+    {
+      "id": 1224,
+      "word": "一方",
+      "reading": "いっぽう",
+      "han_viet": "NHẤT PHƯƠNG",
+      "word_type": "Danh từ",
+      "meaning": "Một mặt, mặt khác",
+      "examples": [
+        {
+          "ja": "一方的に彼が悪いわけではない。",
+          "reading": "いっぽうてきにかれがわるいわけではない。",
+          "vi": "Xét từ một mặt khác thì anh ta cũng không phải người xấu."
+        }
+      ]
+    },
+    {
+      "id": 1225,
+      "word": "一人前",
+      "reading": "いちにんまえ",
+      "han_viet": "NHẤT NHÂN TIỀN",
+      "word_type": "Danh từ",
+      "meaning": "Người trưởng thành, khẩu phần một người",
+      "examples": [
+        {
+          "ja": "一人前と認められるまでには時間が掛かる。",
+          "reading": "いちにんまえとみとめられるまでにはじかんがかかる。",
+          "vi": "Để được thừa nhận đã trở thành một người trưởng thành sẽ tốn thời gian. 122"
+        }
+      ]
+    }
+  ]
+}

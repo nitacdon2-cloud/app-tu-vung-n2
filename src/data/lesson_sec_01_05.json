@@ -1,0 +1,526 @@
+{
+  "lesson_id": "sec_1_5",
+  "lesson_name": "Bài 1.5: Động từ (Phần 5)",
+  "level": "N2",
+  "chapter": 1,
+  "chapter_name": "Động từ",
+  "section_tag": "1.5",
+  "order": 5,
+  "words": [
+    {
+      "id": 121,
+      "word": "仕上がる",
+      "reading": "しあがる",
+      "han_viet": "SĨ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Được kết thúc, được hoàn thành",
+      "examples": [
+        {
+          "ja": "最後によく乾かすときれいに仕上がります。",
+          "reading": "さいごによくかわかすときれいにしあがります。",
+          "vi": "Cuối cùng chỉ cần hong khô kỹ là xong hoàn thành."
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "word": "仕上げる",
+      "reading": "しあげる",
+      "han_viet": "SĨ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Hoàn thành, kết thúc",
+      "examples": [
+        {
+          "ja": "あとは全体を磨いて仕上げます。",
+          "reading": "あとはぜんたいをみがいてしあげます。",
+          "vi": "Sau đó đánh lại toàn bộ là hoàn thành."
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "word": "浸かる",
+      "reading": "つかる",
+      "han_viet": "TẨM",
+      "word_type": "Động từ",
+      "meaning": "Ngập, ngâm ; - Hoàn toàn chìm đắm, cuốn vào",
+      "examples": [
+        {
+          "ja": "温泉に浸かって疲れをとる。",
+          "reading": "おんせんにしんかってつかれをとる。",
+          "vi": "Ngâm mình vào suối nước nóng để giải toả mệt mỏi."
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "word": "浸ける",
+      "reading": "つける",
+      "han_viet": "TẨM",
+      "word_type": "Động từ",
+      "meaning": "Ngâm",
+      "examples": [
+        {
+          "ja": "暑い日に水に顔を浸けると気持ちいい。",
+          "reading": "あついにちにみずにかおをしんけるときもちいい。",
+          "vi": "Nhúng mặt xuống nước vào những ngày nóng mang lại cảm giác sảng khoái."
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "word": "浮かぶ",
+      "reading": "うかぶ",
+      "han_viet": "PHÙ",
+      "word_type": "Động từ",
+      "meaning": "Nổi ; - Nảy ra, hiện ra",
+      "examples": [
+        {
+          "ja": "海にたくさんの漁船が浮かんでいる。",
+          "reading": "うみにたくさんのぎょせんがうかんでいる。",
+          "vi": "Nhiều chiếc thuyền đánh cá nổi trên biển."
+        },
+        {
+          "ja": "空に浮かぶ雲を見ていた。",
+          "reading": "そらにうかぶくもをみていた。",
+          "vi": "Ngắm mây trôi trên bầu trời."
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "word": "浮かべる",
+      "reading": "うかべる",
+      "han_viet": "PHÙ",
+      "word_type": "Động từ",
+      "meaning": "Thả nổi ; - Bộc lộ",
+      "examples": [
+        {
+          "ja": "葉っぱで船を作って池に浮かべる。",
+          "reading": "はっぱでふねをつくっていけにうかべる。",
+          "vi": "Thả chiếc thuyền lá lên mặt ao."
+        },
+        {
+          "ja": "目に涙を浮かべて私の顔を見た。",
+          "reading": "めになみだをうかべてわたしのかおをみた。",
+          "vi": "Cô ấy bật khóc, nhìn vào mặt tôi."
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "word": "浮く",
+      "reading": "うく",
+      "han_viet": "PHÙ",
+      "word_type": "Động từ",
+      "meaning": "Trôi nổi, lềnh bềnh ; - Tách biệt ; - Tiết kiệm, giảm đi",
+      "examples": [
+        {
+          "ja": "一瞬体が宙に浮いた。",
+          "reading": "いっしゅんからだがちゅうにういた。",
+          "vi": "Trong thoáng chốc cơ thể đã nổi trên không trung."
+        },
+        {
+          "ja": "先輩におごってもらって昼食代が浮いた。",
+          "reading": "せんぱいにおごってもらってちゅうしょくだいがういた。",
+          "vi": "Tôi được Senpai bao nên cũng bớt được một khoản tiền ăn trưa."
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "word": "引っ掛かる",
+      "reading": "ひっかかる",
+      "han_viet": "DẪN QUẢI",
+      "word_type": "Động từ",
+      "meaning": "Mắc vào, vướng vào ; - Làm bận tâm, vướng mắc ; - Bị lừa",
+      "examples": [
+        {
+          "ja": "足が何かに引っ掛かって転んだ。",
+          "reading": "あしがなにかにひっかかってころんだ。",
+          "vi": "Chân bị mắc vào cái gì đó nên bị ngã."
+        },
+        {
+          "ja": "彼の言っていることは何か引っかかる。",
+          "reading": "かのいっていることはなにかひっかかる。",
+          "vi": "Những điều anh ta nói vẫn còn gì đó vướng mắc, gợn gợn."
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "word": "引っ掛ける",
+      "reading": "ひっかける",
+      "han_viet": "DẪN QUẢI",
+      "word_type": "Động từ",
+      "meaning": "Treo, mắc vướng vào ; - Bắn, hắt vào ; - Lừa",
+      "examples": [
+        {
+          "ja": "ドアに濡れたズボンをひっかける。",
+          "reading": "どあにぬれたずぼんをひっかける。",
+          "vi": "Treo cái quần ướt lên cửa."
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "word": "ひっくり返る",
+      "reading": "ひっくりかえる",
+      "han_viet": "PHẢN",
+      "word_type": "Động từ",
+      "meaning": "Xoay lại, lật ngược",
+      "examples": [
+        {
+          "ja": "お酒を飲みすぎた彼はひっくり返った。",
+          "reading": "おさけをのみすぎたかれはひっくりかえった。",
+          "vi": "Anh ta, người uống rượu quá chén đã nằm lật ngửa ra."
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "word": "ひっくり返す",
+      "reading": "ひっくりかえす",
+      "han_viet": "PHẢN",
+      "word_type": "Động từ",
+      "meaning": "Lật lại, lật ngược lại",
+      "examples": [
+        {
+          "ja": "虫をひっくり返して遊ぶ。",
+          "reading": "むしをひっくりかえしてあそぶ。",
+          "vi": "Lật người con sâu để nghịch."
+        },
+        {
+          "ja": "子供の手からおもちゃを取り上げた。",
+          "reading": "こどものてからおもちゃをとりあげた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "word": "取り上げる",
+      "reading": "とりあげる",
+      "han_viet": "THỦ THƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Nhặt lên, lấy, chọn ; - Đưa ra, nêu lên (vấn đề)",
+      "examples": [
+        {
+          "ja": "彼の提案を取り上げてみましょう。",
+          "reading": "かのていあんをとりあげてみましょう。",
+          "vi": "Thử chọn đề án của anh ấy nhé!"
+        },
+        {
+          "ja": "彼女は落としたケータイを取り上げた。",
+          "reading": "かのじょはおとしたけーたいをとりあげた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "word": "取り入れる",
+      "reading": "とりいれる",
+      "han_viet": "THỦ NHẬP",
+      "word_type": "Động từ",
+      "meaning": "Lấy vào, đưa vào ; - Thu nhận, tiếp nhận",
+      "examples": [
+        {
+          "ja": "雨が降ってきたから洗濯物を取り入れる。",
+          "reading": "あめがふってきたからせんたくものをとりいれる。",
+          "vi": "Thu quần áo vào vì trời mưa"
+        },
+        {
+          "ja": "今回は君の意見を取り入れよう。",
+          "reading": "こんかいはくんのいけんをとりいれよう。",
+          "vi": "Lần này sẽ tiếp nhận ý kiến của cậu."
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "word": "備わる",
+      "reading": "そなわる",
+      "han_viet": "BỊ",
+      "word_type": "Động từ",
+      "meaning": "Có đầy đủ, được trang bị, được ban cho, sở hữu",
+      "examples": [
+        {
+          "ja": "この本には必要な情報がすべて備わっている。",
+          "reading": "このほんにはひつようなじょうほうがすべてそなわっている。",
+          "vi": "Trong cuốn sách này có đầy đủ tất cả những thông tìn cần thiết."
+        },
+        {
+          "ja": "彼にはいいものを見分ける才能が備わっている。",
+          "reading": "かれにはいいものをみわけるさいのうがそなわっている。",
+          "vi": "Anh ấy sở hữu tài năng phân biệt những điều tốt đẹp."
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "word": "備える",
+      "reading": "そなえる",
+      "han_viet": "BỊ",
+      "word_type": "Động từ",
+      "meaning": "Chuẩn bị, trang bị, cung cấp",
+      "examples": [
+        {
+          "ja": "山登りの時はいい靴と飲み物を備えておこう。",
+          "reading": "やまのぼりのときはいいくつとのみものをそなえておこう。",
+          "vi": "Trang bị đồ uống và giày tốt khi leo núi."
+        },
+        {
+          "ja": "備えあれば患いなし(*ことわざ)",
+          "reading": "そなえあればかんいなし(*ことわざ)",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "word": "認める",
+      "reading": "みとめる",
+      "han_viet": "NHẬN",
+      "word_type": "Động từ",
+      "meaning": "Thừa nhận",
+      "examples": [
+        {
+          "ja": "使ってみてその製品の価値を認めた。",
+          "reading": "つかってみてそのせいひんのかちをみとめた。",
+          "vi": "Thừa nhận giá trị của sản phẩm đó sau khi dùng thử."
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "word": "見直す",
+      "reading": "みなおす",
+      "han_viet": "KIẾN TRỰC",
+      "word_type": "Động từ",
+      "meaning": "Xem lại, suy xét",
+      "examples": [
+        {
+          "ja": "彼を見て自分の行動を見直した。",
+          "reading": "かれをみてじぶんのこうどうをみなおした。",
+          "vi": "Nhìn anh ấy và suy xét hành động của bản thân."
+        },
+        {
+          "ja": "もう一度この計画を見直そう。",
+          "reading": "もういちどこのけいかくをみなおそう。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "word": "見慣れる",
+      "reading": "みなれる",
+      "han_viet": "KIẾN QUÁN",
+      "word_type": "Động từ",
+      "meaning": "Quen, nhẵn mặt",
+      "examples": [
+        {
+          "ja": "この辺りは見慣れた風景だ。",
+          "reading": "このあたりはみなれたふうけいだ。",
+          "vi": "Phong cảnh vùng này trông thật quen thuộc."
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "word": "静まる・鎮まる",
+      "reading": "しずまる",
+      "han_viet": "TĨNH / TRẤN",
+      "word_type": "Động từ",
+      "meaning": "Trở nên yên lặng, được bình tĩnh lại",
+      "examples": [
+        {
+          "ja": "社長の一言でみんなが静まった。",
+          "reading": "しゃちょうのひとことでみんながしずまった。",
+          "vi": "Mọi người câm lặng trước câu nói của giám đốc."
+        },
+        {
+          "ja": "薬を飲んだら痛みが鎮まった。",
+          "reading": "くすりをのんだらいたみがつつしまった。",
+          "vi": "Sau khi uống thuốc thì cơn đau giảm đi."
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "word": "静める・鎮める",
+      "reading": "しずめる",
+      "han_viet": "TĨNH / TRẤN",
+      "word_type": "Động từ",
+      "meaning": "Yên tĩnh, hạ hỏa, giải tỏa",
+      "examples": [
+        {
+          "ja": "怒りを静めてから話し合おう。",
+          "reading": "いかりをしずめてからはなしあおう。",
+          "vi": "Sau khi hạ hỏa đi rồi hãy nói chuyện."
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "word": "整う",
+      "reading": "ととのう",
+      "han_viet": "CHỈNH",
+      "word_type": "Động từ",
+      "meaning": "Đã sẵn sàng, được chuẩn",
+      "examples": [
+        {
+          "ja": "旅行の準備が整った。",
+          "reading": "りょこうのじゅんびがととのった。",
+          "vi": "bị Việc chuẩn bị cho chuyến du lịch đã sẵn sàng."
+        },
+        {
+          "ja": "食事のため、テーブルを整える。",
+          "reading": "しょくじのため、てーぶるをととのえる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "word": "整える・調える",
+      "reading": "ととのえる",
+      "han_viet": "CHỈNH / ĐIỀU",
+      "word_type": "Động từ",
+      "meaning": "Chuẩn bị, sửa, điều chỉnh, kết luận",
+      "examples": [
+        {
+          "ja": "旅行の準備を着々と調える。",
+          "reading": "りょこうのじゅんびをちゃくちゃくとととのえる。",
+          "vi": "Chuẩn bị dần cho chuyến du lịch."
+        },
+        {
+          "ja": "議長が協議を整える。",
+          "reading": "ぎちょうがきょうぎをととのえる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "word": "追いかける",
+      "reading": "おいかける",
+      "han_viet": "TRUY",
+      "word_type": "Động từ",
+      "meaning": "Chạy theo, đuổi theo",
+      "examples": [
+        {
+          "ja": "私は彼の後ろを追いかける。",
+          "reading": "わたしはかのうしろをおいかける。",
+          "vi": "Tôi đuổi theo sau anh ta."
+        },
+        {
+          "ja": "走って追いかけてやっと追いついた。",
+          "reading": "はしっておいかけてやっとおいついた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "word": "追いつく",
+      "reading": "おいつく",
+      "han_viet": "TRUY",
+      "word_type": "Động từ",
+      "meaning": "Đuổi kịp",
+      "examples": [
+        {
+          "ja": "父の車に追いついた。",
+          "reading": "ちちのくるまにおいついた。",
+          "vi": "Đuổi kịp xe ô tô của bố."
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "word": "追い越す",
+      "reading": "おいこす",
+      "han_viet": "TRUY VIỆT",
+      "word_type": "Động từ",
+      "meaning": "Vượt qua",
+      "examples": [
+        {
+          "ja": "救急車が急いで車の列を追い越していった。",
+          "reading": "きゅうきゅうしゃがいそいでくるまのれつをおいこしていった。",
+          "vi": "Xe cứu thương gấp gáp vượt qua hàng xe ô tô."
+        },
+        {
+          "ja": "恋人と腕を組んで歩く。",
+          "reading": "こいびととうでをくんであるく。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "word": "組む",
+      "reading": "くむ",
+      "han_viet": "TỔ",
+      "word_type": "Động từ",
+      "meaning": "Lên (lịch...), khoanh tay, khoác tay, hợp tác",
+      "examples": [
+        {
+          "ja": "来年の予算を組んでみる。",
+          "reading": "らいねんのよさんをくんでみる。",
+          "vi": "Lên dự toán ngân sách cho năm sau."
+        },
+        {
+          "ja": "アメリカと組むべきか悩む。",
+          "reading": "あめりかとくむべきかなやむ。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "word": "組み立てる",
+      "reading": "くみたてる",
+      "han_viet": "TỔ LẬP",
+      "word_type": "Động từ",
+      "meaning": "Lắp ráp",
+      "examples": [
+        {
+          "ja": "部品を組み立てて完成させる。",
+          "reading": "ぶひんをくみたててかんせいさせる。",
+          "vi": "Lắp ráp các bộ phận cho hoàn chỉnh."
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "word": "ずれる",
+      "reading": "ずれる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Trượt, đi chệch",
+      "examples": [
+        {
+          "ja": "コピーしたページがずれている。",
+          "reading": "こぴーしたぺーじがずれている。",
+          "vi": "Trang copy bị lệch."
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "word": "ずらす",
+      "reading": "ずらす",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Dịch chuyển, làm lệch",
+      "examples": [
+        {
+          "ja": "ちょっとこっちにつくえをずらしてくれる？",
+          "reading": "ちょっとこっちにつくえをずらしてくれる？",
+          "vi": "Kê dịch cái bàn ra đây giúp tôi được không?"
+        }
+      ]
+    }
+  ]
+}

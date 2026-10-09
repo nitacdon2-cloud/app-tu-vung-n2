@@ -1,0 +1,421 @@
+{
+  "lesson_id": "sec_1_10",
+  "lesson_name": "Bài 1.10: Động từ (Phần 10)",
+  "level": "N2",
+  "chapter": 1,
+  "chapter_name": "Động từ",
+  "section_tag": "1.10",
+  "order": 10,
+  "words": [
+    {
+      "id": 271,
+      "word": "ふさがる",
+      "reading": "ふさがる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "ghế, lịch...) ; Bị chặn, bị chiếm, khít lại (vết thương)",
+      "examples": [
+        {
+          "ja": "二階の教室は今ふさがっている。",
+          "reading": "にかいのきょうしつはいまふさがっている。",
+          "vi": "Phòng học tầng 2 đang đông nghịt."
+        },
+        {
+          "ja": "傷がだんだんふさがってきた。",
+          "reading": "きずがだんだんふさがってきた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "word": "ふさぐ",
+      "reading": "ふさぐ",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Chiếm, chặn U buồn",
+      "examples": [
+        {
+          "ja": "土で道の穴をふさぐ。",
+          "reading": "つちでみちのあなをふさぐ。",
+          "vi": "Lấp lỗ ở trên đường bằng đất."
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "word": "指す",
+      "reading": "さす",
+      "han_viet": "CHỈ",
+      "word_type": "Động từ",
+      "meaning": "Chỉ",
+      "examples": [
+        {
+          "ja": "時計の針はすでに深夜1時を指している。",
+          "reading": "とけいのはりはすでにしんや1ときをさしている。",
+          "vi": "Kim đồng hồ đã chỉ 1 giờ đêm."
+        },
+        {
+          "ja": "チェックインするときは、ホテルのフロントに",
+          "reading": "ちぇっくいんするときは、ほてるのふろんとに",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "word": "示す",
+      "reading": "しめす",
+      "han_viet": "KÌ",
+      "word_type": "Động từ",
+      "meaning": "Chỉ ra, biểu thị",
+      "examples": [
+        {
+          "ja": "身分証を示す必要がある。",
+          "reading": "みぶんしょうをしめすひつようがある。",
+          "vi": "Khi check in cần xuất trình chứng minh thư ở quầy tiếp tân khách sạn."
+        },
+        {
+          "ja": "相手に熱意を示す。",
+          "reading": "あいてにねついをしめす。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "word": "すすぐ",
+      "reading": "すすぐ",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Rửa, súc",
+      "examples": [
+        {
+          "ja": "家へ帰ってすぐ口の中をすすぐ。",
+          "reading": "いえへかえってすぐくちのなかをすすぐ。",
+          "vi": "Súc miệng ngay lập tức khi về nhà."
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "word": "担ぐ",
+      "reading": "かつぐ",
+      "han_viet": "ĐAM",
+      "word_type": "Động từ",
+      "meaning": "Mang, vác, tin vào",
+      "examples": [
+        {
+          "ja": "祭りでおみこしを担ぐ。",
+          "reading": "まつりでおみこしをかつぐ。",
+          "vi": "Vác kiệu ở lễ hội."
+        },
+        {
+          "ja": "試験前に縁起を担ぐ。",
+          "reading": "しけんまえにえんぎをかつぐ。",
+          "vi": "Nhạy cảm (tin vào điềm) với những điều xảy ra trước kì thi."
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "word": "剥がす",
+      "reading": "はがす",
+      "han_viet": "BÁC",
+      "word_type": "Động từ",
+      "meaning": "Tháo, bóc, gỡ",
+      "examples": [
+        {
+          "ja": "服の値札を剥がす。",
+          "reading": "ふくのねふだをはがす。",
+          "vi": "Tháo mác của quần áo."
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "word": "描く",
+      "reading": "えがく",
+      "han_viet": "MIÊU",
+      "word_type": "Động từ",
+      "meaning": "Vẽ, miêu tả",
+      "examples": [
+        {
+          "ja": "自然の風景を描く。",
+          "reading": "しぜんのふうけいをえがく。",
+          "vi": "Vẽ phong cảnh tự nhiên."
+        },
+        {
+          "ja": "この話は学生の心情を描いている。",
+          "reading": "このはなしはがくせいのしんじょうをえがいている。",
+          "vi": "Câu chuyện này miêu tả tâm tư của người học sinh."
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "word": "脅す",
+      "reading": "おどす",
+      "han_viet": "HIẾP",
+      "word_type": "Động từ",
+      "meaning": "Bắt nạt, đe dọa",
+      "examples": [
+        {
+          "ja": "店員をナイフで脅して、金を奪った。",
+          "reading": "てんいんをないふでおどして、きんをうばった。",
+          "vi": "Dọa người nhân viên cửa hàng bằng dao và cướp tiền."
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "word": "脅かす",
+      "reading": "おどかす",
+      "han_viet": "HIẾP",
+      "word_type": "Động từ",
+      "meaning": "Hù dọa",
+      "examples": [
+        {
+          "ja": "お化けに変装をして友達を脅かした。",
+          "reading": "おばけにへんそうをしてともだちをきょうかした。",
+          "vi": "Hóa trang thành ma rồi dọa bạn."
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "word": "犯す",
+      "reading": "おかす",
+      "han_viet": "PHẠM",
+      "word_type": "Động từ",
+      "meaning": "Phạm, vi phạm (hành vi phạm tội)",
+      "examples": [
+        {
+          "ja": "重大な過ちを犯した。",
+          "reading": "じゅうだいなあやまちをおかした。",
+          "vi": "Phạm phải sai lầm nghiêm trọng."
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "word": "侵す",
+      "reading": "おかす",
+      "han_viet": "XÂM",
+      "word_type": "Động từ",
+      "meaning": "Xâm chiếm",
+      "examples": [
+        {
+          "ja": "他国の領海を侵して魚をとる。",
+          "reading": "たこくのりょうかいをおかしてさかなをとる。",
+          "vi": "Vi phạm lãnh hải của nước khác để bắt cá."
+        },
+        {
+          "ja": "登山家は危険を冒してまで、エベレストに登る",
+          "reading": "とざんいえはきけんをおかしてまで、えべれすとにのぼる",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "word": "冒す",
+      "reading": "おかす",
+      "han_viet": "MẠO",
+      "word_type": "Động từ",
+      "meaning": "Đương đầu, ảnh hưởng, mạo phạm, đe dọa",
+      "examples": [
+        {
+          "ja": "のだ。",
+          "reading": "のだ。",
+          "vi": "Nhà leo núi dám đối mặt cả nguy hiểm để leo núi Everest."
+        },
+        {
+          "ja": "病気によって脳が冒された。",
+          "reading": "びょうきによってのうがおかされた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "word": "濁る",
+      "reading": "にごる",
+      "han_viet": "TRỌC",
+      "word_type": "Động từ",
+      "meaning": "Dính bùn, đục",
+      "examples": [
+        {
+          "ja": "雨の影響で、川の水が濁る。",
+          "reading": "あめのえいきょうで、かわのみずがにごる。",
+          "vi": "Do ảnh hưởng của mưa nên nước đục ngầu."
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "word": "濁す",
+      "reading": "にごす",
+      "han_viet": "TRỌC",
+      "word_type": "Động từ",
+      "meaning": "Nhập nhằng (nói)",
+      "examples": [
+        {
+          "ja": "父は言葉を濁した。",
+          "reading": "ちちはことばをにごした。",
+          "vi": "Bố nói chuyện không rõ ràng."
+        }
+      ]
+    },
+    {
+      "id": 286,
+      "word": "欠ける",
+      "reading": "かける",
+      "han_viet": "KHIẾM",
+      "word_type": "Động từ",
+      "meaning": "Sứt, thiếu",
+      "examples": [
+        {
+          "ja": "お気に入りのマグカップがかけてしまった。",
+          "reading": "おきにいりのまぐかっぷがかけてしまった。",
+          "vi": "Cốc uống nước mà tôi yêu thích đã bị sứt mất rồi."
+        },
+        {
+          "ja": "チームのメンバーが一人でもかけてはいけない。",
+          "reading": "ちーむのめんばーがひとりでもかけてはいけない。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "word": "欠かす",
+      "reading": "かかす",
+      "han_viet": "KHIẾM",
+      "word_type": "Động từ",
+      "meaning": "Thiếu, lỡ",
+      "examples": [
+        {
+          "ja": "博多ラーメンに紅ショウガは欠かせない。",
+          "reading": "はかたらーめんにくれないしょうがはかかせない。",
+          "vi": "Trong món mì Hakata không thể thiếu gừng đỏ."
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "word": "及ぶ",
+      "reading": "およぶ",
+      "han_viet": "CẬP",
+      "word_type": "Động từ",
+      "meaning": "Đạt đến ; - Lan ra ; - Tương đương",
+      "examples": [
+        {
+          "ja": "この病気は身体全体に影響が及ぶ。",
+          "reading": "このびょうきはしんたいぜんたいにえいきょうがおよぶ。",
+          "vi": "Bệnh này ảnh hưởng đến toàn bộ cơ thể."
+        },
+        {
+          "ja": "被害は各地に及んだ。",
+          "reading": "ひがいはかくちにおよんだ。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "word": "及ぼす",
+      "reading": "およぼす",
+      "han_viet": "CẬP",
+      "word_type": "Động từ",
+      "meaning": "Ảnh hưởng,",
+      "examples": [
+        {
+          "ja": "あの台風は大きな被害を及ぼした。",
+          "reading": "あのたいふうはおおきなひがいをおよぼした。",
+          "vi": "gây Cơn bão đó đã gây thiệt hại rất lớn."
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "word": "兼ねる",
+      "reading": "かねる",
+      "han_viet": "KIÊM",
+      "word_type": "Động từ",
+      "meaning": "Cả hai, bao gồm",
+      "examples": [
+        {
+          "ja": "彼女とデートを兼ねて買い物をした。",
+          "reading": "かのじょとでーとをかねてかいものをした。",
+          "vi": "Đi mua đồ tiện đi hẹn hò với bạn gái."
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "word": "適する",
+      "reading": "てきする",
+      "han_viet": "THÍCH",
+      "word_type": "Động từ",
+      "meaning": "Hợp, xứng đáng",
+      "examples": [
+        {
+          "ja": "じゃがいもは長期保存に適している。",
+          "reading": "じゃがいもはちょうきほぞんにてきしている。",
+          "vi": "Khoai tây phù hợp với việc bảo quản lâu dài."
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "word": "略す",
+      "reading": "りゃくす",
+      "han_viet": "LƯỢC",
+      "word_type": "Động từ",
+      "meaning": "Lượt bớt, viết tắt, tóm gọn",
+      "examples": [
+        {
+          "ja": "シャープペンシルを略してシャーペンと言う。シャープペンシルnói lược bớt làシャーペン.",
+          "reading": "しゃーぷぺんしるをりゃくしてしゃーぺんという。しゃーぷぺんしるnói li lợc bớt làしゃーぺん.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "word": "迫る",
+      "reading": "せまる",
+      "han_viet": "BÁCH",
+      "word_type": "Động từ",
+      "meaning": "Đến sát, tiến gần ; - Thúc giục",
+      "examples": [
+        {
+          "ja": "締め切りが明後日に迫っている。",
+          "reading": "しめきりがみょうごにちにせまっている。",
+          "vi": "Đang sắp đến hạn chót là ngày kia."
+        },
+        {
+          "ja": "好きな人に結婚を迫る。",
+          "reading": "すきなにんにけっこんをせまる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "word": "狙う",
+      "reading": "ねらう",
+      "han_viet": "THƯ",
+      "word_type": "Động từ",
+      "meaning": "Nhắm đến",
+      "examples": [
+        {
+          "ja": "財産を狙って、結婚した。",
+          "reading": "ざいさんをねらって、けっこんした。",
+          "vi": "Kết hôn nhắm vào tài sản. (của đối phương)"
+        }
+      ]
+    }
+  ]
+}

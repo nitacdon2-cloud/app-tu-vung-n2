@@ -1,0 +1,161 @@
+{
+  "lesson_id": "sec_6_5",
+  "lesson_name": "Bài 6.5: Phó từ & Liên từ (Phần 5)",
+  "level": "N2",
+  "chapter": 6,
+  "chapter_name": "Phó từ & Liên từ",
+  "section_tag": "6.5",
+  "order": 35,
+  "words": [
+    {
+      "id": 1004,
+      "word": "たまたま",
+      "reading": "たまたま",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "-Thỉnh thoảng; ; - Ngẫu nhiên, ăn may",
+      "examples": [
+        {
+          "ja": "適当に言った答えがたまたま当たった。",
+          "reading": "てきとうにいったこたえがたまたまあたった。",
+          "vi": "Ngẫu nhiên nói bừa đáp án lại đúng."
+        }
+      ]
+    },
+    {
+      "id": 1005,
+      "word": "生き生き",
+      "reading": "いきいき",
+      "han_viet": "SINH SINH",
+      "word_type": "Phó từ",
+      "meaning": "Sinh động, đầy sức sống, hăng hái",
+      "examples": [
+        {
+          "ja": "彼は最近いきいきと仕事をしている。",
+          "reading": "かれはさいきんいきいきとしごとをしている。",
+          "vi": "Anh ấy gần đây làm việc rất hăng hái."
+        }
+      ]
+    },
+    {
+      "id": 1006,
+      "word": "ある",
+      "reading": "ある",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Có, một số",
+      "examples": [
+        {
+          "ja": "ある時、大学を辞めることを決意した。",
+          "reading": "あるとき、だいがくをやめることをけついした。",
+          "vi": "Có lần tôi đã quyết tâm nghỉ học đại học."
+        }
+      ]
+    },
+    {
+      "id": 1007,
+      "word": "あらゆる",
+      "reading": "あらゆる",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Tất cả",
+      "examples": [
+        {
+          "ja": "あらゆる方法を考える。",
+          "reading": "あらゆるほうほうをかんがえる。",
+          "vi": "Nghĩ tất cả phương pháp."
+        }
+      ]
+    },
+    {
+      "id": 1008,
+      "word": "元々",
+      "reading": "もともと",
+      "han_viet": "NGUYÊN NGUYÊN",
+      "word_type": "Phó từ",
+      "meaning": "Ban đầu, vốn dĩ",
+      "examples": [
+        {
+          "ja": "妹は元々おとなしい性格だ。",
+          "reading": "いもうとはもともとおとなしいせいかくだ。",
+          "vi": "Em gái tôi vốn tính rất trầm."
+        }
+      ]
+    },
+    {
+      "id": 1009,
+      "word": "本来",
+      "reading": "ほんらい",
+      "han_viet": "BẢN LAI",
+      "word_type": "Phó từ",
+      "meaning": "Từ đầu, nguyên bản, vốn dĩ",
+      "examples": [
+        {
+          "ja": "私は本来、去年日本へ行く予定だった。",
+          "reading": "わたしはほんらい、きょねんにっぽんへいくよていだった。",
+          "vi": "Tôi vốn dĩ năm ngoái đã dự định đi Nhật."
+        }
+      ]
+    },
+    {
+      "id": 1010,
+      "word": "たいした",
+      "reading": "たいした",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Quan trọng, to lớn",
+      "examples": [
+        {
+          "ja": "膝を怪我したが、たいしたことはない。",
+          "reading": "ひざをけがしたが、たいしたことはない。",
+          "vi": "Đầu gối bị thương, nhưng cũng không nghiêm trọng lắm."
+        }
+      ]
+    },
+    {
+      "id": 1011,
+      "word": "いわゆる",
+      "reading": "いわゆる",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Cái được gọi là, nói nôm na là",
+      "examples": [
+        {
+          "ja": "彼はいわゆるエンジニアだ。",
+          "reading": "かれはいわゆるえんじにあだ。",
+          "vi": "Nói nôm na thì anh ấy là một kĩ sư."
+        }
+      ]
+    },
+    {
+      "id": 1012,
+      "word": "実際",
+      "reading": "じっさい",
+      "han_viet": "THỰC TẾ",
+      "word_type": "Phó từ",
+      "meaning": "Thực tế, thực sự",
+      "examples": [
+        {
+          "ja": "彼は怖そうに見えるが実際はいい人だ。",
+          "reading": "かれはこわそうにみえるがじっさいはいいにんだ。",
+          "vi": "Anh ta trông có vẻ đáng sợ, nhưng thực tế thì lại là người tốt."
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "word": "同様",
+      "reading": "どうよう",
+      "han_viet": "ĐỒNG DẠNG",
+      "word_type": "Phó từ",
+      "meaning": "Giống như",
+      "examples": [
+        {
+          "ja": "このバッグは中古で買ったが新品同様だ。",
+          "reading": "このばっぐはちゅうこでかったがしんぴんどうようだ。",
+          "vi": "Cái túi này mua ở hiệu đồ cũ nhưng giống như đồ mới vậy. 103"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "lesson_id": "sec_1_9",
+  "lesson_name": "Bài 1.9: Động từ (Phần 9)",
+  "level": "N2",
+  "chapter": 1,
+  "chapter_name": "Động từ",
+  "section_tag": "1.9",
+  "order": 9,
+  "words": [
+    {
+      "id": 241,
+      "word": "去る",
+      "reading": "さる",
+      "han_viet": "KHỨ",
+      "word_type": "Động từ",
+      "meaning": "Đi qua, rời đi",
+      "examples": [
+        {
+          "ja": "来月で今の職場を去る。",
+          "reading": "らいげつでいまのしょくばをさる。",
+          "vi": "Từ tháng sau tôi sẽ rời khỏi chỗ làm hiện tại."
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "word": "すする",
+      "reading": "すする",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Húp ; - Khịt mũi",
+      "examples": [
+        {
+          "ja": "そばは音を立ててすする。",
+          "reading": "そばはおとをたててすする。",
+          "vi": "Húp mì soba ra tiếng."
+        },
+        {
+          "ja": "息子はよく鼻をすする。",
+          "reading": "むすこはよくはなをすする。",
+          "vi": "Đứa con trai tôi hay khịt mũi."
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "word": "味わう",
+      "reading": "あじわう",
+      "han_viet": "VỊ",
+      "word_type": "Động từ",
+      "meaning": "Nếm, thưởng thức, trải nghiệm",
+      "examples": [
+        {
+          "ja": "久しぶりに日本料理を味わう。",
+          "reading": "ひさしぶりににほんりょうりをあじわう。",
+          "vi": "Lâu lâu mới nếm món ăn nhật."
+        },
+        {
+          "ja": "大きな苦しみを味わう。",
+          "reading": "おおきなくるしみをあじわう。",
+          "vi": "Trải qua nỗi khổ to lớn."
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "word": "支える",
+      "reading": "ささえる",
+      "han_viet": "CHI",
+      "word_type": "Động từ",
+      "meaning": "Hỗ trợ, giúp đỡ, là chỗ dựa",
+      "examples": [
+        {
+          "ja": "私の家は妻が家計を支えてくれている。",
+          "reading": "わたしのいえはつまがかけいをささえてくれている。",
+          "vi": "Nhà tôi thì vợ tôi là chỗ dựa về tài chính."
+        },
+        {
+          "ja": "彼はどんな時でも私を支えてくれる。",
+          "reading": "かれはどんなときでもわたしをささえてくれる。",
+          "vi": "Anh ấy thì lúc nào cũng hỗ trợ tôi."
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "word": "乱れる",
+      "reading": "みだれる",
+      "han_viet": "LOẠN",
+      "word_type": "Động từ",
+      "meaning": "Hỗn loạn, rối loạn Mất bình tĩnh",
+      "examples": [
+        {
+          "ja": "風で髪が乱れる。",
+          "reading": "かぜでかみがみだれる。",
+          "vi": "Do gió nên tóc bị bù xù."
+        },
+        {
+          "ja": "電車のダイヤが乱れる。",
+          "reading": "でんしゃのだいやがみだれる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "word": "乱す",
+      "reading": "みだす",
+      "han_viet": "LOẠN",
+      "word_type": "Động từ",
+      "meaning": "Làm lộn xộn, đảo lộn",
+      "examples": [
+        {
+          "ja": "ペースを乱して、試合に負けてしまった。",
+          "reading": "ぺーすをみだして、しあいにまけてしまった。",
+          "vi": "Chơi loạn nhịp và thua mất trận đấu."
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "word": "緩む",
+      "reading": "ゆるむ",
+      "han_viet": "HOÃN",
+      "word_type": "Động từ",
+      "meaning": "Lỏng, được thư giãn",
+      "examples": [
+        {
+          "ja": "試験が終わり気が緩む。",
+          "reading": "しけんがおわりきがゆるむ。",
+          "vi": "Cảm thấy nhẹ nhõm vì kì thi đã kết thúc."
+        },
+        {
+          "ja": "じゃぐちが緩み、水が漏れだした。",
+          "reading": "じゃぐちがゆるみ、みずがもれだした。",
+          "vi": "Vòi nước lỏng và nước rỉ ra."
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "word": "緩める",
+      "reading": "ゆるめる",
+      "han_viet": "HOÃN",
+      "word_type": "Động từ",
+      "meaning": "Nới lỏng, thư giãn, hạ xuống",
+      "examples": [
+        {
+          "ja": "お腹が苦しいのでベルトを緩める。",
+          "reading": "おはらがくるしいのでべるとをゆるめる。",
+          "vi": "Vì bụng khó chịu nên nới lỏng thắt lưng."
+        },
+        {
+          "ja": "問題がなかったので、警戒を緩める。",
+          "reading": "もんだいがなかったので、けいかいをゆるめる。",
+          "vi": "Vì không có vấn đề nên nới lỏng cảnh giác."
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "word": "見合わせる",
+      "reading": "みあわせる",
+      "han_viet": "KIẾN HỢP",
+      "word_type": "Động từ",
+      "meaning": "Nhìn nhau Bị hoãn, bị hủy",
+      "examples": [
+        {
+          "ja": "彼らは顔を見合わせて泣いている。",
+          "reading": "かれらはかおをみあわせてないている。",
+          "vi": "Họ nhìn vào nhau rồi khóc."
+        },
+        {
+          "ja": "山の手線はは現在運転を見合わせている。",
+          "reading": "やまのてせんははげんざいうんてんをみあわせている。",
+          "vi": "Tuyến Yamanote hiện đang hoãn không vận hành."
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "word": "見送る",
+      "reading": "みおくる",
+      "han_viet": "KIẾN TỐNG",
+      "word_type": "Động từ",
+      "meaning": "Đi tiễn (khách), ; - Hủy, lỡ chuyến",
+      "examples": [
+        {
+          "ja": "混んでいたのでバスを１台見送った。",
+          "reading": "こんでいたのでばすを１だいみおくった。",
+          "vi": "Vì xe quá đông nên tôi bỏ qua (hủy) 1 chuyến xe."
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "word": "見つめる",
+      "reading": "みつめる",
+      "han_viet": "KIẾN",
+      "word_type": "Động từ",
+      "meaning": "Nhìn chằm chằm",
+      "examples": [
+        {
+          "ja": "きれいな雲を見つめる。",
+          "reading": "きれいなくもをみつめる。",
+          "vi": "Nhìn vào đám mây đẹp không rời mắt."
+        },
+        {
+          "ja": "自分を見つめ直す時間を作る。",
+          "reading": "じぶんをみつめなおすじかんをつくる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 252,
+      "word": "眺める",
+      "reading": "ながめる",
+      "han_viet": "THIẾU",
+      "word_type": "Động từ",
+      "meaning": "Ngắm nhìn",
+      "examples": [
+        {
+          "ja": "庭に出て星を眺める。",
+          "reading": "にわにでてほしをながめる。",
+          "vi": "Ra vườn ngắm sao."
+        },
+        {
+          "ja": "彼に発言の真意を問う。",
+          "reading": "かれにはつげんのしんいをとう。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 253,
+      "word": "問う",
+      "reading": "とう",
+      "han_viet": "VẤN",
+      "word_type": "Động từ",
+      "meaning": "Hỏi về, yêu cầu",
+      "examples": [
+        {
+          "ja": "監督に試合に負けた責任を問う。",
+          "reading": "かんとくにしあいにまけたせきにんをとう。",
+          "vi": "Yêu cầu trách nhiệm của huấn luyện viên trong việc"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "word": "語る",
+      "reading": "かたる",
+      "han_viet": "NGỮ",
+      "word_type": "Động từ",
+      "meaning": "Kể về",
+      "examples": [
+        {
+          "ja": "自分の過去について語る。",
+          "reading": "じぶんのかこについてかたる。",
+          "vi": "Tự kể về quá khứ của mình."
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "word": "誓う",
+      "reading": "ちかう",
+      "han_viet": "THỆ",
+      "word_type": "Động từ",
+      "meaning": "Thề, hứa",
+      "examples": [
+        {
+          "ja": "もう自分に負けないと心に誓った。",
+          "reading": "もうじぶんにまけないとこころにちかった。",
+          "vi": "Thề trong lòng là sẽ không để thua chính bản thân mình."
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "word": "費やす",
+      "reading": "ついやす",
+      "han_viet": "PHÍ",
+      "word_type": "Động từ",
+      "meaning": "Tiêu hao, tiêu tốn (thời gian, tiền...)",
+      "examples": [
+        {
+          "ja": "趣味に時間を費やす。",
+          "reading": "しゅみにじかんをついやす。",
+          "vi": "Tốn thời gian vào sở thích."
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "word": "用いる",
+      "reading": "もちいる",
+      "han_viet": "DỤNG",
+      "word_type": "Động từ",
+      "meaning": "Sử dụng, tận dụng",
+      "examples": [
+        {
+          "ja": "スマートフォンは世界中の人に用いられている。",
+          "reading": "すまーとふぉんはせかいじゅうのにんにもちいられている。",
+          "vi": "Điện thoại thông minh được mọi người trên thế giới sử dụng."
+        },
+        {
+          "ja": "この道に沿って歩けば学校につく。",
+          "reading": "このみちにそってあるけばがっこうにつく。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "word": "沿う・添う",
+      "reading": "そう",
+      "han_viet": "DUYÊN / THIÊM",
+      "word_type": "Động từ",
+      "meaning": "Theo, men theo, ở bên cạnh",
+      "examples": [
+        {
+          "ja": "計画に沿って学習を進める。",
+          "reading": "けいかくにそってがくしゅうをすすめる。",
+          "vi": "Học tập theo kế hoạch."
+        },
+        {
+          "ja": "二人で寄り添う。",
+          "reading": "ふたりでよりそう。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "word": "添える",
+      "reading": "そえる",
+      "han_viet": "THIÊM",
+      "word_type": "Động từ",
+      "meaning": "Đính, kèm gửi, trang trí",
+      "examples": [
+        {
+          "ja": "プレゼントにカードを添えて送る。",
+          "reading": "ぷれぜんとにかーどをそえておくる。",
+          "vi": "Gửi quà kèm theo thẻ."
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "word": "相当する",
+      "reading": "そうとうする",
+      "han_viet": "TƯƠNG ĐƯƠNG",
+      "word_type": "Động từ",
+      "meaning": "Tương đương",
+      "examples": [
+        {
+          "ja": "一年分の給料に相当するネックレスを買った。",
+          "reading": "いちねんぶんのきゅうりょうにそうとうするねっくれすをかった。",
+          "vi": "Mua dây chuyền đắt ngang lương của 1 năm."
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "word": "伴う",
+      "reading": "ともなう",
+      "han_viet": "BẠN",
+      "word_type": "Động từ",
+      "meaning": "Kèm theo, cùng với",
+      "examples": [
+        {
+          "ja": "部長の出張には、新人入社員が伴った。",
+          "reading": "ぶちょうのしゅっちょうには、しんじんにゅうしゃいんがともなった。",
+          "vi": "Ở cuộc đi công tác của trưởng phòng có nhân viên mới vào công ty đi kèm."
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "word": "匂う",
+      "reading": "におう",
+      "han_viet": "(MÙI)",
+      "word_type": "Động từ",
+      "meaning": "Có mùi, có gì đó đằng sau",
+      "examples": [
+        {
+          "ja": "シャンプーの香りがほのかに匂う。",
+          "reading": "しゃんぷーのかおりがほのかににおう。",
+          "vi": "Mùi dầu gội đầu có hương thơm phảng phất."
+        },
+        {
+          "ja": "あの事件はどうも匂う。",
+          "reading": "あのじけんはどうもにおう。",
+          "vi": "Vụ án này có gì đó không ổn."
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "word": "飢える",
+      "reading": "うえる",
+      "han_viet": "CƠ",
+      "word_type": "Động từ",
+      "meaning": "Đói lả, thèm, khao khát",
+      "examples": [
+        {
+          "ja": "食べ物がなく飢える。",
+          "reading": "たべものがなくうえる。",
+          "vi": "Đói lả vì không có đồ ăn."
+        },
+        {
+          "ja": "彼女は男に飢えている。",
+          "reading": "かのじょはおとこにうえている。",
+          "vi": "Cô ta thèm khát đàn ông."
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "word": "訪れる",
+      "reading": "おとずれる",
+      "han_viet": "PHỎNG",
+      "word_type": "Động từ",
+      "meaning": "Đến thăm, đến",
+      "examples": [
+        {
+          "ja": "日本にも夏が訪れた。",
+          "reading": "にっぽんにもなつがおとずれた。",
+          "vi": "Ngay cả ở nhật mùa hè cũng đã đến."
+        },
+        {
+          "ja": "忘れ物に気づき家へ引き返した。",
+          "reading": "わすれものにきづきいえへひきかえした。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "word": "引き返す",
+      "reading": "ひきかえす",
+      "han_viet": "DẪN PHẢN",
+      "word_type": "Động từ",
+      "meaning": "Quay lại",
+      "examples": [
+        {
+          "ja": "新事業に1000万円も使っているので、もう引き返せない。",
+          "reading": "しんじぎょうに1000まんえんもつかっているので、もうひきかえせない。",
+          "vi": "Vì đã trót sử dụng 1000 man yên vào dự án mới nên"
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "word": "編む",
+      "reading": "あむ",
+      "han_viet": "BIÊN",
+      "word_type": "Động từ",
+      "meaning": "Đan",
+      "examples": [
+        {
+          "ja": "毛糸で手袋を編む。",
+          "reading": "けいとでてぶくろをあむ。",
+          "vi": "Đan găng tay bằng len."
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "word": "縫う",
+      "reading": "ぬう",
+      "han_viet": "PHÙNG",
+      "word_type": "Động từ",
+      "meaning": "May, khâu lại; ; tranh thủ",
+      "examples": [
+        {
+          "ja": "ズボンの破れたところを縫う。",
+          "reading": "ずぼんのやぶれたところをぬう。",
+          "vi": "Khâu chỗ rách của quần."
+        },
+        {
+          "ja": "仕事の合間を縫って、英語の勉強をする。",
+          "reading": "しごとのあいまをぬって、えいごのべんきょうをする。",
+          "vi": "Tranh thủ thời gian làm việc để học tiếng Anh."
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "word": "抱く",
+      "reading": "いだく",
+      "han_viet": "BÃO",
+      "word_type": "Động từ",
+      "meaning": "Ôm Mang, giữ",
+      "examples": [
+        {
+          "ja": "不安を抱きながら試験にいどむ。",
+          "reading": "ふあんをだきながらしけんにいどむ。",
+          "vi": "Vừa mang sự lo lắng vừa thử thách mình với kì thi."
+        },
+        {
+          "ja": "課長の提案に疑問を抱く。",
+          "reading": "かちょうのていあんにぎもんをだく。",
+          "vi": "Ôm trong mình sự nghi ngờ về đề xuất của trưởng phòng."
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "word": "砕ける",
+      "reading": "くだける",
+      "han_viet": "TOÁI",
+      "word_type": "Động từ",
+      "meaning": "Bị vỡ (Cách nói) gần gũi, suồng sã",
+      "examples": [
+        {
+          "ja": "皿が粉々に砕ける。",
+          "reading": "さらがこなごなにくだける。",
+          "vi": "Đĩa vỡ nát vụn."
+        },
+        {
+          "ja": "砕けた表現で説明する。",
+          "reading": "くだけたひょうげんでせつめいする。",
+          "vi": "Giải thích bằng câu từ đơn giản."
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "word": "砕く",
+      "reading": "くだく",
+      "han_viet": "TOÁI",
+      "word_type": "Động từ",
+      "meaning": "Đập tan, đập nát",
+      "examples": [
+        {
+          "ja": "ハンマーで氷を砕く。",
+          "reading": "はんまーでこおりをくだく。",
+          "vi": "Đập nát đá bằng búa."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "lesson_id": "sec_10_1",
+  "lesson_name": "Bài 10.1: Phân biệt あっさり・さっぱり・すっかり",
+  "level": "N2",
+  "chapter": 10,
+  "chapter_name": "Phân biệt từ vựng",
+  "section_tag": "10.1",
+  "order": 43,
+  "words": [
+    {
+      "word": "あっさり",
+      "reading": "あっさり",
+      "han_viet": "",
+      "word_type": "Trạng từ / Từ láy",
+      "meaning": "Nhạt, thanh (vị) / Đơn giản, chóng vánh",
+      "sub_section": "10.1 Phân biệt Từ láy / Trạng từ",
+      "examples": [
+        {
+          "ja": "あっさりした味",
+          "reading": "あっさりしたあじ",
+          "vi": "Vị nhạt, thanh"
+        },
+        {
+          "ja": "問題をあっさり解決した。",
+          "reading": "もんだいをあっさりかいけつした。",
+          "vi": "Giải quyết vấn đề một cách đơn giản."
+        }
+      ],
+      "id": 1226
+    },
+    {
+      "word": "さっぱり",
+      "reading": "さっぱり",
+      "han_viet": "",
+      "word_type": "Trạng từ / Từ láy",
+      "meaning": "Nhạt, thanh (vị) / Hoàn toàn / Thoải mái",
+      "sub_section": "10.1 Phân biệt Từ láy / Trạng từ",
+      "examples": [
+        {
+          "ja": "さっぱりした味",
+          "reading": "さっぱりしたあじ",
+          "vi": "Vị nhạt, thanh"
+        },
+        {
+          "ja": "さっぱり忘れた。",
+          "reading": "さっぱりわすれた。",
+          "vi": "Đã quên hoàn toàn."
+        }
+      ],
+      "id": 1227
+    }
+  ]
+}

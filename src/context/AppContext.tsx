@@ -78,7 +78,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   // Vocab states
   const [lessons] = useState<Lesson[]>(getAllLessons);
   const [currentLessonId, setCurrentLessonId] = useState<string>(
-    lessons[0]?.lesson_id || 'lesson_01'
+    lessons[0]?.lesson_id || 'sec_1_1'
   );
   const [currentScreen, setCurrentScreen] = useState<ScreenName>('lesson_grid');
   const [userProgress, setUserProgress] = useState<UserProgress>(getStoredProgress);
@@ -103,7 +103,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     range: 'chua_nho',
     testType: 'trac_nghiem',
     maxQuestions: 20,
-    autoNext: true,
+    autoNext: false,
   });
 
   // Grammar states

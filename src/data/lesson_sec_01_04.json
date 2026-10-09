@@ -1,0 +1,496 @@
+{
+  "lesson_id": "sec_1_4",
+  "lesson_name": "Bài 1.4: Động từ (Phần 4)",
+  "level": "N2",
+  "chapter": 1,
+  "chapter_name": "Động từ",
+  "section_tag": "1.4",
+  "order": 4,
+  "words": [
+    {
+      "id": 91,
+      "word": "務まる",
+      "reading": "つとまる",
+      "han_viet": "VỤ",
+      "word_type": "Động từ",
+      "meaning": "Phù hợp, đảm đương được",
+      "examples": [
+        {
+          "ja": "彼に学級委員が務まるだろうか。",
+          "reading": "かれにがっきゅういいんがつとまるだろうか。",
+          "vi": "Anh ta có lẽ sẽ đảm đương một vị trí trong ban cán sự lớp."
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "word": "呼びかける",
+      "reading": "よびかける",
+      "han_viet": "HÔ",
+      "word_type": "Động từ",
+      "meaning": "Kêu gọi",
+      "examples": [
+        {
+          "ja": "マスクをして外出するように呼びかける。",
+          "reading": "ますくをしてがいしゅつするようによびかける。",
+          "vi": "Kêu gọi ra đường đeo khẩu trang."
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "word": "呼び出す",
+      "reading": "よびだす",
+      "han_viet": "HÔ XUẤT",
+      "word_type": "Động từ",
+      "meaning": "Gọi, triệu tập",
+      "examples": [
+        {
+          "ja": "先生から呼び出された。",
+          "reading": "せんせいからよびだされた。",
+          "vi": "Bị thầy giáo gọi."
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "word": "枯れる",
+      "reading": "かれる",
+      "han_viet": "KHÔ",
+      "word_type": "Động từ",
+      "meaning": "Bị héo, bị tàn",
+      "examples": [
+        {
+          "ja": "大切に育てていた植物が枯れてしまった。",
+          "reading": "たいせつにそだてていたしょくぶつがかれてしまった。",
+          "vi": "Cái cây mà tôi chăm bẵm đã bị héo mất rồi."
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "word": "枯らす",
+      "reading": "からす",
+      "han_viet": "KHÔ",
+      "word_type": "Động từ",
+      "meaning": "Làm héo, phơi khô",
+      "examples": [
+        {
+          "ja": "毎日水をあげていなかったから、お花を枯らしてしまった。",
+          "reading": "まいにちみずをあげていなかったから、おはなをからしてしまった。",
+          "vi": "Vì tôi không tưới nước mỗi ngày nên đã làm cây hoa bị"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "word": "湿る",
+      "reading": "しめる",
+      "han_viet": "THẤP",
+      "word_type": "Động từ",
+      "meaning": "Bị ẩm",
+      "examples": [
+        {
+          "ja": "空気が湿っていて洗濯物が乾きにくい。",
+          "reading": "くうきがしめっていてせんたくものがかわきにくい。",
+          "vi": "Không khí ẩm nên đồ giặt khó khô."
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "word": "凍る",
+      "reading": "こおる",
+      "han_viet": "ĐÔNG",
+      "word_type": "Động từ",
+      "meaning": "Đông cứng",
+      "examples": [
+        {
+          "ja": "寒すぎて鼻水も凍ってしまう。",
+          "reading": "さむすぎてはなみずもこごってしまう。",
+          "vi": "Trời quá lạnh khiến nước mũi cũng phải đông cứng lại."
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "word": "震える",
+      "reading": "ふるえる",
+      "han_viet": "CHẤN",
+      "word_type": "Động từ",
+      "meaning": "Run rẩy",
+      "examples": [
+        {
+          "ja": "寒すぎて手が震える。",
+          "reading": "さむすぎててがふるえる。",
+          "vi": "Trời quá lạnh làm tay run rẩy."
+        },
+        {
+          "ja": "最近、海外ドラマを見ることにはまっている。",
+          "reading": "さいきん、かいがいどらまをみることにはまっている。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "word": "はまる",
+      "reading": "はまる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Khớp ; - Mắc vào ; - Nghiện",
+      "examples": [
+        {
+          "ja": "車がぬかるみにはまってしまった。",
+          "reading": "くるまがぬかるみにはまってしまった。",
+          "vi": "Chiếc xe bị sa vào đoạn bùn lầy lội."
+        },
+        {
+          "ja": "罠にはまる。",
+          "reading": "わなにはまる。",
+          "vi": "Mắc bẫy."
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "word": "はめる",
+      "reading": "はめる",
+      "han_viet": "",
+      "word_type": "Động từ",
+      "meaning": "Thắt, đặt lên ; - Lọt vào ; - Đưa vào ; - Lừa, đặt bẫy",
+      "examples": [
+        {
+          "ja": "てぶくろをはめる。",
+          "reading": "てぶくろをはめる。",
+          "vi": "Đeo găng tay."
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "word": "敗れる",
+      "reading": "やぶれる",
+      "han_viet": "BẠI",
+      "word_type": "Động từ",
+      "meaning": "Bị đánh bại",
+      "examples": [
+        {
+          "ja": "わたしのチームは2対１で敗れてしまった。",
+          "reading": "わたしのちーむは2つい１でやぶれてしまった。",
+          "vi": "Đội tôi đã thua với tỷ số là 2-1."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "word": "逃げる",
+      "reading": "にげる",
+      "han_viet": "ĐÀO",
+      "word_type": "Động từ",
+      "meaning": "Chạy trốn",
+      "examples": [
+        {
+          "ja": "飼っていた小鳥が逃げてしまった。",
+          "reading": "かっていたことりがにげてしまった。",
+          "vi": "Con chim nhỏ tôi nuôi đã bay mất rồi."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "word": "逃がす",
+      "reading": "にがす",
+      "han_viet": "ĐÀO",
+      "word_type": "Động từ",
+      "meaning": "Thả ra ; - Để chạy thoát",
+      "examples": [
+        {
+          "ja": "池にコイを逃がす。",
+          "reading": "いけにこいをにがす。",
+          "vi": "Thả cá chép ra ao."
+        },
+        {
+          "ja": "泥棒を捕まえられずに逃がしてしまった。",
+          "reading": "どろぼうをつかまえられずににがしてしまった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "word": "転がる",
+      "reading": "ころがる",
+      "han_viet": "CHUYỂN",
+      "word_type": "Động từ",
+      "meaning": "(tự) lăn",
+      "examples": [
+        {
+          "ja": "ボールが転がっている。",
+          "reading": "ぼーるがころがっている。",
+          "vi": "Quả bóng lăn."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "word": "転がす",
+      "reading": "ころがす",
+      "han_viet": "CHUYỂN",
+      "word_type": "Động từ",
+      "meaning": "Lăn (vật gì đó) ; - Nghiêng",
+      "examples": [
+        {
+          "ja": "ドラム缶を転がして運ぶ。",
+          "reading": "どらむかんをころがしてはこぶ。",
+          "vi": "Lăn để di chuyển những chiếc thùng phuy."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "word": "傾く",
+      "reading": "かたむく",
+      "han_viet": "KHUYNH",
+      "word_type": "Động từ",
+      "meaning": "Lặn (mặt trời) ; - Ngả về phía…. ; - Đi xuống, xấu đi (tình hình",
+      "examples": [
+        {
+          "ja": "経営が傾く。",
+          "reading": "けいえいがかたむく。",
+          "vi": "Tình hình công việc điều hành xấu đi."
+        },
+        {
+          "ja": "今回の地震で家が傾いた。",
+          "reading": "こんかいのじしんでいえがかたむいた。",
+          "vi": "Căn nhà bị nghiêng do cơn động đất lần này."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "word": "傾ける",
+      "reading": "かたむける",
+      "han_viet": "KHUYNH",
+      "word_type": "Động từ",
+      "meaning": "v.v…) ; - Làm nghiêng, ngả ; - Cống hiến, hết mình vì cái gì",
+      "examples": [
+        {
+          "ja": "学生の声に耳を傾ける。",
+          "reading": "がくせいのこえにみみをかたむける。",
+          "vi": "Lắng nghe những tiếng nói của học sinh."
+        },
+        {
+          "ja": "全体に油が馴染むようにフライパンを傾ける。",
+          "reading": "ぜんたいにあぶらがなじむようにふらいぱんをかたむける。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "word": "裏返す",
+      "reading": "うらがえす",
+      "han_viet": "LÝ PHẢN",
+      "word_type": "Động từ",
+      "meaning": "Lật úp, ngược",
+      "examples": [
+        {
+          "ja": "お好み焼きを裏返す。",
+          "reading": "おこのみやきをうらかえす。",
+          "vi": "Lật chiếc bánh xèo Okonomiyaki."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "word": "散らかる",
+      "reading": "ちらかる",
+      "han_viet": "TÁN",
+      "word_type": "Động từ",
+      "meaning": "Bừa bộn, trong mớ hỗn độn",
+      "examples": [
+        {
+          "ja": "料理をした後は、キッチンが散らかる。",
+          "reading": "りょうりをしたのちは、きっちんがちらかる。",
+          "vi": "Sau khi nấu ăn, căn bếp trở nên vô cùng bừa bộn."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "word": "散らかす",
+      "reading": "ちらかす",
+      "han_viet": "TÁN",
+      "word_type": "Động từ",
+      "meaning": "Làm lung tung, vương vãi",
+      "examples": [
+        {
+          "ja": "子供が部屋を散らかす。",
+          "reading": "こどもがへやをちらかす。",
+          "vi": "Đứa trẻ làm lung tung cả căn phòng lên."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "word": "散らばる",
+      "reading": "ちらばる",
+      "han_viet": "TÁN",
+      "word_type": "Động từ",
+      "meaning": "Vương vãi, phân tán, tản mát",
+      "examples": [
+        {
+          "ja": "追いかけられた子どもたちは、散らばって逃げた。",
+          "reading": "おいかけられたこどもたちは、ちらばってにげた。",
+          "vi": "Những đứa trẻ bị đuổi theo đó tản ra bỏ chạy mỗi đứa một đường."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "word": "薄まる",
+      "reading": "うすまる",
+      "han_viet": "BẠC",
+      "word_type": "Động từ",
+      "meaning": "Nhạt đi",
+      "examples": [
+        {
+          "ja": "煮物に水を入れたら味が薄まった。",
+          "reading": "にものにみずをいれたらあじがうすまった。",
+          "vi": "Món hầm cho thêm nước vào sẽ bị nhạt đi."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "word": "薄める",
+      "reading": "うすめる",
+      "han_viet": "BẠC",
+      "word_type": "Động từ",
+      "meaning": "Làm cho nhạt đi",
+      "examples": [
+        {
+          "ja": "塩辛いので水を入れて味を薄める。",
+          "reading": "しおからいのでみずをいれてあじをうすめる。",
+          "vi": "Món này mặn nên cho thêm nước vào sẽ làm nhạt vị đi."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "word": "薄れる",
+      "reading": "うすれる",
+      "han_viet": "BẠC",
+      "word_type": "Động từ",
+      "meaning": "Mờ đi, nhạt dần",
+      "examples": [
+        {
+          "ja": "疲れすぎて意識が薄れてきた。",
+          "reading": "つかれすぎていしきがうすれてきた。",
+          "vi": "Do quá mệt nên lịm dần đi."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "word": "透き通る",
+      "reading": "すきとおる",
+      "han_viet": "THẤU THÔNG",
+      "word_type": "Động từ",
+      "meaning": "Trong suốt",
+      "examples": [
+        {
+          "ja": "透き通るような白い肌の色だ。",
+          "reading": "すきとうるようなしろいはだのいろだ。",
+          "vi": "Màu da trắng như trong suốt."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "word": "膨れる",
+      "reading": "ふくれる",
+      "han_viet": "BÀNH",
+      "word_type": "Động từ",
+      "meaning": "Nở ra, phình ra",
+      "examples": [
+        {
+          "ja": "空気を入れると風船が膨れる。",
+          "reading": "くうきをいれるとふうせんがふくれる。",
+          "vi": "Bơm khí vào khiến quả bóng phình ra."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "word": "膨らむ",
+      "reading": "ふくらむ",
+      "han_viet": "BÀNH",
+      "word_type": "Động từ",
+      "meaning": "Sưng, phình, to ra ; - Lớn hơn, tăng lên",
+      "examples": [
+        {
+          "ja": "写真を見て想像が膨らんだ。",
+          "reading": "しゃしんをみてそうぞうがふくらんだ。",
+          "vi": "Sự tưởng tượng bay xa sau khi xem bức ảnh."
+        },
+        {
+          "ja": "服をたくさん入れてカバンが膨らんだ。",
+          "reading": "ふくをたくさんいれてかばんがふくらんだ。",
+          "vi": "Nhét nhiều quần áo vào khiến chiếc cặp phồng lên."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "word": "膨らます",
+      "reading": "ふくらます",
+      "han_viet": "BÀNH",
+      "word_type": "Động từ",
+      "meaning": "Phồng (má) ; - Làm nở, phình, to ra",
+      "examples": [
+        {
+          "ja": "パンを発酵させて膨らます。",
+          "reading": "ぱんをはっこうさせてふくらます。",
+          "vi": "Làm bánh mì lên men và phồng lên."
+        },
+        {
+          "ja": "彼女は怒ると、ほほを膨らます。",
+          "reading": "かのじょはいかると、ほほをふくらます。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "word": "加わる",
+      "reading": "くわわる",
+      "han_viet": "GIA",
+      "word_type": "Động từ",
+      "meaning": "Thêm vào, tăng lên",
+      "examples": [
+        {
+          "ja": "チームに新人2人が加わった。",
+          "reading": "ちーむにしんじん2にんがくわわった。",
+          "vi": "Đội đã có 2 người mới thêm vào."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "word": "加える",
+      "reading": "くわえる",
+      "han_viet": "GIA",
+      "word_type": "Động từ",
+      "meaning": "Cho thêm, cộng vào",
+      "examples": [
+        {
+          "ja": "味の素を少し加えるとおいしい。",
+          "reading": "あじのもとをすこしくわえるとおいしい。",
+          "vi": "Cho thêm chút bột ngọt Ajinomoto vào sẽ ngon hơn đấy."
+        }
+      ]
+    }
+  ]
+}

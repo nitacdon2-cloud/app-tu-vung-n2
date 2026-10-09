@@ -1,0 +1,43 @@
+{
+  "lesson_id": "sec_10_7",
+  "lesson_name": "Bài 10.7: Phân biệt 値段・価格",
+  "level": "N2",
+  "chapter": 10,
+  "chapter_name": "Phân biệt từ vựng",
+  "section_tag": "10.7",
+  "order": 49,
+  "words": [
+    {
+      "word": "値段",
+      "reading": "ねだん",
+      "han_viet": "TRỊ ĐOẠN",
+      "word_type": "Danh từ",
+      "meaning": "Giá cả, giá tiền (dùng trong văn nói)",
+      "sub_section": "10.7 Phân biệt 値段 / 価格",
+      "examples": [
+        {
+          "ja": "洋服の値段が安くなっていた。",
+          "reading": "ようふくのねだんがやすくなっていた。",
+          "vi": "Quần áo giá đã rẻ hơn rồi."
+        }
+      ],
+      "id": 1241
+    },
+    {
+      "word": "価格",
+      "reading": "かかく",
+      "han_viet": "GIÁ CÁCH",
+      "word_type": "Danh từ",
+      "meaning": "Giá cả, giá tiền (dùng trong văn viết)",
+      "sub_section": "10.7 Phân biệt 値段 / 価格",
+      "examples": [
+        {
+          "ja": "野菜の価格が高騰している。",
+          "reading": "やさいのかかくがこうとうしている。",
+          "vi": "Giá rau đang tăng vọt."
+        }
+      ],
+      "id": 1242
+    }
+  ]
+}

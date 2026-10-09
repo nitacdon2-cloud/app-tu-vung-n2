@@ -1,0 +1,48 @@
+{
+  "lesson_id": "sec_10_5",
+  "lesson_name": "Bài 10.5: Phân biệt 発達・発展",
+  "level": "N2",
+  "chapter": 10,
+  "chapter_name": "Phân biệt từ vựng",
+  "section_tag": "10.5",
+  "order": 47,
+  "words": [
+    {
+      "word": "発達",
+      "reading": "はったつ",
+      "han_viet": "PHÁT ĐẠT",
+      "word_type": "Danh từ / Động từ",
+      "meaning": "Phát triển (về tâm hồn, thể chất, năng lực, hiện tượng tự nhiên)",
+      "sub_section": "10.5 Phân biệt 発達 / 発展",
+      "examples": [
+        {
+          "ja": "子どもの身体が発達する。",
+          "reading": "こどものしんたいがはったつする。",
+          "vi": "Cơ thể của trẻ phát triển."
+        },
+        {
+          "ja": "台風が発達する。",
+          "reading": "たいふうがはったつする。",
+          "vi": "Bão ngày càng mạnh lên."
+        }
+      ],
+      "id": 1237
+    },
+    {
+      "word": "発展",
+      "reading": "はってん",
+      "han_viet": "PHÁT TRIỂN",
+      "word_type": "Danh từ / Động từ",
+      "meaning": "Phát triển (về quy mô, lĩnh vực, lãnh thổ, sức mạnh)",
+      "sub_section": "10.5 Phân biệt 発達 / 発展",
+      "examples": [
+        {
+          "ja": "ベトナムの経済が発展している。",
+          "reading": "べとなむのけいざいがはってんしている。",
+          "vi": "Nền kinh tế của Việt Nam đang phát triển."
+        }
+      ],
+      "id": 1238
+    }
+  ]
+}

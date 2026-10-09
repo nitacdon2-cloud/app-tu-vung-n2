@@ -1,0 +1,371 @@
+{
+  "lesson_id": "sec_3_11",
+  "lesson_name": "Bài 3.11: Danh từ (Phần 11)",
+  "level": "N2",
+  "chapter": 3,
+  "chapter_name": "Danh từ",
+  "section_tag": "3.11",
+  "order": 27,
+  "words": [
+    {
+      "id": 765,
+      "word": "脇",
+      "reading": "わき",
+      "han_viet": "HIẾP",
+      "word_type": "Danh từ",
+      "meaning": "Hông, nách",
+      "examples": [
+        {
+          "ja": "体温計を脇にはさんで熱を測る。",
+          "reading": "たいおんけいをわきにはさんでねつをはかる。",
+          "vi": "Kẹp nhiệt kế vào nách và đo nhiệt độ."
+        }
+      ]
+    },
+    {
+      "id": 766,
+      "word": "運",
+      "reading": "うん",
+      "han_viet": "VẬN",
+      "word_type": "Danh từ",
+      "meaning": "Số, vận mệnh",
+      "examples": [
+        {
+          "ja": "宝くじが当たるなんて運がいい。",
+          "reading": "たからくじがあたるなんてうんがいい。",
+          "vi": "Chuyện trúng xổ số đúng là vận may."
+        }
+      ]
+    },
+    {
+      "id": 767,
+      "word": "敵",
+      "reading": "てき",
+      "han_viet": "ĐỊCH",
+      "word_type": "Danh từ",
+      "meaning": "Kẻ thù",
+      "examples": [
+        {
+          "ja": "敵が攻め込んできた。",
+          "reading": "てきがせめこんできた。",
+          "vi": "Kẻ thù tấn công tới."
+        }
+      ]
+    },
+    {
+      "id": 768,
+      "word": "他",
+      "reading": "ほか",
+      "han_viet": "THA",
+      "word_type": "Danh từ",
+      "meaning": "Người (khác), ngoài ra",
+      "examples": [
+        {
+          "ja": "分からないので他の人に聞いてください。",
+          "reading": "わからないのでほかのにんにきいてください。",
+          "vi": "Tôi không biết nên cậu hỏi người khác đi."
+        }
+      ]
+    },
+    {
+      "id": 769,
+      "word": "者",
+      "reading": "もの",
+      "han_viet": "GIẢ",
+      "word_type": "Danh từ",
+      "meaning": "Người, kẻ",
+      "examples": [
+        {
+          "ja": "若い者には負けない。",
+          "reading": "わかいものにはまけない。",
+          "vi": "Không để thua người trẻ tuổi."
+        }
+      ]
+    },
+    {
+      "id": 770,
+      "word": "勘",
+      "reading": "かん",
+      "han_viet": "KHÁM",
+      "word_type": "Danh từ",
+      "meaning": "Trực giác, linh cảm",
+      "examples": [
+        {
+          "ja": "彼女は勘がするどい。",
+          "reading": "かのじょはかんがするどい。",
+          "vi": "Cô ấy có trực giác nhạy bén."
+        }
+      ]
+    },
+    {
+      "id": 771,
+      "word": "説",
+      "reading": "せつ",
+      "han_viet": "THUYẾT",
+      "word_type": "Danh từ",
+      "meaning": "Thuyết",
+      "examples": [
+        {
+          "ja": "彼が結婚したという説がある。",
+          "reading": "かれがけっこんしたというせつがある。",
+          "vi": "Có giả thuyết cho rằng anh ấy đã kết hôn."
+        }
+      ]
+    },
+    {
+      "id": 772,
+      "word": "差",
+      "reading": "さ",
+      "han_viet": "SAI",
+      "word_type": "Danh từ",
+      "meaning": "Sai khác, khác biệt, chênh lệch",
+      "examples": [
+        {
+          "ja": "ベトナムと日本では時間差が二時間ある。",
+          "reading": "べとなむとにっぽんではじかんさがにじかんある。",
+          "vi": "Chênh lệch múi giờ giữa Việt Nam và Nhật Bản là 2 tiếng."
+        }
+      ]
+    },
+    {
+      "id": 773,
+      "word": "間",
+      "reading": "ま",
+      "han_viet": "GIAN",
+      "word_type": "Danh từ",
+      "meaning": "Thời gian, thời điểm, phòng",
+      "examples": [
+        {
+          "ja": "焼き立てのパンはあっという間に売り切れた。",
+          "reading": "やきたてのぱんはあっというまにうりきれた。",
+          "vi": "Bánh mới ra lò chẳng mấy chốc đã bán hết."
+        }
+      ]
+    },
+    {
+      "id": 774,
+      "word": "針",
+      "reading": "はり",
+      "han_viet": "CHÂM",
+      "word_type": "Danh từ",
+      "meaning": "Kim",
+      "examples": [
+        {
+          "ja": "指に針を刺してしまい、出血した。",
+          "reading": "ゆびにはりをさしてしまい、しゅっけつした。",
+          "vi": "Lỡ đâm kim vào ngón tay và bị chảy máu."
+        }
+      ]
+    },
+    {
+      "id": 775,
+      "word": "栓",
+      "reading": "せん",
+      "han_viet": "XUYÊN",
+      "word_type": "Danh từ",
+      "meaning": "Nút, nắp",
+      "examples": [
+        {
+          "ja": "お風呂に栓をして、水をためる。",
+          "reading": "おふろにせんをして、みずをためる。",
+          "vi": "Đóng nút bồn tắm sau đó tích nước."
+        }
+      ]
+    },
+    {
+      "id": 776,
+      "word": "空",
+      "reading": "から",
+      "han_viet": "KHÔNG",
+      "word_type": "Danh từ",
+      "meaning": "Trống rỗng",
+      "examples": [
+        {
+          "ja": "三人でワイン四本を空にした。",
+          "reading": "さんにんでわいんよんほんをそらにした。",
+          "vi": "3 người uống hết 4 chai rượu vang."
+        }
+      ]
+    },
+    {
+      "id": 777,
+      "word": "便",
+      "reading": "びん",
+      "han_viet": "TIỆN",
+      "word_type": "Danh từ",
+      "meaning": "Thư, xe thư ; - Chuyến bay",
+      "examples": [
+        {
+          "ja": "夕方の便で荷物を送ったので、明日の朝には届きます。",
+          "reading": "ゆうがたのびんでにもつをおくったので、あしたのあさにはとどきます。",
+          "vi": "Tôi đã gửi hành lí vào chuyến chiều tối, nên sáng mai sẽ tới nơi."
+        }
+      ]
+    },
+    {
+      "id": 778,
+      "word": "便",
+      "reading": "べん",
+      "han_viet": "TIỆN",
+      "word_type": "Danh từ",
+      "meaning": "Thuận tiện",
+      "examples": [
+        {
+          "ja": "この場所は交通の便がいい。",
+          "reading": "このばしょはこうつうのびんがいい。",
+          "vi": "Ở chỗ này giao thông thuận tiện. 81"
+        }
+      ]
+    },
+    {
+      "id": 779,
+      "word": "券",
+      "reading": "けん",
+      "han_viet": "KHOÁN",
+      "word_type": "Danh từ",
+      "meaning": "Vé",
+      "examples": [
+        {
+          "ja": "スーパーで割引券を貰った。",
+          "reading": "すーぱーでわりびきけんをもらった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 780,
+      "word": "表",
+      "reading": "ひょう",
+      "han_viet": "BIỂU",
+      "word_type": "Danh từ",
+      "meaning": "Bảng biểu",
+      "examples": [
+        {
+          "ja": "健康診断の結果を表にする。",
+          "reading": "けんこうしんだんのけっかをおもてにする。",
+          "vi": "Lập bảng kết quả khám sức khỏe."
+        }
+      ]
+    },
+    {
+      "id": 781,
+      "word": "分",
+      "reading": "ぶん",
+      "han_viet": "PHÂN",
+      "word_type": "Danh từ",
+      "meaning": "Phần, lượng",
+      "examples": [
+        {
+          "ja": "姉の分のケーキを食べてしまった。",
+          "reading": "あねのふんのけーきをたべてしまった。",
+          "vi": "Tôi lỡ ăn phần bánh kem của chị gái."
+        }
+      ]
+    },
+    {
+      "id": 782,
+      "word": "筋",
+      "reading": "すじ",
+      "han_viet": "CÂN",
+      "word_type": "Danh từ",
+      "meaning": "Cốt truyện, gân, nguồn",
+      "examples": [
+        {
+          "ja": "彼女の話は筋が通っていない。",
+          "reading": "かのじょのはなしはすじがとおっていない。",
+          "vi": "Câu chuyện của cô ấy cốt truyện không nhất quán."
+        }
+      ]
+    },
+    {
+      "id": 783,
+      "word": "粒",
+      "reading": "つぶ",
+      "han_viet": "LẠP",
+      "word_type": "Danh từ",
+      "meaning": "Hạt, viên",
+      "examples": [
+        {
+          "ja": "このブドウは粒が大きい。",
+          "reading": "このぶどうはつぶがおおきい。",
+          "vi": "Loại nho này hạt to."
+        }
+      ]
+    },
+    {
+      "id": 784,
+      "word": "得",
+      "reading": "とく",
+      "han_viet": "ĐẮC",
+      "word_type": "Danh từ",
+      "meaning": "Lợi ích, lãi",
+      "examples": [
+        {
+          "ja": "店員さんがおまけをしてくれて得をした気分だ。",
+          "reading": "てんいんさんがおまけをしてくれてえをしたきぶんだ。",
+          "vi": "Nhân viên cửa hàng giảm giá cho tôi, nên cảm thấy được lời."
+        }
+      ]
+    },
+    {
+      "id": 785,
+      "word": "損",
+      "reading": "そん",
+      "han_viet": "TỔN",
+      "word_type": "Danh từ",
+      "meaning": "Lỗ, tổn thất",
+      "examples": [
+        {
+          "ja": "他の店の方が安かった。損した気分だ。",
+          "reading": "ほかのみせのほうがやすかった。そんしたきぶんだ。",
+          "vi": "Cửa hàng khác giá rẻ hơn. Cảm giác bị lỗ."
+        }
+      ]
+    },
+    {
+      "id": 786,
+      "word": "輪",
+      "reading": "わ",
+      "han_viet": "LUÂN",
+      "word_type": "Danh từ",
+      "meaning": "Vòng tròn, vòng",
+      "examples": [
+        {
+          "ja": "何人かに分かれて輪を作る。",
+          "reading": "なんにんかにわかれてわをつくる。",
+          "vi": "Chia mấy người một ra xếp thành vòng tròn."
+        }
+      ]
+    },
+    {
+      "id": 787,
+      "word": "害",
+      "reading": "がい",
+      "han_viet": "HẠI",
+      "word_type": "Danh từ",
+      "meaning": "Thiệt hại, tổn hại",
+      "examples": [
+        {
+          "ja": "よく部屋に入ってくるがクモに害はない。",
+          "reading": "よくへやにいっってくるがくもにがいはない。",
+          "vi": "Mặc dù hay xuất hiện trong phòng nhưng nhện vốn không có hại gì cả."
+        }
+      ]
+    },
+    {
+      "id": 788,
+      "word": "品",
+      "reading": "ひん",
+      "han_viet": "PHẨM",
+      "word_type": "Danh từ",
+      "meaning": "Hàng hóa ; - phẩm cách, phẩm giá",
+      "examples": [
+        {
+          "ja": "彼女の話し方には品がある。",
+          "reading": "かのじょのはなしかたにはひんがある。",
+          "vi": "Cách nói chuyện của cô ấy đầy sang trọng, quý phái. 82"
+        }
+      ]
+    }
+  ]
+}

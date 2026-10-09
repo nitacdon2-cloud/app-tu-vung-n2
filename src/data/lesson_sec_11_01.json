@@ -1,0 +1,293 @@
+{
+  "lesson_id": "sec_11_1",
+  "lesson_name": "Bài 11.1: Tiền tố (不・無・非・未)",
+  "level": "N2",
+  "chapter": 11,
+  "chapter_name": "Tiền tố - Hậu tố",
+  "section_tag": "11.1",
+  "order": 52,
+  "words": [
+    {
+      "word": "不〜",
+      "reading": "ふ〜",
+      "han_viet": "BẤT",
+      "word_type": "TIỀN TỐ",
+      "meaning": "BẤT 〜 (Không)",
+      "grammar_equiv": "〜ではない",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1247
+    },
+    {
+      "word": "不可能（な）",
+      "reading": "ふかのう",
+      "han_viet": "BẤT KHẢ NĂNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không thể nào",
+      "examples": [
+        {
+          "ja": "３ヶ月でN1を取るのは不可能だ。",
+          "reading": "さんかげつでエヌいちをとるのはふかのうだ。",
+          "vi": "Việc lấy N1 trong 3 tháng là điều không thể."
+        }
+      ],
+      "parent_prefix": "不〜",
+      "is_parent_header": false,
+      "id": 1248
+    },
+    {
+      "word": "不必要（な）",
+      "reading": "ふひつよう",
+      "han_viet": "BẤT TẤT YẾU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không cần thiết",
+      "examples": [
+        {
+          "ja": "不必要な外出はおやめください。",
+          "reading": "ふひつようながいしゅつはおやめください。",
+          "vi": "Vui lòng hạn chế ra ngoài khi không cần thiết."
+        }
+      ],
+      "parent_prefix": "不〜",
+      "is_parent_header": false,
+      "id": 1249
+    },
+    {
+      "word": "不愉快（な）",
+      "reading": "ふゆかい",
+      "han_viet": "BẤT DU KHOÁI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không thoải mái, khó chịu",
+      "examples": [
+        {
+          "ja": "不愉快なコメント",
+          "reading": "ふゆかいなこめんと",
+          "vi": "Những bình luận khó chịu"
+        }
+      ],
+      "parent_prefix": "不〜",
+      "is_parent_header": false,
+      "id": 1250
+    },
+    {
+      "word": "不健康（な）",
+      "reading": "ふけんこう",
+      "han_viet": "BẤT KIỆN KHANG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không khoẻ, không tốt cho sức khoẻ",
+      "examples": [
+        {
+          "ja": "不健康な食生活",
+          "reading": "ふけんこうなしょくせいかつ",
+          "vi": "Thói quen ăn uống không tốt cho sức khỏe"
+        }
+      ],
+      "parent_prefix": "不〜",
+      "is_parent_header": false,
+      "id": 1251
+    },
+    {
+      "word": "無〜",
+      "reading": "む〜",
+      "han_viet": "VÔ",
+      "word_type": "TIỀN TỐ",
+      "meaning": "VÔ 〜 (Không có)",
+      "grammar_equiv": "〜がない",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1252
+    },
+    {
+      "word": "無差別",
+      "reading": "むさべつ",
+      "han_viet": "VÔ SAI BIỆT",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không phân biệt, bừa bãi",
+      "examples": [
+        {
+          "ja": "無差別殺人事件",
+          "reading": "むさべつさつじんじけん",
+          "vi": "Vụ án giết người bừa bãi"
+        }
+      ],
+      "parent_prefix": "無〜",
+      "is_parent_header": false,
+      "id": 1253
+    },
+    {
+      "word": "無関係（な）",
+      "reading": "むかんけい",
+      "han_viet": "VÔ QUAN HỆ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không liên quan",
+      "examples": [
+        {
+          "ja": "無関係な話",
+          "reading": "むかんけいなはなし",
+          "vi": "Những câu chuyện không liên quan"
+        }
+      ],
+      "parent_prefix": "無〜",
+      "is_parent_header": false,
+      "id": 1254
+    },
+    {
+      "word": "無関心（な）",
+      "reading": "むかんしん",
+      "han_viet": "VÔ QUAN TÂM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không quan tâm",
+      "examples": [
+        {
+          "ja": "政治に無関心な若者",
+          "reading": "せいじにむかんしんなわかもの",
+          "vi": "Những người trẻ mà không quan tâm đến chính trị"
+        }
+      ],
+      "parent_prefix": "無〜",
+      "is_parent_header": false,
+      "id": 1255
+    },
+    {
+      "word": "無頓着",
+      "reading": "むとんちゃく",
+      "han_viet": "VÔ ĐỐN TRƯỚC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không để ý, bừa bãi",
+      "examples": [
+        {
+          "ja": "身なりに無頓着だ",
+          "reading": "みなりにむとんちゃくだ",
+          "vi": "Không để ý đến diện mạo"
+        }
+      ],
+      "parent_prefix": "無〜",
+      "is_parent_header": false,
+      "id": 1256
+    },
+    {
+      "word": "非〜",
+      "reading": "ひ〜",
+      "han_viet": "PHI",
+      "word_type": "TIỀN TỐ",
+      "meaning": "PHI 〜 (Không, trái với)",
+      "grammar_equiv": "〜ではない",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1257
+    },
+    {
+      "word": "非常識",
+      "reading": "ひじょうしき",
+      "han_viet": "PHI THƯỜNG THỨC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Thiếu ý thức, thiếu thường thức",
+      "examples": [
+        {
+          "ja": "非常識な言動",
+          "reading": "ひじょうしきなげんどう",
+          "vi": "Những lời nói và hành động vô ý thức"
+        }
+      ],
+      "parent_prefix": "非〜",
+      "is_parent_header": false,
+      "id": 1258
+    },
+    {
+      "word": "非公式",
+      "reading": "ひこうしき",
+      "han_viet": "PHI CÔNG THỨC",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không chính thức",
+      "examples": [
+        {
+          "ja": "非公式の発表",
+          "reading": "ひこうしきのはっぴょう",
+          "vi": "Phát biểu không chính thức"
+        }
+      ],
+      "parent_prefix": "非〜",
+      "is_parent_header": false,
+      "id": 1259
+    },
+    {
+      "word": "非科学的",
+      "reading": "ひかがくてき",
+      "han_viet": "PHI KHOA HỌC ĐÍCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Không khoa học (phản khoa học)",
+      "examples": [
+        {
+          "ja": "非科学的な考え",
+          "reading": "ひかがくてきなかんがえ",
+          "vi": "Suy nghĩ phản khoa học"
+        }
+      ],
+      "parent_prefix": "非〜",
+      "is_parent_header": false,
+      "id": 1260
+    },
+    {
+      "word": "未〜",
+      "reading": "み〜",
+      "han_viet": "VỊ",
+      "word_type": "TIỀN TỐ",
+      "meaning": "VỊ 〜 (Chưa)",
+      "grammar_equiv": "〜まだ",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1261
+    },
+    {
+      "word": "未完成",
+      "reading": "みかんせい",
+      "han_viet": "VỊ HOÀN THÀNH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Chưa hoàn thành",
+      "examples": [
+        {
+          "ja": "未完成の作品",
+          "reading": "みかんせいのさくひん",
+          "vi": "Tác phẩm chưa hoàn thành"
+        }
+      ],
+      "parent_prefix": "未〜",
+      "is_parent_header": false,
+      "id": 1262
+    },
+    {
+      "word": "未解決",
+      "reading": "みかいけつ",
+      "han_viet": "VỊ GIẢI QUYẾT",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Chưa giải quyết",
+      "examples": [
+        {
+          "ja": "未解決の問題",
+          "reading": "みかいけつのもんだい",
+          "vi": "Vấn đề chưa được giải quyết"
+        }
+      ],
+      "parent_prefix": "未〜",
+      "is_parent_header": false,
+      "id": 1263
+    },
+    {
+      "word": "未経験",
+      "reading": "みけいけん",
+      "han_viet": "VỊ KINH NGHIỆM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Chưa có kinh nghiệm",
+      "examples": [
+        {
+          "ja": "未経験者歓迎",
+          "reading": "みけいけんしゃかんげい",
+          "vi": "Chào đón người chưa có kinh nghiệm"
+        }
+      ],
+      "parent_prefix": "未〜",
+      "is_parent_header": false,
+      "id": 1264
+    }
+  ]
+}

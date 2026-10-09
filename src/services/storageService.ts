@@ -22,7 +22,19 @@ export const saveProgress = (progress: UserProgress): void => {
 };
 
 export const getWordState = (progress: UserProgress, wordKey: string): UserWordState => {
-  return progress[wordKey] || {
+  if (progress[wordKey]) return progress[wordKey];
+
+  // Fallback for legacy key format (e.g., lesson_01_1 -> sec_01_01_1)
+  const parts = wordKey.split('_');
+  const wordId = parts[parts.length - 1];
+  if (wordId) {
+    const legacyKey = Object.keys(progress).find((k) => k.endsWith(`_${wordId}`));
+    if (legacyKey && progress[legacyKey]) {
+      return progress[legacyKey];
+    }
+  }
+
+  return {
     is_favorite: false,
     status: 'chua_nho',
     review_count: 0,
@@ -52,6 +64,24 @@ export const toggleStatus = (progress: UserProgress, wordKey: string): UserProgr
     [wordKey]: {
       ...current,
       status: nextStatus,
+    },
+  };
+  saveProgress(updated);
+  return updated;
+};
+
+export const setWordStatus = (
+  progress: UserProgress,
+  wordKey: string,
+  status: 'da_nho' | 'chua_nho'
+): UserProgress => {
+  const current = getWordState(progress, wordKey);
+  const updated: UserProgress = {
+    ...progress,
+    [wordKey]: {
+      ...current,
+      status,
+      wrong_count: status === 'chua_nho' ? (current.wrong_count || 0) + 1 : current.wrong_count,
     },
   };
   saveProgress(updated);

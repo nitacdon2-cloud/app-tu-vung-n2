@@ -1,0 +1,531 @@
+{
+  "lesson_id": "sec_1_2",
+  "lesson_name": "Bài 1.2: Động từ (Phần 2)",
+  "level": "N2",
+  "chapter": 1,
+  "chapter_name": "Động từ",
+  "section_tag": "1.2",
+  "order": 2,
+  "words": [
+    {
+      "id": 31,
+      "word": "吐く",
+      "reading": "はく",
+      "han_viet": "THỔ",
+      "word_type": "Động từ",
+      "meaning": "Than thở, nôn ra",
+      "examples": [
+        {
+          "ja": "気分が悪くて吐いてしまった。",
+          "reading": "きぶんがわるくてはいてしまった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "word": "診る",
+      "reading": "みる",
+      "han_viet": "CHẨN",
+      "word_type": "Động từ",
+      "meaning": "Chẩn đoán",
+      "examples": [
+        {
+          "ja": "熱があるので、医者に診てもらった。",
+          "reading": "ねつがあるので、いしゃにみてもらった。",
+          "vi": "Vì bị sốt nên đã đi khám bác sĩ."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "word": "痛む",
+      "reading": "いたむ",
+      "han_viet": "THỐNG",
+      "word_type": "Động từ",
+      "meaning": "Đau",
+      "examples": [
+        {
+          "ja": "最近、右の奥歯が痛む。",
+          "reading": "さいきん、みぎのおくばがいたむ。",
+          "vi": "Dạo gần đây răng hàm bên phải của tôi bị đau."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "word": "傷む",
+      "reading": "いたむ",
+      "han_viet": "THƯƠNG",
+      "word_type": "Động từ",
+      "meaning": "Hư, hỏng (đồ ăn)",
+      "examples": [
+        {
+          "ja": "このバナナはもう傷んでいるので捨てましょう。",
+          "reading": "このばななはもうきずんでいるのですてましょう。",
+          "vi": "Quả chuối này hỏng mất rồi, vứt đi thôi."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "word": "見舞う",
+      "reading": "みまう",
+      "han_viet": "KIẾN VŨ",
+      "word_type": "Động từ",
+      "meaning": "Đi thăm bệnh ; - Gặp phải",
+      "examples": [
+        {
+          "ja": "この地域は大変な被害に見舞われた。",
+          "reading": "このちいきはたいへんなひがいにみまいわれた。",
+          "vi": "Khu vực này đã phải đón một thảm hoạ khủng khiếp."
+        },
+        {
+          "ja": "入院している友達のお見舞いに行く。",
+          "reading": "にゅういんしているともだちのおみまいにいく。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "word": "転ぶ",
+      "reading": "ころぶ",
+      "han_viet": "CHUYỂN",
+      "word_type": "Động từ",
+      "meaning": "Ngã",
+      "examples": [
+        {
+          "ja": "足元が見えにくくて転んでしまった。",
+          "reading": "あしもとがみえにくくてころんでしまった。",
+          "vi": "Vì mò mẫm không nhìn rõ bước chân nên đã bị ngã."
+        },
+        {
+          "ja": "熱を測ると38.5度もあった。",
+          "reading": "ねつをはかると38.5どもあった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "word": "測る計る量る",
+      "reading": "はかる",
+      "han_viet": "TRẮC KẾ LƯỢNG",
+      "word_type": "Động từ",
+      "meaning": "Đo, đo đạc, tính",
+      "examples": [
+        {
+          "ja": "体重を量る。",
+          "reading": "たいじゅうをはかる。",
+          "vi": "Đo cân nặng cơ thể."
+        },
+        {
+          "ja": "テストの時間を計る。",
+          "reading": "てすとのじかんをはかる。",
+          "vi": "Tính thời gian làm bài kiểm tra."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "word": "配る",
+      "reading": "くばる",
+      "han_viet": "PHỐI",
+      "word_type": "Động từ",
+      "meaning": "Phân phát",
+      "examples": [
+        {
+          "ja": "駅の前でティッシュを配っている。",
+          "reading": "えきのまえでてぃっしゅをくばっている。",
+          "vi": "Phát khăn giấy trước cửa ga."
+        },
+        {
+          "ja": "彼はどんなことでも気を配るのが上手だ。",
+          "reading": "かれはどんなことでもきをくばるのがじょうずだ。",
+          "vi": "Anh ta luôn giỏi trong việc để ý tới mọi thứ."
+        },
+        {
+          "ja": "彼のことは放っておくことにした。",
+          "reading": "かのことはほうっっておくことにした。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "word": "放る",
+      "reading": "ほうる",
+      "han_viet": "PHÓNG",
+      "word_type": "Động từ",
+      "meaning": "Ném, bỏ mặc",
+      "examples": [
+        {
+          "ja": "ボールを放ると、近所の窓ガラスに当たってしまった。",
+          "reading": "ぼーるをほうると、きんじょのまどがらすにあたってしまった。",
+          "vi": "Ném bóng trúng phải kính cửa sổ nhà hàng xóm."
+        },
+        {
+          "ja": "息子は家に帰ったらカバンを床にほうりなげた。",
+          "reading": "むすこはいえにかえったらかばんをとこにほうりなげた。",
+          "vi": "Đứa con trai về đến nhà là quăng cặp xuống sàn nhà."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "word": "好む",
+      "reading": "このむ",
+      "han_viet": "HẢO",
+      "word_type": "Động từ",
+      "meaning": "Yêu thích",
+      "examples": [
+        {
+          "ja": "自然が豊かで、静かなところを好む。",
+          "reading": "しぜんがゆたかで、しずかなところをこのむ。",
+          "vi": "Thích những nơi thiên nhiên phong phú và yên tĩnh."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "word": "嫌う",
+      "reading": "きらう",
+      "han_viet": "HIỀM",
+      "word_type": "Động từ",
+      "meaning": "Ghét, không thích",
+      "examples": [
+        {
+          "ja": "空気が悪くて、うるさい所を嫌っています。",
+          "reading": "くうきがわるくて、うるさいところをきらっています。",
+          "vi": "Ghét những nơi không khí ô nhiễm và ồn ào."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "word": "威張る",
+      "reading": "いばる",
+      "han_viet": "UY TRƯƠNG",
+      "word_type": "Động từ",
+      "meaning": "Kiêu ngạo, hợm hĩnh",
+      "examples": [
+        {
+          "ja": "彼はいつも威張っている。",
+          "reading": "かれはいつもいばっている。",
+          "vi": "Anh ta lúc nào tỏ ra hợm hĩnh."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "word": "怒鳴る",
+      "reading": "どなる",
+      "han_viet": "NỘ MINH",
+      "word_type": "Động từ",
+      "meaning": "Hét lên, quát",
+      "examples": [
+        {
+          "ja": "先生の怒鳴る声が廊下に響いた。",
+          "reading": "せんせいのどなるこえがろうかにひびいた。",
+          "vi": "Tiếng quát của giáo viên vang xuống tận hành lang."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "word": "願う",
+      "reading": "ねがう",
+      "han_viet": "NGUYỆN",
+      "word_type": "Động từ",
+      "meaning": "Ước, yêu cầu, mong muốn",
+      "examples": [
+        {
+          "ja": "家族がみんな健康に過ごせることを願う。",
+          "reading": "かぞくがみんなけんこうにすごせることをねがう。",
+          "vi": "Mong cho mọi người trong gia đình được sống khoẻ mạnh."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "word": "気づく",
+      "reading": "きづく",
+      "han_viet": "KHÍ",
+      "word_type": "Động từ",
+      "meaning": "Nhận ra, ý thức, tỉnh",
+      "examples": [
+        {
+          "ja": "彼の本当の気持ちに気づいた。",
+          "reading": "かのほんとうのきもちにきづいた。",
+          "vi": "Nhận ra được cảm giác thực sự của anh ấy."
+        },
+        {
+          "ja": "お金をもっと稼いで、高級マンションに住み",
+          "reading": "おきんをもっとかせいで、こうきゅうまんしょんにすみ",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "word": "稼ぐ",
+      "reading": "かせぐ",
+      "han_viet": "GIÁ",
+      "word_type": "Động từ",
+      "meaning": "Kiếm tiền Câu giờ",
+      "examples": [
+        {
+          "ja": "たい。",
+          "reading": "たい。",
+          "vi": "Muốn kiếm được thêm nhiều tiền và sống trong một căn hộ cao cấp."
+        },
+        {
+          "ja": "時間を稼ぐ。",
+          "reading": "じかんをかせぐ。",
+          "vi": "Câu giờ."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "word": "刻む",
+      "reading": "きざむ",
+      "han_viet": "KHẮC",
+      "word_type": "Động từ",
+      "meaning": "Thái, xắt ; - Khắc",
+      "examples": [
+        {
+          "ja": "指輪に、二人の名前を刻む。",
+          "reading": "ゆびわに、ふたりのなまえをきざむ。",
+          "vi": "Khắc tên hai người vào chiếc nhẫn."
+        },
+        {
+          "ja": "ネギを刻む。",
+          "reading": "ねぎをきざむ。",
+          "vi": "Thái nhỏ hành."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "word": "甘える",
+      "reading": "あまえる",
+      "han_viet": "CAM",
+      "word_type": "Động từ",
+      "meaning": "Nũng nịu, dựa dẫm ; - Nghe lời",
+      "examples": [
+        {
+          "ja": "いつまでも親に甘えてないで、自立してください。",
+          "reading": "いつまでもおやにあまえてないで、じりつしてください。",
+          "vi": "Đừng có dựa dẫm mãi vào bố mẹ thế, tự lập đi chứ!"
+        },
+        {
+          "ja": "お言葉に甘えて。",
+          "reading": "おことばにあまえて。",
+          "vi": "Xin nghe theo lời anh/chị! (sử dụng khi không thể từ"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "word": "疑う",
+      "reading": "うたがう",
+      "han_viet": "NGHI",
+      "word_type": "Động từ",
+      "meaning": "Nghi ngờ",
+      "examples": [
+        {
+          "ja": "テレビに映った光景に、一瞬目を疑った。",
+          "reading": "てれびにうつったこうけいに、いっしゅんめをうたがった。",
+          "vi": "Trong thoáng chốc tôi đã không tin vào mắt mình trước khung cảnh hiện ra trên TV."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "word": "苦しむ",
+      "reading": "くるしむ",
+      "han_viet": "KHỔ",
+      "word_type": "Động từ",
+      "meaning": "Khổ, chịu đựng",
+      "examples": [
+        {
+          "ja": "彼の行動は理解に苦しむ。",
+          "reading": "かのこうどうはりかいにくるしむ。",
+          "vi": "Thật khó để có thể lý giải hành động của anh ta."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "word": "悲しむ",
+      "reading": "かなしむ",
+      "han_viet": "BI",
+      "word_type": "Động từ",
+      "meaning": "Buồn",
+      "examples": [
+        {
+          "ja": "有名なコメディアンの死に、日本中が悲しんだ。",
+          "reading": "ゆうめいなこめでぃあんのしに、にほんじゅうがかなしんだ。",
+          "vi": "Cả nước Nhật đau buồn trước cái chết của diễn viên hài nổi tiếng."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "word": "励ます",
+      "reading": "はげます",
+      "han_viet": "LỆ",
+      "word_type": "Động từ",
+      "meaning": "Động viên, cổ vũ",
+      "examples": [
+        {
+          "ja": "本当にあなたのことを思って励ましてくれる友達を大切にしよう。",
+          "reading": "ほんとうにあなたのことをおもってはげましてくれるともだちをたいせつにしよう。",
+          "vi": "Hãy trân trọng những người bạn biết nghĩ cho mình và luôn động viên mình."
+        },
+        {
+          "ja": "明日は最後の試合なのでみんな張り切っている。",
+          "reading": "あしたはさいごのしあいなのでみんなはりきっている。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "word": "張り切る",
+      "reading": "はりきる",
+      "han_viet": "TRƯƠNG THIẾT",
+      "word_type": "Động từ",
+      "meaning": "Hăm hở, làm việc chăm chỉ",
+      "examples": [
+        {
+          "ja": "明日は息子の運動会なので、夫は張り切って準備している。",
+          "reading": "あしたはむすこのうんどうかいなので、おっとははりきってじゅんびしている。",
+          "vi": "Mai có hội thao của con trai nên chồng tôi đang hăng"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "word": "暴れる",
+      "reading": "あばれる",
+      "han_viet": "BẠO",
+      "word_type": "Động từ",
+      "meaning": "Quậy phá",
+      "examples": [
+        {
+          "ja": "２歳の娘は、機嫌が悪いと泣きながら暴れる。",
+          "reading": "２としのむすめは、きげんがわるいとなきながらあばれる。",
+          "vi": "Đứa con gái 2 tuổi của tôi cứ tâm trạng không tốt là bắt đầu vừa khóc vừa quậy phá."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "word": "占う",
+      "reading": "うらなう",
+      "han_viet": "CHIÊM",
+      "word_type": "Động từ",
+      "meaning": "Dự đoán, bói",
+      "examples": [
+        {
+          "ja": "タロットで恋愛運を占う。",
+          "reading": "たろっとでれんあいうんをせんう。",
+          "vi": "Bói tình duyên bằng bài Tarot."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "word": "引っ張る",
+      "reading": "ひっぱる",
+      "han_viet": "DẪN TRƯƠNG",
+      "word_type": "Động từ",
+      "meaning": "Kéo Lôi kéo",
+      "examples": [
+        {
+          "ja": "子供がお母さんの手を引っ張る。",
+          "reading": "こどもがおかあさんのてをひっぱる。",
+          "vi": "Đứa con kéo tay người mẹ."
+        },
+        {
+          "ja": "優秀な社員を会社に引っ張ってくる。",
+          "reading": "ゆうしゅうなしゃいんをかいしゃにひっぱってくる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "word": "近寄る",
+      "reading": "ちかよる",
+      "han_viet": "CẬN KÍ",
+      "word_type": "Động từ",
+      "meaning": "Tiếp cận, tới gần",
+      "examples": [
+        {
+          "ja": "おにぎりを食べているとカラスが近寄ってきた。",
+          "reading": "おにぎりをたべているとからすがちかよってきた。",
+          "vi": "Đang ăn cơm nắm bỗng có con quạ tiến tới gần."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "word": "横切る",
+      "reading": "よこぎる",
+      "han_viet": "HOÀNH THIẾT",
+      "word_type": "Động từ",
+      "meaning": "Băng qua",
+      "examples": [
+        {
+          "ja": "注意して車道を横切る。",
+          "reading": "ちゅういしてしゃどうをよこぎる。",
+          "vi": "Để ý rồi băng qua đường xe chạy."
+        },
+        {
+          "ja": "道に迷っていると、大きな壁に突き当たった。",
+          "reading": "みちにまよっていると、おおきなかべにつきあたった。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "word": "突き当たる",
+      "reading": "つきあたる",
+      "han_viet": "ĐỘT ĐƯƠNG",
+      "word_type": "Động từ",
+      "meaning": "Đâm vào ; - Đi hết (con đường) ; - Vấp phải (vấn đề, khó khăn)",
+      "examples": [
+        {
+          "ja": "突き当たりを右に曲がってください。",
+          "reading": "つきあたりをみぎにまがってください。",
+          "vi": "Hết đường thì rẽ phải."
+        },
+        {
+          "ja": "難問に突き当たる。",
+          "reading": "なんもんにつきあたる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "word": "立ち止まる",
+      "reading": "たちどまる",
+      "han_viet": "LẬP CHỈ",
+      "word_type": "Động từ",
+      "meaning": "Dừng lại",
+      "examples": [
+        {
+          "ja": "彼は突然立ち止まって、考え始めた。",
+          "reading": "かれはとつぜんたちとまって、かんがえはじめた。",
+          "vi": "Anh ta bỗng nhiên đứng lại và bắt đầu suy nghĩ."
+        }
+      ]
+    }
+  ]
+}

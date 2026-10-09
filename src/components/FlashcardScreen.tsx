@@ -4,10 +4,10 @@ import {
   Star, CheckCircle, Volume2, Search, RotateCw, ChevronLeft, 
   ChevronRight, Shuffle, Eye, ExternalLink, Sparkles, BookOpen, Globe,
   Keyboard, CheckCircle2, XCircle, ArrowRight, CornerDownLeft, RefreshCw,
-  ShieldAlert, Settings2
+  ShieldAlert, Settings2, Trophy, Repeat, RotateCcw
 } from 'lucide-react';
 import { speakJapanese } from '../services/audioService';
-import { getWordState, toggleFavorite, toggleStatus } from '../services/storageService';
+import { getWordState, toggleFavorite, setWordStatus } from '../services/storageService';
 import { openMaziiExternal, getOfflineHanViet } from '../services/maziiService';
 import { Word } from '../types/vocab';
 
@@ -15,6 +15,8 @@ interface CardItem {
   word: Word;
   lessonId: string;
   lessonName: string;
+  sessionCardId?: string;
+  isRetry?: boolean;
 }
 
 // Hàm chuẩn hóa chuỗi tiếng Việt bỏ dấu và chuyển chữ thường
@@ -86,9 +88,6 @@ export const FlashcardScreen: React.FC = () => {
     currentLesson,
     userProgress,
     setUserProgress,
-    handleToggleFavorite,
-    handleToggleStatus,
-    getWordKey,
     setScreen,
     setDetailWord,
     statusFilter,
@@ -119,9 +118,22 @@ export const FlashcardScreen: React.FC = () => {
     return localStorage.getItem('flashcard_auto_romaji') !== 'false';
   });
 
+  // Tùy chọn lặp lại từ viết sai cho tới khi viết đúng (Mastery Mode)
+  const [repeatWrongUntilMastered, setRepeatWrongUntilMastered] = useState<boolean>(() => {
+    return localStorage.getItem('flashcard_repeat_wrong') !== 'false';
+  });
+
+  // State nhập liệu và kiểm tra
   const [inputAnswer, setInputAnswer] = useState('');
   const [checkResult, setCheckResult] = useState<'idle' | 'correct' | 'wrong'>('idle');
   const [matchedType, setMatchedType] = useState<'reading' | 'han_viet' | null>(null);
+  
+  // Đánh dấu thẻ hiện tại từng bị gõ sai trước khi gõ lại đúng
+  const [currentCardHadError, setCurrentCardHadError] = useState<boolean>(false);
+  
+  // Trạng thái hoàn thành toàn bộ hàng đợi phiên học
+  const [isSessionFinished, setIsSessionFinished] = useState<boolean>(false);
+
   const inputRef = useRef<HTMLInputElement>(null);
 
   if (!currentLesson || !currentLesson.words.length) return null;
@@ -153,8 +165,8 @@ export const FlashcardScreen: React.FC = () => {
     return { tatCa, chuaNho, daNho, thichCurrent, thichAll };
   }, [lessons, currentLesson, userProgress]);
 
-  // Build card words pool
-  const cardItems: CardItem[] = useMemo(() => {
+  // Danh sách thẻ gốc theo bộ lọc
+  const baseCardItems: CardItem[] = useMemo(() => {
     let items: CardItem[] = [];
     if (filterScope === 'thich' && starredScope === 'all') {
       const allStarred: CardItem[] = [];
@@ -196,16 +208,24 @@ export const FlashcardScreen: React.FC = () => {
     }
 
     return items;
-  }, [lessons, currentLesson, userProgress, filterScope, starredScope, isShuffled, shuffleKey]);
+  }, [lessons, currentLesson, filterScope, starredScope, isShuffled, shuffleKey]);
 
-  // Keep index within bounds
+  // Hàng đợi thẻ trong phiên học (Session Queue)
+  const [sessionQueue, setSessionQueue] = useState<CardItem[]>([]);
+
+  // Khởi tạo hàng đợi phiên học khi baseCardItems hoặc bộ lọc thay đổi
   useEffect(() => {
-    if (cardItems.length > 0 && currentIndex >= cardItems.length) {
-      setCurrentIndex(cardItems.length - 1);
-    }
-  }, [cardItems.length, currentIndex]);
+    const queue = baseCardItems.map((item, idx) => ({
+      ...item,
+      sessionCardId: `${item.lessonId}_${item.word.id}_init_${idx}`,
+      isRetry: false,
+    }));
+    setSessionQueue(queue);
+    setCurrentIndex(0);
+    setIsSessionFinished(false);
+  }, [baseCardItems]);
 
-  const currentItem = cardItems[currentIndex] || cardItems[0];
+  const currentItem = sessionQueue[currentIndex] || sessionQueue[0];
   const currentWord = currentItem ? currentItem.word : currentLesson.words[0];
   const currentKey = currentItem ? `${currentItem.lessonId}_${currentItem.word.id}` : '';
   const currentWordState = getWordState(userProgress, currentKey);
@@ -220,6 +240,7 @@ export const FlashcardScreen: React.FC = () => {
     setInputAnswer('');
     setCheckResult('idle');
     setMatchedType(null);
+    setCurrentCardHadError(false);
 
     // Auto focus vào input khi sang thẻ mới nếu bật typing mode
     if (typingMode) {
@@ -228,7 +249,7 @@ export const FlashcardScreen: React.FC = () => {
       }, 120);
       return () => clearTimeout(timer);
     }
-  }, [currentIndex, filterScope, starredScope, typingMode]);
+  }, [currentIndex, typingMode]);
 
   const handleToggleShuffle = useCallback(() => {
     setIsShuffled((prev) => {
@@ -239,17 +260,13 @@ export const FlashcardScreen: React.FC = () => {
       return next;
     });
     setCurrentIndex(0);
-    setIsFlipped(false);
-    setInputAnswer('');
-    setCheckResult('idle');
+    setIsSessionFinished(false);
   }, []);
 
   const handleReshuffle = useCallback(() => {
     setShuffleKey((k) => k + 1);
     setCurrentIndex(0);
-    setIsFlipped(false);
-    setInputAnswer('');
-    setCheckResult('idle');
+    setIsSessionFinished(false);
   }, []);
 
   const handleCardToggleFavorite = useCallback(() => {
@@ -262,40 +279,69 @@ export const FlashcardScreen: React.FC = () => {
   const handleCardToggleStatus = useCallback(() => {
     if (!currentItem) return;
     const key = `${currentItem.lessonId}_${currentItem.word.id}`;
-    const updated = toggleStatus(userProgress, key);
+    const nextStatus = currentWordState.status === 'da_nho' ? 'chua_nho' : 'da_nho';
+    const updated = setWordStatus(userProgress, key, nextStatus);
     setUserProgress(updated);
-  }, [currentItem, userProgress, setUserProgress]);
+  }, [currentItem, currentWordState.status, userProgress, setUserProgress]);
 
-  const handleNext = useCallback((markAsLearned?: boolean) => {
-    if (currentItem && markAsLearned !== undefined) {
-      if (markAsLearned && currentWordState.status !== 'da_nho') {
-        handleCardToggleStatus();
-      }
-    }
+  // Chuyển sang thẻ tiếp theo trong hàng đợi
+  const handleNextCard = useCallback(() => {
     setIsFlipped(false);
     setInputAnswer('');
     setCheckResult('idle');
     setMatchedType(null);
+    setCurrentCardHadError(false);
 
-    if (currentIndex < cardItems.length - 1) {
+    if (currentIndex < sessionQueue.length - 1) {
       setCurrentIndex((prev) => prev + 1);
     } else {
-      setCurrentIndex(0);
+      setIsSessionFinished(true);
     }
-  }, [currentItem, currentWordState.status, currentIndex, cardItems.length, handleCardToggleStatus]);
+  }, [currentIndex, sessionQueue.length]);
 
-  const handlePrev = useCallback(() => {
+  const handlePrevCard = useCallback(() => {
     setIsFlipped(false);
     setInputAnswer('');
     setCheckResult('idle');
     setMatchedType(null);
+    setCurrentCardHadError(false);
 
     if (currentIndex > 0) {
       setCurrentIndex((prev) => prev - 1);
     } else {
-      setCurrentIndex(cardItems.length - 1);
+      setCurrentIndex(sessionQueue.length - 1);
     }
-  }, [currentIndex, cardItems.length]);
+  }, [currentIndex, sessionQueue.length]);
+
+  // Nút Chưa Thuộc ở footer: Đánh dấu Chưa Thuộc và đẩy về cuối hàng đợi
+  const handleMarkAsUnlearned = useCallback(() => {
+    if (!currentItem) return;
+    const key = `${currentItem.lessonId}_${currentItem.word.id}`;
+    const updated = setWordStatus(userProgress, key, 'chua_nho');
+    setUserProgress(updated);
+
+    if (repeatWrongUntilMastered) {
+      setSessionQueue((prev) => [
+        ...prev,
+        {
+          ...currentItem,
+          sessionCardId: `${currentItem.lessonId}_${currentItem.word.id}_retry_${Date.now()}`,
+          isRetry: true,
+        },
+      ]);
+    }
+
+    handleNextCard();
+  }, [currentItem, userProgress, setUserProgress, repeatWrongUntilMastered, handleNextCard]);
+
+  // Nút Đã Thuộc ở footer
+  const handleMarkAsLearned = useCallback(() => {
+    if (!currentItem) return;
+    const key = `${currentItem.lessonId}_${currentItem.word.id}`;
+    const updated = setWordStatus(userProgress, key, 'da_nho');
+    setUserProgress(updated);
+    handleNextCard();
+  }, [currentItem, userProgress, setUserProgress, handleNextCard]);
 
   const handleSpeech = (text: string) => {
     speakJapanese(text);
@@ -312,10 +358,8 @@ export const FlashcardScreen: React.FC = () => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     let val = e.target.value;
 
-    // Nếu bật tự chuyển Romaji -> Hiragana và người dùng gõ ký tự latin thường (không phải tiếng Việt có dấu)
-    // Giúp người dùng để bàn phím Tiếng Anh thông thường gõ k-a-w-a-i... mà KHÔNG BỊ BÀN PHÍM GỢI Ý!
+    // Tự động chuyển Romaji -> Hiragana nếu bật
     if (autoConvertRomaji && /^[a-zA-Z\s\-'぀-ゟ]+$/.test(val)) {
-      // Chỉ tự convert nếu không phải đang viết hoa toàn bộ (viết hoa thường là gõ Hán Việt như KHA AI)
       const isAllUpper = val.length > 1 && val === val.toUpperCase();
       if (!isAllUpper) {
         val = convertRomajiToHiragana(val);
@@ -331,7 +375,7 @@ export const FlashcardScreen: React.FC = () => {
 
   // ── Kiểm tra đáp án người dùng nhập (Hiragana hoặc Hán Việt) ──
   const handleCheckAnswer = useCallback(() => {
-    if (!currentWord) return;
+    if (!currentWord || !currentItem) return;
     const rawInput = inputAnswer.trim();
     if (!rawInput) return;
 
@@ -340,25 +384,17 @@ export const FlashcardScreen: React.FC = () => {
     const normalizedInput = katakanaToHiragana(convertedInput.toLowerCase().replace(/\s+/g, ' '));
     const normalizedReading = katakanaToHiragana((currentWord.reading || '').toLowerCase().replace(/\s+/g, ' '));
 
-    // 1. Kiểm tra cách đọc Hiragana (hỗ trợ nhiều biến thể nếu có dấu ・ hoặc ／)
+    // 1. Kiểm tra cách đọc Hiragana
     const readingVariants = normalizedReading.split(/[・／,]/).map(r => r.trim()).filter(Boolean);
     const isReadingMatch = readingVariants.some(r => r === normalizedInput) || normalizedInput === normalizedReading;
 
-    if (isReadingMatch) {
-      setCheckResult('correct');
-      setMatchedType('reading');
-      speakJapanese(currentWord.word);
-      // Tự động lật thẻ sau 400ms để xem đầy đủ chi tiết
-      setTimeout(() => setIsFlipped(true), 400);
-      return;
-    }
-
-    // 2. Kiểm tra Âm Hán Việt (hỗ trợ cả có dấu và không dấu, chữ hoa/thường)
+    // 2. Kiểm tra Âm Hán Việt
+    let isHvMatch = false;
     if (currentHanViet) {
       const inputNoTone = removeVietnameseTones(rawInput);
       const hvVariants = currentHanViet.split(/[/／]/).map(v => v.trim()).filter(Boolean);
 
-      const isHvMatch = hvVariants.some(v => {
+      isHvMatch = hvVariants.some(v => {
         const vLower = v.toLowerCase();
         const vNoTone = removeVietnameseTones(v);
         return (
@@ -368,19 +404,48 @@ export const FlashcardScreen: React.FC = () => {
           inputNoTone.replace(/\s+/g, '') === removeVietnameseTones(currentHanViet).replace(/[\s/]/g, '')
         );
       });
-
-      if (isHvMatch) {
-        setCheckResult('correct');
-        setMatchedType('han_viet');
-        speakJapanese(currentWord.word);
-        setTimeout(() => setIsFlipped(true), 400);
-        return;
-      }
     }
 
-    // Nếu không khớp
+    if (isReadingMatch || isHvMatch) {
+      setCheckResult('correct');
+      setMatchedType(isReadingMatch ? 'reading' : 'han_viet');
+      speakJapanese(currentWord.word);
+      setTimeout(() => setIsFlipped(true), 400);
+
+      // Nếu từ này từng bị gõ sai trước khi gõ lại đúng:
+      if (currentCardHadError) {
+        // VIẾT SAI COI NHƯ CHƯA THUỘC! Giữ nguyên là 'chua_nho'
+        const updated = setWordStatus(userProgress, currentKey, 'chua_nho');
+        setUserProgress(updated);
+
+        // VÀ VIẾT TỚI ĐÚNG THÌ THÔI: Đẩy từ này về cuối hàng đợi để tự viết lại ở cuối bài
+        if (repeatWrongUntilMastered) {
+          setSessionQueue((prev) => [
+            ...prev,
+            {
+              ...currentItem,
+              sessionCardId: `${currentItem.lessonId}_${currentItem.word.id}_retry_${Date.now()}`,
+              isRetry: true,
+            },
+          ]);
+        }
+      } else {
+        // Tự viết đúng ngay từ đầu -> Đánh dấu Đã Thuộc
+        const updated = setWordStatus(userProgress, currentKey, 'da_nho');
+        setUserProgress(updated);
+      }
+      return;
+    }
+
+    // ── NẾU GÕ SAI: ──
+    // 1. Coi như từ đó CHƯA THUỘC ngay lập tức
+    setCurrentCardHadError(true);
+    const updated = setWordStatus(userProgress, currentKey, 'chua_nho');
+    setUserProgress(updated);
+
+    // 2. Đánh dấu wrong - Bắt buộc người dùng viết lại cho tới khi đúng thì thôi!
     setCheckResult('wrong');
-  }, [currentWord, inputAnswer, currentHanViet]);
+  }, [currentWord, currentItem, inputAnswer, currentHanViet, currentCardHadError, userProgress, currentKey, repeatWrongUntilMastered, setUserProgress]);
 
   // Xử lý phím Enter trong ô input
   const handleInputKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -389,19 +454,18 @@ export const FlashcardScreen: React.FC = () => {
       if (checkResult === 'idle') {
         handleCheckAnswer();
       } else if (checkResult === 'correct') {
-        // Đúng rồi -> Enter lần 2 chuyển sang từ tiếp theo và đánh dấu đã nhớ!
-        handleNext(true);
+        // Đúng rồi -> Enter chuyển sang thẻ kế tiếp
+        handleNextCard();
       } else if (checkResult === 'wrong') {
-        // Sai -> Enter lần 2 chuyển tiếp (chưa nhớ)
-        handleNext(false);
+        // Đang sai: Không cho chuyển từ! Kiểm tra lại xem người dùng đã gõ đúng chưa
+        handleCheckAnswer();
       }
     }
   };
 
-  // Keyboard navigation toàn cục (tránh kích hoạt lật thẻ bằng Space khi đang gõ chữ)
+  // Keyboard navigation toàn cục
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Nếu đang focus trong ô input thì không xử lý Space lật thẻ
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
         return;
       }
@@ -411,15 +475,27 @@ export const FlashcardScreen: React.FC = () => {
         setIsFlipped((prev) => !prev);
       } else if (e.code === 'ArrowRight') {
         e.preventDefault();
-        handleNext();
+        handleNextCard();
       } else if (e.code === 'ArrowLeft') {
         e.preventDefault();
-        handlePrev();
+        handlePrevCard();
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleNext, handlePrev]);
+  }, [handleNextCard, handlePrevCard]);
+
+  // Khởi động lại phiên học
+  const handleRestartSession = () => {
+    const queue = baseCardItems.map((item, idx) => ({
+      ...item,
+      sessionCardId: `${item.lessonId}_${item.word.id}_restart_${idx}`,
+      isRetry: false,
+    }));
+    setSessionQueue(queue);
+    setCurrentIndex(0);
+    setIsSessionFinished(false);
+  };
 
   return (
     <div className="flex-1 bg-gray-50 flex flex-col justify-between p-4 max-w-lg mx-auto w-full select-none pb-8 overflow-y-auto">
@@ -573,12 +649,12 @@ export const FlashcardScreen: React.FC = () => {
           </div>
         )}
 
-        {/* Shuffle Mode Control Bar */}
-        <div className="flex items-center justify-between bg-gray-50 border border-gray-200/90 rounded-2xl p-1.5 px-2.5 text-xs">
+        {/* Shuffle & Mastery Control Bar */}
+        <div className="flex items-center justify-between bg-gray-50 border border-gray-200/90 rounded-2xl p-1.5 px-2.5 text-xs flex-wrap gap-1.5">
           <div className="flex items-center gap-1.5">
             <button
               onClick={handleToggleShuffle}
-              className={`px-3 py-1.5 rounded-xl font-bold transition flex items-center gap-1.5 border shadow-sm ${
+              className={`px-2.5 py-1 rounded-xl font-bold transition flex items-center gap-1.5 border shadow-sm text-[11px] ${
                 isShuffled
                   ? 'bg-purple-600 text-white border-purple-600 shadow-purple-500/20'
                   : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100'
@@ -586,13 +662,13 @@ export const FlashcardScreen: React.FC = () => {
               title={isShuffled ? 'Bấm để khôi phục thứ tự theo bài' : 'Bấm để đảo ngẫu nhiên thứ tự thẻ'}
             >
               <Shuffle className={`w-3.5 h-3.5 ${isShuffled ? 'animate-pulse' : ''}`} />
-              <span>{isShuffled ? 'Đang Đảo Thứ Tự' : 'Đảo Thứ Tự Thẻ'}</span>
+              <span>{isShuffled ? 'Đang Đảo' : 'Đảo Thẻ'}</span>
             </button>
 
             {isShuffled && (
               <button
                 onClick={handleReshuffle}
-                className="px-2 py-1.5 bg-purple-100 hover:bg-purple-200 text-purple-800 font-bold rounded-xl transition flex items-center gap-1 text-[11px]"
+                className="px-2 py-1 bg-purple-100 hover:bg-purple-200 text-purple-800 font-bold rounded-xl transition flex items-center gap-1 text-[11px]"
                 title="Xáo trộn lại một lần nữa"
               >
                 <RotateCw className="w-3 h-3" />
@@ -601,26 +677,96 @@ export const FlashcardScreen: React.FC = () => {
             )}
           </div>
 
-          <span className="text-[11px] text-gray-500 font-medium">
-            {isShuffled ? '🔀 Ngẫu nhiên' : '📑 Thứ tự bài'}
-          </span>
+          {/* Toggle Lặp lại từ sai */}
+          <button
+            onClick={() => {
+              const next = !repeatWrongUntilMastered;
+              setRepeatWrongUntilMastered(next);
+              localStorage.setItem('flashcard_repeat_wrong', String(next));
+            }}
+            title="Khi gõ sai: Đánh dấu Chưa Thuộc và lặp lại từ đó ở cuối bài cho tới khi viết đúng"
+            className={`text-[10px] font-bold px-2 py-1 rounded-xl transition flex items-center gap-1 border ${
+              repeatWrongUntilMastered
+                ? 'bg-amber-50 text-amber-800 border-amber-300 shadow-xs'
+                : 'bg-white text-gray-500 border-gray-200 hover:text-gray-700'
+            }`}
+          >
+            <Repeat className={`w-3 h-3 ${repeatWrongUntilMastered ? 'text-amber-600' : 'text-gray-400'}`} />
+            <span>Lặp từ sai: {repeatWrongUntilMastered ? 'BẬT' : 'TẮT'}</span>
+          </button>
         </div>
       </div>
 
       {/* Progress Bar */}
-      {cardItems.length > 0 && (
+      {sessionQueue.length > 0 && !isSessionFinished && (
         <div className="px-2 pt-2">
+          <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 mb-1 px-1">
+            <span>Tiến độ học</span>
+            <span>{currentIndex + 1} / {sessionQueue.length} thẻ</span>
+          </div>
           <div className="w-full bg-gray-200 h-2 rounded-full overflow-hidden">
             <div
               className="bg-primary h-full transition-all duration-300 rounded-full"
-              style={{ width: `${((currentIndex + 1) / cardItems.length) * 100}%` }}
+              style={{ width: `${((currentIndex + 1) / sessionQueue.length) * 100}%` }}
             />
           </div>
         </div>
       )}
 
-      {/* 3D Flipping Flashcard Container */}
-      {cardItems.length === 0 ? (
+      {/* ── MÀN HÌNH HOÀN THÀNH PHIÊN HỌC (SESSION FINISHED) ── */}
+      {isSessionFinished ? (
+        <div className="my-8 text-center p-8 bg-white rounded-3xl border border-gray-200 shadow-lg space-y-5 animate-in zoom-in-95 duration-200">
+          <div className="w-20 h-20 bg-gradient-to-tr from-amber-400 to-amber-500 text-white rounded-full flex items-center justify-center mx-auto shadow-lg shadow-amber-500/30">
+            <Trophy className="w-10 h-10 animate-bounce" />
+          </div>
+          <div className="space-y-1.5">
+            <h3 className="font-black text-gray-900 text-xl">
+              Tuyệt Vời! Đã Hoàn Thành!
+            </h3>
+            <p className="text-xs text-gray-600 max-w-sm mx-auto leading-relaxed">
+              Bạn đã vượt qua toàn bộ từ vựng trong bài! Tất cả các từ viết sai đã được rèn luyện và viết đúng thành công.
+            </p>
+          </div>
+
+          <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200 text-xs flex justify-around font-bold">
+            <div>
+              <span className="text-gray-500 block text-[10px]">ĐÃ THUỘC</span>
+              <span className="text-emerald-600 text-lg font-black">{counts.daNho} từ</span>
+            </div>
+            <div className="w-px bg-gray-200" />
+            <div>
+              <span className="text-gray-500 block text-[10px]">CHƯA THUỘC</span>
+              <span className="text-rose-600 text-lg font-black">{counts.chuaNho} từ</span>
+            </div>
+            <div className="w-px bg-gray-200" />
+            <div>
+              <span className="text-gray-500 block text-[10px]">TỔNG BÀI</span>
+              <span className="text-primary text-lg font-black">{currentLesson.words.length} từ</span>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2.5 max-w-xs mx-auto pt-2">
+            <button
+              onClick={handleRestartSession}
+              className="w-full py-3 bg-primary hover:bg-blue-600 text-white font-extrabold text-xs rounded-xl shadow-md transition flex items-center justify-center gap-2"
+            >
+              <RotateCcw className="w-4 h-4" />
+              <span>Học lại bài này</span>
+            </button>
+            <button
+              onClick={() => {
+                setFilterScope('chua_nho');
+                setCurrentIndex(0);
+                setIsSessionFinished(false);
+              }}
+              className="w-full py-3 bg-rose-50 hover:bg-rose-100 text-rose-700 font-extrabold text-xs rounded-xl border border-rose-200 transition flex items-center justify-center gap-2"
+            >
+              <span>Chỉ ôn các từ chưa thuộc ({counts.chuaNho})</span>
+            </button>
+          </div>
+        </div>
+      ) : sessionQueue.length === 0 ? (
+        /* Empty State */
         <div className="my-12 text-center p-8 bg-white rounded-3xl border border-gray-200 shadow-sm space-y-4">
           <div className="w-16 h-16 bg-amber-50 text-amber-500 rounded-full flex items-center justify-center mx-auto">
             {filterScope === 'thich' ? (
@@ -662,6 +808,7 @@ export const FlashcardScreen: React.FC = () => {
           </div>
         </div>
       ) : (
+        /* 3D Flipping Flashcard Container */
         <div className="my-3 min-h-[350px] flex flex-col">
           <div
             onClick={() => setIsFlipped(!isFlipped)}
@@ -669,10 +816,19 @@ export const FlashcardScreen: React.FC = () => {
           >
             {/* Front & Back Overlay Header */}
             <div className="flex items-center justify-between z-10">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5 flex-wrap">
                 <span className="px-3 py-1 bg-gray-100 text-gray-700 font-extrabold text-xs rounded-full shadow-inner">
-                  {currentIndex + 1} / {cardItems.length}
+                  {currentIndex + 1} / {sessionQueue.length}
                 </span>
+
+                {/* Huy hiệu thẻ đang lặp lại vì từng viết sai */}
+                {currentItem?.isRetry && (
+                  <span className="px-2 py-0.5 bg-amber-100 text-amber-900 border border-amber-300 font-extrabold text-[10px] rounded-full flex items-center gap-1 animate-pulse">
+                    <Repeat className="w-3 h-3 text-amber-700" />
+                    <span>Ôn lại từ sai</span>
+                  </span>
+                )}
+
                 {filterScope === 'thich' && starredScope === 'all' && currentItem?.lessonName && (
                   <span className="px-2.5 py-0.5 bg-amber-100 text-amber-900 font-bold text-[10px] rounded-full">
                     {currentItem.lessonName}
@@ -689,7 +845,7 @@ export const FlashcardScreen: React.FC = () => {
                       ? 'bg-purple-100 text-purple-700 font-bold'
                       : 'hover:bg-purple-50 text-gray-400 hover:text-purple-600'
                   }`}
-                  title={isShuffled ? 'Đang đảo thẻ ngẫu nhiên (bấm để khôi phục thứ tự gốc)' : 'Đảo thứ tự thẻ'}
+                  title={isShuffled ? 'Đang đảo thẻ ngẫu nhiên' : 'Đảo thứ tự thẻ'}
                 >
                   <Shuffle className="w-5 h-5" />
                 </button>
@@ -836,8 +992,8 @@ export const FlashcardScreen: React.FC = () => {
         </div>
       )}
 
-      {/* ── KHUNG LUYỆN GÕ NHỚ SÂU (CHỐNG GỢI Ý BÀN PHÍM) ── */}
-      {cardItems.length > 0 && (
+      {/* ── KHUNG LUYỆN GÕ NHỚ SÂU (ACTIVE RECALL TYPING) ── */}
+      {sessionQueue.length > 0 && !isSessionFinished && (
         <div className="mb-3 bg-white rounded-2xl border border-gray-200/90 shadow-sm p-3 space-y-2">
           {/* Header với nút bật tắt chế độ gõ và chế độ chống gợi ý */}
           <div className="flex items-center justify-between">
@@ -848,6 +1004,7 @@ export const FlashcardScreen: React.FC = () => {
                 Chống gợi ý
               </span>
             </div>
+
             <div className="flex items-center gap-1.5">
               <button
                 onClick={() => {
@@ -855,7 +1012,7 @@ export const FlashcardScreen: React.FC = () => {
                   setAutoConvertRomaji(next);
                   localStorage.setItem('flashcard_auto_romaji', String(next));
                 }}
-                title={autoConvertRomaji ? "Gõ bàn phím tiếng Anh thường sẽ tự chuyển Hiragana (Không bị bàn phím gợi ý từ)" : "Đang dùng gõ tự do"}
+                title={autoConvertRomaji ? "Gõ bàn phím tiếng Anh thường sẽ tự chuyển Hiragana" : "Đang dùng gõ tự do"}
                 className={`text-[10px] font-bold px-2 py-0.5 rounded-lg transition flex items-center gap-1 ${
                   autoConvertRomaji
                     ? 'bg-emerald-50 text-emerald-700 border border-emerald-300'
@@ -925,15 +1082,13 @@ export const FlashcardScreen: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Nút Kiểm tra hoặc Enter tiếp theo */}
+                {/* Nút Kiểm tra hoặc Tiếp theo */}
                 <button
                   onClick={() => {
-                    if (checkResult === 'idle') {
+                    if (checkResult === 'idle' || checkResult === 'wrong') {
                       handleCheckAnswer();
                     } else if (checkResult === 'correct') {
-                      handleNext(true);
-                    } else {
-                      handleNext(false);
+                      handleNextCard();
                     }
                   }}
                   className={`px-3.5 py-2.5 text-xs font-black rounded-xl shadow-sm transition active:scale-95 flex items-center gap-1 flex-shrink-0 ${
@@ -944,15 +1099,20 @@ export const FlashcardScreen: React.FC = () => {
                       : 'bg-primary hover:bg-blue-600 text-white'
                   }`}
                 >
-                  {checkResult === 'idle' ? (
-                    <>
-                      <span>Kiểm tra</span>
-                      <CornerDownLeft className="w-3.5 h-3.5 opacity-80" />
-                    </>
-                  ) : (
+                  {checkResult === 'correct' ? (
                     <>
                       <span>Từ tiếp</span>
                       <ArrowRight className="w-3.5 h-3.5" />
+                    </>
+                  ) : checkResult === 'wrong' ? (
+                    <>
+                      <span>Gõ lại</span>
+                      <RefreshCw className="w-3.5 h-3.5" />
+                    </>
+                  ) : (
+                    <>
+                      <span>Kiểm tra</span>
+                      <CornerDownLeft className="w-3.5 h-3.5 opacity-80" />
                     </>
                   )}
                 </button>
@@ -961,31 +1121,54 @@ export const FlashcardScreen: React.FC = () => {
               {/* Dòng hướng dẫn mẹo chống gợi ý */}
               {autoConvertRomaji && checkResult === 'idle' && (
                 <div className="text-[10px] text-gray-400 flex items-center justify-between px-1">
-                  <span>💡 <b>Mẹo:</b> Để bàn phím tiếng Anh gõ (vd: <i>kawaigaru</i> tự thành <i>かわいがる</i>), bàn phím sẽ <b>không gợi ý</b> từ vựng!</span>
+                  <span>💡 <b>Mẹo:</b> Để bàn phím tiếng Anh gõ (vd: <i>kawaigaru</i> tự thành <i>かわいがる</i>), bàn phím sẽ <b>không gợi ý</b> từ!</span>
                 </div>
               )}
 
-              {/* Feedback messages */}
+              {/* Feedback messages: Khi Đúng */}
               {checkResult === 'correct' && (
-                <div className="text-xs bg-emerald-100/70 border border-emerald-200 text-emerald-900 rounded-xl p-2.5 flex items-center justify-between animate-in fade-in duration-200">
-                  <div className="flex items-center gap-1.5 font-bold">
-                    <span>🎉 Chính xác!</span>
-                    <span className="text-emerald-700 font-japanese">「{currentWord.reading}」</span>
-                    {currentHanViet && (
-                      <span className="bg-emerald-200/80 px-1.5 py-0.5 rounded text-[10px]">
-                        [{currentHanViet}]
-                      </span>
-                    )}
+                <div className={`text-xs rounded-xl p-2.5 space-y-1 animate-in fade-in duration-200 border ${
+                  currentCardHadError
+                    ? 'bg-amber-50 border-amber-200 text-amber-900'
+                    : 'bg-emerald-100/70 border-emerald-200 text-emerald-900'
+                }`}>
+                  <div className="flex items-center justify-between font-bold">
+                    <div className="flex items-center gap-1.5">
+                      {currentCardHadError ? (
+                        <>
+                          <Repeat className="w-4 h-4 text-amber-600" />
+                          <span>Đã viết đúng! (Tính là CHƯA THUỘC vì từng viết sai)</span>
+                        </>
+                      ) : (
+                        <>
+                          <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                          <span>🎉 Chính xác! Đã thuộc:</span>
+                        </>
+                      )}
+                      <span className="font-japanese font-extrabold text-primary">「{currentWord.reading}」</span>
+                      {currentHanViet && (
+                        <span className="bg-amber-200/80 px-1.5 py-0.5 rounded text-[10px]">
+                          [{currentHanViet}]
+                        </span>
+                      )}
+                    </div>
+                    <span className="text-[10px] italic font-semibold">Nhấn Enter để sang từ kế</span>
                   </div>
-                  <span className="text-[10px] text-emerald-700 italic">Nhấn Enter để sang từ kế</span>
+                  {currentCardHadError && repeatWrongUntilMastered && (
+                    <p className="text-[11px] text-amber-800">
+                      👉 Từ này đã được thêm vào cuối bài để bạn tự viết lại không cần xem đáp án!
+                    </p>
+                  )}
                 </div>
               )}
 
+              {/* Feedback messages: Khi Viết Sai */}
               {checkResult === 'wrong' && (
-                <div className="text-xs bg-rose-50 border border-rose-200 text-rose-900 rounded-xl p-2.5 space-y-1 animate-in fade-in duration-200">
+                <div className="text-xs bg-rose-50 border border-rose-200 text-rose-900 rounded-xl p-2.5 space-y-1.5 animate-in fade-in duration-200">
                   <div className="flex items-center justify-between font-bold">
                     <span className="text-rose-600 flex items-center gap-1">
-                      <span>✕ Chưa đúng!</span>
+                      <XCircle className="w-4 h-4" />
+                      <span>Chưa đúng! • Đã tính là CHƯA THUỘC ⚠️</span>
                     </span>
                     <button
                       onClick={() => {
@@ -993,15 +1176,16 @@ export const FlashcardScreen: React.FC = () => {
                         setCheckResult('idle');
                         inputRef.current?.focus();
                       }}
-                      className="text-[10px] text-rose-600 hover:text-rose-800 underline flex items-center gap-0.5"
+                      className="text-[10px] text-rose-600 hover:text-rose-800 underline font-bold flex items-center gap-0.5"
                     >
                       <RefreshCw className="w-3 h-3" />
-                      <span>Thử lại</span>
+                      <span>Xóa & gõ lại</span>
                     </button>
                   </div>
-                  <div className="flex items-center gap-2 pt-0.5 flex-wrap">
-                    <span className="text-gray-600 font-medium">Đáp án đúng:</span>
-                    <span className="font-extrabold text-primary font-japanese text-sm">
+
+                  <div className="bg-white/90 p-2 rounded-lg border border-rose-100 flex items-center gap-2 flex-wrap">
+                    <span className="text-gray-600 font-medium text-[11px]">Đáp án đúng:</span>
+                    <span className="font-black text-primary font-japanese text-sm">
                       「{currentWord.reading}」
                     </span>
                     {currentHanViet && (
@@ -1010,6 +1194,10 @@ export const FlashcardScreen: React.FC = () => {
                       </span>
                     )}
                   </div>
+
+                  <p className="text-[10px] text-rose-700 italic">
+                    ✍️ Bạn phải nhập đúng đáp án ở trên vào ô gõ thì mới được tiếp tục!
+                  </p>
                 </div>
               )}
             </div>
@@ -1018,56 +1206,58 @@ export const FlashcardScreen: React.FC = () => {
       )}
 
       {/* Footer Action Buttons */}
-      <div className="space-y-3">
-        <div className="flex items-center justify-between text-xs text-gray-400 px-2">
-          <button
-            onClick={handlePrev}
-            className="flex items-center gap-1 hover:text-gray-700 font-bold transition"
-          >
-            <ChevronLeft className="w-4 h-4" />
-            <span>Thẻ trước</span>
-          </button>
-          <span className="italic">Space: Lật thẻ • Enter: Kiểm tra/Kế tiếp • ⬅/➡: Chuyển</span>
-          <button
-            onClick={() => handleNext()}
-            className="flex items-center gap-1 hover:text-gray-700 font-bold transition"
-          >
-            <span>Thẻ sau</span>
-            <ChevronRight className="w-4 h-4" />
-          </button>
+      {!isSessionFinished && sessionQueue.length > 0 && (
+        <div className="space-y-3">
+          <div className="flex items-center justify-between text-xs text-gray-400 px-2">
+            <button
+              onClick={handlePrevCard}
+              className="flex items-center gap-1 hover:text-gray-700 font-bold transition"
+            >
+              <ChevronLeft className="w-4 h-4" />
+              <span>Thẻ trước</span>
+            </button>
+            <span className="italic">Space: Lật thẻ • Enter: Gõ/Kiểm tra</span>
+            <button
+              onClick={handleNextCard}
+              className="flex items-center gap-1 hover:text-gray-700 font-bold transition"
+            >
+              <span>Thẻ sau</span>
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+
+          <div className="flex items-center gap-3 relative">
+            {/* Button "Chưa Thuộc" (White/Gray) */}
+            <button
+              onClick={handleMarkAsUnlearned}
+              className="flex-1 py-3.5 bg-white hover:bg-gray-100 text-gray-800 font-extrabold rounded-2xl border border-gray-300 shadow-sm flex items-center justify-center gap-2 active:scale-95 transition"
+            >
+              <div className="w-5 h-5 rounded-full border-2 border-gray-400 flex items-center justify-center">
+                <span className="text-[10px] font-black text-gray-500">✕</span>
+              </div>
+              <span>Chưa Thuộc</span>
+            </button>
+
+            {/* Button "Đã Thuộc" (Blue) */}
+            <button
+              onClick={handleMarkAsLearned}
+              className="flex-1 py-3.5 bg-primary hover:bg-blue-600 text-white font-extrabold rounded-2xl shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2 active:scale-95 transition"
+            >
+              <CheckCircle className="w-5 h-5 fill-white text-primary" />
+              <span>Đã Thuộc</span>
+            </button>
+
+            {/* Search Lens Button: Tra từ Mazii */}
+            <button
+              onClick={() => currentWord && openMaziiExternal(currentWord.word, 'word')}
+              className="w-14 h-14 bg-sky-500 hover:bg-sky-600 text-white rounded-2xl shadow-lg shadow-sky-500/30 flex items-center justify-center transition active:scale-90 flex-shrink-0"
+              title="Tra trực tiếp trên Mazii.net"
+            >
+              <ExternalLink className="w-6 h-6" />
+            </button>
+          </div>
         </div>
-
-        <div className="flex items-center gap-3 relative">
-          {/* Button "Chưa Nhớ" (White/Gray) */}
-          <button
-            onClick={() => handleNext(false)}
-            className="flex-1 py-3.5 bg-white hover:bg-gray-100 text-gray-800 font-extrabold rounded-2xl border border-gray-300 shadow-sm flex items-center justify-center gap-2 active:scale-95 transition"
-          >
-            <div className="w-5 h-5 rounded-full border-2 border-gray-400 flex items-center justify-center">
-              <span className="text-[10px] font-black text-gray-500">✕</span>
-            </div>
-            <span>Chưa Thuộc</span>
-          </button>
-
-          {/* Button "Đã Nhớ" (Blue) */}
-          <button
-            onClick={() => handleNext(true)}
-            className="flex-1 py-3.5 bg-primary hover:bg-blue-600 text-white font-extrabold rounded-2xl shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2 active:scale-95 transition"
-          >
-            <CheckCircle className="w-5 h-5 fill-white text-primary" />
-            <span>Đã Thuộc</span>
-          </button>
-
-          {/* Search Lens Button: Directly open Mazii in new tab */}
-          <button
-            onClick={() => currentWord && openMaziiExternal(currentWord.word, 'word')}
-            className="w-14 h-14 bg-sky-500 hover:bg-sky-600 text-white rounded-2xl shadow-lg shadow-sky-500/30 flex items-center justify-center transition active:scale-90 flex-shrink-0"
-            title="Tra trực tiếp trên Mazii.net"
-          >
-            <ExternalLink className="w-6 h-6" />
-          </button>
-        </div>
-      </div>
+      )}
     </div>
   );
 };

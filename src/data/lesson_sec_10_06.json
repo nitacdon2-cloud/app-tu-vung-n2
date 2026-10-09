@@ -1,0 +1,43 @@
+{
+  "lesson_id": "sec_10_6",
+  "lesson_name": "Bài 10.6: Phân biệt 内容・中身",
+  "level": "N2",
+  "chapter": 10,
+  "chapter_name": "Phân biệt từ vựng",
+  "section_tag": "10.6",
+  "order": 48,
+  "words": [
+    {
+      "word": "内容",
+      "reading": "ないよう",
+      "han_viet": "NỘI DUNG",
+      "word_type": "Danh từ",
+      "meaning": "Nội dung (cuộc nói chuyện, cuộc họp, bài giảng, sách...)",
+      "sub_section": "10.6 Phân biệt 内容 / 中身",
+      "examples": [
+        {
+          "ja": "この教科書の内容は分かりやすい。",
+          "reading": "このきょうかしょのないようはわかりやすい。",
+          "vi": "Nội dung của quyển sách này dễ hiểu."
+        }
+      ],
+      "id": 1239
+    },
+    {
+      "word": "中身",
+      "reading": "なかみ",
+      "han_viet": "TRUNG THÂN",
+      "word_type": "Danh từ",
+      "meaning": "Nội dung (nội tâm, bên trong, đồ bên trong)",
+      "sub_section": "10.6 Phân biệt 内容 / 中身",
+      "examples": [
+        {
+          "ja": "箱の中身は何ですか。",
+          "reading": "<ctrl42>はこのなかみはなんですか。",
+          "vi": "Bên trong cái hộp là gì vậy?"
+        }
+      ],
+      "id": 1240
+    }
+  ]
+}

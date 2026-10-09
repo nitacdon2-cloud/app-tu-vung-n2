@@ -1,0 +1,346 @@
+{
+  "lesson_id": "sec_6_1",
+  "lesson_name": "Bài 6.1: Phó từ & Liên từ (Phần 1)",
+  "level": "N2",
+  "chapter": 6,
+  "chapter_name": "Phó từ & Liên từ",
+  "section_tag": "6.1",
+  "order": 31,
+  "words": [
+    {
+      "id": 883,
+      "word": "次第に",
+      "reading": "しだいに",
+      "han_viet": "THỨ ĐỆ",
+      "word_type": "Phó từ",
+      "meaning": "Dần dần, từng chút một",
+      "examples": [
+        {
+          "ja": "きた。",
+          "reading": "きた。",
+          "vi": "Dần dần, số người sử dụng tiền điện tử ngày càng nhiều hơn so với tiền mặt."
+        }
+      ]
+    },
+    {
+      "id": 884,
+      "word": "徐々に",
+      "reading": "じょじょに",
+      "han_viet": "TỪ TỪ",
+      "word_type": "Phó từ",
+      "meaning": "Dần dần, từng chút",
+      "examples": [
+        {
+          "ja": "ベトナムに来て3ヶ月が経ち、生活にも徐々に慣れてきた。",
+          "reading": "べとなむにきて3ゖがつがへち、せいかつにもじょじょになれてきた。",
+          "vi": "Đã 3 tháng trôi qua từ khi tới Việt Nam, và cũng dần"
+        }
+      ]
+    },
+    {
+      "id": 885,
+      "word": "ほぼ",
+      "reading": "ほぼ",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Gần như",
+      "examples": [
+        {
+          "ja": "新しいマンションはほぼ完成したようだ。",
+          "reading": "あたらしいまんしょんはほぼかんせいしたようだ。",
+          "vi": "Chung cư mới có vẻ gần như đã hoàn thành."
+        }
+      ]
+    },
+    {
+      "id": 886,
+      "word": "相当",
+      "reading": "そうとう",
+      "han_viet": "TƯƠNG ĐƯƠNG",
+      "word_type": "Phó từ",
+      "meaning": "Khá, tương đối",
+      "examples": [
+        {
+          "ja": "今回彼女に振られたことは彼にとって相当ショックだったようだ。",
+          "reading": "こんかいかのじょにふられたことはかれにとってそうとうしょっくだったようだ。",
+          "vi": "Chuyện bị người yêu bỏ lần này đối với anh ấy có vẻ là một cú sốc tương đối lớn."
+        }
+      ]
+    },
+    {
+      "id": 887,
+      "word": "たちまち",
+      "reading": "たちまち",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Ngay lập tức, đột nhiên",
+      "examples": [
+        {
+          "ja": "あの人に秘密を話すと、たちまち広がってしまいますよ。",
+          "reading": "あのにんにひみつをはなすと、たちまちひろがってしまいますよ。",
+          "vi": "Nếu nói bí mật cho người đó biết, ngay lập tức sẽ lan ra khắp nơi đấy."
+        },
+        {
+          "ja": "女子高生の間でたちまちタピオカが人気になった。",
+          "reading": "じょしこうせいのかんでたちまちたぴおかがにんきになった。",
+          "vi": "Trà sữa trân châu đã ngay lập tức trở nên nổi tiếng"
+        }
+      ]
+    },
+    {
+      "id": 888,
+      "word": "一層",
+      "reading": "いっそう",
+      "han_viet": "NHẤT TẦNG",
+      "word_type": "Phó từ",
+      "meaning": "Hơn hẳn, thêm nữa",
+      "examples": [
+        {
+          "ja": "雷が鳴って、雨が一層強くなってきた。",
+          "reading": "かみなりがなって、あめがいっそうつよくなってきた。",
+          "vi": "Sấm đánh, mưa lại ngày càng lớn thêm."
+        }
+      ]
+    },
+    {
+      "id": 889,
+      "word": "一段と",
+      "reading": "いちだんと",
+      "han_viet": "NHẤT ĐOẠN",
+      "word_type": "Phó từ",
+      "meaning": "Hơn hẳn",
+      "examples": [
+        {
+          "ja": "7月に入って、暑さは一段と厳しくなった。",
+          "reading": "7がつにいっって、あつさはいちだんといかめしくなった。",
+          "vi": "Bước vào tháng 7, cái nóng cũng khắc nghiệt hơn hẳn."
+        }
+      ]
+    },
+    {
+      "id": 890,
+      "word": "より",
+      "reading": "より",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Hơn, thêm nữa",
+      "examples": [
+        {
+          "ja": "今回の合宿で、チームのきずながより深まった。",
+          "reading": "こんかいのがっしゅくで、ちーむのきずながよりふかまった。",
+          "vi": "Qua buổi tập huấn lần này, các thành viên trong đội ngày càng trở nên gắn kết hơn."
+        }
+      ]
+    },
+    {
+      "id": 891,
+      "word": "まもなく",
+      "reading": "まもなく",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Sắp, chẳng bao lâu",
+      "examples": [
+        {
+          "ja": "まもなく電車が参ります。",
+          "reading": "まもなくでんしゃがまいります。",
+          "vi": "Tàu điện sắp tới. 92"
+        }
+      ]
+    },
+    {
+      "id": 892,
+      "word": "そのうち(に)",
+      "reading": "そのうち(に)",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Chẳng mấy chốc",
+      "examples": [
+        {
+          "ja": "虫歯になるよ。",
+          "reading": "むしばになるよ。",
+          "vi": "Cậu cứ ăn toàn bánh kẹo như thế rồi chẳng mấy mà sâu răng đâu."
+        }
+      ]
+    },
+    {
+      "id": 893,
+      "word": "やがて",
+      "reading": "やがて",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Chẳng mấy mà, hầu hết, cuối cùng",
+      "examples": [
+        {
+          "ja": "山を登ると、やがて町の景色が見えてきた。",
+          "reading": "やまをのぼると、やがてまちのけしきがみえてきた。",
+          "vi": "Khi leo lên núi thì có thể nhìn thấy hầu hết khung cảnh của thành phố."
+        }
+      ]
+    },
+    {
+      "id": 894,
+      "word": "今度",
+      "reading": "こんど",
+      "han_viet": "KIM ĐỘ",
+      "word_type": "Phó từ",
+      "meaning": "Lần tới, lần này",
+      "examples": [
+        {
+          "ja": "今度、おいしい鍋を食べに行こうよ。",
+          "reading": "こんど、おいしいなべをたべにいこうよ。",
+          "vi": "Lần tới mình cùng đi ăn các món lẩu ngon nhé."
+        }
+      ]
+    },
+    {
+      "id": 895,
+      "word": "今後",
+      "reading": "こんご",
+      "han_viet": "KIM HẬU",
+      "word_type": "Phó từ",
+      "meaning": "Từ nay về sau, trong tương lai",
+      "examples": [
+        {
+          "ja": "今後のことはまだ決めていないが、とりあえず旅行に行きたい。",
+          "reading": "こんごのことはまだきめていないが、とりあえずりょこうにいきたい。",
+          "vi": "Tôi vẫn chưa quyết định chuyện tương lai, trước mắt"
+        }
+      ]
+    },
+    {
+      "id": 896,
+      "word": "後(に)",
+      "reading": "のち(に)",
+      "han_viet": "HẬU",
+      "word_type": "Phó từ",
+      "meaning": "Sau đó, kể từ đó",
+      "examples": [
+        {
+          "ja": "今日の天気予報は曇りのち晴れだった。",
+          "reading": "きょうのてんきよほうはくもりのちはれだった。",
+          "vi": "Dự báo thời tiết hôm nay trời có mây sau đó nắng."
+        }
+      ]
+    },
+    {
+      "id": 897,
+      "word": "ようやく",
+      "reading": "ようやく",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Cuối cùng",
+      "examples": [
+        {
+          "ja": "10年かかって、ようやく夢が実現した。",
+          "reading": "10ねんかかって、ようやくゆめがじつげんした。",
+          "vi": "Mất 10 năm, cuối cùng ước mơ cũng thành hiện thực."
+        }
+      ]
+    },
+    {
+      "id": 898,
+      "word": "再び",
+      "reading": "ふたたび",
+      "han_viet": "TÁI",
+      "word_type": "Phó từ",
+      "meaning": "Lại, lại một lần nữa",
+      "examples": [
+        {
+          "ja": "あの時の記憶が再び思い出された。",
+          "reading": "あのときのきおくがふたたびおもいだされた。",
+          "vi": "Lại một lần nữa nhớ về kí ức lúc đó."
+        }
+      ]
+    },
+    {
+      "id": 899,
+      "word": "先ほど",
+      "reading": "さきほど",
+      "han_viet": "TIÊN",
+      "word_type": "Phó từ",
+      "meaning": "Vừa mới đây, lúc nãy",
+      "examples": [
+        {
+          "ja": "先ほどお電話した佐藤です。",
+          "reading": "さきほどおでんわしたさとうです。",
+          "vi": "Tôi là Sato, người lúc nãy đã gọi tới."
+        }
+      ]
+    },
+    {
+      "id": 900,
+      "word": "とっくに",
+      "reading": "とっくに",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Lâu rồi, một thời gian trước",
+      "examples": [
+        {
+          "ja": "「けんたさんは？」「もうとっくに帰ったよ」",
+          "reading": "「けんたさんは？」「もうとっくにかえったよ」",
+          "vi": "Anh Kenta đâu ? Anh ấy về lâu rồi."
+        }
+      ]
+    },
+    {
+      "id": 901,
+      "word": "当時",
+      "reading": "とうじ",
+      "han_viet": "ĐƯƠNG THỜI",
+      "word_type": "Phó từ",
+      "meaning": "Lúc đó, khi ấy",
+      "examples": [
+        {
+          "ja": "当時は、お米を買うお金もなかったそうだ。",
+          "reading": "とうじは、おこめをかうおきんもなかったそうだ。",
+          "vi": "Nghe nói lúc đó đến cả tiền mua gạo cũng không có."
+        }
+      ]
+    },
+    {
+      "id": 902,
+      "word": "一時",
+      "reading": "いちじ",
+      "han_viet": "NHẤT THỜI",
+      "word_type": "Phó từ",
+      "meaning": "Giây lát, tạm thời",
+      "examples": [
+        {
+          "ja": "事情により、当店は一時休業いたします。",
+          "reading": "じじょうにより、とうてんはいちじきゅうぎょういたします。",
+          "vi": "Do một số lí do cá nhân nên cửa hàng chúng tôi xin phép tạm thời đóng cửa."
+        }
+      ]
+    },
+    {
+      "id": 903,
+      "word": "いずれ",
+      "reading": "いずれ",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Một lúc nào đó",
+      "examples": [
+        {
+          "ja": "今は親の忠告の意味が分からないだろうが、いずれわかるだろう。",
+          "reading": "いまはおやのちゅうこくのいみがわからないだろうが、いずれわかるだろう。",
+          "vi": "Có lẽ bây giờ vẫn chưa hiểu được những lời cảnh cáo của bố mẹ, nhưng rồi một lúc nào đó chắc sẽ hiểu ra thôi."
+        }
+      ]
+    },
+    {
+      "id": 904,
+      "word": "常に",
+      "reading": "つねに",
+      "han_viet": "THƯỜNG",
+      "word_type": "Phó từ",
+      "meaning": "Luôn luôn, lúc nào cũng",
+      "examples": [
+        {
+          "ja": "村上さんは常に笑顔だ。",
+          "reading": "むらかみさんはつねにえがおだ。",
+          "vi": "Murakami lúc nào cũng tươi cười. 93"
+        }
+      ]
+    }
+  ]
+}

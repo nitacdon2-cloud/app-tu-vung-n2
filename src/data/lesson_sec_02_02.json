@@ -1,0 +1,611 @@
+{
+  "lesson_id": "sec_2_2",
+  "lesson_name": "Bài 2.2: Động danh từ (Phần 2)",
+  "level": "N2",
+  "chapter": 2,
+  "chapter_name": "Động danh từ",
+  "section_tag": "2.2",
+  "order": 13,
+  "words": [
+    {
+      "id": 346,
+      "word": "集中",
+      "reading": "しゅうちゅう",
+      "han_viet": "TẬP TRUNG",
+      "word_type": "Động danh từ",
+      "meaning": "tập trung",
+      "examples": [
+        {
+          "ja": "集中して仕事をする。",
+          "reading": "しゅうちゅうしてしごとをする。",
+          "vi": "Tập trung làm việc."
+        },
+        {
+          "ja": "都会に人が集中している。",
+          "reading": "とかいににんがしゅうちゅうしている。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 347,
+      "word": "乾燥",
+      "reading": "かんそう",
+      "han_viet": "KIỀN TÁO",
+      "word_type": "Động danh từ",
+      "meaning": "sự khô khan, khô hạn",
+      "examples": [
+        {
+          "ja": "肌荒れは、肌の乾燥が原因だった。",
+          "reading": "はだあれれは、はだのかんそうがげんいんだった。",
+          "vi": "Da sần sùi là vì nguyên nhân da bị khô."
+        },
+        {
+          "ja": "空気がすっかり乾燥している。",
+          "reading": "くうきがすっかりかんそうしている。",
+          "vi": "Không khí rất khô hanh."
+        },
+        {
+          "ja": "都内の施設で、ガス漏れによる爆発事故が",
+          "reading": "とないのしせつで、がすもれによるばくはつじこが",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 348,
+      "word": "爆発",
+      "reading": "ばくはつ",
+      "han_viet": "BẠO PHÁT",
+      "word_type": "Động danh từ",
+      "meaning": "nổ, bộc phát",
+      "examples": [
+        {
+          "ja": "起きた。",
+          "reading": "おきた。",
+          "vi": "Tại cơ sở trong thủ đô đã xảy ra một tai nạn nổ do rò rỉ khí ga."
+        },
+        {
+          "ja": "地震の影響で工場が爆発する。",
+          "reading": "じしんのえいきょうでこうじょうがばくはつする。",
+          "vi": "Do ảnh hưởng của động đất mà công trường bị nổ."
+        },
+        {
+          "ja": "彼に対する不満が爆発する。",
+          "reading": "かれにたいするふまんがばくはつする。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "word": "対立",
+      "reading": "たいりつ",
+      "han_viet": "ĐỐI LẬP",
+      "word_type": "Động danh từ",
+      "meaning": "đối lập",
+      "examples": [
+        {
+          "ja": "文化や習慣の違いが、民族間の対立を招いた。",
+          "reading": "ぶんかやしゅうかんのちがいが、みんぞくかんのたいりつをまねいた。",
+          "vi": "Do khác biệt về văn hóa và phong tục nên đã tạo ra xung đột giữa các dân tộc."
+        },
+        {
+          "ja": "意見が対立する。",
+          "reading": "いけんがたいりつする。",
+          "vi": "Ý kiến đối lập."
+        }
+      ]
+    },
+    {
+      "id": 350,
+      "word": "追加",
+      "reading": "ついか",
+      "han_viet": "TRUY GIA",
+      "word_type": "Động danh từ",
+      "meaning": "thêm vào",
+      "examples": [
+        {
+          "ja": "ビールを追加して注文する。",
+          "reading": "びーるをついかしてちゅうもんする。",
+          "vi": "Gọi thêm bia."
+        },
+        {
+          "ja": "追加料金が発生する。",
+          "reading": "ついかりょうきんがはっせいする。",
+          "vi": "Phát sinh thêm tiền phí."
+        }
+      ]
+    },
+    {
+      "id": 351,
+      "word": "延期",
+      "reading": "えんき",
+      "han_viet": "DUYÊN KỲ",
+      "word_type": "Động danh từ",
+      "meaning": "trì hoãn",
+      "examples": [
+        {
+          "ja": "コンサートを延期する。",
+          "reading": "こんさーとをえんきする。",
+          "vi": "Hoãn buổi hòa nhạc."
+        },
+        {
+          "ja": "雨天のため、試合は延期になった。",
+          "reading": "うてんのため、しあいはえんきになった。",
+          "vi": "Do trời mưa nên trận đấu đã bị hoãn."
+        }
+      ]
+    },
+    {
+      "id": 352,
+      "word": "延長",
+      "reading": "えんちょう",
+      "han_viet": "DUYÊN TRƯỜNG",
+      "word_type": "Động danh từ",
+      "meaning": "kéo dài",
+      "examples": [
+        {
+          "ja": "カラオケの利用時間を１時間延長した。",
+          "reading": "からおけのりようじかんを１じかんえんちょうした。",
+          "vi": "Gia hạn giờ hát karaoke thêm một giờ."
+        },
+        {
+          "ja": "コンセントが遠いので、延長コードを買う。",
+          "reading": "こんせんとがとおいので、えんちょうこーどをかう。",
+          "vi": "Vì ổ cắm điện xa nên tôi đã mua dây nối kéo dài. 36"
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "word": "短縮",
+      "reading": "たんしゅく",
+      "han_viet": "ĐOẢN SÚC",
+      "word_type": "Động danh từ",
+      "meaning": "rút ngắn",
+      "examples": [
+        {
+          "ja": "落ちた。",
+          "reading": "おちた。",
+          "vi": "Cùng với việc giờ hoạt động bị rút ngắn, doanh thu cũng đã suy giảm."
+        },
+        {
+          "ja": "営業時間が短縮された。",
+          "reading": "えいぎょうじかんがたんしゅくされた。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "word": "要求",
+      "reading": "ようきゅう",
+      "han_viet": "YẾU CẦU",
+      "word_type": "Động danh từ",
+      "meaning": "yêu cầu",
+      "examples": [
+        {
+          "ja": "取引先が値引きを要求してきた。",
+          "reading": "とりひきさきがねびきをようきゅうしてきた。",
+          "vi": "Đối tác đã yêu cầu giảm giá."
+        },
+        {
+          "ja": "犯人の要求を受け入れる。",
+          "reading": "はんにんのようきゅうをうけいれる。",
+          "vi": "Chấp nhận yêu cầu của phạm nhân."
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "word": "観測",
+      "reading": "かんそく",
+      "han_viet": "QUAN TRẮC",
+      "word_type": "Động danh từ",
+      "meaning": "quan sát, dự đoán, quan trắc",
+      "examples": [
+        {
+          "ja": "富士山の上では、毎日自然現象が観測されている。",
+          "reading": "ふじさんのうえでは、まいにちしぜんげんしょうがかんそくされている。",
+          "vi": "Trên núi Phú Sĩ, các hiện tượng tự nhiên đang được quan trắc mỗi ngày."
+        },
+        {
+          "ja": "父と天体観測をする。",
+          "reading": "ちちとてんたいかんそくをする。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "word": "援助",
+      "reading": "えんじょ",
+      "han_viet": "VIỆN TRỢ",
+      "word_type": "Động danh từ",
+      "meaning": "viện trợ, giúp",
+      "examples": [
+        {
+          "ja": "団体の活動資金を援助する。",
+          "reading": "だんたいのかつどうしきんをえんじょする。",
+          "vi": "Giúp đỡ tiền vốn cho các hoạt động tập thể. đỡ"
+        },
+        {
+          "ja": "親に学費の援助をしてもらう。",
+          "reading": "おやにがくひのえんじょをしてもらう。",
+          "vi": "Được bố mẹ giúp đỡ chi phí học hành."
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "word": "応用",
+      "reading": "おうよう",
+      "han_viet": "ỨNG DỤNG",
+      "word_type": "Động danh từ",
+      "meaning": "ứng dụng",
+      "examples": [
+        {
+          "ja": "元からあった技術を応用して新しい製品を作る。",
+          "reading": "もとからあったぎじゅつをおうようしてあたらしいせいひんをつくる。",
+          "vi": "Ứng dụng kỹ thuật vốn có và làm ra sản phẩm mới."
+        },
+        {
+          "ja": "基本問題ができたら、応用問題を解く。",
+          "reading": "きほんもんだいができたら、おうようもんだいをとく。",
+          "vi": "Sau khi làm được bài tập cơ bản rồi thì chuyển qua"
+        }
+      ]
+    },
+    {
+      "id": 358,
+      "word": "解答",
+      "reading": "かいとう",
+      "han_viet": "GIẢI ĐÁP",
+      "word_type": "Động danh từ",
+      "meaning": "trả lời, đáp án",
+      "examples": [
+        {
+          "ja": "クイズ問題に解答する。",
+          "reading": "くいずもんだいにかいとうする。",
+          "vi": "Trả lời câu đố."
+        },
+        {
+          "ja": "解答用紙に記入する。",
+          "reading": "かいとうようしにきにゅうする。",
+          "vi": "Điền vào phiếu trả lời."
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "word": "主張",
+      "reading": "しゅちょう",
+      "han_viet": "CHỦ TRƯƠNG",
+      "word_type": "Động danh từ",
+      "meaning": "quan điểm, khẳng định",
+      "examples": [
+        {
+          "ja": "彼は自分の主張が通らなくて、怒っている。",
+          "reading": "かれはじぶんのしゅちょうがとうらなくて、いかっている。",
+          "vi": "Anh ta đang nổi cáu vì quan điểm của bản thân không được chấp nhận."
+        },
+        {
+          "ja": "自分の意見を主張する。",
+          "reading": "じぶんのいけんをしゅちょうする。",
+          "vi": "Giữ vững ý kiến của mình."
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "word": "区別",
+      "reading": "くべつ",
+      "han_viet": "KHU BIỆT",
+      "word_type": "Động danh từ",
+      "meaning": "phân biệt",
+      "examples": [
+        {
+          "ja": "生まれたばかりの鳥のオスとメスを区別するのは難しい。",
+          "reading": "うまれたばかりのとりのおすとめすをくべつするのはむずかしい。",
+          "vi": "Khó mà phân biệt được đực cái khi nhìn vào một chú chim sơ sinh. 37"
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "word": "差別",
+      "reading": "さべつ",
+      "han_viet": "SAI BIỆT",
+      "word_type": "Động danh từ",
+      "meaning": "phân biệt đối",
+      "examples": [
+        {
+          "ja": "今では男女差別がなくなっている。",
+          "reading": "いまではだんじょさべつがなくなっている。",
+          "vi": "Bây giờ không còn phân biệt đối xử nam nữ."
+        }
+      ]
+    },
+    {
+      "id": 362,
+      "word": "行動",
+      "reading": "こうどう",
+      "han_viet": "HÀNH ĐỘNG",
+      "word_type": "Động danh từ",
+      "meaning": "hành động",
+      "examples": [
+        {
+          "ja": "一日の行動を日記に記録する。",
+          "reading": "ついたちのこうどうをにっきにきろくする。",
+          "vi": "Ghi lại các hành động trong một ngày vào nhật ký."
+        },
+        {
+          "ja": "彼らはいつも一緒に行動している。",
+          "reading": "かれらはいつもいっしょにこうどうしている。",
+          "vi": "Bọn họ luôn luôn cùng hành động."
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "word": "使用",
+      "reading": "しよう",
+      "han_viet": "SỬ DỤNG",
+      "word_type": "Động danh từ",
+      "meaning": "sử dụng",
+      "examples": [
+        {
+          "ja": "私は台湾製のパソコンを使用している。",
+          "reading": "わたしはたいわんせいのぱそこんをしようしている。",
+          "vi": "Tôi đang sử dụng chiếc máy tính sản xuất tại Đài Loan."
+        },
+        {
+          "ja": "この施設の使用料金を支払う。",
+          "reading": "このしせつのしようりょうきんをしはらう。",
+          "vi": "Thanh toán tiền phí dùng thiết bị này."
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "word": "提出",
+      "reading": "ていしゅつ",
+      "han_viet": "ĐỀ XUẤT",
+      "word_type": "Động danh từ",
+      "meaning": "nộp, trình bày",
+      "examples": [
+        {
+          "ja": "この書類の提出期限は金曜日の午後６時です。",
+          "reading": "このしょるいのていしゅつきげんはきんようびのごご６ときです。",
+          "vi": "Hạn nộp hồ sơ này là 6 giờ chiều ngày thứ 6."
+        },
+        {
+          "ja": "期限内にレポートを提出する。",
+          "reading": "きげんないにれぽーとをていしゅつする。",
+          "vi": "Nộp báo cáo trong thời hạn."
+        }
+      ]
+    },
+    {
+      "id": 365,
+      "word": "撮影",
+      "reading": "さつえい",
+      "han_viet": "TOÁT ẢNH",
+      "word_type": "Động danh từ",
+      "meaning": "quay phim, chụp ảnh",
+      "examples": [
+        {
+          "ja": "海外で映画を撮影する。",
+          "reading": "かいがいでえいがをさつえいする。",
+          "vi": "Quay phim tại nước ngoài."
+        },
+        {
+          "ja": "家族全員で記念撮影をする。",
+          "reading": "かぞくぜんいんできねんさつえいをする。",
+          "vi": "Cả gia đình cùng chụp ảnh kỉ niệm."
+        }
+      ]
+    },
+    {
+      "id": 366,
+      "word": "当選",
+      "reading": "とうせん",
+      "han_viet": "ĐƯƠNG TUYỂN",
+      "word_type": "Động danh từ",
+      "meaning": "trúng cử, trúng giải",
+      "examples": [
+        {
+          "ja": "１等の当選金額は１億円だ。",
+          "reading": "１などのとうせんきんがくは１おくえんだ。",
+          "vi": "Tiền trúng thưởng giải nhất là 100 triệu yên."
+        },
+        {
+          "ja": "この調子だと当選は確実だ。",
+          "reading": "このちょうしだととうせんはかくじつだ。",
+          "vi": "Cứ đà này thì chắc chắn trúng cử."
+        },
+        {
+          "ja": "１等の海外旅行に当選した。",
+          "reading": "１などのかいがいりょこうにとうせんした。",
+          "vi": "Trúng giải nhất là chuyến đi du lịch nước ngoài."
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "word": "抽選",
+      "reading": "ちゅうせん",
+      "han_viet": "TRỪU TUYỂN",
+      "word_type": "Động danh từ",
+      "meaning": "rút thăm",
+      "examples": [
+        {
+          "ja": "応募者の中から抽選して３名にプレゼントを差し上げます。",
+          "reading": "おうぼしゃのなかからちゅうせんして３めいにぷれぜんとをさしあげます。",
+          "vi": "Rút thăm chọn ra 3 người trong số những ứng viên để tặng quà."
+        },
+        {
+          "ja": "近所の抽選会に参加する。",
+          "reading": "きんじょのちゅうせんかいにさんかする。",
+          "vi": "Tham gia buổi lễ rút thăm ở gần nhà. 38"
+        }
+      ]
+    },
+    {
+      "id": 368,
+      "word": "支持",
+      "reading": "しじ",
+      "han_viet": "CHI TRÌ",
+      "word_type": "Động danh từ",
+      "meaning": "ủng hộ",
+      "examples": [
+        {
+          "ja": "私は山田さんを支持します。",
+          "reading": "わたしはやまださんをしじします。",
+          "vi": "Tôi ủng hộ anh Yamada."
+        }
+      ]
+    },
+    {
+      "id": 369,
+      "word": "投票",
+      "reading": "とうひょう",
+      "han_viet": "ĐẦU PHIẾU",
+      "word_type": "Động danh từ",
+      "meaning": "bỏ phiếu",
+      "examples": [
+        {
+          "ja": "投票の結果は今日の夜にわかる。",
+          "reading": "とうひょうのけっかはきょうのよるにわかる。",
+          "vi": "Kết quả bỏ phiếu được biết vào tối hôm nay."
+        },
+        {
+          "ja": "選挙で与党に投票する。",
+          "reading": "せんきょでよとうにとうひょうする。",
+          "vi": "Trong buổi bầu cử tôi đã bỏ phiếu cho đảng cầm quyền."
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "word": "配布",
+      "reading": "はいふ",
+      "han_viet": "PHỐI BỐ",
+      "word_type": "Động danh từ",
+      "meaning": "phân phát",
+      "examples": [
+        {
+          "ja": "書類の配布を忘れないようにしてください。",
+          "reading": "しょるいのはいふをわすれないようにしてください。",
+          "vi": "Cố gắng đừng quên việc phân phát tài liệu nhé."
+        },
+        {
+          "ja": "出席者に資料を配布する。",
+          "reading": "しゅっせきしゃにしりょうをはいふする。",
+          "vi": "Phân phát tài liệu cho những người tham gia."
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "word": "失格",
+      "reading": "しっかく",
+      "han_viet": "THẤT CÁCH",
+      "word_type": "Động danh từ",
+      "meaning": "bị loại, bị tước quyền, mất tư cách",
+      "examples": [
+        {
+          "ja": "試合で反則して、失格してしまった。",
+          "reading": "しあいではんそくして、しっかくしてしまった。",
+          "vi": "Phạm quy trong trận đấu và đã bị loại."
+        },
+        {
+          "ja": "彼は教師として失格だ。",
+          "reading": "かれはきょうしとしてしっかくだ。",
+          "vi": "Anh ta bị mất tư cách giáo viên."
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "word": "体験",
+      "reading": "たいけん",
+      "han_viet": "THỂ NGHIỆM",
+      "word_type": "Động danh từ",
+      "meaning": "trải nghiệm",
+      "examples": [
+        {
+          "ja": "日本には地震を体験できる施設がある。",
+          "reading": "にっぽんにはじしんをたいけんできるしせつがある。",
+          "vi": "Ở Nhật có cơ sở cho phép chúng ta trải nghiệm một trận động đất là thế nào."
+        },
+        {
+          "ja": "体験談を語る。",
+          "reading": "たいけんだんをかたる。",
+          "vi": "Kể về trải nghiệm bản thân."
+        }
+      ]
+    },
+    {
+      "id": 373,
+      "word": "空想",
+      "reading": "くうそう",
+      "han_viet": "KHÔNG TƯỞNG",
+      "word_type": "Động danh từ",
+      "meaning": "mơ mộng, ảo tưởng",
+      "examples": [
+        {
+          "ja": "この小説は空想の世界を描いたものだ。",
+          "reading": "このしょうせつはくうそうのせかいをえがいたものだ。",
+          "vi": "Cuốn tiểu thuyết này đã vẽ ra một thế giới giả tưởng."
+        },
+        {
+          "ja": "アイドルとの交際を空想する。",
+          "reading": "あいどるとのこうさいをくうそうする。",
+          "vi": "Mơ mộng được hẹn hò với Idol."
+        }
+      ]
+    },
+    {
+      "id": 374,
+      "word": "許可",
+      "reading": "きょか",
+      "han_viet": "HỨA KHẢ",
+      "word_type": "Động danh từ",
+      "meaning": "sự cho phép",
+      "examples": [
+        {
+          "ja": "学校の許可がないと、この教室は使えない。",
+          "reading": "がっこうのきょかがないと、このきょうしつはつかえない。",
+          "vi": "Không có sự cho phép của nhà trường thì không được sử dụng phòng học này."
+        },
+        {
+          "ja": "入室を許可します。",
+          "reading": "にゅうしつをきょかします。",
+          "vi": "Cho phép vào phòng."
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "word": "移動",
+      "reading": "いどう",
+      "han_viet": "DI ĐỘNG",
+      "word_type": "Động danh từ",
+      "meaning": "di chuyển",
+      "examples": [
+        {
+          "ja": "車いすの人は、どこへ行くにも移動が困難だ。",
+          "reading": "くるまいすのにんは、どこへいくにもいどうがこんなんだ。",
+          "vi": "Người ngồi xe lăn dù đi đâu cũng gặp khó khăn trong việc di chuyển."
+        },
+        {
+          "ja": "歩いて目的地まで移動する。",
+          "reading": "あるいてもくてきちまでいどうする。",
+          "vi": "Đi bộ đến địa điểm đích. 39"
+        }
+      ]
+    }
+  ]
+}

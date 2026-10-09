@@ -28,6 +28,8 @@ export const LearningModeScreen: React.FC = () => {
   const [questions, setQuestions] = useState<LearningQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
+  const [attemptedIndices, setAttemptedIndices] = useState<number[]>([]);
+  const [hasScoredCurrentQuestion, setHasScoredCurrentQuestion] = useState(false);
   const [isAnswered, setIsAnswered] = useState(false);
   const [score, setScore] = useState({ correct: 0, wrong: 0 });
   const [isFinished, setIsFinished] = useState(false);
@@ -119,6 +121,8 @@ export const LearningModeScreen: React.FC = () => {
     setCurrentIndex(0);
     setScore({ correct: 0, wrong: 0 });
     setSelectedOption(null);
+    setAttemptedIndices([]);
+    setHasScoredCurrentQuestion(false);
     setIsAnswered(false);
     setIsFinished(false);
     setIsQuizStarted(true);
@@ -135,47 +139,54 @@ export const LearningModeScreen: React.FC = () => {
   }, [currentIndex, isQuizStarted]);
 
   const handleSelectOption = (optIndex: number) => {
-    if (isAnswered) return; // SINGLE CHOICE ONLY
+    const chosenWord = currentQ?.options[optIndex];
+    if (!chosenWord) return;
 
     setSelectedOption(optIndex);
     setIsAnswered(true);
+    setAttemptedIndices((prev) => (prev.includes(optIndex) ? prev : [...prev, optIndex]));
 
-    const chosenWord = currentQ.options[optIndex];
     const isCorrect = chosenWord.word === currentQ.word.word;
-
     const wordKey = `${currentQ.lessonId}_${currentQ.word.id}`;
 
-    if (isCorrect) {
-      playFeedbackSound('correct');
-      setScore((prev) => ({ ...prev, correct: prev.correct + 1 }));
+    // Only record score and progress on first attempt for this question
+    if (!hasScoredCurrentQuestion) {
+      setHasScoredCurrentQuestion(true);
+      if (isCorrect) {
+        setScore((prev) => ({ ...prev, correct: prev.correct + 1 }));
 
-      // AUTOMATICALLY MARK WORD AS "ĐÃ NHỚ" (THUỘC) IN USER PROGRESS
-      const currentState = getWordState(userProgress, wordKey);
-      const updatedProgress = {
-        ...userProgress,
-        [wordKey]: {
-          ...currentState,
-          status: 'da_nho' as const,
-          correct_count: (currentState.correct_count || 0) + 1,
-          review_count: (currentState.review_count || 0) + 1,
-        },
-      };
-      setUserProgress(updatedProgress);
-      saveProgress(updatedProgress);
-    } else {
-      playFeedbackSound('wrong');
-      setScore((prev) => ({ ...prev, wrong: prev.wrong + 1 }));
+        // AUTOMATICALLY MARK WORD AS "ĐÃ NHỚ" (THUỘC) IN USER PROGRESS
+        const currentState = getWordState(userProgress, wordKey);
+        const updatedProgress = {
+          ...userProgress,
+          [wordKey]: {
+            ...currentState,
+            status: 'da_nho' as const,
+            correct_count: (currentState.correct_count || 0) + 1,
+            review_count: (currentState.review_count || 0) + 1,
+          },
+        };
+        setUserProgress(updatedProgress);
+        saveProgress(updatedProgress);
+      } else {
+        setScore((prev) => ({ ...prev, wrong: prev.wrong + 1 }));
 
-      const updatedProgress = recordTestAnswer(userProgress, wordKey, false);
-      setUserProgress(updatedProgress);
-      saveProgress(updatedProgress);
+        const updatedProgress = recordTestAnswer(userProgress, wordKey, false);
+        setUserProgress(updatedProgress);
+        saveProgress(updatedProgress);
+      }
     }
+
+    playFeedbackSound(isCorrect ? 'correct' : 'wrong');
+    speakJapanese(chosenWord.word);
   };
 
   const handleNextQuestion = () => {
     if (currentIndex + 1 < questions.length) {
       setCurrentIndex(currentIndex + 1);
       setSelectedOption(null);
+      setAttemptedIndices([]);
+      setHasScoredCurrentQuestion(false);
       setIsAnswered(false);
     } else {
       setIsFinished(true);
@@ -402,20 +413,19 @@ export const LearningModeScreen: React.FC = () => {
         {currentQ.options.map((opt, idx) => {
           const isSelected = selectedOption === idx;
           const isOptionCorrect = opt.word === currentQ.word.word;
+          const isAttempted = attemptedIndices.includes(idx);
 
           let btnStyle = 'bg-white border-gray-200 hover:border-blue-400 text-gray-800 shadow-sm';
 
-          if (isAnswered) {
-            if (isSelected) {
-              if (isOptionCorrect) {
-                btnStyle = 'bg-emerald-500 border-emerald-600 text-white font-black shadow-lg ring-2 ring-emerald-400';
-              } else {
-                btnStyle = 'bg-rose-500 border-rose-600 text-white font-black shadow-lg ring-2 ring-rose-400';
-              }
-            } else if (isOptionCorrect) {
-              btnStyle = 'bg-emerald-50 border-emerald-400 text-emerald-900 font-bold';
+          if (isAttempted) {
+            if (isOptionCorrect) {
+              btnStyle = isSelected
+                ? 'bg-emerald-500 border-emerald-600 text-white font-black shadow-lg ring-2 ring-emerald-400'
+                : 'bg-emerald-50 border-emerald-400 text-emerald-900 font-bold';
             } else {
-              btnStyle = 'bg-gray-50 border-gray-200 text-gray-400 opacity-50';
+              btnStyle = isSelected
+                ? 'bg-rose-500 border-rose-600 text-white font-black shadow-lg ring-2 ring-rose-400'
+                : 'bg-rose-50 border-rose-300 text-rose-700 font-semibold';
             }
           }
 
@@ -425,14 +435,13 @@ export const LearningModeScreen: React.FC = () => {
           return (
             <button
               key={idx}
-              disabled={isAnswered}
               onClick={() => handleSelectOption(idx)}
-              className={`p-4 rounded-2xl border-2 text-left text-sm sm:text-base font-bold transition-all duration-150 flex items-center justify-between gap-3 ${btnStyle} ${
+              className={`p-4 rounded-2xl border-2 text-left text-sm sm:text-base font-bold transition-all duration-150 flex items-center justify-between gap-3 cursor-pointer ${btnStyle} ${
                 (currentQ.qType === 'meaning_to_word' || currentQ.qType === 'fill_in_blank') ? 'font-japanese' : ''
               }`}
             >
               <span className="line-clamp-2">{displayText}</span>
-              {isAnswered && isOptionCorrect && (
+              {isAttempted && isOptionCorrect && (
                 <CheckCircle2 className={`w-5 h-5 flex-shrink-0 ${isSelected ? 'text-white' : 'text-emerald-600'}`} />
               )}
             </button>
@@ -440,8 +449,8 @@ export const LearningModeScreen: React.FC = () => {
         })}
       </div>
 
-      {/* ANSWER EXPLANATION CARD (EXACTLY AS SHOWN IN SCREENSHOT 2) */}
-      {isAnswered && (
+      {/* ANSWER EXPLANATION CARD (Shows details of chosenOptionWord whether right or wrong!) */}
+      {chosenOptionWord && (
         <div className="space-y-4 animate-in fade-in zoom-in-95 duration-200">
           <div
             className={`p-5 rounded-2xl border text-left space-y-2.5 shadow-md ${
@@ -461,23 +470,32 @@ export const LearningModeScreen: React.FC = () => {
                   <div className="w-6 h-6 rounded-full bg-rose-600 text-white flex items-center justify-center font-bold text-xs">
                     ✕
                   </div>
-                  <span>Không Chính Xác</span>
+                  <div>
+                    <span>Không Chính Xác</span>
+                    <span className="block text-xs font-bold text-gray-700">
+                      Đáp án đúng:{' '}
+                      <b className="text-emerald-700 font-japanese font-black">
+                        {currentQ.word.word}
+                        {currentQ.word.reading ? ` (${currentQ.word.reading})` : ''} - {currentQ.word.meaning}
+                      </b>
+                    </span>
+                  </div>
                 </div>
               )}
 
-              {/* Action Buttons: Tra Mazii & Audio (Exact icon style from Screenshot 2) */}
+              {/* Action Buttons: Tra Mazii & Audio for chosenOptionWord */}
               <div className="flex items-center gap-2">
                 <button
-                  onClick={() => setMaziiQuery(currentQ.word.word)}
-                  className="p-1.5 bg-white text-gray-700 hover:text-primary rounded-xl border border-gray-200 shadow-sm transition flex items-center gap-1 px-2.5 text-xs font-bold"
+                  onClick={() => setMaziiQuery(chosenOptionWord.word)}
+                  className="p-1.5 bg-white text-gray-700 hover:text-primary rounded-xl border border-gray-200 shadow-sm transition flex items-center gap-1 px-2.5 text-xs font-bold cursor-pointer"
                   title="Tra từ Mazii"
                 >
                   <User className="w-4 h-4 text-primary" />
                   <span>i</span>
                 </button>
                 <button
-                  onClick={() => speakJapanese(currentQ.word.word)}
-                  className="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl shadow-sm transition active:scale-95"
+                  onClick={() => speakJapanese(chosenOptionWord.word)}
+                  className="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl shadow-sm transition active:scale-95 cursor-pointer"
                   title="Nghe phát âm"
                 >
                   <Volume2 className="w-4 h-4" />
@@ -485,18 +503,25 @@ export const LearningModeScreen: React.FC = () => {
               </div>
             </div>
 
-            {/* Vocabulary Explanation Lines */}
+            {/* Vocabulary Explanation Lines for chosenOptionWord */}
             <div className="space-y-0.5 pt-1 font-japanese">
-              <div className="text-xl font-black text-gray-900">
-                {currentQ.word.word}
+              <div className="flex items-baseline gap-2 flex-wrap">
+                <span className="text-xl font-black text-gray-900">
+                  {chosenOptionWord.word}
+                </span>
+                {chosenOptionWord.reading && (
+                  <span className="text-sm font-semibold text-gray-600">
+                    「{chosenOptionWord.reading}」
+                  </span>
+                )}
+                {chosenOptionWord.han_viet && (
+                  <span className="px-2 py-0.5 bg-amber-100 text-amber-900 font-black text-[10px] rounded uppercase font-sans">
+                    [{chosenOptionWord.han_viet}]
+                  </span>
+                )}
               </div>
-              {currentQ.word.reading && (
-                <div className="text-sm font-semibold text-gray-600">
-                  {currentQ.word.reading}
-                </div>
-              )}
               <div className="text-sm font-bold text-gray-800 font-sans pt-0.5">
-                {currentQ.word.meaning}
+                {chosenOptionWord.meaning}
               </div>
             </div>
           </div>
@@ -504,7 +529,7 @@ export const LearningModeScreen: React.FC = () => {
           {/* CÂU TIẾP BUTTON */}
           <button
             onClick={handleNextQuestion}
-            className="w-full py-4 bg-primary hover:bg-blue-600 text-white rounded-2xl font-black text-base shadow-xl shadow-blue-500/30 transition active:scale-[0.98]"
+            className="w-full py-4 bg-primary hover:bg-blue-600 text-white rounded-2xl font-black text-base shadow-xl shadow-blue-500/30 transition active:scale-[0.98] cursor-pointer"
           >
             CÂU TIẾP ➔
           </button>

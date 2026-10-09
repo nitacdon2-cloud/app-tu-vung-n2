@@ -15,11 +15,18 @@ export const getAllLessons = (): Lesson[] => {
     }
   }
 
-  // Sort lessons by number extracted from lesson_id or lesson_name
+  // Sort lessons cleanly by order or chapter and section numbers
   lessons.sort((a, b) => {
-    const numA = parseInt(a.lesson_id.replace(/\D/g, ''), 10) || 0;
-    const numB = parseInt(b.lesson_id.replace(/\D/g, ''), 10) || 0;
-    return numA - numB;
+    if (a.order !== undefined && b.order !== undefined) {
+      return a.order - b.order;
+    }
+    const partsA = a.lesson_id.match(/\d+/g)?.map(Number) || [0];
+    const partsB = b.lesson_id.match(/\d+/g)?.map(Number) || [0];
+    for (let i = 0; i < Math.max(partsA.length, partsB.length); i++) {
+      const diff = (partsA[i] || 0) - (partsB[i] || 0);
+      if (diff !== 0) return diff;
+    }
+    return 0;
   });
 
   return lessons;

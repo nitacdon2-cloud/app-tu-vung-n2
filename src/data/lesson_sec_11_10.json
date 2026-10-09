@@ -1,0 +1,395 @@
+{
+  "lesson_id": "sec_11_10",
+  "lesson_name": "Bài 11.10: Hậu tố (金・代・料・賃)",
+  "level": "N2",
+  "chapter": 11,
+  "chapter_name": "Tiền tố - Hậu tố",
+  "section_tag": "11.10",
+  "order": 61,
+  "words": [
+    {
+      "word": "〜金",
+      "reading": "〜きん",
+      "han_viet": "KIM",
+      "word_type": "HẬU TỐ",
+      "meaning": "〜 KIM (Tiền)",
+      "grammar_equiv": "〜お金",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1359
+    },
+    {
+      "word": "入学金",
+      "reading": "にゅうがくきん",
+      "han_viet": "NHẬP HỌC KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Phí nhập học",
+      "examples": [
+        {
+          "ja": "入学金を払う",
+          "reading": "にゅうがくきんをはらう",
+          "vi": "Nộp phí nhập học"
+        }
+      ],
+      "parent_prefix": "〜金",
+      "is_parent_header": false,
+      "id": 1360
+    },
+    {
+      "word": "税金",
+      "reading": "ぜいきん",
+      "han_viet": "THUẾ KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền thuế",
+      "examples": [
+        {
+          "ja": "税金を納める",
+          "reading": "ぜいきんをおさめる",
+          "vi": "Nộp thuế"
+        }
+      ],
+      "parent_prefix": "〜金",
+      "is_parent_header": false,
+      "id": 1361
+    },
+    {
+      "word": "年金",
+      "reading": "ねんきん",
+      "han_viet": "NIÊN KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền lương hưu",
+      "examples": [
+        {
+          "ja": "年金をもらう",
+          "reading": "ねんきんをもらう",
+          "vi": "Nhận tiền lương hưu"
+        }
+      ],
+      "parent_prefix": "〜金",
+      "is_parent_header": false,
+      "id": 1362
+    },
+    {
+      "word": "奨学金",
+      "reading": "しょうがくきん",
+      "han_viet": "TƯỞNG HỌC KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền học bổng",
+      "examples": [
+        {
+          "ja": "奨学金を受ける",
+          "reading": "しょうがくきんをうける",
+          "vi": "Nhận học bổng"
+        }
+      ],
+      "parent_prefix": "〜金",
+      "is_parent_header": false,
+      "id": 1363
+    },
+    {
+      "word": "保証金",
+      "reading": "ほしょうきん",
+      "han_viet": "BẢO CHỨNG KIM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền bảo hiểm, đặt cọc",
+      "examples": [
+        {
+          "ja": "保証金を納める",
+          "reading": "ほしょうきんをおさめる",
+          "vi": "Đặt cọc tiền bảo đảm"
+        }
+      ],
+      "parent_prefix": "〜金",
+      "is_parent_header": false,
+      "id": 1364
+    },
+    {
+      "word": "〜料",
+      "reading": "〜りょう",
+      "han_viet": "LIỆU",
+      "word_type": "HẬU TỐ",
+      "meaning": "〜 LIỆU (Tiền phí)",
+      "grammar_equiv": "〜料金",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1365
+    },
+    {
+      "word": "授業料",
+      "reading": "じゅぎょうりょう",
+      "han_viet": "THỤ NGHIỆP LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền học phí",
+      "examples": [
+        {
+          "ja": "授業料を納める",
+          "reading": "じゅぎょうりょうをおさめる",
+          "vi": "Đóng học phí"
+        }
+      ],
+      "parent_prefix": "〜料",
+      "is_parent_header": false,
+      "id": 1366
+    },
+    {
+      "word": "入場料",
+      "reading": "にゅうじょうりょう",
+      "han_viet": "NHẬP TRƯỜNG LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí vào cửa",
+      "examples": [
+        {
+          "ja": "入場料は無料だ",
+          "reading": "にゅうじょうりょうはむりょうだ",
+          "vi": "Phí vào cửa miễn phí"
+        }
+      ],
+      "parent_prefix": "〜料",
+      "is_parent_header": false,
+      "id": 1367
+    },
+    {
+      "word": "保険料",
+      "reading": "ほけんりょう",
+      "han_viet": "BẢO HIỂM LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí bảo hiểm",
+      "examples": [
+        {
+          "ja": "保険料を支払う",
+          "reading": "ほけんりょうにしはらう",
+          "vi": "Đóng phí bảo hiểm"
+        }
+      ],
+      "parent_prefix": "〜料",
+      "is_parent_header": false,
+      "id": 1368
+    },
+    {
+      "word": "使用料",
+      "reading": "しようりょう",
+      "han_viet": "SỬ DỤNG LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí sử dụng",
+      "examples": [
+        {
+          "ja": "施設の使用料",
+          "reading": "しせつのしようりょう",
+          "vi": "Phí sử dụng cơ sở vật chất"
+        }
+      ],
+      "parent_prefix": "〜料",
+      "is_parent_header": false,
+      "id": 1369
+    },
+    {
+      "word": "バイト料",
+      "reading": "ばいとりょう",
+      "han_viet": "LIỆU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền làm thêm",
+      "examples": [
+        {
+          "ja": "バイト料をもらう",
+          "reading": "ばいとりょうをもらう",
+          "vi": "Nhận tiền lương làm thêm"
+        }
+      ],
+      "parent_prefix": "〜料",
+      "is_parent_header": false,
+      "id": 1370
+    },
+    {
+      "word": "〜代",
+      "reading": "〜だい",
+      "han_viet": "ĐẠI",
+      "word_type": "HẬU TỐ",
+      "meaning": "〜 ĐẠI (Tiền)",
+      "grammar_equiv": "〜代金",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1371
+    },
+    {
+      "word": "電気代",
+      "reading": "でんきだい",
+      "han_viet": "ĐIỆN KHÍ ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền điện",
+      "examples": [
+        {
+          "ja": "電気代が高くなる",
+          "reading": "でんきだいがたかくなる",
+          "vi": "Tiền điện trở nên tăng cao"
+        }
+      ],
+      "parent_prefix": "〜代",
+      "is_parent_header": false,
+      "id": 1372
+    },
+    {
+      "word": "ガソリン代",
+      "reading": "がそりんだい",
+      "han_viet": "ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền xăng xe",
+      "examples": [
+        {
+          "ja": "ガソリン代がかかる",
+          "reading": "がそりんだいがかかる",
+          "vi": "Tốn tiền xăng xe"
+        }
+      ],
+      "parent_prefix": "〜代",
+      "is_parent_header": false,
+      "id": 1373
+    },
+    {
+      "word": "修理代",
+      "reading": "しゅうりだい",
+      "han_viet": "TU LÝ ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền sửa chữa",
+      "examples": [
+        {
+          "ja": "修理代を払う",
+          "reading": "しゅうりだいをはらう",
+          "vi": "Thanh toán tiền sửa chữa"
+        }
+      ],
+      "parent_prefix": "〜代",
+      "is_parent_header": false,
+      "id": 1374
+    },
+    {
+      "word": "飲み代",
+      "reading": "のみだい",
+      "han_viet": "ẨM ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền uống rượu",
+      "examples": [
+        {
+          "ja": "飲み代を割り勘にする",
+          "reading": "のみだいをわりかんにする",
+          "vi": "Chia đều tiền uống rượu"
+        }
+      ],
+      "parent_prefix": "〜代",
+      "is_parent_header": false,
+      "id": 1375
+    },
+    {
+      "word": "バイト代",
+      "reading": "ばいとだい",
+      "han_viet": "ĐẠI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền làm thêm",
+      "examples": [
+        {
+          "ja": "バイト代が入る",
+          "reading": "ばいとだいが入る",
+          "vi": "Nhận tiền lương làm thêm"
+        }
+      ],
+      "parent_prefix": "〜代",
+      "is_parent_header": false,
+      "id": 1376
+    },
+    {
+      "word": "〜賃",
+      "reading": "〜ちん",
+      "han_viet": "NHẪM",
+      "word_type": "HẬU TỐ",
+      "meaning": "〜 NHẪM (Tiền cước, thuê)",
+      "grammar_equiv": "〜賃金",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1377
+    },
+    {
+      "word": "運賃",
+      "reading": "うんちん",
+      "han_viet": "VẬN NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí vận chuyển",
+      "examples": [
+        {
+          "ja": "電車運賃",
+          "reading": "でんしゃうんちん",
+          "vi": "Tiền vé tàu điện"
+        }
+      ],
+      "parent_prefix": "〜賃",
+      "is_parent_header": false,
+      "id": 1378
+    },
+    {
+      "word": "乗車賃",
+      "reading": "じょうしゃちん",
+      "han_viet": "THỪA XA NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí lên xe",
+      "examples": [
+        {
+          "ja": "乗車賃を払う",
+          "reading": "じょうしゃちんをはらう",
+          "vi": "Trả phí đi xe"
+        }
+      ],
+      "parent_prefix": "〜賃",
+      "is_parent_header": false,
+      "id": 1379
+    },
+    {
+      "word": "家賃",
+      "reading": "やちん",
+      "han_viet": "GIA NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền thuê nhà",
+      "examples": [
+        {
+          "ja": "家賃を納める",
+          "reading": "やちんをおさめる",
+          "vi": "Trả tiền thuê nhà"
+        }
+      ],
+      "parent_prefix": "〜賃",
+      "is_parent_header": false,
+      "id": 1380
+    },
+    {
+      "word": "借り賃",
+      "reading": "かりちん",
+      "han_viet": "TÁ NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền thuê",
+      "examples": [
+        {
+          "ja": "貸し借り賃",
+          "reading": "かしかりちん",
+          "vi": "Tiền phí thuê mượn"
+        }
+      ],
+      "parent_prefix": "〜賃",
+      "is_parent_header": false,
+      "id": 1381
+    },
+    {
+      "word": "手間賃",
+      "reading": "てまちん",
+      "han_viet": "THỦ GIAN NHẪM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tiền phí nhân công",
+      "examples": [
+        {
+          "ja": "手間賃をもらう",
+          "reading": "てまちんをもらう",
+          "vi": "Nhận tiền phí công sức"
+        }
+      ],
+      "parent_prefix": "〜賃",
+      "is_parent_header": false,
+      "id": 1382
+    }
+  ]
+}

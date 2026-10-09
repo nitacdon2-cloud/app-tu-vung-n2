@@ -1,0 +1,506 @@
+{
+  "lesson_id": "sec_3_10",
+  "lesson_name": "Bài 3.10: Danh từ (Phần 10)",
+  "level": "N2",
+  "chapter": 3,
+  "chapter_name": "Danh từ",
+  "section_tag": "3.10",
+  "order": 26,
+  "words": [
+    {
+      "id": 732,
+      "word": "対策",
+      "reading": "たいさく",
+      "han_viet": "ĐỐI SÁCH",
+      "word_type": "Danh từ",
+      "meaning": "Đối sách, biện pháp đối phó",
+      "examples": [
+        {
+          "ja": "事故の再発を防止する対策を考える。",
+          "reading": "じこのさいはつをぼうしするたいさくをかんがえる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 733,
+      "word": "宝くじ",
+      "reading": "たからくじ",
+      "han_viet": "BẢO",
+      "word_type": "Danh từ",
+      "meaning": "Xổ số",
+      "examples": [
+        {
+          "ja": "毎月10枚ずつ、宝くじを買う。",
+          "reading": "まいつき10まいずつ、たからくじをかう。",
+          "vi": "Mỗi tháng mua 10 vé sổ xố."
+        }
+      ]
+    },
+    {
+      "id": 734,
+      "word": "心当たり",
+      "reading": "こころあたり",
+      "han_viet": "TÂM ĐƯƠNG",
+      "word_type": "Danh từ",
+      "meaning": "Chút kí ức về",
+      "examples": [
+        {
+          "ja": "メガネをどこに置いたか、全然、心当たりがない。",
+          "reading": "めがねをどこにおいたか、ぜんぜん、こころあたりがない。",
+          "vi": "Hoàn toàn không có chút kí ức gì về việc đã để cái kính của mình ở đâu."
+        }
+      ]
+    },
+    {
+      "id": 735,
+      "word": "行き帰り",
+      "reading": "ゆきかえり",
+      "han_viet": "HÀNH QUY",
+      "word_type": "Danh từ",
+      "meaning": "Đi lẫn về",
+      "examples": [
+        {
+          "ja": "子供と散歩するときは、行き帰りで違う道を通る。",
+          "reading": "こどもとさんぽするときは、いきかえりでちがうみちをとうる。",
+          "vi": "Khi đi bộ cùng con, chúng tôi lúc đi đi một đường mà lúc về lại đi một đường khác."
+        }
+      ]
+    },
+    {
+      "id": 736,
+      "word": "念のため",
+      "reading": "ねんのため",
+      "han_viet": "NIỆM",
+      "word_type": "Danh từ",
+      "meaning": "Để chắc chắn",
+      "examples": [
+        {
+          "ja": "念のため、同じ書類を2枚用意する。",
+          "reading": "ねんのため、おなじしょるいを2まいよういする。",
+          "vi": "Chuẩn bị 2 bản của cùng một tài liệu cho chắc."
+        }
+      ]
+    },
+    {
+      "id": 737,
+      "word": "寝つき",
+      "reading": "ねつき",
+      "han_viet": "TẨM",
+      "word_type": "Danh từ",
+      "meaning": "Đi vào giấc ngủ",
+      "examples": [
+        {
+          "ja": "寝つきが悪く、布団に入ってもなかなか眠ることができない。",
+          "reading": "ねつきがわるく、ふとんにいっってもなかなかねむることができない。",
+          "vi": "Bị khó ngủ nên dù có nằm xuống đệm cũng mãi mà không thể ngủ được."
+        }
+      ]
+    },
+    {
+      "id": 738,
+      "word": "温もり",
+      "reading": "ぬくもり",
+      "han_viet": "ÔN",
+      "word_type": "Danh từ",
+      "meaning": "Ấm áp",
+      "examples": [
+        {
+          "ja": "一緒に寝ていると、妻の温もりを感じて幸福だ。",
+          "reading": "いっしょにねていると、つまのあたたもりをかんじてこうふくだ。",
+          "vi": "Mỗi khi ngủ cùng đều cảm nhận được sự ấm áp của vợ và cảm thấy hạnh phúc."
+        }
+      ]
+    },
+    {
+      "id": 739,
+      "word": "能率",
+      "reading": "のうりつ",
+      "han_viet": "NĂNG SUẤT",
+      "word_type": "Danh từ",
+      "meaning": "Hiệu quả, năng suất",
+      "examples": [
+        {
+          "ja": "作業の能率を上げる。",
+          "reading": "さぎょうののうりつをあげる。",
+          "vi": "Nâng cao năng suất làm việc."
+        }
+      ]
+    },
+    {
+      "id": 740,
+      "word": "性能",
+      "reading": "せいのう",
+      "han_viet": "TÍNH NĂNG",
+      "word_type": "Danh từ",
+      "meaning": "Tính năng, hiệu suất",
+      "examples": [
+        {
+          "ja": "このパソコンの性能はいい。",
+          "reading": "このぱそこんのせいのうはいい。",
+          "vi": "Tính năng của máy tính này tốt."
+        }
+      ]
+    },
+    {
+      "id": 741,
+      "word": "誇り",
+      "reading": "ほこり",
+      "han_viet": "KHOA",
+      "word_type": "Danh từ",
+      "meaning": "Niềm tự hào",
+      "examples": [
+        {
+          "ja": "農家として、誇りをもって野菜をつくっている。",
+          "reading": "のうかとして、ほこりをもってやさいをつくっている。",
+          "vi": "Trồng rau với niềm tự hào của một người làm nghề nông. 78"
+        }
+      ]
+    },
+    {
+      "id": 742,
+      "word": "手間",
+      "reading": "てま",
+      "han_viet": "THỦ GIAN",
+      "word_type": "Danh từ",
+      "meaning": "Thời gian, công sức",
+      "examples": [
+        {
+          "ja": "料理を作るのは手間がかかる。",
+          "reading": "りょうりをつくるのはてまがかかる。",
+          "vi": "Việc nấu ăn rất tốn thời gian, công sức."
+        }
+      ]
+    },
+    {
+      "id": 743,
+      "word": "でこぼこ",
+      "reading": "でこぼこ",
+      "han_viet": "",
+      "word_type": "Danh từ",
+      "meaning": "Lồi lõm",
+      "examples": [
+        {
+          "ja": "石や木の枝がたくさん落ちているでこぼこ道。",
+          "reading": "いしやきのえだがたくさんおちているでこぼこみち。",
+          "vi": "Con đường mấp mô với nhiều đá và cành cây rơi xuống đường."
+        }
+      ]
+    },
+    {
+      "id": 744,
+      "word": "傾向",
+      "reading": "けいこう",
+      "han_viet": "KHUYNH HƯỚNG",
+      "word_type": "Danh từ",
+      "meaning": "Khuynh hướng",
+      "examples": [
+        {
+          "ja": "田舎の人は早く結婚する傾向がある。",
+          "reading": "いなかのにんははやくけっこんするけいこうがある。",
+          "vi": "Người ở quê thường có xu hướng kết hôn sớm."
+        }
+      ]
+    },
+    {
+      "id": 745,
+      "word": "方針",
+      "reading": "ほうしん",
+      "han_viet": "PHƯƠNG CHÂM",
+      "word_type": "Danh từ",
+      "meaning": "Phương châm, chính sách",
+      "examples": [
+        {
+          "ja": "経営方針を決める。",
+          "reading": "けいえいほうしんをきめる。",
+          "vi": "Quyết định phương châm kinh doanh."
+        }
+      ]
+    },
+    {
+      "id": 746,
+      "word": "制度",
+      "reading": "せいど",
+      "han_viet": "CHẾ ĐỘ",
+      "word_type": "Danh từ",
+      "meaning": "Chế độ, hệ thống",
+      "examples": [
+        {
+          "ja": "教育制度を改める。",
+          "reading": "きょういくせいどをあらためる。",
+          "vi": "Cải cách hệ thống giáo dục."
+        }
+      ]
+    },
+    {
+      "id": 747,
+      "word": "状況",
+      "reading": "じょうきょう",
+      "han_viet": "TRẠNG HUỐNG",
+      "word_type": "Danh từ",
+      "meaning": "Trạng thái, tình trạng, tình hình",
+      "examples": [
+        {
+          "ja": "その場の状況を見きわめる。",
+          "reading": "そのばのじょうきょうをみきわめる。",
+          "vi": "Nhìn nhận thấu suốt tình hình lúc đó."
+        }
+      ]
+    },
+    {
+      "id": 748,
+      "word": "形式",
+      "reading": "けいしき",
+      "han_viet": "HÌNH THỨC",
+      "word_type": "Danh từ",
+      "meaning": "Hình thức, định dạng",
+      "examples": [
+        {
+          "ja": "ベトナム語で手紙を書きたいが、形式が分からない。",
+          "reading": "べとなむごでてがみをかきたいが、けいしきがわからない。",
+          "vi": "Tôi muốn viết một bức thư bằng tiếng Việt, nhưng lại không rõ hình thức."
+        }
+      ]
+    },
+    {
+      "id": 749,
+      "word": "頂点",
+      "reading": "ちょうてん",
+      "han_viet": "ĐÍNH ĐIỂM",
+      "word_type": "Danh từ",
+      "meaning": "Đỉnh, điểm, đứng đầu, đứng top",
+      "examples": [
+        {
+          "ja": "彼はスポーツ界の頂点にいる。",
+          "reading": "かれはすぽーつかいのちょうてんにいる。",
+          "vi": "Anh ta đứng đầu trong giới thể thao."
+        }
+      ]
+    },
+    {
+      "id": 750,
+      "word": "予備",
+      "reading": "よび",
+      "han_viet": "DỰ BỊ",
+      "word_type": "Danh từ",
+      "meaning": "Dự bị, dự trữ",
+      "examples": [
+        {
+          "ja": "停電に備えて予備電力を準備する。",
+          "reading": "ていでんにそなえてよびでんりょくをじゅんびする。",
+          "vi": "Chuẩn bị điện dự trữ đề phòng trường hợp mất điện."
+        }
+      ]
+    },
+    {
+      "id": 751,
+      "word": "物資",
+      "reading": "ぶっし",
+      "han_viet": "VẬT TƯ",
+      "word_type": "Danh từ",
+      "meaning": "Vật tư",
+      "examples": [
+        {
+          "ja": "被災地への物資が不足する。",
+          "reading": "ひさいちへのぶっしがふそくする。",
+          "vi": "Đồ cứu tế gửi tới vùng bị hại không đủ."
+        }
+      ]
+    },
+    {
+      "id": 752,
+      "word": "用途",
+      "reading": "ようと",
+      "han_viet": "DỤNG ĐỒ",
+      "word_type": "Danh từ",
+      "meaning": "Công dụng, tiện ích, hữu dụng",
+      "examples": [
+        {
+          "ja": "ホームセンターには用途が分からない物が売られている。",
+          "reading": "ほーむせんたーにはようとがわからないものがうられている。",
+          "vi": "Ở trung tâm bán đồ gia dụng (home center) có bán những thứ mà không rõ công dụng."
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "word": "分野",
+      "reading": "ぶんや",
+      "han_viet": "PHÂN DÃ",
+      "word_type": "Danh từ",
+      "meaning": "Lĩnh vực",
+      "examples": [
+        {
+          "ja": "私の得意分野は数学だ。",
+          "reading": "わたしのとくいぶんやはすうがくだ。",
+          "vi": "Lĩnh vực sở trường của tôi là số học."
+        }
+      ]
+    },
+    {
+      "id": 754,
+      "word": "需要",
+      "reading": "じゅよう",
+      "han_viet": "NHU YẾU",
+      "word_type": "Danh từ",
+      "meaning": "Nhu cầu",
+      "examples": [
+        {
+          "ja": "医者の需要が高まってきている。",
+          "reading": "いしゃのじゅようがたかまってきている。",
+          "vi": "Nhu cầu về y bác sĩ ngày càng tăng lên."
+        }
+      ]
+    },
+    {
+      "id": 755,
+      "word": "周辺",
+      "reading": "しゅうへん",
+      "han_viet": "CHU BIÊN",
+      "word_type": "Danh từ",
+      "meaning": "Xung quanh",
+      "examples": [
+        {
+          "ja": "家の周辺で散歩をする。",
+          "reading": "いえのしゅうへんでさんぽをする。",
+          "vi": "Đi dạo xung quanh nhà."
+        }
+      ]
+    },
+    {
+      "id": 756,
+      "word": "現場",
+      "reading": "げんば",
+      "han_viet": "HIỆN TRƯỜNG",
+      "word_type": "Danh từ",
+      "meaning": "Hiện trường, công trường",
+      "examples": [
+        {
+          "ja": "工事現場は立ち入り禁止だ。",
+          "reading": "こうじげんばはたちいりきんしだ。",
+          "vi": "Cấm đi vào công trường. 79"
+        }
+      ]
+    },
+    {
+      "id": 757,
+      "word": "行方",
+      "reading": "ゆくえ",
+      "han_viet": "HÀNH PHƯƠNG",
+      "word_type": "Danh từ",
+      "meaning": "Tung tích, nơi",
+      "examples": [
+        {
+          "ja": "ペットの行方が分からない。",
+          "reading": "ぺっとのなめがたがわからない。",
+          "vi": "ở Không rõ tung tích của thú cưng."
+        }
+      ]
+    },
+    {
+      "id": 758,
+      "word": "欠陥",
+      "reading": "けっかん",
+      "han_viet": "KHIẾM HÃM",
+      "word_type": "Danh từ",
+      "meaning": "Khuyết điểm, hỏng",
+      "examples": [
+        {
+          "ja": "商品に欠陥が見つかった。",
+          "reading": "しょうひんにけっかんがみつかった。",
+          "vi": "Tìm ra lỗi hỏng trên hàng hóa."
+        }
+      ]
+    },
+    {
+      "id": 759,
+      "word": "災難",
+      "reading": "さいなん",
+      "han_viet": "TAI NAN",
+      "word_type": "Danh từ",
+      "meaning": "Tai nạn, thiên tai, khốn khổ",
+      "examples": [
+        {
+          "ja": "電車が遅れて遅刻してしまい、朝から災難だ。",
+          "reading": "でんしゃがおくれてちこくしてしまい、あさからさいなんだ。",
+          "vi": "Tàu đến muộn, nên tôi bị muộn, ngay sáng ra mà đã khốn khổ."
+        }
+      ]
+    },
+    {
+      "id": 760,
+      "word": "場",
+      "reading": "ば",
+      "han_viet": "TRƯỜNG",
+      "word_type": "Danh từ",
+      "meaning": "Địa điểm ; - Trường hợp ; - Bối cảnh",
+      "examples": [
+        {
+          "ja": "その場から離れてください。",
+          "reading": "そのばからはなれてください。",
+          "vi": "Hãy rời khỏi chỗ đó ."
+        }
+      ]
+    },
+    {
+      "id": 761,
+      "word": "元",
+      "reading": "もと",
+      "han_viet": "NGUYÊN",
+      "word_type": "Danh từ",
+      "meaning": "Nguyên, ban đầu",
+      "examples": [
+        {
+          "ja": "使い終わったら元に戻してください。",
+          "reading": "つかいおわったらもとにもどしてください。",
+          "vi": "Dùng xong hãy trả về vị trí cũ."
+        }
+      ]
+    },
+    {
+      "id": 762,
+      "word": "跡",
+      "reading": "あと",
+      "han_viet": "TÍCH",
+      "word_type": "Danh từ",
+      "meaning": "Dấu vết",
+      "examples": [
+        {
+          "ja": "誰かが歩いた跡が残っている。",
+          "reading": "だれかがあるいたあとがのこっている。",
+          "vi": "Dấu vết ai đó đi bộ còn lưu lại."
+        }
+      ]
+    },
+    {
+      "id": 763,
+      "word": "境",
+      "reading": "さかい",
+      "han_viet": "CẢNH",
+      "word_type": "Danh từ",
+      "meaning": "Biên giới, ngăn cách",
+      "examples": [
+        {
+          "ja": "ここは県境に接している。",
+          "reading": "ここはけんざかいにせっしている。",
+          "vi": "Chỗ này tiếp giáp với biên giới tỉnh."
+        }
+      ]
+    },
+    {
+      "id": 764,
+      "word": "端",
+      "reading": "はし",
+      "han_viet": "ĐOAN",
+      "word_type": "Danh từ",
+      "meaning": "Cạnh bên ; - Điểm đầu, điểm cuối",
+      "examples": [
+        {
+          "ja": "電車では端の席に座る。",
+          "reading": "でんしゃでははじのせきにすわる。",
+          "vi": "Trên tàu điện tôi ngồi vị trí cạnh bên. 80"
+        }
+      ]
+    }
+  ]
+}

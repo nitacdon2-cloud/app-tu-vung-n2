@@ -1,0 +1,53 @@
+{
+  "lesson_id": "sec_10_4",
+  "lesson_name": "Bài 10.4: Phân biệt 及ぶ・及ぼす",
+  "level": "N2",
+  "chapter": 10,
+  "chapter_name": "Phân biệt từ vựng",
+  "section_tag": "10.4",
+  "order": 46,
+  "words": [
+    {
+      "word": "及ぼす",
+      "reading": "およぼす",
+      "han_viet": "CẬP",
+      "word_type": "Động từ",
+      "meaning": "Gây ra (ảnh hưởng, phiền phức)",
+      "sub_section": "10.4 Phân biệt 及ぼす / 及ぶ",
+      "examples": [
+        {
+          "ja": "影響を及ぼす。",
+          "reading": "えいきょうをおよぼす。",
+          "vi": "Gây ảnh hưởng."
+        },
+        {
+          "ja": "迷惑を及ぼす。",
+          "reading": "めいわくをおよぼす。",
+          "vi": "Gây phiền toái."
+        }
+      ],
+      "id": 1235
+    },
+    {
+      "word": "及ぶ",
+      "reading": "およぶ",
+      "han_viet": "CẬP",
+      "word_type": "Động từ",
+      "meaning": "Kéo dài / Đạt đến / Ngang tầm / Cần thiết",
+      "sub_section": "10.4 Phân biệt 及ぼす / 及ぶ",
+      "examples": [
+        {
+          "ja": "２時間に及ぶ討論",
+          "reading": "にじかんにおよぶとうろん",
+          "vi": "Cuộc tranh luận kéo dài 2 tiếng"
+        },
+        {
+          "ja": "心配するには及ばない。",
+          "reading": "しんぱいするにはおよばない。",
+          "vi": "Không cần lo lắng đâu."
+        }
+      ],
+      "id": 1236
+    }
+  ]
+}

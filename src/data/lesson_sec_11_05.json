@@ -1,0 +1,101 @@
+{
+  "lesson_id": "sec_11_5",
+  "lesson_name": "Bài 11.5: Tiền tố (現・前・元・故)",
+  "level": "N2",
+  "chapter": 11,
+  "chapter_name": "Tiền tố - Hậu tố",
+  "section_tag": "11.5",
+  "order": 56,
+  "words": [
+    {
+      "word": "現〜",
+      "reading": "げん〜",
+      "han_viet": "HIỆN",
+      "word_type": "TIỀN TỐ",
+      "meaning": "HIỆN 〜 (Hiện tại)",
+      "grammar_equiv": "〜いま",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1313
+    },
+    {
+      "word": "現社長",
+      "reading": "げんしゃちょう",
+      "han_viet": "HIỆN XÃ TRƯỜNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Giám đốc hiện tại",
+      "examples": [
+        {
+          "ja": "現社長の挨拶",
+          "reading": "げんしゃちょうのあいさつ",
+          "vi": "Lời chào của giám đốc hiện tại"
+        }
+      ],
+      "parent_prefix": "現〜",
+      "is_parent_header": false,
+      "id": 1314
+    },
+    {
+      "word": "現大臣",
+      "reading": "げんだいじん",
+      "han_viet": "HIỆN ĐẠI THẦN",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Bộ trưởng hiện tại",
+      "examples": [
+        {
+          "ja": "現大臣の発言",
+          "reading": "げんだいじんのはつげん",
+          "vi": "Phát ngôn của bộ trưởng hiện tại"
+        }
+      ],
+      "parent_prefix": "現〜",
+      "is_parent_header": false,
+      "id": 1315
+    },
+    {
+      "word": "前〜",
+      "reading": "ぜん〜",
+      "han_viet": "TIỀN",
+      "word_type": "TIỀN TỐ",
+      "meaning": "TIỀN 〜 (Tiền nhiệm, trước)",
+      "grammar_equiv": "〜すぐ前の",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1316
+    },
+    {
+      "word": "前社長",
+      "reading": "ぜんしゃちょう",
+      "han_viet": "TIỀN XÃ TRƯỜNG",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Giám đốc tiền nhiệm",
+      "examples": [
+        {
+          "ja": "前社長の計画",
+          "reading": "ぜんしゃちょうのけいかく",
+          "vi": "Kế hoạch của giám đốc tiền nhiệm"
+        }
+      ],
+      "parent_prefix": "前〜",
+      "is_parent_header": false,
+      "id": 1317
+    },
+    {
+      "word": "前大臣",
+      "reading": "まえだいじん",
+      "han_viet": "TIỀN ĐẠI THẦN",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Bộ trưởng tiền nhiệm",
+      "examples": [
+        {
+          "ja": "前大臣の功績",
+          "reading": "まえだいじんのこうせき",
+          "vi": "Công trạng của bộ trưởng tiền nhiệm"
+        }
+      ],
+      "parent_prefix": "前〜",
+      "is_parent_header": false,
+      "id": 1318
+    }
+  ]
+}

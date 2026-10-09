@@ -1,0 +1,511 @@
+{
+  "lesson_id": "sec_6_4",
+  "lesson_name": "Bài 6.4: Phó từ & Liên từ (Phần 4)",
+  "level": "N2",
+  "chapter": 6,
+  "chapter_name": "Phó từ & Liên từ",
+  "section_tag": "6.4",
+  "order": 34,
+  "words": [
+    {
+      "id": 972,
+      "word": "さすが",
+      "reading": "さすが",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Quả là, như dự đoán, thật đúng là",
+      "examples": [
+        {
+          "ja": "この料理はおいしいがさすがに高すぎる。",
+          "reading": "このりょうりはおいしいがさすがにたかすぎる。",
+          "vi": "Món này ngon thật, nhưng quả là quá đắt."
+        }
+      ]
+    },
+    {
+      "id": 973,
+      "word": "案の定",
+      "reading": "あんのじょう",
+      "han_viet": "ÁN ĐỊNH",
+      "word_type": "Phó từ",
+      "meaning": "Đúng như dự đoán, quả nhiên",
+      "examples": [
+        {
+          "ja": "彼は案の定、遅刻してきた。",
+          "reading": "かれはあんのじょう、ちこくしてきた。",
+          "vi": "Anh ta quả nhiên đến muộn."
+        }
+      ]
+    },
+    {
+      "id": 974,
+      "word": "いよいよ",
+      "reading": "いよいよ",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Cuối cùng, đã đến lúc, càng ngày càng",
+      "examples": [
+        {
+          "ja": "いよいよ明日が誕生日だ。",
+          "reading": "いよいよあしたがたんじょうびだ。",
+          "vi": "Cuối cùng ngày mai cũng là sinh nhật rồi."
+        },
+        {
+          "ja": "風はいよいよ激しくなってきた。",
+          "reading": "かぜはいよいよはげしくなってきた。",
+          "vi": "Gió ngày càng mạnh dần lên."
+        }
+      ]
+    },
+    {
+      "id": 975,
+      "word": "ずらりと",
+      "reading": "ずらりと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Đầy dãy, hàng loạt, một loạt",
+      "examples": [
+        {
+          "ja": "棚にずらりとワインが並んでいる。",
+          "reading": "たなにずらりとわいんがならんでいる。",
+          "vi": "Rượu vang được xếp đầy dãy trên giá."
+        }
+      ]
+    },
+    {
+      "id": 976,
+      "word": "しんと・しいんと",
+      "reading": "しんと・しいんと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Yên lặng, lặng lẽ, im phăng phắc",
+      "examples": [
+        {
+          "ja": "今日はなぜかクラスがしんとしている。",
+          "reading": "こんにちはなぜかくらすがしんとしている。",
+          "vi": "Hôm nay sao lớp lại im phăng phắc vậy."
+        }
+      ]
+    },
+    {
+      "id": 977,
+      "word": "ちゃんと",
+      "reading": "ちゃんと",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nghiêm túc, cẩn thận",
+      "examples": [
+        {
+          "ja": "ちゃんと仕事をしてください。",
+          "reading": "ちゃんとしごとをしてください。",
+          "vi": "Hãy làm việc cẩn thận vào."
+        },
+        {
+          "ja": "ちゃんと挨拶をする。",
+          "reading": "ちゃんとあいさつをする。",
+          "vi": "Chào hỏi nghiêm túc."
+        }
+      ]
+    },
+    {
+      "id": 978,
+      "word": "続々",
+      "reading": "ぞくぞく",
+      "han_viet": "TỤC TỤC",
+      "word_type": "Phó từ",
+      "meaning": "Hết cái này đến cái kia, người này đến người khác",
+      "examples": [
+        {
+          "ja": "続々とお客さんが来た。",
+          "reading": "ぞくぞくとおきゃくさんがきた。",
+          "vi": "Hết lượt khách này đến lượt khách khác tới."
+        }
+      ]
+    },
+    {
+      "id": 979,
+      "word": "じかに",
+      "reading": "じかに",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Trực tiếp",
+      "examples": [
+        {
+          "ja": "会長とじかに話す。",
+          "reading": "かいちょうとじかにはなす。",
+          "vi": "Nói chuyện trực tiếp với chủ tịch."
+        }
+      ]
+    },
+    {
+      "id": 980,
+      "word": "一度に",
+      "reading": "いちどに",
+      "han_viet": "NHẤT ĐỘ",
+      "word_type": "Phó từ",
+      "meaning": "Một lần, cùng lúc",
+      "examples": [
+        {
+          "ja": "食材を一度にまとめて買う。",
+          "reading": "しょくざいをいちどにまとめてかう。",
+          "vi": "Gom mua nguyên liệu nấu ăn một lần."
+        }
+      ]
+    },
+    {
+      "id": 981,
+      "word": "一斉に",
+      "reading": "いっせいに",
+      "han_viet": "NHẤT TỀ",
+      "word_type": "Phó từ",
+      "meaning": "Cùng lúc, đồng loạt",
+      "examples": [
+        {
+          "ja": "一斉にテストを開始した。",
+          "reading": "いっせいにてすとをかいしした。",
+          "vi": "Tất cả cùng lúc bắt đầu kiểm tra. 100"
+        }
+      ]
+    },
+    {
+      "id": 982,
+      "word": "共に",
+      "reading": "ともに",
+      "han_viet": "CỘNG",
+      "word_type": "Phó từ",
+      "meaning": "Cùng với",
+      "examples": [
+        {
+          "ja": "家族とともにベトナムを訪れた。",
+          "reading": "かぞくとともにべとなむをおとずれた。",
+          "vi": "Tôi cùng với gia đình tới thăm Việt Nam."
+        }
+      ]
+    },
+    {
+      "id": 983,
+      "word": "相互に",
+      "reading": "そうごに",
+      "han_viet": "TƯƠNG HỖ",
+      "word_type": "Phó từ",
+      "meaning": "Lẫn nhau, cùng nhau",
+      "examples": [
+        {
+          "ja": "両者は相互に理解しあっている。",
+          "reading": "りょうしゃはそうごにりかいしあっている。",
+          "vi": "Hai người thấu hiểu lẫn nhau."
+        },
+        {
+          "ja": "相互に利益のある関係を築く。",
+          "reading": "そうごにりえきのあるかんけいをきづく。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 984,
+      "word": "せめて",
+      "reading": "せめて",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Ít nhất, tối thiểu là",
+      "examples": [
+        {
+          "ja": "今日はせめて３時間は寝たい。",
+          "reading": "こんにちはせめて３じかんはねたい。",
+          "vi": "Hôm nay muốn ngủ ít nhất 3 tiếng."
+        }
+      ]
+    },
+    {
+      "id": 985,
+      "word": "せいぜい",
+      "reading": "せいぜい",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Tối đa, nhiều nhất có thể",
+      "examples": [
+        {
+          "ja": "遠くてもせいぜい１時間あれば着くだろう。",
+          "reading": "とおくてもせいぜい１じかんあればつくだろう。",
+          "vi": "Dù có xa thì nhiều nhất tầm 1 tiếng chắc là cũng sẽ đến nơi thôi."
+        }
+      ]
+    },
+    {
+      "id": 986,
+      "word": "どうせ",
+      "reading": "どうせ",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Dù cho, đằng nào thì",
+      "examples": [
+        {
+          "ja": "どうせ今回も不合格だ。",
+          "reading": "どうせこんかいもふごうかくだ。",
+          "vi": "Đằng nào thì lần này cũng trượt."
+        }
+      ]
+    },
+    {
+      "id": 987,
+      "word": "いまだに",
+      "reading": "いまだに",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Vẫn chưa",
+      "examples": [
+        {
+          "ja": "別れた彼女のことがいまだに忘れられない。",
+          "reading": "わかれたかのじょのことがいまだにわすれられない。",
+          "vi": "Đến tận bây giờ vẫn không thể quên được cô người yêu đã chia tay."
+        }
+      ]
+    },
+    {
+      "id": 988,
+      "word": "ついでに",
+      "reading": "ついでに",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nhân tiện",
+      "examples": [
+        {
+          "ja": "散歩のついでに買い物へ行く。",
+          "reading": "さんぽのついでにかいものへいく。",
+          "vi": "Nhân tiện đi dạo thì đi mua sắm."
+        }
+      ]
+    },
+    {
+      "id": 989,
+      "word": "一人一人",
+      "reading": "ひとりひとり",
+      "han_viet": "NHẤT NHÂN NHẤT NHÂN",
+      "word_type": "Phó từ",
+      "meaning": "Từng người một, lần lượt",
+      "examples": [
+        {
+          "ja": "みんな一人一人考えは違う。",
+          "reading": "みんなひとりひとりかんがえはちがう。",
+          "vi": "Mỗi người chúng ta lại có một suy nghĩ khác nhau."
+        }
+      ]
+    },
+    {
+      "id": 990,
+      "word": "いちいち",
+      "reading": "いちいち",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Từng thứ một, chi tiết, mọi thứ",
+      "examples": [
+        {
+          "ja": "いちいち口出ししないでください。",
+          "reading": "いちいちくちだししないでください。",
+          "vi": "Đừng có chuyện gì cũng chen ngang thế."
+        }
+      ]
+    },
+    {
+      "id": 991,
+      "word": "どうか",
+      "reading": "どうか",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Làm ơn",
+      "examples": [
+        {
+          "ja": "どうか家族が健康でいられますように。",
+          "reading": "どうかかぞくがけんこうでいられますように。",
+          "vi": "Cầu mong cho gia đình con luôn sống mạnh khỏe."
+        }
+      ]
+    },
+    {
+      "id": 992,
+      "word": "できれば・できたら",
+      "reading": "できれば・できたら",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Nếu có thể tôi muốn vui chơi sống qua ngày mãi",
+      "examples": [
+        {
+          "ja": "できればずっと遊んで暮らしたい。",
+          "reading": "できればずっとあそんでくらしたい。",
+          "vi": "Nếu có thể tôi muốn vui chơi sống qua ngày mãi."
+        }
+      ]
+    },
+    {
+      "id": 993,
+      "word": "とりあえず",
+      "reading": "とりあえず",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Đầu tiên, tạm thời",
+      "examples": [
+        {
+          "ja": "すいません、とりあえずビール一杯お願いします。",
+          "reading": "すいません、とりあえずびーるいっぱいおねがいします。",
+          "vi": "Xin lỗi, trước tiên cho tôi 1 cốc bia nhé."
+        }
+      ]
+    },
+    {
+      "id": 994,
+      "word": "万一・万が一",
+      "reading": "まんいち・まんがいち",
+      "han_viet": "VẠN NHẤT",
+      "word_type": "Phó từ",
+      "meaning": "Nhỡ đâu, trường hợp xấu",
+      "examples": [
+        {
+          "ja": "万が一の場合に備えて、保険に加入しておく。",
+          "reading": "まんがいちのばあいにそなえて、ほけんにかにゅうしておく。",
+          "vi": "Mua bảo hiểm đề phòng cho trường hợp xấu nhất."
+        }
+      ]
+    },
+    {
+      "id": 995,
+      "word": "かえって",
+      "reading": "かえって",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Ngược lại, ai ngờ, ai dè...",
+      "examples": [
+        {
+          "ja": "少し寝たら、かえって眠くなった。",
+          "reading": "すこしねたら、かえってねむくなった。",
+          "vi": "Ngủ một lát, ai dè lại thấy buồn ngủ hơn. 101"
+        }
+      ]
+    },
+    {
+      "id": 996,
+      "word": "必ずしも~ない",
+      "reading": "かならずしも~ない",
+      "han_viet": "TẤT",
+      "word_type": "Phó từ",
+      "meaning": "Không hẳn, không nhất thiết",
+      "examples": [
+        {
+          "ja": "結婚しても必ずしも幸せとは限らない。",
+          "reading": "けっこんしてもかならずしもしあわせとはかぎらない。",
+          "vi": "Dù kết hôn thì cũng không hẳn sẽ hạnh phúc."
+        }
+      ]
+    },
+    {
+      "id": 997,
+      "word": "単に",
+      "reading": "たんに",
+      "han_viet": "ĐƠN",
+      "word_type": "Phó từ",
+      "meaning": "Chỉ, đơn giản",
+      "examples": [
+        {
+          "ja": "それは単に私の勘違いだった。",
+          "reading": "それはたんにわたしのかんちがいだった。",
+          "vi": "Chuyện đó chỉ là sự hiểu nhầm của tôi thôi."
+        }
+      ]
+    },
+    {
+      "id": 998,
+      "word": "たいして~ない",
+      "reading": "たいして~ない",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Không ~ lắm",
+      "examples": [
+        {
+          "ja": "この本はたいして面白くない。",
+          "reading": "このほんはたいしておもしろくない。",
+          "vi": "Cuốn sách này không thú vị lắm."
+        }
+      ]
+    },
+    {
+      "id": 999,
+      "word": "恐らく",
+      "reading": "おそらく",
+      "han_viet": "KHỦNG",
+      "word_type": "Phó từ",
+      "meaning": "Có lẽ",
+      "examples": [
+        {
+          "ja": "恐らく彼は今日は来ないだろう。",
+          "reading": "おそらくかれはこんにちはこないだろう。",
+          "vi": "Có lẽ hôm nay anh ta không tới."
+        }
+      ]
+    },
+    {
+      "id": 1000,
+      "word": "むしろ",
+      "reading": "むしろ",
+      "han_viet": "",
+      "word_type": "Phó từ",
+      "meaning": "Thay vào đó, ngược lại, đúng ra thì...",
+      "examples": [
+        {
+          "ja": "外で遊ぶよりむしろ家にいる方が好きだ。",
+          "reading": "そとであそぶよりむしろいえにいるほうがすきだ。",
+          "vi": "Thay vì ra ngoài chơi thì tôi thích ở nhà hơn."
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "word": "果たして",
+      "reading": "はたして",
+      "han_viet": "QUẢ",
+      "word_type": "Phó từ",
+      "meaning": "Quả nhiên, liệu rằng",
+      "examples": [
+        {
+          "ja": "頭が痛かったので病院へ行ったら、はたして風邪だった。",
+          "reading": "あたまがいたかったのでびょういんへいったら、はたしてかぜだった。",
+          "vi": "Vì đau đầu nên đi viện, và thật sự bị cảm cúm rồi."
+        },
+        {
+          "ja": "このプロジェクトは果たして成功するのだろうか。",
+          "reading": "このぷろじぇくとははたしてせいこうするのだろうか。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "word": "所々",
+      "reading": "ところどころ",
+      "han_viet": "SỞ SỞ",
+      "word_type": "Phó từ",
+      "meaning": "Đây đó",
+      "examples": [
+        {
+          "ja": "この資料はところどころ間違いがある。",
+          "reading": "このしりょうはところどころまちがいがある。",
+          "vi": "Tài liệu này có vài chỗ sai."
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "word": "偶然",
+      "reading": "ぐうぜん",
+      "han_viet": "NGẪU NHIÊN",
+      "word_type": "Phó từ",
+      "meaning": "Ngẫu nhiên, tình cờ",
+      "examples": [
+        {
+          "ja": "スーパーで偶然お隣の山田さんに会った。",
+          "reading": "すーぱーでぐうぜんおとなりのやまださんにあった。",
+          "vi": "Tình cờ gặp anh hàng xóm Yamada ở siêu thị. 102"
+        }
+      ]
+    }
+  ]
+}

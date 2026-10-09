@@ -1,0 +1,486 @@
+{
+  "lesson_id": "sec_3_6",
+  "lesson_name": "Bài 3.6: Danh từ (Phần 6)",
+  "level": "N2",
+  "chapter": 3,
+  "chapter_name": "Danh từ",
+  "section_tag": "3.6",
+  "order": 22,
+  "words": [
+    {
+      "id": 618,
+      "word": "事態",
+      "reading": "じたい",
+      "han_viet": "SỰ THÁI",
+      "word_type": "Danh từ",
+      "meaning": "Tình hình sự việc",
+      "examples": [
+        {
+          "ja": "事態を収拾する。",
+          "reading": "じたいをしゅうしゅうする。",
+          "vi": "Dàn xếp tình hình."
+        },
+        {
+          "ja": "高級な素材を使っても、料理する人の腕が",
+          "reading": "こうきゅうなそざいをつかっても、りょうりするにんのうでが",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 619,
+      "word": "素材",
+      "reading": "そざい",
+      "han_viet": "TỐ TÀI",
+      "word_type": "Danh từ",
+      "meaning": "Nguyên liệu, vật chất",
+      "examples": [
+        {
+          "ja": "悪ければ意味がない。",
+          "reading": "わるければいみがない。",
+          "vi": "Dù dùng những nguyên liệu cao cấp đi nữa nhưng nếu tay nghề người nấu kém thì cũng không có ý nghĩa gì."
+        },
+        {
+          "ja": "このテーブルの素材はスギの木だ。",
+          "reading": "このてーぶるのそざいはすぎのきだ。",
+          "vi": "Chất liệu của cái bàn này là gỗ liễu sam."
+        },
+        {
+          "ja": "webサイトを作るための素材を集める。",
+          "reading": "webさいとをつくるためのそざいをあつめる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 620,
+      "word": "細菌",
+      "reading": "さいきん",
+      "han_viet": "TẾ KHUẨN",
+      "word_type": "Danh từ",
+      "meaning": "Vi khuẩn",
+      "examples": [
+        {
+          "ja": "細菌を殺すために、家に帰ったらよく手を洗いましょう。",
+          "reading": "さいきんをころすために、いえにかえったらよくてをあらいましょう。",
+          "vi": "Để tiêu diệt vi khuẩn, hãy thường xuyên rửa tay sau khi về nhà."
+        }
+      ]
+    },
+    {
+      "id": 621,
+      "word": "建築",
+      "reading": "けんちく",
+      "han_viet": "KIẾN TRÚC",
+      "word_type": "Danh từ",
+      "meaning": "Kiến thiết, xây dựng",
+      "examples": [
+        {
+          "ja": "この家は木造建築だ。",
+          "reading": "このいえはもくぞうけんちくだ。",
+          "vi": "Ngôi nhà này làm từ gỗ."
+        },
+        {
+          "ja": "この場所に新しい橋を建築する。",
+          "reading": "このばしょにあたらしいはしをけんちくする。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 622,
+      "word": "署名",
+      "reading": "しょめい",
+      "han_viet": "THỰ DANH",
+      "word_type": "Danh từ",
+      "meaning": "Kí tên, chữ ký",
+      "examples": [
+        {
+          "ja": "この書類に部長の署名をお願いします。",
+          "reading": "このしょるいにぶちょうのしょめいをおねがいします。",
+          "vi": "Xin nhờ trưởng phòng ký vào tài liệu này."
+        }
+      ]
+    },
+    {
+      "id": 623,
+      "word": "設備",
+      "reading": "せつび",
+      "han_viet": "THIẾT BỊ",
+      "word_type": "Danh từ",
+      "meaning": "Trang thiết bị",
+      "examples": [
+        {
+          "ja": "このホテルの設備はとてもいい。",
+          "reading": "このほてるのせつびはとてもいい。",
+          "vi": "Thiết bị của khách sạn này rất tốt."
+        }
+      ]
+    },
+    {
+      "id": 624,
+      "word": "至急",
+      "reading": "しきゅう",
+      "han_viet": "CHÍ CẤP",
+      "word_type": "Danh từ",
+      "meaning": "Hỏa tốc, ngay lập tức",
+      "examples": [
+        {
+          "ja": "母が倒れました。至急、帰ってきてください。",
+          "reading": "ははがたおれました。しきゅう、かえってきてください。",
+          "vi": "Mẹ đổ bệnh rồi. Về nhà gấp đi."
+        },
+        {
+          "ja": "きれいな色彩のお花を部屋に飾る。",
+          "reading": "きれいなしきさいのおはなをへやにかざる。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 625,
+      "word": "色彩",
+      "reading": "しきさい",
+      "han_viet": "SẮC THÁI",
+      "word_type": "Danh từ",
+      "meaning": "Màu sắc",
+      "examples": [
+        {
+          "ja": "はっきりした色彩の政治思想を持つ人。",
+          "reading": "はっきりしたしきさいのせいじしそうをもつにん。",
+          "vi": "Người mang tư tưởng chính trị có khuynh hướng"
+        }
+      ]
+    },
+    {
+      "id": 626,
+      "word": "苦痛",
+      "reading": "くつう",
+      "han_viet": "KHỔ THỐNG",
+      "word_type": "Danh từ",
+      "meaning": "Đau đớn, nỗi khổ",
+      "examples": [
+        {
+          "ja": "満員電車に乗って通勤するのが苦痛だ。",
+          "reading": "まんいんでんしゃにのってつうきんするのがくつうだ。",
+          "vi": "Leo lên một chuyến tàu điện kín người đi làm khổ lắm. 68"
+        }
+      ]
+    },
+    {
+      "id": 627,
+      "word": "著者",
+      "reading": "ちょしゃ",
+      "han_viet": "TRỨ GIẢ",
+      "word_type": "Danh từ",
+      "meaning": "Tác giả",
+      "examples": [
+        {
+          "ja": "大好きな著者の新作を買う。",
+          "reading": "だいすきなちょしゃのしんさくをかう。",
+          "vi": "Mua tác phẩm mới của tác giả mình rất thích."
+        }
+      ]
+    },
+    {
+      "id": 628,
+      "word": "障害",
+      "reading": "しょうがい",
+      "han_viet": "CHƯỚNG HẠI",
+      "word_type": "Danh từ",
+      "meaning": "Cản trở, khó khăn, khuyết",
+      "examples": [
+        {
+          "ja": "私は足に障害があるので歩くことができない。",
+          "reading": "わたしはあしにしょうがいがあるのであるくことができない。",
+          "vi": "Chân tôi có tật nên không thể đi bộ được."
+        },
+        {
+          "ja": "これから妻と二人で障害を乗り越えていく。",
+          "reading": "これからつまとふたりでしょうがいをのりこえていく。",
+          "vi": "tật Từ giờ sẽ cùng vợ vượt qua những trở ngại khó"
+        }
+      ]
+    },
+    {
+      "id": 629,
+      "word": "血圧",
+      "reading": "けつあつ",
+      "han_viet": "HUYẾT ÁP",
+      "word_type": "Danh từ",
+      "meaning": "Huyết áp",
+      "examples": [
+        {
+          "ja": "血圧が低いせいか、時々めまいがする。",
+          "reading": "けつあつがひくいせいか、ときどきめまいがする。",
+          "vi": "Chắc là do huyết áp thấp, đôi khi tôi cảm thấy chóng mặt."
+        }
+      ]
+    },
+    {
+      "id": 630,
+      "word": "血管",
+      "reading": "けっかん",
+      "han_viet": "HUYẾT QUẢN",
+      "word_type": "Danh từ",
+      "meaning": "Mạch máu",
+      "examples": [
+        {
+          "ja": "看護師なのに、血管を見るのが苦手だ。",
+          "reading": "かんごしなのに、けっかんをみるのがにがてだ。",
+          "vi": "Là y tá nhưng lại sợ phải nhìn mạch máu."
+        }
+      ]
+    },
+    {
+      "id": 631,
+      "word": "行為",
+      "reading": "こうい",
+      "han_viet": "HÀNH VI",
+      "word_type": "Danh từ",
+      "meaning": "Hành vi, hành động",
+      "examples": [
+        {
+          "ja": "親切な行為をすることは、私の人生で大切なことだ。",
+          "reading": "しんせつなこういをすることは、わたしのじんせいでたいせつなことだ。",
+          "vi": "Làm những hành động tử tế là điều quan trọng trong cuộc đời tôi."
+        }
+      ]
+    },
+    {
+      "id": 632,
+      "word": "要旨",
+      "reading": "ようし",
+      "han_viet": "YẾU CHỈ",
+      "word_type": "Danh từ",
+      "meaning": "Phần/điểm quan trọng",
+      "examples": [
+        {
+          "ja": "話し合いの要旨をまとめて、書類を作成する。",
+          "reading": "はなしあいのようしをまとめて、しょるいをさくせいする。",
+          "vi": "Tóm gọn những điểm mấu chốt trong cuộc nói chuyện và làm tài liệu."
+        },
+        {
+          "ja": "家族の存在は私にはなくてはならない要素だ。",
+          "reading": "かぞくのそんざいはわたしにはなくてはならないようそだ。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 633,
+      "word": "要素",
+      "reading": "ようそ",
+      "han_viet": "YẾU TỐ",
+      "word_type": "Danh từ",
+      "meaning": "Yếu tố",
+      "examples": [
+        {
+          "ja": "ビタミンは食べ物を構成する要素のひとつだ。",
+          "reading": "びたみんはたべものをこうせいするようそのひとつだ。",
+          "vi": "Vitamin là một trong những thành phần cấu tạo nên"
+        }
+      ]
+    },
+    {
+      "id": 634,
+      "word": "見当",
+      "reading": "けんとう",
+      "han_viet": "KIẾN ĐƯƠNG",
+      "word_type": "Danh từ",
+      "meaning": "Ước tính, dự tính",
+      "examples": [
+        {
+          "ja": "歩いて帰るには何時間かかるだろうか、見当がつかない。",
+          "reading": "あるいてかえるにはなんじかんかかるだろうか、けんとうがつかない。",
+          "vi": "Không đoán được là đi bộ về thì mất mấy tiếng nữa."
+        }
+      ]
+    },
+    {
+      "id": 635,
+      "word": "立場",
+      "reading": "たちば",
+      "han_viet": "LẬP TRƯỜNG",
+      "word_type": "Danh từ",
+      "meaning": "Lập trường",
+      "examples": [
+        {
+          "ja": "相手の立場に立って考えることも大切だ。",
+          "reading": "あいてのたちばにたってかんがえることもたいせつだ。",
+          "vi": "Việc đứng trên lập trường của đối phương để suy nghĩ cũng rất quan trọng."
+        }
+      ]
+    },
+    {
+      "id": 636,
+      "word": "役割",
+      "reading": "やくわり",
+      "han_viet": "DỊCH CÁT",
+      "word_type": "Danh từ",
+      "meaning": "Vai trò",
+      "examples": [
+        {
+          "ja": "夫婦で役割分担を決めて、家事をしている。",
+          "reading": "ふうふでやくわりぶんたんをきめて、かじをしている。",
+          "vi": "Vợ chồng tôi làm việc nhà có sự phân chia trách nhiệm rõ ràng."
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "word": "見解",
+      "reading": "けんかい",
+      "han_viet": "KIẾN GIẢI",
+      "word_type": "Danh từ",
+      "meaning": "Nhìn nhận,suy nghĩ",
+      "examples": [
+        {
+          "ja": "会議で、社長が見解を明らかにした。",
+          "reading": "かいぎで、しゃちょうがけんかいをあきらかにした。",
+          "vi": "Giám đốc đã đưa ra nhận định rõ ràng trong cuộc họp. 69"
+        }
+      ]
+    },
+    {
+      "id": 638,
+      "word": "視野",
+      "reading": "しや",
+      "han_viet": "THỊ DÃ",
+      "word_type": "Danh từ",
+      "meaning": "Tầm ngắm, tầm nhìn",
+      "examples": [
+        {
+          "ja": "自分の常識を超えた広い視野を持つべきだ。",
+          "reading": "じぶんのじょうしきをこえたひろいしやをもつべきだ。",
+          "vi": "Nên có một tầm nhìn rộng vượt qua cả những tri"
+        }
+      ]
+    },
+    {
+      "id": 639,
+      "word": "観客",
+      "reading": "かんきゃく",
+      "han_viet": "QUAN KHÁCH",
+      "word_type": "Danh từ",
+      "meaning": "Khán giả",
+      "examples": [
+        {
+          "ja": "今日のサッカーの試合は、観客が多い。",
+          "reading": "きょうのさっかーのしあいは、かんきゃくがおおい。",
+          "vi": "Trận bóng ngày hôm nay có nhiều khán giả."
+        }
+      ]
+    },
+    {
+      "id": 640,
+      "word": "代理",
+      "reading": "だいり",
+      "han_viet": "ĐẠI LÝ",
+      "word_type": "Danh từ",
+      "meaning": "Đại diện",
+      "examples": [
+        {
+          "ja": "母の代理で、結婚式に出席する。",
+          "reading": "ははのだいりで、けっこんしきにしゅっせきする。",
+          "vi": "Đại diện cho mẹ tới tham dự kễ kết hôn."
+        }
+      ]
+    },
+    {
+      "id": 641,
+      "word": "誤解",
+      "reading": "ごかい",
+      "han_viet": "NGỘ GIẢI",
+      "word_type": "Danh từ",
+      "meaning": "Hiểu lầm",
+      "examples": [
+        {
+          "ja": "誤解ですよ。相手の話を聞いてみて下さい。",
+          "reading": "ごかいですよ。あいてのはなしをきいてみてください。",
+          "vi": "Là hiểu nhầm đấy. Hãy thử nghe câu chuyện từ phía đối phương đi."
+        },
+        {
+          "ja": "会社の研修のために、講師を招く。",
+          "reading": "かいしゃのけんしゅうのために、こうしをまねく。",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 642,
+      "word": "講師",
+      "reading": "こうし",
+      "han_viet": "GIẢNG SƯ",
+      "word_type": "Danh từ",
+      "meaning": "Giảng viên",
+      "examples": [
+        {
+          "ja": "大学で働いていると言っても講師だから、給料は低いですよ。",
+          "reading": "だいがくではたらいているといってもこうしだから、きゅうりょうはひくいですよ。",
+          "vi": "Tuy là làm việc ở trường đại học thật nhưng vì là"
+        }
+      ]
+    },
+    {
+      "id": 643,
+      "word": "議員",
+      "reading": "ぎいん",
+      "han_viet": "NGHỊ VIÊN",
+      "word_type": "Danh từ",
+      "meaning": "Nghị sĩ",
+      "examples": [
+        {
+          "ja": "議員の息子だから、私も将来は政治家になる。",
+          "reading": "ぎいんのむすこだから、わたしもしょうらいはせいじかになる。",
+          "vi": "Vì là con trai của nghị sĩ nên tương lai tôi cũng sẽ trở thành chính trị gia."
+        }
+      ]
+    },
+    {
+      "id": 644,
+      "word": "無断",
+      "reading": "むだん",
+      "han_viet": "VÔ ĐOẠN",
+      "word_type": "Danh từ",
+      "meaning": "Không cho phép",
+      "examples": [
+        {
+          "ja": "無断で使用しないで下さい。",
+          "reading": "むだんでしようしないでください。",
+          "vi": "Đừng sử dụng khi không có sự cho phép."
+        }
+      ]
+    },
+    {
+      "id": 645,
+      "word": "賃貸",
+      "reading": "ちんたい",
+      "han_viet": "NHẪM THẢI",
+      "word_type": "Danh từ",
+      "meaning": "Cho thuê",
+      "examples": [
+        {
+          "ja": "友達と住むための賃貸アパートを探す。",
+          "reading": "ともだちとすむためのちんたいあぱーとをさがす。",
+          "vi": "Tìm căn hộ cho thuê để sống cùng bạn."
+        }
+      ]
+    },
+    {
+      "id": 646,
+      "word": "疑問",
+      "reading": "ぎもん",
+      "han_viet": "NGHI VẤN",
+      "word_type": "Danh từ",
+      "meaning": "Nghi vấn, thắc mắc",
+      "examples": [
+        {
+          "ja": "先生の話に疑問を抱いた。",
+          "reading": "せんせいのはなしにぎもんをだいた。",
+          "vi": "Còn thắc mắc về câu chuyện của thầy giáo. 70"
+        }
+      ]
+    }
+  ]
+}

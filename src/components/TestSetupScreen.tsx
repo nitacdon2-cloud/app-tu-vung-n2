@@ -21,7 +21,7 @@ export const TestSetupScreen: React.FC = () => {
 
   const handleSelectAllLessons = () => {
     if (testConfig.selectedLessons.length === lessons.length) {
-      setTestConfig({ ...testConfig, selectedLessons: [lessons[0]?.lesson_id || 'lesson_01'] });
+      setTestConfig({ ...testConfig, selectedLessons: [lessons[0]?.lesson_id || 'sec_1_1'] });
     } else {
       setTestConfig({
         ...testConfig,
@@ -94,7 +94,7 @@ export const TestSetupScreen: React.FC = () => {
                   >
                     {isSelected && <Check className="w-2.5 h-2.5 stroke-[3]" />}
                   </div>
-                  <span className="truncate">Lesson {idx + 1}</span>
+                  <span className="truncate">{lesson.section_tag ? `Bài ${lesson.section_tag}` : `Lesson ${idx + 1}`}</span>
                 </button>
               );
             })}

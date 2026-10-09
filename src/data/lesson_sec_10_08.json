@@ -1,0 +1,53 @@
+{
+  "lesson_id": "sec_10_8",
+  "lesson_name": "Bài 10.8: Phân biệt 楽・気楽",
+  "level": "N2",
+  "chapter": 10,
+  "chapter_name": "Phân biệt từ vựng",
+  "section_tag": "10.8",
+  "order": 50,
+  "words": [
+    {
+      "word": "楽",
+      "reading": "らく",
+      "han_viet": "LẠC",
+      "word_type": "Tính từ な",
+      "meaning": "Đơn giản, thoải mái, tiện lợi, dễ chịu",
+      "sub_section": "10.8 Phân biệt 楽 / 気楽",
+      "examples": [
+        {
+          "ja": "楽な生活",
+          "reading": "らくなせいかつ",
+          "vi": "Cuộc sống thoải mái."
+        },
+        {
+          "ja": "今日の宿題は楽に終わらせた。",
+          "reading": "きょうのしゅくだいはらくにおわらせた。",
+          "vi": "Bài tập hôm nay mình hoàn thành dễ dàng."
+        }
+      ],
+      "id": 1243
+    },
+    {
+      "word": "気楽",
+      "reading": "きらく",
+      "han_viet": "KHÍ LẠC",
+      "word_type": "Tính từ な",
+      "meaning": "Thoải mái, dễ chịu, thanh thản",
+      "sub_section": "10.8 Phân biệt 楽 / 気楽",
+      "examples": [
+        {
+          "ja": "気楽に考えればいいよ。",
+          "reading": "きらくにかんがえればいいよ。",
+          "vi": "Suy nghĩ thoải mái cũng được."
+        },
+        {
+          "ja": "一人暮らしは気楽だ。",
+          "reading": "ひとりぐらしはきらくだ。",
+          "vi": "Sống một mình thật thoải mái."
+        }
+      ],
+      "id": 1244
+    }
+  ]
+}

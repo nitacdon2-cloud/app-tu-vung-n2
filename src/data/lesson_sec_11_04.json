@@ -1,0 +1,163 @@
+{
+  "lesson_id": "sec_11_4",
+  "lesson_name": "Bài 11.4: Tiền tố (名・全・総)",
+  "level": "N2",
+  "chapter": 11,
+  "chapter_name": "Tiền tố - Hậu tố",
+  "section_tag": "11.4",
+  "order": 55,
+  "words": [
+    {
+      "word": "名〜",
+      "reading": "めい〜",
+      "han_viet": "DANH",
+      "word_type": "TIỀN TỐ",
+      "meaning": "DANH 〜 (Nổi tiếng, ấn tượng)",
+      "grammar_equiv": "〜有名な",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1303
+    },
+    {
+      "word": "名場面",
+      "reading": "めいばめん",
+      "han_viet": "DANH TRƯỜNG DIỆN",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Phân đoạn nổi tiếng",
+      "examples": [
+        {
+          "ja": "映画の名場面",
+          "reading": "えいがのめいばめん",
+          "vi": "Cảnh quay ấn tượng của bộ phim"
+        }
+      ],
+      "parent_prefix": "名〜",
+      "is_parent_header": false,
+      "id": 1304
+    },
+    {
+      "word": "名演奏",
+      "reading": "めいえんそう",
+      "han_viet": "DANH DIỄN TẤU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Màn biểu diễn ấn tượng",
+      "examples": [
+        {
+          "ja": "素晴らしい名演奏",
+          "reading": "すばらしいめいえんそう",
+          "vi": "Màn trình diễn tuyệt vời"
+        }
+      ],
+      "parent_prefix": "名〜",
+      "is_parent_header": false,
+      "id": 1305
+    },
+    {
+      "word": "名女優",
+      "reading": "めいじょゆう",
+      "han_viet": "DANH NỮ ƯU",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Nữ diễn viên nổi tiếng",
+      "examples": [
+        {
+          "ja": "名女優として活躍する",
+          "reading": "めいじょゆうとしてかつやくする",
+          "vi": "Hoạt động xuất sắc với vai trò nữ diễn viên nổi tiếng"
+        }
+      ],
+      "parent_prefix": "名〜",
+      "is_parent_header": false,
+      "id": 1306
+    },
+    {
+      "word": "全〜",
+      "reading": "ぜん〜",
+      "han_viet": "TOÀN",
+      "word_type": "TIỀN TỐ",
+      "meaning": "TOÀN 〜 (Tất cả, toàn bộ)",
+      "grammar_equiv": "〜すべての",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1307
+    },
+    {
+      "word": "全責任",
+      "reading": "ぜんせきにん",
+      "han_viet": "TOÀN TRÁCH NHIỆM",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Toàn bộ trách nhiệm",
+      "examples": [
+        {
+          "ja": "全責任を負う",
+          "reading": "ぜんせきにんをおう",
+          "vi": "Gánh vác toàn bộ trách nhiệm"
+        }
+      ],
+      "parent_prefix": "全〜",
+      "is_parent_header": false,
+      "id": 1308
+    },
+    {
+      "word": "全世界",
+      "reading": "ぜんせかい",
+      "han_viet": "TOÀN THẾ GIỚI",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Toàn thế giới",
+      "examples": [
+        {
+          "ja": "全世界に広がる",
+          "reading": "ぜんせかいにひろがる",
+          "vi": "Lan rộng ra toàn thế giới"
+        }
+      ],
+      "parent_prefix": "全〜",
+      "is_parent_header": false,
+      "id": 1309
+    },
+    {
+      "word": "総〜",
+      "reading": "そう〜",
+      "han_viet": "TỔNG",
+      "word_type": "TIỀN TỐ",
+      "meaning": "TỔNG 〜 (Tất cả, tổng)",
+      "grammar_equiv": "〜ぜんぶ",
+      "examples": [],
+      "is_parent_header": true,
+      "id": 1310
+    },
+    {
+      "word": "総人数",
+      "reading": "そうにんずう",
+      "han_viet": "TỔNG NHÂN SỐ",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tổng số người",
+      "examples": [
+        {
+          "ja": "参加者の総人数",
+          "reading": "さんかしゃのそうにんずう",
+          "vi": "Tổng số người tham gia"
+        }
+      ],
+      "parent_prefix": "総〜",
+      "is_parent_header": false,
+      "id": 1311
+    },
+    {
+      "word": "総額",
+      "reading": "そうがく",
+      "han_viet": "TỔNG NGẠCH",
+      "word_type": "Tiền tố / Hậu tố",
+      "meaning": "Tổng số tiền",
+      "examples": [
+        {
+          "ja": "総額10万円",
+          "reading": "そうがくじゅうまんえん",
+          "vi": "Tổng số tiền 10万 yên"
+        }
+      ],
+      "parent_prefix": "総〜",
+      "is_parent_header": false,
+      "id": 1312
+    }
+  ]
+}

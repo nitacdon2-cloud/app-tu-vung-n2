@@ -1,0 +1,95 @@
+{
+  "lesson_id": "sec_10_3",
+  "lesson_name": "Bài 10.3: Phân biệt おさめる (治・修・収・納)",
+  "level": "N2",
+  "chapter": 10,
+  "chapter_name": "Phân biệt từ vựng",
+  "section_tag": "10.3",
+  "order": 45,
+  "words": [
+    {
+      "word": "治める・治まる",
+      "reading": "おさめる・おさまる",
+      "han_viet": "TRỊ",
+      "word_type": "Động từ",
+      "meaning": "Trị vì, cai trị / Làm cho ổn định / Được cải thiện",
+      "sub_section": "10.3 Phân biệt 治める / 修める / 収める / 納める",
+      "examples": [
+        {
+          "ja": "国を治める。",
+          "reading": "くにをおさめる。",
+          "vi": "Trị vì đất nước."
+        },
+        {
+          "ja": "痛みが治まった。",
+          "reading": "いたみがおさまった。",
+          "vi": "Đỡ đau."
+        }
+      ],
+      "id": 1231
+    },
+    {
+      "word": "修める・修まる",
+      "reading": "おさめる・おさまる",
+      "han_viet": "TU",
+      "word_type": "Động từ",
+      "meaning": "Trau dồi tu luyện / Bản thân được trau dồi",
+      "sub_section": "10.3 Phân biệt 治める / 修める / 収める / 納める",
+      "examples": [
+        {
+          "ja": "語学を修める。",
+          "reading": "ごがくをおさめる。",
+          "vi": "Trau dồi ngôn ngữ."
+        },
+        {
+          "ja": "身を修める。",
+          "reading": "みをおさめる。",
+          "vi": "Trau dồi bản thân."
+        }
+      ],
+      "id": 1232
+    },
+    {
+      "word": "収める・収まる",
+      "reading": "おさめる・おさまる",
+      "han_viet": "THU",
+      "word_type": "Động từ",
+      "meaning": "Cất đi / Thu được / Vừa vặn / Trở nên ổn",
+      "sub_section": "10.3 Phân biệt 治める / 修める / 収める / 納める",
+      "examples": [
+        {
+          "ja": "リンゴを箱に収める。",
+          "reading": "りんごをはこにおさめる。",
+          "vi": "Cất táo vào hộp."
+        },
+        {
+          "ja": "成功を収める。",
+          "reading": "せいこうをおさめる。",
+          "vi": "Gặt hái thành công."
+        }
+      ],
+      "id": 1233
+    },
+    {
+      "word": "納める・納まる",
+      "reading": "おさめる・おさまる",
+      "han_viet": "NẠP",
+      "word_type": "Động từ",
+      "meaning": "Nộp, đóng / Nhận chức (Phù hợp)",
+      "sub_section": "10.3 Phân biệt 治める / 修める / 収める / 納める",
+      "examples": [
+        {
+          "ja": "税金を納める。",
+          "reading": "ぜいきんをおさめる。",
+          "vi": "Nộp thuế."
+        },
+        {
+          "ja": "社長に納まる。",
+          "reading": "しゃちょうにおさまる。",
+          "vi": "Nhận chức giám đốc."
+        }
+      ],
+      "id": 1234
+    }
+  ]
+}
