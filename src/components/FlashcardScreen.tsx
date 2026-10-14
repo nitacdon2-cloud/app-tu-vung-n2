@@ -49,8 +49,10 @@ const romajiToHiraganaMap: Record<string, string> = {
   'rya': 'りゃ', 'ryu': 'りゅ', 'ryo': 'りょ',
   'gya': 'ぎゃ', 'gyu': 'ぎゅ', 'gyo': 'ぎょ',
   'ja': 'じゃ', 'ju': 'じゅ', 'jo': 'じょ', 'ji': 'じ', 'zi': 'じ',
+  'jya': 'じゃ', 'jyu': 'じゅ', 'jyo': 'じょ',
   'bya': 'びゃ', 'byu': 'びゅ', 'byo': 'びょ',
   'pya': 'ぴゃ', 'pyu': 'ぴゅ', 'pyo': 'ぴょ',
+  'nna': 'んな', 'nni': 'んに', 'nnu': 'んぬ', 'nne': 'んね', 'nno': 'んの',
   'ka': 'か', 'ki': 'き', 'ku': 'く', 'ke': 'け', 'ko': 'こ',
   'sa': 'さ', 'su': 'す', 'se': 'せ', 'so': 'そ',
   'ta': 'た', 'te': 'て', 'to': 'と',
@@ -72,16 +74,28 @@ const romajiToHiraganaMap: Record<string, string> = {
 
 const romajiPatterns = Object.keys(romajiToHiraganaMap).sort((a, b) => b.length - a.length);
 
-const convertRomajiToHiragana = (text: string): string => {
+const convertRomajiToHiragana = (text: string, isFinal = false): string => {
   let s = text.toLowerCase();
-  // Xử lý sokuon (âm ngắt っ) khi gõ phụ âm kép: kk, tt, pp, ss...
+  // Xử lý sokuon (âm ngắt っ) khi gõ phụ âm kép: kk, tt, pp, ss... (ngoại trừ nn là ん)
   s = s.replace(/([bcdfghjklmpqrstvwxyz])\1/g, 'っ$1');
 
   for (const p of romajiPatterns) {
     s = s.split(p).join(romajiToHiraganaMap[p]);
   }
-  // Chuyển n còn sót (trước phụ âm hoặc ở cuối từ) thành ん
-  s = s.replace(/n(?=[^aiueo\s]|$)/g, 'ん');
+
+  // Chuyển n đứng trước phụ âm (ngoại trừ y vì có nya, nyu, nyo) thành ん
+  // Ví dụ: kandou -> かんdou -> かんどう; shinbun -> しんbun -> しんぶん
+  s = s.replace(/n(?=[bcdfghjklmnpqrstvwxz])/g, 'ん');
+
+  // Chỉ khi submit/kiểm tra đáp án (isFinal = true) thì n còn sót ở cuối từ mới chuyển thành ん.
+  // Khi người dùng đang gõ (isFinal = false), KHÔNG được tự ý chuyển 'n' ở cuối thành 'ん'
+  // vì nếu chuyển ngay, khi người dùng gõ tiếp 'e' sẽ thành 'んe' -> 'んえ' thay vì 'ね'!
+  if (isFinal) {
+    s = s.replace(/n$/g, 'ん');
+  }
+  // Nếu có dấu cách sau n thì chuyển thành ん
+  s = s.replace(/n(?=\s)/g, 'ん');
+
   return s;
 };
 
@@ -433,7 +447,7 @@ export const FlashcardScreen: React.FC = () => {
     if (!rawInput) return;
 
     // Chuyển romaji nếu còn sót (như chữ 'n' cuối từ)
-    const convertedInput = convertRomajiToHiragana(rawInput).replace(/n$/, 'ん');
+    const convertedInput = convertRomajiToHiragana(rawInput, true);
     const normalizedInput = katakanaToHiragana(convertedInput.toLowerCase().replace(/\s+/g, ' '));
     const normalizedReading = katakanaToHiragana((currentWord.reading || '').toLowerCase().replace(/\s+/g, ' '));
 
