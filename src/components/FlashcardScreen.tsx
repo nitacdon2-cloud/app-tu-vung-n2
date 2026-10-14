@@ -80,6 +80,8 @@ const convertRomajiToHiragana = (text: string): string => {
   for (const p of romajiPatterns) {
     s = s.split(p).join(romajiToHiraganaMap[p]);
   }
+  // Chuyển n còn sót (trước phụ âm hoặc ở cuối từ) thành ん
+  s = s.replace(/n(?=[^aiueo\s]|$)/g, 'ん');
   return s;
 };
 
@@ -139,6 +141,23 @@ export const FlashcardScreen: React.FC = () => {
   const [isSessionFinished, setIsSessionFinished] = useState<boolean>(false);
 
   const inputRef = useRef<HTMLInputElement>(null);
+  const flipTimeoutRef = useRef<number | null>(null);
+  const [sessionKey, setSessionKey] = useState<number>(0);
+
+  // Giữ tham chiếu mới nhất của userProgress để khởi tạo phiên mà không gây re-render reset hàng đợi
+  const userProgressRef = useRef(userProgress);
+  useEffect(() => {
+    userProgressRef.current = userProgress;
+  }, [userProgress]);
+
+  // Dọn dẹp timer lật thẻ khi component unmount
+  useEffect(() => {
+    return () => {
+      if (flipTimeoutRef.current) {
+        clearTimeout(flipTimeoutRef.current);
+      }
+    };
+  }, []);
 
   // Danh sách các bài học đang được chọn
   const selectedLessons = useMemo(() => {
@@ -180,15 +199,23 @@ export const FlashcardScreen: React.FC = () => {
     return { tatCa, chuaNho, daNho, thichCurrent, thichAll };
   }, [lessons, selectedLessons, userProgress]);
 
-  // Danh sách thẻ gốc theo bộ lọc
-  const baseCardItems: CardItem[] = useMemo(() => {
+  // Hàng đợi thẻ trong phiên học (Session Queue)
+  const [sessionQueue, setSessionQueue] = useState<CardItem[]>([]);
+
+  // Khởi tạo hàng đợi phiên học khi bài học, bộ lọc hoặc shuffle thay đổi
+  // LƯU Ý QUAN TRỌNG: KHÔNG đưa userProgress vào dependency array ở đây!
+  // Khi người dùng trả lời đúng/sai, userProgress được cập nhật nhưng phiên học hiện tại
+  // phải giữ nguyên danh sách thẻ và vị trí đang học, tránh bị reset currentIndex về 0 gây nhảy thẻ/mất thẻ.
+  useEffect(() => {
     let items: CardItem[] = [];
+    const currentProgress = userProgressRef.current;
+
     if (filterScope === 'thich' && starredScope === 'all') {
       const allStarred: CardItem[] = [];
       lessons.forEach((l) => {
         l.words.forEach((w) => {
           const k = `${l.lesson_id}_${w.id}`;
-          const state = getWordState(userProgress, k);
+          const state = getWordState(currentProgress, k);
           if (state.is_favorite) {
             allStarred.push({ word: w, lessonId: l.lesson_id, lessonName: l.lesson_name });
           }
@@ -199,7 +226,7 @@ export const FlashcardScreen: React.FC = () => {
       selectedLessons.forEach((lesson) => {
         lesson.words.forEach((word) => {
           const key = `${lesson.lesson_id}_${word.id}`;
-          const state = getWordState(userProgress, key);
+          const state = getWordState(currentProgress, key);
           if (filterScope === 'chua_nho' && state.status !== 'chua_nho') return;
           if (filterScope === 'da_nho' && state.status !== 'da_nho') return;
           if (filterScope === 'thich' && !state.is_favorite) return;
@@ -220,26 +247,24 @@ export const FlashcardScreen: React.FC = () => {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
       }
-      return shuffled;
+      items = shuffled;
     }
 
-    return items;
-  }, [lessons, selectedLessons, filterScope, starredScope, isShuffled, shuffleKey, userProgress]);
-
-  // Hàng đợi thẻ trong phiên học (Session Queue)
-  const [sessionQueue, setSessionQueue] = useState<CardItem[]>([]);
-
-  // Khởi tạo hàng đợi phiên học khi baseCardItems hoặc bộ lọc thay đổi
-  useEffect(() => {
-    const queue = baseCardItems.map((item, idx) => ({
+    const queue: CardItem[] = items.map((item, idx) => ({
       ...item,
       sessionCardId: `${item.lessonId}_${item.word.id}_init_${idx}`,
       isRetry: false,
     }));
+
     setSessionQueue(queue);
     setCurrentIndex(0);
     setIsSessionFinished(false);
-  }, [baseCardItems]);
+    setIsFlipped(false);
+    setInputAnswer('');
+    setCheckResult('idle');
+    setMatchedType(null);
+    setCurrentCardHadError(false);
+  }, [lessons, selectedLessons, filterScope, starredScope, isShuffled, shuffleKey, sessionKey]);
 
   const currentItem = sessionQueue[currentIndex] || sessionQueue[0];
   const currentWord = currentItem ? currentItem.word : (selectedLessons[0]?.words[0] || currentLesson.words[0]);
@@ -252,6 +277,10 @@ export const FlashcardScreen: React.FC = () => {
 
   // Reset states on card switch
   useEffect(() => {
+    if (flipTimeoutRef.current) {
+      clearTimeout(flipTimeoutRef.current);
+      flipTimeoutRef.current = null;
+    }
     setIsFlipped(false);
     setInputAnswer('');
     setCheckResult('idle');
@@ -302,6 +331,10 @@ export const FlashcardScreen: React.FC = () => {
 
   // Chuyển sang thẻ tiếp theo trong hàng đợi
   const handleNextCard = useCallback(() => {
+    if (flipTimeoutRef.current) {
+      clearTimeout(flipTimeoutRef.current);
+      flipTimeoutRef.current = null;
+    }
     setIsFlipped(false);
     setInputAnswer('');
     setCheckResult('idle');
@@ -316,6 +349,10 @@ export const FlashcardScreen: React.FC = () => {
   }, [currentIndex, sessionQueue.length]);
 
   const handlePrevCard = useCallback(() => {
+    if (flipTimeoutRef.current) {
+      clearTimeout(flipTimeoutRef.current);
+      flipTimeoutRef.current = null;
+    }
     setIsFlipped(false);
     setInputAnswer('');
     setCheckResult('idle');
@@ -426,7 +463,13 @@ export const FlashcardScreen: React.FC = () => {
       setCheckResult('correct');
       setMatchedType(isReadingMatch ? 'reading' : 'han_viet');
       speakJapanese(currentWord.word);
-      setTimeout(() => setIsFlipped(true), 400);
+      if (flipTimeoutRef.current) {
+        clearTimeout(flipTimeoutRef.current);
+      }
+      flipTimeoutRef.current = window.setTimeout(() => {
+        setIsFlipped(true);
+        flipTimeoutRef.current = null;
+      }, 400);
 
       // Nếu từ này từng bị gõ sai trước khi gõ lại đúng:
       if (currentCardHadError) {
@@ -503,14 +546,7 @@ export const FlashcardScreen: React.FC = () => {
 
   // Khởi động lại phiên học
   const handleRestartSession = () => {
-    const queue = baseCardItems.map((item, idx) => ({
-      ...item,
-      sessionCardId: `${item.lessonId}_${item.word.id}_restart_${idx}`,
-      isRetry: false,
-    }));
-    setSessionQueue(queue);
-    setCurrentIndex(0);
-    setIsSessionFinished(false);
+    setSessionKey((k) => k + 1);
   };
 
   return (
@@ -808,9 +844,11 @@ export const FlashcardScreen: React.FC = () => {
             </button>
             <button
               onClick={() => {
-                setFilterScope('chua_nho');
-                setCurrentIndex(0);
-                setIsSessionFinished(false);
+                if (filterScope === 'chua_nho') {
+                  setSessionKey((k) => k + 1);
+                } else {
+                  setFilterScope('chua_nho');
+                }
               }}
               className="w-full py-3 bg-rose-50 hover:bg-rose-100 text-rose-700 font-extrabold text-xs rounded-xl border border-rose-200 transition flex items-center justify-center gap-2"
             >
