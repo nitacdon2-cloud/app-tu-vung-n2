@@ -1,12 +1,16 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { useApp } from '../context/AppContext';
 import { Word } from '../types/vocab';
 import { 
   Volume2, Trophy, RotateCcw, User, CheckCircle2, Grid, 
-  BookOpen, Eye, EyeOff, Sparkles, Check, ArrowRight, CornerDownLeft
+  BookOpen, Eye, EyeOff, Sparkles, Check, ArrowRight, CornerDownLeft,
+  Lightbulb, Languages, ExternalLink, HelpCircle
 } from 'lucide-react';
 import { speakJapanese, playFeedbackSound } from '../services/audioService';
 import { recordTestAnswer, getWordState } from '../services/storageService';
+import { getAllGrammar } from '../services/grammarDataLoader';
+import { GrammarItem } from '../types/grammar';
+import { getOfflineHanViet, openMaziiExternal } from '../services/maziiService';
 
 export type TestQuestionType = 'kanji_to_meaning' | 'meaning_to_word' | 'fill_in_blank';
 
@@ -32,6 +36,44 @@ interface BlankResult {
   translationVi: string;
   matchedPart: string;
 }
+
+// Trích xuất các từ khóa đặc trưng từ mẫu ngữ pháp để quét trong câu ví dụ
+const extractSearchKeywords = (grammar: string): string[] => {
+  const parts = grammar.split(/[・／/,、]/).map((p) => p.trim());
+  const keywords: string[] = [];
+  for (const part of parts) {
+    const clean = part.replace(/[〜～~()（）\s]/g, '').trim();
+    if (clean.length >= 2) {
+      keywords.push(clean);
+    }
+  }
+  return keywords;
+};
+
+// Tìm các mẫu ngữ pháp N2 xuất hiện trong câu ví dụ
+const findGrammarInSentence = (sentence: string, allGrammar: GrammarItem[]): GrammarItem[] => {
+  if (!sentence || sentence.length < 3) return [];
+  const matched: { item: GrammarItem; score: number }[] = [];
+
+  for (const g of allGrammar) {
+    const keywords = extractSearchKeywords(g.grammar);
+    let bestScore = 0;
+    for (const kw of keywords) {
+      if (sentence.includes(kw)) {
+        if (kw.length > bestScore) {
+          bestScore = kw.length;
+        }
+      }
+    }
+    if (bestScore > 0) {
+      matched.push({ item: g, score: bestScore });
+    }
+  }
+
+  // Ưu tiên mẫu dài hơn (độ khớp cao hơn)
+  matched.sort((a, b) => b.score - a.score);
+  return matched.slice(0, 2).map((m) => m.item);
+};
 
 // Hàm thông minh tách câu ví dụ thành chỗ trống （　　　）
 const findBestBlank = (word: Word): BlankResult | null => {
@@ -102,7 +144,12 @@ export const TestRunnerScreen: React.FC = () => {
   const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(null);
   const [attemptedIndices, setAttemptedIndices] = useState<number[]>([]);
   const [hasScoredCurrentQuestion, setHasScoredCurrentQuestion] = useState<boolean>(false);
-  const [showVietnameseHint, setShowVietnameseHint] = useState<boolean>(true);
+  
+  // Trạng thái người dùng bấm xem trước gợi ý nghĩa trước khi trả lời (mặc định là ẨN)
+  const [userRevealedHint, setUserRevealedHint] = useState<boolean>(false);
+
+  // Tab phân tích sau khi trả lời: 'giai_thich' (Mặc định) | 'tu_vung' | 'ngu_phap'
+  const [activeExplanationTab, setActiveExplanationTab] = useState<'giai_thich' | 'tu_vung' | 'ngu_phap'>('giai_thich');
 
   const [score, setScore] = useState({ correct: 0, wrong: 0 });
   const [isFinished, setIsFinished] = useState(false);
@@ -244,6 +291,8 @@ export const TestRunnerScreen: React.FC = () => {
     setSelectedOptionIndex(null);
     setAttemptedIndices([]);
     setHasScoredCurrentQuestion(false);
+    setUserRevealedHint(false);
+    setActiveExplanationTab('giai_thich');
 
     if (currentQ && currentQ.word) {
       if (currentQ.qType === 'kanji_to_meaning') {
@@ -251,6 +300,57 @@ export const TestRunnerScreen: React.FC = () => {
       }
     }
   }, [currentIndex]);
+
+  const allGrammar = useMemo(() => getAllGrammar(), []);
+
+  // Nhận diện mẫu ngữ pháp N2 xuất hiện trong câu ví dụ
+  const matchedGrammar = useMemo(() => {
+    if (!currentQ || !currentQ.originalSentence) return [];
+    return findGrammarInSentence(currentQ.originalSentence, allGrammar);
+  }, [currentQ, allGrammar]);
+
+  // Quét các từ vựng N2 khác có trong câu ví dụ
+  const sentenceWords = useMemo(() => {
+    if (!currentQ || !currentQ.originalSentence) return [];
+    const sentence = currentQ.originalSentence;
+    const targetWord = currentQ.word.word;
+    const found: Word[] = [];
+    const seen = new Set<string>();
+    seen.add(targetWord);
+
+    for (const l of lessons) {
+      for (const w of l.words) {
+        if (w.word.length >= 2 && !seen.has(w.word) && sentence.includes(w.word)) {
+          seen.add(w.word);
+          found.push(w);
+          if (found.length >= 4) break;
+        }
+      }
+      if (found.length >= 4) break;
+    }
+    return found;
+  }, [currentQ, lessons]);
+
+  // Danh sách các phương án sai để đối chiếu giải thích
+  const distractorOptions = useMemo(() => {
+    if (!currentQ) return [];
+    return currentQ.options.filter((opt) => opt.text !== currentQ.correctAnswer);
+  }, [currentQ]);
+
+  // Âm Hán Việt của từ đang kiểm tra
+  const currentWordHanViet = useMemo(() => {
+    if (!currentQ || !currentQ.word) return '';
+    if (currentQ.word.han_viet) return currentQ.word.han_viet;
+    return currentQ.word.word
+      .split('')
+      .filter((c) => '\u4e00' <= c && c <= '\u9fff')
+      .map((k) => getOfflineHanViet(k))
+      .filter(Boolean)
+      .join(' ');
+  }, [currentQ]);
+
+  // Điều kiện hiển thị nghĩa tiếng Việt: Chỉ hiển thị sau khi đã trả lời hoặc chủ động bấm xem gợi ý
+  const shouldShowTranslation = selectedOptionIndex !== null || userRevealedHint;
 
   if (!currentQ) return null;
 
@@ -289,8 +389,11 @@ export const TestRunnerScreen: React.FC = () => {
   };
 
   const handlePlaySentenceAudio = () => {
-    if (currentQ.originalSentence) {
+    if (selectedOptionIndex !== null && currentQ.originalSentence) {
       speakJapanese(currentQ.originalSentence);
+    } else if (currentQ.questionText) {
+      // Trước khi trả lời, đọc lướt câu và chừa trống để không làm lộ đáp án
+      speakJapanese(currentQ.questionText.replace(/（　　　）/g, ' '));
     } else {
       speakJapanese(currentQ.word.word);
     }
@@ -415,19 +518,6 @@ export const TestRunnerScreen: React.FC = () => {
               </span>
 
               <div className="flex items-center gap-1.5">
-                {/* Toggle Show/Hide Vietnamese Hint */}
-                <button
-                  onClick={() => setShowVietnameseHint(!showVietnameseHint)}
-                  className={`p-1.5 rounded-lg transition ${
-                    showVietnameseHint 
-                      ? 'text-teal-600 hover:bg-teal-50' 
-                      : 'text-gray-400 hover:bg-gray-100'
-                  }`}
-                  title={showVietnameseHint ? 'Ẩn dịch nghĩa tiếng Việt' : 'Hiện dịch nghĩa tiếng Việt'}
-                >
-                  {showVietnameseHint ? <Eye className="w-4 h-4" /> : <EyeOff className="w-4 h-4" />}
-                </button>
-
                 {/* Speak Sentence Button */}
                 <button
                   onClick={handlePlaySentenceAudio}
@@ -453,20 +543,27 @@ export const TestRunnerScreen: React.FC = () => {
               ))}
             </h2>
 
-            {/* Vietnamese Translation (Toggleable) */}
+            {/* Vietnamese Translation (Ẩn trước khi trả lời, hiện sau khi trả lời) */}
             {currentQ.questionSubText && (
               <div className="text-left pt-1">
-                {showVietnameseHint ? (
-                  <p className="text-xs sm:text-sm text-gray-600 font-medium italic bg-gray-50/80 p-2.5 rounded-xl border border-gray-100">
+                {shouldShowTranslation ? (
+                  <p className="text-xs sm:text-sm text-gray-700 font-medium italic bg-teal-50/70 p-2.5 rounded-xl border border-teal-100 animate-in fade-in duration-200">
                     💡 <b>Dịch:</b> {currentQ.questionSubText}
                   </p>
                 ) : (
-                  <button
-                    onClick={() => setShowVietnameseHint(true)}
-                    className="text-[11px] text-gray-400 hover:text-primary underline"
-                  >
-                    Bấm để xem gợi ý dịch nghĩa tiếng Việt
-                  </button>
+                  <div className="flex items-center justify-between p-2 bg-gray-50 rounded-xl border border-dashed border-gray-200">
+                    <span className="text-[11px] text-gray-400 italic">
+                      💡 Nghĩa, giải thích & ngữ pháp sẽ mở khóa sau khi bạn chọn đáp án
+                    </span>
+                    <button
+                      onClick={() => setUserRevealedHint(true)}
+                      className="text-[11px] text-teal-600 hover:text-teal-800 font-bold flex items-center gap-1 px-2 py-0.5 rounded-lg hover:bg-teal-50 transition flex-shrink-0"
+                      title="Xem trước gợi ý dịch nghĩa"
+                    >
+                      <Eye className="w-3.5 h-3.5" />
+                      <span>Gợi ý nghĩa</span>
+                    </button>
+                  </div>
                 )}
               </div>
             )}
@@ -536,105 +633,375 @@ export const TestRunnerScreen: React.FC = () => {
         </button>
       </div>
 
-      {/* Bottom Result & Explanation Banner */}
+      {/* Bottom Result & Explanation Card */}
       {activeOption && (
         <div
-          className={`rounded-3xl p-4 sm:p-5 border shadow-sm transition-all duration-200 animate-in fade-in slide-in-from-bottom-2 ${
+          className={`rounded-3xl p-4 sm:p-5 border shadow-lg transition-all duration-200 animate-in fade-in slide-in-from-bottom-2 space-y-3.5 ${
             isSelectedCorrect
-              ? 'bg-[#DCFCE7] border-emerald-200/80 text-[#166534]'
-              : 'bg-[#FFEBEB] border-rose-200/80 text-[#EF4444]'
+              ? 'bg-[#DCFCE7]/90 border-emerald-300/80 text-[#166534]'
+              : 'bg-[#FFF1F2]/95 border-rose-300/80 text-[#9F1239]'
           }`}
         >
-          {/* Top Row: Icon + Status Text on left, Avatar & Speaker on right */}
-          <div className="flex items-center justify-between mb-2">
-            <div className="flex items-center gap-2">
+          {/* Top Row: Icon + Status Text on left, Mazii & Speaker on right */}
+          <div className="flex items-center justify-between pb-2 border-b border-gray-200/50">
+            <div className="flex items-center gap-2.5">
               {isSelectedCorrect ? (
                 <>
-                  <div className="w-7 h-7 rounded-full bg-[#10B981] text-white flex items-center justify-center font-black text-xs shadow-sm">
+                  <div className="w-8 h-8 rounded-full bg-emerald-500 text-white flex items-center justify-center font-black text-sm shadow-md shadow-emerald-500/20 flex-shrink-0">
                     ✓
                   </div>
-                  <span className="font-extrabold text-base text-[#16A34A]">Chính Xác!</span>
+                  <div>
+                    <span className="font-extrabold text-base text-emerald-800">Chính Xác!</span>
+                    <span className="block text-xs font-semibold text-emerald-700">
+                      Rất tốt, bạn đã chọn đúng từ phù hợp với câu.
+                    </span>
+                  </div>
                 </>
               ) : (
                 <>
-                  <div className="w-7 h-7 rounded-full bg-[#EF4444] text-white flex items-center justify-center font-black text-xs shadow-sm">
+                  <div className="w-8 h-8 rounded-full bg-rose-500 text-white flex items-center justify-center font-black text-sm shadow-md shadow-rose-500/20 flex-shrink-0">
                     ✕
                   </div>
                   <div>
-                    <span className="font-extrabold text-base text-[#EF4444]">Chưa Chính Xác</span>
-                    <span className="block text-xs font-bold text-gray-700">
-                      Đáp án đúng: <b className="text-emerald-700 font-japanese font-black">{currentQ.correctAnswer}</b>
+                    <span className="font-extrabold text-base text-rose-600">Chưa Chính Xác</span>
+                    <span className="block text-xs font-bold text-gray-800">
+                      Đáp án đúng: <b className="text-emerald-700 font-japanese font-black text-sm">{currentQ.correctAnswer}</b>
                     </span>
                   </div>
                 </>
               )}
             </div>
 
-            {/* Cyan Avatar (Tra Mazii) & Speaker buttons */}
-            <div className="flex items-center gap-2">
+            {/* Tra Mazii & Audio Buttons */}
+            <div className="flex items-center gap-1.5 flex-shrink-0">
               <button
-                onClick={() => setMaziiQuery(activeOption.wordObj.word)}
-                className="w-8 h-8 rounded-full bg-[#00BCD4] hover:bg-cyan-600 text-white flex items-center justify-center shadow-sm active:scale-90 transition"
+                onClick={() => setMaziiQuery(currentQ.word.word)}
+                className="p-2 rounded-xl bg-cyan-600 hover:bg-cyan-700 text-white text-xs font-bold transition flex items-center gap-1 shadow-xs active:scale-95"
                 title="Tra từ điển Mazii"
               >
-                <User className="w-4 h-4 fill-white text-[#00BCD4]" />
+                <User className="w-4 h-4 fill-white" />
+                <span className="hidden xs:inline">Tra Mazii</span>
               </button>
               <button
-                onClick={() => speakJapanese(activeOption.wordObj.word)}
-                className="w-8 h-8 rounded-full bg-[#00BCD4] hover:bg-cyan-600 text-white flex items-center justify-center shadow-sm active:scale-90 transition"
-                title="Phát âm từ"
+                onClick={() => speakJapanese(currentQ.word.word)}
+                className="p-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white transition shadow-xs active:scale-95"
+                title="Phát âm từ vựng"
               >
-                <Volume2 className="w-4.5 h-4.5" />
+                <Volume2 className="w-4 h-4" />
               </button>
             </div>
           </div>
 
-          {/* Completed Sentence Preview if fill_in_blank and correct */}
-          {currentQ.qType === 'fill_in_blank' && currentQ.originalSentence && isSelectedCorrect && (
-            <div className="p-3 bg-white/70 rounded-2xl border border-emerald-200/60 mb-2 space-y-1">
+          {/* Completed Sentence Preview if fill_in_blank */}
+          {currentQ.originalSentence && (
+            <div className="p-3 bg-white/90 rounded-2xl border border-gray-200/80 shadow-xs space-y-1.5 text-left">
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-bold text-emerald-800 uppercase">Câu hoàn chỉnh:</span>
+                <span className="text-[11px] font-black text-emerald-900 uppercase tracking-wider flex items-center gap-1">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                  <span>Câu hoàn chỉnh:</span>
+                </span>
                 <button
                   onClick={() => speakJapanese(currentQ.originalSentence || '')}
-                  className="text-emerald-700 hover:text-emerald-900 flex items-center gap-1 text-[11px] font-bold"
+                  className="text-emerald-700 hover:text-emerald-900 bg-emerald-50 px-2 py-0.5 rounded-lg border border-emerald-200 flex items-center gap-1 text-[11px] font-bold transition shadow-2xs active:scale-95"
                   title="Nghe lại toàn bộ câu"
                 >
-                  <Volume2 className="w-3.5 h-3.5" />
+                  <Volume2 className="w-3.5 h-3.5 text-emerald-600" />
                   <span>Nghe câu</span>
                 </button>
               </div>
-              <p className="text-sm font-bold text-gray-900 font-japanese leading-snug">
-                {currentQ.originalSentence}
+              <p className="text-base font-bold text-gray-900 font-japanese leading-relaxed">
+                {currentQ.matchedPart ? (
+                  currentQ.originalSentence.split(currentQ.matchedPart).map((part, pIdx, arr) => (
+                    <React.Fragment key={pIdx}>
+                      <span>{part}</span>
+                      {pIdx < arr.length - 1 && (
+                        <span className="inline-block mx-1 px-2 py-0.5 bg-emerald-100 text-emerald-900 font-black rounded-lg border border-emerald-300 shadow-2xs">
+                          {currentQ.matchedPart}
+                        </span>
+                      )}
+                    </React.Fragment>
+                  ))
+                ) : (
+                  currentQ.originalSentence
+                )}
               </p>
               {currentQ.questionSubText && (
-                <p className="text-xs text-gray-600 italic">
-                  {currentQ.questionSubText}
+                <p className="text-xs text-gray-700 font-medium italic pt-1 border-t border-gray-100">
+                  💡 <b>Dịch nghĩa:</b> {currentQ.questionSubText}
                 </p>
               )}
             </div>
           )}
 
-          {/* Explanation Text Details for the CURRENTLY SELECTED Option */}
-          <div className="space-y-0.5 pt-1">
-            <div className="flex items-baseline gap-2 flex-wrap">
-              <span className={`text-xl font-black font-japanese ${isSelectedCorrect ? 'text-[#166534]' : 'text-gray-900'}`}>
-                {activeOption.wordObj.word}
-              </span>
-              {activeOption.wordObj.reading && (
-                <span className={`text-sm font-bold font-japanese ${isSelectedCorrect ? 'text-[#15803D]' : 'text-gray-600'}`}>
-                  「{activeOption.wordObj.reading}」
-                </span>
-              )}
-              {activeOption.wordObj.han_viet && (
-                <span className="px-2 py-0.5 bg-amber-100 text-amber-900 font-black text-[10px] rounded uppercase">
-                  [{activeOption.wordObj.han_viet}]
-                </span>
-              )}
-            </div>
-            <div className={`text-sm font-semibold ${isSelectedCorrect ? 'text-[#15803D]' : 'text-gray-700'}`}>
-              {activeOption.wordObj.meaning}
-            </div>
+          {/* 3 Nav Tabs: [Giải Thích] - [Từ Vựng] - [Ngữ Pháp] */}
+          <div className="flex items-center gap-1 p-1 bg-white/80 rounded-2xl text-xs font-bold border border-gray-200/60 shadow-2xs">
+            <button
+              onClick={() => setActiveExplanationTab('giai_thich')}
+              className={`flex-1 py-2 rounded-xl transition flex items-center justify-center gap-1.5 ${
+                activeExplanationTab === 'giai_thich'
+                  ? 'bg-blue-600 text-white shadow-xs font-black'
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              <Lightbulb className="w-3.5 h-3.5" />
+              <span>Giải Thích</span>
+            </button>
+
+            <button
+              onClick={() => setActiveExplanationTab('tu_vung')}
+              className={`flex-1 py-2 rounded-xl transition flex items-center justify-center gap-1.5 ${
+                activeExplanationTab === 'tu_vung'
+                  ? 'bg-teal-600 text-white shadow-xs font-black'
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              <Languages className="w-3.5 h-3.5" />
+              <span>Từ Vựng</span>
+            </button>
+
+            <button
+              onClick={() => setActiveExplanationTab('ngu_phap')}
+              className={`flex-1 py-2 rounded-xl transition flex items-center justify-center gap-1.5 ${
+                activeExplanationTab === 'ngu_phap'
+                  ? 'bg-purple-600 text-white shadow-xs font-black'
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>Ngữ Pháp</span>
+            </button>
           </div>
+
+          {/* Tab 1: Giải Thích Chi Tiết & Dịch */}
+          {activeExplanationTab === 'giai_thich' && (
+            <div className="space-y-2.5 pt-1 text-left text-xs animate-in fade-in duration-150">
+              <div className="p-3 bg-white/90 rounded-2xl border border-gray-200/80 space-y-2 shadow-2xs">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="font-extrabold text-primary text-base font-japanese">
+                    {currentQ.word.word}
+                  </span>
+                  {currentQ.word.reading && (
+                    <span className="text-gray-600 font-bold font-japanese">
+                      「{currentQ.word.reading}」
+                    </span>
+                  )}
+                  {currentWordHanViet && (
+                    <span className="px-2 py-0.5 bg-amber-100 text-amber-900 font-black text-[10px] rounded uppercase">
+                      [{currentWordHanViet}]
+                    </span>
+                  )}
+                </div>
+                <p className="text-gray-900 font-bold text-xs">
+                  👉 <b>Ý nghĩa từ:</b> {currentQ.word.meaning}
+                </p>
+                {currentQ.word.word_type && (
+                  <p className="text-gray-500 text-[11px]">
+                    📌 <b>Từ loại:</b> {currentQ.word.word_type}
+                  </p>
+                )}
+                <div className="text-gray-700 text-[11px] leading-relaxed border-t border-gray-100 pt-2 space-y-1">
+                  <p>
+                    💬 <b>Lý do chọn:</b> Trong câu ví dụ trên, ngữ cảnh yêu cầu một từ có nghĩa là <b>"{currentQ.word.meaning}"</b> để ghép với câu tạo thành ý nghĩa hoàn chỉnh: <i>"{currentQ.questionSubText}"</i>.
+                  </p>
+                </div>
+              </div>
+
+              {/* So sánh với các phương án còn lại */}
+              {distractorOptions.length > 0 && (
+                <div className="p-3 bg-white/80 rounded-2xl border border-gray-200/70 space-y-2 shadow-2xs">
+                  <span className="text-[11px] font-black text-gray-700 uppercase tracking-wide block">
+                    Đối chiếu các phương án còn lại:
+                  </span>
+                  <div className="space-y-1.5">
+                    {distractorOptions.map((opt, oIdx) => {
+                      const optHanViet = opt.wordObj.han_viet || opt.wordObj.word.split('').filter(c => '\u4e00' <= c && c <= '\u9fff').map(k => getOfflineHanViet(k)).filter(Boolean).join(' ');
+                      return (
+                        <div key={oIdx} className="p-2 bg-gray-50 rounded-xl border border-gray-200/70 flex items-start justify-between gap-2 text-[11px]">
+                          <div>
+                            <span className="font-bold text-gray-900 font-japanese mr-1">
+                              {opt.wordObj.word}
+                            </span>
+                            {opt.wordObj.reading && (
+                              <span className="text-gray-500 mr-1 font-japanese">
+                                ({opt.wordObj.reading})
+                              </span>
+                            )}
+                            {optHanViet && (
+                              <span className="text-[10px] bg-amber-100 text-amber-900 font-bold px-1.5 py-0.2 rounded uppercase mr-1">
+                                [{optHanViet}]
+                              </span>
+                            )}
+                            <span className="text-gray-700 font-medium">
+                              : {opt.wordObj.meaning}
+                            </span>
+                          </div>
+                          <span className="text-[10px] text-rose-500 font-bold flex-shrink-0">
+                            ✕ Không hợp nghĩa
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Tab 2: Từ Vựng Trong Câu */}
+          {activeExplanationTab === 'tu_vung' && (
+            <div className="space-y-2.5 pt-1 text-left text-xs animate-in fade-in duration-150">
+              {/* Từ vựng trọng tâm */}
+              <div className="p-3 bg-white/90 rounded-2xl border border-teal-200 shadow-2xs space-y-1.5">
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] font-black text-teal-800 uppercase tracking-wider">
+                    Từ vựng trọng tâm:
+                  </span>
+                  <button
+                    onClick={() => speakJapanese(currentQ.word.word)}
+                    className="text-teal-700 hover:text-teal-900 flex items-center gap-1 text-[11px] font-bold"
+                  >
+                    <Volume2 className="w-3.5 h-3.5" />
+                    <span>Phát âm</span>
+                  </button>
+                </div>
+                <div className="flex items-baseline gap-2 flex-wrap">
+                  <span className="text-xl font-black text-gray-900 font-japanese">
+                    {currentQ.word.word}
+                  </span>
+                  {currentQ.word.reading && (
+                    <span className="text-sm font-bold text-teal-700 font-japanese">
+                      「{currentQ.word.reading}」
+                    </span>
+                  )}
+                  {currentWordHanViet && (
+                    <span className="px-2 py-0.5 bg-amber-100 text-amber-900 font-black text-[10px] rounded uppercase">
+                      [{currentWordHanViet}]
+                    </span>
+                  )}
+                </div>
+                <p className="text-gray-800 font-bold text-xs">
+                  {currentQ.word.meaning}
+                </p>
+                {currentQ.word.word_type && (
+                  <p className="text-gray-500 text-[10px]">
+                    Từ loại: {currentQ.word.word_type}
+                  </p>
+                )}
+              </div>
+
+              {/* Các từ vựng N2 khác trong câu */}
+              {sentenceWords.length > 0 ? (
+                <div className="p-3 bg-white/90 rounded-2xl border border-gray-200/80 shadow-2xs space-y-2">
+                  <span className="text-[11px] font-black text-gray-700 uppercase tracking-wide block">
+                    Các từ vựng khác xuất hiện trong câu:
+                  </span>
+                  <div className="space-y-1.5">
+                    {sentenceWords.map((sw, sIdx) => {
+                      const sHanViet = sw.han_viet || sw.word.split('').filter(c => '\u4e00' <= c && c <= '\u9fff').map(k => getOfflineHanViet(k)).filter(Boolean).join(' ');
+                      return (
+                        <div key={sIdx} className="p-2 bg-gray-50 rounded-xl border border-gray-200/70 flex items-center justify-between gap-2">
+                          <div className="min-w-0">
+                            <div className="flex items-center gap-1.5 flex-wrap">
+                              <span className="font-bold text-gray-900 font-japanese text-sm">
+                                {sw.word}
+                              </span>
+                              {sw.reading && (
+                                <span className="text-gray-500 text-xs font-japanese">
+                                  ({sw.reading})
+                                </span>
+                              )}
+                              {sHanViet && (
+                                <span className="text-[10px] bg-amber-100 text-amber-900 font-bold px-1.5 py-0.2 rounded uppercase">
+                                  [{sHanViet}]
+                                </span>
+                              )}
+                            </div>
+                            <p className="text-gray-700 text-xs mt-0.5 truncate">
+                              {sw.meaning}
+                            </p>
+                          </div>
+                          <div className="flex items-center gap-1 flex-shrink-0">
+                            <button
+                              onClick={() => openMaziiExternal(sw.word, 'word')}
+                              className="p-1.5 text-cyan-600 hover:text-cyan-800 rounded-lg hover:bg-cyan-50 transition"
+                              title="Tra Mazii"
+                            >
+                              <User className="w-3.5 h-3.5" />
+                            </button>
+                            <button
+                              onClick={() => speakJapanese(sw.word)}
+                              className="p-1.5 text-gray-400 hover:text-primary transition"
+                              title="Nghe phát âm"
+                            >
+                              <Volume2 className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ) : (
+                <div className="p-3 bg-white/70 rounded-2xl border border-gray-200 text-center text-gray-500 text-[11px]">
+                  Câu ví dụ ngắn gọn, tập trung chủ yếu vào từ vựng trọng tâm trên.
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Tab 3: Ngữ Pháp Câu */}
+          {activeExplanationTab === 'ngu_phap' && (
+            <div className="space-y-2.5 pt-1 text-left text-xs animate-in fade-in duration-150">
+              {matchedGrammar.length > 0 ? (
+                <div className="space-y-2">
+                  {matchedGrammar.map((gm, gIdx) => (
+                    <div key={gIdx} className="p-3 bg-white/95 rounded-2xl border border-purple-200 shadow-2xs space-y-1.5">
+                      <div className="flex items-center justify-between">
+                        <span className="px-2 py-0.5 bg-purple-100 text-purple-900 font-black text-[10px] rounded-md uppercase">
+                          Ngữ pháp N2 {gm.code ? `(${gm.code})` : ''}
+                        </span>
+                        <span className="text-xs font-black text-purple-700 font-japanese">
+                          {gm.grammar}
+                        </span>
+                      </div>
+                      <h4 className="font-extrabold text-gray-900 text-sm font-japanese">
+                        {gm.title}
+                      </h4>
+                      <div className="p-2 bg-purple-50/60 rounded-xl border border-purple-100 text-xs space-y-1">
+                        <p className="font-bold text-purple-900">
+                          💡 <b>Ý nghĩa:</b> {gm.meaning}
+                        </p>
+                        {gm.connection && (
+                          <p className="text-gray-700 text-[11px]">
+                            🔗 <b>Cấu trúc kết nối:</b> <span className="font-mono font-medium">{gm.connection}</span>
+                          </p>
+                        )}
+                      </div>
+                      {gm.explanation && (
+                        <p className="text-gray-700 text-[11px] whitespace-pre-line leading-relaxed pt-0.5">
+                          {gm.explanation}
+                        </p>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="p-3 bg-white/90 rounded-2xl border border-gray-200/80 shadow-2xs space-y-2">
+                  <span className="text-[11px] font-black text-gray-700 uppercase tracking-wide block">
+                    Cấu trúc câu & Điểm ngữ pháp sử dụng:
+                  </span>
+                  <p className="text-gray-800 text-xs leading-relaxed">
+                    Câu ví dụ này kết hợp các trợ từ tiếng Nhật chuẩn xác để biểu đạt quan hệ giữa các thành phần trong câu:
+                  </p>
+                  <div className="p-2.5 bg-gray-50 rounded-xl border border-gray-200/70 space-y-1.5 text-[11px] text-gray-700">
+                    <p>• <b>Chủ ngữ & Trạng từ:</b> Bổ nghĩa về thời gian, địa điểm hoặc mức độ của hành động.</p>
+                    <p>• <b>Trợ từ kết nối:</b> Sử dụng các trợ từ quen thuộc như を (tân ngữ trực tiếp), に (mục tiêu/đối tượng), で (nơi chốn/phương tiện)...</p>
+                    <p>• <b>Thể của từ:</b> Từ vựng được kết hợp hài hòa theo ngữ cảnh tự nhiên của kỳ thi JLPT N2.</p>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       )}
     </div>
