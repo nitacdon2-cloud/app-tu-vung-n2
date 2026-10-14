@@ -45,6 +45,7 @@ interface AppContextType {
   isStudyPickerOpen: boolean;
   isMobileFrame: boolean;
   testConfig: TestConfig;
+  flashcardSelectedLessons: string[];
 
   // Grammar State
   grammarList: GrammarItem[];
@@ -66,6 +67,7 @@ interface AppContextType {
   setIsMobileFrame: React.Dispatch<React.SetStateAction<boolean>>;
   setTestConfig: React.Dispatch<React.SetStateAction<TestConfig>>;
   setUserProgress: React.Dispatch<React.SetStateAction<UserProgress>>;
+  setFlashcardSelectedLessons: React.Dispatch<React.SetStateAction<string[]>>;
 
   // Grammar Actions
   setGrammarMask: React.Dispatch<React.SetStateAction<GrammarMaskSettings>>;
@@ -122,6 +124,23 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     maxQuestions: 20,
     autoNext: false,
   });
+
+  const [flashcardSelectedLessons, setFlashcardSelectedLessons] = useState<string[]>(() => {
+    try {
+      const saved = localStorage.getItem('flashcard_selected_lessons');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
+    } catch (e) {}
+    return [lessons[0]?.lesson_id || 'sec_1_1'];
+  });
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('flashcard_selected_lessons', JSON.stringify(flashcardSelectedLessons));
+    } catch (e) {}
+  }, [flashcardSelectedLessons]);
 
   // Grammar states
   const [grammarList] = useState<GrammarItem[]>(getAllGrammar);
@@ -213,6 +232,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         isStudyPickerOpen,
         isMobileFrame,
         testConfig,
+        flashcardSelectedLessons,
 
         grammarList,
         grammarProgress,
@@ -232,6 +252,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         setIsMobileFrame,
         setTestConfig,
         setUserProgress,
+        setFlashcardSelectedLessons,
 
         setGrammarMask,
         setCurrentGrammarChapter,

@@ -9,7 +9,8 @@ export const Header: React.FC = () => {
   const { 
     currentScreen, setScreen, lessons, currentLessonId, setCurrentLessonId,
     currentLesson, isMobileFrame, setIsMobileFrame, activeModule, setActiveModule,
-    grammarList, currentGrammarChapter, setCurrentGrammarChapter, testConfig, selectedExam
+    grammarList, currentGrammarChapter, setCurrentGrammarChapter, testConfig, selectedExam,
+    flashcardSelectedLessons, setFlashcardSelectedLessons
   } = useApp();
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -49,7 +50,11 @@ export const Header: React.FC = () => {
     if (currentScreen === 'test_runner') return testConfig.testType === 'vi_du' ? 'Bài Test Qua Ví Dụ' : 'Bài Test Từ Vựng';
     if (currentScreen === 'learning_mode') return 'Chế Độ Học';
     if (currentScreen === 'word_arrange') return 'Sắp Xếp Thành Từ';
-    if (currentScreen === 'flashcard') return 'Flashcard Từ Vựng';
+    if (currentScreen === 'flashcard') {
+      return flashcardSelectedLessons.length > 1
+        ? `Flashcard (${flashcardSelectedLessons.length} bài)`
+        : 'Flashcard Từ Vựng';
+    }
     return 'JMaster N2';
   };
 
@@ -134,6 +139,9 @@ export const Header: React.FC = () => {
                   key={lesson.lesson_id}
                   onClick={() => {
                     setCurrentLessonId(lesson.lesson_id);
+                    if (currentScreen === 'flashcard') {
+                      setFlashcardSelectedLessons([lesson.lesson_id]);
+                    }
                     setIsDropdownOpen(false);
                     if (currentScreen === 'lesson_grid') setScreen('word_list');
                   }}

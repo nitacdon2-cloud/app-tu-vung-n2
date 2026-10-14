@@ -4,12 +4,13 @@ import {
   Star, CheckCircle, Volume2, Search, RotateCw, ChevronLeft, 
   ChevronRight, Shuffle, Eye, ExternalLink, Sparkles, BookOpen, Globe,
   Keyboard, CheckCircle2, XCircle, ArrowRight, CornerDownLeft, RefreshCw,
-  ShieldAlert, Settings2, Trophy, Repeat, RotateCcw
+  ShieldAlert, Settings2, Trophy, Repeat, RotateCcw, Layers
 } from 'lucide-react';
 import { speakJapanese } from '../services/audioService';
 import { getWordState, toggleFavorite, setWordStatus } from '../services/storageService';
 import { openMaziiExternal, getOfflineHanViet } from '../services/maziiService';
 import { Word } from '../types/vocab';
+import { FlashcardLessonModal } from './FlashcardLessonModal';
 
 interface CardItem {
   word: Word;
@@ -91,8 +92,11 @@ export const FlashcardScreen: React.FC = () => {
     setScreen,
     setDetailWord,
     statusFilter,
+    flashcardSelectedLessons,
+    setFlashcardSelectedLessons,
   } = useApp();
 
+  const [isLessonModalOpen, setIsLessonModalOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [filterScope, setFilterScope] = useState<'tat_ca' | 'chua_nho' | 'da_nho' | 'thich'>(() => {
@@ -136,22 +140,33 @@ export const FlashcardScreen: React.FC = () => {
 
   const inputRef = useRef<HTMLInputElement>(null);
 
-  if (!currentLesson || !currentLesson.words.length) return null;
+  // Danh sách các bài học đang được chọn
+  const selectedLessons = useMemo(() => {
+    const list = lessons.filter((l) => flashcardSelectedLessons.includes(l.lesson_id));
+    if (list.length > 0) return list;
+    if (currentLesson) return [currentLesson];
+    return lessons.slice(0, 1);
+  }, [lessons, flashcardSelectedLessons, currentLesson]);
 
-  // Calculate counts for badges
+  if (!selectedLessons.length || !selectedLessons[0].words.length) return null;
+
+  // Calculate counts for badges across all selected lessons
   const counts = useMemo(() => {
-    let tatCa = currentLesson.words.length;
+    let tatCa = 0;
     let chuaNho = 0;
     let daNho = 0;
     let thichCurrent = 0;
     let thichAll = 0;
 
-    currentLesson.words.forEach((w) => {
-      const k = `${currentLesson.lesson_id}_${w.id}`;
-      const state = getWordState(userProgress, k);
-      if (state.status === 'chua_nho') chuaNho++;
-      if (state.status === 'da_nho') daNho++;
-      if (state.is_favorite) thichCurrent++;
+    selectedLessons.forEach((lesson) => {
+      lesson.words.forEach((w) => {
+        tatCa++;
+        const k = `${lesson.lesson_id}_${w.id}`;
+        const state = getWordState(userProgress, k);
+        if (state.status === 'chua_nho') chuaNho++;
+        if (state.status === 'da_nho') daNho++;
+        if (state.is_favorite) thichCurrent++;
+      });
     });
 
     lessons.forEach((l) => {
@@ -163,7 +178,7 @@ export const FlashcardScreen: React.FC = () => {
     });
 
     return { tatCa, chuaNho, daNho, thichCurrent, thichAll };
-  }, [lessons, currentLesson, userProgress]);
+  }, [lessons, selectedLessons, userProgress]);
 
   // Danh sách thẻ gốc theo bộ lọc
   const baseCardItems: CardItem[] = useMemo(() => {
@@ -181,20 +196,21 @@ export const FlashcardScreen: React.FC = () => {
       });
       items = allStarred;
     } else {
-      items = currentLesson.words
-        .filter((word) => {
-          const key = `${currentLesson.lesson_id}_${word.id}`;
+      selectedLessons.forEach((lesson) => {
+        lesson.words.forEach((word) => {
+          const key = `${lesson.lesson_id}_${word.id}`;
           const state = getWordState(userProgress, key);
-          if (filterScope === 'chua_nho') return state.status === 'chua_nho';
-          if (filterScope === 'da_nho') return state.status === 'da_nho';
-          if (filterScope === 'thich') return state.is_favorite;
-          return true;
-        })
-        .map((word) => ({
-          word,
-          lessonId: currentLesson.lesson_id,
-          lessonName: currentLesson.lesson_name,
-        }));
+          if (filterScope === 'chua_nho' && state.status !== 'chua_nho') return;
+          if (filterScope === 'da_nho' && state.status !== 'da_nho') return;
+          if (filterScope === 'thich' && !state.is_favorite) return;
+
+          items.push({
+            word,
+            lessonId: lesson.lesson_id,
+            lessonName: lesson.lesson_name,
+          });
+        });
+      });
     }
 
     if (isShuffled && items.length > 1) {
@@ -208,7 +224,7 @@ export const FlashcardScreen: React.FC = () => {
     }
 
     return items;
-  }, [lessons, currentLesson, filterScope, starredScope, isShuffled, shuffleKey]);
+  }, [lessons, selectedLessons, filterScope, starredScope, isShuffled, shuffleKey, userProgress]);
 
   // Hàng đợi thẻ trong phiên học (Session Queue)
   const [sessionQueue, setSessionQueue] = useState<CardItem[]>([]);
@@ -226,7 +242,7 @@ export const FlashcardScreen: React.FC = () => {
   }, [baseCardItems]);
 
   const currentItem = sessionQueue[currentIndex] || sessionQueue[0];
-  const currentWord = currentItem ? currentItem.word : currentLesson.words[0];
+  const currentWord = currentItem ? currentItem.word : (selectedLessons[0]?.words[0] || currentLesson.words[0]);
   const currentKey = currentItem ? `${currentItem.lessonId}_${currentItem.word.id}` : '';
   const currentWordState = getWordState(userProgress, currentKey);
 
@@ -498,7 +514,44 @@ export const FlashcardScreen: React.FC = () => {
   };
 
   return (
-    <div className="flex-1 bg-gray-50 flex flex-col justify-between p-4 max-w-lg mx-auto w-full select-none pb-8 overflow-y-auto">
+    <div className="flex-1 bg-gray-50 flex flex-col justify-between p-4 max-w-lg mx-auto w-full select-none pb-8 overflow-y-auto space-y-3">
+      {/* ── BỘ CHỌN BÀI HỌC FLASHCARD (MULTI-LESSON SELECTOR) ── */}
+      <div className="bg-gradient-to-r from-amber-500/10 via-orange-500/10 to-amber-500/15 border border-amber-300/80 rounded-3xl p-3 sm:p-3.5 shadow-sm flex items-center justify-between gap-2.5">
+        <div className="flex items-center gap-2.5 min-w-0">
+          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 to-orange-500 text-white flex items-center justify-center shadow-md shadow-amber-500/30 flex-shrink-0">
+            <BookOpen className="w-5 h-5" />
+          </div>
+          <div className="min-w-0">
+            <div className="flex items-center gap-1.5 flex-wrap">
+              <span className="text-[10px] font-black uppercase tracking-wider text-amber-900 bg-amber-100 border border-amber-300 px-2 py-0.5 rounded-md">
+                {selectedLessons.length === 1 ? '1 Bài học' : `${selectedLessons.length} Bài đã chọn`}
+              </span>
+              <span className="text-[11px] font-bold text-gray-600">
+                • {counts.tatCa} từ vựng
+              </span>
+            </div>
+            <h3
+              className="font-extrabold text-gray-900 text-xs sm:text-sm truncate mt-0.5"
+              title={selectedLessons.map((l) => l.lesson_name).join(', ')}
+            >
+              {selectedLessons.length === 1
+                ? `${selectedLessons[0].section_tag ? `Bài ${selectedLessons[0].section_tag}: ` : ''}${selectedLessons[0].lesson_name}`
+                : selectedLessons.length === lessons.length
+                ? `Tất cả bài học (${lessons.length} bài)`
+                : selectedLessons.map((l) => l.section_tag ? `Bài ${l.section_tag}` : l.lesson_name.split(' ')[0]).join(', ')}
+            </h3>
+          </div>
+        </div>
+
+        <button
+          onClick={() => setIsLessonModalOpen(true)}
+          className="px-3 py-2 bg-white hover:bg-amber-50 border border-amber-300 text-amber-950 font-black text-xs rounded-2xl shadow-xs transition active:scale-95 flex items-center gap-1.5 flex-shrink-0"
+        >
+          <Layers className="w-3.5 h-3.5 text-amber-600" />
+          <span>Đổi / Thêm bài</span>
+        </button>
+      </div>
+
       {/* Top Filter Controls */}
       <div className="bg-white rounded-3xl p-3.5 border border-gray-200/90 shadow-sm space-y-3">
         {/* Checkbox Mask Row */}
@@ -630,7 +683,7 @@ export const FlashcardScreen: React.FC = () => {
                     : 'text-amber-900 hover:bg-amber-100'
                 }`}
               >
-                Bài Này ({counts.thichCurrent})
+                {selectedLessons.length === 1 ? 'Bài Này' : 'Các Bài Đã Chọn'} ({counts.thichCurrent})
               </button>
               <button
                 onClick={() => {
@@ -724,7 +777,7 @@ export const FlashcardScreen: React.FC = () => {
               Tuyệt Vời! Đã Hoàn Thành!
             </h3>
             <p className="text-xs text-gray-600 max-w-sm mx-auto leading-relaxed">
-              Bạn đã vượt qua toàn bộ từ vựng trong bài! Tất cả các từ viết sai đã được rèn luyện và viết đúng thành công.
+              Bạn đã vượt qua toàn bộ từ vựng trong {selectedLessons.length === 1 ? 'bài học' : `${selectedLessons.length} bài học đã chọn`}! Tất cả các từ viết sai đã được rèn luyện và viết đúng thành công.
             </p>
           </div>
 
@@ -740,8 +793,8 @@ export const FlashcardScreen: React.FC = () => {
             </div>
             <div className="w-px bg-gray-200" />
             <div>
-              <span className="text-gray-500 block text-[10px]">TỔNG BÀI</span>
-              <span className="text-primary text-lg font-black">{currentLesson.words.length} từ</span>
+              <span className="text-gray-500 block text-[10px]">TỔNG TỪ</span>
+              <span className="text-primary text-lg font-black">{counts.tatCa} từ</span>
             </div>
           </div>
 
@@ -751,7 +804,7 @@ export const FlashcardScreen: React.FC = () => {
               className="w-full py-3 bg-primary hover:bg-blue-600 text-white font-extrabold text-xs rounded-xl shadow-md transition flex items-center justify-center gap-2"
             >
               <RotateCcw className="w-4 h-4" />
-              <span>Học lại bài này</span>
+              <span>Học lại {selectedLessons.length === 1 ? 'bài này' : 'các bài này'}</span>
             </button>
             <button
               onClick={() => {
@@ -762,6 +815,13 @@ export const FlashcardScreen: React.FC = () => {
               className="w-full py-3 bg-rose-50 hover:bg-rose-100 text-rose-700 font-extrabold text-xs rounded-xl border border-rose-200 transition flex items-center justify-center gap-2"
             >
               <span>Chỉ ôn các từ chưa thuộc ({counts.chuaNho})</span>
+            </button>
+            <button
+              onClick={() => setIsLessonModalOpen(true)}
+              className="w-full py-3 bg-amber-50 hover:bg-amber-100 text-amber-900 font-extrabold text-xs rounded-xl border border-amber-300 transition flex items-center justify-center gap-2"
+            >
+              <Layers className="w-4 h-4 text-amber-600" />
+              <span>Đổi / Thêm bài học ({selectedLessons.length} bài)</span>
             </button>
           </div>
         </div>
@@ -779,14 +839,14 @@ export const FlashcardScreen: React.FC = () => {
             <h3 className="font-extrabold text-gray-800 text-base">
               {filterScope === 'thich'
                 ? starredScope === 'current'
-                  ? 'Chưa có từ nào được đánh dấu sao trong bài này ⭐'
+                  ? `Chưa có từ nào được đánh dấu sao trong ${selectedLessons.length === 1 ? 'bài này' : 'các bài đã chọn'} ⭐`
                   : 'Chưa có từ nào được đánh dấu sao trong toàn bộ các bài ⭐'
                 : 'Đã ôn hết danh sách này!'}
             </h3>
             <p className="text-xs text-gray-500 mt-1 max-w-xs mx-auto">
               {filterScope === 'thich'
                 ? 'Hãy bấm vào biểu tượng ngôi sao ⭐ trên thẻ hoặc danh sách từ vựng để lưu lại các từ cần ưu tiên học kỹ.'
-                : 'Bạn có thể chuyển sang mục "Tất Cả" để ôn tập lại toàn bộ bài học.'}
+                : 'Bạn có thể chuyển sang mục "Tất Cả" để ôn tập lại toàn bộ từ vựng.'}
             </p>
           </div>
           <div className="flex flex-col gap-2 max-w-xs mx-auto pt-2">
@@ -803,7 +863,14 @@ export const FlashcardScreen: React.FC = () => {
               onClick={() => setFilterScope('tat_ca')}
               className="px-5 py-2.5 bg-primary hover:bg-blue-600 text-white font-bold text-xs rounded-xl shadow-md transition"
             >
-              Xem lại tất cả từ bài này ({currentLesson.words.length})
+              Xem lại tất cả từ ({counts.tatCa} từ)
+            </button>
+            <button
+              onClick={() => setIsLessonModalOpen(true)}
+              className="px-5 py-2.5 bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 font-bold text-xs rounded-xl shadow-xs transition flex items-center justify-center gap-1.5"
+            >
+              <Layers className="w-4 h-4 text-amber-600" />
+              <span>Đổi / Thêm bài học ({selectedLessons.length} bài đã chọn)</span>
             </button>
           </div>
         </div>
@@ -829,8 +896,12 @@ export const FlashcardScreen: React.FC = () => {
                   </span>
                 )}
 
-                {filterScope === 'thich' && starredScope === 'all' && currentItem?.lessonName && (
-                  <span className="px-2.5 py-0.5 bg-amber-100 text-amber-900 font-bold text-[10px] rounded-full">
+                {/* Huy hiệu hiển thị bài học của thẻ */}
+                {currentItem?.lessonName && (
+                  <span
+                    className="px-2.5 py-0.5 bg-blue-50 border border-blue-200 text-primary font-bold text-[10px] rounded-full max-w-[150px] truncate"
+                    title={currentItem.lessonName}
+                  >
                     {currentItem.lessonName}
                   </span>
                 )}
@@ -1258,6 +1329,18 @@ export const FlashcardScreen: React.FC = () => {
           </div>
         </div>
       )}
+
+      {/* Lesson Selection Modal */}
+      <FlashcardLessonModal
+        isOpen={isLessonModalOpen}
+        onClose={() => setIsLessonModalOpen(false)}
+        selectedLessonIds={flashcardSelectedLessons}
+        onConfirm={(newIds) => {
+          setFlashcardSelectedLessons(newIds);
+          setCurrentIndex(0);
+          setIsSessionFinished(false);
+        }}
+      />
     </div>
   );
 };

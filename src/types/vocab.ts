@@ -57,7 +57,8 @@ export type StatusFilter = 'tat_ca' | 'chua_nho' | 'da_nho' | 'thich';
 export type TestType = 
   | 'trac_nghiem'       // Chọn Đáp Án Đúng (4 đáp án)
   | 'vi_du'             // Test Qua Ví Dụ (Điền vào câu ví dụ - 4 đáp án)
-  | 'ghep_tu';          // Ghép Thẻ (Card Matching)
+  | 'ghep_tu'           // Ghép Thẻ (Card Matching)
+  | 'flashcard';        // Học Thẻ Flashcard
 
 export interface TestConfig {
   selectedLessons: string[]; // lesson_id list

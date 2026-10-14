@@ -1,10 +1,10 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
 import { TestType, StatusFilter } from '../types/vocab';
-import { Play, Check, BookOpen, Target, ListChecks, Sliders, Grid, CheckCircle2 } from 'lucide-react';
+import { Play, Check, BookOpen, Target, ListChecks, Sliders, Grid, CheckCircle2, Layers } from 'lucide-react';
 
 export const TestSetupScreen: React.FC = () => {
-  const { lessons, testConfig, setTestConfig, setScreen } = useApp();
+  const { lessons, testConfig, setTestConfig, setScreen, setFlashcardSelectedLessons } = useApp();
 
   const handleToggleLesson = (lessonId: string) => {
     const isSelected = testConfig.selectedLessons.includes(lessonId);
@@ -38,6 +38,9 @@ export const TestSetupScreen: React.FC = () => {
 
     if (testConfig.testType === 'ghep_tu') {
       setScreen('card_match');
+    } else if (testConfig.testType === 'flashcard') {
+      setFlashcardSelectedLessons(testConfig.selectedLessons);
+      setScreen('flashcard');
     } else {
       setScreen('test_runner');
     }
@@ -147,68 +150,95 @@ export const TestSetupScreen: React.FC = () => {
             <span>Chọn chế độ làm bài</span>
           </h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            {/* Mode 1: Ghép Thẻ */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+            {/* Mode 1: Thẻ Flashcard (NEW) */}
+            <button
+              onClick={() => setTestConfig({ ...testConfig, testType: 'flashcard' })}
+              className={`p-3 rounded-2xl border-2 text-left transition flex flex-col justify-between gap-2 ${
+                testConfig.testType === 'flashcard'
+                  ? 'bg-amber-50 border-amber-500 text-amber-950 shadow-sm font-bold ring-1 ring-amber-400'
+                  : 'bg-white border-gray-200 text-gray-700 hover:bg-gray-50'
+              }`}
+            >
+              <div
+                className={`w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 ${
+                  testConfig.testType === 'flashcard'
+                    ? 'bg-gradient-to-tr from-amber-500 to-orange-500 text-white shadow-md shadow-amber-500/30'
+                    : 'bg-gray-100 text-gray-500'
+                }`}
+              >
+                <Layers className="w-5 h-5" />
+              </div>
+              <div className="min-w-0">
+                <div className="flex items-center gap-1">
+                  <h4 className="font-bold text-xs sm:text-sm">Flashcard</h4>
+                  <span className="px-1.5 py-0.2 bg-amber-100 text-amber-900 text-[9px] font-black rounded uppercase">3D</span>
+                </div>
+                <p className="text-[10px] text-gray-500 mt-0.5 truncate">Lật thẻ & Gõ nhớ sâu</p>
+              </div>
+            </button>
+
+            {/* Mode 2: Ghép Thẻ */}
             <button
               onClick={() => setTestConfig({ ...testConfig, testType: 'ghep_tu' })}
-              className={`p-3.5 rounded-2xl border-2 text-left transition flex items-center gap-3 ${
+              className={`p-3 rounded-2xl border-2 text-left transition flex flex-col justify-between gap-2 ${
                 testConfig.testType === 'ghep_tu'
                   ? 'bg-purple-50 border-purple-500 text-purple-900 shadow-sm font-bold'
                   : 'bg-white border-gray-200 text-gray-700 hover:bg-gray-50'
               }`}
             >
               <div
-                className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${
+                className={`w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 ${
                   testConfig.testType === 'ghep_tu'
-                    ? 'bg-purple-600 text-white'
+                    ? 'bg-purple-600 text-white shadow-md shadow-purple-500/30'
                     : 'bg-gray-100 text-gray-500'
                 }`}
               >
                 <Grid className="w-5 h-5" />
               </div>
               <div className="min-w-0">
-                <h4 className="font-bold text-sm">Ghép Thẻ</h4>
-                <p className="text-[11px] text-gray-500 mt-0.5 truncate">Nối cặp từ Nhật - Việt</p>
+                <h4 className="font-bold text-xs sm:text-sm">Ghép Thẻ</h4>
+                <p className="text-[10px] text-gray-500 mt-0.5 truncate">Nối cặp từ Nhật - Việt</p>
               </div>
             </button>
 
-            {/* Mode 2: Chọn Đáp Án Đúng (Từ vựng) */}
+            {/* Mode 3: Chọn Đáp Án Đúng (Từ vựng) */}
             <button
               onClick={() => setTestConfig({ ...testConfig, testType: 'trac_nghiem' })}
-              className={`p-3.5 rounded-2xl border-2 text-left transition flex items-center gap-3 ${
+              className={`p-3 rounded-2xl border-2 text-left transition flex flex-col justify-between gap-2 ${
                 testConfig.testType === 'trac_nghiem'
                   ? 'bg-blue-50 border-primary text-primary shadow-sm font-bold'
                   : 'bg-white border-gray-200 text-gray-700 hover:bg-gray-50'
               }`}
             >
               <div
-                className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${
+                className={`w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 ${
                   testConfig.testType === 'trac_nghiem'
-                    ? 'bg-primary text-white'
+                    ? 'bg-primary text-white shadow-md shadow-blue-500/30'
                     : 'bg-gray-100 text-gray-500'
                 }`}
               >
                 <CheckCircle2 className="w-5 h-5" />
               </div>
               <div className="min-w-0">
-                <h4 className="font-bold text-sm">Từ & Nghĩa</h4>
-                <p className="text-[11px] text-gray-500 mt-0.5 truncate">Trắc nghiệm 4 lựa chọn</p>
+                <h4 className="font-bold text-xs sm:text-sm">Từ & Nghĩa</h4>
+                <p className="text-[10px] text-gray-500 mt-0.5 truncate">Trắc nghiệm 4 lựa chọn</p>
               </div>
             </button>
 
-            {/* Mode 3: Test Qua Ví Dụ (NEW) */}
+            {/* Mode 4: Test Qua Ví Dụ */}
             <button
               onClick={() => setTestConfig({ ...testConfig, testType: 'vi_du' })}
-              className={`p-3.5 rounded-2xl border-2 text-left transition flex items-center gap-3 ${
+              className={`p-3 rounded-2xl border-2 text-left transition flex flex-col justify-between gap-2 ${
                 testConfig.testType === 'vi_du'
                   ? 'bg-emerald-50 border-emerald-500 text-emerald-900 shadow-sm font-bold'
                   : 'bg-white border-gray-200 text-gray-700 hover:bg-gray-50'
               }`}
             >
               <div
-                className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${
+                className={`w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 ${
                   testConfig.testType === 'vi_du'
-                    ? 'bg-emerald-600 text-white'
+                    ? 'bg-emerald-600 text-white shadow-md shadow-emerald-500/30'
                     : 'bg-gray-100 text-gray-500'
                 }`}
               >
@@ -216,10 +246,10 @@ export const TestSetupScreen: React.FC = () => {
               </div>
               <div className="min-w-0">
                 <div className="flex items-center gap-1">
-                  <h4 className="font-bold text-sm">Test Ví Dụ</h4>
+                  <h4 className="font-bold text-xs sm:text-sm">Test Ví Dụ</h4>
                   <span className="px-1.5 py-0.2 bg-emerald-100 text-emerald-800 text-[9px] font-black rounded uppercase">Mới</span>
                 </div>
-                <p className="text-[11px] text-gray-500 mt-0.5 truncate">Điền từ vào câu ví dụ</p>
+                <p className="text-[10px] text-gray-500 mt-0.5 truncate">Điền từ vào ví dụ</p>
               </div>
             </button>
           </div>

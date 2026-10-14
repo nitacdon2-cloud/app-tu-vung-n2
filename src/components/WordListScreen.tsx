@@ -18,6 +18,9 @@ export const WordListScreen: React.FC = () => {
     setSelectedWord,
     setIsStudyPickerOpen,
     setScreen,
+    currentLessonId,
+    setFlashcardSelectedLessons,
+    flashcardSelectedLessons,
   } = useApp();
 
   if (!currentLesson) return null;
@@ -123,7 +126,12 @@ export const WordListScreen: React.FC = () => {
 
           <div className="flex items-center gap-1.5 flex-shrink-0">
             <button
-              onClick={() => setScreen('flashcard')}
+              onClick={() => {
+                if (!flashcardSelectedLessons.includes(currentLessonId) && flashcardSelectedLessons.length <= 1) {
+                  setFlashcardSelectedLessons([currentLessonId]);
+                }
+                setScreen('flashcard');
+              }}
               className="px-3 py-1.5 bg-amber-500 hover:bg-amber-600 text-white font-extrabold rounded-xl transition flex items-center gap-1.5 shadow-sm active:scale-95 text-xs"
               title="Học thẻ Flashcard từ vựng bài này"
             >
