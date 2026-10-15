@@ -21,9 +21,9 @@ import {
 } from '../services/examDataLoader';
 
 interface AppContextType {
-  // Navigation Module: Vocab vs Grammar vs Test
-  activeModule: 'vocab' | 'grammar' | 'test';
-  setActiveModule: (module: 'vocab' | 'grammar' | 'test') => void;
+  // Navigation Module: Vocab vs Grammar vs Test vs Roadmap
+  activeModule: 'vocab' | 'grammar' | 'test' | 'roadmap';
+  setActiveModule: (module: 'vocab' | 'grammar' | 'test' | 'roadmap') => void;
 
   // Exam / Test Center State
   selectedExam: ExamTest | null;
@@ -88,7 +88,7 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [activeModule, setActiveModule] = useState<'vocab' | 'grammar' | 'test'>('vocab');
+  const [activeModule, setActiveModule] = useState<'vocab' | 'grammar' | 'test' | 'roadmap'>('vocab');
 
   // Exam / Test Center state
   const [selectedExam, setSelectedExam] = useState<ExamTest | null>(null);

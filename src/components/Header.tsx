@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useApp } from '../context/AppContext';
 import { 
   ArrowLeft, ChevronDown, MoreVertical, Smartphone, Monitor, BookOpen, RotateCcw, Info,
-  Sparkles, Layers, HelpCircle
+  Sparkles, Layers, HelpCircle, Target
 } from 'lucide-react';
 
 export const Header: React.FC = () => {
@@ -37,6 +37,7 @@ export const Header: React.FC = () => {
   }, []);
 
   const getHeaderTitle = () => {
+    if (currentScreen === 'sprint_roadmap') return 'Lộ Trình 53 Ngày';
     if (currentScreen === 'test_center') return 'Kho Đề Thi N2';
     if (currentScreen === 'exam_runner') return selectedExam ? selectedExam.title : 'Bài Thi N2';
     if (currentScreen === 'grammar_list') return 'N2 Ngữ Pháp';
@@ -59,7 +60,10 @@ export const Header: React.FC = () => {
   };
 
   const handleBack = () => {
-    if (currentScreen === 'exam_runner') {
+    if (currentScreen === 'sprint_roadmap') {
+      setScreen('lesson_grid');
+      setActiveModule('vocab');
+    } else if (currentScreen === 'exam_runner') {
       setScreen('test_center');
     } else if (currentScreen === 'test_center') {
       setScreen('lesson_grid');
@@ -82,6 +86,7 @@ export const Header: React.FC = () => {
 
   const isGrammarMode = currentScreen.startsWith('grammar_');
   const isTestMode = currentScreen === 'test_center' || currentScreen === 'exam_runner';
+  const isRoadmapMode = currentScreen === 'sprint_roadmap';
 
   return (
     <header className="bg-primary text-white h-14 px-3 sm:px-4 flex items-center justify-between shadow-md sticky top-0 z-40 select-none flex-shrink-0">
@@ -103,7 +108,7 @@ export const Header: React.FC = () => {
 
         {/* Title with optional Lesson / Chapter Dropdown */}
         <div className="relative" ref={dropdownRef}>
-          {!isGrammarMode && !isTestMode ? (
+          {!isGrammarMode && !isTestMode && !isRoadmapMode ? (
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className="flex items-center gap-1.5 font-semibold text-sm sm:text-base hover:opacity-90 transition text-left"
@@ -124,11 +129,16 @@ export const Header: React.FC = () => {
                   59 Đề
                 </span>
               )}
+              {isRoadmapMode && (
+                <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-rose-400 text-white uppercase">
+                  53 Ngày
+                </span>
+              )}
             </div>
           )}
 
           {/* Lesson Select Dropdown (Vocab mode) */}
-          {isDropdownOpen && !isGrammarMode && !isTestMode && (
+          {isDropdownOpen && !isGrammarMode && !isTestMode && !isRoadmapMode && (
             <div className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white text-gray-800 rounded-xl shadow-2xl border border-gray-100 py-2 max-h-80 overflow-y-auto z-50 animate-in fade-in zoom-in-95 duration-150">
               <div className="px-3 py-1.5 text-xs font-bold text-gray-400 uppercase tracking-wider flex items-center justify-between border-b border-gray-100">
                 <span>Danh sách bài học (1.1 → 11.10)</span>
@@ -158,15 +168,15 @@ export const Header: React.FC = () => {
         </div>
       </div>
 
-      {/* Center: Module Switcher (TỪ VỰNG vs NGỮ PHÁP vs LUYỆN TEST) */}
+      {/* Center: Module Switcher (TỪ VỰNG vs NGỮ PHÁP vs LUYỆN TEST vs LỘ TRÌNH) */}
       <div className="flex items-center bg-black/20 p-1 rounded-xl text-xs font-bold border border-white/10">
         <button
           onClick={() => {
             setActiveModule('vocab');
-            if (isGrammarMode || isTestMode) setScreen('lesson_grid');
+            if (isGrammarMode || isTestMode || isRoadmapMode) setScreen('lesson_grid');
           }}
           className={`px-2 sm:px-2.5 py-1 rounded-lg transition flex items-center gap-1 ${
-            !isGrammarMode && !isTestMode
+            !isGrammarMode && !isTestMode && !isRoadmapMode
               ? 'bg-white text-primary shadow-sm font-black'
               : 'text-blue-100 hover:text-white'
           }`}
@@ -206,6 +216,22 @@ export const Header: React.FC = () => {
           <Layers className="w-3.5 h-3.5" />
           <span className="hidden xs:inline">Luyện Test</span>
           <span className="xs:hidden">Test</span>
+        </button>
+
+        <button
+          onClick={() => {
+            setActiveModule('roadmap');
+            setScreen('sprint_roadmap');
+          }}
+          className={`px-2 sm:px-2.5 py-1 rounded-lg transition flex items-center gap-1 ${
+            isRoadmapMode
+              ? 'bg-rose-500 text-white shadow-sm font-black'
+              : 'text-blue-100 hover:text-white'
+          }`}
+        >
+          <Target className="w-3.5 h-3.5" />
+          <span className="hidden xs:inline">Lộ Trình</span>
+          <span className="xs:hidden">L.Trình</span>
         </button>
       </div>
 

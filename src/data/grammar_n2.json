@@ -7,7 +7,7 @@
     "code": "1.1",
     "title": "1.1）～げ",
     "grammar": "～げ",
-    "connection": "A い/ Aな + げ N / V たい",
+    "connection": "Aい(bỏ い) / Aな(bỏ な) / Vたい(bỏ い) / N + げ(に)",
     "meaning": "Trông có vẻ…",
     "explanation": "• Miêu tả dáng vẻ/ trạng thái cảm xúc của con người. Là cách nói cổ của そう\n• Cụm từ cố định 意味ありげ",
     "examples": [
@@ -60,7 +60,7 @@
     "code": "1.4",
     "title": "1.4）～がたい",
     "grammar": "～がたい",
-    "connection": "V ます + がたい",
+    "connection": "Vます(bỏ ます) + がたい",
     "meaning": "Khó…/ Không thể…",
     "explanation": "• Không thể nào mà .../ Khó mà...\n• Là cách nói cứng, thường đi với những động từ thể hiện nhận thức như: 信じる、許す、\n理解する、想像する、耐える、表す、言う...",
     "examples": [
@@ -77,7 +77,7 @@
     "code": "1.5",
     "title": "1.5）～かと思うと",
     "grammar": "～かと思うと",
-    "connection": "かと思うと V た + かと思ったら",
+    "connection": "Vた + かと思うと / かと思ったら",
     "meaning": "Vừa mới… đã ngay lập tức…",
     "explanation": "• Diễn tả 2 trạng thái/ thay đổi diễn ra gần như ngay lập tức\n• Miêu tả sự vật, người khác, không nói về bản thân mình\n• Không đi với đuôi câu: V よう、V るつもり",
     "examples": [
@@ -94,7 +94,7 @@
     "code": "1.6",
     "title": "1.6）～か〜かのうちに",
     "grammar": "～か〜かのうちに",
-    "connection": "V る／Ｖた + か Ｖない かのうちに",
+    "connection": "Vる / Vた + か + Vないかのうちに",
     "meaning": "Ngay khi vừa mới … thì…",
     "explanation": "• 2 hành động/ sự việc trước sau xảy ra gần như đồng thời\n• Vế sau không đi với よう、つもり, câu mệnh lệnh…\n• Văn viết, ít dùng trong hội thoại thông thường, có thể nói thay bằng Ｖたとたん（に）",
     "examples": [
@@ -111,7 +111,7 @@
     "code": "2.1",
     "title": "2.1）～だけあって・だけのことはある・だけある",
     "grammar": "～だけあって・だけのことはある・だけある",
-    "connection": "普通形 + だけあって A な・N(である)",
+    "connection": "普通形 / Aな(である) / N(である) + だけあって",
     "meaning": "Quả nhiên là vì… nên",
     "explanation": "• Chính vì do tài năng/ nỗ lực/ vị trí/ trải nghiệm, nên mới...\n• Vế sau là điều gì đó tương xứng với vế trước, là câu hàm ý khen ngợi, đánh giá cao\n• Cuối câu có thể dùng: だけのことはある、だけある",
     "examples": [
@@ -128,7 +128,7 @@
     "code": "2.2",
     "title": "2.2）～だけに",
     "grammar": "～だけに",
-    "connection": "V（普）/Aい（普） A な/Aなである + だけに N (である)",
+    "connection": "V(普) / Aい(普) / Aな(である) / N(である) + だけに",
     "meaning": "Chính bởi… thế nên là…",
     "explanation": "①だけに：Chính bởi… thế nên là…\n• Giống với だけあって：Vì một nguyên nhân, lí do, hoàn cảnh nào đó nên (vế sau) có 1 điều\ngì đó đương nhiên như vậy/ kết quả gì đó phát sinh mà có thể dự đoán được từ điều nêu ra ở\nđằng trước\n②だけに：Chính bởi... nên lại càng...\n• Vế sau thường đưa ra 1 cảm xúc nào đó\n• Vì 1 nguyên nhân đặc biệt nào đó thế nên (vế sau) lại càng... => nhấn mạnh cảm xúc ở vế sau",
     "examples": [
@@ -145,7 +145,7 @@
     "code": "2.3",
     "title": "2.3）～ばこそ",
     "grammar": "～ばこそ",
-    "connection": "V ば/A いければ A なであれば + こそ N であれば",
+    "connection": "Vば / Aいければ / Aな・Nであれば + こそ",
     "meaning": "Chính vì… nên mới…",
     "explanation": "• Nhấn mạnh vào nguyên nhân được đề cập đến ở vế trước\n• Là cách nói cứng thường dùng trong văn viết",
     "examples": [
@@ -162,7 +162,7 @@
     "code": "2.4",
     "title": "2.4）～ばかりに",
     "grammar": "～ばかりに",
-    "connection": "普通形 + ばかりに （A な・である・Ｎである）",
+    "connection": "普通形 / Aな・である / Nである + ばかりに",
     "meaning": "Chỉ vì… mà…",
     "explanation": "• Chỉ vì một nguyên nhân nào đó mà dẫn tới 1 kết quả không tốt hoặc ngoài ý muốn\n• Câu nói chứa cảm xúc hối tiếc, hối hận\n• Cách nói cứng, có thể thay bằng せいで",
     "examples": [
@@ -179,7 +179,7 @@
     "code": "3.1",
     "title": "3.1）～ものだ（１）",
     "grammar": "～ものだ（１）",
-    "connection": "V る + ものだ Ｖない",
+    "connection": "Vる / Vない + ものだ (Đương nhiên/Bản chất)",
     "meaning": "Vốn dĩ là…／Là đương nhiên…",
     "explanation": "• Hoặc diễn tả những thứ vốn thuộc về bản chất, không thay đổi → vốn dĩ là...\n• Là cách nói diễn tả những điều hiển nhiên, đương nhiên thuộc về quy luật → là đương nhiên...\nmà chẳng...",
     "examples": [
@@ -197,7 +197,7 @@
     "code": "3.2",
     "title": "3.2）～ものだ（2）",
     "grammar": "～ものだ（2）",
-    "connection": "ものだ V る  + ものではない",
+    "connection": "Vる + ものだ / ものではない (Nên/Không nên)",
     "meaning": "Nên/ Không nên…",
     "explanation": "• Cách nói đưa ra lời khuyên cho đối phương nên hoặc không nên làm gì, xuất phát từ quan điểm\nxã hội, quan điểm đạo đức nói chung\n• Cách nói mang tính giáo huấn, tránh nói với người trên",
     "examples": [
@@ -215,7 +215,7 @@
     "code": "3.3",
     "title": "3.3）～ものだ（3）",
     "grammar": "～ものだ（3）",
-    "connection": "V(普) A い(普)+ ものだ (Thật là…biết bao/ Quả là…biết b) A な",
+    "connection": "V(普) / Aい(普) / Aな + ものだ (Cảm thán: Thật là...)",
     "meaning": "Thật là…biết bao/ Quả là…biết",
     "explanation": "• Nói về những cảm xúc mà người nói cảm nhận sâu sắc bằng trái tim\n• Thường gặp trong văn học, tiểu thuyết...",
     "examples": [
@@ -232,7 +232,7 @@
     "code": "3.4",
     "title": "3.４）～というものだ",
     "grammar": "～というものだ",
-    "connection": "V 普 A い+ というものだ Ａな・N",
+    "connection": "普通形 / Aな・N + というものだ (Đúng là...)",
     "meaning": "Thật là, đúng là...…",
     "explanation": "• Sử dụng khi người nói nhìn thấy một sự việc, sự thật nào đó và nói lên cảm xúc, suy nghĩ,\nphê phán, nhận xét hoặc khẳng định đối với sự việc đó.\n• Không dùng với từ thể hiện cảm xúc người nói.",
     "examples": [
@@ -249,7 +249,7 @@
     "code": "4.1",
     "title": "4.1）～ものの",
     "grammar": "～ものの",
-    "connection": "V(普)/A い(普) A な/Aなである+ ものの Nである",
+    "connection": "V(普) / Aい(普) / Aな(である) / Nである + ものの",
     "meaning": "Mặc dù…nhưng…/…thế mà…",
     "explanation": "• Vế sau thường là những điều không theo như những gì người nói tưởng tượng\n• Là cách nói lịch sự, thường dùng trong văn viết, hoặc văn nói thì phù hợp khi dùng với người trên",
     "examples": [
@@ -266,7 +266,7 @@
     "code": "4.2",
     "title": "4.2）～ものなら",
     "grammar": "～ものなら",
-    "connection": "V る + ものなら （可能形）",
+    "connection": "Vる(Khả năng) + ものなら (Nếu có thể thì...)",
     "meaning": "Nếu như có thể…",
     "explanation": "• Mặc dù biết là khó nhưng nếu có thể thì.... Văn nói:もんなら\n• Vế sau thường đi với câu thể hiện nguyện vọng, mệnh lệnh（V たい、V ましょう、V てみろ...）",
     "examples": [
@@ -283,7 +283,7 @@
     "code": "4.3",
     "title": "4.3）～というものではない",
     "grammar": "～というものではない",
-    "connection": "普通形 + というものでは(も)ない Ｎ／Ａな＋(だ)",
+    "connection": "普通形 / Aな(だ) / N(だ) + というものではない / というものでもない",
     "meaning": "Tôi nghĩ rằng không hẳn là...",
     "explanation": "• Là cách nói đưa ra quan điểm của bản thân: không hẳn là, không chắc chắn là\n→ đề cập đến bản chất của vấn đề",
     "examples": [
@@ -300,7 +300,7 @@
     "code": "4.4",
     "title": "4.4）～ものがある",
     "grammar": "～ものがある",
-    "connection": "V る／Ａい + ものがある Ａな",
+    "connection": "Vる / Aい / Aな + ものがある (Có cảm giác rất...)",
     "meaning": "Có điều gì đó cảm thấy rất…",
     "explanation": "• Thể hiện một cảm xúc không rõ ràng, và không hiểu vì sao mà cảm thấy ... thế nào đó",
     "examples": [
@@ -317,7 +317,7 @@
     "code": "5.1",
     "title": "5.1）～ことになる／ことになっている",
     "grammar": "～ことになる／ことになっている",
-    "connection": "V ることになる Ý nghĩa 1: Kết quả là... + V ないことになっている Ý nghĩa 2: Sẽ, phải, đã được quyết định,...",
+    "connection": "Vる / Vない + ことになる / ことになっている",
     "meaning": "nghĩa 1: Kết quả là...",
     "explanation": "Ý nghĩa 1\n• Mẫu câu diễn đạt những kế hoạch không phải do bản thân quyết định, hoặc miêu tả những\nquy định hay nội quy.\n• Tương đương với mẫu câu ～ことに決まってる\n• Ngoài ra, cũng có cách nói mang tính trang trọng ～こととなっている\nÝ nghĩa 2\n• Diễn tả kết quả của một sự việc kết thúc như thế nào đó. Hoặc chỉ ra bản chất sự việc.",
     "examples": [
@@ -337,7 +337,7 @@
     "code": "5.2",
     "title": "5.2）～ことなく",
     "grammar": "～ことなく",
-    "connection": "V る + ことなく",
+    "connection": "Vる + ことなく (Mà không...)",
     "meaning": "Mà không …",
     "explanation": "• Làm gì mà không...\n• Giống ないでnhưng nhấn mạnh hơn",
     "examples": [
@@ -354,7 +354,7 @@
     "code": "5.3",
     "title": "5.3）～ことに",
     "grammar": "～ことに",
-    "connection": "V た + ことに Ａな/A い",
+    "connection": "Vた / Aい / Aな + ことに(は) (Thật là...)",
     "meaning": "Thật là …/ Thật…làm sao/ Biết bao khi…",
     "explanation": "• Chỉ đi với những động từ, tính từ chỉ cảm xúc\n• Vế sau không đi với những câu thể hiện ý chí, dự định như V たい、つもりだ",
     "examples": [
@@ -371,7 +371,7 @@
     "code": "5.4",
     "title": "5.4）～ことから",
     "grammar": "～ことから",
-    "connection": "普通形 A な／Aなである+ ことから Nである",
+    "connection": "普通形 / Aな(である) / N(である) + ことから (Vì lý do là...)",
     "meaning": "Bởi vì…",
     "explanation": "• Xuất phát từ lí do, căn nguyên, cơ sở nào đó mà đưa ra đánh giá/ nói về khởi nguồn của tên gọi\nnào đó",
     "examples": [
@@ -388,7 +388,7 @@
     "code": "5.5",
     "title": "5.5）～ことだから",
     "grammar": "～ことだから",
-    "connection": "Ｎの + ことだから",
+    "connection": "N + のことだから (Vì là N nên chắc chắn...)",
     "meaning": "Vì là… nên chắc chắn",
     "explanation": "• Danh từ: chỉ người – người mà mình hiểu ra rõ tính cách, bản chất thường ngày của họ\n=> nên đưa ra suy đoán chắc chắn sẽ là...\n• Văn nói: ～のことだし\n• Kết câu: のことだ...",
     "examples": [
@@ -405,7 +405,7 @@
     "code": "5.6",
     "title": "5.6）～ないことには",
     "grammar": "～ないことには",
-    "connection": "V ない A いくない+ ことには A な・Nでない",
+    "connection": "Vない / Aいくない / Aな・Nでない + ことには(…ない)",
     "meaning": "Nếu không … thì…",
     "explanation": "• Nếu không có điều gì đó ở vế trước thì vế sau sẽ không thể thực hiện được, vế sau thường ở thể\nphủ định. Văn nói thường dùng:なければ、なくては、なきゃ、なくちゃ",
     "examples": [
@@ -422,7 +422,7 @@
     "code": "6.1",
     "title": "6.1）～ことはない",
     "grammar": "～ことはない",
-    "connection": "Ｖる ＋ ことはない",
+    "connection": "Vる + ことはない (Không cần phải...)",
     "meaning": "Không cần phải ~",
     "explanation": "• Giống với 必要がない\n• Thường dùng để khuyên, khích lệ đối phương",
     "examples": [
@@ -439,7 +439,7 @@
     "code": "6.2",
     "title": "6.2）～こと（命令）",
     "grammar": "～こと（命令）",
-    "connection": "V る/V ない ＋ こと。",
+    "connection": "Vる / Vない + こと (Mệnh lệnh: Phải/Không được...)",
     "meaning": "Hãy, phải…/ Không được…",
     "explanation": "• Là văn viết của V なさい、V てはいけないthể hiện những quy tắc, chỉ thị…\n• Thường được thấy ở những thông báo quy định, chỉ thị ở công ty, trường học, tờ hướng dẫn...",
     "examples": [
@@ -456,7 +456,7 @@
     "code": "6.3",
     "title": "6.3）～ことだ",
     "grammar": "～ことだ",
-    "connection": "Ｖる・Ｖない ＋ ことだ A い・A な",
+    "connection": "Vる / Vない + ことだ (Lời khuyên: Nên/Không nên...)",
     "meaning": "Nên/ Không nên",
     "explanation": "①Ｖる・Ｖない＋ことだ：Nên/ Không nên\n• Đưa ra lời khuyên, ý kiến, cảnh báo của người nói về việc nên/ không nên làm gì\n• Thường người trên nói với người dưới\n②Ａい・Ａな＋ことだ：vô cùng, rất\n• Cách nói thể hiện cảm xúc bất ngờ, cảm động\n• Thường đi với tính từ chỉ cảm xúc",
     "examples": [
@@ -474,7 +474,7 @@
     "code": "6.4",
     "title": "6.4）～ことか",
     "grammar": "～ことか",
-    "connection": "普通形 ＋ ことか",
+    "connection": "V(普) / Aい / Aな + ことか (Vô cùng... biết bao)",
     "meaning": "Vô cùng/ rất ~",
     "explanation": "• Nhấn mạnh vào mức độ: vô cùng... đến mức khó có thể diễn tả nổi\n• Thường hay đi với từ để hỏi trong câu: どんなに～ことか、どれほど～ことかhoặc\nなんと…ことか",
     "examples": [
@@ -491,7 +491,7 @@
     "code": "6.5",
     "title": "6.5）～ないことはない",
     "grammar": "～ないことはない",
-    "connection": "V(ない)／A いく ＋ ないことは(も)ない A なで／Ｎで",
+    "connection": "Vない / Aいくない / Aな・Nでない + ことはない (Không phải là không...)",
     "meaning": "Không phải là không…/ Có lẽ, có thể là…",
     "explanation": "• Dùng 2 lần phủ định để tránh cách nói khẳng định rõ ràng, như 1 cách nói khéo",
     "examples": [
@@ -508,7 +508,7 @@
     "code": "6.6",
     "title": "6.6）～ことだし",
     "grammar": "～ことだし",
-    "connection": "V/A い(普通形) A な／である ＋ ことだし N である",
+    "connection": "普通形 / Aな(な/である) / N(の/である) + ことだし (Vì... nên...)",
     "meaning": "Vì, bởi vì...nên",
     "explanation": "• Dùng để diễn tả ý có nhiều lý do khác nữa, nhưng trước hết là vì lý do này. Chỉ ra lý do sau\nđó đưa ra kết luận hay đánh giá.\n• Vế sau là câu mang ý chí, nguyện vọng, phán đoán của người nói, hoặc là lời mời, rủ.\n• Là mẫu câu lịch sự hơn mẫu ～し～đã học ở N4",
     "examples": [
@@ -525,7 +525,7 @@
     "code": "7.1",
     "title": "7.1）～に限りだ（１）",
     "grammar": "～に限りだ（１）",
-    "connection": "A い/A な ＋ かぎりだ",
+    "connection": "Aい / Aな + かぎりだ (Vô cùng...)",
     "meaning": "Cảm thấy rất/ vô cùng ~",
     "explanation": "•Dùng để nói về cảm xúc của bản thân người nói: đang cảm thấy vô cùng...\n•Không dùng để nói về người khác",
     "examples": [
@@ -542,7 +542,7 @@
     "code": "7.2",
     "title": "7.2）～に限らず（２）",
     "grammar": "～に限らず（２）",
-    "connection": "N ＋ に限らず",
+    "connection": "N + に限らず (Không chỉ... mà còn...)",
     "meaning": "Không chỉ … mà còn …",
     "explanation": "• Giống với だけでなく",
     "examples": [
@@ -559,7 +559,7 @@
     "code": "7.3",
     "title": "7.3）～に限り（では）（３）",
     "grammar": "～に限り（では）（３）",
-    "connection": "N の V る・V た           ＋ 限り（では） V ている",
+    "connection": "Nの / Vる・Vた・Vている + 限り(では) (Trong phạm vi...)",
     "meaning": "Trong phạm vi…/ Ở mức độ…",
     "explanation": "• Vế trước thường là: 見る、聞く、調べる、知っている、知る、調査、...\n• Vế sau đưa ra đánh giá trong phạm vi bản thân biết",
     "examples": [
@@ -576,7 +576,7 @@
     "code": "7.4",
     "title": "7.4）～に限り（４）",
     "grammar": "～に限り（４）",
-    "connection": "A い/V(普) Aな・である         ＋ 限り（は） Ｎである",
+    "connection": "V(普) / Aい / Aな(である) / N(である) + 限り(は) (Chừng nào còn...)",
     "meaning": "Trong lúc…/ Khi…",
     "explanation": "• Trong giới hạn/ phạm vi còn được duy trì (vế trước) thì (vế sau) 1 trạng thái được duy trì, tiếp\ntục\n• 2 trạng thái đồng thời, song song",
     "examples": [
@@ -593,7 +593,7 @@
     "code": "7.5",
     "title": "7.5）～に限り（５）",
     "grammar": "～に限り（５）",
-    "connection": "N に限り、…／N に限る。",
+    "connection": "N + に限り / に限る (Chỉ riêng/Chỉ đối với...)",
     "meaning": "Chỉ trong/ Chỉ đối với/ Chỉ riêng～",
     "explanation": "• Một việc gì đó được áp dụng đặc biệt chỉ trong riêng 1 thời hạn, 1 đối tượng nào đó\n• Thường dùng trong các câu thông báo, văn phòng lịch sự",
     "examples": [
@@ -610,7 +610,7 @@
     "code": "7.6",
     "title": "7.6）～に限って（６）",
     "grammar": "～に限って（６）",
-    "connection": "N ＋ に限って",
+    "connection": "N + に限って (Ai chứ... / Đúng vào lúc...)",
     "meaning": "Ai chứ, gì chứ ～/ Đúng vào lúc ～",
     "explanation": "①Ai chứ, gì chứ... chắc chắn là không...\n•N là đối tượng mà mình rất tin tưởng, kì vọng\n•Thế nên vế sau là điều mình đánh giá chắc chắn N đó không làm những chuyện/ điều không tốt\nnhư vậy\n②Đúng vào lúc/ trường hợp... thì 1 chuyện không mong muốn xảy đến\n•N là thời điểm quan trọng nào đó\n•Thì 1 chuyện gì đó không may xảy ra 1 cách trùng hợp ⇒ cảm giác bất mãn, khó chịu",
     "examples": [
@@ -630,7 +630,7 @@
     "code": "7.7",
     "title": "7.7）～に限る（７）",
     "grammar": "～に限る（７）",
-    "connection": "V る・ない／N ＋ に限る",
+    "connection": "Vる / Vない / N + に限る (Tốt nhất là...)",
     "meaning": "~ là tốt nhất",
     "explanation": "•Đưa ra đánh giá, ý kiến, ấn tượng của người nói cho rằng cái gì/ làm điều gì là tốt nhất\n•Cách nói lịch sự hơn của ～のが一番いい",
     "examples": [
@@ -647,7 +647,7 @@
     "code": "8.1",
     "title": "8.1）～まい",
     "grammar": "～まい",
-    "connection": "V る + まい （II：V ます） する→すまい 来る→来まい",
+    "connection": "V辞書形(Nhóm 1) / Vます(Nhóm 2, 3) + まい",
     "meaning": "sẽ không",
     "explanation": "①～ようとは思わない : sẽ không\n• Khẳng định chắc chắn sẽ không làm gì đó; Cách nói cổ, trang trọng, ít dùng trong văn nói\n②～ないだろう: có lẽ không\n• Đưa ra suy đoán có lẽ sẽ không, chắc hẳn là không; Cách nói cổ, trang trọng, ít dùng trong văn\nnói",
     "examples": [
@@ -664,7 +664,7 @@
     "code": "8.2",
     "title": "8.2）～ようか〜まいか",
     "grammar": "～ようか〜まいか",
-    "connection": "V ようか  V るまいか （VII:Vますまいか／VIII:すまいか）",
+    "connection": "V意向形 + か + V辞書形 + まいか",
     "meaning": "Làm … hay là không …",
     "explanation": "•Dùng khi bản thân người nói phân vân, đắn đo; Cách nói cổ, có thể gặp trong văn học, sách...\n•Dùng cho ngôi số 3 thì cần thêm: らしい、ようだ、のだở cuối câu",
     "examples": [
@@ -681,7 +681,7 @@
     "code": "8.3",
     "title": "8.3）～にしろ～にしろ",
     "grammar": "～にしろ～にしろ",
-    "connection": "N1 にしろ     N2  にしろ V る1 にしろ  V る2 にしろ V るにしろ     V ないにしろ",
+    "connection": "N1 にしろ N2 にしろ / Vる1 にしろ Vる2 にしろ",
     "meaning": "Dù…dù…",
     "explanation": "•Dù trường hợp A hay trường hợp B thì...\n•Cách nói khác: …にしても…にしても、 …にせよ…にせよ",
     "examples": [
@@ -698,7 +698,7 @@
     "code": "8.4",
     "title": "8.4）～にせよ～にせよ",
     "grammar": "～にせよ～にせよ",
-    "connection": "Ｖ／A い（普通形） + にせよ～にせよ Aな/Ｎ（である）",
+    "connection": "N1 にせよ N2 にせよ / V(普) にせよ",
     "meaning": "Cho dù, dù cho, ngay cả...",
     "explanation": "• Diễn tả ý nghĩa “giả sử dù trong trường hợp đó thì..”\n• Phía sau thể hiện quan điểm, nhận xét, phán đoán, phê phán, hoặc thái độ khó chấp nhận\ncủa người nói.\n• Là dạng văn viết của ～にしても、～としても、～にしろ",
     "examples": [
@@ -715,7 +715,7 @@
     "code": "8.5",
     "title": "8.5）～にかかわらず",
     "grammar": "～にかかわらず",
-    "connection": "V る+Ｖない V（普）かどうか+ にかかわらず Ｎ",
+    "connection": "Vる・Vない / V(普)かどうか / N + にかかわらず",
     "meaning": "Bất kể…",
     "explanation": "• Bất kể (N đứng trước) thế nào, thì vẫn\n• Có thể nói thành にかかわりなく",
     "examples": [
@@ -732,7 +732,7 @@
     "code": "8.6",
     "title": "8.6）～にもかかわらず",
     "grammar": "～にもかかわらず",
-    "connection": "N 普通形 + にもかかわらず 「A な/ N（である）」",
+    "connection": "普通形 / Aな(である) / N(である) + にもかかわらず",
     "meaning": "Mặc dù…/ Cho dù…/ Không quản…",
     "explanation": "• Bất chấp, dù cho...có chuyện gì đó, nhưng vẫn...\n• Thường thể hiện cảm xúc bất ngờ, bất mãn, thất vọng…của người nói trước sự việc diễn ra ở\nvế sau",
     "examples": [
@@ -749,7 +749,7 @@
     "code": "9.1",
     "title": "9.1）～につけ",
     "grammar": "～につけ",
-    "connection": "Ｖる／Ｎ + につけ（て）",
+    "connection": "Vる / N + につけ (Cứ mỗi khi / Dù là... dù là...)",
     "meaning": "Cứ mỗi khi…/ Lúc nào cũng, cái gì cũng…",
     "explanation": "• Đôi khi cứ (見る、聞く、考える、思う…) thì lại có 1 cảm xúc nào đó\n• N: 何かにつけ、何事につけ、調子がいいに付け悪いに付け",
     "examples": [
@@ -766,7 +766,7 @@
     "code": "9.2",
     "title": "9.2）～に反して",
     "grammar": "～に反して",
-    "connection": "に反して Ｎ  + に反する +   Ｎ",
+    "connection": "N + に反して / に反する + N",
     "meaning": "Trái với…/ Ngược lại với…",
     "explanation": "• N đứng trước thường là: 予想、期待、命令、意図、法律、規則、希望、...\n• Vế sau thường là điều ngược lại với N đứng trước\n• Văn nói: とは違って、とは反対に",
     "examples": [
@@ -783,7 +783,7 @@
     "code": "9.3",
     "title": "9.3）～に応じて",
     "grammar": "～に応じて",
-    "connection": "に応じて Ｎ  + に応じた +   Ｎ",
+    "connection": "N + に応じて / に応じた + N",
     "meaning": "Tùy theo…/ Tương ứng với…",
     "explanation": "• Thay đổi tùy theo loại, mức độ nào đó để cho phù hợp",
     "examples": [
@@ -799,7 +799,7 @@
     "code": "9.4",
     "title": "9.4）～に加えて",
     "grammar": "～に加えて",
-    "connection": "Ｎ  + に加えて",
+    "connection": "N + に加えて / に加え",
     "meaning": "Thêm vào đó nữa là…/ Không chỉ… mà… cũng…",
     "explanation": "• Là cách nói cứng hơn của だけでなく",
     "examples": [
@@ -816,7 +816,7 @@
     "code": "9.5",
     "title": "9.5）～につき",
     "grammar": "～につき",
-    "connection": "数量詞／Ｎ + につき",
+    "connection": "数量詞 / N + につき (Vì / Cứ mỗi...)",
     "meaning": "Cứ mỗi",
     "explanation": "①数量詞 + につき : Cứ mỗi\n• Cứ mỗi...thì...tương đương\n• Thường dùng với lượng từ chỉ tiền, thời gian, đếm người, đếm vật\n②Ｎ + につき : Vì, do\n• Đưa ra lí do\n• Là cách nói cứng, thường thấy trên thông báo, bảng hiệu, tờ rơi, thư từ…",
     "examples": [
@@ -833,7 +833,7 @@
     "code": "10.1",
     "title": "10.1）～に基づいて",
     "grammar": "～に基づいて",
-    "connection": "に基づいて Ｎ +    に基づく＋N に基づいた＋N",
+    "connection": "N + に基づいて / に基づく + N / に基づいた + N",
     "meaning": "Dựa theo…/ Dựa trên…",
     "explanation": "• Dựa trên căn cứ/ tiêu chuẩn/ căn bản nào đóđể tiến hành việc gì đó",
     "examples": [
@@ -850,7 +850,7 @@
     "code": "10.2",
     "title": "10.2）～にしたがって",
     "grammar": "～にしたがって",
-    "connection": "N/V る  + にしたがって",
+    "connection": "Vる / N + にしたがって / にしたがい",
     "meaning": "tuân theo, theo đúng",
     "explanation": "①N + にしたがって : tuân theo, theo đúng\n• Làm gì đó theo đúng như ルール、マニュアル、規則、指示、命令…\n②N/V る  + にしたがって : càng… càng…\n• Khi 1 thay đổi gì đó diễn ra kéo theo 1 thay đổi khác cũng diễn ra theo",
     "examples": [
@@ -867,7 +867,7 @@
     "code": "10.3",
     "title": "10.3）～際に",
     "grammar": "～際に",
-    "connection": "V る／Vた／N の    + 際（に・は）",
+    "connection": "Vる / Vた / Nの + 際に / 際は",
     "meaning": "Khi…",
     "explanation": "• Là cách nói trang trọng của 時に\n• Ít khi dùng trong hội thoại hàng ngày",
     "examples": [
@@ -884,7 +884,7 @@
     "code": "10.4",
     "title": "10.4）～際・に際して",
     "grammar": "～際・に際して",
-    "connection": "N/V る  + に際して・に際し",
+    "connection": "Vる / N + に際して / に際し",
     "meaning": "Khi, nhân dịp...",
     "explanation": "• Được sử dụng trong câu lưu ý hoặc xin lỗi, giải thích. Hoặc diễn tả thời điểm bắt đầu một sự\nviệc, hoặc thời điểm một sự việc diễn ra.\n• Được sử dụng trong những trường hợp trang trọng hơn như sự kiện, thời điểm đặc biệt",
     "examples": [
@@ -901,7 +901,7 @@
     "code": "10.5",
     "title": "10.5）～にあたって",
     "grammar": "～にあたって",
-    "connection": "にあたって V る／N + にあたり",
+    "connection": "Vる / N + にあたって / にあたり",
     "meaning": "Khi/ Nhân dịp…",
     "explanation": "• Vào lúc có dịp/ việc gì đó đặc biệt, quan trọng thì làm 1 hành động mang tính quan trọng đối\nvới sự kiện đó\n• Là cách nói trang trọng, không dùng hội thoại thông thường",
     "examples": [
@@ -918,7 +918,7 @@
     "code": "10.6",
     "title": "10.6）～にそって",
     "grammar": "～にそって",
-    "connection": "N ＋ にそって",
+    "connection": "N + にそって / にそう + N / にそった + N",
     "meaning": "dọc theo",
     "explanation": "①N＋にそって : dọc theo\n• Dọc theo 1 cái gì đó trải dài, tiếp nối như: con đường, bờ sông, vạch kẻ …（道、線路、川…）\n②N＋にそって : dựa theo\n• Làm gì đó dựa theo, bám sát theo những thứ như: マニュアル、期待、希望、方針、基準…\n• N に沿うN、N に沿ったN",
     "examples": [
@@ -935,7 +935,7 @@
     "code": "11.1",
     "title": "11.1）～にともなって",
     "grammar": "～にともなって",
-    "connection": "に伴って に伴N／V る ＋ い に伴うN",
+    "connection": "Vる / N + にともなって / にともない / にともなう + N",
     "meaning": "càng…càng…; cùng với…",
     "explanation": "①N／V るに伴って: càng…càng…; cùng với…\n• Một cái gì đó thay đổi nên kéo theo 1 thay đổi khác cùng diễn ra\n②N／Ｖるに伴って : vì…nên kèm theo đó…\n• Vì có một nguyên nhân nào đó nên có một viêc gì đó xảy ra kèm theo sau đó",
     "examples": [
@@ -952,7 +952,7 @@
     "code": "11.2",
     "title": "11.2）～にかけては",
     "grammar": "～にかけては",
-    "connection": "にかけては N ＋ にかけて＋のN",
+    "connection": "N + にかけては (Riêng về mặt...)",
     "meaning": "Riêng về mặt…, lĩnh vực…",
     "explanation": "• N đứng trước thường là 1 mặt/ lĩnh vực nào đó thuộc sở trường của người được nói tới\n• Vế sau thể hiện năng lực, tự tin",
     "examples": [
@@ -969,7 +969,7 @@
     "code": "11.3",
     "title": "11.3）～にしては",
     "grammar": "～にしては",
-    "connection": "Ｖ(普)/ N ＋ にしては",
+    "connection": "普通形 / N + にしては (Thế mà / So với...)",
     "meaning": "Vậy mà…",
     "explanation": "• Diễn tả 1 điều bất ngờ trái với hình dung thông thường khi nhắc về vế đứng trước にしては\n• Nhấn mạnh vào cảm xúc bất ngờ",
     "examples": [
@@ -986,7 +986,7 @@
     "code": "11.4",
     "title": "11.4）～にしても",
     "grammar": "～にしても",
-    "connection": "普通形 ＋ にしても （ A な/N＋である）",
+    "connection": "普通形 / N(である) + にしても (Cho dù là...)",
     "meaning": "Giả sử, cứ cho là…thì…",
     "explanation": "• Đưa ra một tình huống giả định và vế sau nói lên phán đoán, đánh giá, ý kiến của người nói\n• Văn nói: にしたって",
     "examples": [
@@ -1003,7 +1003,7 @@
     "code": "11.5",
     "title": "11.5）～(に)もかまわず",
     "grammar": "～(に)もかまわず",
-    "connection": "N 普通形＋の + （に）もかまわず （A な/ Aな・N である）",
+    "connection": "V(普) / N + (に)もかまわず (Chẳng màng...)",
     "meaning": "Mặc kệ…/ Chẳng màng…",
     "explanation": "• Thể hiện 1 hành động được thực hiện mà chẳng màng/ bận tâm đến điều được đề cập ở vế trước\nもかまわず\n• Cụm từ thường gặp: 人目もかまわず\n• Cách nói cứng, thường gặp trong văn viết, tin tức…",
     "examples": [
@@ -1020,7 +1020,7 @@
     "code": "12.1",
     "title": "12.1）～を込めて",
     "grammar": "～を込めて",
-    "connection": "を込めて Ｎ+ を込めたN",
+    "connection": "N + をこめて (Gửi gắm/Chất chứa...)",
     "meaning": "Chất chứa…/ Dồn cả…",
     "explanation": "• Bao gồm, chứa đựng cảm xúc, suy nghĩ, tâm tư, tình cảm\n• N: 心、思い、力、願い、感謝、愛、気持ち、恨み、怒り、…",
     "examples": [
@@ -1037,7 +1037,7 @@
     "code": "12.2",
     "title": "12.2）～をぬきにして(は)",
     "grammar": "～をぬきにして(は)",
-    "connection": "Ｎ+ をぬきにして(は)",
+    "connection": "N + をぬきにして(は) / はぬきにして",
     "meaning": "Nếu mà không...thì khó có thể...",
     "explanation": "• Nếu mà không (đề cập đến/ nói đến/ có) thì khó có thể thực hiện được\n• N thường là 1 đối tượng mà giữ vai trò quan trọng hoặc được người nói đánh giá cao",
     "examples": [
@@ -1054,7 +1054,7 @@
     "code": "12.3",
     "title": "12.3）～を問わず",
     "grammar": "～を問わず",
-    "connection": "Ｎ+ を問わず",
+    "connection": "N + を問わず (Bất kể...)",
     "meaning": "Bất kể...",
     "explanation": "• Bất kể là thế nào thì vế sau vẫn.... Cách dùng và ý nghĩa tương đối giốngに関わらず\n• Thường đi với những cụm danh từ mang nghĩa đối ngược nhau",
     "examples": [
@@ -1071,7 +1071,7 @@
     "code": "12.4",
     "title": "12.4）～をはじめ",
     "grammar": "～をはじめ",
-    "connection": "をはじめ（として） Ｎ+ をはじめとするN",
+    "connection": "N + をはじめ / をはじめとする + N",
     "meaning": "Điều đầu tiên kể đến là…/ Đặc biệt là…",
     "explanation": "• Nhấn mạnh vào thứ tự tiêu biểu/ đại diện, không thể không kể đến\n• Vế sau là thể hiện phạm vi rộng hơn: みんな、色々、さまざま、たくさん",
     "examples": [
@@ -1088,7 +1088,7 @@
     "code": "12.5",
     "title": "12.5）～をめぐって",
     "grammar": "～をめぐって",
-    "connection": "をめぐって をめぐり  Ｎ+ をめぐるN",
+    "connection": "N + をめぐって / をめぐる + N",
     "meaning": "Xoay xung quanh…",
     "explanation": "• Bày tỏ ý kiến, tranh luận, tranh cãi xung quanh 1 chủ đề, vấn đề, đề tài nào đó\n• Thường gặp trên tin tức, báo đài",
     "examples": [
@@ -1105,7 +1105,7 @@
     "code": "12.6",
     "title": "12.6）～のもとで",
     "grammar": "～のもとで",
-    "connection": "Ｎ+ のもとで",
+    "connection": "N + のもとで / のもとに",
     "meaning": "Dưới/ Dựa vào/ Nhờ vào …",
     "explanation": "• Làm gì dưới sức ảnh hưởng của người hoặc phạm vi gì đó\n• Cách nói khác: のもとに、のもと",
     "examples": [
@@ -1122,7 +1122,7 @@
     "code": "13.1",
     "title": "13.1）～のみならず",
     "grammar": "～のみならず",
-    "connection": "N + のみならず 普通形",
+    "connection": "普通形 / Aな(である) / N(である) + のみならず",
     "meaning": "Không chỉ…",
     "explanation": "• Không chỉ...mà còn/ mà ngay cả..., mức độ/ phạm vi ở vế sau lớn hơn, vế sau thường có: も、\nさえ\n• Cách nói lịch sự hơn だけでなく, ít dùng trong văn nói, thường thấy trên tin tức",
     "examples": [
@@ -1139,7 +1139,7 @@
     "code": "13.2",
     "title": "13.2）～はもとより",
     "grammar": "～はもとより",
-    "connection": "Ｎ+ はもとより",
+    "connection": "N + はもとより (…thì đã đành, ngay cả...)",
     "meaning": "N là đương nhiên, … cũng",
     "explanation": "• N là đương nhiên rồi, ... cũng...⇒ Không chỉ… mà còn…\n• Là cách nói cứng hơn của はもちろん",
     "examples": [
@@ -1156,7 +1156,7 @@
     "code": "13.3",
     "title": "13.3）～はともかく",
     "grammar": "～はともかく",
-    "connection": "Ｎ+ はともかく (として)",
+    "connection": "N + はともかく (Khoan bàn đến...)",
     "meaning": "Khoan bàn, nói đến…/ Chưa cần quan tâm đến…mà…",
     "explanation": "• Danh từ đứng trước cũng quan trọng nhưng hiện tại thì vế sau cần phải được ưu tiên hơn/\nquan trọng hơn",
     "examples": [
@@ -1173,7 +1173,7 @@
     "code": "13.4",
     "title": "13.4）～はさておき",
     "grammar": "～はさておき",
-    "connection": "Ｎ+ はさておき",
+    "connection": "N + はさておき (Tạm thời bỏ qua...)",
     "meaning": "Chưa nói đến, khoan nói đến, tạm bỏ qua một bên...",
     "explanation": "• Được sử dụng khi muốn diễn tả “chuyện này khoan hãy bàn tới, khoan hãy nói tới. Trước hết\ncần tập trung vào vấn đề phía sau.”",
     "examples": [
@@ -1190,7 +1190,7 @@
     "code": "13.5",
     "title": "13.5）～からには／～以上（は）",
     "grammar": "～からには／～以上（は）",
-    "connection": "普通形          からには ＋ A な／N＋である以上（は）/上は",
+    "connection": "V(普) / Aい / Aな(である) / N(である) + からには / 以上(は)",
     "meaning": "Một khi mà đã…/ Vì… nên đương nhiên là…",
     "explanation": "•Vì trong 1 trạng thái gì đó (vế trước) thế nên đương nhiên là phải  thể hiện ý chí mạnh mẽ\ncủa người nói, hoặc là lời kêu gọi đến đối phương\n•Vế sau: 意志、決意、判断、命令、義務、断定...",
     "examples": [
@@ -1207,7 +1207,7 @@
     "code": "13.6",
     "title": "13.6）～からいって／～からいうと",
     "grammar": "～からいって／～からいうと",
-    "connection": "からいって からいうと N ＋ からいえば",
+    "connection": "N + からいって / からいうと / からいえば",
     "meaning": "Xét từ phương diện…mà nói…/ Xét về mặt… mà nói…",
     "explanation": "•Xét trên một phương diện/ khía cạnh nào đó để đưa ra đánh giá\n•Cũng có trường hợp: đứng từ quan điểm, lập trường để đưa ra đánh giá",
     "examples": [
@@ -1224,7 +1224,7 @@
     "code": "13.7",
     "title": "13.7）～からすると／～からすれば",
     "grammar": "～からすると／～からすれば",
-    "connection": "からすると からすれば N ＋ からしたら …mà nói thì…/ Nhìn từ … mà nói thì…)",
+    "connection": "N + からすると / からすれば / から見ると",
     "meaning": "Đứng từ (vị trí",
     "explanation": "•N: lập trường  đưa ra quan điểm, đánh giá\n•N: cơ sở, bằng chứng  đưa ra phán đoán",
     "examples": [
@@ -1241,7 +1241,7 @@
     "code": "13.8",
     "title": "13.8）～からして",
     "grammar": "～からして",
-    "connection": "Ｎ+ からして ① Xét từ góc độ, xét về mặt...",
+    "connection": "N + からして (Ngay từ...)",
     "meaning": "Xét từ góc độ, xét về mặt...／Ngay cả, ngay từ...",
     "explanation": "• Diễn tả sự phán đoán, nhận xét, đánh giá dựa trên một góc độ, quan điểm, lập trường hay khía\ncạnh nào đó. Hoặc miêu tả cơ sở, căn cứ, đầu mối của sự phán đoán, nhận xét ở vế sau.\n② Ngay cả, ngay từ...\n• Biểu thị nghĩa “Ngay cả N cũng thế nên không cần nói tới những cái khác”\n• Thường đưa ra đánh giá tiêu cực",
     "examples": [
@@ -1261,7 +1261,7 @@
     "code": "14.1",
     "title": "14.1）～とは",
     "grammar": "～とは",
-    "connection": "普通形  ＋   とは",
+    "connection": "N / 普通形 + とは (Nghĩa là... / Thật là...)",
     "meaning": "Thì thật là...",
     "explanation": "• Diễn tả “nỗi ngạc nhiên, thán phục trước một tình huống xảy ra ngoài dự đoán.\n• Trong văn nói thường dùng ~なんて",
     "examples": [
@@ -1278,7 +1278,7 @@
     "code": "14.2",
     "title": "14.2）～といった",
     "grammar": "～といった",
-    "connection": "N1(や・とか)N2 ... ＋ といったN",
+    "connection": "N1、N2 + といった + N (Những thứ như là...)",
     "meaning": "Ví dụ như…/ Chẳng hạn như…",
     "explanation": "•Cách nói đưa ra 1 vài ví dụ cụ thể/ tiêu biểu cho danh từ chung đứng sau",
     "examples": [
@@ -1295,7 +1295,7 @@
     "code": "14.3",
     "title": "14.3）～としても",
     "grammar": "～としても",
-    "connection": "普通形 ＋ としても",
+    "connection": "普通形 + としても (Cho dù là...)",
     "meaning": "Cho dù là…/ Thậm chí nếu là…",
     "explanation": "•Đưa ra trường hợp giả định để nêu ra ý kiến, quan điểm của người nói\n•Thường hay đi cùng: たとえ、仮に、もし、もしも\n•Văn nói:としたって",
     "examples": [
@@ -1312,7 +1312,7 @@
     "code": "14.4",
     "title": "14.4）～とともに",
     "grammar": "～とともに",
-    "connection": "Ｖる／N／A い ＋ とともに A な／N である",
+    "connection": "Vる / N + とともに (Cùng với / Đồng thời với...)",
     "meaning": "Cùng với",
     "explanation": "①N＋とともに :Cùng với\n•Là văn viết của と一緒に\n②V る／N＋とともに : Cùng với, càng...càng...\n•Cùng với 1 việc gì đó thay đổi thì 1 thay đổi tương ứng cũng diễn ra cùng\n③Vる／Aい／Aなである／N である＋とともに : ...đồng thời thì...\n•2 vế trước sau là 2 thứ/ việc diễn ra hoặc tồn tại song song cùng với nhau",
     "examples": [
@@ -1329,7 +1329,7 @@
     "code": "14.5",
     "title": "14.5）～としたら",
     "grammar": "～としたら",
-    "connection": "普通形 ＋ としたら",
+    "connection": "普通形 + としたら / とすれば (Giả sử nếu...)",
     "meaning": "Giả sử nếu mà…/ Giả dụ như…",
     "explanation": "•Là cách nói đưa ra 1 trường hợp giả định nào đó\n•Thường là giả định cho những điều khó xảy ra trong thực tế",
     "examples": [
@@ -1346,7 +1346,7 @@
     "code": "14.6",
     "title": "14.6）～といったら",
     "grammar": "～といったら",
-    "connection": "Ｎ ＋ といったら",
+    "connection": "N + といったら (Nói về... thì cực kỳ)",
     "meaning": "Nói về",
     "explanation": "• Diễn tả cảm xúc thán phục, ngạc nhiên của người nói về một sự vật, sự việc nào đó. (cả tiêu\ncực và tích cực )",
     "examples": [
@@ -1363,7 +1363,7 @@
     "code": "14.7",
     "title": "14.7）～ということだ",
     "grammar": "～ということだ",
-    "connection": "普通形 ＋ ということだ",
+    "connection": "普通形 + ということだ (Nghe nói là / Có nghĩa là)",
     "meaning": "Có nghĩa là, tóm lại là, tức là...",
     "explanation": "• Dùng khi tóm tắt, tóm lược, giải thích những gì được nói trước đó.",
     "examples": [
@@ -1382,7 +1382,7 @@
     "code": "15.1",
     "title": "15.1）～のなんのって",
     "grammar": "～のなんのって",
-    "connection": "V(普) + のなんのって A い/Aな",
+    "connection": "Aい / Aな / V(普) + のなんのって (Vô cùng, cực kỳ)",
     "meaning": "Cực kì, rất…",
     "explanation": "• Nhấn mạnh vào mức độ vô cùng thế nào đó (đến mức người nói cảm thấy bất ngờ, không ngờ\ntới trước)\n• Cách nói suồng sã, tuy nhiên người trẻ tuổi không hay dùng",
     "examples": [
@@ -1399,7 +1399,7 @@
     "code": "15.2",
     "title": "15.2）～あまり",
     "grammar": "～あまり",
-    "connection": "V(普)／A いさ/み＋の + あまり A な/N の",
+    "connection": "Vる / Vた / Aな / Nの + あまり (Vì quá... nên)",
     "meaning": "Vì quá…",
     "explanation": "• Vì quá... nên dẫn đến 1 trạng thái không bình thường hoặc 1 kết quả không tốt\n• Thường đi với những từ thể hiện cảm xúc\n• Mở rộng: あまりの＋N＋（に）",
     "examples": [
@@ -1416,7 +1416,7 @@
     "code": "15.3",
     "title": "15.3）～てならない",
     "grammar": "～てならない",
-    "connection": "A いくて A なで + ならない V て",
+    "connection": "Vて / Aくて / Aで + ならない (Rất/Không kìm nén được)",
     "meaning": "Rất…đến mức không kìm nén được",
     "explanation": "• Nhấn mạnh vào cảm xúc vô cùng...của người nói, đặc biệt còn chứa nhiều sắc thái nghĩa chỉ\ncảm xúc đó nó tự nhiên xảy đến và không thể kìm nén được\n• Giống てしょうがないnhưng ít dùng trong văn nói hơn",
     "examples": [
@@ -1433,7 +1433,7 @@
     "code": "15.4",
     "title": "15.4）～てたまらない",
     "grammar": "～てたまらない",
-    "connection": "A いくて A なで + たまらない V たいくて V て",
+    "connection": "Vて / Aくて / Aで + たまらない (Rất/Không chịu nổi)",
     "meaning": "Rất…đến mức không chịu được",
     "explanation": "• Cách dùng để nhấn mạnh vào cảm xúc/ trạng thái của người nói đến mức không chịu được\n• Không dùng cho những cảm xúc tự phát",
     "examples": [
@@ -1450,7 +1450,7 @@
     "code": "15.5",
     "title": "15.5）～得る",
     "grammar": "～得る",
-    "connection": "V ます + 得る",
+    "connection": "Vます(bỏ ます) + 得る(える/うる) / 得ない(えない)",
     "meaning": "Có khả năng…/ Có thể…",
     "explanation": "• Có khả năng/ có thể xảy ra/ thực hiện hành động gì đó; Không dùng để biểu thị năng lực\n• Lưu ý về 2 cách đọc: うる、える.Cách đọc: 辞書形：うる、える  (うるlịch sự hơnえる)",
     "examples": [
@@ -1467,7 +1467,7 @@
     "code": "15.6",
     "title": "15.6)～やら～やら",
     "grammar": "～やら～やら",
-    "connection": "V る           Ｖる Ａ１（い）        Ａ２ + やら + やら Ｎ１           Ｎ２",
+    "connection": "N / Aい / Vる + やら + N / Aい / Vる + やら",
     "meaning": "Vừa…Vừa…/ Nào là… nào là…",
     "explanation": "• Liệt kê ra những hành động, tính chất, sự việc giống nhau và ngoài ra vẫn còn nhiều cái khác\n• Mang 1 chút cảm xúc tiêu cực vì nhiều quá\n• Cách nói khác của: や～など、とか～とか、...",
     "examples": [
@@ -1484,7 +1484,7 @@
     "code": "15.7",
     "title": "15.7）～も〜ば 〜も",
     "grammar": "～も〜ば 〜も",
-    "connection": "N1 も V ば       N2 も N1 も A いければ   N2 も N1 も A な/N なら N2 も",
+    "connection": "N1 も + Vば / Aければ + N2 も",
     "meaning": "Cả N1, N2 đều…",
     "explanation": "• Liệt kê những tính chất song song, có xu hướng giống nhau (tốt cùng tốt, xấu cùng xấu) hoặc\nnhiều mặt/ khía cạnh của 1 hiện tượng. Văn nói còn có thể dùng: ～も～し、～も",
     "examples": [
@@ -1501,7 +1501,7 @@
     "code": "16.1",
     "title": "16.1）～上で",
     "grammar": "～上で",
-    "connection": "Vる / Nの + 上で | Vた / Nの + 上で",
+    "connection": "Vた + 上で (Sau khi) / Vる・Nの + 上で (Trong việc/Khi)",
     "meaning": "Khi, trong trường hợp... / Sau khi... thì",
     "explanation": "1/ 《するとき》:Khi, trong trường hợp\nV る/Nの    + 上で\nVế sau thường đưa ra những điều cần thiết, quan trọng cho trường hợp/ văn cảnh được nêu\nra ở vế trước.\n2/     《した後》: Sau khi…\nV た/Nの    + 上で\nHành động ở vế sau sẽ/ đã được tiến hành trên cơ sở sau khi hoàn thành/ thực hiện xong\nhành động ở vế trước.",
     "examples": [
@@ -1518,7 +1518,7 @@
     "code": "16.2",
     "title": "16.2）～次第（1）",
     "grammar": "～次第（1）",
-    "connection": "V ます   + 次第",
+    "connection": "Vます(bỏ ます) + 次第 (Ngay sau khi...)",
     "meaning": "Ngay sau khi…",
     "explanation": "• Ngay sau khi ... thì sẽ làm gì đó luôn\n• Cách nói cứng thường dùng trong thông báo, tin tức\n• Không dùng cho hiện tượng tự nhiên hoặc thể quá khứ",
     "examples": [
@@ -1535,7 +1535,7 @@
     "code": "16.3",
     "title": "16.3）～次第（2）",
     "grammar": "～次第（2）",
-    "connection": "N + 次第だ/で/では | 普通形(Aな/N＋である) + 次第だ",
+    "connection": "N + 次第だ / 次第で(は) (Tùy vào...)",
     "meaning": "Tùy vào... / Do đó, thế nên là...",
     "explanation": "1/ 《～によって決まる 》=> Tùy vào\nN + 次第だ/で/では\nTùy vào N mà vế sau sẽ có những thay đổi, quyết định phù hợp với N hoặc dẫn đến những\nkết quả khác nhau.\n2/ 《～という事情だ》=> Thế nên là…\n普通形（A な/N＋である） + 次第だ\nDùng ở cuối câu khi trình bày diễn tả 1 lý do giải thích cho hành động hoặc kết quả nào đó.",
     "examples": [
@@ -1553,7 +1553,7 @@
     "code": "16.4",
     "title": "16.4）～あげく",
     "grammar": "～あげく",
-    "connection": "V た／N の   + あげく",
+    "connection": "Vた / Nの + あげく(に) (Kết cục là...)",
     "meaning": "Kết cục thì…/ Cuối cùng thì…",
     "explanation": "• Sau khi làm gì đó nhiều lần/ trong 1 thời gian dài thì cuối cùng là 1 kết quả đáng tiếc, không tốt\n• Hay đi với những cụm từ  nhấn mạnh vào việc đã mất thời gian: さんざん、いろいろ",
     "examples": [
@@ -1570,7 +1570,7 @@
     "code": "16.5",
     "title": "16.5）～末",
     "grammar": "～末",
-    "connection": "V た/N の    + 末",
+    "connection": "Vた / Nの + 末(に) (Sau một hồi... cuối cùng thì)",
     "meaning": "に） (Cuối cùng thì…/ Kết quả là…",
     "explanation": "• Sau khi đã rất.../ làm trong 1 thời gian dài...thì kết quả là/ cuối cùng thì...\n• Kết quả có thể tốt hoặc xấu đều được",
     "examples": [
@@ -1587,7 +1587,7 @@
     "code": "16.6",
     "title": "16.6）～どころではない",
     "grammar": "～どころではない",
-    "connection": "N + どころではない V る／V ている",
+    "connection": "Vる / N + どころではない (Không phải lúc để...)",
     "meaning": "Không phải trong hoàn cảnh để có thể…/Không còn tâm trí để…",
     "explanation": "• Phủ định 1 cách mạnh mẽ rằng đó không phải là thời điểm để người nói có thời gian/ tâm trí\nmà làm chuyện gì đó\n• Thường dùng trong văn nói\n• Cách nói khác: 「～してる場合じゃないね。」   「～どころじゃない」",
     "examples": [
@@ -1604,7 +1604,7 @@
     "code": "16.7",
     "title": "16.7）～おそれがある",
     "grammar": "～おそれがある",
-    "connection": "Ｖる／Ｖない／Ｎの + おそれがある",
+    "connection": "Vる / Vない / Nの + おそれがある (E rằng có nguy cơ)",
     "meaning": "E rằng…/ Có khả năng…",
     "explanation": "• Có khả năng, nguy cơ xảy ra chuyện gì đó không tốt\n• Là cách nói trang trọng thường gặp trên tin tức, thông báo, nhãn mác cảnh báo\n• Phủ định: ～恐れはありません",
     "examples": [
@@ -1621,7 +1621,7 @@
     "code": "17.1",
     "title": "17.1）～てはじめて",
     "grammar": "～てはじめて",
-    "connection": "V て    + はじめて",
+    "connection": "Vて + はじめて (Kể từ sau khi... thì mới)",
     "meaning": "Kể từ sau khi…thì mới…/ Chỉ sau khi…mới…",
     "explanation": "• Kể từ sau khi làm 1 việc (mà trước đó chưa bao giờ làm) thì mới hiểu ra/ làm được 1 điều gì\nđó\n• Vế sau thường đi với những từ thể hiện nhận thức: わかる、知る、気が付く、理解する…",
     "examples": [
@@ -1638,7 +1638,7 @@
     "code": "17.2",
     "title": "17.2）～きり",
     "grammar": "～きり",
-    "connection": "V た + きり/っきり",
+    "connection": "Vた + きり (Kể từ sau khi... suốt từ đó)",
     "meaning": "Kể từ sau khi…",
     "explanation": "• Kể từ sau khi làm... thì liên tục duy trì 1 trạng thái nào đó đã được dự đoán trước nhưng lại\nkhông diễn ra\n• Vế sau thường ở thể phủ định",
     "examples": [
@@ -1655,7 +1655,7 @@
     "code": "17.3",
     "title": "17.3）～に先立って",
     "grammar": "～に先立って",
-    "connection": "N／V る    + に先立って",
+    "connection": "Vる / N + に先立って / に先立ち",
     "meaning": "Trước khi…",
     "explanation": "• Vế trước thường là những sự việc, hành động quan trọng mà cần đến sự chuẩn bị\n• Vế sau: làm sẵn, chuẩn bị sẵn cho sự việc đó",
     "examples": [
@@ -1672,7 +1672,7 @@
     "code": "17.4",
     "title": "17.4）～たところ",
     "grammar": "～たところ",
-    "connection": "V た    + ところ",
+    "connection": "Vた + ところ (Sau khi thử làm... thì nhận ra)",
     "meaning": "Sau khi…",
     "explanation": "• Sau khi làm ~ thì phát hiện/ hiểu ra 1 sự thật/ kết quả/ 1 thông tin mới nào đó\n• Vế sau luôn chia ở quá khứ, không đi với những câu thể hiện hành động có ý chí người nói\ntrong đó",
     "examples": [
@@ -1689,7 +1689,7 @@
     "code": "17.5",
     "title": "17.5）～どころか",
     "grammar": "～どころか",
-    "connection": "V(普)／A い(普） (Chẳng những/ lấy đâu ra… A(な)／である + どころか mà ngược lại/ thậm chí…) N/N である",
+    "connection": "普通形 / Aな / N + どころか (Chẳng những không... mà trái lại)",
     "meaning": "Chẳng những/ lấy đâu ra…",
     "explanation": "• Nhấn mạnh vào thực tế hoàn toàn trái ngược với tưởng tượng, kì vọng\n• Câu nói thường có cảm xúc tiêu cực, than thở. Có thể nói bằng: どころではなく",
     "examples": [
@@ -1706,7 +1706,7 @@
     "code": "17.6",
     "title": "17.6）～ようじゃ／～ようでは",
     "grammar": "～ようじゃ／～ようでは",
-    "connection": "ようじゃ V る／V ない／V ている + ようでは",
+    "connection": "Vる / Vない + ようじゃ / ようでは (Nếu cứ như thế thì...)",
     "meaning": "Nếu…như thế này thì…",
     "explanation": "• Nhấn mạnh ý: Nếu cứ duy trì trạng thái như thế này thì là không tốt\n• Là câu thường dùng để khuyên, nhắc nhở đối phương, dùng nhiều trong hội thoại hàng ngày",
     "examples": [
@@ -1723,7 +1723,7 @@
     "code": "18.1",
     "title": "18.1）～ながら",
     "grammar": "～ながら",
-    "connection": "V ます/A い なA な/であり + ながら（も） Ｎ・Ｎであり",
+    "connection": "Vます(bỏ ます) / Aい / Aな / N + ながら(も) (Tuy... nhưng)",
     "meaning": "Mặc dù…nhưng…",
     "explanation": "• Vế sau thường là khác so với tưởng tượng/ thực tế. Lưu ý về những cụm cố định thường gặp",
     "examples": [
@@ -1740,7 +1740,7 @@
     "code": "18.2",
     "title": "18.2）～つつ",
     "grammar": "～つつ",
-    "connection": "V ます + つつ",
+    "connection": "Vます(bỏ ます) + つつ (Vừa... vừa / Mặc dù... nhưng)",
     "meaning": "Vừa…vừa…",
     "explanation": "①V つつ、…＝V ながら、… : Vừa…vừa…\n• Vừa làm V1, vừa làm V2\n• V1 là hành động phụ, V2 là hành động chính\n• Giống ながら nhưng là cách nói văn viết hơn và chỉ đi với động từ\n②V つつ、…＝V ているが／けれども、… : Mặc dù\n• Mặc dù…nhưng…\n• Vế sau là những điều ngược lại, câu nói thường chứa cảm xúc hối hận, tự thú về những điều đã\nlàm\n• Thường đi với: 知りつつ、思いつつ、言いつつ、感じつつ\n• Có thể nói bằng V つつも",
     "examples": [
@@ -1760,7 +1760,7 @@
     "code": "18.3",
     "title": "18.3）～わりに(は)",
     "grammar": "～わりに(は)",
-    "connection": "V 普/Aい + わりに(は) A な/Nの",
+    "connection": "V(普) / Aい / Aな(な) / Nの + わりに(は) (So với... thì)",
     "meaning": "Mặc dù…／So với …thì…",
     "explanation": "• So với (điều được đề cập đến ở vế trước), thì điều được nhắc đến ở vế sau thì thường ngược lại,\nkhông giống với những gì có thể tưởng tượng được trước.\n• Lưu ý sự giống và khác đối với にしては",
     "examples": [
@@ -1777,7 +1777,7 @@
     "code": "18.4",
     "title": "18.4）～一方(で)",
     "grammar": "～一方(で)",
-    "connection": "普通形 Aな/A なである + 一方(で) N の/Ｎである",
+    "connection": "V(普) / Aい / Aな(な/である) / N(の/である) + 一方(で)",
     "meaning": "Ngược lại với…/ Một mặt thì…/ Mặt khác…",
     "explanation": "• Diễn tả 2 mặt trái ngược nhau hoặc nhiều mặt, nhiều khía cạnh song song nhau của 1 chủ thể",
     "examples": [
@@ -1794,7 +1794,7 @@
     "code": "18.5",
     "title": "18.5）～一方だ／～ばかりだ",
     "grammar": "～一方だ／～ばかりだ",
-    "connection": "一方だ V る  + ばかりだ",
+    "connection": "Vる + 一方だ / ばかりだ (Càng ngày càng...)",
     "meaning": "Càng ngày càng…/ Có xu hướng…",
     "explanation": "• Diễn tả sự thay đổi của 1 trạng thái theo 1 chiều hướng nào đó\n• 一方だdiễn tả cả trạng thái tốt + xấu\n• ばかりだdiễn tả cả trạng thái xấu, tiêu cực",
     "examples": [
@@ -1811,7 +1811,7 @@
     "code": "18.6",
     "title": "18.6）～つつある",
     "grammar": "～つつある",
-    "connection": "V ます + つつある",
+    "connection": "Vます(bỏ ます) + つつある (Dần dần đang...)",
     "meaning": "Vừa mới… đã ngay lập tức…",
     "explanation": "• Nhấn mạnh vào sự việc gì đó đang thay đổi, tiến triển theo 1 chiều hướng nào đó => đi với động\ntừ thay đổi\n• Không thường sử dụng trong hội thoại hàng ngày",
     "examples": [
@@ -1828,7 +1828,7 @@
     "code": "19.1",
     "title": "19.1）～ざるをえない",
     "grammar": "～ざるをえない",
-    "connection": "（せざるを得ない） Ｖない + ざるをえない",
+    "connection": "Vない(bỏ ない) + ざるを得ない (する -> せざるを得ない)",
     "meaning": "Buộc phải, đành phải ~",
     "explanation": "• Vì có một sự tình, nguyên do nào đó mà đành phải, buộc phải làm mặc dù không muốn\n• Giống với ないわけにはいかない, nhưng cảm xúc không muốn làm mạnh hơn",
     "examples": [
@@ -1845,7 +1845,7 @@
     "code": "19.2",
     "title": "19.2）～わけにはいかない",
     "grammar": "～わけにはいかない",
-    "connection": "V る／V ない + わけにはいかない",
+    "connection": "Vる / Vない + わけにはいかない",
     "meaning": "Không thể nào mà lại …/ Buộc phải…",
     "explanation": "• Vì có một lí do, sự tình/ xuất phát từ quan niệm, suy nghĩ, tiêu chuẩn xã hội ⇒ mà không thể/\nbuộc phải làm gì đó\n• Không dùng với lí do năng lực cá nhân",
     "examples": [
@@ -1862,7 +1862,7 @@
     "code": "19.3",
     "title": "19.3）～（より）ほかない",
     "grammar": "～（より）ほかない",
-    "connection": "Ｖる    ＋ よりほかない",
+    "connection": "Vる + (より)ほかない / より仕方がない",
     "meaning": "Chỉ còn cách...",
     "explanation": "• Diễn tả ý nghĩa trong một tình huống khó khăn, không có cách giải quyết ngoài cách làm như\nthế.\n• Cũng có cách nói khác là～よりほかにない、～よりほかはない",
     "examples": [
@@ -1879,7 +1879,7 @@
     "code": "19.4",
     "title": "19.4）～ようではないか",
     "grammar": "～ようではないか",
-    "connection": "Ｖ意向形      ＋       ではないか chúng ta hãy...",
+    "connection": "V意向形 + ではないか / じゃありませんか (Hãy cùng nhau...)",
     "meaning": "Kêu gọi",
     "explanation": "• Biểu thị mạnh mẽ ý chí của người nói, hoặc để hô hào, kêu gọi người nghe cùng thực hiện hành\nđộng nào đó.",
     "examples": [
@@ -1896,7 +1896,7 @@
     "code": "19.5",
     "title": "19.5）～にほかならない",
     "grammar": "～にほかならない",
-    "connection": "Ｎ + にほかならない",
+    "connection": "N / から + にほかならない (Chính là / Không gì khác ngoài)",
     "meaning": "Chắc chắn là…/ Chỉ có thể là…/ Không gì khác ngoài…",
     "explanation": "• Đưa ra kết luận, khẳng định mạnh mẽ chắc chắn là như vậy",
     "examples": [
@@ -1913,7 +1913,7 @@
     "code": "19.6",
     "title": "19.6）～てはいられない",
     "grammar": "～てはいられない",
-    "connection": "Ｖて + はいられない",
+    "connection": "Vて + はいられない / てられない (Không thể tiếp tục... nữa)",
     "meaning": "Không thể nào mà… thêm nữa",
     "explanation": "• Vì có một sự tình, nguyên do nào đó nên không thể nào mà như thế này thêm nữa vì như thế\nlà không được.\n• Văn nói: ちゃいられない",
     "examples": [

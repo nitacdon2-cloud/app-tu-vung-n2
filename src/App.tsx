@@ -17,6 +17,7 @@ import { GrammarFlashcardScreen } from './components/GrammarFlashcardScreen';
 import { GrammarTestScreen } from './components/GrammarTestScreen';
 import { TestCenterScreen } from './components/TestCenterScreen';
 import { ExamRunnerScreen } from './components/ExamRunnerScreen';
+import { SprintRoadmapScreen } from './components/SprintRoadmapScreen';
 import { TextSelectionListener } from './components/TextSelectionListener';
 
 const MainContent: React.FC = () => {
@@ -52,6 +53,8 @@ const MainContent: React.FC = () => {
         return <TestCenterScreen />;
       case 'exam_runner':
         return <ExamRunnerScreen />;
+      case 'sprint_roadmap':
+        return <SprintRoadmapScreen />;
       default:
         return <LessonGridScreen />;
     }
