@@ -49,7 +49,7 @@ export const TestSetupScreen: React.FC = () => {
   const isAllSelected = testConfig.selectedLessons.length === lessons.length;
 
   return (
-    <div className="flex-1 bg-gray-50 flex flex-col justify-between p-4 sm:p-6 max-w-2xl mx-auto w-full select-none pb-24 overflow-y-auto">
+    <div className="flex-1 bg-gray-50 flex flex-col justify-between p-4 sm:p-6 max-w-2xl mx-auto w-full select-none pb-[calc(7rem+env(safe-area-inset-bottom,0px))] md:pb-28 overflow-y-auto">
       <div className="space-y-5">
         {/* Header Banner */}
         <div className="bg-white rounded-2xl p-4 border border-gray-200/80 shadow-sm flex items-center gap-3">
@@ -300,8 +300,8 @@ export const TestSetupScreen: React.FC = () => {
         </div>
       </div>
 
-      {/* Fixed Bottom "LÀM BÀI" Blue Button */}
-      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white/90 backdrop-blur-md border-t border-gray-200 z-30 flex justify-center">
+      {/* Bottom "LÀM BÀI" Blue Button */}
+      <div className="sticky bottom-0 left-0 right-0 p-4 pb-[max(1rem,env(safe-area-inset-bottom,0px))] bg-white/95 backdrop-blur-md border-t border-gray-200 z-30 flex justify-center">
         <button
           onClick={handleStartTest}
           className="w-full max-w-lg py-4 bg-primary hover:bg-blue-600 text-white font-bold text-lg rounded-2xl shadow-xl shadow-blue-500/30 flex items-center justify-center gap-2 active:scale-95 transition border-2 border-white"

@@ -216,7 +216,7 @@ export const CardMatchScreen: React.FC = () => {
   }
 
   return (
-    <div className="flex-1 bg-[#F4F7FC] flex flex-col justify-between p-4 sm:p-6 max-w-md mx-auto w-full select-none pb-10 overflow-y-auto">
+    <div className="flex-1 bg-[#F4F7FC] flex flex-col justify-between p-4 sm:p-6 max-w-md mx-auto w-full select-none pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))] overflow-y-auto">
       {/* Top Banner (Exact design from Screenshot 1) */}
       <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100/80 text-center mb-2">
         <h3 className="text-base sm:text-lg font-bold text-[#2563EB]">

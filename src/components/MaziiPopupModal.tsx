@@ -58,7 +58,7 @@ export const MaziiPopupModal: React.FC = () => {
       onClick={(e) => {
         if (e.target === e.currentTarget) handleClose();
       }}
-      className="fixed inset-0 z-50 bg-black/70 backdrop-blur-md flex items-center justify-center p-2 sm:p-4 animate-in fade-in duration-200 select-none cursor-pointer"
+      className="fixed inset-0 z-50 bg-black/70 backdrop-blur-md flex items-center justify-center p-2 sm:p-4 pt-[max(0.5rem,env(safe-area-inset-top,0px))] pb-[max(0.5rem,env(safe-area-inset-bottom,0px))] animate-in fade-in duration-200 select-none cursor-pointer"
       role="dialog"
       aria-modal="true"
       aria-label="Cửa sổ tra từ Mazii"

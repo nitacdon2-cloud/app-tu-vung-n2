@@ -27,7 +27,7 @@ export const StudyModePickerModal: React.FC = () => {
   return (
     <div 
       onClick={(e) => { if (e.target === e.currentTarget) setIsStudyPickerOpen(false); }}
-      className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200 select-none cursor-pointer"
+      className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 pt-[max(1rem,env(safe-area-inset-top,0px))] pb-[max(1rem,env(safe-area-inset-bottom,0px))] animate-in fade-in duration-200 select-none cursor-pointer"
     >
       <div className="bg-white w-full max-w-sm max-h-[90vh] flex flex-col rounded-3xl shadow-2xl p-5 sm:p-6 border border-gray-100 animate-in zoom-in-95 duration-200 relative cursor-default">
         {/* Close Button */}

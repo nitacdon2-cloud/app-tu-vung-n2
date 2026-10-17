@@ -7,16 +7,43 @@
 :root {
   --color-primary: #1E88E5;
   --color-primary-dark: #1565C0;
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  height: -webkit-fill-available;
+  overscroll-behavior-y: none;
   font-family: 'Inter', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: #f4f6f9;
   color: #1f2937;
   -webkit-tap-highlight-color: transparent;
   user-select: text;
+}
+
+/* Safe Area Inset Utility Classes for iPhone & Dynamic Island */
+.pt-safe {
+  padding-top: max(env(safe-area-inset-top, 0px), 0px);
+}
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 0px);
+}
+.pl-safe {
+  padding-left: max(env(safe-area-inset-left, 0px), 0px);
+}
+.pr-safe {
+  padding-right: max(env(safe-area-inset-right, 0px), 0px);
+}
+.top-safe {
+  top: env(safe-area-inset-top, 0px);
+}
+.bottom-safe {
+  bottom: env(safe-area-inset-bottom, 0px);
 }
 
 .font-japanese {

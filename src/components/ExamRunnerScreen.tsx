@@ -429,7 +429,7 @@ export const ExamRunnerScreen: React.FC = () => {
           </div>
 
           {/* Question Palette Sidebar (Right on desktop, Bottom/Scroll on mobile) */}
-          <div className="w-full md:w-72 bg-white border-t md:border-t-0 md:border-l border-slate-200 p-4 flex flex-col justify-between flex-shrink-0 z-20">
+          <div className="w-full md:w-72 bg-white border-t md:border-t-0 md:border-l border-slate-200 p-4 pb-[max(1rem,env(safe-area-inset-bottom,0px))] flex flex-col justify-between flex-shrink-0 z-20">
             <div>
               <div className="flex items-center justify-between mb-3">
                 <h4 className="text-xs font-bold text-slate-600 uppercase tracking-wider">

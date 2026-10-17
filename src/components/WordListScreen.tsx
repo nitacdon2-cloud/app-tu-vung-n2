@@ -37,7 +37,7 @@ export const WordListScreen: React.FC = () => {
   });
 
   return (
-    <div className="flex-1 bg-gray-50 flex flex-col relative select-none pb-20 overflow-y-auto">
+    <div className="flex-1 bg-gray-50 flex flex-col relative select-none pb-[calc(6rem+env(safe-area-inset-bottom,0px))] md:pb-20 overflow-y-auto">
       {/* Top Filter Panel */}
       <div className="bg-white border-b border-gray-200 sticky top-0 z-20 shadow-sm">
         {/* Row 1: Blind Mask Checkboxes */}
@@ -305,7 +305,7 @@ export const WordListScreen: React.FC = () => {
       {/* FAB (Play Button ▶) */}
       <button
         onClick={() => setIsStudyPickerOpen(true)}
-        className="fixed bottom-6 right-6 z-30 w-14 h-14 bg-primary hover:bg-blue-600 text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-200 active:scale-90 hover:scale-105 border-2 border-white"
+        className="absolute bottom-[calc(4.5rem+env(safe-area-inset-bottom,0px))] md:bottom-6 right-5 sm:right-6 z-30 w-14 h-14 bg-primary hover:bg-blue-600 text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-200 active:scale-90 hover:scale-105 border-2 border-white"
         title="Chọn chế độ học"
       >
         <Play className="w-7 h-7 fill-white ml-1" />

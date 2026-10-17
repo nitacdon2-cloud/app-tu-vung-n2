@@ -65,7 +65,7 @@ export const WordDetailView: React.FC = () => {
   };
 
   return (
-    <div className="flex-1 bg-gray-50 flex flex-col relative select-none pb-20 overflow-y-auto">
+    <div className="flex-1 bg-gray-50 flex flex-col relative select-none pb-[calc(6rem+env(safe-area-inset-bottom,0px))] md:pb-20 overflow-y-auto">
       <div className="max-w-3xl mx-auto w-full p-4 space-y-4">
         
         {/* Main Word Card */}
@@ -405,7 +405,7 @@ export const WordDetailView: React.FC = () => {
       {/* Floating Search Button: Directly opens word on Mazii */}
       <button
         onClick={() => openMaziiExternal(detailWord.word, 'word')}
-        className="fixed bottom-6 right-6 z-30 px-4 py-3 bg-primary hover:bg-blue-600 text-white rounded-full shadow-2xl flex items-center gap-2 transition active:scale-95 border-2 border-white font-bold text-xs"
+        className="absolute bottom-[calc(4.5rem+env(safe-area-inset-bottom,0px))] md:bottom-6 right-5 sm:right-6 z-30 px-4 py-3 bg-primary hover:bg-blue-600 text-white rounded-full shadow-2xl flex items-center gap-2 transition active:scale-95 border-2 border-white font-bold text-xs"
         title="Tra từ trên Mazii trực tiếp"
       >
         <Search className="w-5 h-5" />

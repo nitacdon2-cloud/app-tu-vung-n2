@@ -63,7 +63,7 @@ export const TestCenterScreen: React.FC = () => {
   }, [currentTests, examResults]);
 
   return (
-    <div className="flex-1 flex flex-col bg-slate-50 overflow-y-auto">
+    <div className="flex-1 flex flex-col bg-slate-50 overflow-y-auto pb-[calc(5rem+env(safe-area-inset-bottom,0px))] md:pb-12">
       {/* Top Banner */}
       <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 text-white px-4 py-5 sm:px-6 shadow-md">
         <div className="max-w-4xl mx-auto">

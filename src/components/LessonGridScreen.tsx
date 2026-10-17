@@ -57,7 +57,7 @@ export const LessonGridScreen: React.FC = () => {
   }, [lessons, selectedChapter, searchQuery]);
 
   return (
-    <div className="flex-1 bg-gray-50 flex flex-col relative select-none pb-24 overflow-y-auto">
+    <div className="flex-1 bg-gray-50 flex flex-col relative select-none pb-[calc(6rem+env(safe-area-inset-bottom,0px))] md:pb-24 overflow-y-auto">
       {/* Banner Header */}
       <div className="bg-gradient-to-br from-primary via-blue-600 to-indigo-700 text-white p-4 sm:p-5 shadow-inner">
         <div className="max-w-5xl mx-auto flex items-center justify-between gap-3">
@@ -205,7 +205,7 @@ export const LessonGridScreen: React.FC = () => {
       {/* Floating Action Button (FAB) - Test Setup Icon */}
       <button
         onClick={() => setScreen('test_setup')}
-        className="fixed bottom-6 right-6 z-30 w-13 h-13 sm:w-14 sm:h-14 bg-primary hover:bg-blue-600 text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-200 active:scale-90 hover:scale-105 group border-2 border-white"
+        className="absolute bottom-[calc(4.5rem+env(safe-area-inset-bottom,0px))] md:bottom-6 right-5 sm:right-6 z-30 w-13 h-13 sm:w-14 sm:h-14 bg-primary hover:bg-blue-600 text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-200 active:scale-90 hover:scale-105 group border-2 border-white"
         title="Thiết lập bài test từ vựng"
       >
         <BarChart2 className="w-6 h-6 sm:w-7 sm:h-7 group-hover:rotate-12 transition-transform" />

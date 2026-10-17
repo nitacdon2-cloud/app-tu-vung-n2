@@ -564,7 +564,7 @@ export const FlashcardScreen: React.FC = () => {
   };
 
   return (
-    <div className="flex-1 bg-gray-50 flex flex-col justify-between p-4 max-w-lg mx-auto w-full select-none pb-8 overflow-y-auto space-y-3">
+    <div className="flex-1 bg-gray-50 flex flex-col justify-between p-4 max-w-lg mx-auto w-full select-none pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))] overflow-y-auto space-y-3">
       {/* ── BỘ CHỌN BÀI HỌC FLASHCARD (MULTI-LESSON SELECTOR) ── */}
       <div className="bg-gradient-to-r from-amber-500/10 via-orange-500/10 to-amber-500/15 border border-amber-300/80 rounded-3xl p-3 sm:p-3.5 shadow-sm flex items-center justify-between gap-2.5">
         <div className="flex items-center gap-2.5 min-w-0">

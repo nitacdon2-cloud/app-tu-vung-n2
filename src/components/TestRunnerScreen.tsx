@@ -405,7 +405,7 @@ export const TestRunnerScreen: React.FC = () => {
     const accuracy = totalQ > 0 ? Math.round((score.correct / totalQ) * 100) : 0;
 
     return (
-      <div className="flex-1 bg-[#F4F7FC] flex flex-col justify-between p-4 sm:p-6 max-w-md mx-auto w-full select-none pb-12 overflow-y-auto">
+      <div className="flex-1 bg-[#F4F7FC] flex flex-col justify-between p-4 sm:p-6 max-w-md mx-auto w-full select-none pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))] overflow-y-auto">
         <div className="my-auto bg-white rounded-3xl p-6 sm:p-8 border border-gray-100 shadow-xl text-center space-y-6">
           <div className="w-20 h-20 bg-blue-100 text-[#2563EB] rounded-full flex items-center justify-center mx-auto shadow-inner">
             <Trophy className="w-10 h-10" />
@@ -476,7 +476,7 @@ export const TestRunnerScreen: React.FC = () => {
   const isSelectedCorrect = activeOption ? activeOption.text === currentQ.correctAnswer : false;
 
   return (
-    <div className="flex-1 bg-[#F4F7FC] flex flex-col justify-between p-4 sm:p-6 max-w-md mx-auto w-full select-none pb-8 overflow-y-auto">
+    <div className="flex-1 bg-[#F4F7FC] flex flex-col justify-between p-4 sm:p-6 max-w-md mx-auto w-full select-none pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))] overflow-y-auto">
       {/* Top Stats Bar */}
       <div className="flex items-center justify-between gap-3 mb-3">
         {/* Left Pill: Question Index & Mode Tag */}

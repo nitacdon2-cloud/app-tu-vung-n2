@@ -81,7 +81,7 @@ export const GrammarListScreen: React.FC = () => {
   };
 
   return (
-    <div className="flex-1 bg-gray-50 flex flex-col p-3 sm:p-5 max-w-5xl mx-auto w-full select-none pb-12 overflow-y-auto space-y-4">
+    <div className="flex-1 bg-gray-50 flex flex-col p-3 sm:p-5 max-w-5xl mx-auto w-full select-none pb-[calc(5rem+env(safe-area-inset-bottom,0px))] md:pb-12 overflow-y-auto overflow-x-hidden space-y-4">
       {/* Top Banner & Quick Navigation */}
       <div className="bg-gradient-to-r from-blue-600 via-indigo-600 to-indigo-700 text-white rounded-3xl p-5 sm:p-6 shadow-xl relative overflow-hidden flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div className="space-y-1 z-10">
@@ -167,9 +167,9 @@ export const GrammarListScreen: React.FC = () => {
         </div>
 
         {/* Row 2: Status Tabs & Chapter Select */}
-        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-1 border-t border-gray-100">
+        <div className="flex flex-wrap items-center justify-between gap-2.5 pt-1 border-t border-gray-100">
           {/* Status Tabs */}
-          <div className="flex items-center gap-1 bg-gray-100/80 p-1 rounded-xl text-xs font-bold">
+          <div className="flex items-center gap-1 bg-gray-100/80 p-1 rounded-xl text-xs font-bold overflow-x-auto max-w-full no-scrollbar">
             <button
               onClick={() => setStatusTab('all')}
               className={`px-3 py-1.5 rounded-lg transition ${
@@ -210,7 +210,7 @@ export const GrammarListScreen: React.FC = () => {
             <select
               value={currentGrammarChapter}
               onChange={(e) => setCurrentGrammarChapter(Number(e.target.value))}
-              className="py-1.5 px-3 bg-gray-50 border border-gray-200 rounded-xl text-xs font-bold text-gray-800 focus:outline-none focus:ring-2 focus:ring-primary"
+              className="py-1.5 px-3 bg-gray-50 border border-gray-200 rounded-xl text-xs font-bold text-gray-800 focus:outline-none focus:ring-2 focus:ring-primary max-w-[200px] truncate"
             >
               <option value={0}>Tất cả các chương (19 Chương)</option>
               {chapters.map(c => (

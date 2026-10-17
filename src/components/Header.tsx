@@ -89,171 +89,176 @@ export const Header: React.FC = () => {
   const isRoadmapMode = currentScreen === 'sprint_roadmap';
 
   return (
-    <header className="bg-primary text-white h-14 px-3 sm:px-4 flex items-center justify-between shadow-md sticky top-0 z-40 select-none flex-shrink-0">
-      {/* Left: Back button or Home icon */}
-      <div className="flex items-center gap-2 sm:gap-3">
-        {currentScreen !== 'lesson_grid' ? (
-          <button
-            onClick={handleBack}
-            className="p-1.5 rounded-full hover:bg-white/10 transition active:scale-95"
-            title="Quay lại"
-          >
-            <ArrowLeft className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-          </button>
-        ) : (
-          <div className="p-1.5 bg-white/10 rounded-lg">
-            <BookOpen className="w-5 h-5 text-white" />
-          </div>
-        )}
-
-        {/* Title with optional Lesson / Chapter Dropdown */}
-        <div className="relative" ref={dropdownRef}>
-          {!isGrammarMode && !isTestMode && !isRoadmapMode ? (
+    <header
+      className="bg-primary text-white shadow-md sticky top-0 z-40 select-none flex-shrink-0"
+      style={{
+        paddingTop: isMobileFrame ? '48px' : 'max(env(safe-area-inset-top, 0px), 0px)',
+      }}
+    >
+      <div className="h-14 px-3 sm:px-4 flex items-center justify-between w-full">
+        {/* Left: Back button or Home icon */}
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+          {currentScreen !== 'lesson_grid' ? (
             <button
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="flex items-center gap-1.5 font-semibold text-sm sm:text-base hover:opacity-90 transition text-left"
+              onClick={handleBack}
+              className="p-1.5 rounded-full hover:bg-white/10 transition active:scale-95 flex-shrink-0"
+              title="Quay lại"
             >
-              <span className="truncate max-w-[130px] sm:max-w-xs">{getHeaderTitle()}</span>
-              <ChevronDown className="w-4 h-4 opacity-80 flex-shrink-0" />
+              <ArrowLeft className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
             </button>
           ) : (
-            <div className="flex items-center gap-1.5 font-bold text-sm sm:text-base">
-              <span className="truncate max-w-[130px] sm:max-w-xs">{getHeaderTitle()}</span>
-              {isGrammarMode && (
-                <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-amber-400 text-slate-950 uppercase">
-                  112 Thẻ
-                </span>
-              )}
-              {isTestMode && (
-                <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-emerald-400 text-slate-950 uppercase">
-                  59 Đề
-                </span>
-              )}
-              {isRoadmapMode && (
-                <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-rose-400 text-white uppercase">
-                  53 Ngày
-                </span>
-              )}
+            <div className="p-1.5 bg-white/10 rounded-lg flex-shrink-0">
+              <BookOpen className="w-5 h-5 text-white" />
             </div>
           )}
 
-          {/* Lesson Select Dropdown (Vocab mode) */}
-          {isDropdownOpen && !isGrammarMode && !isTestMode && !isRoadmapMode && (
-            <div className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white text-gray-800 rounded-xl shadow-2xl border border-gray-100 py-2 max-h-80 overflow-y-auto z-50 animate-in fade-in zoom-in-95 duration-150">
-              <div className="px-3 py-1.5 text-xs font-bold text-gray-400 uppercase tracking-wider flex items-center justify-between border-b border-gray-100">
-                <span>Danh sách bài học (1.1 → 11.10)</span>
-                <span className="px-2 py-0.5 bg-blue-50 text-primary rounded-full">{lessons.length} bài</span>
+          {/* Title with optional Lesson / Chapter Dropdown */}
+          <div className="relative min-w-0" ref={dropdownRef}>
+            {!isGrammarMode && !isTestMode && !isRoadmapMode ? (
+              <button
+                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                className="flex items-center gap-1.5 font-semibold text-sm sm:text-base hover:opacity-90 transition text-left min-w-0"
+              >
+                <span className="truncate max-w-[170px] xs:max-w-[220px] sm:max-w-xs">{getHeaderTitle()}</span>
+                <ChevronDown className="w-4 h-4 opacity-80 flex-shrink-0" />
+              </button>
+            ) : (
+              <div className="flex items-center gap-1.5 font-bold text-sm sm:text-base min-w-0">
+                <span className="truncate max-w-[170px] xs:max-w-[220px] sm:max-w-xs">{getHeaderTitle()}</span>
+                {isGrammarMode && (
+                  <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-amber-400 text-slate-950 uppercase flex-shrink-0">
+                    112 Thẻ
+                  </span>
+                )}
+                {isTestMode && (
+                  <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-emerald-400 text-slate-950 uppercase flex-shrink-0">
+                    59 Đề
+                  </span>
+                )}
+                {isRoadmapMode && (
+                  <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-rose-400 text-white uppercase flex-shrink-0">
+                    53 Ngày
+                  </span>
+                )}
               </div>
-              {lessons.map((lesson) => (
-                <button
-                  key={lesson.lesson_id}
-                  onClick={() => {
-                    setCurrentLessonId(lesson.lesson_id);
-                    if (currentScreen === 'flashcard') {
-                      setFlashcardSelectedLessons([lesson.lesson_id]);
-                    }
-                    setIsDropdownOpen(false);
-                    if (currentScreen === 'lesson_grid') setScreen('word_list');
-                  }}
-                  className={`w-full px-3.5 py-2 text-left text-xs sm:text-sm flex items-center justify-between hover:bg-primary/5 transition ${
-                    currentLessonId === lesson.lesson_id ? 'bg-primary/10 text-primary font-bold' : ''
-                  }`}
-                >
-                  <span className="truncate">{lesson.lesson_name}</span>
-                  <span className="text-[11px] text-gray-400 flex-shrink-0 ml-2">{lesson.words.length} từ</span>
-                </button>
-              ))}
-            </div>
-          )}
+            )}
+
+            {/* Lesson Select Dropdown (Vocab mode) */}
+            {isDropdownOpen && !isGrammarMode && !isTestMode && !isRoadmapMode && (
+              <div className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white text-gray-800 rounded-xl shadow-2xl border border-gray-100 py-2 max-h-80 overflow-y-auto z-50 animate-in fade-in zoom-in-95 duration-150">
+                <div className="px-3 py-1.5 text-xs font-bold text-gray-400 uppercase tracking-wider flex items-center justify-between border-b border-gray-100">
+                  <span>Danh sách bài học (1.1 → 11.10)</span>
+                  <span className="px-2 py-0.5 bg-blue-50 text-primary rounded-full">{lessons.length} bài</span>
+                </div>
+                {lessons.map((lesson) => (
+                  <button
+                    key={lesson.lesson_id}
+                    onClick={() => {
+                      setCurrentLessonId(lesson.lesson_id);
+                      if (currentScreen === 'flashcard') {
+                        setFlashcardSelectedLessons([lesson.lesson_id]);
+                      }
+                      setIsDropdownOpen(false);
+                      if (currentScreen === 'lesson_grid') setScreen('word_list');
+                    }}
+                    className={`w-full px-3.5 py-2 text-left text-xs sm:text-sm flex items-center justify-between hover:bg-primary/5 transition ${
+                      currentLessonId === lesson.lesson_id ? 'bg-primary/10 text-primary font-bold' : ''
+                    }`}
+                  >
+                    <span className="truncate">{lesson.lesson_name}</span>
+                    <span className="text-[11px] text-gray-400 flex-shrink-0 ml-2">{lesson.words.length} từ</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
-      </div>
 
-      {/* Center: Module Switcher (TỪ VỰNG vs NGỮ PHÁP vs LUYỆN TEST vs LỘ TRÌNH) */}
-      <div className="flex items-center bg-black/20 p-1 rounded-xl text-xs font-bold border border-white/10">
-        <button
-          onClick={() => {
-            setActiveModule('vocab');
-            if (isGrammarMode || isTestMode || isRoadmapMode) setScreen('lesson_grid');
-          }}
-          className={`px-2 sm:px-2.5 py-1 rounded-lg transition flex items-center gap-1 ${
-            !isGrammarMode && !isTestMode && !isRoadmapMode
-              ? 'bg-white text-primary shadow-sm font-black'
-              : 'text-blue-100 hover:text-white'
-          }`}
-        >
-          <BookOpen className="w-3.5 h-3.5" />
-          <span className="hidden xs:inline">Từ Vựng</span>
-          <span className="xs:hidden">TV</span>
-        </button>
-
-        <button
-          onClick={() => {
-            setActiveModule('grammar');
-            setScreen('grammar_list');
-          }}
-          className={`px-2 sm:px-2.5 py-1 rounded-lg transition flex items-center gap-1 ${
-            isGrammarMode
-              ? 'bg-amber-400 text-slate-950 shadow-sm font-black'
-              : 'text-blue-100 hover:text-white'
-          }`}
-        >
-          <Sparkles className="w-3.5 h-3.5" />
-          <span className="hidden xs:inline">Ngữ Pháp</span>
-          <span className="xs:hidden">NP</span>
-        </button>
-
-        <button
-          onClick={() => {
-            setActiveModule('test');
-            setScreen('test_center');
-          }}
-          className={`px-2 sm:px-2.5 py-1 rounded-lg transition flex items-center gap-1 ${
-            isTestMode
-              ? 'bg-emerald-400 text-slate-950 shadow-sm font-black'
-              : 'text-blue-100 hover:text-white'
-          }`}
-        >
-          <Layers className="w-3.5 h-3.5" />
-          <span className="hidden xs:inline">Luyện Test</span>
-          <span className="xs:hidden">Test</span>
-        </button>
-
-        <button
-          onClick={() => {
-            setActiveModule('roadmap');
-            setScreen('sprint_roadmap');
-          }}
-          className={`px-2 sm:px-2.5 py-1 rounded-lg transition flex items-center gap-1 ${
-            isRoadmapMode
-              ? 'bg-rose-500 text-white shadow-sm font-black'
-              : 'text-blue-100 hover:text-white'
-          }`}
-        >
-          <Target className="w-3.5 h-3.5" />
-          <span className="hidden xs:inline">Lộ Trình</span>
-          <span className="xs:hidden">L.Trình</span>
-        </button>
-      </div>
-
-      {/* Right: Actions */}
-      <div className="flex items-center gap-1">
-        {/* Toggle Frame View Mode */}
-        <button
-          onClick={() => setIsMobileFrame(!isMobileFrame)}
-          className="p-1.5 rounded-full hover:bg-white/10 transition flex items-center gap-1 text-xs"
-          title={isMobileFrame ? 'Chế độ Desktop' : 'Khung xem Mobile'}
-        >
-          {isMobileFrame ? <Monitor className="w-4.5 h-4.5" /> : <Smartphone className="w-4.5 h-4.5" />}
-        </button>
-
-        {/* 3-dots Menu */}
-        <div className="relative" ref={menuRef}>
+        {/* Center: Module Switcher for Tablet & Desktop (Hidden in mobile view or in mobile frame preview) */}
+        {!isMobileFrame && (
+          <div className="hidden md:flex items-center bg-black/20 p-1 rounded-xl text-xs font-bold border border-white/10">
           <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="p-1.5 rounded-full hover:bg-white/10 transition"
+            onClick={() => {
+              setActiveModule('vocab');
+              if (isGrammarMode || isTestMode || isRoadmapMode) setScreen('lesson_grid');
+            }}
+            className={`px-2.5 py-1 rounded-lg transition flex items-center gap-1.5 ${
+              !isGrammarMode && !isTestMode && !isRoadmapMode
+                ? 'bg-white text-primary shadow-sm font-black'
+                : 'text-blue-100 hover:text-white'
+            }`}
           >
-            <MoreVertical className="w-5 h-5" />
+            <BookOpen className="w-3.5 h-3.5" />
+            <span>Từ Vựng</span>
           </button>
+
+          <button
+            onClick={() => {
+              setActiveModule('grammar');
+              setScreen('grammar_list');
+            }}
+            className={`px-2.5 py-1 rounded-lg transition flex items-center gap-1.5 ${
+              isGrammarMode
+                ? 'bg-amber-400 text-slate-950 shadow-sm font-black'
+                : 'text-blue-100 hover:text-white'
+            }`}
+          >
+            <Sparkles className="w-3.5 h-3.5" />
+            <span>Ngữ Pháp</span>
+          </button>
+
+          <button
+            onClick={() => {
+              setActiveModule('test');
+              setScreen('test_center');
+            }}
+            className={`px-2.5 py-1 rounded-lg transition flex items-center gap-1.5 ${
+              isTestMode
+                ? 'bg-emerald-400 text-slate-950 shadow-sm font-black'
+                : 'text-blue-100 hover:text-white'
+            }`}
+          >
+            <Layers className="w-3.5 h-3.5" />
+            <span>Luyện Test</span>
+          </button>
+
+          <button
+            onClick={() => {
+              setActiveModule('roadmap');
+              setScreen('sprint_roadmap');
+            }}
+            className={`px-2.5 py-1 rounded-lg transition flex items-center gap-1.5 ${
+              isRoadmapMode
+                ? 'bg-rose-500 text-white shadow-sm font-black'
+                : 'text-blue-100 hover:text-white'
+            }`}
+          >
+            <Target className="w-3.5 h-3.5" />
+            <span>Lộ Trình</span>
+          </button>
+        </div>
+        )}
+
+        {/* Right: Actions */}
+        <div className="flex items-center gap-1 flex-shrink-0">
+          {/* Toggle Frame View Mode (Desktop only) */}
+          <button
+            onClick={() => setIsMobileFrame(!isMobileFrame)}
+            className="hidden sm:flex p-1.5 rounded-full hover:bg-white/10 transition items-center gap-1 text-xs"
+            title={isMobileFrame ? 'Chế độ Desktop' : 'Khung xem Mobile'}
+          >
+            {isMobileFrame ? <Monitor className="w-4.5 h-4.5" /> : <Smartphone className="w-4.5 h-4.5" />}
+          </button>
+
+          {/* 3-dots Menu */}
+          <div className="relative" ref={menuRef}>
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="p-1.5 rounded-full hover:bg-white/10 transition active:scale-95"
+              title="Menu tiện ích"
+            >
+              <MoreVertical className="w-5 h-5" />
+            </button>
 
           {isMenuOpen && (
             <div className="absolute right-0 top-full mt-2 w-56 bg-white text-gray-800 rounded-xl shadow-2xl border border-gray-100 py-1.5 z-50">
@@ -360,6 +365,7 @@ export const Header: React.FC = () => {
             </div>
           )}
         </div>
+      </div>
       </div>
     </header>
   );

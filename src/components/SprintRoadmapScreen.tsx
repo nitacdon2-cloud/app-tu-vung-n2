@@ -102,7 +102,7 @@ export const SprintRoadmapScreen: React.FC = () => {
   const progressPercent = Math.round((completedCount / totalDays) * 100);
 
   return (
-    <div className="flex-1 bg-slate-50 flex flex-col overflow-y-auto pb-16">
+    <div className="flex-1 bg-slate-50 flex flex-col overflow-y-auto pb-[calc(5rem+env(safe-area-inset-bottom,0px))] md:pb-16">
       {/* Hero Header Banner */}
       <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 text-white p-4 sm:p-6 shadow-md">
         <div className="max-w-4xl mx-auto">

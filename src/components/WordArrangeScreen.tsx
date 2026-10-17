@@ -174,7 +174,7 @@ export const WordArrangeScreen: React.FC = () => {
   }
 
   return (
-    <div className="flex-1 bg-[#F4F7FC] flex flex-col justify-between p-4 sm:p-6 max-w-md mx-auto w-full select-none pb-8 overflow-y-auto">
+    <div className="flex-1 bg-[#F4F7FC] flex flex-col justify-between p-4 sm:p-6 max-w-md mx-auto w-full select-none pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))] overflow-y-auto">
       {/* Top Banner (Exact layout from Screenshot 2) */}
       <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100/80 relative mb-3 text-center">
         <span className="text-xs text-gray-500 font-bold block mb-1">Chọn để ghép thành từ</span>
