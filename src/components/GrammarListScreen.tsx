@@ -5,7 +5,7 @@ import { getGrammarChapters } from '../services/grammarDataLoader';
 import { GrammarDetailModal } from './GrammarDetailModal';
 import { 
   Search, Eye, EyeOff, Star, CheckCircle, Clock, Volume2, 
-  Layers, HelpCircle, BookOpen, Sparkles, Filter, ChevronRight, Award
+  Layers, HelpCircle, BookOpen, Sparkles, Filter, ChevronRight, Award, Grid
 } from 'lucide-react';
 import { speakJapanese } from '../services/audioService';
 
@@ -97,19 +97,28 @@ export const GrammarListScreen: React.FC = () => {
         </div>
 
         {/* Quick Action Buttons */}
-        <div className="flex items-center gap-2.5 z-10 w-full sm:w-auto">
+        <div className="flex flex-wrap items-center gap-2 z-10 w-full sm:w-auto">
           <button
             onClick={() => setScreen('grammar_flashcard')}
-            className="flex-1 sm:flex-initial px-4 py-3 bg-amber-400 hover:bg-amber-300 text-slate-950 rounded-2xl font-black text-xs shadow-lg transition flex items-center justify-center gap-1.5 active:scale-95"
+            className="flex-1 sm:flex-initial px-3.5 py-2.5 sm:px-4 sm:py-3 bg-amber-400 hover:bg-amber-300 text-slate-950 rounded-2xl font-black text-xs shadow-lg transition flex items-center justify-center gap-1.5 active:scale-95"
             title="Vào chế độ học Flashcard"
           >
             <BookOpen className="w-4 h-4" />
-            <span>Chế Độ Học (Flashcard)</span>
+            <span>Học Thẻ</span>
+          </button>
+
+          <button
+            onClick={() => setScreen('grammar_card_match')}
+            className="flex-1 sm:flex-initial px-3.5 py-2.5 sm:px-4 sm:py-3 bg-emerald-400 hover:bg-emerald-300 text-slate-950 rounded-2xl font-black text-xs shadow-lg transition flex items-center justify-center gap-1.5 active:scale-95"
+            title="Vào game ghép thẻ Ngữ Pháp & Nghĩa"
+          >
+            <Grid className="w-4 h-4" />
+            <span>Ghép Thẻ NP</span>
           </button>
 
           <button
             onClick={() => setScreen('grammar_test')}
-            className="flex-1 sm:flex-initial px-4 py-3 bg-white/20 hover:bg-white/30 text-white border border-white/30 backdrop-blur-md rounded-2xl font-bold text-xs shadow-md transition flex items-center justify-center gap-1.5 active:scale-95"
+            className="flex-1 sm:flex-initial px-3.5 py-2.5 sm:px-4 sm:py-3 bg-white/20 hover:bg-white/30 text-white border border-white/30 backdrop-blur-md rounded-2xl font-bold text-xs shadow-md transition flex items-center justify-center gap-1.5 active:scale-95"
             title="Làm bài kiểm tra trắc nghiệm"
           >
             <HelpCircle className="w-4 h-4 text-amber-300" />

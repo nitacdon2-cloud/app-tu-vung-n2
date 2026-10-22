@@ -11,6 +11,7 @@ export const BottomTabBar: React.FC = () => {
     'test_runner',
     'test_setup',
     'grammar_test',
+    'grammar_card_match',
     'card_match',
     'word_arrange',
     'flashcard',

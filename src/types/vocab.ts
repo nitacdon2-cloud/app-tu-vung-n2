@@ -81,6 +81,7 @@ export type ScreenName =
   | 'grammar_list'
   | 'grammar_flashcard'
   | 'grammar_test'
+  | 'grammar_card_match'
   | 'test_center'
   | 'exam_runner'
   | 'sprint_roadmap';

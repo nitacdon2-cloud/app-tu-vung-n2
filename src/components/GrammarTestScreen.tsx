@@ -24,7 +24,7 @@ export const GrammarTestScreen: React.FC = () => {
   const [selectedChapters, setSelectedChapters] = useState<number[]>(
     currentGrammarChapter > 0 ? [currentGrammarChapter] : []
   );
-  const [testType, setTestType] = useState<'all' | 'meaning' | 'connection'>('all');
+  const [testType, setTestType] = useState<'all' | 'meaning' | 'grammar' | 'connection'>('all');
   const [testRange, setTestRange] = useState<'tat_ca' | 'chua_nho' | 'thich'>('tat_ca');
   const [questionCount, setQuestionCount] = useState<number>(20);
 
@@ -72,14 +72,20 @@ export const GrammarTestScreen: React.FC = () => {
 
     // Generate questions
     const generated: GrammarQuestion[] = selectedGrammars.map((target, idx) => {
-      // Decide question type: 'choose_meaning' vs 'choose_connection'
+      // Decide question type: 'choose_meaning' vs 'choose_grammar' vs 'choose_connection'
       let qType: GrammarQuestionType;
       if (testType === 'meaning') {
         qType = 'choose_meaning';
+      } else if (testType === 'grammar') {
+        qType = 'choose_grammar';
       } else if (testType === 'connection') {
         qType = 'choose_connection';
       } else {
-        qType = idx % 2 === 0 ? 'choose_meaning' : 'choose_connection';
+        // 'all': Rotate across 3 types
+        const mod = idx % 3;
+        if (mod === 0) qType = 'choose_meaning';
+        else if (mod === 1) qType = 'choose_grammar';
+        else qType = 'choose_connection';
       }
 
       if (qType === 'choose_meaning') {
@@ -100,6 +106,25 @@ export const GrammarTestScreen: React.FC = () => {
           correctAnswer: target.meaning,
           options,
           explanation: `• Cách chia: ${target.connection}\n• Nghĩa: ${target.meaning}\n${target.explanation}`,
+        };
+      } else if (qType === 'choose_grammar') {
+        // Distractors from other grammar patterns
+        const otherGrammars = grammarList
+          .filter(g => g.id !== target.id && g.grammar && g.grammar !== target.grammar)
+          .map(g => g.grammar);
+        const distractors = [...new Set(otherGrammars)]
+          .sort(() => 0.5 - Math.random())
+          .slice(0, 3);
+        const options = [target.grammar, ...distractors].sort(() => 0.5 - Math.random());
+
+        return {
+          grammarItem: target,
+          qType,
+          questionTitle: target.meaning,
+          questionSub: 'Chọn mẫu ngữ pháp tiếng Nhật có ý nghĩa trên:',
+          correctAnswer: target.grammar,
+          options,
+          explanation: `• Ngữ pháp đúng: ${target.grammar}\n• Nghĩa: ${target.meaning}\n• Cách chia: ${target.connection}\n${target.explanation}`,
         };
       } else {
         // Distractors from other grammar connections
@@ -187,7 +212,7 @@ export const GrammarTestScreen: React.FC = () => {
           </div>
           <h2 className="text-2xl font-black">Bài Test Ngữ Pháp N2</h2>
           <p className="text-xs text-blue-100 max-w-sm mx-auto">
-            Hỗ trợ 2 dạng câu hỏi cốt lõi: <strong>Chọn nghĩa đúng</strong> và <strong>Chọn cách chia đúng</strong>.
+            Hỗ trợ 3 dạng câu hỏi cốt lõi: <strong>Chọn nghĩa</strong>, <strong>Chọn ngữ pháp</strong> và <strong>Chọn cách chia</strong>.
           </p>
         </div>
 
@@ -197,7 +222,7 @@ export const GrammarTestScreen: React.FC = () => {
             <Layers className="w-4 h-4 text-primary" />
             <span>1. Dạng Câu Hỏi Trong Bài Test</span>
           </h3>
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
             <button
               onClick={() => setTestType('all')}
               className={`p-3 rounded-xl border text-xs font-bold transition text-center ${
@@ -206,7 +231,7 @@ export const GrammarTestScreen: React.FC = () => {
                   : 'border-gray-200 text-gray-600 hover:bg-gray-50'
               }`}
             >
-              Cả 2 Dạng (Hỗn Hợp)
+              Cả 3 Dạng (Hỗn Hợp)
             </button>
             <button
               onClick={() => setTestType('meaning')}
@@ -216,7 +241,17 @@ export const GrammarTestScreen: React.FC = () => {
                   : 'border-gray-200 text-gray-600 hover:bg-gray-50'
               }`}
             >
-              Chọn Nghĩa Đúng
+              Chọn Nghĩa (NP ➔ Nghĩa)
+            </button>
+            <button
+              onClick={() => setTestType('grammar')}
+              className={`p-3 rounded-xl border text-xs font-bold transition text-center ${
+                testType === 'grammar'
+                  ? 'bg-emerald-50 border-emerald-400 text-emerald-800 shadow-sm'
+                  : 'border-gray-200 text-gray-600 hover:bg-gray-50'
+              }`}
+            >
+              Chọn Ngữ Pháp (Nghĩa ➔ NP)
             </button>
             <button
               onClick={() => setTestType('connection')}
@@ -226,7 +261,7 @@ export const GrammarTestScreen: React.FC = () => {
                   : 'border-gray-200 text-gray-600 hover:bg-gray-50'
               }`}
             >
-              Chọn Cách Chia Đúng
+              Chọn Cách Chia (接続)
             </button>
           </div>
         </div>
@@ -418,12 +453,18 @@ export const GrammarTestScreen: React.FC = () => {
       <div className="bg-white rounded-3xl p-5 sm:p-7 shadow-lg border border-gray-100 text-center space-y-3 relative">
         {/* Question Type Badge */}
         <div className="flex items-center justify-between gap-2">
-          <span className={`px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider ${
-            currentQ.qType === 'choose_meaning'
-              ? 'bg-amber-100 text-amber-900 border border-amber-300'
-              : 'bg-indigo-100 text-indigo-900 border border-indigo-300'
+          <span className={`px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider ${
+            currentQ.qType === 'choose_meaning' 
+              ? 'bg-amber-100 text-amber-900 border border-amber-300' 
+              : currentQ.qType === 'choose_grammar'
+                ? 'bg-emerald-100 text-emerald-900 border border-emerald-300'
+                : 'bg-indigo-100 text-indigo-900 border border-indigo-300'
           }`}>
-            {currentQ.qType === 'choose_meaning' ? '📖 Chọn Nghĩa Đúng' : '🧩 Chọn Cách Chia Đúng'}
+            {currentQ.qType === 'choose_meaning' 
+              ? '📖 Chọn Nghĩa Đúng' 
+              : currentQ.qType === 'choose_grammar'
+                ? '🎯 Chọn Ngữ Pháp Đúng'
+                : '🧩 Chọn Cách Chia Đúng'}
           </span>
 
           <span className="text-[11px] font-bold text-gray-400 font-mono">
@@ -433,7 +474,9 @@ export const GrammarTestScreen: React.FC = () => {
 
         {/* Grammar Question Title */}
         <div className="py-2 space-y-1">
-          <h2 className="text-3xl sm:text-4xl font-black text-gray-900 font-japanese tracking-wide">
+          <h2 className={`text-2xl sm:text-3xl font-black text-gray-900 tracking-wide ${
+            currentQ.qType !== 'choose_grammar' ? 'font-japanese sm:text-4xl' : 'text-amber-950 sm:text-3xl leading-snug'
+          }`}>
             {currentQ.questionTitle}
           </h2>
           <p className="text-xs text-gray-500 font-medium pt-1">
@@ -443,7 +486,7 @@ export const GrammarTestScreen: React.FC = () => {
 
         <button
           onClick={() => speakJapanese(currentQ.grammarItem.grammar)}
-          className="p-2 text-primary hover:bg-blue-50 rounded-full transition inline-flex items-center gap-1 text-xs font-semibold"
+          className="p-2 text-primary hover:bg-blue-50 rounded-full transition inline-flex items-center gap-1 text-xs font-semibold active:scale-95"
           title="Nghe phát âm ngữ pháp"
         >
           <Volume2 className="w-4 h-4" />
@@ -479,7 +522,7 @@ export const GrammarTestScreen: React.FC = () => {
               disabled={isAnswered}
               onClick={() => handleSelectOption(idx)}
               className={`p-4 rounded-2xl border-2 text-left text-xs sm:text-sm font-bold transition-all duration-150 flex items-center justify-between gap-2.5 active:scale-95 ${btnStyle} ${
-                currentQ.qType === 'choose_connection' ? 'font-japanese' : ''
+                currentQ.qType === 'choose_grammar' || currentQ.qType === 'choose_connection' ? 'font-japanese sm:text-base' : ''
               }`}
             >
               <span className="line-clamp-3">{opt}</span>

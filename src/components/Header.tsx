@@ -43,6 +43,7 @@ export const Header: React.FC = () => {
     if (currentScreen === 'grammar_list') return 'N2 Ngữ Pháp';
     if (currentScreen === 'grammar_flashcard') return 'Học Thẻ Ngữ Pháp';
     if (currentScreen === 'grammar_test') return 'Test Ngữ Pháp';
+    if (currentScreen === 'grammar_card_match') return 'Ghép Thẻ Ngữ Pháp';
     if (currentScreen === 'lesson_grid') return 'N2 Từ Vựng';
     if (currentScreen === 'word_list') return currentLesson ? currentLesson.lesson_name : 'N2 Từ Vựng';
     if (currentScreen === 'word_detail') return 'Chi Tiết Từ Vựng';
@@ -68,7 +69,7 @@ export const Header: React.FC = () => {
     } else if (currentScreen === 'test_center') {
       setScreen('lesson_grid');
       setActiveModule('vocab');
-    } else if (currentScreen === 'grammar_flashcard' || currentScreen === 'grammar_test') {
+    } else if (currentScreen === 'grammar_flashcard' || currentScreen === 'grammar_test' || currentScreen === 'grammar_card_match') {
       setScreen('grammar_list');
     } else if (currentScreen === 'grammar_list') {
       setScreen('lesson_grid');

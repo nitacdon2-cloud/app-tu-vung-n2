@@ -15,6 +15,7 @@ import { FlashcardScreen } from './components/FlashcardScreen';
 import { GrammarListScreen } from './components/GrammarListScreen';
 import { GrammarFlashcardScreen } from './components/GrammarFlashcardScreen';
 import { GrammarTestScreen } from './components/GrammarTestScreen';
+import { GrammarCardMatchScreen } from './components/GrammarCardMatchScreen';
 import { TestCenterScreen } from './components/TestCenterScreen';
 import { ExamRunnerScreen } from './components/ExamRunnerScreen';
 import { SprintRoadmapScreen } from './components/SprintRoadmapScreen';
@@ -51,6 +52,8 @@ const MainContent: React.FC = () => {
         return <GrammarFlashcardScreen />;
       case 'grammar_test':
         return <GrammarTestScreen />;
+      case 'grammar_card_match':
+        return <GrammarCardMatchScreen />;
       case 'test_center':
         return <TestCenterScreen />;
       case 'exam_runner':

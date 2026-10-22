@@ -22,7 +22,7 @@ export interface GrammarMaskSettings {
   showMeaning: boolean;    // Option hiển thị nghĩa
 }
 
-export type GrammarQuestionType = 'choose_meaning' | 'choose_connection';
+export type GrammarQuestionType = 'choose_meaning' | 'choose_grammar' | 'choose_connection';
 
 export interface GrammarQuestion {
   grammarItem: GrammarItem;
@@ -37,6 +37,6 @@ export interface GrammarQuestion {
 export interface GrammarTestConfig {
   selectedChapters: number[];
   questionCount: number;
-  questionType: 'all' | 'meaning_only' | 'connection_only';
+  questionType: 'all' | 'meaning_only' | 'grammar_only' | 'connection_only';
   range: 'tat_ca' | 'chua_nho' | 'thich';
 }
