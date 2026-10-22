@@ -513,11 +513,24 @@ export const GrammarTestScreen: React.FC = () => {
               <p className="font-bold text-amber-950">
                 • <span className="text-amber-800 font-semibold">Nghĩa:</span> {currentQ.grammarItem.meaning}
               </p>
-              {currentQ.grammarItem.examples && currentQ.grammarItem.examples[0] && (
-                <p className="text-gray-700 font-japanese italic bg-white/70 p-2 rounded-xl border border-blue-100 mt-1">
-                  Ví dụ: {currentQ.grammarItem.examples[0]}
-                </p>
-              )}
+              {currentQ.grammarItem.examples && currentQ.grammarItem.examples[0] && (() => {
+                const firstEx = currentQ.grammarItem.examples[0];
+                const jaText = typeof firstEx === 'string' ? firstEx : firstEx.ja;
+                const viText = typeof firstEx === 'string' ? '' : firstEx.vi;
+
+                return (
+                  <div className="bg-white/80 p-2.5 rounded-xl border border-blue-100 mt-1 space-y-1 text-left">
+                    <p className="text-gray-800 font-japanese font-medium text-xs sm:text-sm">
+                      <span className="font-bold text-indigo-700">Ví dụ:</span> {jaText}
+                    </p>
+                    {viText && (
+                      <p className="text-gray-600 text-xs italic pl-2 border-l-2 border-indigo-400">
+                        {viText}
+                      </p>
+                    )}
+                  </div>
+                );
+              })()}
             </div>
           </div>
 

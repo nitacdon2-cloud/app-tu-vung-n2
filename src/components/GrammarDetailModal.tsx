@@ -107,29 +107,43 @@ export const GrammarDetailModal: React.FC<GrammarDetailModalProps> = ({ item, on
             <div className="space-y-2.5">
               <div className="text-xs font-black text-gray-700 uppercase tracking-wider flex items-center justify-between">
                 <span>Câu Ví Dụ Mẫu ({item.examples.length})</span>
-                <span className="text-[11px] text-gray-400 font-normal">Chạm loa để nghe phát âm</span>
+                <span className="text-[11px] text-gray-400 font-normal">Kèm bản dịch tiếng Việt</span>
               </div>
 
-              <div className="space-y-2">
-                {item.examples.map((ex, exIdx) => (
-                  <div 
-                    key={exIdx} 
-                    className="p-3.5 bg-gray-50 hover:bg-blue-50/50 rounded-2xl border border-gray-200/70 transition space-y-1 group"
-                  >
-                    <div className="flex items-start justify-between gap-2">
-                      <p className="text-sm sm:text-base font-bold text-gray-900 font-japanese leading-relaxed">
-                        {ex}
-                      </p>
-                      <button
-                        onClick={() => speakJapanese(ex.replace(/^[①②③④⑤⑥⑦⑧⑨⑩\d\.]\s*/, ''))}
-                        className="p-1.5 text-blue-600 hover:bg-blue-100 rounded-lg transition shrink-0"
-                        title="Nghe phát âm câu ví dụ"
-                      >
-                        <Volume2 className="w-4 h-4" />
-                      </button>
+              <div className="space-y-2.5">
+                {item.examples.map((ex, exIdx) => {
+                  const jaText = typeof ex === 'string' ? ex : ex.ja;
+                  const viText = typeof ex === 'string' ? '' : ex.vi;
+                  const cleanAudioText = jaText.replace(/^[①②③④⑤⑥⑦⑧⑨⑩\d\.]\s*/, '');
+
+                  return (
+                    <div 
+                      key={exIdx} 
+                      className="p-3.5 bg-gray-50 hover:bg-blue-50/40 rounded-2xl border border-gray-200/80 transition space-y-2 group shadow-sm"
+                    >
+                      <div className="flex items-start justify-between gap-2">
+                        <p className="text-sm sm:text-base font-bold text-gray-900 font-japanese leading-relaxed">
+                          {jaText}
+                        </p>
+                        <button
+                          onClick={() => speakJapanese(cleanAudioText)}
+                          className="p-1.5 text-blue-600 hover:bg-blue-100 rounded-lg transition shrink-0 active:scale-95"
+                          title="Nghe phát âm câu ví dụ"
+                        >
+                          <Volume2 className="w-4 h-4" />
+                        </button>
+                      </div>
+
+                      {viText && (
+                        <div className="pl-3 border-l-2 border-indigo-400 bg-indigo-50/60 rounded-r-xl py-1.5 px-3">
+                          <p className="text-xs sm:text-sm font-medium text-slate-700 leading-snug">
+                            {viText}
+                          </p>
+                        </div>
+                      )}
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}

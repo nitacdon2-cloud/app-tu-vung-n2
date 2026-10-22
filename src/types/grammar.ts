@@ -1,3 +1,8 @@
+export interface GrammarExample {
+  ja: string;
+  vi: string;
+}
+
 export interface GrammarItem {
   id: string;
   chapter: number;
@@ -9,7 +14,7 @@ export interface GrammarItem {
   connection: string;
   meaning: string;
   explanation: string;
-  examples: string[];
+  examples: (GrammarExample | string)[];
 }
 
 export interface GrammarMaskSettings {

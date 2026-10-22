@@ -289,27 +289,40 @@ export const GrammarFlashcardScreen: React.FC = () => {
                     <span className="text-[10px] font-black text-gray-600 uppercase tracking-wider flex items-center gap-1">
                       <Sparkles className="w-3.5 h-3.5 text-amber-500" /> Câu ví dụ mẫu ({currentItem.examples.length}):
                     </span>
-                    <div className="space-y-1.5">
-                      {currentItem.examples.map((ex, exIdx) => (
-                        <div 
-                          key={exIdx} 
-                          className="p-2.5 bg-gray-50 rounded-xl border border-gray-200 flex items-start justify-between gap-2"
-                        >
-                          <p className="text-xs sm:text-sm font-bold text-gray-900 font-japanese leading-relaxed">
-                            {ex}
-                          </p>
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              speakJapanese(ex.replace(/^[①②③④⑤⑥⑦⑧⑨⑩\d\.]\s*/, ''));
-                            }}
-                            className="p-1 text-primary hover:bg-blue-100 rounded transition shrink-0"
-                            title="Nghe câu ví dụ"
+                    <div className="space-y-2">
+                      {currentItem.examples.map((ex, exIdx) => {
+                        const jaText = typeof ex === 'string' ? ex : ex.ja;
+                        const viText = typeof ex === 'string' ? '' : ex.vi;
+                        const cleanAudioText = jaText.replace(/^[①②③④⑤⑥⑦⑧⑨⑩\d\.]\s*/, '');
+
+                        return (
+                          <div 
+                            key={exIdx} 
+                            className="p-2.5 bg-gray-50 rounded-xl border border-gray-200 space-y-1 text-left"
                           >
-                            <Volume2 className="w-3.5 h-3.5" />
-                          </button>
-                        </div>
-                      ))}
+                            <div className="flex items-start justify-between gap-2">
+                              <p className="text-xs sm:text-sm font-bold text-gray-900 font-japanese leading-relaxed">
+                                {jaText}
+                              </p>
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  speakJapanese(cleanAudioText);
+                                }}
+                                className="p-1 text-primary hover:bg-blue-100 rounded transition shrink-0 active:scale-95"
+                                title="Nghe câu ví dụ"
+                              >
+                                <Volume2 className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+                            {viText && (
+                              <p className="text-[11px] sm:text-xs text-blue-900 font-medium italic pl-2 border-l-2 border-blue-400">
+                                {viText}
+                              </p>
+                            )}
+                          </div>
+                        );
+                      })}
                     </div>
                   </div>
                 )}

@@ -11,9 +11,18 @@
     "meaning": "Trông có vẻ…",
     "explanation": "• Miêu tả dáng vẻ/ trạng thái cảm xúc của con người. Là cách nói cổ của そう\n• Cụm từ cố định 意味ありげ",
     "examples": [
-      "①あの子に何かあったのだろうか、悲しげな表情をしている。",
-      "②子ども相手にそんなにむきになるなんて、大人げない。",
-      "③彼は先生に対し何か言いたげな様子であった。"
+      {
+        "ja": "①あの子に何かあったのだろうか、悲しげな表情をしている。",
+        "vi": "Không biết có chuyện gì xảy ra với đứa bé kia không mà nó đang mang vẻ mặt trông có vẻ buồn bã."
+      },
+      {
+        "ja": "②子ども相手にそんなにむきになるなんて、大人げない。",
+        "vi": "Chấp nhặt, nổi nóng với trẻ con như thế thì thật là không ra dáng người lớn chút nào."
+      },
+      {
+        "ja": "③彼は先生に対し何か言いたげな様子であった。",
+        "vi": "Anh ấy có vẻ như đang muốn nói điều gì đó với thầy giáo."
+      }
     ]
   },
   {
@@ -28,9 +37,18 @@
     "meaning": "Thấy bảo hình như là…",
     "explanation": "• Là cách nói truyền đạt lại thông tin nghe được, đọc được ở đâu đó, nhưng chứa cảm xúc\nkhông chắc chắn.Thường được nghe trong phim, hài kịch, hoạt hình…\n• Cách nói suồng sã nhưng trong thực tế không hay nói",
     "examples": [
-      "①最近は若者にタピオカという飲み物が人気だとか。",
-      "②彼女の結婚相手は有名企業の社長だとか。",
-      "③あの会社は、福利厚生が充実しているとか。"
+      {
+        "ja": "①最近は若者にタピオカという飲み物が人気だとか。",
+        "vi": "Nghe bảo dạo này trà sữa trân châu đang rất được giới trẻ ưa chuộng."
+      },
+      {
+        "ja": "②彼女の結婚相手は有名企業の社長だとか。",
+        "vi": "Nghe nói đối tượng kết hôn của cô ấy là giám đốc của một công ty nổi tiếng."
+      },
+      {
+        "ja": "③あの会社は、福利厚生が充実しているとか。",
+        "vi": "Nghe nói công ty đó chế độ phúc lợi rất tốt."
+      }
     ]
   },
   {
@@ -45,11 +63,26 @@
     "meaning": "Đi đến / Đi về (không gian); Tiếp diễn (thời gian); Thay đổi dần dần",
     "explanation": "①順次の動作\n• Làm hành động gì đó rồi di chuyển đến đâu đó\n• Nói tại thời điểm đến/ nơi đến của hành động: てくる\n• Nói tại thời điểm chưa làm/ nơi xuất phát của hành động ていく\n②時間的継続\n• Diễn tả trạng thái liên tục diễn ra của 1 hành động\n• Từ quá khứ đến hiện tại: てくる\n• Từ hiện tại đến tương lai:ていく\n③状態の変化\n• Diễn tả sự thay đổi dần dần của 1 trạng thái\n• Từ quá khứ đến hiện tại: てくる\n• Từ hiện tại đến tương lai: ていく\n④話者への接近、離反（移動、一方動作）\n• Chỉ hướng của hành động từ điểm nhìn của người nói\n• Hướng tiến đến gần người nói: てくる\n• Hướng ra xa người nói: ていく\n⑤出現、消滅\n• Diễn tả sự xuất hiện/ biến mất của 1 trạng thái (mới)\n• Trạng thái mới xuất hiện: (chỉ dùng) てくる\n• 1 trạng thái biến mất:ていく",
     "examples": [
-      "①これからは、日本語を勉強するベトナム人が増えていくだろう 。",
-      "②今日は、仕事の後飲み会に行ってきた。",
-      "③公園で友達と遊んでいたら、母が声をかけてきた。",
-      "④私は、３歳の頃からバイオリンを習ってきた。",
-      "⑤お腹に子どもができてから、心配事が出てきた。"
+      {
+        "ja": "①これからは、日本語を勉強するベトナム人が増えていくだろう 。",
+        "vi": "Từ nay về sau, có lẽ số người Việt Nam học tiếng Nhật sẽ ngày càng tăng lên."
+      },
+      {
+        "ja": "②今日は、仕事の後飲み会に行ってきた。",
+        "vi": "Hôm nay sau giờ làm tôi đã đi nhậu về."
+      },
+      {
+        "ja": "③公園で友達と遊んでいたら、母が声をかけてきた。",
+        "vi": "Khi đang chơi với bạn ở công viên thì mẹ cất tiếng gọi tôi."
+      },
+      {
+        "ja": "④私は、３歳の頃からバイオリンを習ってきた。",
+        "vi": "Tôi đã theo học đàn violin suốt từ hồi 3 tuổi đến nay."
+      },
+      {
+        "ja": "⑤お腹に子どもができてから、心配事が出てきた。",
+        "vi": "Kể từ khi mang thai, bao nhiêu nỗi lo lắng bắt đầu nảy sinh."
+      }
     ]
   },
   {
@@ -64,9 +97,18 @@
     "meaning": "Khó…/ Không thể…",
     "explanation": "• Không thể nào mà .../ Khó mà...\n• Là cách nói cứng, thường đi với những động từ thể hiện nhận thức như: 信じる、許す、\n理解する、想像する、耐える、表す、言う...",
     "examples": [
-      "①友人が難病におかされてしまうなんて、受け入れがたい事で、 動揺を隠せない。",
-      "②この番組は、間違った情報を発信しているので信じがたい。",
-      "③大勢の前で彼に馬鹿にされ、耐えがたい屈辱を受けた。"
+      {
+        "ja": "①友人が難病におかされてしまうなんて、受け入れがたい事で、 動揺を隠せない。",
+        "vi": "Việc bạn thân mắc phải căn bệnh nan y là điều khó lòng chấp nhận, tôi không thể giấu nổi sự bàng hoàng."
+      },
+      {
+        "ja": "②この番組は、間違った情報を発信しているので信じがたい。",
+        "vi": "Chương trình này đưa tin sai lệch nên thật khó mà tin được."
+      },
+      {
+        "ja": "③大勢の前で彼に馬鹿にされ、耐えがたい屈辱を受けた。",
+        "vi": "Bị anh ta chế giễu trước đám đông, tôi đã phải chịu một nỗi sỉ nhục khó lòng chịu đựng nổi."
+      }
     ]
   },
   {
@@ -81,9 +123,18 @@
     "meaning": "Vừa mới… đã ngay lập tức…",
     "explanation": "• Diễn tả 2 trạng thái/ thay đổi diễn ra gần như ngay lập tức\n• Miêu tả sự vật, người khác, không nói về bản thân mình\n• Không đi với đuôi câu: V よう、V るつもり",
     "examples": [
-      "①仕事が一段落したかと思うと、またすぐに別の仕事を任された。",
-      "②空が光ったかと思ったら、カミナリの大きな音が聞こえた。",
-      "③勉強し始めたかと思うと、漫画を読みだしたので、注意をした。"
+      {
+        "ja": "①仕事が一段落したかと思うと、またすぐに別の仕事を任された。",
+        "vi": "Vừa mới tạm xong công việc này một cái thì lại lập tức bị giao việc khác."
+      },
+      {
+        "ja": "②空が光ったかと思ったら、カミナリの大きな音が聞こえた。",
+        "vi": "Bầu trời vừa mới lóe sáng thì ngay sau đó đã nghe thấy tiếng sấm rền vang."
+      },
+      {
+        "ja": "③勉強し始めたかと思うと、漫画を読みだしたので、注意をした。",
+        "vi": "Vừa mới thấy bắt đầu ngồi vào học thì đã lôi truyện tranh ra đọc, nên tôi đã nhắc nhở."
+      }
     ]
   },
   {
@@ -98,9 +149,18 @@
     "meaning": "Ngay khi vừa mới … thì…",
     "explanation": "• 2 hành động/ sự việc trước sau xảy ra gần như đồng thời\n• Vế sau không đi với よう、つもり, câu mệnh lệnh…\n• Văn viết, ít dùng trong hội thoại thông thường, có thể nói thay bằng Ｖたとたん（に）",
     "examples": [
-      "① スピーチが終わるか終わらないかのうちに人々は大きな拍手をした。",
-      "②息子はベッドに入るか入らないかのうちに寝てしまった。",
-      "③彼は問題を聞き終えたか終えないかのうちに答えを書き始めた。"
+      {
+        "ja": "① スピーチが終わるか終わらないかのうちに人々は大きな拍手をした。",
+        "vi": "Bài phát biểu vừa dứt chưa được bao lâu thì mọi người đã vỗ tay rào rào."
+      },
+      {
+        "ja": "②息子はベッドに入るか入らないかのうちに寝てしまった。",
+        "vi": "Con trai vừa leo lên giường một cái là đã chìm ngay vào giấc ngủ."
+      },
+      {
+        "ja": "③彼は問題を聞き終えたか終えないかのうちに答えを書き始めた。",
+        "vi": "Vừa nghe xong câu hỏi một cái là anh ấy đã bắt tay vào viết câu trả lời ngay."
+      }
     ]
   },
   {
@@ -115,9 +175,18 @@
     "meaning": "Quả nhiên là vì… nên",
     "explanation": "• Chính vì do tài năng/ nỗ lực/ vị trí/ trải nghiệm, nên mới...\n• Vế sau là điều gì đó tương xứng với vế trước, là câu hàm ý khen ngợi, đánh giá cao\n• Cuối câu có thể dùng: だけのことはある、だけある",
     "examples": [
-      "①あの女将さんは日本人だけあって、おもてなしの心が素晴らしい。",
-      "②このパソコンは値段が高いだけあって、高性能でデザインがいい。",
-      "③10 年日本に住んでるだけあって、発音がとても自然だ。"
+      {
+        "ja": "①あの女将さんは日本人だけあって、おもてなしの心が素晴らしい。",
+        "vi": "Bà chủ quán đó đúng là người Nhật có khác, tinh thần hiếu khách thật tuyệt vời."
+      },
+      {
+        "ja": "②このパソコンは値段が高いだけあって、高性能でデザインがいい。",
+        "vi": "Chiếc máy tính này đắt tiền có khác, hiệu năng cao mà thiết kế lại đẹp."
+      },
+      {
+        "ja": "③10 年日本に住んでるだけあって、発音がとても自然だ。",
+        "vi": "Quả đúng là đã sống ở Nhật 10 năm, phát âm vô cùng tự nhiên."
+      }
     ]
   },
   {
@@ -132,9 +201,18 @@
     "meaning": "Chính bởi… thế nên là…",
     "explanation": "①だけに：Chính bởi… thế nên là…\n• Giống với だけあって：Vì một nguyên nhân, lí do, hoàn cảnh nào đó nên (vế sau) có 1 điều\ngì đó đương nhiên như vậy/ kết quả gì đó phát sinh mà có thể dự đoán được từ điều nêu ra ở\nđằng trước\n②だけに：Chính bởi... nên lại càng...\n• Vế sau thường đưa ra 1 cảm xúc nào đó\n• Vì 1 nguyên nhân đặc biệt nào đó thế nên (vế sau) lại càng... => nhấn mạnh cảm xúc ở vế sau",
     "examples": [
-      "①この物件は、安いだけに何かあるのではないかと不安になる。",
-      "②彼は、経験者だけに、他の人と 仕事の進み具合が違う。",
-      "③一生懸命練習しただけに試合で負けたことは大変ショックだった。"
+      {
+        "ja": "①この物件は、安いだけに何かあるのではないかと不安になる。",
+        "vi": "Căn nhà này chính vì quá rẻ nên tôi lại thấy bất an, không biết có vấn đề gì mờ ám không."
+      },
+      {
+        "ja": "②彼は、経験者だけに、他の人と 仕事の進み具合が違う。",
+        "vi": "Anh ấy chính vì là người có kinh nghiệm nên tiến độ công việc vượt trội hơn hẳn người khác."
+      },
+      {
+        "ja": "③一生懸命練習しただけに試合で負けたことは大変ショックだった。",
+        "vi": "Chính vì đã nỗ lực luyện tập hết mình nên việc thua trận đấu là một cú sốc vô cùng lớn."
+      }
     ]
   },
   {
@@ -149,9 +227,18 @@
     "meaning": "Chính vì… nên mới…",
     "explanation": "• Nhấn mạnh vào nguyên nhân được đề cập đến ở vế trước\n• Là cách nói cứng thường dùng trong văn viết",
     "examples": [
-      "①忙しければこそ、自分で工夫して時間を作る。",
-      "②健康であればこそ、自分の好きなことが年を取っても実現できる。",
-      "③こどもの将来を思えばこそ、 厳しく教育をしている 。"
+      {
+        "ja": "①忙しければこそ、自分で工夫して時間を作る。",
+        "vi": "Chính vì bận rộn nên mới phải tự tìm cách sắp xếp để tạo ra thời gian."
+      },
+      {
+        "ja": "②健康であればこそ、自分の好きなことが年を取っても実現できる。",
+        "vi": "Chính vì có sức khỏe thì khi về già ta mới có thể thực hiện những điều mình yêu thích."
+      },
+      {
+        "ja": "③こどもの将来を思えばこそ、 厳しく教育をしている 。",
+        "vi": "Chính vì nghĩ cho tương lai của con nên tôi mới giáo dục nghiêm khắc như vậy."
+      }
     ]
   },
   {
@@ -166,9 +253,18 @@
     "meaning": "Chỉ vì… mà…",
     "explanation": "• Chỉ vì một nguyên nhân nào đó mà dẫn tới 1 kết quả không tốt hoặc ngoài ý muốn\n• Câu nói chứa cảm xúc hối tiếc, hối hận\n• Cách nói cứng, có thể thay bằng せいで",
     "examples": [
-      "①有名人であるばかりに、つねに周りを気にしなければならない。",
-      "②私が勝手なばかりに、みんなに迷惑をかけてしまった。",
-      "③財布を忘れたばかりに、電車に乗ることができず、遅刻してしまった 。"
+      {
+        "ja": "①有名人であるばかりに、つねに周りを気にしなければならない。",
+        "vi": "Chỉ vì là người nổi tiếng mà lúc nào cũng phải để ý ánh mắt của những người xung quanh."
+      },
+      {
+        "ja": "②私が勝手なばかりに、みんなに迷惑をかけてしまった。",
+        "vi": "Chỉ vì tính ích kỷ tùy tiện của tôi mà đã làm phiền đến tất cả mọi người."
+      },
+      {
+        "ja": "③財布を忘れたばかりに、電車に乗ることができず、遅刻してしまった 。",
+        "vi": "Chỉ vì quên ví tiền mà không thể lên tàu điện, rốt cuộc bị đi làm muộn."
+      }
     ]
   },
   {
@@ -183,10 +279,18 @@
     "meaning": "Vốn dĩ là…／Là đương nhiên…",
     "explanation": "• Hoặc diễn tả những thứ vốn thuộc về bản chất, không thay đổi → vốn dĩ là...\n• Là cách nói diễn tả những điều hiển nhiên, đương nhiên thuộc về quy luật → là đương nhiên...\nmà chẳng...",
     "examples": [
-      ":",
-      "①突然、地震が発生した時は、皆慌てるものだ。",
-      "②人前で演説する時は、誰でも緊張するものだ。",
-      "③助けてくれた彼は親切で、人は見かけで分からないものだ。"
+      {
+        "ja": "①突然、地震が発生した時は、皆慌てるものだ。",
+        "vi": "Khi động đất bất ngờ xảy ra thì ai ai cũng hoảng loạn là chuyện đương nhiên."
+      },
+      {
+        "ja": "②人前で演説する時は、誰でも緊張するものだ。",
+        "vi": "Khi phát biểu trước đám đông thì bất kỳ ai cũng sẽ cảm thấy hồi hộp."
+      },
+      {
+        "ja": "③助けてくれた彼は親切で、人は見かけで分からないものだ。",
+        "vi": "Người đã giúp đỡ tôi rất tốt bụng, con người ta đúng là không thể đánh giá qua vẻ bề ngoài."
+      }
     ]
   },
   {
@@ -201,10 +305,22 @@
     "meaning": "Nên/ Không nên…",
     "explanation": "• Cách nói đưa ra lời khuyên cho đối phương nên hoặc không nên làm gì, xuất phát từ quan điểm\nxã hội, quan điểm đạo đức nói chung\n• Cách nói mang tính giáo huấn, tránh nói với người trên",
     "examples": [
-      "①目上の人に対しては、失礼が無いようにするものだ。",
-      "②社会人なら時間はきちんと守るものだ。",
-      "③周りに何と言われても、自分の意思を曲げるものではない。",
-      "④知らない人の話を簡単に信用するものではない。"
+      {
+        "ja": "①目上の人に対しては、失礼が無いようにするものだ。",
+        "vi": "Đối với người trên thì nên cư xử sao cho không bị thất lễ."
+      },
+      {
+        "ja": "②社会人なら時間はきちんと守るものだ。",
+        "vi": "Đã là người đi làm ngoài xã hội thì nên tuân thủ giờ giấc nghiêm túc."
+      },
+      {
+        "ja": "③周りに何と言われても、自分の意思を曲げるものではない。",
+        "vi": "Dù xung quanh có nói gì đi nữa thì cũng không nên lung lay ý chí của bản thân."
+      },
+      {
+        "ja": "④知らない人の話を簡単に信用するものではない。",
+        "vi": "Không nên dễ dàng tin lời của người lạ."
+      }
     ]
   },
   {
@@ -219,9 +335,18 @@
     "meaning": "Thật là…biết bao/ Quả là…biết",
     "explanation": "• Nói về những cảm xúc mà người nói cảm nhận sâu sắc bằng trái tim\n• Thường gặp trong văn học, tiểu thuyết...",
     "examples": [
-      "①一度にあれほど多くの服を買うなんて贅沢なものだな。",
-      "②あっという間に、高校生になり子供の成長は早いものだ。",
-      "③人の意見を聞かないで、頑固な彼には困ったものだ。"
+      {
+        "ja": "①一度にあれほど多くの服を買うなんて贅沢なものだな。",
+        "vi": "Mua một lúc nhiều quần áo đến thế thì thật là xa xỉ quá đi mất."
+      },
+      {
+        "ja": "②あっという間に、高校生になり子供の成長は早いものだ。",
+        "vi": "Thoắt một cái đã lên cấp ba, con cái lớn nhanh thật đấy."
+      },
+      {
+        "ja": "③人の意見を聞かないで、頑固な彼には困ったものだ。",
+        "vi": "Anh ta chẳng chịu nghe ý kiến ai, tính tình bướng bỉnh thật là đến khổ với anh ấy."
+      }
     ]
   },
   {
@@ -236,9 +361,18 @@
     "meaning": "Thật là, đúng là...…",
     "explanation": "• Sử dụng khi người nói nhìn thấy một sự việc, sự thật nào đó và nói lên cảm xúc, suy nghĩ,\nphê phán, nhận xét hoặc khẳng định đối với sự việc đó.\n• Không dùng với từ thể hiện cảm xúc người nói.",
     "examples": [
-      "①女性に年齢を聞くのはタブーというものだ。",
-      "②連絡もしないで、突然遊びに来るなんて図々しいというものだ。",
-      "③甲子園に出場する事が決まり、努力のかいがあったというものだ。"
+      {
+        "ja": "①女性に年齢を聞くのはタブーというものだ。",
+        "vi": "Đi hỏi tuổi phụ nữ thì đúng là điều cấm kỵ rồi."
+      },
+      {
+        "ja": "②連絡もしないで、突然遊びに来るなんて図々しいというものだ。",
+        "vi": "Chẳng báo trước mà đột ngột kéo đến chơi thì đúng là mặt dày trơ trẽn."
+      },
+      {
+        "ja": "③甲子園に出場する事が決まり、努力のかいがあったというものだ。",
+        "vi": "Được quyết định vào thi đấu tại Koshien, đúng là công sức nỗ lực bấy lâu nay đã được đền đáp xứng đáng."
+      }
     ]
   },
   {
@@ -253,9 +387,18 @@
     "meaning": "Mặc dù…nhưng…/…thế mà…",
     "explanation": "• Vế sau thường là những điều không theo như những gì người nói tưởng tượng\n• Là cách nói lịch sự, thường dùng trong văn viết, hoặc văn nói thì phù hợp khi dùng với người trên",
     "examples": [
-      "①せっかくマフラーを編んだものの、彼に渡すチャンスがなかった。",
-      "②息子は大学生であるものの、勉強せず遊んでばかりいる。",
-      "③激しく転倒したものの、軽傷ですんだ。"
+      {
+        "ja": "①せっかくマフラーを編んだものの、彼に渡すチャンスがなかった。",
+        "vi": "Cất công đan chiếc khăn len nhưng rốt cuộc tôi lại không có cơ hội trao cho anh ấy."
+      },
+      {
+        "ja": "②息子は大学生であるものの、勉強せず遊んでばかりいる。",
+        "vi": "Con trai tôi tuy mang tiếng là sinh viên đại học nhưng chẳng học hành gì mà toàn chơi bời."
+      },
+      {
+        "ja": "③激しく転倒したものの、軽傷ですんだ。",
+        "vi": "Bị ngã một cú rất mạnh nhưng may mắn chỉ bị thương nhẹ."
+      }
     ]
   },
   {
@@ -270,9 +413,18 @@
     "meaning": "Nếu như có thể…",
     "explanation": "• Mặc dù biết là khó nhưng nếu có thể thì.... Văn nói:もんなら\n• Vế sau thường đi với câu thể hiện nguyện vọng, mệnh lệnh（V たい、V ましょう、V てみろ...）",
     "examples": [
-      "①学生時代に戻れるものなら、真面目に勉強をしたい。",
-      "②辞められるものなら、辞めたいが、今後の生活を考えると難しい。",
-      "③一度でいいので芸能人と付き合えるものなら、付き合ってみたい。"
+      {
+        "ja": "①学生時代に戻れるものなら、真面目に勉強をしたい。",
+        "vi": "Nếu có thể quay trở lại thời học sinh, tôi muốn học hành thật chăm chỉ."
+      },
+      {
+        "ja": "②辞められるものなら、辞めたいが、今後の生活を考えると難しい。",
+        "vi": "Nếu nghỉ việc được thì tôi cũng muốn nghỉ, nhưng nghĩ đến cuộc sống sau này thì khó quá."
+      },
+      {
+        "ja": "③一度でいいので芸能人と付き合えるものなら、付き合ってみたい。",
+        "vi": "Dù chỉ một lần thôi, nếu có thể hẹn hò với người nổi tiếng thì tôi cũng muốn thử một lần."
+      }
     ]
   },
   {
@@ -287,9 +439,18 @@
     "meaning": "Tôi nghĩ rằng không hẳn là...",
     "explanation": "• Là cách nói đưa ra quan điểm của bản thân: không hẳn là, không chắc chắn là\n→ đề cập đến bản chất của vấn đề",
     "examples": [
-      "①結婚したからといって幸せだというものでもない。",
-      "②情報量が多ければ、判断が楽になるというものではない。",
-      "③ただ勉強をすればいいというものではなく、目標を持って達成することに意味がある。"
+      {
+        "ja": "①結婚したからといって幸せだというものでもない。",
+        "vi": "Không phải cứ kết hôn là đương nhiên sẽ hạnh phúc đâu."
+      },
+      {
+        "ja": "②情報量が多ければ、判断が楽になるというものではない。",
+        "vi": "Lượng thông tin nhiều không đồng nghĩa với việc đưa ra phán đoán sẽ dễ dàng hơn."
+      },
+      {
+        "ja": "③ただ勉強をすればいいというものではなく、目標を持って達成することに意味がある。",
+        "vi": "Không phải cứ cắm đầu học là tốt, mà phải có mục tiêu và đạt được mục tiêu đó thì mới có ý nghĩa."
+      }
     ]
   },
   {
@@ -304,9 +465,18 @@
     "meaning": "Có điều gì đó cảm thấy rất…",
     "explanation": "• Thể hiện một cảm xúc không rõ ràng, và không hiểu vì sao mà cảm thấy ... thế nào đó",
     "examples": [
-      "①帰宅しても、誰もいないのは寂しいものがある。",
-      "②その政治家の発言には、何だか不自然なものがあった。",
-      "③彼の演説は何か人の心を動かすものがある。"
+      {
+        "ja": "①帰宅しても、誰もいないのは寂しいものがある。",
+        "vi": "Về đến nhà mà không có một bóng người thì cảm thấy có chút gì đó thật cô đơn."
+      },
+      {
+        "ja": "②その政治家の発言には、何だか不自然なものがあった。",
+        "vi": "Lời phát biểu của chính trị gia đó có điều gì đấy cảm giác rất gượng gạo và bất thường."
+      },
+      {
+        "ja": "③彼の演説は何か人の心を動かすものがある。",
+        "vi": "Bài diễn thuyết của anh ấy có điều gì đó thực sự lay động lòng người."
+      }
     ]
   },
   {
@@ -321,12 +491,30 @@
     "meaning": "nghĩa 1: Kết quả là...",
     "explanation": "Ý nghĩa 1\n• Mẫu câu diễn đạt những kế hoạch không phải do bản thân quyết định, hoặc miêu tả những\nquy định hay nội quy.\n• Tương đương với mẫu câu ～ことに決まってる\n• Ngoài ra, cũng có cách nói mang tính trang trọng ～こととなっている\nÝ nghĩa 2\n• Diễn tả kết quả của một sự việc kết thúc như thế nào đó. Hoặc chỉ ra bản chất sự việc.",
     "examples": [
-      "①この図書館は休日は8 時で閉館することになっている。",
-      "②母は入院のため1 か月間仕事を休むことになった。",
-      "③ここで計画を中止したら、全てを諦めてしまうことになる。",
-      "④これ以上お客さんの数が減ってしまったら、このレストランも閉店することになる だろう。",
-      "⑤今ここで彼の秘密を話してしまったら、彼を裏切ることになる。",
-      "⑥来年8 月に結婚することになりました。"
+      {
+        "ja": "①この図書館は休日は8 時で閉館することになっている。",
+        "vi": "Thư viện này vào ngày nghỉ có quy định đóng cửa lúc 8 giờ tối."
+      },
+      {
+        "ja": "②母は入院のため1 か月間仕事を休むことになった。",
+        "vi": "Mẹ tôi vì phải nhập viện nên đã quyết định xin nghỉ làm trong 1 tháng."
+      },
+      {
+        "ja": "③ここで計画を中止したら、全てを諦めてしまうことになる。",
+        "vi": "Nếu hủy bỏ kế hoạch tại đây thì đồng nghĩa với việc chúng ta từ bỏ tất cả."
+      },
+      {
+        "ja": "④これ以上お客さんの数が減ってしまったら、このレストランも閉店することになる だろう。",
+        "vi": "Nếu lượng khách tiếp tục giảm thêm nữa thì nhà hàng này có lẽ sẽ dẫn đến kết cục phải đóng cửa."
+      },
+      {
+        "ja": "⑤今ここで彼の秘密を話してしまったら、彼を裏切ることになる。",
+        "vi": "Nếu lúc này mà nói ra bí mật của anh ấy ở đây thì tức là tôi đã phản bội anh ấy."
+      },
+      {
+        "ja": "⑥来年8 月に結婚することになりました。",
+        "vi": "Chúng tôi đã định ngày sẽ kết hôn vào tháng 8 năm sau."
+      }
     ]
   },
   {
@@ -341,9 +529,18 @@
     "meaning": "Mà không …",
     "explanation": "• Làm gì mà không...\n• Giống ないでnhưng nhấn mạnh hơn",
     "examples": [
-      "①弟は休むことなく必死に勉強をしていた。",
-      "②今月は、仕事が忙しかったので、休むことなく、休日も働いた。",
-      "③その心の傷は消えることなく事件の後も彼女を苦しめ続けている。"
+      {
+        "ja": "①弟は休むことなく必死に勉強をしていた。",
+        "vi": "Em trai tôi đã dốc sức học hành miệt mài mà không hề nghỉ ngơi."
+      },
+      {
+        "ja": "②今月は、仕事が忙しかったので、休むことなく、休日も働いた。",
+        "vi": "Tháng này công việc bận rộn nên tôi đã làm việc cả ngày nghỉ mà không có một ngày nghỉ ngơi."
+      },
+      {
+        "ja": "③その心の傷は消えることなく事件の後も彼女を苦しめ続けている。",
+        "vi": "Vết thương lòng ấy không hề biến mất mà vẫn tiếp tục giày vò cô ấy sau vụ việc."
+      }
     ]
   },
   {
@@ -358,9 +555,18 @@
     "meaning": "Thật là …/ Thật…làm sao/ Biết bao khi…",
     "explanation": "• Chỉ đi với những động từ, tính từ chỉ cảm xúc\n• Vế sau không đi với những câu thể hiện ý chí, dự định như V たい、つもりだ",
     "examples": [
-      "①困ったことに、携帯の充電がなくなってしまい、連絡手段がなくなる。",
-      "②嬉しいことに、来週イタリアから友人が帰国するそうだ。",
-      "③残念なことに、彼の買おうとしていたお弁当は売り切れだった。"
+      {
+        "ja": "①困ったことに、携帯の充電がなくなってしまい、連絡手段がなくなる。",
+        "vi": "Thật là rắc rối khi điện thoại hết pin khiến tôi không còn phương tiện nào để liên lạc."
+      },
+      {
+        "ja": "②嬉しいことに、来週イタリアから友人が帰国するそうだ。",
+        "vi": "Thật là vui mừng khi nghe nói tuần sau người bạn từ Ý sẽ trở về nước."
+      },
+      {
+        "ja": "③残念なことに、彼の買おうとしていたお弁当は売り切れだった。",
+        "vi": "Thật đáng tiếc khi phần cơm hộp mà anh ấy định mua đã bán hết sạch."
+      }
     ]
   },
   {
@@ -375,9 +581,18 @@
     "meaning": "Bởi vì…",
     "explanation": "• Xuất phát từ lí do, căn nguyên, cơ sở nào đó mà đưa ra đánh giá/ nói về khởi nguồn của tên gọi\nnào đó",
     "examples": [
-      "①日本に興味を持ったことから、日本に留学することを決意した。",
-      "②彼女はとても賢く美しいことから、皆の注目を集めている。",
-      "③桜の名所であることから、毎年お花見をする人で賑わう。"
+      {
+        "ja": "①日本に興味を持ったことから、日本に留学することを決意した。",
+        "vi": "Xuất phát từ sự yêu thích đối với Nhật Bản, tôi đã quyết định đi du học Nhật Bản."
+      },
+      {
+        "ja": "②彼女はとても賢く美しいことから、皆の注目を集めている。",
+        "vi": "Vì cô ấy vừa thông minh vừa xinh đẹp nên thu hút sự chú ý của mọi người."
+      },
+      {
+        "ja": "③桜の名所であることから、毎年お花見をする人で賑わう。",
+        "vi": "Do là địa danh nổi tiếng về hoa anh đào nên nơi đây hàng năm đều tấp nập người đến ngắm hoa."
+      }
     ]
   },
   {
@@ -392,9 +607,18 @@
     "meaning": "Vì là… nên chắc chắn",
     "explanation": "• Danh từ: chỉ người – người mà mình hiểu ra rõ tính cách, bản chất thường ngày của họ\n=> nên đưa ra suy đoán chắc chắn sẽ là...\n• Văn nói: ～のことだし\n• Kết câu: のことだ...",
     "examples": [
-      "①頑固な父のことだから、私と彼の結婚に反対するのは予想がつく。",
-      "②彼女のことだから、すぐに友達ができるだろう。",
-      "③信頼がある彼女のことだから、次の課長は彼女で決まりだろう。"
+      {
+        "ja": "①頑固な父のことだから、私と彼の結婚に反対するのは予想がつく。",
+        "vi": "Vì tính bố tôi vốn bướng bỉnh nên có thể đoán trước việc bố sẽ phản đối cuộc hôn nhân giữa tôi và anh ấy."
+      },
+      {
+        "ja": "②彼女のことだから、すぐに友達ができるだろう。",
+        "vi": "Tính cô ấy vốn hòa đồng nên chắc chắn sẽ nhanh chóng kết bạn được thôi."
+      },
+      {
+        "ja": "③信頼がある彼女のことだから、次の課長は彼女で決まりだろう。",
+        "vi": "Là người đáng tin cậy như cô ấy thì chắc chắn chức trưởng nhóm tiếp theo sẽ thuộc về cô ấy rồi."
+      }
     ]
   },
   {
@@ -409,9 +633,18 @@
     "meaning": "Nếu không … thì…",
     "explanation": "• Nếu không có điều gì đó ở vế trước thì vế sau sẽ không thể thực hiện được, vế sau thường ở thể\nphủ định. Văn nói thường dùng:なければ、なくては、なきゃ、なくちゃ",
     "examples": [
-      "①彼女が来ないことには、 話を進める事ができない。",
-      "②実際に見てみないことには、判断することはできない。",
-      "③みんな彼の悪口を言うけど、会ってみないことには彼の良さはわからないよ。"
+      {
+        "ja": "①彼女が来ないことには、 話を進める事ができない。",
+        "vi": "Nếu cô ấy không đến thì chúng ta không thể tiếp tục câu chuyện được."
+      },
+      {
+        "ja": "②実際に見てみないことには、判断することはできない。",
+        "vi": "Nếu chưa tận mắt nhìn thấy thực tế thì không thể nào đưa ra phán đoán được."
+      },
+      {
+        "ja": "③みんな彼の悪口を言うけど、会ってみないことには彼の良さはわからないよ。",
+        "vi": "Mọi người ai cũng nói xấu anh ấy, nhưng nếu không gặp trực tiếp thì làm sao hiểu được điểm tốt của anh ấy chứ."
+      }
     ]
   },
   {
@@ -426,9 +659,18 @@
     "meaning": "Không cần phải ~",
     "explanation": "• Giống với 必要がない\n• Thường dùng để khuyên, khích lệ đối phương",
     "examples": [
-      "④失恋したって落ち込むことはない。",
-      "⑤安全に運転するから、心配することはない。",
-      "⑥この問題については、あなた一人で責任を感じることはない。"
+      {
+        "ja": "④失恋したって落ち込むことはない。",
+        "vi": "Thất tình thì cũng đâu việc gì phải suy sụp đến mức ấy."
+      },
+      {
+        "ja": "⑤安全に運転するから、心配することはない。",
+        "vi": "Tôi sẽ lái xe cẩn thận, không có gì phải lo lắng đâu."
+      },
+      {
+        "ja": "⑥この問題については、あなた一人で責任を感じることはない。",
+        "vi": "Về vấn đề này, bạn không việc gì phải tự ôm trách nhiệm một mình."
+      }
     ]
   },
   {
@@ -443,9 +685,18 @@
     "meaning": "Hãy, phải…/ Không được…",
     "explanation": "• Là văn viết của V なさい、V てはいけないthể hiện những quy tắc, chỉ thị…\n• Thường được thấy ở những thông báo quy định, chỉ thị ở công ty, trường học, tờ hướng dẫn...",
     "examples": [
-      "①そのイベントに参加を希望する者は、はがきに必要事項を書いて本社あてに送ること。",
-      "②目上の人には常に敬意を持って接すること。",
-      "③怪しい勧誘には耳を貸さないこと。"
+      {
+        "ja": "①そのイベントに参加を希望する者は、はがきに必要事項を書いて本社あてに送ること。",
+        "vi": "Những ai muốn tham gia sự kiện hãy điền đầy đủ các thông tin cần thiết vào bưu thiếp và gửi về trụ sở chính."
+      },
+      {
+        "ja": "②目上の人には常に敬意を持って接すること。",
+        "vi": "Phải luôn luôn giữ thái độ tôn kính khi tiếp xúc với người lớn tuổi, cấp trên."
+      },
+      {
+        "ja": "③怪しい勧誘には耳を貸さないこと。",
+        "vi": "Tuyệt đối không được nghe theo những lời mời chào đáng ngờ."
+      }
     ]
   },
   {
@@ -460,10 +711,22 @@
     "meaning": "Nên/ Không nên",
     "explanation": "①Ｖる・Ｖない＋ことだ：Nên/ Không nên\n• Đưa ra lời khuyên, ý kiến, cảnh báo của người nói về việc nên/ không nên làm gì\n• Thường người trên nói với người dưới\n②Ａい・Ａな＋ことだ：vô cùng, rất\n• Cách nói thể hiện cảm xúc bất ngờ, cảm động\n• Thường đi với tính từ chỉ cảm xúc",
     "examples": [
-      "①身体の健康を気遣うのであれば、野菜を食べることだ。",
-      "②N2 に合格したければ、毎日欠かさず勉強することだ。",
-      "③飲食店では、時間が経った食品は捨ててしまうなんて、本当にもったいないことだ。",
-      "④屋根から落ちるなんて大変なことだ。"
+      {
+        "ja": "①身体の健康を気遣うのであれば、野菜を食べることだ。",
+        "vi": "Nếu quan tâm đến sức khỏe bản thân thì tốt nhất nên ăn nhiều rau xanh."
+      },
+      {
+        "ja": "②N2 に合格したければ、毎日欠かさず勉強することだ。",
+        "vi": "Nếu muốn thi đỗ N2 thì nên học tập đều đặn mỗi ngày không bỏ sót buổi nào."
+      },
+      {
+        "ja": "③飲食店では、時間が経った食品は捨ててしまうなんて、本当にもったいないことだ。",
+        "vi": "Trong quán ăn, đồ ăn để quá giờ là đem vứt bỏ thì thật là một điều vô cùng lãng phí."
+      },
+      {
+        "ja": "④屋根から落ちるなんて大変なことだ。",
+        "vi": "Rơi từ trên mái nhà xuống thì đúng là nguy hiểm quá chừng."
+      }
     ]
   },
   {
@@ -478,9 +741,18 @@
     "meaning": "Vô cùng/ rất ~",
     "explanation": "• Nhấn mạnh vào mức độ: vô cùng... đến mức khó có thể diễn tả nổi\n• Thường hay đi với từ để hỏi trong câu: どんなに～ことか、どれほど～ことかhoặc\nなんと…ことか",
     "examples": [
-      "①彼の行動によって、どれだけの命が救われたことか。",
-      "②上司との飲み会は、気を使うだけだが、友人との飲み会はなんと楽しいことか。",
-      "③あの子とのおしゃべりで私の心はどれほど癒されたことか。"
+      {
+        "ja": "①彼の行動によって、どれだけの命が救われたことか。",
+        "vi": "Nhờ hành động của anh ấy mà biết bao sinh mạng đã được cứu sống!"
+      },
+      {
+        "ja": "②上司との飲み会は、気を使うだけだが、友人との飲み会はなんと楽しいことか。",
+        "vi": "Đi nhậu với sếp chỉ toàn phải giữ ý tứ, chứ đi nhậu với bạn bè thì vui sướng biết bao!"
+      },
+      {
+        "ja": "③あの子とのおしゃべりで私の心はどれほど癒されたことか。",
+        "vi": "Những cuộc trò chuyện với cô bé ấy đã xoa dịu tâm hồn tôi nhiều biết nhường nào."
+      }
     ]
   },
   {
@@ -495,9 +767,18 @@
     "meaning": "Không phải là không…/ Có lẽ, có thể là…",
     "explanation": "• Dùng 2 lần phủ định để tránh cách nói khẳng định rõ ràng, như 1 cách nói khéo",
     "examples": [
-      "①それは私のせいでないことはないけど、上司に言われてやっただけだ。",
-      "②A：このお菓子賞味期限切れてるけど、食べれるかな？ B：過ぎてからまだそんなに経ってなければ、食べれないことはないんじゃない？",
-      "③ここの牛丼は、美味しくないこともないけど、家の近くにあるお店の方が安くて美味しい。"
+      {
+        "ja": "①それは私のせいでないことはないけど、上司に言われてやっただけだ。",
+        "vi": "Chuyện đó không hẳn không phải là lỗi của tôi, nhưng tôi cũng chỉ làm theo lời sếp bảo mà thôi."
+      },
+      {
+        "ja": "②A：このお菓子賞味期限切れてるけど、食べれるかな？ B：過ぎてからまだそんなに経ってなければ、食べれないことはないんじゃない？",
+        "vi": "A: Gói bánh này hết hạn rồi, liệu có ăn được không nhỉ? B: Nếu mới quá hạn chưa lâu thì cũng không đến nỗi không ăn được đâu."
+      },
+      {
+        "ja": "③ここの牛丼は、美味しくないこともないけど、家の近くにあるお店の方が安くて美味しい。",
+        "vi": "Cơm bò ở đây không phải là không ngon, nhưng quán gần nhà tôi vừa rẻ hơn lại vừa ngon hơn."
+      }
     ]
   },
   {
@@ -512,9 +793,18 @@
     "meaning": "Vì, bởi vì...nên",
     "explanation": "• Dùng để diễn tả ý có nhiều lý do khác nữa, nhưng trước hết là vì lý do này. Chỉ ra lý do sau\nđó đưa ra kết luận hay đánh giá.\n• Vế sau là câu mang ý chí, nguyện vọng, phán đoán của người nói, hoặc là lời mời, rủ.\n• Là mẫu câu lịch sự hơn mẫu ～し～đã học ở N4",
     "examples": [
-      "①仕事も済んだことだし、一杯飲みにいこうよ。",
-      "②天気もいいことだし、久しぶりに海辺までドライブに行きたいな",
-      "③来客も少ないことだし、ちょっと早いが店を閉めてしまおう。"
+      {
+        "ja": "①仕事も済んだことだし、一杯飲みにいこうよ。",
+        "vi": "Công việc cũng đã xong xuôi rồi, chúng mình đi làm một ly đi!"
+      },
+      {
+        "ja": "②天気もいいことだし、久しぶりに海辺までドライブに行きたいな",
+        "vi": "Thời tiết cũng đẹp nữa, đã lâu rồi tôi muốn lái xe dạo ra bờ biển ghê."
+      },
+      {
+        "ja": "③来客も少ないことだし、ちょっと早いが店を閉めてしまおう。",
+        "vi": "Khách cũng vắng nữa, tuy hơi sớm một chút nhưng ta đóng cửa quán luôn thôi."
+      }
     ]
   },
   {
@@ -529,9 +819,18 @@
     "meaning": "Cảm thấy rất/ vô cùng ~",
     "explanation": "•Dùng để nói về cảm xúc của bản thân người nói: đang cảm thấy vô cùng...\n•Không dùng để nói về người khác",
     "examples": [
-      "①あのレストランが来月で閉店だなんて残念な限りだ。",
-      "②お世話になっていた上司が退職してしまい、心細い限りだ。",
-      "③彼からの誘いを断らなくてはならないなんて心苦しい限りだ。"
+      {
+        "ja": "①あのレストランが来月で閉店だなんて残念な限りだ。",
+        "vi": "Nhà hàng đó tháng sau đóng cửa thì thật là vô cùng tiếc nuối."
+      },
+      {
+        "ja": "②お世話になっていた上司が退職してしまい、心細い限りだ。",
+        "vi": "Người sếp từng tận tình chỉ bảo tôi đã nghỉ hưu, tôi cảm thấy vô cùng hụt hẫng và trống trải."
+      },
+      {
+        "ja": "③彼からの誘いを断らなくてはならないなんて心苦しい限りだ。",
+        "vi": "Phải từ chối lời mời từ anh ấy khiến tôi cảm thấy vô cùng áy náy trong lòng."
+      }
     ]
   },
   {
@@ -546,9 +845,18 @@
     "meaning": "Không chỉ … mà còn …",
     "explanation": "• Giống với だけでなく",
     "examples": [
-      "①彼らは国内に限らず、世界中でボランティアを活躍したいそうだ。",
-      "②最近は、女性に限らず、男性も美容に対して意識を持つようになっている。",
-      "③ここの店は、休日に限らず平日も大勢の人が訪れる。"
+      {
+        "ja": "①彼らは国内に限らず、世界中でボランティアを活躍したいそうだ。",
+        "vi": "Họ bày tỏ mong muốn được hoạt động tình nguyện không chỉ trong nước mà trên toàn thế giới."
+      },
+      {
+        "ja": "②最近は、女性に限らず、男性も美容に対して意識を持つようになっている。",
+        "vi": "Dạo gần đây không chỉ phụ nữ mà cả nam giới cũng ngày càng có ý thức chăm sóc sắc đẹp."
+      },
+      {
+        "ja": "③ここの店は、休日に限らず平日も大勢の人が訪れる。",
+        "vi": "Quán này không chỉ ngày nghỉ mà ngày thường cũng có rất đông người ghé thăm."
+      }
     ]
   },
   {
@@ -563,9 +871,18 @@
     "meaning": "Trong phạm vi…/ Ở mức độ…",
     "explanation": "• Vế trước thường là: 見る、聞く、調べる、知っている、知る、調査、...\n• Vế sau đưa ra đánh giá trong phạm vi bản thân biết",
     "examples": [
-      "①私の知る限り、あの男は事件の犯人ではない。",
-      "②メニューを見る限り、安くて美味しそうな料理ばかりだ。",
-      "③自分が知っている限りの知恵を部下に教える。"
+      {
+        "ja": "①私の知る限り、あの男は事件の犯人ではない。",
+        "vi": "Trong phạm vi những gì tôi biết thì người đàn ông đó không phải là thủ phạm của vụ án."
+      },
+      {
+        "ja": "②メニューを見る限り、安くて美味しそうな料理ばかりだ。",
+        "vi": "Nhìn qua thực đơn thì toàn là những món ăn trông vừa rẻ vừa ngon mắt."
+      },
+      {
+        "ja": "③自分が知っている限りの知恵を部下に教える。",
+        "vi": "Tôi truyền dạy tất cả vốn hiểu biết trong khả năng của mình cho cấp dưới."
+      }
     ]
   },
   {
@@ -580,9 +897,18 @@
     "meaning": "Trong lúc…/ Khi…",
     "explanation": "• Trong giới hạn/ phạm vi còn được duy trì (vế trước) thì (vế sau) 1 trạng thái được duy trì, tiếp\ntục\n• 2 trạng thái đồng thời, song song",
     "examples": [
-      "①日本に住んでいる限り、日本のルールを守らなければならない。",
-      "②先生である限り、生徒の質問には必ず答える。",
-      "③外が暑い限りは、家の中にいて休んでいた方がいい。"
+      {
+        "ja": "①日本に住んでいる限り、日本のルールを守らなければならない。",
+        "vi": "Chừng nào còn sống ở Nhật Bản thì chừng đó bạn phải tuân thủ quy tắc của Nhật Bản."
+      },
+      {
+        "ja": "②先生である限り、生徒の質問には必ず答える。",
+        "vi": "Chừng nào còn là giáo viên thì tôi nhất định sẽ giải đáp mọi thắc mắc của học trò."
+      },
+      {
+        "ja": "③外が暑い限りは、家の中にいて休んでいた方がいい。",
+        "vi": "Chừng nào ngoài trời còn nắng nóng gay gắt thì tốt nhất bạn nên ở trong nhà nghỉ ngơi."
+      }
     ]
   },
   {
@@ -597,9 +923,18 @@
     "meaning": "Chỉ trong/ Chỉ đối với/ Chỉ riêng～",
     "explanation": "• Một việc gì đó được áp dụng đặc biệt chỉ trong riêng 1 thời hạn, 1 đối tượng nào đó\n• Thường dùng trong các câu thông báo, văn phòng lịch sự",
     "examples": [
-      "①お子様に限り、入場料が無料の店舗が増えている。",
-      "②本日に限り、対象商品を50％オフでお買い求めいただくことができます。",
-      "③毎月、第一金曜日に限り、 1000 円で映画が鑑賞できる。"
+      {
+        "ja": "①お子様に限り、入場料が無料の店舗が増えている。",
+        "vi": "Số lượng cửa hàng miễn phí vé vào cổng chỉ dành riêng cho trẻ em đang ngày càng tăng."
+      },
+      {
+        "ja": "②本日に限り、対象商品を50％オフでお買い求めいただくことができます。",
+        "vi": "Chỉ duy nhất trong ngày hôm nay, quý khách có thể mua các sản phẩm áp dụng với mức giảm giá 50%."
+      },
+      {
+        "ja": "③毎月、第一金曜日に限り、 1000 円で映画が鑑賞できる。",
+        "vi": "Chỉ riêng ngày thứ Sáu đầu tiên của mỗi tháng, bạn có thể xem phim với giá 1000 yên."
+      }
     ]
   },
   {
@@ -614,12 +949,30 @@
     "meaning": "Ai chứ, gì chứ ～/ Đúng vào lúc ～",
     "explanation": "①Ai chứ, gì chứ... chắc chắn là không...\n•N là đối tượng mà mình rất tin tưởng, kì vọng\n•Thế nên vế sau là điều mình đánh giá chắc chắn N đó không làm những chuyện/ điều không tốt\nnhư vậy\n②Đúng vào lúc/ trường hợp... thì 1 chuyện không mong muốn xảy đến\n•N là thời điểm quan trọng nào đó\n•Thì 1 chuyện gì đó không may xảy ra 1 cách trùng hợp ⇒ cảm giác bất mãn, khó chịu",
     "examples": [
-      "①あの人に限って、寝坊するなんて、何かあったに違いない。",
-      "②予定がある日に限って、上司に残業をさせられる。",
-      "③彼に限って、こんな重大なミスを犯すなんて考えられない。",
-      "④急いでいる時に限って、 渋滞に巻き込まれる。",
-      "⑤試験の日に限って、体調を崩してしまう。",
-      "⑥うちの子に限って、人を傷つけるような事をするはずがないと信じたい。"
+      {
+        "ja": "①あの人に限って、寝坊するなんて、何かあったに違いない。",
+        "vi": "Ai chứ người như anh ấy mà ngủ quên thì chắc chắn đã có chuyện gì bất thường xảy ra rồi."
+      },
+      {
+        "ja": "②予定がある日に限って、上司に残業をさせられる。",
+        "vi": "Đúng vào cái ngày có hẹn thì lại bị cấp trên bắt tăng ca."
+      },
+      {
+        "ja": "③彼に限って、こんな重大なミスを犯すなんて考えられない。",
+        "vi": "Ai chứ anh ấy thì không thể nào tưởng tượng nổi lại phạm phải sai lầm nghiêm trọng thế này."
+      },
+      {
+        "ja": "④急いでいる時に限って、 渋滞に巻き込まれる。",
+        "vi": "Đúng vào lúc đang vội thì lại bị kẹt xe tắc đường."
+      },
+      {
+        "ja": "⑤試験の日に限って、体調を崩してしまう。",
+        "vi": "Đúng vào ngày đi thi thì cơ thể lại phát ốm."
+      },
+      {
+        "ja": "⑥うちの子に限って、人を傷つけるような事をするはずがないと信じたい。",
+        "vi": "Ai chứ con tôi thì tôi tin chắc cháu không bao giờ làm điều gây tổn thương người khác."
+      }
     ]
   },
   {
@@ -634,9 +987,18 @@
     "meaning": "~ là tốt nhất",
     "explanation": "•Đưa ra đánh giá, ý kiến, ấn tượng của người nói cho rằng cái gì/ làm điều gì là tốt nhất\n•Cách nói lịch sự hơn của ～のが一番いい",
     "examples": [
-      "①冬はこたつで温まるに限る。",
-      "②暑い夏の仕事終わりには、キンキンに冷えたビールに限る。",
-      "③ダイエットは食事制限をするより、運動に限る。"
+      {
+        "ja": "①冬はこたつで温まるに限る。",
+        "vi": "Mùa đông thì sưởi ấm dưới bàn sưởi Kotatsu là tuyệt vời nhất."
+      },
+      {
+        "ja": "②暑い夏の仕事終わりには、キンキンに冷えたビールに限る。",
+        "vi": "Sau giờ làm vào ngày hè oi bức thì làm một ly bia ướp lạnh buốt là nhất."
+      },
+      {
+        "ja": "③ダイエットは食事制限をするより、運動に限る。",
+        "vi": "Muốn giảm cân thì thay vì nhịn ăn, tập thể dục là phương pháp tốt nhất."
+      }
     ]
   },
   {
@@ -651,9 +1013,18 @@
     "meaning": "sẽ không",
     "explanation": "①～ようとは思わない : sẽ không\n• Khẳng định chắc chắn sẽ không làm gì đó; Cách nói cổ, trang trọng, ít dùng trong văn nói\n②～ないだろう: có lẽ không\n• Đưa ra suy đoán có lẽ sẽ không, chắc hẳn là không; Cách nói cổ, trang trọng, ít dùng trong văn\nnói",
     "examples": [
-      "①毎回誘っても断られるので、二度と誘うまい。",
-      "②あの人はよく嘘をつくので、誰も信じまい。",
-      "③同じ過ちはするまいと、両親に誓う。"
+      {
+        "ja": "①毎回誘っても断られるので、二度と誘うまい。",
+        "vi": "Lần nào rủ cũng bị từ chối nên tôi quyết sẽ không bao giờ rủ lần thứ hai nữa."
+      },
+      {
+        "ja": "②あの人はよく嘘をつくので、誰も信じまい。",
+        "vi": "Người đó hay nói dối nên chắc chẳng còn ai tin tưởng nữa đâu."
+      },
+      {
+        "ja": "③同じ過ちはするまいと、両親に誓う。",
+        "vi": "Tôi đã thề với cha mẹ rằng nhất quyết sẽ không phạm phải sai lầm tương tự nữa."
+      }
     ]
   },
   {
@@ -668,9 +1039,18 @@
     "meaning": "Làm … hay là không …",
     "explanation": "•Dùng khi bản thân người nói phân vân, đắn đo; Cách nói cổ, có thể gặp trong văn học, sách...\n•Dùng cho ngôi số 3 thì cần thêm: らしい、ようだ、のだở cuối câu",
     "examples": [
-      "①春休みに、実家に帰省しようか、するまいか、考えている。",
-      "②人混みが苦手なので、パーティーに行こうか、行くまいか迷っている。",
-      "③彼は優しいが、収入が多くないので、結婚しようかするまいか、決められずにいる。"
+      {
+        "ja": "①春休みに、実家に帰省しようか、するまいか、考えている。",
+        "vi": "Tôi đang suy nghĩ xem kỳ nghỉ xuân này có nên về quê hay là không."
+      },
+      {
+        "ja": "②人混みが苦手なので、パーティーに行こうか、行くまいか迷っている。",
+        "vi": "Vì ngại chỗ đông người nên tôi đang phân vân không biết có nên đi dự tiệc hay không."
+      },
+      {
+        "ja": "③彼は優しいが、収入が多くないので、結婚しようかするまいか、決められずにいる。",
+        "vi": "Anh ấy tuy hiền lành nhưng thu nhập lại không cao, nên tôi vẫn chưa thể quyết định được có nên cưới hay không."
+      }
     ]
   },
   {
@@ -685,9 +1065,18 @@
     "meaning": "Dù…dù…",
     "explanation": "•Dù trường hợp A hay trường hợp B thì...\n•Cách nói khác: …にしても…にしても、 …にせよ…にせよ",
     "examples": [
-      "①進学にしろ、就職にしろ、 自分の将来なのでしっかりと考える。",
-      "②この仕事を引き受けるにしろ、断るにしろ、早めに決めるべきだ。",
-      "③昇進するにしろ、しないにしろ、この会社は今月で退職する予定だ。"
+      {
+        "ja": "①進学にしろ、就職にしろ、 自分の将来なのでしっかりと考える。",
+        "vi": "Dù là học lên tiếp hay đi làm thì đó cũng là tương lai của mình nên phải suy nghĩ thật thấu đáo."
+      },
+      {
+        "ja": "②この仕事を引き受けるにしろ、断るにしろ、早めに決めるべきだ。",
+        "vi": "Dù nhận lời công việc này hay từ chối thì bạn cũng nên quyết định sớm đi."
+      },
+      {
+        "ja": "③昇進するにしろ、しないにしろ、この会社は今月で退職する予定だ。",
+        "vi": "Dù có được thăng chức hay không thì tôi cũng dự định sẽ nghỉ việc ở công ty này trong tháng này."
+      }
     ]
   },
   {
@@ -702,9 +1091,18 @@
     "meaning": "Cho dù, dù cho, ngay cả...",
     "explanation": "• Diễn tả ý nghĩa “giả sử dù trong trường hợp đó thì..”\n• Phía sau thể hiện quan điểm, nhận xét, phán đoán, phê phán, hoặc thái độ khó chấp nhận\ncủa người nói.\n• Là dạng văn viết của ～にしても、～としても、～にしろ",
     "examples": [
-      "①パーティーに行くにせよ行かないにせよ、早く決めてくれないか？",
-      "②この計画が成功するにせよ失敗するにせよ、挑戦しなければ何もわからない。",
-      "③犬にせよ猫にせよ、このマンションで動物を飼うことは禁止されています。"
+      {
+        "ja": "①パーティーに行くにせよ行かないにせよ、早く決めてくれないか？",
+        "vi": "Dù đi dự tiệc hay không đi thì bạn quyết định nhanh giúp tôi được không?"
+      },
+      {
+        "ja": "②この計画が成功するにせよ失敗するにせよ、挑戦しなければ何もわからない。",
+        "vi": "Dù kế hoạch này thành công hay thất bại thì nếu không dám thử sức ta sẽ chẳng biết được gì cả."
+      },
+      {
+        "ja": "③犬にせよ猫にせよ、このマンションで動物を飼うことは禁止されています。",
+        "vi": "Dù là chó hay là mèo thì việc nuôi thú cưng trong khu chung cư này đều bị nghiêm cấm."
+      }
     ]
   },
   {
@@ -719,9 +1117,18 @@
     "meaning": "Bất kể…",
     "explanation": "• Bất kể (N đứng trước) thế nào, thì vẫn\n• Có thể nói thành にかかわりなく",
     "examples": [
-      "①田舎のバスは距離にかかわらず、金額は一律だ。",
-      "②値段にかかわらず、品質のよい素材のみを使って料理を作る。",
-      "③雨が降る降らないにかかわらずに、試合は行われる。"
+      {
+        "ja": "①田舎のバスは距離にかかわらず、金額は一律だ。",
+        "vi": "Xe buýt ở vùng quê này bất kể khoảng cách đi bao xa thì giá vé đều đồng giá như nhau."
+      },
+      {
+        "ja": "②値段にかかわらず、品質のよい素材のみを使って料理を作る。",
+        "vi": "Bất kể giá cả thế nào, quán chỉ dùng nguyên liệu chất lượng tốt để nấu ăn."
+      },
+      {
+        "ja": "③雨が降る降らないにかかわらずに、試合は行われる。",
+        "vi": "Bất kể trời có mưa hay không thì trận đấu vẫn sẽ được tiến hành."
+      }
     ]
   },
   {
@@ -736,9 +1143,18 @@
     "meaning": "Mặc dù…/ Cho dù…/ Không quản…",
     "explanation": "• Bất chấp, dù cho...có chuyện gì đó, nhưng vẫn...\n• Thường thể hiện cảm xúc bất ngờ, bất mãn, thất vọng…của người nói trước sự việc diễn ra ở\nvế sau",
     "examples": [
-      "①徹夜して勉強したにもかかわらず、テストの結果は良くなかった。",
-      "②父は忙しいにもかかわらず全く疲れた顔を見せない人だった。",
-      "③祖父は80歳であるにもかかわらず山登りが大好きだ。"
+      {
+        "ja": "①徹夜して勉強したにもかかわらず、テストの結果は良くなかった。",
+        "vi": "Mặc dù đã thức trắng đêm để ôn bài, thế nhưng kết quả bài kiểm tra vẫn không tốt."
+      },
+      {
+        "ja": "②父は忙しいにもかかわらず全く疲れた顔を見せない人だった。",
+        "vi": "Bố tôi tuy rất bận rộn nhưng lại là người không bao giờ để lộ vẻ mặt mệt mỏi ra ngoài."
+      },
+      {
+        "ja": "③祖父は80歳であるにもかかわらず山登りが大好きだ。",
+        "vi": "Ông tôi dù đã 80 tuổi rồi thế nhưng vẫn vô cùng đam mê leo núi."
+      }
     ]
   },
   {
@@ -753,9 +1169,18 @@
     "meaning": "Cứ mỗi khi…/ Lúc nào cũng, cái gì cũng…",
     "explanation": "• Đôi khi cứ (見る、聞く、考える、思う…) thì lại có 1 cảm xúc nào đó\n• N: 何かにつけ、何事につけ、調子がいいに付け悪いに付け",
     "examples": [
-      "①あの音楽を聴くにつけ、新婚の頃を思い出す。",
-      "②遠く離れた、娘を考えるにつけ、元気が出る。",
-      "③彼女は何かにつけて文句を言うので、何もしたくなくなる。"
+      {
+        "ja": "①あの音楽を聴くにつけ、新婚の頃を思い出す。",
+        "vi": "Mỗi lần nghe bản nhạc đó, tôi lại nhớ về thời mới cưới."
+      },
+      {
+        "ja": "②遠く離れた、娘を考えるにつけ、元気が出る。",
+        "vi": "Mỗi khi nghĩ về đứa con gái đang ở nơi xa, tôi lại như được tiếp thêm sinh lực."
+      },
+      {
+        "ja": "③彼女は何かにつけて文句を言うので、何もしたくなくなる。",
+        "vi": "Cô ấy hễ có chuyện gì là lại cằn nhằn phàn nàn, làm tôi chẳng còn muốn làm gì nữa."
+      }
     ]
   },
   {
@@ -770,9 +1195,18 @@
     "meaning": "Trái với…/ Ngược lại với…",
     "explanation": "• N đứng trước thường là: 予想、期待、命令、意図、法律、規則、希望、...\n• Vế sau thường là điều ngược lại với N đứng trước\n• Văn nói: とは違って、とは反対に",
     "examples": [
-      "①両親のアドバイスに反して、彼は夢をかなえるために東京へ向かった。",
-      "②彼女は周囲の期待に反して大学を中退し、歌手を目指し始めた。",
-      "③予想に反して、試験内容は簡単で、合格を確信した。"
+      {
+        "ja": "①両親のアドバイスに反して、彼は夢をかなえるために東京へ向かった。",
+        "vi": "Trái với lời khuyên bảo của cha mẹ, anh ấy đã lên Tokyo để theo đuổi ước mơ của mình."
+      },
+      {
+        "ja": "②彼女は周囲の期待に反して大学を中退し、歌手を目指し始めた。",
+        "vi": "Trái ngược với kỳ vọng của mọi người xung quanh, cô ấy đã bỏ dở đại học và bắt đầu con đường trở thành ca sĩ."
+      },
+      {
+        "ja": "③予想に反して、試験内容は簡単で、合格を確信した。",
+        "vi": "Trái với dự đoán, nội dung đề thi khá dễ nên tôi tin chắc mình đã đỗ."
+      }
     ]
   },
   {
@@ -787,8 +1221,14 @@
     "meaning": "Tùy theo…/ Tương ứng với…",
     "explanation": "• Thay đổi tùy theo loại, mức độ nào đó để cho phù hợp",
     "examples": [
-      "①言語レベルに応じて、クラス分けを行う。",
-      "②収入に応じて一人一人が払う税額は変化する。"
+      {
+        "ja": "①言語レベルに応じて、クラス分けを行う。",
+        "vi": "Chúng tôi tiến hành phân chia lớp học tùy theo trình độ ngôn ngữ của học viên."
+      },
+      {
+        "ja": "②収入に応じて一人一人が払う税額は変化する。",
+        "vi": "Số tiền thuế mỗi người phải nộp sẽ thay đổi tùy theo mức thu nhập của họ."
+      }
     ]
   },
   {
@@ -803,9 +1243,18 @@
     "meaning": "Thêm vào đó nữa là…/ Không chỉ… mà… cũng…",
     "explanation": "• Là cách nói cứng hơn của だけでなく",
     "examples": [
-      "①彼は、日本語に加えて、韓国語も堪能だ。",
-      "②その英会話のクラスでは文法の勉強に加えて会話練習も行う。",
-      "③明日は大雨に加えて風も強く、ひどい天気になるらしい。"
+      {
+        "ja": "①彼は、日本語に加えて、韓国語も堪能だ。",
+        "vi": "Không chỉ giỏi tiếng Nhật, anh ấy còn thông thạo cả tiếng Hàn."
+      },
+      {
+        "ja": "②その英会話のクラスでは文法の勉強に加えて会話練習も行う。",
+        "vi": "Lớp tiếng Anh giao tiếp đó ngoài việc học ngữ pháp còn kết hợp luyện tập đàm thoại."
+      },
+      {
+        "ja": "③明日は大雨に加えて風も強く、ひどい天気になるらしい。",
+        "vi": "Ngày mai nghe nói trời vừa mưa to lại kèm theo gió giật mạnh, thời tiết sẽ rất tồi tệ."
+      }
     ]
   },
   {
@@ -820,9 +1269,18 @@
     "meaning": "Cứ mỗi",
     "explanation": "①数量詞 + につき : Cứ mỗi\n• Cứ mỗi...thì...tương đương\n• Thường dùng với lượng từ chỉ tiền, thời gian, đếm người, đếm vật\n②Ｎ + につき : Vì, do\n• Đưa ra lí do\n• Là cách nói cứng, thường thấy trên thông báo, bảng hiệu, tờ rơi, thư từ…",
     "examples": [
-      "①あの建物は現在工事中につき立ち入り禁止だ。",
-      "②店内改装につき、営業を一時休止する。",
-      "③その映画は 好評につき公開期間が延長された。"
+      {
+        "ja": "①あの建物は現在工事中につき立ち入り禁止だ。",
+        "vi": "Tòa nhà kia vì đang thi công nên cấm người không có phận sự vào."
+      },
+      {
+        "ja": "②店内改装につき、営業を一時休止する。",
+        "vi": "Vì đang sửa chữa bên trong cửa hàng nên chúng tôi xin tạm ngừng kinh doanh."
+      },
+      {
+        "ja": "③その映画は 好評につき公開期間が延長された。",
+        "vi": "Bộ phim đó do nhận được nhiều phản hồi tích cực nên đã được kéo dài thời gian công chiếu."
+      }
     ]
   },
   {
@@ -837,9 +1295,18 @@
     "meaning": "Dựa theo…/ Dựa trên…",
     "explanation": "• Dựa trên căn cứ/ tiêu chuẩn/ căn bản nào đóđể tiến hành việc gì đó",
     "examples": [
-      "①マニュアルに基づいて作業を進めてください。",
-      "②経験に基づいて確かな判断をしたい。",
-      "③この映画は事実に基づいて、制作された。"
+      {
+        "ja": "①マニュアルに基づいて作業を進めてください。",
+        "vi": "Hãy tiến hành công việc căn cứ theo sách hướng dẫn."
+      },
+      {
+        "ja": "②経験に基づいて確かな判断をしたい。",
+        "vi": "Tôi muốn đưa ra những phán đoán chuẩn xác dựa trên kinh nghiệm thực tế."
+      },
+      {
+        "ja": "③この映画は事実に基づいて、制作された。",
+        "vi": "Bộ phim này được sản xuất dựa trên một câu chuyện có thật."
+      }
     ]
   },
   {
@@ -854,9 +1321,18 @@
     "meaning": "tuân theo, theo đúng",
     "explanation": "①N + にしたがって : tuân theo, theo đúng\n• Làm gì đó theo đúng như ルール、マニュアル、規則、指示、命令…\n②N/V る  + にしたがって : càng… càng…\n• Khi 1 thay đổi gì đó diễn ra kéo theo 1 thay đổi khác cũng diễn ra theo",
     "examples": [
-      "①交通ルールにしたがって、車も歩行者も通行する。",
-      "②暑くなるにしたがって、やる気がなくなってくる。",
-      "③緊急時は、係員の指示にしたがって、避難をする。"
+      {
+        "ja": "①交通ルールにしたがって、車も歩行者も通行する。",
+        "vi": "Cả xe cộ và người đi bộ đều lưu thông theo đúng luật giao thông."
+      },
+      {
+        "ja": "②暑くなるにしたがって、やる気がなくなってくる。",
+        "vi": "Trời càng nóng lên thì ý chí làm việc lại càng tụt giảm."
+      },
+      {
+        "ja": "③緊急時は、係員の指示にしたがって、避難をする。",
+        "vi": "Khi xảy ra tình huống khẩn cấp, hãy sơ tán theo đúng chỉ dẫn của nhân viên phụ trách."
+      }
     ]
   },
   {
@@ -871,9 +1347,18 @@
     "meaning": "Khi…",
     "explanation": "• Là cách nói trang trọng của 時に\n• Ít khi dùng trong hội thoại hàng ngày",
     "examples": [
-      "①受験の際は、必ず受験票が必要になる。",
-      "②車や、バイクを運転する際は、運転免許証を身に付けていなくてはならない。",
-      "③彼に会った際にはこの本を渡してください。"
+      {
+        "ja": "①受験の際は、必ず受験票が必要になる。",
+        "vi": "Khi đi thi thì nhất thiết phải mang theo phiếu báo danh."
+      },
+      {
+        "ja": "②車や、バイクを運転する際は、運転免許証を身に付けていなくてはならない。",
+        "vi": "Khi lái xe ô tô hoặc xe máy, bạn bắt buộc phải luôn mang theo giấy phép lái xe bên mình."
+      },
+      {
+        "ja": "③彼に会った際にはこの本を渡してください。",
+        "vi": "Khi nào gặp anh ấy thì hãy chuyển giúp tôi cuốn sách này nhé."
+      }
     ]
   },
   {
@@ -888,9 +1373,18 @@
     "meaning": "Khi, nhân dịp...",
     "explanation": "• Được sử dụng trong câu lưu ý hoặc xin lỗi, giải thích. Hoặc diễn tả thời điểm bắt đầu một sự\nviệc, hoặc thời điểm một sự việc diễn ra.\n• Được sử dụng trong những trường hợp trang trọng hơn như sự kiện, thời điểm đặc biệt",
     "examples": [
-      "①日本語能力試験の受験に際して、注意すべき点が三つあります。",
-      "②演劇の鑑賞に際しては、無駄なおしゃべりをせず静かにしている。",
-      "③当サイトを利用するに際し、まず利用規約をご一読ください。"
+      {
+        "ja": "①日本語能力試験の受験に際して、注意すべき点が三つあります。",
+        "vi": "Khi tham gia kỳ thi JLPT, có ba điểm cần phải hết sức lưu ý."
+      },
+      {
+        "ja": "②演劇の鑑賞に際しては、無駄なおしゃべりをせず静かにしている。",
+        "vi": "Khi thưởng thức kịch nghệ, xin hãy giữ trật tự và không nói chuyện ồn ào."
+      },
+      {
+        "ja": "③当サイトを利用するに際し、まず利用規約をご一読ください。",
+        "vi": "Trước khi sử dụng trang web này, xin vui lòng đọc qua các điều khoản sử dụng."
+      }
     ]
   },
   {
@@ -905,9 +1399,18 @@
     "meaning": "Khi/ Nhân dịp…",
     "explanation": "• Vào lúc có dịp/ việc gì đó đặc biệt, quan trọng thì làm 1 hành động mang tính quan trọng đối\nvới sự kiện đó\n• Là cách nói trang trọng, không dùng hội thoại thông thường",
     "examples": [
-      "①結婚するにあたって、子供が好きな事が絶対条件だ。",
-      "②日本で会談を行うにあたって、警備を強化する。",
-      "③試験を受講するにあたって、注意事項を確認する。"
+      {
+        "ja": "①結婚するにあたって、子供が好きな事が絶対条件だ。",
+        "vi": "Trước khi tiến tới hôn nhân, việc yêu thích trẻ con là điều kiện kiên quyết đối với tôi."
+      },
+      {
+        "ja": "②日本で会談を行うにあたって、警備を強化する。",
+        "vi": "Chuẩn bị cho cuộc hội đàm diễn ra tại Nhật Bản, công tác an ninh sẽ được thắt chặt."
+      },
+      {
+        "ja": "③試験を受講するにあたって、注意事項を確認する。",
+        "vi": "Trước khi bước vào kỳ thi, hãy kiểm tra kỹ các điều cần lưu ý."
+      }
     ]
   },
   {
@@ -922,9 +1425,18 @@
     "meaning": "dọc theo",
     "explanation": "①N＋にそって : dọc theo\n• Dọc theo 1 cái gì đó trải dài, tiếp nối như: con đường, bờ sông, vạch kẻ …（道、線路、川…）\n②N＋にそって : dựa theo\n• Làm gì đó dựa theo, bám sát theo những thứ như: マニュアル、期待、希望、方針、基準…\n• N に沿うN、N に沿ったN",
     "examples": [
-      "①お客様の要求にそって、新商品を開発する。",
-      "②決定した計画にそって、準備を進めていく。",
-      "③花火大会の日は、大勢の人が土手にそって座っている。"
+      {
+        "ja": "①お客様の要求にそって、新商品を開発する。",
+        "vi": "Chúng tôi phát triển sản phẩm mới bám sát theo đúng yêu cầu của khách hàng."
+      },
+      {
+        "ja": "②決定した計画にそって、準備を進めていく。",
+        "vi": "Chúng ta sẽ tiến hành khâu chuẩn bị theo đúng kế hoạch đã được thông qua."
+      },
+      {
+        "ja": "③花火大会の日は、大勢の人が土手にそって座っている。",
+        "vi": "Vào ngày lễ hội pháo hoa, rất đông người ngồi dọc theo triền đê."
+      }
     ]
   },
   {
@@ -939,9 +1451,18 @@
     "meaning": "càng…càng…; cùng với…",
     "explanation": "①N／V るに伴って: càng…càng…; cùng với…\n• Một cái gì đó thay đổi nên kéo theo 1 thay đổi khác cùng diễn ra\n②N／Ｖるに伴って : vì…nên kèm theo đó…\n• Vì có một nguyên nhân nào đó nên có một viêc gì đó xảy ra kèm theo sau đó",
     "examples": [
-      "①インターネットの普及にともない、生活が豊かになる。",
-      "②大学進学にともない東京に引っ越した。",
-      "③地球温暖にともない、年々気温が上昇している。"
+      {
+        "ja": "①インターネットの普及にともない、生活が豊かになる。",
+        "vi": "Cùng với sự phổ biến của Internet, đời sống con người ngày càng trở nên phong phú hơn."
+      },
+      {
+        "ja": "②大学進学にともない東京に引っ越した。",
+        "vi": "Cùng với việc vào học đại học, tôi đã chuyển nhà lên Tokyo."
+      },
+      {
+        "ja": "③地球温暖にともない、年々気温が上昇している。",
+        "vi": "Cùng với sự nóng lên toàn cầu, nhiệt độ qua từng năm đang ngày một tăng cao."
+      }
     ]
   },
   {
@@ -956,9 +1477,18 @@
     "meaning": "Riêng về mặt…, lĩnh vực…",
     "explanation": "• N đứng trước thường là 1 mặt/ lĩnh vực nào đó thuộc sở trường của người được nói tới\n• Vế sau thể hiện năng lực, tự tin",
     "examples": [
-      "①料理の腕前にかけては自信があります。",
-      "②父は車に関わることにかけては誰よりも詳しい。",
-      "③暗記 能力にかけては、彼に勝るものはいない。"
+      {
+        "ja": "①料理の腕前にかけては自信があります。",
+        "vi": "Riêng về tay nghề nấu ăn thì tôi hoàn toàn tự tin."
+      },
+      {
+        "ja": "②父は車に関わることにかけては誰よりも詳しい。",
+        "vi": "Bố tôi riêng về những chuyện liên quan đến xe cộ thì am hiểu hơn bất kỳ ai."
+      },
+      {
+        "ja": "③暗記 能力にかけては、彼に勝るものはいない。",
+        "vi": "Riêng về khả năng ghi nhớ thì không ai có thể vượt qua được anh ấy."
+      }
     ]
   },
   {
@@ -973,9 +1503,18 @@
     "meaning": "Vậy mà…",
     "explanation": "• Diễn tả 1 điều bất ngờ trái với hình dung thông thường khi nhắc về vế đứng trước にしては\n• Nhấn mạnh vào cảm xúc bất ngờ",
     "examples": [
-      "①未経験にしては、筋がいいので今後に期待できる。",
-      "②彼女、健康に気をつかっているにしてはよく風邪を引くね。",
-      "③いつも怠ける彼にしては、頑張った方だと感じた。"
+      {
+        "ja": "①未経験にしては、筋がいいので今後に期待できる。",
+        "vi": "Tuy là người chưa có kinh nghiệm nhưng tư chất rất tốt, có thể kỳ vọng vào tương lai."
+      },
+      {
+        "ja": "②彼女、健康に気をつかっているにしてはよく風邪を引くね。",
+        "vi": "Cô ấy so với người lúc nào cũng chú ý giữ gìn sức khỏe thì lại hay bị cảm cúm ghê nhỉ."
+      },
+      {
+        "ja": "③いつも怠ける彼にしては、頑張った方だと感じた。",
+        "vi": "So với một người vốn luôn lười biếng như anh ta thì lần này tôi thấy anh ta đã nỗ lực lắm rồi."
+      }
     ]
   },
   {
@@ -990,9 +1529,18 @@
     "meaning": "Giả sử, cứ cho là…thì…",
     "explanation": "• Đưa ra một tình huống giả định và vế sau nói lên phán đoán, đánh giá, ý kiến của người nói\n• Văn nói: にしたって",
     "examples": [
-      "①彼女が仮に40 代であるにしても、あの見た目は若すぎる。",
-      "②いくらゲームが楽しいにしても睡眠もとらずにプレイし続けるのは体に毒だ。",
-      "③3 時に家を出るにしても5 時までに空港に到着するのは困難だ。"
+      {
+        "ja": "①彼女が仮に40 代であるにしても、あの見た目は若すぎる。",
+        "vi": "Cứ giả dụ cô ấy đã ngoài 40 tuổi đi chăng nữa, thì vẻ ngoài kia vẫn quá đỗi trẻ trung."
+      },
+      {
+        "ja": "②いくらゲームが楽しいにしても睡眠もとらずにプレイし続けるのは体に毒だ。",
+        "vi": "Dù chơi game có vui đến mấy đi nữa thì việc cày thâu đêm không ngủ cũng rất có hại cho sức khỏe."
+      },
+      {
+        "ja": "③3 時に家を出るにしても5 時までに空港に到着するのは困難だ。",
+        "vi": "Cho dù có rời nhà lúc 3 giờ thì việc đến sân bay trước 5 giờ vẫn là điều rất khó khăn."
+      }
     ]
   },
   {
@@ -1007,9 +1555,18 @@
     "meaning": "Mặc kệ…/ Chẳng màng…",
     "explanation": "• Thể hiện 1 hành động được thực hiện mà chẳng màng/ bận tâm đến điều được đề cập ở vế trước\nもかまわず\n• Cụm từ thường gặp: 人目もかまわず\n• Cách nói cứng, thường gặp trong văn viết, tin tức…",
     "examples": [
-      "①彼は人目もかまわず、道で歌っている。",
-      "②胸の痛みもかまわず、私は仕事を続けた。",
-      "③明日、大事な試験があるのもかまわず、深夜まで遊んでしまった。"
+      {
+        "ja": "①彼は人目もかまわず、道で歌っている。",
+        "vi": "Anh ấy mặc kệ ánh nhìn của người đi đường, cứ thế cất tiếng hát giữa phố."
+      },
+      {
+        "ja": "②胸の痛みもかまわず、私は仕事を続けた。",
+        "vi": "Bất chấp cơn đau ở ngực, tôi vẫn tiếp tục làm việc."
+      },
+      {
+        "ja": "③明日、大事な試験があるのもかまわず、深夜まで遊んでしまった。",
+        "vi": "Mặc kệ ngày mai có kỳ thi quan trọng, tôi vẫn mải chơi đến tận đêm khuya."
+      }
     ]
   },
   {
@@ -1024,9 +1581,18 @@
     "meaning": "Chất chứa…/ Dồn cả…",
     "explanation": "• Bao gồm, chứa đựng cảm xúc, suy nghĩ, tâm tư, tình cảm\n• N: 心、思い、力、願い、感謝、愛、気持ち、恨み、怒り、…",
     "examples": [
-      "①愛を込めて作ったチョコレートを彼に渡した。",
-      "②母に感謝の思いを込めて手紙を書いた。",
-      "③当店のお菓子は、真心を込めて、一つ一つ手作りです。"
+      {
+        "ja": "①愛を込めて作ったチョコレートを彼に渡した。",
+        "vi": "Tôi đã trao cho anh ấy thanh socola được làm với tất cả tình yêu thương đong đầy."
+      },
+      {
+        "ja": "②母に感謝の思いを込めて手紙を書いた。",
+        "vi": "Tôi đã viết một lá thư gửi gắm trọn vẹn lòng biết ơn sâu sắc đến mẹ."
+      },
+      {
+        "ja": "③当店のお菓子は、真心を込めて、一つ一つ手作りです。",
+        "vi": "Bánh kẹo của tiệm chúng tôi đều được làm thủ công từng chiếc một với tất cả tấm lòng chân thành."
+      }
     ]
   },
   {
@@ -1041,9 +1607,18 @@
     "meaning": "Nếu mà không...thì khó có thể...",
     "explanation": "• Nếu mà không (đề cập đến/ nói đến/ có) thì khó có thể thực hiện được\n• N thường là 1 đối tượng mà giữ vai trò quan trọng hoặc được người nói đánh giá cao",
     "examples": [
-      "①監督の熱心な指導をぬきにしては、優勝する事はできなかった。",
-      "②父の一生について、あの事件をぬきにしては語れません。",
-      "③彼をぬきにしてこのプロジェクトを進めることはできない。"
+      {
+        "ja": "①監督の熱心な指導をぬきにしては、優勝する事はできなかった。",
+        "vi": "Nếu không có sự chỉ đạo nhiệt huyết của huấn luyện viên thì chúng tôi đã không thể giành chức vô địch."
+      },
+      {
+        "ja": "②父の一生について、あの事件をぬきにしては語れません。",
+        "vi": "Nói về cuộc đời của cha tôi, nếu không nhắc đến sự kiện năm ấy thì không thể nào kể hết được."
+      },
+      {
+        "ja": "③彼をぬきにしてこのプロジェクトを進めることはできない。",
+        "vi": "Nếu thiếu vắng anh ấy thì không thể nào xúc tiến dự án này được."
+      }
     ]
   },
   {
@@ -1058,9 +1633,18 @@
     "meaning": "Bất kể...",
     "explanation": "• Bất kể là thế nào thì vế sau vẫn.... Cách dùng và ý nghĩa tương đối giốngに関わらず\n• Thường đi với những cụm danh từ mang nghĩa đối ngược nhau",
     "examples": [
-      "①そのハンバーガーショップは昼夜を問わずいつでも開いている。",
-      "②インターネットがあれば場所を問わずに、仕事ができる。",
-      "③その服は性別を問わず誰でも着用できる。"
+      {
+        "ja": "①そのハンバーガーショップは昼夜を問わずいつでも開いている。",
+        "vi": "Cửa hàng hamburger đó mở cửa phục vụ bất kể ngày đêm lúc nào cũng được."
+      },
+      {
+        "ja": "②インターネットがあれば場所を問わずに、仕事ができる。",
+        "vi": "Chỉ cần có Internet thì bất kể ở địa điểm nào tôi cũng có thể làm việc được."
+      },
+      {
+        "ja": "③その服は性別を問わず誰でも着用できる。",
+        "vi": "Bộ trang phục đó bất kể nam hay nữ thì ai cũng có thể mặc được."
+      }
     ]
   },
   {
@@ -1075,9 +1659,18 @@
     "meaning": "Điều đầu tiên kể đến là…/ Đặc biệt là…",
     "explanation": "• Nhấn mạnh vào thứ tự tiêu biểu/ đại diện, không thể không kể đến\n• Vế sau là thể hiện phạm vi rộng hơn: みんな、色々、さまざま、たくさん",
     "examples": [
-      "①彼は英語をはじめ、中国語やフランス語など5 か国語を話せる。",
-      "②日本料理はアジアをはじめ、世界中で親しまれている。",
-      "③店内には食品をはじめ、衣服など様々な商品を取り扱っている。"
+      {
+        "ja": "①彼は英語をはじめ、中国語やフランス語など5 か国語を話せる。",
+        "vi": "Anh ấy có thể nói được 5 thứ tiếng, đầu tiên phải kể đến tiếng Anh, rồi tiếng Trung, tiếng Pháp,..."
+      },
+      {
+        "ja": "②日本料理はアジアをはじめ、世界中で親しまれている。",
+        "vi": "Món ăn Nhật Bản được yêu thích trên toàn thế giới, mà đi đầu là ở khu vực châu Á."
+      },
+      {
+        "ja": "③店内には食品をはじめ、衣服など様々な商品を取り扱っている。",
+        "vi": "Trong cửa hàng bày bán đa dạng các mặt hàng, tiêu biểu là thực phẩm rồi đến quần áo."
+      }
     ]
   },
   {
@@ -1092,9 +1685,18 @@
     "meaning": "Xoay xung quanh…",
     "explanation": "• Bày tỏ ý kiến, tranh luận, tranh cãi xung quanh 1 chủ đề, vấn đề, đề tài nào đó\n• Thường gặp trên tin tức, báo đài",
     "examples": [
-      "①問題を起こした社員の処分をめぐって、話し合いが行われた。",
-      "②祖父の遺産をめぐって、父とおじは対立している。",
-      "③そのテレビ番組は、一人の男性をめぐってたくさんの女性たちが争うという内容だ。"
+      {
+        "ja": "①問題を起こした社員の処分をめぐって、話し合いが行われた。",
+        "vi": "Một cuộc họp đã được tổ chức để thảo luận xoay quanh việc xử lý kỷ luật nhân viên gây ra sự cố."
+      },
+      {
+        "ja": "②祖父の遺産をめぐって、父とおじは対立している。",
+        "vi": "Xoay quanh vấn đề tài sản thừa kế của ông nội, bố tôi và chú đang xảy ra mâu thuẫn đối đầu."
+      },
+      {
+        "ja": "③そのテレビ番組は、一人の男性をめぐってたくさんの女性たちが争うという内容だ。",
+        "vi": "Chương trình truyền hình đó có nội dung xoay quanh nhiều cô gái cùng tranh giành tình cảm của một chàng trai."
+      }
     ]
   },
   {
@@ -1109,9 +1711,18 @@
     "meaning": "Dưới/ Dựa vào/ Nhờ vào …",
     "explanation": "• Làm gì dưới sức ảnh hưởng của người hoặc phạm vi gì đó\n• Cách nói khác: のもとに、のもと",
     "examples": [
-      "①幼少期は、祖父母のもとで暮らしていた。",
-      "②弟は有名な建築家のもとで3 年間修行を積んだ。",
-      "③入学試験は厳しい監視のもとで行われる。"
+      {
+        "ja": "①幼少期は、祖父母のもとで暮らしていた。",
+        "vi": "Thời thơ ấu, tôi đã sống dưới sự bảo bọc chăm sóc của ông bà."
+      },
+      {
+        "ja": "②弟は有名な建築家のもとで3 年間修行を積んだ。",
+        "vi": "Em trai tôi đã theo học nghề 3 năm dưới sự hướng dẫn của một kiến trúc sư danh tiếng."
+      },
+      {
+        "ja": "③入学試験は厳しい監視のもとで行われる。",
+        "vi": "Kỳ thi tuyển sinh được diễn ra dưới sự giám thị vô cùng nghiêm ngặt."
+      }
     ]
   },
   {
@@ -1126,9 +1737,18 @@
     "meaning": "Không chỉ…",
     "explanation": "• Không chỉ...mà còn/ mà ngay cả..., mức độ/ phạm vi ở vế sau lớn hơn, vế sau thường có: も、\nさえ\n• Cách nói lịch sự hơn だけでなく, ít dùng trong văn nói, thường thấy trên tin tức",
     "examples": [
-      "①この商品は安いのみならず質もいいので、多くの人に購入されている。",
-      "②日本のアニメはアジアのみならず、世界中で評価されている。",
-      "③彼はベトナム人だが英語のみならず、ドイツ語も話せる。"
+      {
+        "ja": "①この商品は安いのみならず質もいいので、多くの人に購入されている。",
+        "vi": "Sản phẩm này không chỉ có giá rẻ mà chất lượng lại tốt nên được rất nhiều người tìm mua."
+      },
+      {
+        "ja": "②日本のアニメはアジアのみならず、世界中で評価されている。",
+        "vi": "Hoạt hình anime Nhật Bản không chỉ ở châu Á mà còn được đánh giá rất cao trên toàn thế giới."
+      },
+      {
+        "ja": "③彼はベトナム人だが英語のみならず、ドイツ語も話せる。",
+        "vi": "Anh ấy tuy là người Việt Nam nhưng không chỉ tiếng Anh mà cả tiếng Đức cũng có thể nói được."
+      }
     ]
   },
   {
@@ -1143,9 +1763,18 @@
     "meaning": "N là đương nhiên, … cũng",
     "explanation": "• N là đương nhiên rồi, ... cũng...⇒ Không chỉ… mà còn…\n• Là cách nói cứng hơn của はもちろん",
     "examples": [
-      "④大学院に進学することは、父はもとより母も賛成だ。",
-      "⑤彼女は、その男との結婚について、家族はもとより友人からも大反対されていた。",
-      "⑥ネット環境があれば、都会はもとより、田舎でも仕事ができる。"
+      {
+        "ja": "④大学院に進学することは、父はもとより母も賛成だ。",
+        "vi": "Việc tôi học tiếp lên cao học thì bố ủng hộ là lẽ đương nhiên rồi, mà ngay cả mẹ cũng tán thành."
+      },
+      {
+        "ja": "⑤彼女は、その男との結婚について、家族はもとより友人からも大反対されていた。",
+        "vi": "Về chuyện kết hôn với người đàn ông đó, gia đình cô ấy phản đối đã đành, ngay cả bạn bè cũng kịch liệt ngăn cản."
+      },
+      {
+        "ja": "⑥ネット環境があれば、都会はもとより、田舎でも仕事ができる。",
+        "vi": "Nếu có mạng Internet thì làm việc ở thành phố là đương nhiên, mà ngay cả ở thôn quê cũng làm việc tốt."
+      }
     ]
   },
   {
@@ -1160,9 +1789,18 @@
     "meaning": "Khoan bàn, nói đến…/ Chưa cần quan tâm đến…mà…",
     "explanation": "• Danh từ đứng trước cũng quan trọng nhưng hiện tại thì vế sau cần phải được ưu tiên hơn/\nquan trọng hơn",
     "examples": [
-      "①値段はともかく、機能性がある洗濯機が欲しい。",
-      "②あの店の料理は見た目はともかく、値段が安く味がいいと評判だ。",
-      "③旅行日程はともかく、先にどこに行くかを決めなければならない。"
+      {
+        "ja": "①値段はともかく、機能性がある洗濯機が欲しい。",
+        "vi": "Giá cả thì khoan bàn tới, điều tôi muốn trước hết là một chiếc máy giặt có tính năng tiện dụng."
+      },
+      {
+        "ja": "②あの店の料理は見た目はともかく、値段が安く味がいいと評判だ。",
+        "vi": "Món ăn của quán đó hình thức thế nào chưa bàn tới, nhưng được khen là giá rẻ mà vị lại rất ngon."
+      },
+      {
+        "ja": "③旅行日程はともかく、先にどこに行くかを決めなければならない。",
+        "vi": "Lịch trình du lịch cụ thể khoan hãy tính, trước tiên ta phải quyết định xem sẽ đi đâu đã."
+      }
     ]
   },
   {
@@ -1177,9 +1815,18 @@
     "meaning": "Chưa nói đến, khoan nói đến, tạm bỏ qua một bên...",
     "explanation": "• Được sử dụng khi muốn diễn tả “chuyện này khoan hãy bàn tới, khoan hãy nói tới. Trước hết\ncần tập trung vào vấn đề phía sau.”",
     "examples": [
-      "① 冗談はさておきグループ発表の内容をまじめに話し合いましょう。",
-      "② 事件のきっかけはさておき、けが人がいなくて本当によかった。",
-      "③ せっかくハワイに来たのだから、予算はさておき、買い物を思う存分楽しみたい。"
+      {
+        "ja": "① 冗談はさておきグループ発表の内容をまじめに話し合いましょう。",
+        "vi": "Chuyện đùa tạm gác sang một bên, chúng ta hãy nghiêm túc thảo luận về nội dung bài thuyết trình nhóm nào."
+      },
+      {
+        "ja": "② 事件のきっかけはさておき、けが人がいなくて本当によかった。",
+        "vi": "Nguyên nhân vụ việc chưa bàn tới, điều may mắn nhất là không có ai bị thương."
+      },
+      {
+        "ja": "③ せっかくハワイに来たのだから、予算はさておき、買い物を思う存分楽しみたい。",
+        "vi": "Đã mất công đến tận Hawaii rồi nên chuyện ngân sách tính sau, tôi muốn thỏa sức mua sắm cho đã."
+      }
     ]
   },
   {
@@ -1194,9 +1841,18 @@
     "meaning": "Một khi mà đã…/ Vì… nên đương nhiên là…",
     "explanation": "•Vì trong 1 trạng thái gì đó (vế trước) thế nên đương nhiên là phải  thể hiện ý chí mạnh mẽ\ncủa người nói, hoặc là lời kêu gọi đến đối phương\n•Vế sau: 意志、決意、判断、命令、義務、断定...",
     "examples": [
-      "①会社の社長であるからには、従業員に尊敬される存在でいなくてはならないと思う。",
-      "②大学受験を決意した以上は、勉強をさぼってはならない。",
-      "③約束をした以上、絶対に守ると誓った。"
+      {
+        "ja": "①会社の社長であるからには、従業員に尊敬される存在でいなくてはならないと思う。",
+        "vi": "Một khi đã là giám đốc công ty thì tôi nghĩ mình phải là tấm gương để nhân viên kính trọng."
+      },
+      {
+        "ja": "②大学受験を決意した以上は、勉強をさぼってはならない。",
+        "vi": "Một khi đã quyết tâm thi đại học thì tuyệt đối không được chểnh mảng lười biếng."
+      },
+      {
+        "ja": "③約束をした以上、絶対に守ると誓った。",
+        "vi": "Một khi đã hứa thì tôi xin thề nhất định sẽ giữ trọn lời hứa."
+      }
     ]
   },
   {
@@ -1211,9 +1867,18 @@
     "meaning": "Xét từ phương diện…mà nói…/ Xét về mặt… mà nói…",
     "explanation": "•Xét trên một phương diện/ khía cạnh nào đó để đưa ra đánh giá\n•Cũng có trường hợp: đứng từ quan điểm, lập trường để đưa ra đánh giá",
     "examples": [
-      "①自身の経験からいうと、何事も行動に移すことが大事だ。",
-      "②見た目からいうと、山田さんよりも田中さんの方がお金持ちであると思う。",
-      "③実力からいって、彼が昇進するのは間違いない。"
+      {
+        "ja": "①自身の経験からいうと、何事も行動に移すことが大事だ。",
+        "vi": "Xét từ kinh nghiệm của bản thân tôi mà nói, bất kể chuyện gì việc biến thành hành động mới là quan trọng nhất."
+      },
+      {
+        "ja": "②見た目からいうと、山田さんよりも田中さんの方がお金持ちであると思う。",
+        "vi": "Xét về vẻ bề ngoài thì tôi nghĩ anh Tanaka có vẻ giàu có hơn anh Yamada."
+      },
+      {
+        "ja": "③実力からいって、彼が昇進するのは間違いない。",
+        "vi": "Xét về thực lực mà nói thì việc anh ấy được thăng chức là điều chắc chắn không thể bàn cãi."
+      }
     ]
   },
   {
@@ -1228,9 +1893,18 @@
     "meaning": "Đứng từ (vị trí",
     "explanation": "•N: lập trường  đưa ra quan điểm, đánh giá\n•N: cơ sở, bằng chứng  đưa ra phán đoán",
     "examples": [
-      "①彼の日本語の発音からすると、韓国人だと推測している。",
-      "②親からすると、子供は何歳になっても心配になるものだ。",
-      "③部下からすれば、上司の命令は絶対に従わなくてはいけないものだ。"
+      {
+        "ja": "①彼の日本語の発音からすると、韓国人だと推測している。",
+        "vi": "Căn cứ theo phát âm tiếng Nhật của anh ấy thì tôi đoán có lẽ là người Hàn Quốc."
+      },
+      {
+        "ja": "②親からすると、子供は何歳になっても心配になるものだ。",
+        "vi": "Đứng từ góc độ cha mẹ mà nói, con cái dù bao nhiêu tuổi đi nữa thì bố mẹ vẫn luôn lo lắng."
+      },
+      {
+        "ja": "③部下からすれば、上司の命令は絶対に従わなくてはいけないものだ。",
+        "vi": "Đứng từ vị trí cấp dưới thì mệnh lệnh của cấp trên là điều buộc lòng phải tuân theo tuyệt đối."
+      }
     ]
   },
   {
@@ -1245,12 +1919,30 @@
     "meaning": "Xét từ góc độ, xét về mặt...／Ngay cả, ngay từ...",
     "explanation": "• Diễn tả sự phán đoán, nhận xét, đánh giá dựa trên một góc độ, quan điểm, lập trường hay khía\ncạnh nào đó. Hoặc miêu tả cơ sở, căn cứ, đầu mối của sự phán đoán, nhận xét ở vế sau.\n② Ngay cả, ngay từ...\n• Biểu thị nghĩa “Ngay cả N cũng thế nên không cần nói tới những cái khác”\n• Thường đưa ra đánh giá tiêu cực",
     "examples": [
-      "① 雰囲気からして、彼女はただ者じゃないぞ。",
-      "② 山田さんは話し方からしてかなり教養がありそうですね。",
-      "③ あのころの彼の生活環境は朝晩の食事のメニューからしてひどいものであった。",
-      "④ 私の秘書である君からして、私を理解していない",
-      "⑤ 社長からしてリモートワークに反対しているのだから、社員たちが家で仕事など できるはずがない",
-      "⑥ あの市長は以前からきちんと仕事をしないと思っていたが、まず税金で市長室に サウナを作ったことからして不真面目さがわかる。"
+      {
+        "ja": "① 雰囲気からして、彼女はただ者じゃないぞ。",
+        "vi": "Ngay từ bầu không khí toát ra đã thấy cô ấy chẳng phải người tầm thường rồi."
+      },
+      {
+        "ja": "② 山田さんは話し方からしてかなり教養がありそうですね。",
+        "vi": "Anh Yamada ngay từ cách ăn nói đã toát lên vẻ là người rất có học thức."
+      },
+      {
+        "ja": "③ あのころの彼の生活環境は朝晩の食事のメニューからしてひどいものであった。",
+        "vi": "Điều kiện sống của anh ấy hồi đó, ngay từ thực đơn bữa ăn sáng tối đã thấy vô cùng kham khổ rồi."
+      },
+      {
+        "ja": "④ 私の秘書である君からして、私を理解していない",
+        "vi": "Ngay cả cậu là thư ký thân cận của tôi mà còn không hiểu tôi nữa là."
+      },
+      {
+        "ja": "⑤ 社長からしてリモートワークに反対しているのだから、社員たちが家で仕事など できるはずがない",
+        "vi": "Ngay cả giám đốc còn phản đối làm việc từ xa thì nhân viên làm sao có thể làm việc ở nhà được chứ."
+      },
+      {
+        "ja": "⑥ あの市長は以前からきちんと仕事をしないと思っていたが、まず税金で市長室に サウナを作ったことからして不真面目さがわかる。",
+        "vi": "Tôi vốn đã thấy ông thị trưởng đó chẳng làm việc nghiêm túc từ trước, và ngay từ chuyện dùng tiền thuế xây phòng xông hơi trong phòng làm việc đã đủ thấy độ thiếu đứng đắn rồi."
+      }
     ]
   },
   {
@@ -1265,9 +1957,18 @@
     "meaning": "Thì thật là...",
     "explanation": "• Diễn tả “nỗi ngạc nhiên, thán phục trước một tình huống xảy ra ngoài dự đoán.\n• Trong văn nói thường dùng ~なんて",
     "examples": [
-      "① まさか、私にバレンタインデーの贈り物をくれたのが田中さんだったとは。",
-      "② まさか私の犬がその人の手にかみついたとは、信じられなかった。",
-      "③ 山田さんとその女性は似ていると思っていたが、まさか姉妹だとは。"
+      {
+        "ja": "① まさか、私にバレンタインデーの贈り物をくれたのが田中さんだったとは。",
+        "vi": "Không ngờ người tặng quà Valentine cho tôi lại chính là anh Tanaka cơ đấy."
+      },
+      {
+        "ja": "② まさか私の犬がその人の手にかみついたとは、信じられなかった。",
+        "vi": "Thật không thể tin nổi việc con chó của tôi lại đi cắn vào tay người ấy."
+      },
+      {
+        "ja": "③ 山田さんとその女性は似ていると思っていたが、まさか姉妹だとは。",
+        "vi": "Cứ ngỡ anh Yamada với cô gái đó nhìn hao hao giống nhau, ai ngờ họ lại là hai chị em ruột thật."
+      }
     ]
   },
   {
@@ -1282,9 +1983,18 @@
     "meaning": "Ví dụ như…/ Chẳng hạn như…",
     "explanation": "•Cách nói đưa ra 1 vài ví dụ cụ thể/ tiêu biểu cho danh từ chung đứng sau",
     "examples": [
-      "①米、小麦といった食材にアレルギーがある方はいってください。",
-      "②犬や猫といった動物は飼ったことがありません。",
-      "③焼肉や牛丼といった、お肉料理が大好きだ。"
+      {
+        "ja": "①米、小麦といった食材にアレルギーがある方はいってください。",
+        "vi": "Những ai bị dị ứng với các loại thực phẩm như gạo hay bột mì xin vui lòng lên tiếng báo trước."
+      },
+      {
+        "ja": "②犬や猫といった動物は飼ったことがありません。",
+        "vi": "Tôi chưa từng nuôi các loài động vật như chó hay mèo bao giờ."
+      },
+      {
+        "ja": "③焼肉や牛丼といった、お肉料理が大好きだ。",
+        "vi": "Tôi cực kỳ thích các món thịt, chẳng hạn như thịt nướng yakiniku hay cơm thịt bò gyudon."
+      }
     ]
   },
   {
@@ -1299,9 +2009,18 @@
     "meaning": "Cho dù là…/ Thậm chí nếu là…",
     "explanation": "•Đưa ra trường hợp giả định để nêu ra ý kiến, quan điểm của người nói\n•Thường hay đi cùng: たとえ、仮に、もし、もしも\n•Văn nói:としたって",
     "examples": [
-      "①たとえ冗談だとしても、女性にそんなことは言ってはいけない。",
-      "②たとえきれいだとしても、性格が悪ければ付き合おうとは思わない。",
-      "③N1 を持っていたとしても、 会話が上手だとは限らない。"
+      {
+        "ja": "①たとえ冗談だとしても、女性にそんなことは言ってはいけない。",
+        "vi": "Dù cho chỉ là nói đùa đi chăng nữa thì cũng không được phép nói những lời như thế với phụ nữ."
+      },
+      {
+        "ja": "②たとえきれいだとしても、性格が悪ければ付き合おうとは思わない。",
+        "vi": "Dù cho có xinh đẹp đến mấy đi nữa mà tính nết xấu xa thì tôi cũng chẳng bao giờ nghĩ đến chuyện hẹn hò."
+      },
+      {
+        "ja": "③N1 を持っていたとしても、 会話が上手だとは限らない。",
+        "vi": "Cho dù có bằng N1 đi chăng nữa thì chưa chắc đã giao tiếp giỏi."
+      }
     ]
   },
   {
@@ -1316,9 +2035,18 @@
     "meaning": "Cùng với",
     "explanation": "①N＋とともに :Cùng với\n•Là văn viết của と一緒に\n②V る／N＋とともに : Cùng với, càng...càng...\n•Cùng với 1 việc gì đó thay đổi thì 1 thay đổi tương ứng cũng diễn ra cùng\n③Vる／Aい／Aなである／N である＋とともに : ...đồng thời thì...\n•2 vế trước sau là 2 thứ/ việc diễn ra hoặc tồn tại song song cùng với nhau",
     "examples": [
-      "①友人とともに、沖縄旅行に行く予定を立てる。",
-      "②季節の変化とともに木の葉の色も変わる。",
-      "③トムさんに英語の文法を教えてもらうとともに、発音の練習も一緒に行った。"
+      {
+        "ja": "①友人とともに、沖縄旅行に行く予定を立てる。",
+        "vi": "Tôi lên kế hoạch đi du lịch Okinawa cùng với bạn bè."
+      },
+      {
+        "ja": "②季節の変化とともに木の葉の色も変わる。",
+        "vi": "Cùng với sự chuyển giao của các mùa, màu sắc của lá cây cũng dần thay đổi theo."
+      },
+      {
+        "ja": "③トムさんに英語の文法を教えてもらうとともに、発音の練習も一緒に行った。",
+        "vi": "Vừa được anh Tom chỉ dạy ngữ pháp tiếng Anh, tôi đồng thời cũng cùng anh luyện tập cả phát âm."
+      }
     ]
   },
   {
@@ -1333,9 +2061,18 @@
     "meaning": "Giả sử nếu mà…/ Giả dụ như…",
     "explanation": "•Là cách nói đưa ra 1 trường hợp giả định nào đó\n•Thường là giả định cho những điều khó xảy ra trong thực tế",
     "examples": [
-      "①その本の内容が全て正しいとしたら、彼の説明が間違っているということになるわね。",
-      "②その事柄が事実だとしたら、事実確認を急ぐべきだ。",
-      "③宝くじが当たったとしたら、家族に海外旅行をプレゼントしたい。"
+      {
+        "ja": "①その本の内容が全て正しいとしたら、彼の説明が間違っているということになるわね。",
+        "vi": "Giả sử nếu nội dung cuốn sách đó đúng toàn bộ, thì điều đó đồng nghĩa với việc lời giải thích của anh ta là sai rồi nhỉ."
+      },
+      {
+        "ja": "②その事柄が事実だとしたら、事実確認を急ぐべきだ。",
+        "vi": "Nếu sự việc đó là sự thật thì chúng ta cần phải khẩn trương xác minh lại ngay."
+      },
+      {
+        "ja": "③宝くじが当たったとしたら、家族に海外旅行をプレゼントしたい。",
+        "vi": "Giả như trúng số độc đắc thì tôi muốn tặng cho cả gia đình một chuyến du lịch nước ngoài."
+      }
     ]
   },
   {
@@ -1350,9 +2087,18 @@
     "meaning": "Nói về",
     "explanation": "• Diễn tả cảm xúc thán phục, ngạc nhiên của người nói về một sự vật, sự việc nào đó. (cả tiêu\ncực và tích cực )",
     "examples": [
-      "① 彼の部屋といったら、服は脱ぎっぱなしで、ゴミも散らかっておりひどいもの でしたよ。",
-      "② 山の頂上からの景色といったら、美しすぎて言葉にならないくらいだった。",
-      "③ 彼の生意気な態度といったら、上司も怒って会議を中断してしまうほどだった。"
+      {
+        "ja": "① 彼の部屋といったら、服は脱ぎっぱなしで、ゴミも散らかっておりひどいもの でしたよ。",
+        "vi": "Nhắc đến căn phòng của cậu ta thì ôi thôi, quần áo vứt bừa bãi, rác rưởi ngổn ngang, kinh khủng khủng khiếp lắm."
+      },
+      {
+        "ja": "② 山の頂上からの景色といったら、美しすぎて言葉にならないくらいだった。",
+        "vi": "Nói về khung cảnh nhìn từ đỉnh núi thì đẹp đến mức không từ ngữ nào có thể diễn tả xiết."
+      },
+      {
+        "ja": "③ 彼の生意気な態度といったら、上司も怒って会議を中断してしまうほどだった。",
+        "vi": "Nói về cái thái độ xấc xược của hắn thì kinh khủng đến độ sếp phải nổi giận lôi đình mà tạm dừng cuộc họp lại."
+      }
     ]
   },
   {
@@ -1367,11 +2113,26 @@
     "meaning": "Có nghĩa là, tóm lại là, tức là...",
     "explanation": "• Dùng khi tóm tắt, tóm lược, giải thích những gì được nói trước đó.",
     "examples": [
-      "① 彼女によると、彼がこの学校で一番ハンサムだということだ。",
-      "② 天気予報によると、明日は一日雨だということだ。 ――――――――――――――――――――――――――――――――――――――",
-      "① 彼は昨日も今日も練習を休んでいる。最初からやる気がなかったということだ。",
-      "② 彼は一人で全ての仕事を成し遂げた。私が手伝う必要なんて全くなかった ということだ。",
-      "③ 彼女はちょっとしたことですぐに機嫌を悪くする。つまりまだ子どもだ ということだ。"
+      {
+        "ja": "① 彼女によると、彼がこの学校で一番ハンサムだということだ。",
+        "vi": "Theo lời cô ấy thì nghe nói anh ta là người đẹp trai nhất trường này."
+      },
+      {
+        "ja": "② 天気予報によると、明日は一日雨だということだ。 ――――――――――――――――――――――――――――――――――――――",
+        "vi": "Theo dự báo thời tiết thì nghe bảo ngày mai trời sẽ mưa cả ngày."
+      },
+      {
+        "ja": "① 彼は昨日も今日も練習を休んでいる。最初からやる気がなかったということだ。",
+        "vi": "Anh ấy cả hôm qua lẫn hôm nay đều nghỉ tập. Điều đó có nghĩa là ngay từ đầu anh ta đã chẳng có chút hứng thú nào rồi."
+      },
+      {
+        "ja": "② 彼は一人で全ての仕事を成し遂げた。私が手伝う必要なんて全くなかった ということだ。",
+        "vi": "Anh ấy đã tự mình hoàn thành tất cả công việc. Tức là tôi hoàn toàn không cần phải mó tay vào giúp đỡ chút nào."
+      },
+      {
+        "ja": "③ 彼女はちょっとしたことですぐに機嫌を悪くする。つまりまだ子どもだ ということだ。",
+        "vi": "Cô ấy chỉ vì một chuyện cỏn con mà lập tức đổi tính giận dỗi. Tóm lại tức là cô ấy vẫn còn trẻ con lắm."
+      }
     ]
   },
   {
@@ -1386,9 +2147,18 @@
     "meaning": "Cực kì, rất…",
     "explanation": "• Nhấn mạnh vào mức độ vô cùng thế nào đó (đến mức người nói cảm thấy bất ngờ, không ngờ\ntới trước)\n• Cách nói suồng sã, tuy nhiên người trẻ tuổi không hay dùng",
     "examples": [
-      "①あの人は怖いのなんのって、怒らせない様にしなくてはいけない 。",
-      "②彼はアメリカに3 年住んでいるが、英語が下手なのなんのって。",
-      "③死んだと思っていた彼が目の前に現れたときは驚いたのなんのって。"
+      {
+        "ja": "①あの人は怖いのなんのって、怒らせない様にしなくてはいけない 。",
+        "vi": "Người đó thì đáng sợ vô cùng tận, phải cẩn thận đừng để ông ấy nổi giận mới được."
+      },
+      {
+        "ja": "②彼はアメリカに3 年住んでいるが、英語が下手なのなんのって。",
+        "vi": "Anh ấy sống ở Mỹ 3 năm rồi nhưng tiếng Anh thì dở tệ không thể tả nổi."
+      },
+      {
+        "ja": "③死んだと思っていた彼が目の前に現れたときは驚いたのなんのって。",
+        "vi": "Khi người mà tôi cứ ngỡ đã qua đời đột nhiên xuất hiện ngay trước mắt, lúc đó tôi đã kinh ngạc đến tột độ."
+      }
     ]
   },
   {
@@ -1403,9 +2173,18 @@
     "meaning": "Vì quá…",
     "explanation": "• Vì quá... nên dẫn đến 1 trạng thái không bình thường hoặc 1 kết quả không tốt\n• Thường đi với những từ thể hiện cảm xúc\n• Mở rộng: あまりの＋N＋（に）",
     "examples": [
-      "①忙しさのあまり、食事をすることを忘れてしまっていた。",
-      "②私は緊張のあまり汗だくになった。",
-      "③急いでいたあまり、家に財布を忘れてしまった。"
+      {
+        "ja": "①忙しさのあまり、食事をすることを忘れてしまっていた。",
+        "vi": "Vì quá bận rộn nên tôi đã quên cả chuyện ăn uống."
+      },
+      {
+        "ja": "②私は緊張のあまり汗だくになった。",
+        "vi": "Tôi vì quá hồi hộp nên mồ hôi vã ra như tắm."
+      },
+      {
+        "ja": "③急いでいたあまり、家に財布を忘れてしまった。",
+        "vi": "Vì quá vội vàng nên tôi đã bỏ quên mất ví tiền ở nhà."
+      }
     ]
   },
   {
@@ -1420,9 +2199,18 @@
     "meaning": "Rất…đến mức không kìm nén được",
     "explanation": "• Nhấn mạnh vào cảm xúc vô cùng...của người nói, đặc biệt còn chứa nhiều sắc thái nghĩa chỉ\ncảm xúc đó nó tự nhiên xảy đến và không thể kìm nén được\n• Giống てしょうがないnhưng ít dùng trong văn nói hơn",
     "examples": [
-      "①入学試験の結果が気になってならない。",
-      "②この道は街灯がなく、辺りが見えにくいので危なくてならない。",
-      "③彼女は何にでも文句を言うので、腹が立ってならない。"
+      {
+        "ja": "①入学試験の結果が気になってならない。",
+        "vi": "Tôi vô cùng bồn chồn lo lắng, không tài nào kìm được sự sốt ruột về kết quả thi tuyển sinh."
+      },
+      {
+        "ja": "②この道は街灯がなく、辺りが見えにくいので危なくてならない。",
+        "vi": "Con đường này không có đèn đường, xung quanh tối om khó nhìn nên nguy hiểm vô cùng."
+      },
+      {
+        "ja": "③彼女は何にでも文句を言うので、腹が立ってならない。",
+        "vi": "Chuyện gì cô ta cũng cằn nhằn bắt bẻ nên tôi bực mình không thể chịu nổi."
+      }
     ]
   },
   {
@@ -1437,9 +2225,18 @@
     "meaning": "Rất…đến mức không chịu được",
     "explanation": "• Cách dùng để nhấn mạnh vào cảm xúc/ trạng thái của người nói đến mức không chịu được\n• Không dùng cho những cảm xúc tự phát",
     "examples": [
-      "①ホラー映画を観てから、トイレが怖くてたまらない。",
-      "②大学進学のために一人暮らしを始めた息子のことを考えると、不安でたまらないです。",
-      "③遠く離れて暮らす家族に会いたくてたまらない。"
+      {
+        "ja": "①ホラー映画を観てから、トイレが怖くてたまらない。",
+        "vi": "Sau khi xem phim kinh dị xong, tôi sợ đi vệ sinh không chịu nổi."
+      },
+      {
+        "ja": "②大学進学のために一人暮らしを始めた息子のことを考えると、不安でたまらないです。",
+        "vi": "Cứ nghĩ đến đứa con trai bắt đầu sống tự lập một mình để học đại học là tôi lại lo lắng khôn nguôi."
+      },
+      {
+        "ja": "③遠く離れて暮らす家族に会いたくてたまらない。",
+        "vi": "Tôi nhớ và muốn gặp lại gia đình đang sống ở nơi xa xôi vô cùng da diết."
+      }
     ]
   },
   {
@@ -1454,9 +2251,18 @@
     "meaning": "Có khả năng…/ Có thể…",
     "explanation": "• Có khả năng/ có thể xảy ra/ thực hiện hành động gì đó; Không dùng để biểu thị năng lực\n• Lưu ý về 2 cách đọc: うる、える.Cách đọc: 辞書形：うる、える  (うるlịch sự hơnえる)",
     "examples": [
-      "①どんなに優秀な人でも、間違いを起こすことはあり得る。",
-      "②人生は長い。だからこそ、どんなことだって起こり得るんだ。",
-      "③日本は明日にでも、山が噴火する可能性があり得る。"
+      {
+        "ja": "①どんなに優秀な人でも、間違いを起こすことはあり得る。",
+        "vi": "Dù là người xuất chúng đến đâu đi nữa thì việc phạm sai lầm vẫn hoàn toàn có thể xảy ra."
+      },
+      {
+        "ja": "②人生は長い。だからこそ、どんなことだって起こり得るんだ。",
+        "vi": "Đời người còn dài. Chính vì thế mà bất kể chuyện gì cũng đều có khả năng xảy ra được."
+      },
+      {
+        "ja": "③日本は明日にでも、山が噴火する可能性があり得る。",
+        "vi": "Ở Nhật Bản, ngay cả ngày mai núi lửa phun trào cũng là điều hoàn toàn có khả năng xảy ra."
+      }
     ]
   },
   {
@@ -1471,9 +2277,18 @@
     "meaning": "Vừa…Vừa…/ Nào là… nào là…",
     "explanation": "• Liệt kê ra những hành động, tính chất, sự việc giống nhau và ngoài ra vẫn còn nhiều cái khác\n• Mang 1 chút cảm xúc tiêu cực vì nhiều quá\n• Cách nói khác của: や～など、とか～とか、...",
     "examples": [
-      "①母はいつも、掃除をするやら買い物に行くやら忙しい。",
-      "②プレゼンで失敗してしまい、恥ずかしいやら情けないやらで涙が出てきた。",
-      "③最近、育児やら家事やらで、とても忙しいが、充実した生活を送っている。"
+      {
+        "ja": "①母はいつも、掃除をするやら買い物に行くやら忙しい。",
+        "vi": "Mẹ tôi lúc nào cũng bận rộn túi bụi, nào là dọn dẹp nhà cửa, nào là đi chợ mua sắm."
+      },
+      {
+        "ja": "②プレゼンで失敗してしまい、恥ずかしいやら情けないやらで涙が出てきた。",
+        "vi": "Thuyết trình thất bại thảm hại, cảm giác vừa xấu hổ vừa thấy tủi hổ đến phát khóc."
+      },
+      {
+        "ja": "③最近、育児やら家事やらで、とても忙しいが、充実した生活を送っている。",
+        "vi": "Gần đây tôi rất bận rộn, nào là chăm con, nào là việc nhà, nhưng cuộc sống lại rất phong phú và ý nghĩa."
+      }
     ]
   },
   {
@@ -1488,9 +2303,18 @@
     "meaning": "Cả N1, N2 đều…",
     "explanation": "• Liệt kê những tính chất song song, có xu hướng giống nhau (tốt cùng tốt, xấu cùng xấu) hoặc\nnhiều mặt/ khía cạnh của 1 hiện tượng. Văn nói còn có thể dùng: ～も～し、～も",
     "examples": [
-      "①外で運動するのが好きな子もいれば、室内で静かに遊ぶのが好きな子もいる。",
-      "②私は勉強も苦手なら、運動も苦手で自分のことが嫌になる。",
-      "③この町には、コンビニもなければ、スーパーもない。"
+      {
+        "ja": "①外で運動するのが好きな子もいれば、室内で静かに遊ぶのが好きな子もいる。",
+        "vi": "Có những đứa trẻ thích vận động ngoài trời, nhưng cũng có những đứa trẻ thích ngồi chơi yên tĩnh trong nhà."
+      },
+      {
+        "ja": "②私は勉強も苦手なら、運動も苦手で自分のことが嫌になる。",
+        "vi": "Học tập tôi cũng dở mà thể thao tôi cũng kém, khiến tôi thấy chán ghét chính bản thân mình."
+      },
+      {
+        "ja": "③この町には、コンビニもなければ、スーパーもない。",
+        "vi": "Thị trấn này cửa hàng tiện lợi cũng chẳng có, mà siêu thị cũng không nốt."
+      }
     ]
   },
   {
@@ -1505,9 +2329,18 @@
     "meaning": "Khi, trong trường hợp... / Sau khi... thì",
     "explanation": "1/ 《するとき》:Khi, trong trường hợp\nV る/Nの    + 上で\nVế sau thường đưa ra những điều cần thiết, quan trọng cho trường hợp/ văn cảnh được nêu\nra ở vế trước.\n2/     《した後》: Sau khi…\nV た/Nの    + 上で\nHành động ở vế sau sẽ/ đã được tiến hành trên cơ sở sau khi hoàn thành/ thực hiện xong\nhành động ở vế trước.",
     "examples": [
-      "①外国人との交流の上で重要なのは、相手の文化を知ろうとすることだ。",
-      "②父は失敗を覚悟の上で、新たに会社を立ち上げることにした。",
-      "③SNS で何度もやり取りをした上で、彼と実際に会うことに決めた。"
+      {
+        "ja": "①外国人との交流の上で重要なのは、相手の文化を知ろうとすることだ。",
+        "vi": "Trong việc giao lưu với người nước ngoài, điều quan trọng là phải có tinh thần tìm hiểu văn hóa của đối phương."
+      },
+      {
+        "ja": "②父は失敗を覚悟の上で、新たに会社を立ち上げることにした。",
+        "vi": "Bố tôi sau khi đã chuẩn bị sẵn tâm lý chấp nhận thất bại, đã quyết định thành lập công ty mới."
+      },
+      {
+        "ja": "③SNS で何度もやり取りをした上で、彼と実際に会うことに決めた。",
+        "vi": "Sau khi đã nhắn tin trao đổi nhiều lần trên mạng xã hội, tôi mới quyết định gặp mặt anh ấy ngoài đời thực."
+      }
     ]
   },
   {
@@ -1522,9 +2355,18 @@
     "meaning": "Ngay sau khi…",
     "explanation": "• Ngay sau khi ... thì sẽ làm gì đó luôn\n• Cách nói cứng thường dùng trong thông báo, tin tức\n• Không dùng cho hiện tượng tự nhiên hoặc thể quá khứ",
     "examples": [
-      "①準備が整い次第、すぐに作業に移る。",
-      "②連絡があり次第、出発をいたします。",
-      "③確認が取れ次第、改めてご連絡します。"
+      {
+        "ja": "①準備が整い次第、すぐに作業に移る。",
+        "vi": "Ngay sau khi khâu chuẩn bị hoàn tất, chúng ta sẽ lập tức bắt tay vào công việc."
+      },
+      {
+        "ja": "②連絡があり次第、出発をいたします。",
+        "vi": "Ngay khi nhận được liên lạc, tôi sẽ lập tức xuất phát ngay."
+      },
+      {
+        "ja": "③確認が取れ次第、改めてご連絡します。",
+        "vi": "Ngay sau khi xác nhận được thông tin, tôi sẽ chủ động liên hệ lại với bạn."
+      }
     ]
   },
   {
@@ -1539,10 +2381,22 @@
     "meaning": "Tùy vào... / Do đó, thế nên là...",
     "explanation": "1/ 《～によって決まる 》=> Tùy vào\nN + 次第だ/で/では\nTùy vào N mà vế sau sẽ có những thay đổi, quyết định phù hợp với N hoặc dẫn đến những\nkết quả khác nhau.\n2/ 《～という事情だ》=> Thế nên là…\n普通形（A な/N＋である） + 次第だ\nDùng ở cuối câu khi trình bày diễn tả 1 lý do giải thích cho hành động hoặc kết quả nào đó.",
     "examples": [
-      "①幸せになれるかどうかなんて、自分の行動次第だ。",
-      "②明日の天気次第でどこにデートで行くかが決まる。",
-      "③今日は、君の本音を聞きたくて会いに来た次第だ。",
-      "④彼とは大学で知り合い、卒業後にプロポーズされて結婚した次第だ。"
+      {
+        "ja": "①幸せになれるかどうかなんて、自分の行動次第だ。",
+        "vi": "Việc có thể hạnh phúc hay không hoàn toàn tùy thuộc vào hành động của chính bản thân mình."
+      },
+      {
+        "ja": "②明日の天気次第でどこにデートで行くかが決まる。",
+        "vi": "Đi hẹn hò ở đâu sẽ được quyết định tùy theo tình hình thời tiết ngày mai."
+      },
+      {
+        "ja": "③今日は、君の本音を聞きたくて会いに来た次第だ。",
+        "vi": "Hôm nay vì muốn được nghe những lời chân thật từ đáy lòng bạn nên tôi mới cất công đến gặp bạn như thế này."
+      },
+      {
+        "ja": "④彼とは大学で知り合い、卒業後にプロポーズされて結婚した次第だ。",
+        "vi": "Tôi quen anh ấy từ thời đại học, sau khi tốt nghiệp thì được cầu hôn và đó là lý do chúng tôi nên duyên vợ chồng."
+      }
     ]
   },
   {
@@ -1557,9 +2411,18 @@
     "meaning": "Kết cục thì…/ Cuối cùng thì…",
     "explanation": "• Sau khi làm gì đó nhiều lần/ trong 1 thời gian dài thì cuối cùng là 1 kết quả đáng tiếc, không tốt\n• Hay đi với những cụm từ  nhấn mạnh vào việc đã mất thời gian: さんざん、いろいろ",
     "examples": [
-      "①一生懸命走ったあげく、予定時刻に間に合うことができなかった。",
-      "②早朝から並んだあげく、売り切れで購入する事ができなかった。",
-      "③日々の重労働のあげく、上司は病気にかかり入院することとなった。"
+      {
+        "ja": "①一生懸命走ったあげく、予定時刻に間に合うことができなかった。",
+        "vi": "Sau một hồi cắm đầu cắm cổ chạy hết sức, rốt cuộc tôi vẫn không kịp giờ đã định."
+      },
+      {
+        "ja": "②早朝から並んだあげく、売り切れで購入する事ができなかった。",
+        "vi": "Xếp hàng từ sáng sớm tinh mơ, kết cục lại hết hàng không thể mua được."
+      },
+      {
+        "ja": "③日々の重労働のあげく、上司は病気にかかり入院することとなった。",
+        "vi": "Sau chuỗi ngày dài lao lực làm việc kiệt sức, sếp tôi đã ngã bệnh và phải nhập viện."
+      }
     ]
   },
   {
@@ -1574,9 +2437,18 @@
     "meaning": "に） (Cuối cùng thì…/ Kết quả là…",
     "explanation": "• Sau khi đã rất.../ làm trong 1 thời gian dài...thì kết quả là/ cuối cùng thì...\n• Kết quả có thể tốt hoặc xấu đều được",
     "examples": [
-      "①大げんかの末にその夫婦は離婚した。",
-      "②悩んだ末、その試験を受けると決めた。",
-      "③妻と話し合った末、妻の意見を尊重する事になった。"
+      {
+        "ja": "①大げんかの末にその夫婦は離婚した。",
+        "vi": "Sau một trận cãi vã kịch liệt, đôi vợ chồng ấy cuối cùng đã ly hôn."
+      },
+      {
+        "ja": "②悩んだ末、その試験を受けると決めた。",
+        "vi": "Sau chuỗi ngày trăn trở đắn đo, cuối cùng tôi đã quyết định sẽ dự thi kỳ thi đó."
+      },
+      {
+        "ja": "③妻と話し合った末、妻の意見を尊重する事になった。",
+        "vi": "Sau khi bàn bạc kỹ với vợ, cuối cùng tôi quyết định tôn trọng ý kiến của cô ấy."
+      }
     ]
   },
   {
@@ -1591,9 +2463,18 @@
     "meaning": "Không phải trong hoàn cảnh để có thể…/Không còn tâm trí để…",
     "explanation": "• Phủ định 1 cách mạnh mẽ rằng đó không phải là thời điểm để người nói có thời gian/ tâm trí\nmà làm chuyện gì đó\n• Thường dùng trong văn nói\n• Cách nói khác: 「～してる場合じゃないね。」   「～どころじゃない」",
     "examples": [
-      "①年末年始は 忙しいので、ゆっくりしているどころではない。",
-      "②昨日はお腹が痛くてサッカーを楽しむどころではなかった。",
-      "③こんなに宿題がたくさん出されてしまっては、夏休みどころではない。"
+      {
+        "ja": "①年末年始は 忙しいので、ゆっくりしているどころではない。",
+        "vi": "Dịp cuối năm đầu năm bận rộn ngập đầu nên không phải là lúc có thể thong thả nghỉ ngơi."
+      },
+      {
+        "ja": "②昨日はお腹が痛くてサッカーを楽しむどころではなかった。",
+        "vi": "Hôm qua tôi đau bụng quằn quại nên chẳng còn tâm trí đâu mà tận hưởng trận bóng đá nữa."
+      },
+      {
+        "ja": "③こんなに宿題がたくさん出されてしまっては、夏休みどころではない。",
+        "vi": "Bị giao cho nhiều bài tập về nhà thế này thì còn tâm trí đâu mà tận hưởng kỳ nghỉ hè nữa."
+      }
     ]
   },
   {
@@ -1608,9 +2489,18 @@
     "meaning": "E rằng…/ Có khả năng…",
     "explanation": "• Có khả năng, nguy cơ xảy ra chuyện gì đó không tốt\n• Là cách nói trang trọng thường gặp trên tin tức, thông báo, nhãn mác cảnh báo\n• Phủ định: ～恐れはありません",
     "examples": [
-      "①今晩は大雨のおそれがある。",
-      "②準備を怠けると、失敗するおそれがあります。",
-      "③今すぐ入院しなければ、今後仕事を続けられないおそれがある。"
+      {
+        "ja": "①今晩は大雨のおそれがある。",
+        "vi": "Đêm nay e rằng có nguy cơ sẽ mưa rất to."
+      },
+      {
+        "ja": "②準備を怠けると、失敗するおそれがあります。",
+        "vi": "Nếu chểnh mảng trong khâu chuẩn bị, bạn có nguy cơ sẽ thất bại."
+      },
+      {
+        "ja": "③今すぐ入院しなければ、今後仕事を続けられないおそれがある。",
+        "vi": "Nếu không nhập viện ngay lúc này thì e rằng sau này bạn có nguy cơ không thể tiếp tục công việc được nữa."
+      }
     ]
   },
   {
@@ -1625,9 +2515,18 @@
     "meaning": "Kể từ sau khi…thì mới…/ Chỉ sau khi…mới…",
     "explanation": "• Kể từ sau khi làm 1 việc (mà trước đó chưa bao giờ làm) thì mới hiểu ra/ làm được 1 điều gì\nđó\n• Vế sau thường đi với những từ thể hiện nhận thức: わかる、知る、気が付く、理解する…",
     "examples": [
-      "①この本を3 回読んではじめて、内容を理解する事ができた。",
-      "②失ってはじめて、彼女の大切さが 身に染みて分かった。",
-      "③会社員になってはじめてお金を稼ぐ大変さを学んだ。"
+      {
+        "ja": "①この本を3 回読んではじめて、内容を理解する事ができた。",
+        "vi": "Phải sau khi đọc cuốn sách này 3 lần thì tôi mới có thể hiểu thấu đáo được nội dung."
+      },
+      {
+        "ja": "②失ってはじめて、彼女の大切さが 身に染みて分かった。",
+        "vi": "Chỉ sau khi đánh mất cô ấy, tôi mới thấm thía sâu sắc tầm quan trọng của cô ấy đối với mình."
+      },
+      {
+        "ja": "③会社員になってはじめてお金を稼ぐ大変さを学んだ。",
+        "vi": "Chỉ sau khi trở thành người đi làm, tôi mới thấu hiểu nỗi vất vả của việc kiếm tiền."
+      }
     ]
   },
   {
@@ -1642,9 +2541,18 @@
     "meaning": "Kể từ sau khi…",
     "explanation": "• Kể từ sau khi làm... thì liên tục duy trì 1 trạng thái nào đó đã được dự đoán trước nhưng lại\nkhông diễn ra\n• Vế sau thường ở thể phủ định",
     "examples": [
-      "①父とは5 年前に会ったきり、 連絡を取っていない。",
-      "②その男性は山に登ったきり、帰ってこなかった。",
-      "③昨日は朝にご飯を食べたっきり、今日はまだ何も食べていない。"
+      {
+        "ja": "①父とは5 年前に会ったきり、 連絡を取っていない。",
+        "vi": "Kể từ sau lần gặp bố cách đây 5 năm, tôi chưa hề liên lạc lại với ông."
+      },
+      {
+        "ja": "②その男性は山に登ったきり、帰ってこなかった。",
+        "vi": "Người đàn ông đó kể từ khi lên núi leo núi thì không bao giờ trở về nữa."
+      },
+      {
+        "ja": "③昨日は朝にご飯を食べたっきり、今日はまだ何も食べていない。",
+        "vi": "Hôm qua kể từ bữa ăn lúc sáng, tới tận hôm nay tôi vẫn chưa ăn thêm chút gì vào bụng."
+      }
     ]
   },
   {
@@ -1659,9 +2567,18 @@
     "meaning": "Trước khi…",
     "explanation": "• Vế trước thường là những sự việc, hành động quan trọng mà cần đến sự chuẩn bị\n• Vế sau: làm sẵn, chuẩn bị sẵn cho sự việc đó",
     "examples": [
-      "①転職に先立って、会社の上司に感謝の手紙を書いた。",
-      "②大学進学に先立って、弟は東京に引っ越しをした。",
-      "③会議に先立ち、資料を各席に用意する。"
+      {
+        "ja": "①転職に先立って、会社の上司に感謝の手紙を書いた。",
+        "vi": "Trước khi chuyển việc, tôi đã viết một bức thư cảm ơn gửi tới cấp trên trong công ty."
+      },
+      {
+        "ja": "②大学進学に先立って、弟は東京に引っ越しをした。",
+        "vi": "Trước khi nhập học đại học, em trai tôi đã dọn nhà lên Tokyo trước."
+      },
+      {
+        "ja": "③会議に先立ち、資料を各席に用意する。",
+        "vi": "Trước khi cuộc họp bắt đầu, tài liệu sẽ được chuẩn bị sẵn tại từng vị trí ngồi."
+      }
     ]
   },
   {
@@ -1676,9 +2593,18 @@
     "meaning": "Sau khi…",
     "explanation": "• Sau khi làm ~ thì phát hiện/ hiểu ra 1 sự thật/ kết quả/ 1 thông tin mới nào đó\n• Vế sau luôn chia ở quá khứ, không đi với những câu thể hiện hành động có ý chí người nói\ntrong đó",
     "examples": [
-      "①頭が 痛かったので、病院で 検査したところ、異常が見つかった。",
-      "②日本人に聞いたところ、私の発音は間違っていたようだ。",
-      "③セール中と聞いて急いでスーパーマーケットに行ったところ、もう全て売り切れて いた。"
+      {
+        "ja": "①頭が 痛かったので、病院で 検査したところ、異常が見つかった。",
+        "vi": "Vì bị đau đầu nên tôi đã đến bệnh viện kiểm tra, kết quả là phát hiện ra dấu hiệu bất thường."
+      },
+      {
+        "ja": "②日本人に聞いたところ、私の発音は間違っていたようだ。",
+        "vi": "Sau khi đi hỏi một người Nhật thì hóa ra phát âm của tôi dường như bị sai mất rồi."
+      },
+      {
+        "ja": "③セール中と聞いて急いでスーパーマーケットに行ったところ、もう全て売り切れて いた。",
+        "vi": "Nghe tin đang giảm giá tôi liền vội chạy ra siêu thị, ai ngờ đến nơi thì tất cả đã bị vét sạch."
+      }
     ]
   },
   {
@@ -1693,9 +2619,18 @@
     "meaning": "Chẳng những/ lấy đâu ra…",
     "explanation": "• Nhấn mạnh vào thực tế hoàn toàn trái ngược với tưởng tượng, kì vọng\n• Câu nói thường có cảm xúc tiêu cực, than thở. Có thể nói bằng: どころではなく",
     "examples": [
-      "①このゲームは子供どころか、大人まで夢中になってしまう。",
-      "②その商品は安いどころか高級すぎて買えなかった。",
-      "③彼の病状は  酷く、歩くどころか話す事もできない。"
+      {
+        "ja": "①このゲームは子供どころか、大人まで夢中になってしまう。",
+        "vi": "Trò chơi này không chỉ riêng trẻ con, mà ngay cả người lớn cũng mê mẩn đến say sưa."
+      },
+      {
+        "ja": "②その商品は安いどころか高級すぎて買えなかった。",
+        "vi": "Món đồ đó rẻ đâu chẳng thấy, ngược lại còn quá đỗi xa xỉ khiến tôi không tài nào mua nổi."
+      },
+      {
+        "ja": "③彼の病状は  酷く、歩くどころか話す事もできない。",
+        "vi": "Bệnh tình của anh ấy chuyển biến rất nặng, nói chi đến chuyện đi lại, ngay cả mở miệng nói chuyện cũng không làm nổi."
+      }
     ]
   },
   {
@@ -1710,9 +2645,18 @@
     "meaning": "Nếu…như thế này thì…",
     "explanation": "• Nhấn mạnh ý: Nếu cứ duy trì trạng thái như thế này thì là không tốt\n• Là câu thường dùng để khuyên, nhắc nhở đối phương, dùng nhiều trong hội thoại hàng ngày",
     "examples": [
-      "①自己管理ができないようでは、部下の管理も出来はしない。",
-      "②小さい事を気にしているようでは、おおらかな人にはなれない。",
-      "③すぐに諦めるようじゃ、合格なんて到底できない。"
+      {
+        "ja": "①自己管理ができないようでは、部下の管理も出来はしない。",
+        "vi": "Nếu mà bản thân còn chưa tự quản lý nổi mình thì làm sao có thể quản lý được cấp dưới."
+      },
+      {
+        "ja": "②小さい事を気にしているようでは、おおらかな人にはなれない。",
+        "vi": "Nếu mà cứ để tâm bận lòng vì những chuyện vụn vặt thế này thì không bao giờ trở thành người bao dung khoáng đạt được."
+      },
+      {
+        "ja": "③すぐに諦めるようじゃ、合格なんて到底できない。",
+        "vi": "Nếu mà cứ hễ gặp khó là bỏ cuộc ngay như thế thì tuyệt đối không thể nào thi đỗ được đâu."
+      }
     ]
   },
   {
@@ -1727,9 +2671,18 @@
     "meaning": "Mặc dù…nhưng…",
     "explanation": "• Vế sau thường là khác so với tưởng tượng/ thực tế. Lưu ý về những cụm cố định thường gặp",
     "examples": [
-      "①彼は「僕に任せて」と言いながら、仕事では全く役に立たなかった。",
-      "②突然褒められ、うれしいながらも恥ずかしい気持ちです。",
-      "③彼は新人でありながら、態度が良くないので注意をする。"
+      {
+        "ja": "①彼は「僕に任せて」と言いながら、仕事では全く役に立たなかった。",
+        "vi": "Anh ta miệng thì bảo 'Cứ giao cho tôi', thế mà trong công việc lại chẳng giúp ích được tích sự gì."
+      },
+      {
+        "ja": "②突然褒められ、うれしいながらも恥ずかしい気持ちです。",
+        "vi": "Đột nhiên được khen ngợi, tuy trong lòng thấy rất vui nhưng tôi cũng cảm thấy ngượng ngùng vô cùng."
+      },
+      {
+        "ja": "③彼は新人でありながら、態度が良くないので注意をする。",
+        "vi": "Cậu ta tuy là ma mới nhưng thái độ làm việc lại không tốt, nên tôi phải lên tiếng nhắc nhở."
+      }
     ]
   },
   {
@@ -1744,12 +2697,30 @@
     "meaning": "Vừa…vừa…",
     "explanation": "①V つつ、…＝V ながら、… : Vừa…vừa…\n• Vừa làm V1, vừa làm V2\n• V1 là hành động phụ, V2 là hành động chính\n• Giống ながら nhưng là cách nói văn viết hơn và chỉ đi với động từ\n②V つつ、…＝V ているが／けれども、… : Mặc dù\n• Mặc dù…nhưng…\n• Vế sau là những điều ngược lại, câu nói thường chứa cảm xúc hối hận, tự thú về những điều đã\nlàm\n• Thường đi với: 知りつつ、思いつつ、言いつつ、感じつつ\n• Có thể nói bằng V つつも",
     "examples": [
-      "①煙草は健康に良くないと分かりつつ、禁煙する事ができない。",
-      "②彼らに話しかけようと思いつつ、いつも話しかけられない。",
-      "③進路は家族と相談しつつ、決めていくと担任の先生に話をした。",
-      "④子どもが生まれてから仕事をしつつ、家計を支える。",
-      "⑤効果を疑いつつも、購入したサプリメントを飲む。",
-      "⑥書類の提出期限が明日と分かりつつも、昼寝をしてしまった。"
+      {
+        "ja": "①煙草は健康に良くないと分かりつつ、禁煙する事ができない。",
+        "vi": "Dù biết rõ hút thuốc lá rất có hại cho sức khỏe, thế nhưng tôi vẫn không tài nào cai được."
+      },
+      {
+        "ja": "②彼らに話しかけようと思いつつ、いつも話しかけられない。",
+        "vi": "Bụng thì nghĩ muốn bắt chuyện với họ, thế mà lần nào cũng chẳng thể mở lời được."
+      },
+      {
+        "ja": "③進路は家族と相談しつつ、決めていくと担任の先生に話をした。",
+        "vi": "Tôi đã trao đổi với giáo viên chủ nhiệm rằng sẽ vừa bàn bạc với gia đình vừa từng bước quyết định hướng đi tương lai."
+      },
+      {
+        "ja": "④子どもが生まれてから仕事をしつつ、家計を支える。",
+        "vi": "Kể từ khi sinh con, tôi vừa tiếp tục đi làm vừa phụ giúp gánh vác kinh tế gia đình."
+      },
+      {
+        "ja": "⑤効果を疑いつつも、購入したサプリメントを飲む。",
+        "vi": "Dù trong lòng vẫn còn bán tín bán nghi về hiệu quả, tôi vẫn uống số thực phẩm chức năng đã mua."
+      },
+      {
+        "ja": "⑥書類の提出期限が明日と分かりつつも、昼寝をしてしまった。",
+        "vi": "Dù biết rõ hạn chót nộp giấy tờ là ngày mai, thế mà tôi lại lỡ lăn ra ngủ trưa mất."
+      }
     ]
   },
   {
@@ -1764,9 +2735,18 @@
     "meaning": "Mặc dù…／So với …thì…",
     "explanation": "• So với (điều được đề cập đến ở vế trước), thì điều được nhắc đến ở vế sau thì thường ngược lại,\nkhông giống với những gì có thể tưởng tượng được trước.\n• Lưu ý sự giống và khác đối với にしては",
     "examples": [
-      "①この仕事は大変なわりに給料が安いので、辞めようか悩んでいる。",
-      "②祖父は年齢のわりには、若い人の流行に詳しい。",
-      "③足を骨折したわりには、 まともに歩けている。"
+      {
+        "ja": "①この仕事は大変なわりに給料が安いので、辞めようか悩んでいる。",
+        "vi": "Công việc này so với độ vất vả thì lương lại quá bèo bọt, nên tôi đang đắn đo không biết có nên bỏ việc hay không."
+      },
+      {
+        "ja": "②祖父は年齢のわりには、若い人の流行に詳しい。",
+        "vi": "Ông tôi so với tuổi tác thì lại cực kỳ am hiểu về các trào lưu thịnh hành của giới trẻ."
+      },
+      {
+        "ja": "③足を骨折したわりには、 まともに歩けている。",
+        "vi": "So với một người vừa bị gãy chân thì anh ấy đi lại trông vẫn khá vững vàng đấy chứ."
+      }
     ]
   },
   {
@@ -1781,9 +2761,18 @@
     "meaning": "Ngược lại với…/ Một mặt thì…/ Mặt khác…",
     "explanation": "• Diễn tả 2 mặt trái ngược nhau hoặc nhiều mặt, nhiều khía cạnh song song nhau của 1 chủ thể",
     "examples": [
-      "①裕福に暮らせている一方、貧しい暮らしをしている人たちもいる。",
-      "②彼は音楽家である一方、画家としても活躍している。",
-      "③彼女は、日本語を教えている一方、 ベトナム語を勉強している。"
+      {
+        "ja": "①裕福に暮らせている一方、貧しい暮らしをしている人たちもいる。",
+        "vi": "Một mặt thì có những người sống cuộc đời giàu sang, nhưng mặt khác cũng có những mảnh đời sống trong nghèo khó."
+      },
+      {
+        "ja": "②彼は音楽家である一方、画家としても活躍している。",
+        "vi": "Anh ấy một mặt là một nhạc sĩ, mặt khác cũng hoạt động rất thành công với vai trò một họa sĩ."
+      },
+      {
+        "ja": "③彼女は、日本語を教えている一方、 ベトナム語を勉強している。",
+        "vi": "Cô ấy một mặt dạy tiếng Nhật, mặt khác cũng đang tự mình học thêm tiếng Việt."
+      }
     ]
   },
   {
@@ -1798,9 +2787,18 @@
     "meaning": "Càng ngày càng…/ Có xu hướng…",
     "explanation": "• Diễn tả sự thay đổi của 1 trạng thái theo 1 chiều hướng nào đó\n• 一方だdiễn tả cả trạng thái tốt + xấu\n• ばかりだdiễn tả cả trạng thái xấu, tiêu cực",
     "examples": [
-      "①薬を飲み休んでいるが、病状は悪くなるばかりだ。",
-      "②高校生になってから、娘の成績は下がる一方だ。",
-      "③最近 甘いものばかり食べているので、体重が増える一方だ。"
+      {
+        "ja": "①薬を飲み休んでいるが、病状は悪くなるばかりだ。",
+        "vi": "Tuy đã uống thuốc và nghỉ ngơi, nhưng bệnh tình chỉ có chiều hướng ngày một xấu đi."
+      },
+      {
+        "ja": "②高校生になってから、娘の成績は下がる一方だ。",
+        "vi": "Kể từ khi lên cấp ba, thành tích học tập của con gái tôi cứ tụt dốc không phanh."
+      },
+      {
+        "ja": "③最近 甘いものばかり食べているので、体重が増える一方だ。",
+        "vi": "Dạo này toàn ăn đồ ngọt nên cân nặng của tôi cứ tăng vùn vụt."
+      }
     ]
   },
   {
@@ -1815,9 +2813,18 @@
     "meaning": "Vừa mới… đã ngay lập tức…",
     "explanation": "• Nhấn mạnh vào sự việc gì đó đang thay đổi, tiến triển theo 1 chiều hướng nào đó => đi với động\ntừ thay đổi\n• Không thường sử dụng trong hội thoại hàng ngày",
     "examples": [
-      "①最初はやりたくなかったが、 最近はやる気がでつつある。",
-      "②環境により、人々の意識も変わりつつある。",
-      "③日本に観光に訪れる外国の方が、年々増えつつある。"
+      {
+        "ja": "①最初はやりたくなかったが、 最近はやる気がでつつある。",
+        "vi": "Ban đầu tôi chẳng muốn làm chút nào, nhưng dạo này động lực đang dần dần nảy nở."
+      },
+      {
+        "ja": "②環境により、人々の意識も変わりつつある。",
+        "vi": "Tùy theo hoàn cảnh môi trường, nhận thức của mọi người cũng đang dần dần thay đổi."
+      },
+      {
+        "ja": "③日本に観光に訪れる外国の方が、年々増えつつある。",
+        "vi": "Lượng du khách nước ngoài đến Nhật Bản du lịch đang dần tăng lên theo từng năm."
+      }
     ]
   },
   {
@@ -1832,9 +2839,18 @@
     "meaning": "Buộc phải, đành phải ~",
     "explanation": "• Vì có một sự tình, nguyên do nào đó mà đành phải, buộc phải làm mặc dù không muốn\n• Giống với ないわけにはいかない, nhưng cảm xúc không muốn làm mạnh hơn",
     "examples": [
-      "①急な用事が入ったため、夜の飲み会は断らざるをえない。",
-      "②性格に難があるとしても、仕事ができるので彼の実力を認めざるをえない。",
-      "③明日は、大事な試験なので、徹夜してでも勉強せざるをえない。"
+      {
+        "ja": "①急な用事が入ったため、夜の飲み会は断らざるをえない。",
+        "vi": "Vì đột xuất có việc bận nên buổi nhậu tối nay tôi đành phải từ chối."
+      },
+      {
+        "ja": "②性格に難があるとしても、仕事ができるので彼の実力を認めざるをえない。",
+        "vi": "Cho dù tính cách có chút khó ưa, nhưng vì làm việc rất giỏi nên buộc lòng phải công nhận thực lực của anh ấy."
+      },
+      {
+        "ja": "③明日は、大事な試験なので、徹夜してでも勉強せざるをえない。",
+        "vi": "Ngày mai là kỳ thi quan trọng rồi nên dù có phải thức trắng đêm thì tôi cũng buộc phải ngồi học thôi."
+      }
     ]
   },
   {
@@ -1849,9 +2865,18 @@
     "meaning": "Không thể nào mà lại …/ Buộc phải…",
     "explanation": "• Vì có một lí do, sự tình/ xuất phát từ quan niệm, suy nghĩ, tiêu chuẩn xã hội ⇒ mà không thể/\nbuộc phải làm gì đó\n• Không dùng với lí do năng lực cá nhân",
     "examples": [
-      "①祖父からの大事な形見なので、誰にも譲るわけにはいかない。",
-      "②今日はバイクで出勤したので、帰りにお酒を飲むわけにはいかない。",
-      "③テストが控えているから、勉強をしないわけにはいかない。"
+      {
+        "ja": "①祖父からの大事な形見なので、誰にも譲るわけにはいかない。",
+        "vi": "Đây là kỷ vật quý giá của ông nội để lại nên tôi tuyệt đối không thể nào nhường lại cho bất kỳ ai được."
+      },
+      {
+        "ja": "②今日はバイクで出勤したので、帰りにお酒を飲むわけにはいかない。",
+        "vi": "Hôm nay tôi đi làm bằng xe máy nên lúc về không thể nào uống rượu bia được."
+      },
+      {
+        "ja": "③テストが控えているから、勉強をしないわけにはいかない。",
+        "vi": "Kỳ thi đang cận kề trước mắt rồi nên tôi không thể nào không học hành được."
+      }
     ]
   },
   {
@@ -1866,9 +2891,18 @@
     "meaning": "Chỉ còn cách...",
     "explanation": "• Diễn tả ý nghĩa trong một tình huống khó khăn, không có cách giải quyết ngoài cách làm như\nthế.\n• Cũng có cách nói khác là～よりほかにない、～よりほかはない",
     "examples": [
-      "① 留学中は一人暮らしだから、家のことは何でも自分でやるほかない。",
-      "② 買い物のしすぎでお金が無くなってしまった。友達の助けを借りるほかない。",
-      "③ 試験に合格したいなら死ぬ気で勉強するよりほかないよ。"
+      {
+        "ja": "① 留学中は一人暮らしだから、家のことは何でも自分でやるほかない。",
+        "vi": "Trong thời gian du học vì sống một mình nên việc nhà việc cửa gì cũng chỉ còn cách tự thân vận động làm lấy."
+      },
+      {
+        "ja": "② 買い物のしすぎでお金が無くなってしまった。友達の助けを借りるほかない。",
+        "vi": "Mua sắm quá đà khiến tôi cháy túi sạch tiền, giờ chẳng còn cách nào khác ngoài việc nhờ bạn bè giúp đỡ."
+      },
+      {
+        "ja": "③ 試験に合格したいなら死ぬ気で勉強するよりほかないよ。",
+        "vi": "Nếu muốn thi đỗ kỳ thi thì chỉ còn mỗi cách là dốc hết sức bình sinh ra mà cày cuốc thôi."
+      }
     ]
   },
   {
@@ -1883,9 +2917,18 @@
     "meaning": "Kêu gọi",
     "explanation": "• Biểu thị mạnh mẽ ý chí của người nói, hoặc để hô hào, kêu gọi người nghe cùng thực hiện hành\nđộng nào đó.",
     "examples": [
-      "① 今のままでは何も決まらない。一度じっくり話し合ってみようではないか。",
-      "② 我々はもう仲間なのだ、一緒に乾杯しようではないか。",
-      "③ さあみんな、あの政治家に投票して社会を変えようではないか。"
+      {
+        "ja": "① 今のままでは何も決まらない。一度じっくり話し合ってみようではないか。",
+        "vi": "Cứ giữ nguyên thế này thì chẳng quyết định được gì đâu. Chúng ta hãy cùng nhau ngồi lại bàn bạc một lần cho thật kỹ càng nào!"
+      },
+      {
+        "ja": "② 我々はもう仲間なのだ、一緒に乾杯しようではないか。",
+        "vi": "Giờ chúng ta đã là những người anh em chiến hữu rồi, hãy cùng nhau nâng ly cạn chén nào!"
+      },
+      {
+        "ja": "③ さあみんな、あの政治家に投票して社会を変えようではないか。",
+        "vi": "Nào mọi người, hãy cùng nhau bỏ phiếu cho chính trị gia đó để thay đổi xã hội nào!"
+      }
     ]
   },
   {
@@ -1900,9 +2943,18 @@
     "meaning": "Chắc chắn là…/ Chỉ có thể là…/ Không gì khác ngoài…",
     "explanation": "• Đưa ra kết luận, khẳng định mạnh mẽ chắc chắn là như vậy",
     "examples": [
-      "①決めたことを投げ出すなんて、無責任にほかならない。",
-      "②JLPT に合格できたのは、彼の努力の成果にほかならない。",
-      "③せっかくの結婚式が延期になったのは不運にほかならない。"
+      {
+        "ja": "①決めたことを投げ出すなんて、無責任にほかならない。",
+        "vi": "Việc đã quyết định rồi mà lại bỏ dở giữa chừng thì không gì khác ngoài sự vô trách nhiệm."
+      },
+      {
+        "ja": "②JLPT に合格できたのは、彼の努力の成果にほかならない。",
+        "vi": "Việc anh ấy thi đỗ kỳ thi JLPT chính là thành quả từ sự nỗ lực không ngừng nghỉ của bản thân anh ấy."
+      },
+      {
+        "ja": "③せっかくの結婚式が延期になったのは不運にほかならない。",
+        "vi": "Đám cưới dày công chuẩn bị lại phải hoãn lại thì đúng là không gì khác ngoài sự thiếu may mắn."
+      }
     ]
   },
   {
@@ -1917,9 +2969,18 @@
     "meaning": "Không thể nào mà… thêm nữa",
     "explanation": "• Vì có một sự tình, nguyên do nào đó nên không thể nào mà như thế này thêm nữa vì như thế\nlà không được.\n• Văn nói: ちゃいられない",
     "examples": [
-      "①試験も近いので、遊んではいられません。",
-      "②人々が苦しむ姿を見てはいられません。",
-      "③まだ子どもだからって、いつまでも親に頼ってはいられません。"
+      {
+        "ja": "①試験も近いので、遊んではいられません。",
+        "vi": "Kỳ thi sắp đến gần rồi nên tôi không thể nào cứ tiếp tục chơi bời được nữa."
+      },
+      {
+        "ja": "②人々が苦しむ姿を見てはいられません。",
+        "vi": "Tôi không thể nào khoanh tay đứng nhìn cảnh người dân phải chịu khổ sở như thế được."
+      },
+      {
+        "ja": "③まだ子どもだからって、いつまでも親に頼ってはいられません。",
+        "vi": "Dù bảo là vẫn còn trẻ nhưng tôi không thể nào cứ mãi ỷ lại dựa dẫm vào cha mẹ được nữa."
+      }
     ]
   }
 ]
