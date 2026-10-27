@@ -7,7 +7,7 @@ import {
   Clock, ArrowUpRight
 } from 'lucide-react';
 
-const STORAGE_KEY = 'jmaster_sprint_progress_v1';
+const STORAGE_KEY = 'jmaster_sprint_progress_40d';
 
 export const SprintRoadmapScreen: React.FC = () => {
   const { 
@@ -44,7 +44,7 @@ export const SprintRoadmapScreen: React.FC = () => {
   };
 
   const handleResetProgress = () => {
-    if (window.confirm('Bạn có chắc muốn đặt lại toàn bộ tiến độ lộ trình 53 ngày không?')) {
+    if (window.confirm('Bạn có chắc muốn đặt lại toàn bộ tiến độ lộ trình 40 ngày không?')) {
       setCompletedDays([]);
     }
   };
@@ -57,7 +57,7 @@ export const SprintRoadmapScreen: React.FC = () => {
       return;
     }
     // Find lesson in loaded lessons
-    const found = lessons.find((l) => l.lesson_id === lessonId);
+    const found = lessons.find((l) => l.lesson_id === lessonId || l.lesson_id === lessonId.replace('lesson_', ''));
     if (found) {
       setCurrentLessonId(found.lesson_id);
       setActiveModule('vocab');
@@ -113,10 +113,10 @@ export const SprintRoadmapScreen: React.FC = () => {
                 <span>Mục tiêu: 95 – 100 Điểm N2</span>
               </div>
               <h1 className="text-xl sm:text-2xl font-black flex items-center gap-2">
-                Lộ Trình Tác Chiến 53 Ngày Đỗ N2
+                Lộ Trình Tác Chiến 40 Ngày Đỗ N2
               </h1>
               <p className="text-xs sm:text-sm text-blue-100 mt-1">
-                Kế hoạch từng ngày thực chiến — Đánh dấu hoàn thành để kiểm soát nhịp độ thi đấu.
+                Kế hoạch nước rút 40 ngày — Tiếp nối từ Từ vựng 7.1 & Ngữ pháp Chương 7.
               </p>
             </div>
 
@@ -180,7 +180,7 @@ export const SprintRoadmapScreen: React.FC = () => {
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
-              Tất cả (53)
+              Tất cả (40)
             </button>
             <button
               onClick={() => setActivePhaseFilter(1)}
@@ -190,7 +190,7 @@ export const SprintRoadmapScreen: React.FC = () => {
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
-              GĐ 1: Nạp Tốc Hành (D1-D20)
+              GĐ 1: Nền Tảng (D1-D14)
             </button>
             <button
               onClick={() => setActivePhaseFilter(2)}
@@ -200,7 +200,7 @@ export const SprintRoadmapScreen: React.FC = () => {
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
-              GĐ 2: Power Drill (D21-D40)
+              GĐ 2: Power Drill (D15-D28)
             </button>
             <button
               onClick={() => setActivePhaseFilter(3)}
@@ -210,7 +210,7 @@ export const SprintRoadmapScreen: React.FC = () => {
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
-              GĐ 3: Đề Thi Thật (D41-D53)
+              GĐ 3: Đề Thi Thật (D29-D40)
             </button>
           </div>
 

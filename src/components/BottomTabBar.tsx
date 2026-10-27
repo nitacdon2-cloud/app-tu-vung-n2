@@ -125,7 +125,7 @@ export const BottomTabBar: React.FC = () => {
           <div className="relative">
             <Target className={`w-5 h-5 transition-transform ${isRoadmap ? 'stroke-[2.5] scale-110' : 'stroke-[1.8]'}`} />
             <span className="absolute -top-1.5 -right-3 px-1 py-0.2 bg-rose-500 text-white text-[9px] font-black rounded-full leading-tight shadow-xs">
-              53N
+              40N
             </span>
             {isRoadmap && (
               <span className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-rose-500" />

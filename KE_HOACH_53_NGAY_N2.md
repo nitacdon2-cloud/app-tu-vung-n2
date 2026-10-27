@@ -1,8 +1,10 @@
 # 🎯 LỘ TRÌNH TÁC CHIẾN 53 NGÀY ĐỖ JLPT N2 BẰNG MỌI GIÁ
 
-> **Tài liệu chiến lược độc quyền dành cho bạn**  
-> *Được lưu trữ vĩnh viễn tại thư mục dự án:* [`KE_HOACH_53_NGAY_N2.md`](file:///c:/Users/k.trinh.minh.trai/Documents/YouTube/appJmaster/KE_HOACH_53_NGAY_N2.md)  
-> *Bạn có thể bấm vào ô `[ ]` để tích `[x]` đánh dấu tiến độ mỗi ngày!*
+> [!IMPORTANT]
+> **ĐÃ CẬP NHẬT LỘ TRÌNH 40 NGÀY MỚI NHẤT!**  
+> Lộ trình tác chiến đã được tái cấu trúc chính xác theo mốc hiện tại của bạn: **Từ vựng 7.1** và **Ngữ pháp Chương 7** với **40 ngày còn lại**.  
+> 👉 Xem tài liệu mới nhất tại: [`KE_HOACH_40_NGAY_N2.md`](file:///c:/Users/k.trinh.minh.trai/Documents/YouTube/appJmaster/KE_HOACH_40_NGAY_N2.md)  
+> 👉 Hoặc mở tab **"Lộ trình 40 ngày"** trực tiếp trên App web `appJmaster`!
 
 ---
 

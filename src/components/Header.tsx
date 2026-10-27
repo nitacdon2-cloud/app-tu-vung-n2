@@ -138,7 +138,7 @@ export const Header: React.FC = () => {
                 )}
                 {isRoadmapMode && (
                   <span className="px-2 py-0.5 rounded-md text-[10px] font-black bg-rose-400 text-white uppercase flex-shrink-0">
-                    53 Ngày
+                    40 Ngày
                   </span>
                 )}
               </div>
